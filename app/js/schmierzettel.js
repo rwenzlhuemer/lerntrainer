@@ -1,10 +1,11 @@
-// Schmierzettel: Zeichenfläche für Apple Pencil (und Finger, solange kein Stift benutzt wurde).
+// Schmierzettel: Zeichenfläche für Apple Pencil und Maus. Finger/Handballen zeichnen nur, wenn eingeschaltet.
 // Wird nicht ausgewertet – nur zum Rechnen wie auf Papier.
 
 export function schmierzettel(behaelter) {
   behaelter.innerHTML = `
     <div class="sz-leiste">
       <span class="sz-titel">Schmierzettel</span>
+      <button type="button" class="knopf klein" data-sz="finger" aria-pressed="false">✋ Finger: aus</button>
       <button type="button" class="knopf klein" data-sz="zurueck">↶ Zurück</button>
       <button type="button" class="knopf klein" data-sz="leeren">Leeren</button>
     </div>
@@ -13,7 +14,7 @@ export function schmierzettel(behaelter) {
   const ctx = canvas.getContext("2d");
   const striche = [];
   let aktuell = null;
-  let stiftGesehen = false;
+  let fingerErlaubt = false;
 
   function groesse() {
     const r = canvas.getBoundingClientRect();
@@ -58,8 +59,7 @@ export function schmierzettel(behaelter) {
   }
 
   canvas.addEventListener("pointerdown", (e) => {
-    if (e.pointerType === "pen") stiftGesehen = true;
-    if (stiftGesehen && e.pointerType === "touch") return; // Handballen ignorieren
+    if (e.pointerType === "touch" && !fingerErlaubt) return; // Hand liegt beim Schreiben auf
     e.preventDefault();
     canvas.setPointerCapture(e.pointerId);
     aktuell = { punkte: [punkt(e)], dicke: e.pointerType === "pen" ? 2.2 : 3 };
@@ -88,6 +88,11 @@ export function schmierzettel(behaelter) {
     const was = e.target.closest("[data-sz]")?.dataset.sz;
     if (was === "zurueck") { striche.pop(); zeichneAlles(); }
     if (was === "leeren") { striche.length = 0; zeichneAlles(); }
+    if (was === "finger") {
+      fingerErlaubt = !fingerErlaubt;
+      e.target.setAttribute("aria-pressed", String(fingerErlaubt));
+      e.target.textContent = `✋ Finger: ${fingerErlaubt ? "an" : "aus"}`;
+    }
   });
 
   new ResizeObserver(groesse).observe(canvas);
