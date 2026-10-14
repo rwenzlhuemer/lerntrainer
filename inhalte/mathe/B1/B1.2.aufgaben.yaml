@@ -3,502 +3,738 @@
 - id: B1.2-001
   typ: gleichung
   stufe: 1
-  gleichung: x + 11 = 19
-  loesung: '8'
-  anzeige: '8'
+  gleichung: 6 + x = 4
+  loesung: '-2'
+  anzeige: '-2'
   weg:
-  - x + 11 = 19
-  - x = 8 | −11
+  - 6 + x = 4
+  - x = -2 | −6
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 11. Das Gegenteil davon ist − 11.
-  - Rechne auf beiden Seiten − 11. Dann steht x allein da.
+  - Bei x steht + `6`. Das Gegenteil davon ist − `6`.
+  - Rechne auf beiden Seiten − `6`.
   fehler:
-  - antwort: '30'
-    hinweis: 'Da wurde vermutlich + 11 gerechnet statt − 11. Um + 11 wegzubringen, brauchst du das Gegenteil: − 11.'
-  - antwort: '-8'
+  - antwort: '10'
+    hinweis: 'Da wurde + 6 gerechnet statt − 6. Um + 6 wegzubringen, brauchst du das Gegenteil: − 6.'
+  - antwort: '2'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-002
   typ: gleichung
   stufe: 1
-  gleichung: x + 12 = 25
-  loesung: '13'
-  anzeige: '13'
+  gleichung: -9 + x = -5
+  loesung: '4'
+  anzeige: '4'
   weg:
-  - x + 12 = 25
-  - x = 13 | −12
+  - -9 + x = -5
+  - x = 4 | +9
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 12. Das Gegenteil davon ist − 12.
-  - Rechne auf beiden Seiten − 12. Dann steht x allein da.
+  - Bei x steht − `9`. Das Gegenteil davon ist + `9`.
+  - Rechne auf beiden Seiten + `9`.
   fehler:
-  - antwort: '37'
-    hinweis: 'Da wurde vermutlich + 12 gerechnet statt − 12. Um + 12 wegzubringen, brauchst du das Gegenteil: − 12.'
-  - antwort: '-13'
+  - antwort: '-14'
+    hinweis: 'Da wurde − 9 gerechnet statt + 9. Um − 9 wegzubringen, brauchst du das Gegenteil: + 9.'
+  - antwort: '-4'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-003
   typ: gleichung
   stufe: 1
-  gleichung: x + 1 = 15
-  loesung: '14'
-  anzeige: '14'
+  gleichung: -6 = x - 8
+  loesung: '2'
+  anzeige: '2'
   weg:
-  - x + 1 = 15
-  - x = 14 | −1
+  - -6 = x - 8
+  - x = 2 | +8
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 1. Das Gegenteil davon ist − 1.
-  - Rechne auf beiden Seiten − 1. Dann steht x allein da.
+  - Bei x steht − `8`. Das Gegenteil davon ist + `8`.
+  - Rechne auf beiden Seiten + `8`.
   fehler:
-  - antwort: '16'
-    hinweis: 'Da wurde vermutlich + 1 gerechnet statt − 1. Um + 1 wegzubringen, brauchst du das Gegenteil: − 1.'
   - antwort: '-14'
+    hinweis: 'Da wurde − 8 gerechnet statt + 8. Um − 8 wegzubringen, brauchst du das Gegenteil: + 8.'
+  - antwort: '-2'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-004
   typ: gleichung
   stufe: 1
-  gleichung: x + 12 = 20
-  loesung: '8'
-  anzeige: '8'
+  gleichung: -6 = x - 9
+  loesung: '3'
+  anzeige: '3'
   weg:
-  - x + 12 = 20
-  - x = 8 | −12
+  - -6 = x - 9
+  - x = 3 | +9
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 12. Das Gegenteil davon ist − 12.
-  - Rechne auf beiden Seiten − 12. Dann steht x allein da.
+  - Bei x steht − `9`. Das Gegenteil davon ist + `9`.
+  - Rechne auf beiden Seiten + `9`.
   fehler:
-  - antwort: '32'
-    hinweis: 'Da wurde vermutlich + 12 gerechnet statt − 12. Um + 12 wegzubringen, brauchst du das Gegenteil: − 12.'
-  - antwort: '-8'
+  - antwort: '-15'
+    hinweis: 'Da wurde − 9 gerechnet statt + 9. Um − 9 wegzubringen, brauchst du das Gegenteil: + 9.'
+  - antwort: '-3'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-005
   typ: gleichung
   stufe: 1
-  gleichung: x + 5 = 13
-  loesung: '8'
-  anzeige: '8'
+  gleichung: x + 11 = -2
+  loesung: '-13'
+  anzeige: '-13'
   weg:
-  - x + 5 = 13
-  - x = 8 | −5
+  - x + 11 = -2
+  - x = -13 | −11
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 5. Das Gegenteil davon ist − 5.
-  - Rechne auf beiden Seiten − 5. Dann steht x allein da.
+  - Bei x steht + `11`. Das Gegenteil davon ist − `11`.
+  - Rechne auf beiden Seiten − `11`.
   fehler:
-  - antwort: '18'
-    hinweis: 'Da wurde vermutlich + 5 gerechnet statt − 5. Um + 5 wegzubringen, brauchst du das Gegenteil: − 5.'
-  - antwort: '-8'
+  - antwort: '9'
+    hinweis: 'Da wurde + 11 gerechnet statt − 11. Um + 11 wegzubringen, brauchst du das Gegenteil: − 11.'
+  - antwort: '13'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-006
   typ: gleichung
   stufe: 1
-  gleichung: x + 4 = 9
-  loesung: '5'
-  anzeige: '5'
+  gleichung: -4 = x + 11
+  loesung: '-15'
+  anzeige: '-15'
   weg:
-  - x + 4 = 9
-  - x = 5 | −4
+  - -4 = x + 11
+  - x = -15 | −11
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 4. Das Gegenteil davon ist − 4.
-  - Rechne auf beiden Seiten − 4. Dann steht x allein da.
+  - Bei x steht + `11`. Das Gegenteil davon ist − `11`.
+  - Rechne auf beiden Seiten − `11`.
   fehler:
-  - antwort: '13'
-    hinweis: 'Da wurde vermutlich + 4 gerechnet statt − 4. Um + 4 wegzubringen, brauchst du das Gegenteil: − 4.'
-  - antwort: '-5'
+  - antwort: '7'
+    hinweis: 'Da wurde + 11 gerechnet statt − 11. Um + 11 wegzubringen, brauchst du das Gegenteil: − 11.'
+  - antwort: '15'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-007
   typ: gleichung
   stufe: 1
-  gleichung: x + 5 = 19
-  loesung: '14'
-  anzeige: '14'
+  gleichung: -4 = x + 6
+  loesung: '-10'
+  anzeige: '-10'
   weg:
-  - x + 5 = 19
-  - x = 14 | −5
+  - -4 = x + 6
+  - x = -10 | −6
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 5. Das Gegenteil davon ist − 5.
-  - Rechne auf beiden Seiten − 5. Dann steht x allein da.
+  - Bei x steht + `6`. Das Gegenteil davon ist − `6`.
+  - Rechne auf beiden Seiten − `6`.
   fehler:
-  - antwort: '24'
-    hinweis: 'Da wurde vermutlich + 5 gerechnet statt − 5. Um + 5 wegzubringen, brauchst du das Gegenteil: − 5.'
-  - antwort: '-14'
+  - antwort: '2'
+    hinweis: 'Da wurde + 6 gerechnet statt − 6. Um + 6 wegzubringen, brauchst du das Gegenteil: − 6.'
+  - antwort: '10'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-008
   typ: gleichung
   stufe: 1
-  gleichung: x + 7 = 9
-  loesung: '2'
-  anzeige: '2'
+  gleichung: -12 + x = -22
+  loesung: '-10'
+  anzeige: '-10'
   weg:
-  - x + 7 = 9
-  - x = 2 | −7
+  - -12 + x = -22
+  - x = -10 | +12
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 7. Das Gegenteil davon ist − 7.
-  - Rechne auf beiden Seiten − 7. Dann steht x allein da.
+  - Bei x steht − `12`. Das Gegenteil davon ist + `12`.
+  - Rechne auf beiden Seiten + `12`.
   fehler:
-  - antwort: '16'
-    hinweis: 'Da wurde vermutlich + 7 gerechnet statt − 7. Um + 7 wegzubringen, brauchst du das Gegenteil: − 7.'
-  - antwort: '-2'
+  - antwort: '-34'
+    hinweis: 'Da wurde − 12 gerechnet statt + 12. Um − 12 wegzubringen, brauchst du das Gegenteil: + 12.'
+  - antwort: '10'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-009
   typ: gleichung
   stufe: 1
-  gleichung: x + 6 = 14
-  loesung: '8'
-  anzeige: '8'
+  gleichung: -29 = x - 15
+  loesung: '-14'
+  anzeige: '-14'
   weg:
-  - x + 6 = 14
-  - x = 8 | −6
+  - -29 = x - 15
+  - x = -14 | +15
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 6. Das Gegenteil davon ist − 6.
-  - Rechne auf beiden Seiten − 6. Dann steht x allein da.
+  - Bei x steht − `15`. Das Gegenteil davon ist + `15`.
+  - Rechne auf beiden Seiten + `15`.
   fehler:
-  - antwort: '20'
-    hinweis: 'Da wurde vermutlich + 6 gerechnet statt − 6. Um + 6 wegzubringen, brauchst du das Gegenteil: − 6.'
-  - antwort: '-8'
+  - antwort: '-44'
+    hinweis: 'Da wurde − 15 gerechnet statt + 15. Um − 15 wegzubringen, brauchst du das Gegenteil: + 15.'
+  - antwort: '14'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-010
   typ: gleichung
   stufe: 1
-  gleichung: x + 10 = 16
-  loesung: '6'
-  anzeige: '6'
+  gleichung: 5 = x - 8
+  loesung: '13'
+  anzeige: '13'
   weg:
-  - x + 10 = 16
-  - x = 6 | −10
+  - 5 = x - 8
+  - x = 13 | +8
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 10. Das Gegenteil davon ist − 10.
-  - Rechne auf beiden Seiten − 10. Dann steht x allein da.
+  - Bei x steht − `8`. Das Gegenteil davon ist + `8`.
+  - Rechne auf beiden Seiten + `8`.
   fehler:
-  - antwort: '26'
-    hinweis: 'Da wurde vermutlich + 10 gerechnet statt − 10. Um + 10 wegzubringen, brauchst du das Gegenteil: − 10.'
-  - antwort: '-6'
+  - antwort: '-3'
+    hinweis: 'Da wurde − 8 gerechnet statt + 8. Um − 8 wegzubringen, brauchst du das Gegenteil: + 8.'
+  - antwort: '-13'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-011
   typ: gleichung
   stufe: 2
-  gleichung: 1 + x = -7
-  loesung: '-8'
-  anzeige: '-8'
+  gleichung: x + 8 = -1,5
+  loesung: -19/2
+  anzeige: -19/2 = -9,5
   weg:
-  - 1 + x = -7
-  - x = -8 | −1
+  - x + 8 = -1,5
+  - x = -9,5 | −8
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 1. Das Gegenteil davon ist − 1.
-  - Rechne auf beiden Seiten − 1. Dann steht x allein da.
+  - Bei x steht + `8`. Das Gegenteil davon ist − `8`.
+  - Rechne auf beiden Seiten − `8`.
   fehler:
-  - antwort: '-6'
-    hinweis: 'Da wurde vermutlich + 1 gerechnet statt − 1. Um + 1 wegzubringen, brauchst du das Gegenteil: − 1.'
-  - antwort: '8'
+  - antwort: 13/2
+    hinweis: 'Da wurde + 8 gerechnet statt − 8. Um + 8 wegzubringen, brauchst du das Gegenteil: − 8.'
+  - antwort: 19/2
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-012
   typ: gleichung
   stufe: 2
-  gleichung: -3 + x = 0
-  loesung: '3'
-  anzeige: '3'
+  gleichung: 6,9 = x + 2,9
+  loesung: '4'
+  anzeige: '4'
   weg:
-  - -3 + x = 0
-  - x = 3 | +3
+  - 6,9 = x + 2,9
+  - x = 4 | −2,9
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 3. Das Gegenteil davon ist + 3.
-  - Rechne auf beiden Seiten + 3. Dann steht x allein da.
+  - Bei x steht + `2,9`. Das Gegenteil davon ist − `2,9`.
+  - Rechne auf beiden Seiten − `2,9`.
   fehler:
-  - antwort: '-3'
-    hinweis: 'Da wurde vermutlich − 3 gerechnet statt + 3. Um − 3 wegzubringen, brauchst du das Gegenteil: + 3.'
+  - antwort: 49/5
+    hinweis: 'Da wurde + 2,9 gerechnet statt − 2,9. Um + 2,9 wegzubringen, brauchst du das Gegenteil: − 2,9.'
+  - antwort: '-4'
+    hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-013
   typ: gleichung
   stufe: 2
-  gleichung: x + 7 = 10
-  loesung: '3'
-  anzeige: '3'
+  gleichung: -3,7 + x = -1,5
+  loesung: 11/5
+  anzeige: 11/5 = 2,2
   weg:
-  - x + 7 = 10
-  - x = 3 | −7
+  - -3,7 + x = -1,5
+  - x = 2,2 | +3,7
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 7. Das Gegenteil davon ist − 7.
-  - Rechne auf beiden Seiten − 7. Dann steht x allein da.
+  - Bei x steht − `3,7`. Das Gegenteil davon ist + `3,7`.
+  - Rechne auf beiden Seiten + `3,7`.
   fehler:
-  - antwort: '17'
-    hinweis: 'Da wurde vermutlich + 7 gerechnet statt − 7. Um + 7 wegzubringen, brauchst du das Gegenteil: − 7.'
-  - antwort: '-3'
+  - antwort: -26/5
+    hinweis: 'Da wurde − 3,7 gerechnet statt + 3,7. Um − 3,7 wegzubringen, brauchst du das Gegenteil: + 3,7.'
+  - antwort: -11/5
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-014
   typ: gleichung
   stufe: 2
-  gleichung: -3 + x = -2
-  loesung: '1'
-  anzeige: '1'
+  gleichung: -5,5 + x = -2,3
+  loesung: 16/5
+  anzeige: 16/5 = 3,2
   weg:
-  - -3 + x = -2
-  - x = 1 | +3
+  - -5,5 + x = -2,3
+  - x = 3,2 | +5,5
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 3. Das Gegenteil davon ist + 3.
-  - Rechne auf beiden Seiten + 3. Dann steht x allein da.
+  - Bei x steht − `5,5`. Das Gegenteil davon ist + `5,5`.
+  - Rechne auf beiden Seiten + `5,5`.
   fehler:
-  - antwort: '-5'
-    hinweis: 'Da wurde vermutlich − 3 gerechnet statt + 3. Um − 3 wegzubringen, brauchst du das Gegenteil: + 3.'
-  - antwort: '-1'
+  - antwort: -39/5
+    hinweis: 'Da wurde − 5,5 gerechnet statt + 5,5. Um − 5,5 wegzubringen, brauchst du das Gegenteil: + 5,5.'
+  - antwort: -16/5
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-015
   typ: gleichung
   stufe: 2
-  gleichung: x - 9 = 6
-  loesung: '15'
-  anzeige: '15'
+  gleichung: -6 + x = 3
+  loesung: '9'
+  anzeige: '9'
   weg:
-  - x - 9 = 6
-  - x = 15 | +9
+  - -6 + x = 3
+  - x = 9 | +6
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 9. Das Gegenteil davon ist + 9.
-  - Rechne auf beiden Seiten + 9. Dann steht x allein da.
+  - Bei x steht − `6`. Das Gegenteil davon ist + `6`.
+  - Rechne auf beiden Seiten + `6`.
   fehler:
   - antwort: '-3'
-    hinweis: 'Da wurde vermutlich − 9 gerechnet statt + 9. Um − 9 wegzubringen, brauchst du das Gegenteil: + 9.'
-  - antwort: '-15'
+    hinweis: 'Da wurde − 6 gerechnet statt + 6. Um − 6 wegzubringen, brauchst du das Gegenteil: + 6.'
+  - antwort: '-9'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-016
   typ: gleichung
   stufe: 2
-  gleichung: 8 = x + 6
-  loesung: '2'
-  anzeige: '2'
+  gleichung: -2,6 + x = 0
+  loesung: 13/5
+  anzeige: 13/5 = 2,6
   weg:
-  - 8 = x + 6
-  - x = 2 | −6
+  - -2,6 + x = 0
+  - x = 2,6 | +2,6
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 6. Das Gegenteil davon ist − 6.
-  - Rechne auf beiden Seiten − 6. Dann steht x allein da.
+  - Bei x steht − `2,6`. Das Gegenteil davon ist + `2,6`.
+  - Rechne auf beiden Seiten + `2,6`.
   fehler:
-  - antwort: '14'
-    hinweis: 'Da wurde vermutlich + 6 gerechnet statt − 6. Um + 6 wegzubringen, brauchst du das Gegenteil: − 6.'
-  - antwort: '-2'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen.
+  - antwort: -13/5
+    hinweis: 'Da wurde − 2,6 gerechnet statt + 2,6. Um − 2,6 wegzubringen, brauchst du das Gegenteil: + 2,6.'
 - id: B1.2-017
   typ: gleichung
   stufe: 2
-  gleichung: x + 8 = 22
-  loesung: '14'
-  anzeige: '14'
+  gleichung: x + 8,9 = 3,9
+  loesung: '-5'
+  anzeige: '-5'
   weg:
-  - x + 8 = 22
-  - x = 14 | −8
+  - x + 8,9 = 3,9
+  - x = -5 | −8,9
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 8. Das Gegenteil davon ist − 8.
-  - Rechne auf beiden Seiten − 8. Dann steht x allein da.
+  - Bei x steht + `8,9`. Das Gegenteil davon ist − `8,9`.
+  - Rechne auf beiden Seiten − `8,9`.
   fehler:
-  - antwort: '30'
-    hinweis: 'Da wurde vermutlich + 8 gerechnet statt − 8. Um + 8 wegzubringen, brauchst du das Gegenteil: − 8.'
-  - antwort: '-14'
+  - antwort: 64/5
+    hinweis: 'Da wurde + 8,9 gerechnet statt − 8,9. Um + 8,9 wegzubringen, brauchst du das Gegenteil: − 8,9.'
+  - antwort: '5'
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-018
   typ: gleichung
   stufe: 2
-  gleichung: -6 + x = 6
-  loesung: '12'
-  anzeige: '12'
+  gleichung: -0,6 + x = -3,1
+  loesung: -5/2
+  anzeige: -5/2 = -2,5
   weg:
-  - -6 + x = 6
-  - x = 12 | +6
+  - -0,6 + x = -3,1
+  - x = -2,5 | +0,6
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 6. Das Gegenteil davon ist + 6.
-  - Rechne auf beiden Seiten + 6. Dann steht x allein da.
+  - Bei x steht − `0,6`. Das Gegenteil davon ist + `0,6`.
+  - Rechne auf beiden Seiten + `0,6`.
   fehler:
-  - antwort: '0'
-    hinweis: 'Da wurde vermutlich − 6 gerechnet statt + 6. Um − 6 wegzubringen, brauchst du das Gegenteil: + 6.'
-  - antwort: '-12'
+  - antwort: -37/10
+    hinweis: 'Da wurde − 0,6 gerechnet statt + 0,6. Um − 0,6 wegzubringen, brauchst du das Gegenteil: + 0,6.'
+  - antwort: 5/2
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-019
   typ: gleichung
   stufe: 2
-  gleichung: -8 + x = -19
-  loesung: '-11'
-  anzeige: '-11'
+  gleichung: -4,9 = x + 1,2
+  loesung: -61/10
+  anzeige: -61/10 = -6,1
   weg:
-  - -8 + x = -19
-  - x = -11 | +8
+  - -4,9 = x + 1,2
+  - x = -6,1 | −1,2
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 8. Das Gegenteil davon ist + 8.
-  - Rechne auf beiden Seiten + 8. Dann steht x allein da.
+  - Bei x steht + `1,2`. Das Gegenteil davon ist − `1,2`.
+  - Rechne auf beiden Seiten − `1,2`.
   fehler:
-  - antwort: '-27'
-    hinweis: 'Da wurde vermutlich − 8 gerechnet statt + 8. Um − 8 wegzubringen, brauchst du das Gegenteil: + 8.'
-  - antwort: '11'
+  - antwort: -37/10
+    hinweis: 'Da wurde + 1,2 gerechnet statt − 1,2. Um + 1,2 wegzubringen, brauchst du das Gegenteil: − 1,2.'
+  - antwort: 61/10
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-020
   typ: gleichung
   stufe: 2
-  gleichung: -4 + x = -6
-  loesung: '-2'
-  anzeige: '-2'
+  gleichung: -5,1 = x - 9
+  loesung: 39/10
+  anzeige: 39/10 = 3,9
   weg:
-  - -4 + x = -6
-  - x = -2 | +4
+  - -5,1 = x - 9
+  - x = 3,9 | +9
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 4. Das Gegenteil davon ist + 4.
-  - Rechne auf beiden Seiten + 4. Dann steht x allein da.
+  - Bei x steht − `9`. Das Gegenteil davon ist + `9`.
+  - Rechne auf beiden Seiten + `9`.
   fehler:
-  - antwort: '-10'
-    hinweis: 'Da wurde vermutlich − 4 gerechnet statt + 4. Um − 4 wegzubringen, brauchst du das Gegenteil: + 4.'
-  - antwort: '2'
+  - antwort: -141/10
+    hinweis: 'Da wurde − 9 gerechnet statt + 9. Um − 9 wegzubringen, brauchst du das Gegenteil: + 9.'
+  - antwort: -39/10
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-021
   typ: gleichung
   stufe: 3
-  gleichung: 8,5 + x = 3,5
-  loesung: '-5'
-  anzeige: '-5'
+  gleichung: x - 3/2 = -11/6
+  loesung: -1/3
+  anzeige: -1/3
   weg:
-  - 8,5 + x = 3,5
-  - x = -5 | −17/2
+  - x - 3/2 = -11/6
+  - x = -11/6 + 3/2 | +3/2
+  - x = -1/3 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 8,5. Das Gegenteil davon ist − 8,5.
-  - Rechne auf beiden Seiten − 8,5. Dann steht x allein da.
+  - Bei x steht − `3/2`. Das Gegenteil davon ist + `3/2`.
+  - Rechne auf beiden Seiten + `3/2`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: '12'
-    hinweis: 'Da wurde vermutlich + 8,5 gerechnet statt − 8,5. Um + 8,5 wegzubringen, brauchst du das Gegenteil: − 8,5.'
-  - antwort: '5'
+  - antwort: -10/3
+    hinweis: 'Da wurde − 3/2 gerechnet statt + 3/2. Um − 3/2 wegzubringen, brauchst du das Gegenteil: + 3/2.'
+  - antwort: 1/3
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-022
   typ: gleichung
   stufe: 3
-  gleichung: -13 + x = -9
-  loesung: '4'
-  anzeige: '4'
+  gleichung: 4/3 + x = 8/3
+  loesung: 4/3
+  anzeige: 4/3
   weg:
-  - -13 + x = -9
-  - x = 4 | +13
+  - 4/3 + x = 8/3
+  - x = 8/3 - 4/3 | −4/3
+  - x = 4/3 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 13. Das Gegenteil davon ist + 13.
-  - Rechne auf beiden Seiten + 13. Dann steht x allein da.
+  - Bei x steht + `4/3`. Das Gegenteil davon ist − `4/3`.
+  - Rechne auf beiden Seiten − `4/3`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: '-22'
-    hinweis: 'Da wurde vermutlich − 13 gerechnet statt + 13. Um − 13 wegzubringen, brauchst du das Gegenteil: + 13.'
-  - antwort: '-4'
+  - antwort: '4'
+    hinweis: 'Da wurde + 4/3 gerechnet statt − 4/3. Um + 4/3 wegzubringen, brauchst du das Gegenteil: − 4/3.'
+  - antwort: -4/3
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-023
   typ: gleichung
   stufe: 3
-  gleichung: -11,5 + x = 3,5
-  loesung: '15'
-  anzeige: '15'
+  gleichung: -43/12 = x - 7/4
+  loesung: -11/6
+  anzeige: -11/6
   weg:
-  - -11,5 + x = 3,5
-  - x = 15 | +23/2
+  - -43/12 = x - 7/4
+  - x = -43/12 + 7/4 | +7/4
+  - x = -11/6 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 11,5. Das Gegenteil davon ist + 11,5.
-  - Rechne auf beiden Seiten + 11,5. Dann steht x allein da.
+  - Bei x steht − `7/4`. Das Gegenteil davon ist + `7/4`.
+  - Rechne auf beiden Seiten + `7/4`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: '-8'
-    hinweis: 'Da wurde vermutlich − 11,5 gerechnet statt + 11,5. Um − 11,5 wegzubringen, brauchst du das Gegenteil: + 11,5.'
-  - antwort: '-15'
+  - antwort: -16/3
+    hinweis: 'Da wurde − 7/4 gerechnet statt + 7/4. Um − 7/4 wegzubringen, brauchst du das Gegenteil: + 7/4.'
+  - antwort: 11/6
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-024
   typ: gleichung
   stufe: 3
-  gleichung: x - 13,5 = -1
-  loesung: 25/2
-  anzeige: 25/2 = 12,5
+  gleichung: -7/6 + x = -2/3
+  loesung: 1/2
+  anzeige: 1/2 = 0,5
   weg:
-  - x - 13,5 = -1
-  - x = 12,5 | +27/2
+  - -7/6 + x = -2/3
+  - x = -2/3 + 7/6 | +7/6
+  - x = 1/2 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 13,5. Das Gegenteil davon ist + 13,5.
-  - Rechne auf beiden Seiten + 13,5. Dann steht x allein da.
+  - Bei x steht − `7/6`. Das Gegenteil davon ist + `7/6`.
+  - Rechne auf beiden Seiten + `7/6`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: -29/2
-    hinweis: 'Da wurde vermutlich − 13,5 gerechnet statt + 13,5. Um − 13,5 wegzubringen, brauchst du das Gegenteil: + 13,5.'
-  - antwort: -25/2
+  - antwort: -11/6
+    hinweis: 'Da wurde − 7/6 gerechnet statt + 7/6. Um − 7/6 wegzubringen, brauchst du das Gegenteil: + 7/6.'
+  - antwort: -1/2
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-025
   typ: gleichung
   stufe: 3
-  gleichung: -10 + x = -21
-  loesung: '-11'
-  anzeige: '-11'
+  gleichung: -1 = x + 1/2
+  loesung: -3/2
+  anzeige: -3/2 = -1,5
   weg:
-  - -10 + x = -21
-  - x = -11 | +10
+  - -1 = x + 1/2
+  - x = -1 - 1/2 | −1/2
+  - x = -3/2 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht − 10. Das Gegenteil davon ist + 10.
-  - Rechne auf beiden Seiten + 10. Dann steht x allein da.
+  - Bei x steht + `1/2`. Das Gegenteil davon ist − `1/2`.
+  - Rechne auf beiden Seiten − `1/2`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: '-31'
-    hinweis: 'Da wurde vermutlich − 10 gerechnet statt + 10. Um − 10 wegzubringen, brauchst du das Gegenteil: + 10.'
-  - antwort: '11'
+  - antwort: -1/2
+    hinweis: 'Da wurde + 1/2 gerechnet statt − 1/2. Um + 1/2 wegzubringen, brauchst du das Gegenteil: − 1/2.'
+  - antwort: 3/2
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-026
   typ: gleichung
   stufe: 3
-  gleichung: 13,5 + x = 13
-  loesung: -1/2
-  anzeige: -1/2 = -0,5
+  gleichung: x - 5/6 = 14/3
+  loesung: 11/2
+  anzeige: 11/2 = 5,5
   weg:
-  - 13,5 + x = 13
-  - x = -0,5 | −27/2
+  - x - 5/6 = 14/3
+  - x = 14/3 + 5/6 | +5/6
+  - x = 11/2 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 13,5. Das Gegenteil davon ist − 13,5.
-  - Rechne auf beiden Seiten − 13,5. Dann steht x allein da.
+  - Bei x steht − `5/6`. Das Gegenteil davon ist + `5/6`.
+  - Rechne auf beiden Seiten + `5/6`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: 53/2
-    hinweis: 'Da wurde vermutlich + 13,5 gerechnet statt − 13,5. Um + 13,5 wegzubringen, brauchst du das Gegenteil: − 13,5.'
-  - antwort: 1/2
+  - antwort: 23/6
+    hinweis: 'Da wurde − 5/6 gerechnet statt + 5/6. Um − 5/6 wegzubringen, brauchst du das Gegenteil: + 5/6.'
+  - antwort: -11/2
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-027
   typ: gleichung
   stufe: 3
-  gleichung: 6,5 + x = 0,5
-  loesung: '-6'
-  anzeige: '-6'
+  gleichung: x - 1/6 = 1/3
+  loesung: 1/2
+  anzeige: 1/2 = 0,5
   weg:
-  - 6,5 + x = 0,5
-  - x = -6 | −13/2
+  - x - 1/6 = 1/3
+  - x = 1/3 + 1/6 | +1/6
+  - x = 1/2 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 6,5. Das Gegenteil davon ist − 6,5.
-  - Rechne auf beiden Seiten − 6,5. Dann steht x allein da.
+  - Bei x steht − `1/6`. Das Gegenteil davon ist + `1/6`.
+  - Rechne auf beiden Seiten + `1/6`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: '7'
-    hinweis: 'Da wurde vermutlich + 6,5 gerechnet statt − 6,5. Um + 6,5 wegzubringen, brauchst du das Gegenteil: − 6,5.'
-  - antwort: '6'
+  - antwort: 1/6
+    hinweis: 'Da wurde − 1/6 gerechnet statt + 1/6. Um − 1/6 wegzubringen, brauchst du das Gegenteil: + 1/6.'
+  - antwort: -1/2
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
 - id: B1.2-028
   typ: gleichung
   stufe: 3
-  gleichung: 20,5 = x + 12
-  loesung: 17/2
-  anzeige: 17/2 = 8,5
+  gleichung: 3/2 + x = -7/6
+  loesung: -8/3
+  anzeige: -8/3
   weg:
-  - 20,5 = x + 12
-  - x = 8,5 | −12
+  - 3/2 + x = -7/6
+  - x = -7/6 - 3/2 | −3/2
+  - x = -8/3 | auf gleichen Nenner bringen
   tipps:
   - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
-  - Bei x steht + 12. Das Gegenteil davon ist − 12.
-  - Rechne auf beiden Seiten − 12. Dann steht x allein da.
+  - Bei x steht + `3/2`. Das Gegenteil davon ist − `3/2`.
+  - Rechne auf beiden Seiten − `3/2`. Bring die Brüche dann auf einen gemeinsamen Nenner.
   fehler:
-  - antwort: 65/2
-    hinweis: 'Da wurde vermutlich + 12 gerechnet statt − 12. Um + 12 wegzubringen, brauchst du das Gegenteil: − 12.'
-  - antwort: -17/2
+  - antwort: 1/3
+    hinweis: 'Da wurde + 3/2 gerechnet statt − 3/2. Um + 3/2 wegzubringen, brauchst du das Gegenteil: − 3/2.'
+  - antwort: 8/3
     hinweis: Fast – schau noch einmal auf das Vorzeichen.
+- id: B1.2-029
+  typ: gleichung
+  stufe: 3
+  gleichung: -1 = x - 5/2
+  loesung: 3/2
+  anzeige: 3/2 = 1,5
+  weg:
+  - -1 = x - 5/2
+  - x = -1 + 5/2 | +5/2
+  - x = 3/2 | auf gleichen Nenner bringen
+  tipps:
+  - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
+  - Bei x steht − `5/2`. Das Gegenteil davon ist + `5/2`.
+  - Rechne auf beiden Seiten + `5/2`. Bring die Brüche dann auf einen gemeinsamen Nenner.
+  fehler:
+  - antwort: -7/2
+    hinweis: 'Da wurde − 5/2 gerechnet statt + 5/2. Um − 5/2 wegzubringen, brauchst du das Gegenteil: + 5/2.'
+  - antwort: -3/2
+    hinweis: Fast – schau noch einmal auf das Vorzeichen.
+- id: B1.2-030
+  typ: gleichung
+  stufe: 3
+  gleichung: x - 7/3 = -14/3
+  loesung: -7/3
+  anzeige: -7/3
+  weg:
+  - x - 7/3 = -14/3
+  - x = -14/3 + 7/3 | +7/3
+  - x = -7/3 | auf gleichen Nenner bringen
+  tipps:
+  - 'Ziel: x soll ganz allein auf einer Seite stehen. Was steht noch bei x?'
+  - Bei x steht − `7/3`. Das Gegenteil davon ist + `7/3`.
+  - Rechne auf beiden Seiten + `7/3`. Bring die Brüche dann auf einen gemeinsamen Nenner.
+  fehler:
+  - antwort: '-7'
+    hinweis: 'Da wurde − 7/3 gerechnet statt + 7/3. Um − 7/3 wegzubringen, brauchst du das Gegenteil: + 7/3.'
+  - antwort: 7/3
+    hinweis: Fast – schau noch einmal auf das Vorzeichen.
+- id: B1.2-031
+  typ: gleichung
+  stufe: 4
+  gleichung: -11/2 + x - 7,75 = -47/4
+  loesung: 3/2
+  anzeige: 3/2 = 1,5
+  weg:
+  - -11/2 + x - 7,75 = -47/4
+  - x - 53/4 = -47/4 | zusammenfassen
+  - x = 3/2 | +53/4
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `-11/2 - 7,75`. Tipp: `7,75 = 31/4`.'
+  - '`-11/2 - 31/4 = -53/4`. Jetzt steht da `x - 53/4 = -47/4`.'
+  - Rechne auf beiden Seiten + `53/4`.
+  fehler:
+  - antwort: '-25'
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: '-14'
+    hinweis: 'Achtung: Vor 7,75 steht ein Minus. Zusammengefasst ergibt das -11/2 − 31/4.'
+- id: B1.2-032
+  typ: gleichung
+  stufe: 4
+  gleichung: 3/4 + x - 8,25 = -5
+  loesung: 5/2
+  anzeige: 5/2 = 2,5
+  weg:
+  - 3/4 + x - 8,25 = -5
+  - x - 15/2 = -5 | zusammenfassen
+  - x = 5/2 | +15/2
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `3/4 - 8,25`. Tipp: `8,25 = 33/4`.'
+  - '`3/4 - 33/4 = -15/2`. Jetzt steht da `x - 15/2 = -5`.'
+  - Rechne auf beiden Seiten + `15/2`.
+  fehler:
+  - antwort: -25/2
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: '-14'
+    hinweis: 'Achtung: Vor 8,25 steht ein Minus. Zusammengefasst ergibt das 3/4 − 33/4.'
+- id: B1.2-033
+  typ: gleichung
+  stufe: 4
+  gleichung: -12 = -9/2 + x - 9,5
+  loesung: '2'
+  anzeige: '2'
+  weg:
+  - -12 = -9/2 + x - 9,5
+  - -12 = x - 14 | zusammenfassen
+  - x = 2 | +14
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `-9/2 - 9,5`. Tipp: `9,5 = 19/2`.'
+  - '`-9/2 - 19/2 = -14`. Jetzt steht da `x - 14 = -12`.'
+  - Rechne auf beiden Seiten + `14`.
+  fehler:
+  - antwort: '-26'
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: '-17'
+    hinweis: 'Achtung: Vor 9,5 steht ein Minus. Zusammengefasst ergibt das -9/2 − 19/2.'
+- id: B1.2-034
+  typ: gleichung
+  stufe: 4
+  gleichung: -9/2 + x - 4,75 = -23/2
+  loesung: -9/4
+  anzeige: -9/4 = -2,25
+  weg:
+  - -9/2 + x - 4,75 = -23/2
+  - x - 37/4 = -23/2 | zusammenfassen
+  - x = -9/4 | +37/4
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `-9/2 - 4,75`. Tipp: `4,75 = 19/4`.'
+  - '`-9/2 - 19/4 = -37/4`. Jetzt steht da `x - 37/4 = -23/2`.'
+  - Rechne auf beiden Seiten + `37/4`.
+  fehler:
+  - antwort: -83/4
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: -47/4
+    hinweis: 'Achtung: Vor 4,75 steht ein Minus. Zusammengefasst ergibt das -9/2 − 19/4.'
+- id: B1.2-035
+  typ: gleichung
+  stufe: 4
+  gleichung: 3/2 + x - 0,25 = 1/2
+  loesung: -3/4
+  anzeige: -3/4 = -0,75
+  weg:
+  - 3/2 + x - 0,25 = 1/2
+  - x + 5/4 = 1/2 | zusammenfassen
+  - x = -3/4 | −5/4
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `3/2 - 0,25`. Tipp: `0,25 = 1/4`.'
+  - '`3/2 - 1/4 = 5/4`. Jetzt steht da `x + 5/4 = 1/2`.'
+  - Rechne auf beiden Seiten − `5/4`.
+  fehler:
+  - antwort: 7/4
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: -5/4
+    hinweis: 'Achtung: Vor 0,25 steht ein Minus. Zusammengefasst ergibt das 3/2 − 1/4.'
+- id: B1.2-036
+  typ: gleichung
+  stufe: 4
+  gleichung: -7/2 = -11/4 + x - 1,75
+  loesung: '1'
+  anzeige: '1'
+  weg:
+  - -7/2 = -11/4 + x - 1,75
+  - -7/2 = x - 9/2 | zusammenfassen
+  - x = 1 | +9/2
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `-11/4 - 1,75`. Tipp: `1,75 = 7/4`.'
+  - '`-11/4 - 7/4 = -9/2`. Jetzt steht da `x - 9/2 = -7/2`.'
+  - Rechne auf beiden Seiten + `9/2`.
+  fehler:
+  - antwort: '-8'
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: -5/2
+    hinweis: 'Achtung: Vor 1,75 steht ein Minus. Zusammengefasst ergibt das -11/4 − 7/4.'
+- id: B1.2-037
+  typ: gleichung
+  stufe: 4
+  gleichung: 3/4 + x - 8,75 = -15/2
+  loesung: 1/2
+  anzeige: 1/2 = 0,5
+  weg:
+  - 3/4 + x - 8,75 = -15/2
+  - x - 8 = -15/2 | zusammenfassen
+  - x = 1/2 | +8
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `3/4 - 8,75`. Tipp: `8,75 = 35/4`.'
+  - '`3/4 - 35/4 = -8`. Jetzt steht da `x - 8 = -15/2`.'
+  - Rechne auf beiden Seiten + `8`.
+  fehler:
+  - antwort: -31/2
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: '-17'
+    hinweis: 'Achtung: Vor 8,75 steht ein Minus. Zusammengefasst ergibt das 3/4 − 35/4.'
+- id: B1.2-038
+  typ: gleichung
+  stufe: 4
+  gleichung: -5 = -7/2 + x - 4,5
+  loesung: '3'
+  anzeige: '3'
+  weg:
+  - -5 = -7/2 + x - 4,5
+  - -5 = x - 8 | zusammenfassen
+  - x = 3 | +8
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `-7/2 - 4,5`. Tipp: `4,5 = 9/2`.'
+  - '`-7/2 - 9/2 = -8`. Jetzt steht da `x - 8 = -5`.'
+  - Rechne auf beiden Seiten + `8`.
+  fehler:
+  - antwort: '-13'
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: '-6'
+    hinweis: 'Achtung: Vor 4,5 steht ein Minus. Zusammengefasst ergibt das -7/2 − 9/2.'
+- id: B1.2-039
+  typ: gleichung
+  stufe: 4
+  gleichung: -5/4 + x - 3,5 = 13/4
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - -5/4 + x - 3,5 = 13/4
+  - x - 19/4 = 13/4 | zusammenfassen
+  - x = 8 | +19/4
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `-5/4 - 3,5`. Tipp: `3,5 = 7/2`.'
+  - '`-5/4 - 7/2 = -19/4`. Jetzt steht da `x - 19/4 = 13/4`.'
+  - Rechne auf beiden Seiten + `19/4`.
+  fehler:
+  - antwort: -3/2
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: '1'
+    hinweis: 'Achtung: Vor 3,5 steht ein Minus. Zusammengefasst ergibt das -5/4 − 7/2.'
+- id: B1.2-040
+  typ: gleichung
+  stufe: 4
+  gleichung: 4 = 7/4 + x - 3,75
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - 4 = 7/4 + x - 3,75
+  - 4 = x - 2 | zusammenfassen
+  - x = 6 | +2
+  tipps:
+  - 'Fasse zuerst die Zahlen bei x zusammen: `7/4 - 3,75`. Tipp: `3,75 = 15/4`.'
+  - '`7/4 - 15/4 = -2`. Jetzt steht da `x - 2 = 4`.'
+  - Rechne auf beiden Seiten + `2`.
+  fehler:
+  - antwort: '2'
+    hinweis: Um eine Zahl wegzubringen, rechnest du das Gegenteil – das Vorzeichen dreht sich um.
+  - antwort: -3/2
+    hinweis: 'Achtung: Vor 3,75 steht ein Minus. Zusammengefasst ergibt das 7/4 − 15/4.'

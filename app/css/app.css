@@ -185,3 +185,4 @@ sup { font-size: .7em; }
   .eingabe { flex-direction: column; }
   .gleichung-gross { font-size: 1.4rem; }
 }
+.zweit-knopf { background: var(--akzent-hell); border-color: #bfdbe0; font-weight: 600; }

@@ -3,558 +3,872 @@
 - id: B1.5-001
   typ: gleichung
   stufe: 1
-  gleichung: 3x + 2 = x + 14
-  loesung: '6'
-  anzeige: '6'
+  gleichung: 4x + 3 = -6x + 33
+  loesung: '3'
+  anzeige: '3'
   weg:
-  - 3x + 2 = x + 14
-  - 2x + 2 = 14 | −x
-  - 2x = 12 | −2
-  - x = 6 | :2
+  - 4x + 3 = -6x + 33
+  - 10x + 3 = 33 | +6x
+  - 10x = 30 | −3
+  - x = 3 | :10
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −x. Dann ist rechts kein x mehr.
-  - Danach steht da 2x + 2 = 14. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten +`6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `10x + 3 = 33`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: '3'
-    hinweis: 'Beim Hinüberbringen von x: Auf der anderen Seite wird daraus −x, nicht +x.'
-  - antwort: '8'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: 18/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-15'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '300'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.5-002
   typ: gleichung
   stufe: 1
-  gleichung: 6x + 2 = 2x + 30
+  gleichung: -4x + 15 = 4x - 41
   loesung: '7'
   anzeige: '7'
   weg:
-  - 6x + 2 = 2x + 30
-  - 4x + 2 = 30 | −2x
-  - 4x = 28 | −2
-  - x = 7 | :4
+  - -4x + 15 = 4x - 41
+  - -8x + 15 = -41 | −4x
+  - -8x = -56 | −15
+  - x = 7 | :(−8)
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −2x. Dann ist rechts kein x mehr.
-  - Danach steht da 4x + 2 = 30. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten −`4x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-8x + 15 = -41`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: 7/2
-    hinweis: 'Beim Hinüberbringen von 2x: Auf der anderen Seite wird daraus −2x, nicht +2x.'
-  - antwort: '8'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: 13/4
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '448'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.5-003
   typ: gleichung
   stufe: 1
-  gleichung: 4x - 2 = 3x + 3
+  gleichung: -4x - 7 = -x - 22
   loesung: '5'
   anzeige: '5'
   weg:
-  - 4x - 2 = 3x + 3
-  - x - 2 = 3 | −3x
-  - x = 5 | +2
-  - x = 5 | :1
+  - -4x - 7 = -x - 22
+  - -3x - 7 = -22 | +x
+  - -3x = -15 | +7
+  - x = 5 | :(−3)
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −3x. Dann ist rechts kein x mehr.
-  - Danach steht da x - 2 = 3. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten +`x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-3x - 7 = -22`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: 5/7
-    hinweis: 'Beim Hinüberbringen von 3x: Auf der anderen Seite wird daraus −3x, nicht +3x.'
-  - antwort: '1'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: 29/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '3'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '45'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.5-004
   typ: gleichung
   stufe: 1
-  gleichung: 2x - 8 = x - 3
-  loesung: '5'
-  anzeige: '5'
+  gleichung: 6x - 10 = -7x - 36
+  loesung: '-2'
+  anzeige: '-2'
   weg:
-  - 2x - 8 = x - 3
-  - x - 8 = -3 | −x
-  - x = 5 | +8
-  - x = 5 | :1
+  - 6x - 10 = -7x - 36
+  - 13x - 10 = -36 | +7x
+  - 13x = -26 | +10
+  - x = -2 | :13
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −x. Dann ist rechts kein x mehr.
-  - Danach steht da x - 8 = -3. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten +`7x`. Dann ist rechts kein x mehr.
+  - Danach steht da `13x - 10 = -36`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: 5/3
-    hinweis: 'Beim Hinüberbringen von x: Auf der anderen Seite wird daraus −x, nicht +x.'
-  - antwort: '-11'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: -46/13
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '26'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-338'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.5-005
   typ: gleichung
   stufe: 1
-  gleichung: 6x - 9 = 2x + 7
-  loesung: '4'
-  anzeige: '4'
+  gleichung: 2x - 3 = 6x - 35
+  loesung: '8'
+  anzeige: '8'
   weg:
-  - 6x - 9 = 2x + 7
-  - 4x - 9 = 7 | −2x
-  - 4x = 16 | +9
-  - x = 4 | :4
+  - 2x - 3 = 6x - 35
+  - -4x - 3 = -35 | −6x
+  - -4x = -32 | +3
+  - x = 8 | :(−4)
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −2x. Dann ist rechts kein x mehr.
-  - Danach steht da 4x - 9 = 7. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten −`6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-4x - 3 = -35`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: '2'
-    hinweis: 'Beim Hinüberbringen von 2x: Auf der anderen Seite wird daraus −2x, nicht +2x.'
-  - antwort: -1/2
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: 19/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-4'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '128'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.5-006
   typ: gleichung
   stufe: 1
-  gleichung: 7x - 6 = 4x + 3
-  loesung: '3'
-  anzeige: '3'
+  gleichung: 2x - 5 = 3x
+  loesung: '-5'
+  anzeige: '-5'
   weg:
-  - 7x - 6 = 4x + 3
-  - 3x - 6 = 3 | −4x
-  - 3x = 9 | +6
-  - x = 3 | :3
+  - 2x - 5 = 3x
+  - -x - 5 = 0 | −3x
+  - -x = 5 | +5
+  - x = -5 | :(−1)
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −4x. Dann ist rechts kein x mehr.
-  - Danach steht da 3x - 6 = 3. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten −`3x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-x - 5 = 0`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: 9/11
-    hinweis: 'Beim Hinüberbringen von 4x: Auf der anderen Seite wird daraus −4x, nicht +4x.'
-  - antwort: '-1'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: '5'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '1'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
 - id: B1.5-007
   typ: gleichung
   stufe: 1
-  gleichung: 4x + 5 = 2x + 19
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - 4x + 5 = 2x + 19
-  - 2x + 5 = 19 | −2x
-  - 2x = 14 | −5
-  - x = 7 | :2
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −2x. Dann ist rechts kein x mehr.
-  - Danach steht da 2x + 5 = 19. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: 7/3
-    hinweis: 'Beim Hinüberbringen von 2x: Auf der anderen Seite wird daraus −2x, nicht +2x.'
-  - antwort: '12'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-008
-  typ: gleichung
-  stufe: 1
-  gleichung: 5x - 9 = x + 19
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - 5x - 9 = x + 19
-  - 4x - 9 = 19 | −x
-  - 4x = 28 | +9
-  - x = 7 | :4
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −x. Dann ist rechts kein x mehr.
-  - Danach steht da 4x - 9 = 19. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: 14/3
-    hinweis: 'Beim Hinüberbringen von x: Auf der anderen Seite wird daraus −x, nicht +x.'
-  - antwort: 5/2
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-009
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x - 7 = 2x + 9
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - 6x - 7 = 2x + 9
-  - 4x - 7 = 9 | −2x
-  - 4x = 16 | +7
-  - x = 4 | :4
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −2x. Dann ist rechts kein x mehr.
-  - Danach steht da 4x - 7 = 9. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '2'
-    hinweis: 'Beim Hinüberbringen von 2x: Auf der anderen Seite wird daraus −2x, nicht +2x.'
-  - antwort: 1/2
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-010
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x - 12 = 4x - 2
-  loesung: '5'
-  anzeige: '5'
-  weg:
-  - 6x - 12 = 4x - 2
-  - 2x - 12 = -2 | −4x
-  - 2x = 10 | +12
-  - x = 5 | :2
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −4x. Dann ist rechts kein x mehr.
-  - Danach steht da 2x - 12 = -2. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '1'
-    hinweis: 'Beim Hinüberbringen von 4x: Auf der anderen Seite wird daraus −4x, nicht +4x.'
-  - antwort: '-7'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-011
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x - 12 = 3x - 4
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - 7x - 12 = 3x - 4
-  - 4x - 12 = -4 | −3x
-  - 4x = 8 | +12
-  - x = 2 | :4
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −3x. Dann ist rechts kein x mehr.
-  - Danach steht da 4x - 12 = -4. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: 4/5
-    hinweis: 'Beim Hinüberbringen von 3x: Auf der anderen Seite wird daraus −3x, nicht +3x.'
-  - antwort: '-4'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-012
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x - 12 = 5x - 22
-  loesung: '-5'
-  anzeige: '-5'
-  weg:
-  - 7x - 12 = 5x - 22
-  - 2x - 12 = -22 | −5x
-  - 2x = -10 | +12
-  - x = -5 | :2
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −5x. Dann ist rechts kein x mehr.
-  - Danach steht da 2x - 12 = -22. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -5/6
-    hinweis: 'Beim Hinüberbringen von 5x: Auf der anderen Seite wird daraus −5x, nicht +5x.'
-  - antwort: '-17'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-013
-  typ: gleichung
-  stufe: 2
-  gleichung: -6x + 2 = 6x + 26
-  loesung: '-2'
-  anzeige: '-2'
-  weg:
-  - -6x + 2 = 6x + 26
-  - -12x + 2 = 26 | −6x
-  - -12x = 24 | −2
-  - x = -2 | :(−12)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −6x. Dann ist rechts kein x mehr.
-  - Danach steht da -12x + 2 = 26. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -7/3
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-014
-  typ: gleichung
-  stufe: 2
-  gleichung: 2x - 4 = -6x + 4
-  loesung: '1'
-  anzeige: '1'
-  weg:
-  - 2x - 4 = -6x + 4
-  - 8x - 4 = 4 | +6x
-  - 8x = 8 | +4
-  - x = 1 | :8
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten +6x. Dann ist rechts kein x mehr.
-  - Danach steht da 8x - 4 = 4. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '-2'
-    hinweis: 'Beim Hinüberbringen von -6x: Auf der anderen Seite wird daraus +6x, nicht −6x.'
-  - antwort: '0'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-015
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x - 12 = 6x - 17
-  loesung: '-5'
-  anzeige: '-5'
-  weg:
-  - 7x - 12 = 6x - 17
-  - x - 12 = -17 | −6x
-  - x = -5 | +12
-  - x = -5 | :1
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −6x. Dann ist rechts kein x mehr.
-  - Danach steht da x - 12 = -17. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -5/13
-    hinweis: 'Beim Hinüberbringen von 6x: Auf der anderen Seite wird daraus −6x, nicht +6x.'
-  - antwort: '-29'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-016
-  typ: gleichung
-  stufe: 2
-  gleichung: 2x + 1 = -5x + 43
-  loesung: '6'
-  anzeige: '6'
-  weg:
-  - 2x + 1 = -5x + 43
-  - 7x + 1 = 43 | +5x
-  - 7x = 42 | −1
-  - x = 6 | :7
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten +5x. Dann ist rechts kein x mehr.
-  - Danach steht da 7x + 1 = 43. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '-14'
-    hinweis: 'Beim Hinüberbringen von -5x: Auf der anderen Seite wird daraus +5x, nicht −5x.'
-  - antwort: 44/7
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-017
-  typ: gleichung
-  stufe: 2
-  gleichung: -5x + 7 = 4x + 16
-  loesung: '-1'
-  anzeige: '-1'
-  weg:
-  - -5x + 7 = 4x + 16
-  - -9x + 7 = 16 | −4x
-  - -9x = 9 | −7
-  - x = -1 | :(−9)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −4x. Dann ist rechts kein x mehr.
-  - Danach steht da -9x + 7 = 16. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '-9'
-    hinweis: 'Beim Hinüberbringen von 4x: Auf der anderen Seite wird daraus −4x, nicht +4x.'
-  - antwort: -23/9
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-018
-  typ: gleichung
-  stufe: 2
-  gleichung: -6x + 1 = -3x + 4
-  loesung: '-1'
-  anzeige: '-1'
-  weg:
-  - -6x + 1 = -3x + 4
-  - -3x + 1 = 4 | +3x
-  - -3x = 3 | −1
-  - x = -1 | :(−3)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten +3x. Dann ist rechts kein x mehr.
-  - Danach steht da -3x + 1 = 4. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -1/3
-    hinweis: 'Beim Hinüberbringen von -3x: Auf der anderen Seite wird daraus +3x, nicht −3x.'
-  - antwort: -5/3
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-019
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x - 2 = 6x - 1
-  loesung: '1'
-  anzeige: '1'
-  weg:
-  - 7x - 2 = 6x - 1
-  - x - 2 = -1 | −6x
-  - x = 1 | +2
-  - x = 1 | :1
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −6x. Dann ist rechts kein x mehr.
-  - Danach steht da x - 2 = -1. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: 1/13
-    hinweis: 'Beim Hinüberbringen von 6x: Auf der anderen Seite wird daraus −6x, nicht +6x.'
-  - antwort: '-3'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-020
-  typ: gleichung
-  stufe: 2
-  gleichung: 6x + 7 = 7x - 1
-  loesung: '8'
-  anzeige: '8'
-  weg:
-  - 6x + 7 = 7x - 1
-  - -x + 7 = -1 | −7x
-  - -x = -8 | −7
-  - x = 8 | :(−1)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −7x. Dann ist rechts kein x mehr.
-  - Danach steht da -x + 7 = -1. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -8/13
-    hinweis: 'Beim Hinüberbringen von 7x: Auf der anderen Seite wird daraus −7x, nicht +7x.'
-  - antwort: '-6'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-021
-  typ: gleichung
-  stufe: 3
-  gleichung: 4x + 12 = 5x + 4
-  loesung: '8'
-  anzeige: '8'
-  weg:
-  - 4x + 12 = 5x + 4
-  - -x + 12 = 4 | −5x
-  - -x = -8 | −12
-  - x = 8 | :(−1)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −5x. Dann ist rechts kein x mehr.
-  - Danach steht da -x + 12 = 4. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -8/9
-    hinweis: 'Beim Hinüberbringen von 5x: Auf der anderen Seite wird daraus −5x, nicht +5x.'
-  - antwort: '-16'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-022
-  typ: gleichung
-  stufe: 3
-  gleichung: -x + 6 = 2x + 21
-  loesung: '-5'
-  anzeige: '-5'
-  weg:
-  - -x + 6 = 2x + 21
-  - -3x + 6 = 21 | −2x
-  - -3x = 15 | −6
-  - x = -5 | :(−3)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −2x. Dann ist rechts kein x mehr.
-  - Danach steht da -3x + 6 = 21. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '15'
-    hinweis: 'Beim Hinüberbringen von 2x: Auf der anderen Seite wird daraus −2x, nicht +2x.'
-  - antwort: '-9'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-023
-  typ: gleichung
-  stufe: 3
-  gleichung: 2x + 3 = 5x + 27
+  gleichung: -3x - 2 = x + 30
   loesung: '-8'
   anzeige: '-8'
   weg:
-  - 2x + 3 = 5x + 27
-  - -3x + 3 = 27 | −5x
-  - -3x = 24 | −3
-  - x = -8 | :(−3)
+  - -3x - 2 = x + 30
+  - -4x - 2 = 30 | −x
+  - -4x = 32 | +2
+  - x = -8 | :(−4)
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −5x. Dann ist rechts kein x mehr.
-  - Danach steht da -3x + 3 = 27. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten −`x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-4x - 2 = 30`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: 24/7
-    hinweis: 'Beim Hinüberbringen von 5x: Auf der anderen Seite wird daraus −5x, nicht +5x.'
-  - antwort: '-10'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-024
+  - antwort: '-7'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-16'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-128'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-008
   typ: gleichung
-  stufe: 3
-  gleichung: x - 12 = 6x - 2
-  loesung: '-2'
-  anzeige: '-2'
-  weg:
-  - x - 12 = 6x - 2
-  - -5x - 12 = -2 | −6x
-  - -5x = 10 | +12
-  - x = -2 | :(−5)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −6x. Dann ist rechts kein x mehr.
-  - Danach steht da -5x - 12 = -2. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: 10/7
-    hinweis: 'Beim Hinüberbringen von 6x: Auf der anderen Seite wird daraus −6x, nicht +6x.'
-  - antwort: 14/5
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-025
-  typ: gleichung
-  stufe: 3
-  gleichung: 6x - 9 = -2x + 15
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 6x - 9 = -2x + 15
-  - 8x - 9 = 15 | +2x
-  - 8x = 24 | +9
-  - x = 3 | :8
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten +2x. Dann ist rechts kein x mehr.
-  - Danach steht da 8x - 9 = 15. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: '6'
-    hinweis: 'Beim Hinüberbringen von -2x: Auf der anderen Seite wird daraus +2x, nicht −2x.'
-  - antwort: 3/4
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-026
-  typ: gleichung
-  stufe: 3
-  gleichung: -4x + 4 = x + 2
-  loesung: 2/5
-  anzeige: 2/5 = 0,4
-  weg:
-  - -4x + 4 = x + 2
-  - -5x + 4 = 2 | −x
-  - -5x = -2 | −4
-  - x = 2/5 | :(−5)
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −x. Dann ist rechts kein x mehr.
-  - Danach steht da -5x + 4 = 2. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: 2/3
-    hinweis: 'Beim Hinüberbringen von x: Auf der anderen Seite wird daraus −x, nicht +x.'
-  - antwort: -6/5
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-027
-  typ: gleichung
-  stufe: 3
-  gleichung: 7x + 5 = 4x + 4
-  loesung: -1/3
-  anzeige: -1/3
-  weg:
-  - 7x + 5 = 4x + 4
-  - 3x + 5 = 4 | −4x
-  - 3x = -1 | −5
-  - x = -1/3 | :3
-  tipps:
-  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten −4x. Dann ist rechts kein x mehr.
-  - Danach steht da 3x + 5 = 4. Das löst du wie vorher in zwei Schritten.
-  fehler:
-  - antwort: -1/11
-    hinweis: 'Beim Hinüberbringen von 4x: Auf der anderen Seite wird daraus −4x, nicht +4x.'
-  - antwort: '3'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
-- id: B1.5-028
-  typ: gleichung
-  stufe: 3
-  gleichung: -x - 4 = -2x + 4
+  stufe: 1
+  gleichung: 7x - 12 = x + 36
   loesung: '8'
   anzeige: '8'
   weg:
-  - -x - 4 = -2x + 4
-  - x - 4 = 4 | +2x
-  - x = 8 | +4
-  - x = 8 | :1
+  - 7x - 12 = x + 36
+  - 6x - 12 = 36 | −x
+  - 6x = 48 | +12
+  - x = 8 | :6
   tipps:
   - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
-  - Rechne auf beiden Seiten +2x. Dann ist rechts kein x mehr.
-  - Danach steht da x - 4 = 4. Das löst du wie vorher in zwei Schritten.
+  - Rechne auf beiden Seiten −`x`. Dann ist rechts kein x mehr.
+  - Danach steht da `6x - 12 = 36`. Das löst du wie vorher in zwei Schritten.
   fehler:
-  - antwort: -8/3
-    hinweis: 'Beim Hinüberbringen von -2x: Auf der anderen Seite wird daraus +2x, nicht −2x.'
-  - antwort: '0'
-    hinweis: Achtung beim Wegbringen der Zahl links – das Vorzeichen dreht sich um.
+  - antwort: '4'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '6'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '288'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-009
+  typ: gleichung
+  stufe: 1
+  gleichung: 2x - 4 = 7x + 31
+  loesung: '-7'
+  anzeige: '-7'
+  weg:
+  - 2x - 4 = 7x + 31
+  - -5x - 4 = 31 | −7x
+  - -5x = 35 | +4
+  - x = -7 | :(−5)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`7x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-5x - 4 = 31`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -27/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 35/9
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-175'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-010
+  typ: gleichung
+  stufe: 1
+  gleichung: x + 10 = 6x + 20
+  loesung: '-2'
+  anzeige: '-2'
+  weg:
+  - x + 10 = 6x + 20
+  - -5x + 10 = 20 | −6x
+  - -5x = 10 | −10
+  - x = -2 | :(−5)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-5x + 10 = 20`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '-6'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 10/7
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-50'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-011
+  typ: gleichung
+  stufe: 2
+  gleichung: 6x - 13 = -5x - 29
+  loesung: -16/11
+  anzeige: -16/11
+  weg:
+  - 6x - 13 = -5x - 29
+  - 11x - 13 = -29 | +5x
+  - 11x = -16 | +13
+  - x = -16/11 | :11
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`5x`. Dann ist rechts kein x mehr.
+  - Danach steht da `11x - 13 = -29`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -42/11
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-16'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-176'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-012
+  typ: gleichung
+  stufe: 2
+  gleichung: 3x - 15 = 4x + 1
+  loesung: '-16'
+  anzeige: '-16'
+  weg:
+  - 3x - 15 = 4x + 1
+  - -x - 15 = 1 | −4x
+  - -x = 16 | +15
+  - x = -16 | :(−1)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`4x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-x - 15 = 1`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '14'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 16/7
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+- id: B1.5-013
+  typ: gleichung
+  stufe: 2
+  gleichung: 4x - 6 = 2x - 11
+  loesung: -5/2
+  anzeige: -5/2 = -2,5
+  weg:
+  - 4x - 6 = 2x - 11
+  - 2x - 6 = -11 | −2x
+  - 2x = -5 | +6
+  - x = -5/2 | :2
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`2x`. Dann ist rechts kein x mehr.
+  - Danach steht da `2x - 6 = -11`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -17/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -5/6
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-10'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-014
+  typ: gleichung
+  stufe: 2
+  gleichung: 3x - 10 = -7x - 22
+  loesung: -6/5
+  anzeige: -6/5 = -1,2
+  weg:
+  - 3x - 10 = -7x - 22
+  - 10x - 10 = -22 | +7x
+  - 10x = -12 | +10
+  - x = -6/5 | :10
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`7x`. Dann ist rechts kein x mehr.
+  - Danach steht da `10x - 10 = -22`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -16/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '3'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-120'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-015
+  typ: gleichung
+  stufe: 2
+  gleichung: -3x - 6 = -6x - 11
+  loesung: -5/3
+  anzeige: -5/3
+  weg:
+  - -3x - 6 = -6x - 11
+  - 3x - 6 = -11 | +6x
+  - 3x = -5 | +6
+  - x = -5/3 | :3
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `3x - 6 = -11`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -17/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 5/9
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-15'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-016
+  typ: gleichung
+  stufe: 2
+  gleichung: 5x + 14 = -7x + 31
+  loesung: 17/12
+  anzeige: 17/12
+  weg:
+  - 5x + 14 = -7x + 31
+  - 12x + 14 = 31 | +7x
+  - 12x = 17 | −14
+  - x = 17/12 | :12
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`7x`. Dann ist rechts kein x mehr.
+  - Danach steht da `12x + 14 = 31`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 15/4
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -17/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '204'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-017
+  typ: gleichung
+  stufe: 2
+  gleichung: -x + 5 = -4x - 7
+  loesung: '-4'
+  anzeige: '-4'
+  weg:
+  - -x + 5 = -4x - 7
+  - 3x + 5 = -7 | +4x
+  - 3x = -12 | −5
+  - x = -4 | :3
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`4x`. Dann ist rechts kein x mehr.
+  - Danach steht da `3x + 5 = -7`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -2/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 12/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-36'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-018
+  typ: gleichung
+  stufe: 2
+  gleichung: 6x + 8 = -4x - 3
+  loesung: -11/10
+  anzeige: -11/10 = -1,1
+  weg:
+  - 6x + 8 = -4x - 3
+  - 10x + 8 = -3 | +4x
+  - 10x = -11 | −8
+  - x = -11/10 | :10
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`4x`. Dann ist rechts kein x mehr.
+  - Danach steht da `10x + 8 = -3`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 1/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -11/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-110'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-019
+  typ: gleichung
+  stufe: 2
+  gleichung: -4x + 3 = -3x + 13
+  loesung: '-10'
+  anzeige: '-10'
+  weg:
+  - -4x + 3 = -3x + 13
+  - -x + 3 = 13 | +3x
+  - -x = 10 | −3
+  - x = -10 | :(−1)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`3x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-x + 3 = 13`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '-16'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -10/7
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+- id: B1.5-020
+  typ: gleichung
+  stufe: 2
+  gleichung: -2x + 14 = -6x - 3
+  loesung: -17/4
+  anzeige: -17/4 = -4,25
+  weg:
+  - -2x + 14 = -6x - 3
+  - 4x + 14 = -3 | +6x
+  - 4x = -17 | −14
+  - x = -17/4 | :4
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `4x + 14 = -3`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 11/4
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 17/8
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-68'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-021
+  typ: gleichung
+  stufe: 3
+  gleichung: 0,7x - 7 = -1,6x - 15,05
+  loesung: -7/2
+  anzeige: -7/2 = -3,5
+  weg:
+  - 0,7x - 7 = -1,6x - 15,05
+  - 2,3x - 7 = -15,05 | +1,6x
+  - 2,3x = -8,05 | +7
+  - x = -3,5 | :2,3
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`1,6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `2,3x - 7 = -15,05`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -441/46
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 161/18
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -3703/200
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-022
+  typ: gleichung
+  stufe: 3
+  gleichung: 1,8x - 1,6 = 2,3x - 1,1
+  loesung: '-1'
+  anzeige: '-1'
+  weg:
+  - 1,8x - 1,6 = 2,3x - 1,1
+  - -0,5x - 1,6 = -1,1 | −2,3x
+  - -0,5x = 0,5 | +1,6
+  - x = -1 | :(−0,5)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`2,3x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-0,5x - 1,6 = -1,1`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 27/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 5/41
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -1/4
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-023
+  typ: gleichung
+  stufe: 3
+  gleichung: -x + 2,6 = 1,2x + 16,9
+  loesung: -13/2
+  anzeige: -13/2 = -6,5
+  weg:
+  - -x + 2,6 = 1,2x + 16,9
+  - -2,2x + 2,6 = 16,9 | −1,2x
+  - -2,2x = 14,3 | −2,6
+  - x = -6,5 | :(−2,2)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`1,2x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-2,2x + 2,6 = 16,9`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -195/22
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 143/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -1573/50
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-024
+  typ: gleichung
+  stufe: 3
+  gleichung: 1,6x - 6,5 = 2,4x - 11,3
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - 1,6x - 6,5 = 2,4x - 11,3
+  - -0,8x - 6,5 = -11,3 | −2,4x
+  - -0,8x = -4,8 | +6,5
+  - x = 6 | :(−0,8)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`2,4x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-0,8x - 6,5 = -11,3`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 89/4
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -6/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 96/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-025
+  typ: gleichung
+  stufe: 3
+  gleichung: -0,7x + 2,3 = 2,6x + 18,8
+  loesung: '-5'
+  anzeige: '-5'
+  weg:
+  - -0,7x + 2,3 = 2,6x + 18,8
+  - -3,3x + 2,3 = 18,8 | −2,6x
+  - -3,3x = 16,5 | −2,3
+  - x = -5 | :(−3,3)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`2,6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-3,3x + 2,3 = 18,8`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -211/33
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 165/19
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -1089/20
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-026
+  typ: gleichung
+  stufe: 3
+  gleichung: 2,1x + 1,4 = -2,7x - 3,4
+  loesung: '-1'
+  anzeige: '-1'
+  weg:
+  - 2,1x + 1,4 = -2,7x - 3,4
+  - 4,8x + 1,4 = -3,4 | +2,7x
+  - 4,8x = -4,8 | −1,4
+  - x = -1 | :4,8
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`2,7x`. Dann ist rechts kein x mehr.
+  - Danach steht da `4,8x + 1,4 = -3,4`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -5/12
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '8'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -576/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-027
+  typ: gleichung
+  stufe: 3
+  gleichung: -0,7x - 1,7 = -2,4x - 4,25
+  loesung: -3/2
+  anzeige: -3/2 = -1,5
+  weg:
+  - -0,7x - 1,7 = -2,4x - 4,25
+  - 1,7x - 1,7 = -4,25 | +2,4x
+  - 1,7x = -2,55 | +1,7
+  - x = -1,5 | :1,7
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`2,4x`. Dann ist rechts kein x mehr.
+  - Danach steht da `1,7x - 1,7 = -4,25`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -7/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 51/62
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -867/200
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-028
+  typ: gleichung
+  stufe: 3
+  gleichung: 1,5x - 9,2 = 0,3x - 8
+  loesung: '1'
+  anzeige: '1'
+  weg:
+  - 1,5x - 9,2 = 0,3x - 8
+  - 1,2x - 9,2 = -8 | −0,3x
+  - 1,2x = 1,2 | +9,2
+  - x = 1 | :1,2
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`0,3x`. Dann ist rechts kein x mehr.
+  - Danach steht da `1,2x - 9,2 = -8`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -43/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 2/3
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 36/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-029
+  typ: gleichung
+  stufe: 3
+  gleichung: -1,2x + 7 = 1,6x + 40,6
+  loesung: '-12'
+  anzeige: '-12'
+  weg:
+  - -1,2x + 7 = 1,6x + 40,6
+  - -2,8x + 7 = 40,6 | −1,6x
+  - -2,8x = 33,6 | −7
+  - x = -12 | :(−2,8)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`1,6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-2,8x + 7 = 40,6`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '-17'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '84'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -2352/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-030
+  typ: gleichung
+  stufe: 3
+  gleichung: 2,8x - 3 = -0,6x + 14
+  loesung: '5'
+  anzeige: '5'
+  weg:
+  - 2,8x - 3 = -0,6x + 14
+  - 3,4x - 3 = 14 | +0,6x
+  - 3,4x = 17 | +3
+  - x = 5 | :3,4
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`0,6x`. Dann ist rechts kein x mehr.
+  - Danach steht da `3,4x - 3 = 14`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 55/17
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 85/11
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 289/5
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-031
+  typ: gleichung
+  stufe: 4
+  gleichung: -1/6·x - 1/2 = x - 8/9
+  loesung: 1/3
+  anzeige: 1/3
+  weg:
+  - -1/6·x - 1/2 = x - 8/9
+  - -7/6·x - 1/2 = -8/9 | −x
+  - -7/6·x = -7/18 | +1/2
+  - x = 1/3 | :(−7/6)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-7/6·x - 1/2 = -8/9`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 25/21
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -7/15
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 49/108
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-032
+  typ: gleichung
+  stufe: 4
+  gleichung: -1/2·x + 5/2 = 2x - 20/3
+  loesung: 11/3
+  anzeige: 11/3
+  weg:
+  - -1/2·x + 5/2 = 2x - 20/3
+  - -5/2·x + 5/2 = -20/3 | −2x
+  - -5/2·x = -55/6 | −5/2
+  - x = 11/3 | :(−5/2)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`2x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-5/2·x + 5/2 = -20/3`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 5/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -55/9
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 275/12
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-033
+  typ: gleichung
+  stufe: 4
+  gleichung: 7/6·x - 3/2 = 4/3·x - 7/6
+  loesung: '-2'
+  anzeige: '-2'
+  weg:
+  - 7/6·x - 3/2 = 4/3·x - 7/6
+  - -1/6·x - 3/2 = -7/6 | −4/3·x
+  - -1/6·x = 1/3 | +3/2
+  - x = -2 | :(−1/6)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`4/3·x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-1/6·x - 3/2 = -7/6`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '16'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 2/15
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -1/18
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-034
+  typ: gleichung
+  stufe: 4
+  gleichung: -3/4·x - 9/2 = 4/3·x + 71/12
+  loesung: '-5'
+  anzeige: '-5'
+  weg:
+  - -3/4·x - 9/2 = 4/3·x + 71/12
+  - -25/12·x - 9/2 = 71/12 | −4/3·x
+  - -25/12·x = 125/12 | +9/2
+  - x = -5 | :(−25/12)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`4/3·x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-25/12·x - 9/2 = 71/12`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -17/25
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 125/7
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -3125/144
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-035
+  typ: gleichung
+  stufe: 4
+  gleichung: -3/4·x - 3/2 = 9/2·x + 30
+  loesung: '-6'
+  anzeige: '-6'
+  weg:
+  - -3/4·x - 3/2 = 9/2·x + 30
+  - -21/4·x - 3/2 = 30 | −9/2·x
+  - -21/4·x = 63/2 | +3/2
+  - x = -6 | :(−21/4)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten −`9/2·x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-21/4·x - 3/2 = 30`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -38/7
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 42/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -1323/8
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-036
+  typ: gleichung
+  stufe: 4
+  gleichung: 7/6·x - 5/2 = -2x - 55/3
+  loesung: '-5'
+  anzeige: '-5'
+  weg:
+  - 7/6·x - 5/2 = -2x - 55/3
+  - 19/6·x - 5/2 = -55/3 | +2x
+  - 19/6·x = -95/6 | +5/2
+  - x = -5 | :19/6
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`2x`. Dann ist rechts kein x mehr.
+  - Danach steht da `19/6·x - 5/2 = -55/3`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -125/19
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '19'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -1805/36
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-037
+  typ: gleichung
+  stufe: 4
+  gleichung: -7/3·x + 1/4 = -1/2·x - 85/12
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - -7/3·x + 1/4 = -1/2·x - 85/12
+  - -11/6·x + 1/4 = -85/12 | +1/2·x
+  - -11/6·x = -22/3 | −1/4
+  - x = 4 | :(−11/6)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`1/2·x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-11/6·x + 1/4 = -85/12`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: 41/11
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 44/17
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 121/9
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-038
+  typ: gleichung
+  stufe: 4
+  gleichung: -1/3·x + 1/6 = -3x - 125/18
+  loesung: -8/3
+  anzeige: -8/3
+  weg:
+  - -1/3·x + 1/6 = -3x - 125/18
+  - 8/3·x + 1/6 = -125/18 | +3x
+  - 8/3·x = -64/9 | −1/6
+  - x = -8/3 | :8/3
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`3x`. Dann ist rechts kein x mehr.
+  - Danach steht da `8/3·x + 1/6 = -125/18`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: -61/24
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 32/15
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: -512/27
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-039
+  typ: gleichung
+  stufe: 4
+  gleichung: -3/4·x + 7/2 = -4/3·x + 49/12
+  loesung: '1'
+  anzeige: '1'
+  weg:
+  - -3/4·x + 7/2 = -4/3·x + 49/12
+  - 7/12·x + 7/2 = 49/12 | +4/3·x
+  - 7/12·x = 7/12 | −7/2
+  - x = 1 | :7/12
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`4/3·x`. Dann ist rechts kein x mehr.
+  - Danach steht da `7/12·x + 7/2 = 49/12`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '13'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -7/25
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 49/144
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.5-040
+  typ: gleichung
+  stufe: 4
+  gleichung: -7/2·x + 3/2 = -2x - 6
+  loesung: '5'
+  anzeige: '5'
+  weg:
+  - -7/2·x + 3/2 = -2x - 6
+  - -3/2·x + 3/2 = -6 | +2x
+  - -3/2·x = -15/2 | −3/2
+  - x = 5 | :(−3/2)
+  tipps:
+  - Bring zuerst alle x auf eine Seite und alle Zahlen auf die andere.
+  - Rechne auf beiden Seiten +`2x`. Dann ist rechts kein x mehr.
+  - Danach steht da `-3/2·x + 3/2 = -6`. Das löst du wie vorher in zwei Schritten.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 15/11
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: 45/4
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.

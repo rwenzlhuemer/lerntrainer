@@ -1,6 +1,8 @@
 // Lernstand – bleibt nur auf diesem Gerät (localStorage). Sicherung über Export/Import als Datei.
 
 const SCHLUESSEL = "lerntrainer.v1";
+export const HOECHSTE_STUFE = 4;
+const SICHER_AB = 3; // wer Stufe 3 sicher kann, hat den Schritt geschafft; Stufe 4 ist Kür
 
 function leer() {
   return { version: 1, faecher: {}, letzter: null, letzteAktivitaet: null, hinweiseGesehen: {} };
@@ -42,13 +44,13 @@ export function merkeErgebnis(fach, lid, aid, stufe, ergebnis) {
   const allein = dieseStufe.filter((v) => v.e === "richtig").length;
   let meldung = null;
   if (dieseStufe.length >= 3 && allein >= 3) {
-    if (ls.stufe < 3) {
-      ls.stufe += 1;
-      meldung = "aufstieg";
-    } else if (ls.status !== "sicher") {
+    if (ls.stufe >= SICHER_AB && ls.status !== "sicher") {
       ls.status = "sicher";
       meldung = "sicher";
+    } else if (ls.stufe < HOECHSTE_STUFE) {
+      meldung = "aufstieg";
     }
+    if (ls.stufe < HOECHSTE_STUFE) ls.stufe += 1;
   }
   // Sanfter Abstieg: zweimal hintereinander die Lösung angesehen
   const letzte2 = ls.verlauf.slice(-2);
@@ -65,8 +67,17 @@ export function merkeErgebnis(fach, lid, aid, stufe, ergebnis) {
 export function setzeSicher(fach, lid) {
   const ls = lernschritt(fach, lid);
   ls.status = "sicher";
-  ls.stufe = 3;
+  ls.stufe = HOECHSTE_STUFE;
   sichern();
+}
+
+// „Zu leicht“: eine Stufe hinauf, ohne dass die laufende Aufgabe zählt
+export function stufeHoch(fach, lid) {
+  const ls = lernschritt(fach, lid);
+  if (ls.stufe < HOECHSTE_STUFE) ls.stufe += 1;
+  if (ls.status === "neu") ls.status = "angefangen";
+  sichern();
+  return ls.stufe;
 }
 
 export function merkeBesuch(fach, lid) {

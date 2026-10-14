@@ -3,558 +3,932 @@
 - id: B1.6-001
   typ: gleichung
   stufe: 1
-  gleichung: 2(x - 5) = -6
-  loesung: '2'
-  anzeige: '2'
+  gleichung: 2(x + 7) = -3x + 19
+  loesung: '1'
+  anzeige: '1'
   weg:
-  - 2(x - 5) = -6
-  - 2x - 10 = -6 | ausmultiplizieren
-  - 2x = 4 | +10
-  - x = 2 | :2
+  - 2(x + 7) = -3x + 19
+  - 2x + 14 = -3x + 19 | ausmultiplizieren
+  - 5x + 14 = 19 | +3x
+  - 5x = 5 | −14
+  - x = 1 | :5
   tipps:
-  - 'Löse zuerst die Klammer auf: 2 mal x und 2 mal (-5).'
-  - 2(x - 5) = 2x - 10.
-  - Jetzt hast du 2x - 10 = -6 – das kennst du schon.
+  - 'Löse zuerst die Klammer auf: 2 · x und 2 · 7.'
+  - '`2(x + 7) = 2x + 14`. Achte auf die Vorzeichen!'
+  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: -1/2
-    hinweis: Beim Ausmultiplizieren muss die 2 mit beiden Gliedern in der Klammer multipliziert werden – auch mit (-5).
-  - antwort: '-8'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
+  - antwort: 12/5
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: 33/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-5'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '25'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.6-002
   typ: gleichung
   stufe: 1
-  gleichung: 2(x + 1) = 6
-  loesung: '2'
-  anzeige: '2'
+  gleichung: 4(x + 6) = 2x + 32
+  loesung: '4'
+  anzeige: '4'
   weg:
-  - 2(x + 1) = 6
-  - 2x + 2 = 6 | ausmultiplizieren
-  - 2x = 4 | −2
-  - x = 2 | :2
+  - 4(x + 6) = 2x + 32
+  - 4x + 24 = 2x + 32 | ausmultiplizieren
+  - 2x + 24 = 32 | −2x
+  - 2x = 8 | −24
+  - x = 4 | :2
   tipps:
-  - 'Löse zuerst die Klammer auf: 2 mal x und 2 mal 1.'
-  - 2(x + 1) = 2x + 2.
-  - Jetzt hast du 2x + 2 = 6 – das kennst du schon.
+  - 'Löse zuerst die Klammer auf: 4 · x und 4 · 6.'
+  - '`4(x + 6) = 4x + 24`. Achte auf die Vorzeichen!'
+  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: 5/2
-    hinweis: Beim Ausmultiplizieren muss die 2 mit beiden Gliedern in der Klammer multipliziert werden – auch mit 1.
-  - antwort: '4'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
+  - antwort: '13'
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: '28'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 4/3
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '16'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.6-003
   typ: gleichung
   stufe: 1
-  gleichung: 2(x + 1) = 6
-  loesung: '2'
-  anzeige: '2'
+  gleichung: -5(x + 2) = 5x - 80
+  loesung: '7'
+  anzeige: '7'
   weg:
-  - 2(x + 1) = 6
-  - 2x + 2 = 6 | ausmultiplizieren
-  - 2x = 4 | −2
-  - x = 2 | :2
+  - -5(x + 2) = 5x - 80
+  - -5x - 10 = 5x - 80 | ausmultiplizieren
+  - -10x - 10 = -80 | −5x
+  - -10x = -70 | +10
+  - x = 7 | :(−10)
   tipps:
-  - 'Löse zuerst die Klammer auf: 2 mal x und 2 mal 1.'
-  - 2(x + 1) = 2x + 2.
-  - Jetzt hast du 2x + 2 = 6 – das kennst du schon.
+  - 'Löse zuerst die Klammer auf: (-5) · x und (-5) · 2.'
+  - '`-5(x + 2) = -5x - 10`. Achte auf die Vorzeichen!'
+  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: 5/2
-    hinweis: Beim Ausmultiplizieren muss die 2 mit beiden Gliedern in der Klammer multipliziert werden – auch mit 1.
-  - antwort: '4'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
+  - antwort: 41/5
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: '9'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '700'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.6-004
   typ: gleichung
   stufe: 1
-  gleichung: 5(x + 3) = 55
-  loesung: '8'
-  anzeige: '8'
+  gleichung: 5(x - 4) = 4x - 28
+  loesung: '-8'
+  anzeige: '-8'
   weg:
-  - 5(x + 3) = 55
-  - 5x + 15 = 55 | ausmultiplizieren
-  - 5x = 40 | −15
-  - x = 8 | :5
+  - 5(x - 4) = 4x - 28
+  - 5x - 20 = 4x - 28 | ausmultiplizieren
+  - x - 20 = -28 | −4x
+  - x = -8 | +20
   tipps:
-  - 'Löse zuerst die Klammer auf: 5 mal x und 5 mal 3.'
-  - 5(x + 3) = 5x + 15.
-  - Jetzt hast du 5x + 15 = 55 – das kennst du schon.
+  - 'Löse zuerst die Klammer auf: 5 · x und 5 · (-4).'
+  - '`5(x - 4) = 5x - 20`. Achte auf die Vorzeichen!'
+  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: 52/5
-    hinweis: Beim Ausmultiplizieren muss die 5 mit beiden Gliedern in der Klammer multipliziert werden – auch mit 3.
-  - antwort: '14'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
+  - antwort: '-24'
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: '-48'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -8/9
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
 - id: B1.6-005
   typ: gleichung
   stufe: 1
-  gleichung: 3(x - 3) = 15
-  loesung: '8'
-  anzeige: '8'
+  gleichung: -4(x + 8) = 5x - 59
+  loesung: '3'
+  anzeige: '3'
   weg:
-  - 3(x - 3) = 15
-  - 3x - 9 = 15 | ausmultiplizieren
-  - 3x = 24 | +9
-  - x = 8 | :3
+  - -4(x + 8) = 5x - 59
+  - -4x - 32 = 5x - 59 | ausmultiplizieren
+  - -9x - 32 = -59 | −5x
+  - -9x = -27 | +32
+  - x = 3 | :(−9)
   tipps:
-  - 'Löse zuerst die Klammer auf: 3 mal x und 3 mal (-3).'
-  - 3(x - 3) = 3x - 9.
-  - Jetzt hast du 3x - 9 = 15 – das kennst du schon.
+  - 'Löse zuerst die Klammer auf: (-4) · x und (-4) · 8.'
+  - '`-4(x + 8) = -4x - 32`. Achte auf die Vorzeichen!'
+  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: '6'
-    hinweis: Beim Ausmultiplizieren muss die 3 mit beiden Gliedern in der Klammer multipliziert werden – auch mit (-3).
-  - antwort: '2'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
+  - antwort: 67/9
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: 91/9
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-27'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '243'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.6-006
   typ: gleichung
   stufe: 1
-  gleichung: 4(x + 2) = 36
-  loesung: '7'
-  anzeige: '7'
+  gleichung: 2(x - 1) = -3x - 37
+  loesung: '-7'
+  anzeige: '-7'
   weg:
-  - 4(x + 2) = 36
-  - 4x + 8 = 36 | ausmultiplizieren
-  - 4x = 28 | −8
-  - x = 7 | :4
+  - 2(x - 1) = -3x - 37
+  - 2x - 2 = -3x - 37 | ausmultiplizieren
+  - 5x - 2 = -37 | +3x
+  - 5x = -35 | +2
+  - x = -7 | :5
   tipps:
-  - 'Löse zuerst die Klammer auf: 4 mal x und 4 mal 2.'
-  - 4(x + 2) = 4x + 8.
-  - Jetzt hast du 4x + 8 = 36 – das kennst du schon.
+  - 'Löse zuerst die Klammer auf: 2 · x und 2 · (-1).'
+  - '`2(x - 1) = 2x - 2`. Achte auf die Vorzeichen!'
+  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: 17/2
-    hinweis: Beim Ausmultiplizieren muss die 4 mit beiden Gliedern in der Klammer multipliziert werden – auch mit 2.
-  - antwort: '11'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
+  - antwort: -36/5
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: -39/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '35'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-175'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.6-007
   typ: gleichung
   stufe: 1
-  gleichung: 3(x - 3) = 6
-  loesung: '5'
-  anzeige: '5'
-  weg:
-  - 3(x - 3) = 6
-  - 3x - 9 = 6 | ausmultiplizieren
-  - 3x = 15 | +9
-  - x = 5 | :3
-  tipps:
-  - 'Löse zuerst die Klammer auf: 3 mal x und 3 mal (-3).'
-  - 3(x - 3) = 3x - 9.
-  - Jetzt hast du 3x - 9 = 6 – das kennst du schon.
-  fehler:
-  - antwort: '3'
-    hinweis: Beim Ausmultiplizieren muss die 3 mit beiden Gliedern in der Klammer multipliziert werden – auch mit (-3).
-  - antwort: '-1'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
-- id: B1.6-008
-  typ: gleichung
-  stufe: 1
-  gleichung: 2(x - 2) = 2
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 2(x - 2) = 2
-  - 2x - 4 = 2 | ausmultiplizieren
-  - 2x = 6 | +4
-  - x = 3 | :2
-  tipps:
-  - 'Löse zuerst die Klammer auf: 2 mal x und 2 mal (-2).'
-  - 2(x - 2) = 2x - 4.
-  - Jetzt hast du 2x - 4 = 2 – das kennst du schon.
-  fehler:
-  - antwort: '2'
-    hinweis: Beim Ausmultiplizieren muss die 2 mit beiden Gliedern in der Klammer multipliziert werden – auch mit (-2).
-  - antwort: '-1'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
-- id: B1.6-009
-  typ: gleichung
-  stufe: 1
-  gleichung: 2(x + 6) = 14
-  loesung: '1'
-  anzeige: '1'
-  weg:
-  - 2(x + 6) = 14
-  - 2x + 12 = 14 | ausmultiplizieren
-  - 2x = 2 | −12
-  - x = 1 | :2
-  tipps:
-  - 'Löse zuerst die Klammer auf: 2 mal x und 2 mal 6.'
-  - 2(x + 6) = 2x + 12.
-  - Jetzt hast du 2x + 12 = 14 – das kennst du schon.
-  fehler:
-  - antwort: '4'
-    hinweis: Beim Ausmultiplizieren muss die 2 mit beiden Gliedern in der Klammer multipliziert werden – auch mit 6.
-  - antwort: '13'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
-- id: B1.6-010
-  typ: gleichung
-  stufe: 1
-  gleichung: 5(x - 3) = 5
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - 5(x - 3) = 5
-  - 5x - 15 = 5 | ausmultiplizieren
-  - 5x = 20 | +15
-  - x = 4 | :5
-  tipps:
-  - 'Löse zuerst die Klammer auf: 5 mal x und 5 mal (-3).'
-  - 5(x - 3) = 5x - 15.
-  - Jetzt hast du 5x - 15 = 5 – das kennst du schon.
-  fehler:
-  - antwort: 8/5
-    hinweis: Beim Ausmultiplizieren muss die 5 mit beiden Gliedern in der Klammer multipliziert werden – auch mit (-3).
-  - antwort: '-2'
-    hinweis: Fast – schau noch einmal auf das Vorzeichen der Zahl in der Klammer.
-- id: B1.6-011
-  typ: gleichung
-  stufe: 2
-  gleichung: -1(x + 1) = x - 9
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - -1(x + 1) = x - 9
-  - -x - 1 = x - 9 | ausmultiplizieren
-  - -2x - 1 = -9 | −x
-  - -2x = -8 | +1
-  - x = 4 | :(−2)
-  tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - -1(x + 1) = -x - 1. Achte auf die Vorzeichen!
-  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
-  fehler:
-  - antwort: '5'
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-012
-  typ: gleichung
-  stufe: 2
-  gleichung: -5(x + 6) = -x - 58
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - -5(x + 6) = -x - 58
-  - -5x - 30 = -x - 58 | ausmultiplizieren
-  - -4x - 30 = -58 | +x
-  - -4x = -28 | +30
-  - x = 7 | :(−4)
-  tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - -5(x + 6) = -5x - 30. Achte auf die Vorzeichen!
-  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
-  fehler:
-  - antwort: '16'
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-013
-  typ: gleichung
-  stufe: 2
-  gleichung: 2(x - 5) = x - 4
+  gleichung: -4(x - 7) = -3x + 22
   loesung: '6'
   anzeige: '6'
   weg:
-  - 2(x - 5) = x - 4
-  - 2x - 10 = x - 4 | ausmultiplizieren
-  - x - 10 = -4 | −x
-  - x = 6 | +10
-  - x = 6 | :1
+  - -4(x - 7) = -3x + 22
+  - -4x + 28 = -3x + 22 | ausmultiplizieren
+  - -x + 28 = 22 | +3x
+  - -x = -6 | −28
+  - x = 6 | :(−1)
   tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 2(x - 5) = 2x - 10. Achte auf die Vorzeichen!
+  - 'Löse zuerst die Klammer auf: (-4) · x und (-4) · (-7).'
+  - '`-4(x - 7) = -4x + 28`. Achte auf die Vorzeichen!'
   - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: '1'
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-014
+  - antwort: '-29'
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: '-50'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 6/7
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+- id: B1.6-008
   typ: gleichung
-  stufe: 2
-  gleichung: 2(x - 2) = -x + 2
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - 2(x - 2) = -x + 2
-  - 2x - 4 = -x + 2 | ausmultiplizieren
-  - 3x - 4 = 2 | +x
-  - 3x = 6 | +4
-  - x = 2 | :3
-  tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 2(x - 2) = 2x - 4. Achte auf die Vorzeichen!
-  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
-  fehler:
-  - antwort: 4/3
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-015
-  typ: gleichung
-  stufe: 2
-  gleichung: 5(x + 2) = -3x + 18
-  loesung: '1'
-  anzeige: '1'
-  weg:
-  - 5(x + 2) = -3x + 18
-  - 5x + 10 = -3x + 18 | ausmultiplizieren
-  - 8x + 10 = 18 | +3x
-  - 8x = 8 | −10
-  - x = 1 | :8
-  tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 5(x + 2) = 5x + 10. Achte auf die Vorzeichen!
-  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
-  fehler:
-  - antwort: '2'
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-016
-  typ: gleichung
-  stufe: 2
-  gleichung: 3(x + 4) = -4x + 26
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - 3(x + 4) = -4x + 26
-  - 3x + 12 = -4x + 26 | ausmultiplizieren
-  - 7x + 12 = 26 | +4x
-  - 7x = 14 | −12
-  - x = 2 | :7
-  tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 3(x + 4) = 3x + 12. Achte auf die Vorzeichen!
-  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
-  fehler:
-  - antwort: 22/7
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-017
-  typ: gleichung
-  stufe: 2
-  gleichung: -5(x + 5) = -2x - 34
+  stufe: 1
+  gleichung: -2(x + 7) = x - 23
   loesung: '3'
   anzeige: '3'
   weg:
-  - -5(x + 5) = -2x - 34
-  - -5x - 25 = -2x - 34 | ausmultiplizieren
-  - -3x - 25 = -34 | +2x
-  - -3x = -9 | +25
+  - -2(x + 7) = x - 23
+  - -2x - 14 = x - 23 | ausmultiplizieren
+  - -3x - 14 = -23 | −x
+  - -3x = -9 | +14
   - x = 3 | :(−3)
   tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - -5(x + 5) = -5x - 25. Achte auf die Vorzeichen!
+  - 'Löse zuerst die Klammer auf: (-2) · x und (-2) · 7.'
+  - '`-2(x + 7) = -2x - 14`. Achte auf die Vorzeichen!'
   - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: '13'
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-018
+  - antwort: '10'
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: 37/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '9'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '27'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-009
   typ: gleichung
-  stufe: 2
-  gleichung: 2(x - 3) = -3x + 14
-  loesung: '4'
-  anzeige: '4'
+  stufe: 1
+  gleichung: -3(x - 1) = 2x - 27
+  loesung: '6'
+  anzeige: '6'
   weg:
-  - 2(x - 3) = -3x + 14
-  - 2x - 6 = -3x + 14 | ausmultiplizieren
-  - 5x - 6 = 14 | +3x
-  - 5x = 20 | +6
-  - x = 4 | :5
+  - -3(x - 1) = 2x - 27
+  - -3x + 3 = 2x - 27 | ausmultiplizieren
+  - -5x + 3 = -27 | −2x
+  - -5x = -30 | −3
+  - x = 6 | :(−5)
   tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 2(x - 3) = 2x - 6. Achte auf die Vorzeichen!
+  - 'Löse zuerst die Klammer auf: (-3) · x und (-3) · (-1).'
+  - '`-3(x - 1) = -3x + 3`. Achte auf die Vorzeichen!'
   - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: 17/5
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-019
+  - antwort: 26/5
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: 24/5
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '30'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '150'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-010
   typ: gleichung
-  stufe: 2
-  gleichung: 2(x - 1) = -4x - 26
-  loesung: '-4'
-  anzeige: '-4'
+  stufe: 1
+  gleichung: 4(x + 3) = x + 15
+  loesung: '1'
+  anzeige: '1'
   weg:
-  - 2(x - 1) = -4x - 26
-  - 2x - 2 = -4x - 26 | ausmultiplizieren
-  - 6x - 2 = -26 | +4x
-  - 6x = -24 | +2
-  - x = -4 | :6
+  - 4(x + 3) = x + 15
+  - 4x + 12 = x + 15 | ausmultiplizieren
+  - 3x + 12 = 15 | −x
+  - 3x = 3 | −12
+  - x = 1 | :3
   tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 2(x - 1) = 2x - 2. Achte auf die Vorzeichen!
+  - 'Löse zuerst die Klammer auf: 4 · x und 4 · 3.'
+  - '`4(x + 3) = 4x + 12`. Achte auf die Vorzeichen!'
   - Dann alle x auf eine Seite, alle Zahlen auf die andere.
   fehler:
-  - antwort: -25/6
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-020
+  - antwort: '4'
+    hinweis: Beim Ausmultiplizieren muss die Zahl vor der Klammer mit jedem Glied in der Klammer multipliziert werden.
+  - antwort: '9'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 3/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+- id: B1.6-011
   typ: gleichung
   stufe: 2
-  gleichung: 4(x + 6) = -x + 14
+  gleichung: 7x - 6 - (x + 1) = -19
   loesung: '-2'
   anzeige: '-2'
   weg:
-  - 4(x + 6) = -x + 14
-  - 4x + 24 = -x + 14 | ausmultiplizieren
-  - 5x + 24 = 14 | +x
-  - 5x = -10 | −24
-  - x = -2 | :5
-  tipps:
-  - Zuerst die Klammer auflösen (ausmultiplizieren).
-  - 4(x + 6) = 4x + 24. Achte auf die Vorzeichen!
-  - Dann alle x auf eine Seite, alle Zahlen auf die andere.
-  fehler:
-  - antwort: 8/5
-    hinweis: 'Beim Ausmultiplizieren: Die Zahl vor der Klammer gehört mit jedem Glied in der Klammer multipliziert.'
-- id: B1.6-021
-  typ: gleichung
-  stufe: 3
-  gleichung: 4x - 6 - (2x + 2) = -10
-  loesung: '-1'
-  anzeige: '-1'
-  weg:
-  - 4x - 6 - (2x + 2) = -10
-  - 4x - 6 - 2x - 2 = -10 | Minus vor der Klammer
-  - 2x - 8 = -10 | zusammenfassen
-  - 2x = -2 | +8
-  - x = -1 | :2
+  - 7x - 6 - (x + 1) = -19
+  - 7x - 6 - x - 1 = -19 | Minus vor der Klammer
+  - 6x - 7 = -19 | zusammenfassen
+  - 6x = -12 | +7
+  - x = -2 | :6
   tipps:
   - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(2x + 2) wird zu −2x − 2.
-  - Dann fasst du die x-Glieder und die Zahlen zusammen.
-  fehler:
-  - antwort: '-3'
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von 2 umgedreht werden.
-  - antwort: -1/3
-    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
-- id: B1.6-022
-  typ: gleichung
-  stufe: 3
-  gleichung: 4x + 6 - (3x + 8) = 5
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - 4x + 6 - (3x + 8) = 5
-  - 4x + 6 - 3x - 8 = 5 | Minus vor der Klammer
-  - x - 2 = 5 | zusammenfassen
-  - x = 7 | +2
-  - x = 7 | :1
-  tipps:
-  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(3x + 8) wird zu −3x − 8.
-  - Dann fasst du die x-Glieder und die Zahlen zusammen.
-  fehler:
-  - antwort: '-9'
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von 8 umgedreht werden.
-  - antwort: '1'
-    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
-- id: B1.6-023
-  typ: gleichung
-  stufe: 3
-  gleichung: 7x - 6 - (4x + 3) = -15
-  loesung: '-2'
-  anzeige: '-2'
-  weg:
-  - 7x - 6 - (4x + 3) = -15
-  - 7x - 6 - 4x - 3 = -15 | Minus vor der Klammer
-  - 3x - 9 = -15 | zusammenfassen
-  - 3x = -6 | +9
-  - x = -2 | :3
-  tipps:
-  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(4x + 3) wird zu −4x − 3.
-  - Dann fasst du die x-Glieder und die Zahlen zusammen.
-  fehler:
-  - antwort: '-4'
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von 3 umgedreht werden.
-  - antwort: -6/11
-    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
-- id: B1.6-024
-  typ: gleichung
-  stufe: 3
-  gleichung: 7x + 3 - (x - 5) = -16
-  loesung: '-4'
-  anzeige: '-4'
-  weg:
-  - 7x + 3 - (x - 5) = -16
-  - 7x + 3 - x + 5 = -16 | Minus vor der Klammer
-  - 6x + 8 = -16 | zusammenfassen
-  - 6x = -24 | −8
-  - x = -4 | :6
-  tipps:
-  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(x - 5) wird zu −x + 5.
+  - '`-(x + 1)` wird zu `-x - 1`.'
   - Dann fasst du die x-Glieder und die Zahlen zusammen.
   fehler:
   - antwort: -7/3
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von (-5) umgedreht werden.
-  - antwort: '-3'
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: -3/2
     hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
-- id: B1.6-025
+- id: B1.6-012
   typ: gleichung
-  stufe: 3
-  gleichung: 4x - 4 - (5x - 1) = -6
-  loesung: '3'
-  anzeige: '3'
+  stufe: 2
+  gleichung: 3x - 3 - (-5x - 8) = 53
+  loesung: '6'
+  anzeige: '6'
   weg:
-  - 4x - 4 - (5x - 1) = -6
-  - 4x - 4 - 5x + 1 = -6 | Minus vor der Klammer
-  - -x - 3 = -6 | zusammenfassen
-  - -x = -3 | +3
-  - x = 3 | :(−1)
+  - 3x - 3 - (-5x - 8) = 53
+  - 3x - 3 + 5x + 8 = 53 | Minus vor der Klammer
+  - 8x + 5 = 53 | zusammenfassen
+  - 8x = 48 | −5
+  - x = 6 | :8
   tipps:
   - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(5x - 1) wird zu −5x + 1.
+  - '`-(-5x - 8)` wird zu `5x + 8`.'
   - Dann fasst du die x-Glieder und die Zahlen zusammen.
   fehler:
-  - antwort: '1'
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von (-1) umgedreht werden.
-  - antwort: -1/3
+  - antwort: '8'
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: '-24'
     hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
-- id: B1.6-026
+- id: B1.6-013
   typ: gleichung
-  stufe: 3
-  gleichung: 2x + 3 - (x - 9) = 19
-  loesung: '7'
-  anzeige: '7'
+  stufe: 2
+  gleichung: 3x - 2 - (-4x - 6) = 67
+  loesung: '9'
+  anzeige: '9'
   weg:
-  - 2x + 3 - (x - 9) = 19
-  - 2x + 3 - x + 9 = 19 | Minus vor der Klammer
-  - x + 12 = 19 | zusammenfassen
-  - x = 7 | −12
-  - x = 7 | :1
+  - 3x - 2 - (-4x - 6) = 67
+  - 3x - 2 + 4x + 6 = 67 | Minus vor der Klammer
+  - 7x + 4 = 67 | zusammenfassen
+  - 7x = 63 | −4
+  - x = 9 | :7
   tipps:
   - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(x - 9) wird zu −x + 9.
+  - '`-(-4x - 6)` wird zu `4x + 6`.'
   - Dann fasst du die x-Glieder und die Zahlen zusammen.
   fehler:
-  - antwort: '25'
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von (-9) umgedreht werden.
-  - antwort: 7/3
+  - antwort: 75/7
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: '-63'
     hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
-- id: B1.6-027
+- id: B1.6-014
   typ: gleichung
-  stufe: 3
-  gleichung: 6x + 5 - (x - 3) = -2
+  stufe: 2
+  gleichung: -7x + 2 - (-4x + 7) = 22
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - -7x + 2 - (-4x + 7) = 22
+  - -7x + 2 + 4x - 7 = 22 | Minus vor der Klammer
+  - -3x - 5 = 22 | zusammenfassen
+  - -3x = 27 | +5
+  - x = -9 | :(−3)
+  tipps:
+  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
+  - '`-(-4x + 7)` wird zu `4x - 7`.'
+  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  fehler:
+  - antwort: -13/3
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: -27/11
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-015
+  typ: gleichung
+  stufe: 2
+  gleichung: 2x + 6 - (5x - 2) = 29
+  loesung: '-7'
+  anzeige: '-7'
+  weg:
+  - 2x + 6 - (5x - 2) = 29
+  - 2x + 6 - 5x + 2 = 29 | Minus vor der Klammer
+  - -3x + 8 = 29 | zusammenfassen
+  - -3x = 21 | −8
+  - x = -7 | :(−3)
+  tipps:
+  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
+  - '`-(5x - 2)` wird zu `-5x + 2`.'
+  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  fehler:
+  - antwort: -25/3
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: '3'
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-016
+  typ: gleichung
+  stufe: 2
+  gleichung: 4x + 4 - (3x + 1) = 1
   loesung: '-2'
   anzeige: '-2'
   weg:
-  - 6x + 5 - (x - 3) = -2
-  - 6x + 5 - x + 3 = -2 | Minus vor der Klammer
-  - 5x + 8 = -2 | zusammenfassen
-  - 5x = -10 | −8
-  - x = -2 | :5
+  - 4x + 4 - (3x + 1) = 1
+  - 4x + 4 - 3x - 1 = 1 | Minus vor der Klammer
+  - x + 3 = 1 | zusammenfassen
+  - x = -2 | −3
   tipps:
   - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(x - 3) wird zu −x + 3.
+  - '`-(3x + 1)` wird zu `-3x - 1`.'
   - Dann fasst du die x-Glieder und die Zahlen zusammen.
   fehler:
-  - antwort: -4/5
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von (-3) umgedreht werden.
-  - antwort: -10/7
+  - antwort: '-4'
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: -2/7
     hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-017
+  typ: gleichung
+  stufe: 2
+  gleichung: x - 9 - (4x + 1) = -4
+  loesung: '-2'
+  anzeige: '-2'
+  weg:
+  - x - 9 - (4x + 1) = -4
+  - x - 9 - 4x - 1 = -4 | Minus vor der Klammer
+  - -3x - 10 = -4 | zusammenfassen
+  - -3x = 6 | +10
+  - x = -2 | :(−3)
+  tipps:
+  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
+  - '`-(4x + 1)` wird zu `-4x - 1`.'
+  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  fehler:
+  - antwort: -4/3
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: 6/5
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-018
+  typ: gleichung
+  stufe: 2
+  gleichung: -6x - 2 - (-4x - 5) = 7
+  loesung: '-2'
+  anzeige: '-2'
+  weg:
+  - -6x - 2 - (-4x - 5) = 7
+  - -6x - 2 + 4x + 5 = 7 | Minus vor der Klammer
+  - -2x + 3 = 7 | zusammenfassen
+  - -2x = 4 | −3
+  - x = -2 | :(−2)
+  tipps:
+  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
+  - '`-(-4x - 5)` wird zu `4x + 5`.'
+  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  fehler:
+  - antwort: '-7'
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: -2/5
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-019
+  typ: gleichung
+  stufe: 2
+  gleichung: 6x + 8 - (3x + 9) = -16
+  loesung: '-5'
+  anzeige: '-5'
+  weg:
+  - 6x + 8 - (3x + 9) = -16
+  - 6x + 8 - 3x - 9 = -16 | Minus vor der Klammer
+  - 3x - 1 = -16 | zusammenfassen
+  - 3x = -15 | +1
+  - x = -5 | :3
+  tipps:
+  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
+  - '`-(3x + 9)` wird zu `-3x - 9`.'
+  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  fehler:
+  - antwort: '-11'
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: -5/3
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-020
+  typ: gleichung
+  stufe: 2
+  gleichung: 5x + 5 - (x - 1) = 2
+  loesung: '-1'
+  anzeige: '-1'
+  weg:
+  - 5x + 5 - (x - 1) = 2
+  - 5x + 5 - x + 1 = 2 | Minus vor der Klammer
+  - 4x + 6 = 2 | zusammenfassen
+  - 4x = -4 | −6
+  - x = -1 | :4
+  tipps:
+  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
+  - '`-(x - 1)` wird zu `-x + 1`.'
+  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  fehler:
+  - antwort: -1/2
+    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen der Zahl in der Klammer umgedreht werden.
+  - antwort: -2/3
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+- id: B1.6-021
+  typ: gleichung
+  stufe: 3
+  gleichung: 2(x - 2) - 2(2x + 2) = 0
+  loesung: '-4'
+  anzeige: '-4'
+  weg:
+  - 2(x - 2) - 2(2x + 2) = 0
+  - 2x - 4 - 4x - 4 = 0 | ausmultiplizieren
+  - -2x - 8 = 0 | zusammenfassen
+  - -2x = 8 | +8
+  - x = -4 | :(−2)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−2).'
+  - '`-2(2x + 2) = -4x - 4`.'
+  - Zusammengefasst steht da `-2x - 8 = 0`.
+  fehler:
+  - antwort: '0'
+    hinweis: Beim Auflösen von −2(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: '4'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-16'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-022
+  typ: gleichung
+  stufe: 3
+  gleichung: 4(2x + 6) - 2(x - 8) = 88
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - 4(2x + 6) - 2(x - 8) = 88
+  - 8x + 24 - 2x + 16 = 88 | ausmultiplizieren
+  - 6x + 40 = 88 | zusammenfassen
+  - 6x = 48 | −40
+  - x = 8 | :6
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−2).'
+  - '`-2(x - 8) = -2x + 16`.'
+  - Zusammengefasst steht da `6x + 40 = 88`.
+  fehler:
+  - antwort: 40/3
+    hinweis: Beim Auflösen von −2(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: 64/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '288'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-023
+  typ: gleichung
+  stufe: 3
+  gleichung: 5(x + 6) - 4(3x - 9) = 24
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - 5(x + 6) - 4(3x - 9) = 24
+  - 5x + 30 - 12x + 36 = 24 | ausmultiplizieren
+  - -7x + 66 = 24 | zusammenfassen
+  - -7x = -42 | −66
+  - x = 6 | :(−7)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−4).'
+  - '`-4(3x - 9) = -12x + 36`.'
+  - Zusammengefasst steht da `-7x + 66 = 24`.
+  fehler:
+  - antwort: -30/7
+    hinweis: Beim Auflösen von −4(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: -90/7
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '294'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-024
+  typ: gleichung
+  stufe: 3
+  gleichung: 3(x - 8) - 3(3x - 9) = -45
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - 3(x - 8) - 3(3x - 9) = -45
+  - 3x - 24 - 9x + 27 = -45 | ausmultiplizieren
+  - -6x + 3 = -45 | zusammenfassen
+  - -6x = -48 | −3
+  - x = 8 | :(−6)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−3).'
+  - '`-3(3x - 9) = -9x + 27`.'
+  - Zusammengefasst steht da `-6x + 3 = -45`.
+  fehler:
+  - antwort: '-1'
+    hinweis: Beim Auflösen von −3(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: '7'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '288'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-025
+  typ: gleichung
+  stufe: 3
+  gleichung: 2(x - 4) - 3(3x - 8) = 65
+  loesung: '-7'
+  anzeige: '-7'
+  weg:
+  - 2(x - 4) - 3(3x - 8) = 65
+  - 2x - 8 - 9x + 24 = 65 | ausmultiplizieren
+  - -7x + 16 = 65 | zusammenfassen
+  - -7x = 49 | −16
+  - x = -7 | :(−7)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−3).'
+  - '`-3(3x - 8) = -9x + 24`.'
+  - Zusammengefasst steht da `-7x + 16 = 65`.
+  fehler:
+  - antwort: -97/7
+    hinweis: Beim Auflösen von −3(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: -81/7
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-343'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-026
+  typ: gleichung
+  stufe: 3
+  gleichung: 3(x + 2) - 2(2x - 9) = 32
+  loesung: '-8'
+  anzeige: '-8'
+  weg:
+  - 3(x + 2) - 2(2x - 9) = 32
+  - 3x + 6 - 4x + 18 = 32 | ausmultiplizieren
+  - -x + 24 = 32 | zusammenfassen
+  - -x = 8 | −24
+  - x = -8 | :(−1)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−2).'
+  - '`-2(2x - 9) = -4x + 18`.'
+  - Zusammengefasst steht da `-x + 24 = 32`.
+  fehler:
+  - antwort: '-44'
+    hinweis: Beim Auflösen von −2(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: '-56'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+- id: B1.6-027
+  typ: gleichung
+  stufe: 3
+  gleichung: 4(2x + 3) - 3(2x + 3) = 1
+  loesung: '-1'
+  anzeige: '-1'
+  weg:
+  - 4(2x + 3) - 3(2x + 3) = 1
+  - 8x + 12 - 6x - 9 = 1 | ausmultiplizieren
+  - 2x + 3 = 1 | zusammenfassen
+  - 2x = -2 | −3
+  - x = -1 | :2
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−3).'
+  - '`-3(2x + 3) = -6x - 9`.'
+  - Zusammengefasst steht da `2x + 3 = 1`.
+  fehler:
+  - antwort: '-10'
+    hinweis: Beim Auflösen von −3(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: '2'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-4'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.6-028
   typ: gleichung
   stufe: 3
-  gleichung: 5x - 2 - (4x - 3) = 2
+  gleichung: 4(2x - 6) - 3(3x - 7) = 4
+  loesung: '-7'
+  anzeige: '-7'
+  weg:
+  - 4(2x - 6) - 3(3x - 7) = 4
+  - 8x - 24 - 9x + 21 = 4 | ausmultiplizieren
+  - -x - 3 = 4 | zusammenfassen
+  - -x = 7 | +3
+  - x = -7 | :(−1)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−3).'
+  - '`-3(3x - 7) = -9x + 21`.'
+  - Zusammengefasst steht da `-x - 3 = 4`.
+  fehler:
+  - antwort: '-49'
+    hinweis: Beim Auflösen von −3(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: '-1'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+- id: B1.6-029
+  typ: gleichung
+  stufe: 3
+  gleichung: 3(2x + 3) - 3(3x - 8) = 24
+  loesung: '3'
+  anzeige: '3'
+  weg:
+  - 3(2x + 3) - 3(3x - 8) = 24
+  - 6x + 9 - 9x + 24 = 24 | ausmultiplizieren
+  - -3x + 33 = 24 | zusammenfassen
+  - -3x = -9 | −33
+  - x = 3 | :(−3)
+  tipps:
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−3).'
+  - '`-3(3x - 8) = -9x + 24`.'
+  - Zusammengefasst steht da `-3x + 33 = 24`.
+  fehler:
+  - antwort: '-13'
+    hinweis: Beim Auflösen von −3(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: '-19'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '27'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-030
+  typ: gleichung
+  stufe: 3
+  gleichung: 5(x - 5) - 4(3x - 6) = -8
   loesung: '1'
   anzeige: '1'
   weg:
-  - 5x - 2 - (4x - 3) = 2
-  - 5x - 2 - 4x + 3 = 2 | Minus vor der Klammer
-  - x + 1 = 2 | zusammenfassen
-  - x = 1 | −1
-  - x = 1 | :1
+  - 5(x - 5) - 4(3x - 6) = -8
+  - 5x - 25 - 12x + 24 = -8 | ausmultiplizieren
+  - -7x - 1 = -8 | zusammenfassen
+  - -7x = -7 | +1
+  - x = 1 | :(−7)
   tipps:
-  - Ein Minus vor der Klammer dreht beim Auflösen jedes Vorzeichen in der Klammer um.
-  - −(4x - 3) wird zu −4x + 3.
-  - Dann fasst du die x-Glieder und die Zahlen zusammen.
+  - 'Löse beide Klammern auf. Bei der zweiten gehört das Minus zur Zahl davor: Du multiplizierst mit (−4).'
+  - '`-4(3x - 6) = -12x + 24`.'
+  - Zusammengefasst steht da `-7x - 1 = -8`.
   fehler:
-  - antwort: '7'
-    hinweis: Beim Minus vor der Klammer muss auch das Vorzeichen von (-3) umgedreht werden.
-  - antwort: 1/9
-    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen vor dem x um.
+  - antwort: -41/7
+    hinweis: Beim Auflösen von −4(…) dreht sich das Vorzeichen jedes Glieds um – auch das der Zahl.
+  - antwort: 9/7
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '49'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-031
+  typ: gleichung
+  stufe: 4
+  gleichung: 5(3x - 6) - (2x + 4) = 2(x - 6)
+  loesung: '2'
+  anzeige: '2'
+  weg:
+  - 5(3x - 6) - (2x + 4) = 2(x - 6)
+  - 15x - 30 - 2x - 4 = 2x - 12 | ausmultiplizieren
+  - 13x - 34 = 2x - 12 | zusammenfassen
+  - 11x - 34 = -12 | −2x
+  - 11x = 22 | +34
+  - x = 2 | :11
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `15x - 30 - 2x - 4`, rechts: `2x - 12`.'
+  - 'Zusammengefasst: `13x - 34 = 2x - 12`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: 14/11
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: -46/11
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 22/15
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '242'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-032
+  typ: gleichung
+  stufe: 4
+  gleichung: 5(x + 2) - (5x - 4) = -2(x - 2)
+  loesung: '-5'
+  anzeige: '-5'
+  weg:
+  - 5(x + 2) - (5x - 4) = -2(x - 2)
+  - 5x + 10 - 5x + 4 = -2x + 4 | ausmultiplizieren
+  - 14 = -2x + 4 | zusammenfassen
+  - 2x + 14 = 4 | +2x
+  - 2x = -10 | −14
+  - x = -5 | :2
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `5x + 10 - 5x + 4`, rechts: `-2x + 4`.'
+  - 'Zusammengefasst: `14 = -2x + 4`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: '-1'
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: '9'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '5'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-20'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-033
+  typ: gleichung
+  stufe: 4
+  gleichung: 3(3x - 1) - (5x - 5) = -2(x - 1)
+  loesung: '0'
+  anzeige: '0'
+  weg:
+  - 3(3x - 1) - (5x - 5) = -2(x - 1)
+  - 9x - 3 - 5x + 5 = -2x + 2 | ausmultiplizieren
+  - 4x + 2 = -2x + 2 | zusammenfassen
+  - 6x + 2 = 2 | +2x
+  - 6x = 0 | −2
+  - x = 0 | :6
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `9x - 3 - 5x + 5`, rechts: `-2x + 2`.'
+  - 'Zusammengefasst: `4x + 2 = -2x + 2`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: 5/3
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: 2/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+- id: B1.6-034
+  typ: gleichung
+  stufe: 4
+  gleichung: 5(2x - 4) - (2x - 5) = 4(x - 5)
+  loesung: -5/4
+  anzeige: -5/4 = -1,25
+  weg:
+  - 5(2x - 4) - (2x - 5) = 4(x - 5)
+  - 10x - 20 - 2x + 5 = 4x - 20 | ausmultiplizieren
+  - 8x - 15 = 4x - 20 | zusammenfassen
+  - 4x - 15 = -20 | −4x
+  - 4x = -5 | +15
+  - x = -5/4 | :4
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `10x - 20 - 2x + 5`, rechts: `4x - 20`.'
+  - 'Zusammengefasst: `8x - 15 = 4x - 20`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: 5/4
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: -35/4
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -5/12
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-20'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-035
+  typ: gleichung
+  stufe: 4
+  gleichung: -2(4x + 4) - (-4x - 7) = -2(x + 5)
+  loesung: 9/2
+  anzeige: 9/2 = 4,5
+  weg:
+  - -2(4x + 4) - (-4x - 7) = -2(x + 5)
+  - -8x - 8 + 4x + 7 = -2x - 10 | ausmultiplizieren
+  - -4x - 1 = -2x - 10 | zusammenfassen
+  - -2x - 1 = -10 | +2x
+  - -2x = -9 | +1
+  - x = 9/2 | :(−2)
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `-8x - 8 + 4x + 7`, rechts: `-2x - 10`.'
+  - 'Zusammengefasst: `-4x - 1 = -2x - 10`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: -5/2
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: 11/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 3/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '18'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-036
+  typ: gleichung
+  stufe: 4
+  gleichung: -4(3x - 4) - (-3x - 4) = -3(x + 2)
+  loesung: 13/3
+  anzeige: 13/3
+  weg:
+  - -4(3x - 4) - (-3x - 4) = -3(x + 2)
+  - -12x + 16 + 3x + 4 = -3x - 6 | ausmultiplizieren
+  - -9x + 20 = -3x - 6 | zusammenfassen
+  - -6x + 20 = -6 | +3x
+  - -6x = -26 | −20
+  - x = 13/3 | :(−6)
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `-12x + 16 + 3x + 4`, rechts: `-3x - 6`.'
+  - 'Zusammengefasst: `-9x + 20 = -3x - 6`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: '3'
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: -7/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 13/6
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '156'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-037
+  typ: gleichung
+  stufe: 4
+  gleichung: 5(2x + 6) - (-3x + 3) = 3(x + 4)
+  loesung: -3/2
+  anzeige: -3/2 = -1,5
+  weg:
+  - 5(2x + 6) - (-3x + 3) = 3(x + 4)
+  - 10x + 30 + 3x - 3 = 3x + 12 | ausmultiplizieren
+  - 13x + 27 = 3x + 12 | zusammenfassen
+  - 10x + 27 = 12 | −3x
+  - 10x = -15 | −27
+  - x = -3/2 | :10
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `10x + 30 + 3x - 3`, rechts: `3x + 12`.'
+  - 'Zusammengefasst: `13x + 27 = 3x + 12`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: -21/10
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: 39/10
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -15/16
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-150'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-038
+  typ: gleichung
+  stufe: 4
+  gleichung: -4(x + 3) - (x - 9) = 3(x + 5)
+  loesung: -9/4
+  anzeige: -9/4 = -2,25
+  weg:
+  - -4(x + 3) - (x - 9) = 3(x + 5)
+  - -4x - 12 - x + 9 = 3x + 15 | ausmultiplizieren
+  - -5x - 3 = 3x + 15 | zusammenfassen
+  - -8x - 3 = 15 | −3x
+  - -8x = 18 | +3
+  - x = -9/4 | :(−8)
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `-4x - 12 - x + 9`, rechts: `3x + 15`.'
+  - 'Zusammengefasst: `-5x - 3 = 3x + 15`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: -9/2
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: -3/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-9'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-144'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-039
+  typ: gleichung
+  stufe: 4
+  gleichung: 2(3x + 1) - (-x - 7) = -2(x + 6)
+  loesung: -7/3
+  anzeige: -7/3
+  weg:
+  - 2(3x + 1) - (-x - 7) = -2(x + 6)
+  - 6x + 2 + x + 7 = -2x - 12 | ausmultiplizieren
+  - 7x + 9 = -2x - 12 | zusammenfassen
+  - 9x + 9 = -12 | +2x
+  - 9x = -21 | −9
+  - x = -7/3 | :9
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `6x + 2 + x + 7`, rechts: `-2x - 12`.'
+  - 'Zusammengefasst: `7x + 9 = -2x - 12`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: -7/9
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: -1/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -21/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-189'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.6-040
+  typ: gleichung
+  stufe: 4
+  gleichung: -2(4x - 3) - (4x - 4) = -4(x + 1)
+  loesung: 7/4
+  anzeige: 7/4 = 1,75
+  weg:
+  - -2(4x - 3) - (4x - 4) = -4(x + 1)
+  - -8x + 6 - 4x + 4 = -4x - 4 | ausmultiplizieren
+  - -12x + 10 = -4x - 4 | zusammenfassen
+  - -8x + 10 = -4 | +4x
+  - -8x = -14 | −10
+  - x = 7/4 | :(−8)
+  tipps:
+  - Zuerst alle Klammern auflösen – links und rechts. Achtung beim Minus vor der Klammer!
+  - 'Links: `-8x + 6 - 4x + 4`, rechts: `-4x - 4`.'
+  - 'Zusammengefasst: `-12x + 10 = -4x - 4`. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: 3/4
+    hinweis: Beim Minus vor der Klammer dreht sich auch das Vorzeichen der Zahl um.
+  - antwort: -3/4
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 7/8
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '112'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.

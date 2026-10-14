@@ -163,6 +163,48 @@ async function main() {
   pruefe((await rm()).startsWith("rueckmeldung neutral"), "Lösung zeigen: neutral, nicht orange");
   await bild("10-loesung-gezeigt");
 
+  // „Zu leicht? Schwerer“ hebt die Stufe sofort an
+  await geh("#/ueben/B1.5");
+  const s0 = (await js("window.__aufgabe")).stufe;
+  await js("document.querySelector('#schwerer').click()");
+  await warte(300);
+  const s1 = await js("window.__aufgabe.stufe");
+  const kopf = await js("document.querySelector('.stufe').innerText");
+  pruefe(s0 === 1 && s1 === 2 && /Üben/i.test(kopf) && (await js("!!document.querySelector('.aufstieg')")),
+    `Schwerer-Knopf: Stufe ${s0} → ${s1} (${kopf})`);
+  await bild("10b-schwerer");
+
+  // „Kann ich schon“: drei Prüfaufgaben (Stufe 3, 3, 4), alle richtig → Schritt erledigt
+  await geh("#/ls/B1.3");
+  pruefe(await js("document.querySelector('#kann').classList.contains('zweit-knopf')"), "Lernschritt: „Kann ich schon“ deutlich sichtbar");
+  await js("document.querySelector('#kann').click()");
+  await warte(500);
+  const stufenTest = [];
+  for (let i = 0; i < 3; i++) {
+    const p = await js("window.__aufgabe");
+    stufenTest.push(p.stufe);
+    await tippe(`x = ${p.loesung}`);
+    await js("document.querySelector('#next').click()");
+    await warte(300);
+  }
+  pruefe(stufenTest.join() === "3,3,4" && (await js("document.body.innerText.includes('Das kannst du schon')")),
+    `Kann ich schon: Prüfaufgaben Stufe ${stufenTest.join("/")}, bestanden`);
+  pruefe((await js("JSON.parse(localStorage.getItem('lerntrainer.v1')).faecher.mathe.ls['B1.3'].status")) === "sicher", "Kann ich schon: Schritt als sicher gespeichert");
+  await bild("10c-kann-ich-schon");
+
+  // Matura-Niveau: Brüche als Koeffizienten werden gesetzt, Musterlösung lesbar
+  await js(`(() => { const z = JSON.parse(localStorage.getItem('lerntrainer.v1'));
+    z.faecher.mathe.ls['B1.4'] = { stufe: 4, status: 'angefangen', verlauf: [] };
+    localStorage.setItem('lerntrainer.v1', JSON.stringify(z)); })()`);
+  await cdp("Page.reload");
+  await warte(1200);
+  await geh("#/ueben/B1.4");
+  const m = await js("window.__aufgabe");
+  pruefe(m.stufe === 4 && (await js("!!document.querySelector('.gleichung-gross .bruch')")), `Matura-Niveau: ${m.id} ${m.gleichung} mit Bruch gesetzt`);
+  await js("document.querySelector('#zeigen').click()");
+  await warte(200);
+  await bild("10d-matura-niveau");
+
   // Lernpfad und Lernstand
   await geh("#/pfad");
   pruefe((await js("document.querySelectorAll('.ls a').length")) === 9, "Lernpfad: 9 verfügbare Lernschritte verlinkt");

@@ -4,7 +4,8 @@ import * as S from "./speicher.js";
 import { schmierzettel } from "./schmierzettel.js";
 
 const FACH = "mathe";
-const STUFE_NAME = { 1: "Einstieg", 2: "Üben", 3: "Matura-nah" };
+const STUFE_NAME = { 1: "Einstieg", 2: "Üben", 3: "Vertiefen", 4: "Matura-Niveau" };
+const TEST_STUFEN = [3, 3, 4]; // „Kann ich schon“: zwei Aufgaben Vertiefen, eine auf Matura-Niveau
 const LOB = ["Gut gemacht!", "Genau so!", "Sauber gelöst.", "Richtig!", "Stark!", "Passt!", "Super, stimmt!"];
 const MUT = [
   "Du bist auf einem guten Weg.", "Schritt für Schritt wird das sicherer.", "Das sitzt immer besser.",
@@ -162,9 +163,10 @@ async function seiteLernschritt(lid) {
       ${weg ? `<ol class="weg">${weg}</ol>` : ""}</section>` : ""}
     <div class="knopfreihe">
       <button class="knopf haupt-knopf" id="los">Los geht's</button>
-      <button class="knopf leise-knopf" id="kann">Kann ich schon</button>
+      <button class="knopf zweit-knopf" id="kann">Kann ich schon ✓</button>
     </div>
-    <p class="leise klein-text">„Kann ich schon“: drei Prüfaufgaben – passen sie, ist der Schritt erledigt.</p>`;
+    <p class="leise klein-text">Kennst du das schon? Mit „Kann ich schon“ bekommst du drei schwierigere Prüfaufgaben.
+      Passen alle drei, ist der Schritt erledigt und du gehst gleich weiter.</p>`;
   haupt.querySelector("#los").addEventListener("click", () => geh(`#/ueben/${lid}`));
   haupt.querySelector("#kann").addEventListener("click", () => geh(`#/test/${lid}`));
 }
@@ -174,7 +176,7 @@ async function seiteLernschritt(lid) {
 function waehleAufgabe(ls, stufe, ausser) {
   const verlauf = S.lernschritt(FACH, ls.id).verlauf;
   let kandidaten = ls.aufgaben.filter((a) => a.stufe === stufe);
-  for (let d = 1; !kandidaten.length && d < 3; d++) kandidaten = ls.aufgaben.filter((a) => Math.abs(a.stufe - stufe) === d);
+  for (let d = 1; !kandidaten.length && d < S.HOECHSTE_STUFE; d++) kandidaten = ls.aufgaben.filter((a) => Math.abs(a.stufe - stufe) === d);
   const zuletzt = new Map();
   verlauf.forEach((v, i) => zuletzt.set(v.a, i));
   let pool = kandidaten.filter((a) => !zuletzt.has(a.id) && a.id !== ausser);
@@ -192,6 +194,7 @@ async function seiteUeben(lid, testModus) {
   const test = testModus ? { nr: 0, richtig: 0, gesehen: new Set() } : null;
   let aufgabe = null;
   let zettel = null;
+  let hinweisOben = "";
 
   haupt.innerHTML = `
     <div class="leiste">
@@ -230,11 +233,25 @@ async function seiteUeben(lid, testModus) {
   function naechste() {
     if (test && test.nr >= 3) return testErgebnis();
     const st = S.lernschritt(FACH, lid);
-    const stufe = test ? 3 : st.stufe;
+    const stufe = test ? TEST_STUFEN[test.nr] : st.stufe;
     aufgabe = waehleAufgabe(ls, stufe, aufgabe?.id);
     if (test) { test.nr++; }
     zettel?.leeren();
     zeigeAufgabe(aufgabe, stufe);
+  }
+
+  function schwerer() {
+    const neu = S.stufeHoch(FACH, lid);
+    hinweisOben = `<p class="aufstieg">Alles klar – ab jetzt: <strong>${STUFE_NAME[neu]}</strong>.</p>`;
+    naechste();
+  }
+
+  // Knöpfe unter der Aufgabe, die nur beim Üben Sinn haben
+  function uebenKnoepfe() {
+    if (test) return "";
+    const st = S.lernschritt(FACH, lid);
+    return (st.stufe < S.HOECHSTE_STUFE ? `<button class="knopf leise-knopf" id="schwerer">Zu leicht? Schwerer ⬆</button>` : "") +
+      (st.status !== "sicher" && st.stufe < 3 ? `<a href="#/test/${esc(lid)}" class="knopf leise-knopf">Kann ich schon ✓</a>` : "");
   }
 
   function testErgebnis() {
@@ -259,7 +276,7 @@ async function seiteUeben(lid, testModus) {
     const zustand = { tipps: 0, fehlversuche: 0, gezeigt: false, fertig: false, zeilen: [] };
     window.__aufgabe = a; // für tools/test_browser.mjs
     const istGl = a.typ === "gleichung";
-    const kopf = test ? `Prüfaufgabe ${test.nr} von 3` : STUFE_NAME[stufe];
+    const kopf = test ? `Prüfaufgabe ${test.nr} von 3` : `${STUFE_NAME[stufe]} · Stufe ${stufe} von ${S.HOECHSTE_STUFE}`;
     let koerper;
     if (istGl) {
       koerper = `<p class="anweisung">Löse die Gleichung.</p>
@@ -281,6 +298,7 @@ async function seiteUeben(lid, testModus) {
 
     ort.innerHTML = `
       <section class="karte aufgabe">
+        ${hinweisOben}
         <p class="stufe">${esc(kopf)}</p>
         ${koerper}
         ${eingabe}
@@ -290,8 +308,11 @@ async function seiteUeben(lid, testModus) {
           ${(a.tipps || []).length ? `<button class="knopf leise-knopf" id="tipp">💡 Tipp</button>` : ""}
           <button class="knopf leise-knopf" id="zettel-knopf">✏️ Schmierzettel</button>
           ${test ? "" : `<button class="knopf leise-knopf" id="zeigen">Lösung zeigen</button>`}
+          ${uebenKnoepfe()}
         </div>
       </section>`;
+    hinweisOben = "";
+    ort.querySelector("#schwerer")?.addEventListener("click", schwerer);
 
     const rm = ort.querySelector("#rm");
     const feld = ort.querySelector("#feld");
@@ -325,7 +346,7 @@ async function seiteUeben(lid, testModus) {
       }
       const zusatz = {
         aufstieg: `<p class="aufstieg">Du bist jetzt bei <strong>${STUFE_NAME[S.lernschritt(FACH, lid).stufe]}</strong>. Die Aufgaben werden ein bisschen anspruchsvoller.</p>`,
-        sicher: `<p class="aufstieg">🎉 <strong>Diesen Schritt kannst du!</strong> Du kannst weiterüben oder zum nächsten Schritt gehen.</p>`,
+        sicher: `<p class="aufstieg">🎉 <strong>Diesen Schritt kannst du!</strong> Du kannst zum nächsten Schritt gehen – oder dich an Aufgaben auf Matura-Niveau wagen.</p>`,
         leichter: `<p class="aufstieg">Wir machen kurz mit etwas leichteren Aufgaben weiter.</p>`,
       }[meldung] || "";
       const n = meldung === "sicher" ? nachfolger(lid) : null;
@@ -342,8 +363,10 @@ async function seiteUeben(lid, testModus) {
       hilfen.innerHTML = zeitUm
         ? `<a href="#/" class="knopf haupt-knopf">Fertig für heute</a><button class="knopf leise-knopf" id="next">Noch eine Aufgabe</button>`
         : `<button class="knopf haupt-knopf" id="next">${test && test.nr >= 3 ? "Auswerten" : "Nächste Aufgabe"}</button>` +
-          (n ? `<button class="knopf leise-knopf" id="zum-naechsten">Weiter: ${esc(n.id)}</button>` : "");
+          (n ? `<button class="knopf leise-knopf" id="zum-naechsten">Weiter: ${esc(n.id)}</button>` : "") +
+          (zeitUm ? "" : uebenKnoepfe());
       hilfen.querySelector("#next")?.addEventListener("click", naechste);
+      hilfen.querySelector("#schwerer")?.addEventListener("click", schwerer);
       hilfen.querySelector("#zum-naechsten")?.addEventListener("click", () => geh(`#/ls/${n.id}`));
       hilfen.querySelector("#next")?.focus();
     }

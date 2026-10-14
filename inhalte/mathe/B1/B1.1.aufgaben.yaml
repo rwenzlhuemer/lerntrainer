@@ -3,16 +3,16 @@
 - id: B1.1-001
   typ: auswahl
   stufe: 1
-  frage: Ist x = 8 eine Lösung der Gleichung `x + 3 = 12`?
+  frage: Ist `x = 8` eine Lösung der Gleichung `-3x - 6 = -30`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 1
-  erklaerung: 'Probe: `8 + 3 = 11`. Das ist nicht 12 – also ist x = 8 keine Lösung.'
+  - 0
+  erklaerung: Setze `x = 8` links und rechts ein. Links kommt `-30` heraus, rechts `-30`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: x + 3 = 12
+    gleichung: -3x - 6 = -30
     wert: '8'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
@@ -20,357 +20,663 @@
 - id: B1.1-002
   typ: auswahl
   stufe: 1
-  frage: Ist x = 8 eine Lösung der Gleichung `x + 9 = 17`?
+  frage: Ist `x = 7` eine Lösung der Gleichung `-6x + 7 = -35`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: 'Probe: `8 + 9 = 17`. Das ist genau 17 ✓ – also ja, x = 8 ist eine Lösung.'
+  erklaerung: Setze `x = 7` links und rechts ein. Links kommt `-35` heraus, rechts `-35`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: x + 9 = 17
-    wert: '8'
+    gleichung: -6x + 7 = -35
+    wert: '7'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-003
   typ: auswahl
   stufe: 1
-  frage: Ist x = 5 eine Lösung der Gleichung `x + 6 = 12`?
+  frage: Ist `x = 6` eine Lösung der Gleichung `5x + 8 = 38`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 1
-  erklaerung: 'Probe: `5 + 6 = 11`. Das ist nicht 12 – also ist x = 5 keine Lösung.'
+  - 0
+  erklaerung: Setze `x = 6` links und rechts ein. Links kommt `38` heraus, rechts `38`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: x + 6 = 12
-    wert: '5'
+    gleichung: 5x + 8 = 38
+    wert: '6'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-004
   typ: auswahl
   stufe: 1
-  frage: Ist x = 11 eine Lösung der Gleichung `x + 7 = 16`?
+  frage: Ist `x = -1` eine Lösung der Gleichung `4x - 11 = -7`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 1
-  erklaerung: 'Probe: `11 + 7 = 18`. Das ist nicht 16 – also ist x = 11 keine Lösung.'
+  erklaerung: Setze `x = -1` links und rechts ein. Links kommt `-15` heraus, rechts `-7`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: x + 7 = 16
-    wert: '11'
+    gleichung: 4x - 11 = -7
+    wert: '-1'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-005
   typ: auswahl
   stufe: 1
-  frage: Ist x = 7 eine Lösung der Gleichung `x + 5 = 12`?
+  frage: Ist `x = 4` eine Lösung der Gleichung `-2x - 10 = -20`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 0
-  erklaerung: 'Probe: `7 + 5 = 12`. Das ist genau 12 ✓ – also ja, x = 7 ist eine Lösung.'
+  - 1
+  erklaerung: Setze `x = 4` links und rechts ein. Links kommt `-18` heraus, rechts `-20`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: x + 5 = 12
-    wert: '7'
+    gleichung: -2x - 10 = -20
+    wert: '4'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-006
   typ: auswahl
   stufe: 1
-  frage: Ist x = 10 eine Lösung der Gleichung `x + 6 = 14`?
+  frage: Ist `x = -7` eine Lösung der Gleichung `-4x - 12 = 8`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 1
-  erklaerung: 'Probe: `10 + 6 = 16`. Das ist nicht 14 – also ist x = 10 keine Lösung.'
+  erklaerung: Setze `x = -7` links und rechts ein. Links kommt `16` heraus, rechts `8`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: x + 6 = 14
-    wert: '10'
+    gleichung: -4x - 12 = 8
+    wert: '-7'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-007
   typ: auswahl
   stufe: 1
-  frage: Ist x = 5 eine Lösung der Gleichung `x + 5 = 11`?
+  frage: Ist `x = -8` eine Lösung der Gleichung `-4x - 12 = -44`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 1
-  erklaerung: 'Probe: `5 + 5 = 10`. Das ist nicht 11 – also ist x = 5 keine Lösung.'
+  erklaerung: Setze `x = -8` links und rechts ein. Links kommt `20` heraus, rechts `-44`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: x + 5 = 11
-    wert: '5'
+    gleichung: -4x - 12 = -44
+    wert: '-8'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-008
   typ: auswahl
   stufe: 1
-  frage: Ist x = 2 eine Lösung der Gleichung `x + 6 = 8`?
+  frage: Ist `x = -5` eine Lösung der Gleichung `-5x - 6 = 19`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: 'Probe: `2 + 6 = 8`. Das ist genau 8 ✓ – also ja, x = 2 ist eine Lösung.'
+  erklaerung: Setze `x = -5` links und rechts ein. Links kommt `19` heraus, rechts `19`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: x + 6 = 8
-    wert: '2'
+    gleichung: -5x - 6 = 19
+    wert: '-5'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-009
   typ: auswahl
-  stufe: 2
-  frage: Ist x = 4 eine Lösung der Gleichung `2x - 9 = 3`?
+  stufe: 1
+  frage: Ist `x = -9` eine Lösung der Gleichung `6x - 6 = 48`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 1
-  erklaerung: 'Probe: `2 · 4 − 9 = -1`. Das ist nicht 3 – also ist x = 4 keine Lösung.'
+  erklaerung: Setze `x = -9` links und rechts ein. Links kommt `-60` heraus, rechts `48`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: 2x - 9 = 3
-    wert: '4'
+    gleichung: 6x - 6 = 48
+    wert: '-9'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-010
   typ: auswahl
-  stufe: 2
-  frage: Ist x = 7 eine Lösung der Gleichung `4x + 3 = 23`?
+  stufe: 1
+  frage: Ist `x = -2` eine Lösung der Gleichung `-4x + 6 = -2`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 1
-  erklaerung: 'Probe: `4 · 7 + 3 = 31`. Das ist nicht 23 – also ist x = 7 keine Lösung.'
+  erklaerung: Setze `x = -2` links und rechts ein. Links kommt `14` heraus, rechts `-2`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: 4x + 3 = 23
-    wert: '7'
+    gleichung: -4x + 6 = -2
+    wert: '-2'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-011
   typ: auswahl
   stufe: 2
-  frage: Ist x = 5 eine Lösung der Gleichung `2x - 5 = 7`?
+  frage: Ist `x = 2` eine Lösung der Gleichung `-2x - 8 = -5x - 2`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 1
-  erklaerung: 'Probe: `2 · 5 − 5 = 5`. Das ist nicht 7 – also ist x = 5 keine Lösung.'
+  - 0
+  erklaerung: Setze `x = 2` links und rechts ein. Links kommt `-12` heraus, rechts `-12`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 2x - 5 = 7
-    wert: '5'
+    gleichung: -2x - 8 = -5x - 2
+    wert: '2'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-012
   typ: auswahl
   stufe: 2
-  frage: Ist x = 2 eine Lösung der Gleichung `4x - 8 = 0`?
+  frage: Ist `x = 5` eine Lösung der Gleichung `3x + 5 = 2x + 10`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: 'Probe: `4 · 2 − 8 = 0`. Das ist genau 0 ✓ – also ja, x = 2 ist eine Lösung.'
+  erklaerung: Setze `x = 5` links und rechts ein. Links kommt `20` heraus, rechts `20`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 4x - 8 = 0
-    wert: '2'
+    gleichung: 3x + 5 = 2x + 10
+    wert: '5'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-013
   typ: auswahl
   stufe: 2
-  frage: Ist x = -2 eine Lösung der Gleichung `2x - 3 = -7`?
+  frage: Ist `x = -3` eine Lösung der Gleichung `5x - 5 = 4x - 8`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: 'Probe: `2 · (-2) − 3 = -7`. Das ist genau -7 ✓ – also ja, x = -2 ist eine Lösung.'
+  erklaerung: Setze `x = -3` links und rechts ein. Links kommt `-20` heraus, rechts `-20`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 2x - 3 = -7
-    wert: '-2'
+    gleichung: 5x - 5 = 4x - 8
+    wert: '-3'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-014
   typ: auswahl
   stufe: 2
-  frage: Ist x = 3 eine Lösung der Gleichung `6x + 8 = 26`?
+  frage: Ist `x = -2` eine Lösung der Gleichung `x + 3 = 3x + 7`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: 'Probe: `6 · 3 + 8 = 26`. Das ist genau 26 ✓ – also ja, x = 3 ist eine Lösung.'
+  erklaerung: Setze `x = -2` links und rechts ein. Links kommt `1` heraus, rechts `1`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 6x + 8 = 26
-    wert: '3'
+    gleichung: x + 3 = 3x + 7
+    wert: '-2'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-015
   typ: auswahl
   stufe: 2
-  frage: Ist x = 4 eine Lösung der Gleichung `2x + 2 = 6`?
+  frage: Ist `x = 8` eine Lösung der Gleichung `5x - 4 = 4x + 4`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 1
-  erklaerung: 'Probe: `2 · 4 + 2 = 10`. Das ist nicht 6 – also ist x = 4 keine Lösung.'
+  - 0
+  erklaerung: Setze `x = 8` links und rechts ein. Links kommt `36` heraus, rechts `36`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 2x + 2 = 6
-    wert: '4'
+    gleichung: 5x - 4 = 4x + 4
+    wert: '8'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-016
   typ: auswahl
   stufe: 2
-  frage: Ist x = -3 eine Lösung der Gleichung `4x - 9 = -21`?
+  frage: Ist `x = 3` eine Lösung der Gleichung `6x + 4 = -5x + 37`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: 'Probe: `4 · (-3) − 9 = -21`. Das ist genau -21 ✓ – also ja, x = -3 ist eine Lösung.'
+  erklaerung: Setze `x = 3` links und rechts ein. Links kommt `22` heraus, rechts `22`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 4x - 9 = -21
-    wert: '-3'
+    gleichung: 6x + 4 = -5x + 37
+    wert: '3'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-017
   typ: auswahl
-  stufe: 3
-  frage: Ist x = -3 eine Lösung der Gleichung `6x + 6 = x - 9`?
+  stufe: 2
+  frage: Ist `x = -6` eine Lösung der Gleichung `6x + 8 = 2x - 12`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 0
-  erklaerung: Setze x = -3 links und rechts ein. Links kommt -12 heraus, rechts -12. Beide Seiten sind gleich ✓ – also ja.
+  - 1
+  erklaerung: Setze `x = -6` links und rechts ein. Links kommt `-28` heraus, rechts `-24`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: 6x + 6 = x - 9
-    wert: '-3'
+    gleichung: 6x + 8 = 2x - 12
+    wert: '-6'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-018
   typ: auswahl
-  stufe: 3
-  frage: Ist x = 0 eine Lösung der Gleichung `4x + 8 = 3x + 7`?
-  optionen:
-  - Ja
-  - Nein
-  richtig:
-  - 1
-  erklaerung: Setze x = 0 links und rechts ein. Links kommt 8 heraus, rechts 7. Die Seiten sind verschieden – also keine Lösung.
-  pruefung:
-    art: einsetzen
-    gleichung: 4x + 8 = 3x + 7
-    wert: '0'
-  tipps:
-  - Setze die Zahl statt x ein und rechne beide Seiten aus.
-  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
-- id: B1.1-019
-  typ: auswahl
-  stufe: 3
-  frage: Ist x = 3 eine Lösung der Gleichung `3x - 3 = 2x`?
+  stufe: 2
+  frage: Ist `x = -6` eine Lösung der Gleichung `6x - 8 = 5x - 14`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: Setze x = 3 links und rechts ein. Links kommt 6 heraus, rechts 6. Beide Seiten sind gleich ✓ – also ja.
+  erklaerung: Setze `x = -6` links und rechts ein. Links kommt `-44` heraus, rechts `-44`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 3x - 3 = 2x
-    wert: '3'
+    gleichung: 6x - 8 = 5x - 14
+    wert: '-6'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-019
+  typ: auswahl
+  stufe: 2
+  frage: Ist `x = -4` eine Lösung der Gleichung `-4x + 7 = 4x + 39`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = -4` links und rechts ein. Links kommt `23` heraus, rechts `23`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -4x + 7 = 4x + 39
+    wert: '-4'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-020
   typ: auswahl
-  stufe: 3
-  frage: Ist x = 2 eine Lösung der Gleichung `2x - 3 = 3x - 4`?
+  stufe: 2
+  frage: Ist `x = -5` eine Lösung der Gleichung `-5x + 9 = -3x + 19`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 1
-  erklaerung: Setze x = 2 links und rechts ein. Links kommt 1 heraus, rechts 2. Die Seiten sind verschieden – also keine Lösung.
+  - 0
+  erklaerung: Setze `x = -5` links und rechts ein. Links kommt `34` heraus, rechts `34`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 2x - 3 = 3x - 4
-    wert: '2'
+    gleichung: -5x + 9 = -3x + 19
+    wert: '-5'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-021
   typ: auswahl
   stufe: 3
-  frage: Ist x = -2 eine Lösung der Gleichung `6x - 3 = 2x - 11`?
+  frage: Ist `x = -3` eine Lösung der Gleichung `4(x + 6) = x + 33`?
   optionen:
   - Ja
   - Nein
   richtig:
-  - 0
-  erklaerung: Setze x = -2 links und rechts ein. Links kommt -15 heraus, rechts -15. Beide Seiten sind gleich ✓ – also ja.
+  - 1
+  erklaerung: Setze `x = -3` links und rechts ein. Links kommt `12` heraus, rechts `30`. Die Seiten sind verschieden – also keine Lösung.
   pruefung:
     art: einsetzen
-    gleichung: 6x - 3 = 2x - 11
-    wert: '-2'
+    gleichung: 4(x + 6) = x + 33
+    wert: '-3'
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
 - id: B1.1-022
   typ: auswahl
   stufe: 3
-  frage: Ist x = 8 eine Lösung der Gleichung `6x + 7 = 4x + 23`?
+  frage: Ist `x = -4` eine Lösung der Gleichung `5(x - 3) = -x + 9`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  erklaerung: Setze `x = -4` links und rechts ein. Links kommt `-35` heraus, rechts `13`. Die Seiten sind verschieden – also keine Lösung.
+  pruefung:
+    art: einsetzen
+    gleichung: 5(x - 3) = -x + 9
+    wert: '-4'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-023
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = -6` eine Lösung der Gleichung `-3(x + 5) = 2x + 15`?
   optionen:
   - Ja
   - Nein
   richtig:
   - 0
-  erklaerung: Setze x = 8 links und rechts ein. Links kommt 55 heraus, rechts 55. Beide Seiten sind gleich ✓ – also ja.
+  erklaerung: Setze `x = -6` links und rechts ein. Links kommt `3` heraus, rechts `3`. Beide Seiten sind gleich ✓ – also ja.
   pruefung:
     art: einsetzen
-    gleichung: 6x + 7 = 4x + 23
-    wert: '8'
+    gleichung: -3(x + 5) = 2x + 15
+    wert: '-6'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-024
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = -4` eine Lösung der Gleichung `3(x + 7) = -4x - 7`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = -4` links und rechts ein. Links kommt `9` heraus, rechts `9`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: 3(x + 7) = -4x - 7
+    wert: '-4'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-025
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = -3` eine Lösung der Gleichung `-4(x - 7) = -2x + 36`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  erklaerung: Setze `x = -3` links und rechts ein. Links kommt `40` heraus, rechts `42`. Die Seiten sind verschieden – also keine Lösung.
+  pruefung:
+    art: einsetzen
+    gleichung: -4(x - 7) = -2x + 36
+    wert: '-3'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-026
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = -4` eine Lösung der Gleichung `-5(x + 3) = 2x - 43`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  erklaerung: Setze `x = -4` links und rechts ein. Links kommt `5` heraus, rechts `-51`. Die Seiten sind verschieden – also keine Lösung.
+  pruefung:
+    art: einsetzen
+    gleichung: -5(x + 3) = 2x - 43
+    wert: '-4'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-027
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = -6` eine Lösung der Gleichung `-5(x + 2) = -3x + 2`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = -6` links und rechts ein. Links kommt `20` heraus, rechts `20`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -5(x + 2) = -3x + 2
+    wert: '-6'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-028
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = -6` eine Lösung der Gleichung `-5(x - 4) = -3x + 32`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = -6` links und rechts ein. Links kommt `50` heraus, rechts `50`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -5(x - 4) = -3x + 32
+    wert: '-6'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-029
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = 3` eine Lösung der Gleichung `5(x - 4) = -3x + 4`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 3` links und rechts ein. Links kommt `-5` heraus, rechts `-5`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: 5(x - 4) = -3x + 4
+    wert: '3'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-030
+  typ: auswahl
+  stufe: 3
+  frage: Ist `x = 2` eine Lösung der Gleichung `-3(x - 7) = -2x + 19`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 2` links und rechts ein. Links kommt `15` heraus, rechts `15`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -3(x - 7) = -2x + 19
+    wert: '2'
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-031
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 9/2` eine Lösung der Gleichung `4(x - 4) = 8x - 34`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 9/2` links und rechts ein. Links kommt `2` heraus, rechts `2`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: 4(x - 4) = 8x - 34
+    wert: 9/2
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-032
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = -1/2` eine Lösung der Gleichung `-5(x + 2) = -3x - 9`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = -1/2` links und rechts ein. Links kommt `-15/2` heraus, rechts `-15/2`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -5(x + 2) = -3x - 9
+    wert: -1/2
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-033
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = -2/3` eine Lösung der Gleichung `-5(x + 4) = -8x - 18`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  erklaerung: Setze `x = -2/3` links und rechts ein. Links kommt `-50/3` heraus, rechts `-38/3`. Die Seiten sind verschieden – also keine Lösung.
+  pruefung:
+    art: einsetzen
+    gleichung: -5(x + 4) = -8x - 18
+    wert: -2/3
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-034
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 9/4` eine Lösung der Gleichung `3(x + 2) = -5x + 24`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 9/4` links und rechts ein. Links kommt `51/4` heraus, rechts `51/4`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: 3(x + 2) = -5x + 24
+    wert: 9/4
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-035
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = -1/3` eine Lösung der Gleichung `6(x - 3) = 12x - 14`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  erklaerung: Setze `x = -1/3` links und rechts ein. Links kommt `-20` heraus, rechts `-18`. Die Seiten sind verschieden – also keine Lösung.
+  pruefung:
+    art: einsetzen
+    gleichung: 6(x - 3) = 12x - 14
+    wert: -1/3
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-036
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 1/2` eine Lösung der Gleichung `-3(x + 5) = -x - 16`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 1/2` links und rechts ein. Links kommt `-33/2` heraus, rechts `-33/2`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -3(x + 5) = -x - 16
+    wert: 1/2
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-037
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 1/3` eine Lösung der Gleichung `-6(x + 4) = -3x - 25`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 1/3` links und rechts ein. Links kommt `-26` heraus, rechts `-26`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -6(x + 4) = -3x - 25
+    wert: 1/3
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-038
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 9/4` eine Lösung der Gleichung `-3(x + 1) = x - 12`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 9/4` links und rechts ein. Links kommt `-39/4` heraus, rechts `-39/4`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -3(x + 1) = x - 12
+    wert: 9/4
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-039
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 5/3` eine Lösung der Gleichung `-5(x - 2) = -8x + 15`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 5/3` links und rechts ein. Links kommt `5/3` heraus, rechts `5/3`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: -5(x - 2) = -8x + 15
+    wert: 5/3
+  tipps:
+  - Setze die Zahl statt x ein und rechne beide Seiten aus.
+  - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.
+- id: B1.1-040
+  typ: auswahl
+  stufe: 4
+  frage: Ist `x = 5/3` eine Lösung der Gleichung `5(x - 4) = -x - 10`?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  erklaerung: Setze `x = 5/3` links und rechts ein. Links kommt `-35/3` heraus, rechts `-35/3`. Beide Seiten sind gleich ✓ – also ja.
+  pruefung:
+    art: einsetzen
+    gleichung: 5(x - 4) = -x - 10
+    wert: 5/3
   tipps:
   - Setze die Zahl statt x ein und rechne beide Seiten aus.
   - Wenn links und rechts dasselbe herauskommt, ist es eine Lösung.

@@ -3,536 +3,865 @@
 - id: B1.7-001
   typ: gleichung
   stufe: 1
-  gleichung: x/2 + 4 = 11
-  loesung: '14'
-  anzeige: '14'
+  gleichung: x/3 + x/6 = -15
+  loesung: '-30'
+  anzeige: '-30'
   weg:
-  - x/2 + 4 = 11
-  - x/2 = 7 | −4
-  - x = 14 | ·2
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −4. Dann steht x/2 = 7 da.
-  - 'x/2 heißt x : 2. Das Gegenteil ist · 2.'
-  fehler:
-  - antwort: 7/2
-    hinweis: 'x/2 heißt x : 2. Um das wegzubringen, rechnest du mal 2, nicht durch 2.'
-  - antwort: '30'
-    hinweis: Um + 4 wegzubringen, rechnest du − 4.
-- id: B1.7-002
-  typ: gleichung
-  stufe: 1
-  gleichung: x/3 + 9 = 10
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - x/3 + 9 = 10
-  - x/3 = 1 | −9
-  - x = 3 | ·3
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −9. Dann steht x/3 = 1 da.
-  - 'x/3 heißt x : 3. Das Gegenteil ist · 3.'
-  fehler:
-  - antwort: 1/3
-    hinweis: 'x/3 heißt x : 3. Um das wegzubringen, rechnest du mal 3, nicht durch 3.'
-  - antwort: '57'
-    hinweis: Um + 9 wegzubringen, rechnest du − 9.
-- id: B1.7-003
-  typ: gleichung
-  stufe: 1
-  gleichung: x/4 + 8 = 14
-  loesung: '24'
-  anzeige: '24'
-  weg:
-  - x/4 + 8 = 14
-  - x/4 = 6 | −8
-  - x = 24 | ·4
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −8. Dann steht x/4 = 6 da.
-  - 'x/4 heißt x : 4. Das Gegenteil ist · 4.'
-  fehler:
-  - antwort: 3/2
-    hinweis: 'x/4 heißt x : 4. Um das wegzubringen, rechnest du mal 4, nicht durch 4.'
-  - antwort: '88'
-    hinweis: Um + 8 wegzubringen, rechnest du − 8.
-- id: B1.7-004
-  typ: gleichung
-  stufe: 1
-  gleichung: x/3 + 4 = 12
-  loesung: '24'
-  anzeige: '24'
-  weg:
-  - x/3 + 4 = 12
-  - x/3 = 8 | −4
-  - x = 24 | ·3
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −4. Dann steht x/3 = 8 da.
-  - 'x/3 heißt x : 3. Das Gegenteil ist · 3.'
-  fehler:
-  - antwort: 8/3
-    hinweis: 'x/3 heißt x : 3. Um das wegzubringen, rechnest du mal 3, nicht durch 3.'
-  - antwort: '48'
-    hinweis: Um + 4 wegzubringen, rechnest du − 4.
-- id: B1.7-005
-  typ: gleichung
-  stufe: 1
-  gleichung: x/2 + 5 = 6
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - x/2 + 5 = 6
-  - x/2 = 1 | −5
-  - x = 2 | ·2
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −5. Dann steht x/2 = 1 da.
-  - 'x/2 heißt x : 2. Das Gegenteil ist · 2.'
-  fehler:
-  - antwort: 1/2
-    hinweis: 'x/2 heißt x : 2. Um das wegzubringen, rechnest du mal 2, nicht durch 2.'
-  - antwort: '22'
-    hinweis: Um + 5 wegzubringen, rechnest du − 5.
-- id: B1.7-006
-  typ: gleichung
-  stufe: 1
-  gleichung: x/5 + 5 = 12
-  loesung: '35'
-  anzeige: '35'
-  weg:
-  - x/5 + 5 = 12
-  - x/5 = 7 | −5
-  - x = 35 | ·5
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −5. Dann steht x/5 = 7 da.
-  - 'x/5 heißt x : 5. Das Gegenteil ist · 5.'
-  fehler:
-  - antwort: 7/5
-    hinweis: 'x/5 heißt x : 5. Um das wegzubringen, rechnest du mal 5, nicht durch 5.'
-  - antwort: '85'
-    hinweis: Um + 5 wegzubringen, rechnest du − 5.
-- id: B1.7-007
-  typ: gleichung
-  stufe: 1
-  gleichung: x/6 + 4 = 12
-  loesung: '48'
-  anzeige: '48'
-  weg:
-  - x/6 + 4 = 12
-  - x/6 = 8 | −4
-  - x = 48 | ·6
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −4. Dann steht x/6 = 8 da.
-  - 'x/6 heißt x : 6. Das Gegenteil ist · 6.'
-  fehler:
-  - antwort: 4/3
-    hinweis: 'x/6 heißt x : 6. Um das wegzubringen, rechnest du mal 6, nicht durch 6.'
-  - antwort: '96'
-    hinweis: Um + 4 wegzubringen, rechnest du − 4.
-- id: B1.7-008
-  typ: gleichung
-  stufe: 1
-  gleichung: x/2 + 1 = 2
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - x/2 + 1 = 2
-  - x/2 = 1 | −1
-  - x = 2 | ·2
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −1. Dann steht x/2 = 1 da.
-  - 'x/2 heißt x : 2. Das Gegenteil ist · 2.'
-  fehler:
-  - antwort: 1/2
-    hinweis: 'x/2 heißt x : 2. Um das wegzubringen, rechnest du mal 2, nicht durch 2.'
-  - antwort: '6'
-    hinweis: Um + 1 wegzubringen, rechnest du − 1.
-- id: B1.7-009
-  typ: gleichung
-  stufe: 1
-  gleichung: x/4 + 7 = 8
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - x/4 + 7 = 8
-  - x/4 = 1 | −7
-  - x = 4 | ·4
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −7. Dann steht x/4 = 1 da.
-  - 'x/4 heißt x : 4. Das Gegenteil ist · 4.'
-  fehler:
-  - antwort: 1/4
-    hinweis: 'x/4 heißt x : 4. Um das wegzubringen, rechnest du mal 4, nicht durch 4.'
-  - antwort: '60'
-    hinweis: Um + 7 wegzubringen, rechnest du − 7.
-- id: B1.7-010
-  typ: gleichung
-  stufe: 1
-  gleichung: x/3 + 4 = 9
-  loesung: '15'
-  anzeige: '15'
-  weg:
-  - x/3 + 4 = 9
-  - x/3 = 5 | −4
-  - x = 15 | ·3
-  tipps:
-  - Zuerst die Zahl wegbringen, dann den Bruch.
-  - Rechne auf beiden Seiten −4. Dann steht x/3 = 5 da.
-  - 'x/3 heißt x : 3. Das Gegenteil ist · 3.'
-  fehler:
-  - antwort: 5/3
-    hinweis: 'x/3 heißt x : 3. Um das wegzubringen, rechnest du mal 3, nicht durch 3.'
-  - antwort: '39'
-    hinweis: Um + 4 wegzubringen, rechnest du − 4.
-- id: B1.7-011
-  typ: gleichung
-  stufe: 2
-  gleichung: x/2 + x/3 = 15
-  loesung: '18'
-  anzeige: '18'
-  weg:
-  - x/2 + x/3 = 15
-  - 3x + 2x = 90 | ·6
-  - 5x = 90 | zusammenfassen
-  - x = 18 | :5
-  tipps:
-  - 'Suche den Hauptnenner von 2 und 3: die kleinste Zahl, die durch beide teilbar ist.'
-  - Der Hauptnenner ist 6. Multipliziere JEDES Glied mit 6 – auch die rechte Seite!
-  - x/2 · 6 = 3x und x/3 · 6 = 2x.
-  fehler:
-  - antwort: '3'
-    hinweis: Beim Multiplizieren mit 6 muss auch die rechte Seite mal 6 gerechnet werden.
-- id: B1.7-012
-  typ: gleichung
-  stufe: 2
-  gleichung: (x - 6)/5 = -2
-  loesung: '-4'
-  anzeige: '-4'
-  weg:
-  - (x - 6)/5 = -2
-  - x - 6 = -10 | ·5
-  - x = -4 | +6
-  tipps:
-  - Der Bruchstrich wirkt wie eine Klammer um (x - 6).
-  - Multipliziere beide Seiten mit 5. Dann ist der Bruch weg.
-  - Jetzt steht da x - 6 = -10.
-  fehler:
-  - antwort: '4'
-    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 5.'
-  - antwort: '-16'
-    hinweis: Um − 6 wegzubringen, rechnest du das Gegenteil.
-- id: B1.7-013
-  typ: gleichung
-  stufe: 2
-  gleichung: (x + 2)/6 = 1
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - (x + 2)/6 = 1
-  - x + 2 = 6 | ·6
-  - x = 4 | −2
-  tipps:
-  - Der Bruchstrich wirkt wie eine Klammer um (x + 2).
-  - Multipliziere beide Seiten mit 6. Dann ist der Bruch weg.
-  - Jetzt steht da x + 2 = 6.
-  fehler:
-  - antwort: '-1'
-    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 6.'
-  - antwort: '8'
-    hinweis: Um + 2 wegzubringen, rechnest du das Gegenteil.
-- id: B1.7-014
-  typ: gleichung
-  stufe: 2
-  gleichung: (x - 8)/3 = -3
-  loesung: '-1'
-  anzeige: '-1'
-  weg:
-  - (x - 8)/3 = -3
-  - x - 8 = -9 | ·3
-  - x = -1 | +8
-  tipps:
-  - Der Bruchstrich wirkt wie eine Klammer um (x - 8).
-  - Multipliziere beide Seiten mit 3. Dann ist der Bruch weg.
-  - Jetzt steht da x - 8 = -9.
-  fehler:
-  - antwort: '5'
-    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 3.'
-  - antwort: '-17'
-    hinweis: Um − 8 wegzubringen, rechnest du das Gegenteil.
-- id: B1.7-015
-  typ: gleichung
-  stufe: 2
-  gleichung: x/3 + x/4 = 7
-  loesung: '12'
-  anzeige: '12'
-  weg:
-  - x/3 + x/4 = 7
-  - 4x + 3x = 84 | ·12
-  - 7x = 84 | zusammenfassen
-  - x = 12 | :7
-  tipps:
-  - 'Suche den Hauptnenner von 3 und 4: die kleinste Zahl, die durch beide teilbar ist.'
-  - Der Hauptnenner ist 12. Multipliziere JEDES Glied mit 12 – auch die rechte Seite!
-  - x/3 · 12 = 4x und x/4 · 12 = 3x.
-  fehler:
-  - antwort: '1'
-    hinweis: Beim Multiplizieren mit 12 muss auch die rechte Seite mal 12 gerechnet werden.
-- id: B1.7-016
-  typ: gleichung
-  stufe: 2
-  gleichung: x/3 + x/4 = 28
-  loesung: '48'
-  anzeige: '48'
-  weg:
-  - x/3 + x/4 = 28
-  - 4x + 3x = 336 | ·12
-  - 7x = 336 | zusammenfassen
-  - x = 48 | :7
-  tipps:
-  - 'Suche den Hauptnenner von 3 und 4: die kleinste Zahl, die durch beide teilbar ist.'
-  - Der Hauptnenner ist 12. Multipliziere JEDES Glied mit 12 – auch die rechte Seite!
-  - x/3 · 12 = 4x und x/4 · 12 = 3x.
-  fehler:
-  - antwort: '4'
-    hinweis: Beim Multiplizieren mit 12 muss auch die rechte Seite mal 12 gerechnet werden.
-- id: B1.7-017
-  typ: gleichung
-  stufe: 2
-  gleichung: x/3 + x/6 = 3
-  loesung: '6'
-  anzeige: '6'
-  weg:
-  - x/3 + x/6 = 3
-  - 2x + 1x = 18 | ·6
-  - 3x = 18 | zusammenfassen
-  - x = 6 | :3
+  - x/3 + x/6 = -15
+  - 2x + 1x = -90 | ·6
+  - 3x = -90 | zusammenfassen
+  - x = -30 | :3
   tipps:
   - 'Suche den Hauptnenner von 3 und 6: die kleinste Zahl, die durch beide teilbar ist.'
   - Der Hauptnenner ist 6. Multipliziere JEDES Glied mit 6 – auch die rechte Seite!
-  - x/3 · 6 = 2x und x/6 · 6 = 1x.
+  - '`x/3 · 6 = 2x` und `x/6 · 6 = 1x`.'
   fehler:
-  - antwort: '1'
+  - antwort: '-5'
     hinweis: Beim Multiplizieren mit 6 muss auch die rechte Seite mal 6 gerechnet werden.
-- id: B1.7-018
+- id: B1.7-002
   typ: gleichung
-  stufe: 2
-  gleichung: (x - 5)/6 = -2
-  loesung: '-7'
-  anzeige: '-7'
+  stufe: 1
+  gleichung: (x - 7)/3 = -5
+  loesung: '-8'
+  anzeige: '-8'
   weg:
-  - (x - 5)/6 = -2
-  - x - 5 = -12 | ·6
-  - x = -7 | +5
+  - (x - 7)/3 = -5
+  - x - 7 = -15 | ·3
+  - x = -8 | +7
   tipps:
-  - Der Bruchstrich wirkt wie eine Klammer um (x - 5).
-  - Multipliziere beide Seiten mit 6. Dann ist der Bruch weg.
-  - Jetzt steht da x - 5 = -12.
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 7`.
+  - Multipliziere beide Seiten mit 3. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 7 = -15`.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 3.'
+  - antwort: '-22'
+    hinweis: Um − 7 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-003
+  typ: gleichung
+  stufe: 1
+  gleichung: (x - 2)/2 = 1
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - (x - 2)/2 = 1
+  - x - 2 = 2 | ·2
+  - x = 4 | +2
+  tipps:
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 2`.
+  - Multipliziere beide Seiten mit 2. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 2 = 2`.
   fehler:
   - antwort: '3'
-    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 6.'
-  - antwort: '-17'
-    hinweis: Um − 5 wegzubringen, rechnest du das Gegenteil.
-- id: B1.7-019
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 2.'
+  - antwort: '0'
+    hinweis: Um − 2 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-004
   typ: gleichung
-  stufe: 2
-  gleichung: (x - 2)/6 = -1
-  loesung: '-4'
-  anzeige: '-4'
+  stufe: 1
+  gleichung: (x - 4)/3 = -8
+  loesung: '-20'
+  anzeige: '-20'
   weg:
-  - (x - 2)/6 = -1
-  - x - 2 = -6 | ·6
-  - x = -4 | +2
+  - (x - 4)/3 = -8
+  - x - 4 = -24 | ·3
+  - x = -20 | +4
   tipps:
-  - Der Bruchstrich wirkt wie eine Klammer um (x - 2).
-  - Multipliziere beide Seiten mit 6. Dann ist der Bruch weg.
-  - Jetzt steht da x - 2 = -6.
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 4`.
+  - Multipliziere beide Seiten mit 3. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 4 = -24`.
+  fehler:
+  - antwort: '-4'
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 3.'
+  - antwort: '-28'
+    hinweis: Um − 4 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-005
+  typ: gleichung
+  stufe: 1
+  gleichung: (x - 7)/2 = 3
+  loesung: '13'
+  anzeige: '13'
+  weg:
+  - (x - 7)/2 = 3
+  - x - 7 = 6 | ·2
+  - x = 13 | +7
+  tipps:
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 7`.
+  - Multipliziere beide Seiten mit 2. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 7 = 6`.
+  fehler:
+  - antwort: '10'
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 2.'
+  - antwort: '-1'
+    hinweis: Um − 7 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-006
+  typ: gleichung
+  stufe: 1
+  gleichung: (x - 6)/2 = -1
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - (x - 6)/2 = -1
+  - x - 6 = -2 | ·2
+  - x = 4 | +6
+  tipps:
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 6`.
+  - Multipliziere beide Seiten mit 2. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 6 = -2`.
+  fehler:
+  - antwort: '5'
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 2.'
+  - antwort: '-8'
+    hinweis: Um − 6 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-007
+  typ: gleichung
+  stufe: 1
+  gleichung: (x - 6)/3 = -5
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - (x - 6)/3 = -5
+  - x - 6 = -15 | ·3
+  - x = -9 | +6
+  tipps:
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 6`.
+  - Multipliziere beide Seiten mit 3. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 6 = -15`.
   fehler:
   - antwort: '1'
-    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 6.'
-  - antwort: '-8'
-    hinweis: Um − 2 wegzubringen, rechnest du das Gegenteil.
-- id: B1.7-020
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 3.'
+  - antwort: '-21'
+    hinweis: Um − 6 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-008
+  typ: gleichung
+  stufe: 1
+  gleichung: x/4 + x/6 = -15
+  loesung: '-36'
+  anzeige: '-36'
+  weg:
+  - x/4 + x/6 = -15
+  - 3x + 2x = -180 | ·12
+  - 5x = -180 | zusammenfassen
+  - x = -36 | :5
+  tipps:
+  - 'Suche den Hauptnenner von 4 und 6: die kleinste Zahl, die durch beide teilbar ist.'
+  - Der Hauptnenner ist 12. Multipliziere JEDES Glied mit 12 – auch die rechte Seite!
+  - '`x/4 · 12 = 3x` und `x/6 · 12 = 2x`.'
+  fehler:
+  - antwort: '-3'
+    hinweis: Beim Multiplizieren mit 12 muss auch die rechte Seite mal 12 gerechnet werden.
+- id: B1.7-009
+  typ: gleichung
+  stufe: 1
+  gleichung: (x - 7)/2 = -8
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - (x - 7)/2 = -8
+  - x - 7 = -16 | ·2
+  - x = -9 | +7
+  tipps:
+  - Der Bruchstrich wirkt wie eine Klammer um `x - 7`.
+  - Multipliziere beide Seiten mit 2. Dann ist der Bruch weg.
+  - Jetzt steht da `x - 7 = -16`.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 2.'
+  - antwort: '-23'
+    hinweis: Um − 7 wegzubringen, rechnest du das Gegenteil.
+- id: B1.7-010
+  typ: gleichung
+  stufe: 1
+  gleichung: x/5 + x/10 = 6
+  loesung: '20'
+  anzeige: '20'
+  weg:
+  - x/5 + x/10 = 6
+  - 2x + 1x = 60 | ·10
+  - 3x = 60 | zusammenfassen
+  - x = 20 | :3
+  tipps:
+  - 'Suche den Hauptnenner von 5 und 10: die kleinste Zahl, die durch beide teilbar ist.'
+  - Der Hauptnenner ist 10. Multipliziere JEDES Glied mit 10 – auch die rechte Seite!
+  - '`x/5 · 10 = 2x` und `x/10 · 10 = 1x`.'
+  fehler:
+  - antwort: '2'
+    hinweis: Beim Multiplizieren mit 10 muss auch die rechte Seite mal 10 gerechnet werden.
+- id: B1.7-011
   typ: gleichung
   stufe: 2
-  gleichung: (x + 6)/3 = 5
-  loesung: '9'
-  anzeige: '9'
-  weg:
-  - (x + 6)/3 = 5
-  - x + 6 = 15 | ·3
-  - x = 9 | −6
-  tipps:
-  - Der Bruchstrich wirkt wie eine Klammer um (x + 6).
-  - Multipliziere beide Seiten mit 3. Dann ist der Bruch weg.
-  - Jetzt steht da x + 6 = 15.
-  fehler:
-  - antwort: '-1'
-    hinweis: 'Zuerst den Bruch wegbringen: beide Seiten mal 3.'
-  - antwort: '21'
-    hinweis: Um + 6 wegzubringen, rechnest du das Gegenteil.
-- id: B1.7-021
-  typ: gleichung
-  stufe: 3
-  gleichung: (x + 5)/2 = (x + 14)/5
-  loesung: '1'
-  anzeige: '1'
-  weg:
-  - (x + 5)/2 = (x + 14)/5
-  - 5(x + 5) = 2(x + 14) | ·10
-  - 5x + 25 = 2x + 28 | ausmultiplizieren
-  - 3x + 25 = 28 | −2x
-  - 3x = 3 | −25
-  - x = 1 | :3
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 10.
-  - Links bleibt 5(x + 5), rechts 2(x + 14). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '-20'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 10 bleibt links 5(x + 5) und rechts 2(x + 14) – nicht umgekehrt.'
-- id: B1.7-022
-  typ: gleichung
-  stufe: 3
-  gleichung: (x - 5)/2 = (x - 3)/3
-  loesung: '9'
-  anzeige: '9'
-  weg:
-  - (x - 5)/2 = (x - 3)/3
-  - 3(x - 5) = 2(x - 3) | ·6
-  - 3x - 15 = 2x - 6 | ausmultiplizieren
-  - x - 15 = -6 | −2x
-  - x = 9 | +15
-  - x = 9 | :1
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 6.
-  - Links bleibt 3(x - 5), rechts 2(x - 3). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '-1'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 6 bleibt links 3(x - 5) und rechts 2(x - 3) – nicht umgekehrt.'
-- id: B1.7-023
-  typ: gleichung
-  stufe: 3
-  gleichung: (x + 3)/2 = (x + 1)/3
-  loesung: '-7'
-  anzeige: '-7'
-  weg:
-  - (x + 3)/2 = (x + 1)/3
-  - 3(x + 3) = 2(x + 1) | ·6
-  - 3x + 9 = 2x + 2 | ausmultiplizieren
-  - x + 9 = 2 | −2x
-  - x = -7 | −9
-  - x = -7 | :1
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 6.
-  - Links bleibt 3(x + 3), rechts 2(x + 1). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '3'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 6 bleibt links 3(x + 3) und rechts 2(x + 1) – nicht umgekehrt.'
-- id: B1.7-024
-  typ: gleichung
-  stufe: 3
-  gleichung: (x + 1)/2 = (x + 4)/3
-  loesung: '5'
-  anzeige: '5'
-  weg:
-  - (x + 1)/2 = (x + 4)/3
-  - 3(x + 1) = 2(x + 4) | ·6
-  - 3x + 3 = 2x + 8 | ausmultiplizieren
-  - x + 3 = 8 | −2x
-  - x = 5 | −3
-  - x = 5 | :1
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 6.
-  - Links bleibt 3(x + 1), rechts 2(x + 4). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '-10'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 6 bleibt links 3(x + 1) und rechts 2(x + 4) – nicht umgekehrt.'
-- id: B1.7-025
-  typ: gleichung
-  stufe: 3
-  gleichung: (x - 3)/4 = (x - 1)/3
-  loesung: '-5'
-  anzeige: '-5'
-  weg:
-  - (x - 3)/4 = (x - 1)/3
-  - 3(x - 3) = 4(x - 1) | ·12
-  - 3x - 9 = 4x - 4 | ausmultiplizieren
-  - -x - 9 = -4 | −4x
-  - -x = 5 | +9
-  - x = -5 | :(−1)
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 12.
-  - Links bleibt 3(x - 3), rechts 4(x - 1). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '9'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x - 3) und rechts 4(x - 1) – nicht umgekehrt.'
-- id: B1.7-026
-  typ: gleichung
-  stufe: 3
-  gleichung: (x - 5)/2 = (x - 2)/5
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - (x - 5)/2 = (x - 2)/5
-  - 5(x - 5) = 2(x - 2) | ·10
-  - 5x - 25 = 2x - 4 | ausmultiplizieren
-  - 3x - 25 = -4 | −2x
-  - 3x = 21 | +25
-  - x = 7 | :3
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 10.
-  - Links bleibt 5(x - 5), rechts 2(x - 2). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '0'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 10 bleibt links 5(x - 5) und rechts 2(x - 2) – nicht umgekehrt.'
-- id: B1.7-027
-  typ: gleichung
-  stufe: 3
-  gleichung: (x)/3 = (x + 2)/2
-  loesung: '-6'
-  anzeige: '-6'
-  weg:
-  - (x)/3 = (x + 2)/2
-  - 2(x) = 3(x + 2) | ·6
-  - 2x = 3x + 6 | ausmultiplizieren
-  - -x = 6 | −3x
-  - -x = 6 | −0
-  - x = -6 | :(−1)
-  tipps:
-  - Multipliziere beide Seiten mit dem Hauptnenner 6.
-  - Links bleibt 2(x), rechts 3(x + 2). Die Bruchstriche sind weg!
-  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
-  fehler:
-  - antwort: '4'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 6 bleibt links 2(x) und rechts 3(x + 2) – nicht umgekehrt.'
-- id: B1.7-028
-  typ: gleichung
-  stufe: 3
-  gleichung: (x - 3)/3 = (x - 5)/4
+  gleichung: (x - 5)/4 = (x - 3)/3
   loesung: '-3'
   anzeige: '-3'
   weg:
-  - (x - 3)/3 = (x - 5)/4
-  - 4(x - 3) = 3(x - 5) | ·12
-  - 4x - 12 = 3x - 15 | ausmultiplizieren
-  - x - 12 = -15 | −3x
-  - x = -3 | +12
-  - x = -3 | :1
+  - (x - 5)/4 = (x - 3)/3
+  - 3(x - 5) = 4(x - 3) | ·12
+  - 3x - 15 = 4x - 12 | ausmultiplizieren
+  - -x - 15 = -12 | −4x
+  - -x = 3 | +15
+  - x = -3 | :(−1)
   tipps:
   - Multipliziere beide Seiten mit dem Hauptnenner 12.
-  - Links bleibt 4(x - 3), rechts 3(x - 5). Die Bruchstriche sind weg!
+  - Links bleibt `3(x - 5)`, rechts `4(x - 3)`. Die Bruchstriche sind weg!
   - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
   fehler:
   - antwort: '11'
-    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 4(x - 3) und rechts 3(x - 5) – nicht umgekehrt.'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x - 5) und rechts 4(x - 3) – nicht umgekehrt.'
+- id: B1.7-012
+  typ: gleichung
+  stufe: 2
+  gleichung: (x + 8)/2 = (x - 1)/5
+  loesung: '-14'
+  anzeige: '-14'
+  weg:
+  - (x + 8)/2 = (x - 1)/5
+  - 5(x + 8) = 2(x - 1) | ·10
+  - 5x + 40 = 2x - 2 | ausmultiplizieren
+  - 3x + 40 = -2 | −2x
+  - 3x = -42 | −40
+  - x = -14 | :3
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 10.
+  - Links bleibt `5(x + 8)`, rechts `2(x - 1)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '7'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 10 bleibt links 5(x + 8) und rechts 2(x - 1) – nicht umgekehrt.'
+- id: B1.7-013
+  typ: gleichung
+  stufe: 2
+  gleichung: (x - 4)/4 = (x - 7)/3
+  loesung: '16'
+  anzeige: '16'
+  weg:
+  - (x - 4)/4 = (x - 7)/3
+  - 3(x - 4) = 4(x - 7) | ·12
+  - 3x - 12 = 4x - 28 | ausmultiplizieren
+  - -x - 12 = -28 | −4x
+  - -x = -16 | +12
+  - x = 16 | :(−1)
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 12.
+  - Links bleibt `3(x - 4)`, rechts `4(x - 7)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '-5'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x - 4) und rechts 4(x - 7) – nicht umgekehrt.'
+- id: B1.7-014
+  typ: gleichung
+  stufe: 2
+  gleichung: (x - 5)/2 = (x + 5)/3
+  loesung: '25'
+  anzeige: '25'
+  weg:
+  - (x - 5)/2 = (x + 5)/3
+  - 3(x - 5) = 2(x + 5) | ·6
+  - 3x - 15 = 2x + 10 | ausmultiplizieren
+  - x - 15 = 10 | −2x
+  - x = 25 | +15
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 6.
+  - Links bleibt `3(x - 5)`, rechts `2(x + 5)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '-25'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 6 bleibt links 3(x - 5) und rechts 2(x + 5) – nicht umgekehrt.'
+- id: B1.7-015
+  typ: gleichung
+  stufe: 2
+  gleichung: (x - 3)/2 = (x + 4)/3
+  loesung: '17'
+  anzeige: '17'
+  weg:
+  - (x - 3)/2 = (x + 4)/3
+  - 3(x - 3) = 2(x + 4) | ·6
+  - 3x - 9 = 2x + 8 | ausmultiplizieren
+  - x - 9 = 8 | −2x
+  - x = 17 | +9
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 6.
+  - Links bleibt `3(x - 3)`, rechts `2(x + 4)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '-18'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 6 bleibt links 3(x - 3) und rechts 2(x + 4) – nicht umgekehrt.'
+- id: B1.7-016
+  typ: gleichung
+  stufe: 2
+  gleichung: (x + 1)/4 = (x + 8)/3
+  loesung: '-29'
+  anzeige: '-29'
+  weg:
+  - (x + 1)/4 = (x + 8)/3
+  - 3(x + 1) = 4(x + 8) | ·12
+  - 3x + 3 = 4x + 32 | ausmultiplizieren
+  - -x + 3 = 32 | −4x
+  - -x = 29 | −3
+  - x = -29 | :(−1)
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 12.
+  - Links bleibt `3(x + 1)`, rechts `4(x + 8)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '20'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x + 1) und rechts 4(x + 8) – nicht umgekehrt.'
+- id: B1.7-017
+  typ: gleichung
+  stufe: 2
+  gleichung: (x - 1)/5 = (x - 1)/2
+  loesung: '1'
+  anzeige: '1'
+  weg:
+  - (x - 1)/5 = (x - 1)/2
+  - 2(x - 1) = 5(x - 1) | ·10
+  - 2x - 2 = 5x - 5 | ausmultiplizieren
+  - -3x - 2 = -5 | −5x
+  - -3x = -3 | +2
+  - x = 1 | :(−3)
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 10.
+  - Links bleibt `2(x - 1)`, rechts `5(x - 1)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+- id: B1.7-018
+  typ: gleichung
+  stufe: 2
+  gleichung: (x + 3)/4 = (x + 5)/6
+  loesung: '1'
+  anzeige: '1'
+  weg:
+  - (x + 3)/4 = (x + 5)/6
+  - 3(x + 3) = 2(x + 5) | ·12
+  - 3x + 9 = 2x + 10 | ausmultiplizieren
+  - x + 9 = 10 | −2x
+  - x = 1 | −9
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 12.
+  - Links bleibt `3(x + 3)`, rechts `2(x + 5)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '-9'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x + 3) und rechts 2(x + 5) – nicht umgekehrt.'
+- id: B1.7-019
+  typ: gleichung
+  stufe: 2
+  gleichung: (x + 6)/4 = (x + 5)/3
+  loesung: '-2'
+  anzeige: '-2'
+  weg:
+  - (x + 6)/4 = (x + 5)/3
+  - 3(x + 6) = 4(x + 5) | ·12
+  - 3x + 18 = 4x + 20 | ausmultiplizieren
+  - -x + 18 = 20 | −4x
+  - -x = 2 | −18
+  - x = -2 | :(−1)
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 12.
+  - Links bleibt `3(x + 6)`, rechts `4(x + 5)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '-9'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x + 6) und rechts 4(x + 5) – nicht umgekehrt.'
+- id: B1.7-020
+  typ: gleichung
+  stufe: 2
+  gleichung: (x - 4)/4 = (x - 6)/3
+  loesung: '12'
+  anzeige: '12'
+  weg:
+  - (x - 4)/4 = (x - 6)/3
+  - 3(x - 4) = 4(x - 6) | ·12
+  - 3x - 12 = 4x - 24 | ausmultiplizieren
+  - -x - 12 = -24 | −4x
+  - -x = -12 | +12
+  - x = 12 | :(−1)
+  tipps:
+  - Multipliziere beide Seiten mit dem Hauptnenner 12.
+  - Links bleibt `3(x - 4)`, rechts `4(x - 6)`. Die Bruchstriche sind weg!
+  - Jetzt Klammern auflösen und wie gewohnt weiterrechnen.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achtung, über Kreuz: Beim Multiplizieren mit 12 bleibt links 3(x - 4) und rechts 4(x - 6) – nicht umgekehrt.'
+- id: B1.7-021
+  typ: gleichung
+  stufe: 3
+  gleichung: (x - 8)/2 - (x + 8)/5 = -2
+  loesung: '12'
+  anzeige: '12'
+  weg:
+  - (x - 8)/2 - (x + 8)/5 = -2
+  - 5(x - 8) - 2(x + 8) = -20 | ·10
+  - 5x - 40 - 2x - 16 = -20 | ausmultiplizieren
+  - 3x - 56 = -20 | zusammenfassen
+  - 3x = 36 | +56
+  - x = 12 | :3
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 10 – auch die -2 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x + 8)`.'
+  - 'Aufgelöst: `5x - 40 - 2x - 16 = -20`.'
+  fehler:
+  - antwort: 4/3
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '18'
+    hinweis: Auch die rechte Seite muss mit 10 multipliziert werden.
+- id: B1.7-022
+  typ: gleichung
+  stufe: 3
+  gleichung: (x + 6)/6 - (x + 7)/3 = -2
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - (x + 6)/6 - (x + 7)/3 = -2
+  - x + 6 - 2(x + 7) = -12 | ·6
+  - x + 6 - 2x - 14 = -12 | ausmultiplizieren
+  - -x - 8 = -12 | zusammenfassen
+  - -x = -4 | +8
+  - x = 4 | :(−1)
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 6 – auch die -2 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x + 7)`.'
+  - 'Aufgelöst: `x + 6 - 2x - 14 = -12`.'
+  fehler:
+  - antwort: '32'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '-6'
+    hinweis: Auch die rechte Seite muss mit 6 multipliziert werden.
+- id: B1.7-023
+  typ: gleichung
+  stufe: 3
+  gleichung: (x - 1)/4 - (x - 3)/6 = -2
+  loesung: '-27'
+  anzeige: '-27'
+  weg:
+  - (x - 1)/4 - (x - 3)/6 = -2
+  - 3(x - 1) - 2(x - 3) = -24 | ·12
+  - 3x - 3 - 2x + 6 = -24 | ausmultiplizieren
+  - x + 3 = -24 | zusammenfassen
+  - x = -27 | −3
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 12 – auch die -2 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x - 3)`.'
+  - 'Aufgelöst: `3x - 3 - 2x + 6 = -24`.'
+  fehler:
+  - antwort: '-15'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '-5'
+    hinweis: Auch die rechte Seite muss mit 12 multipliziert werden.
+- id: B1.7-024
+  typ: gleichung
+  stufe: 3
+  gleichung: (x - 3)/3 - (x + 4)/6 = -5
+  loesung: '-20'
+  anzeige: '-20'
+  weg:
+  - (x - 3)/3 - (x + 4)/6 = -5
+  - 2(x - 3) - (x + 4) = -30 | ·6
+  - 2x - 6 - x - 4 = -30 | ausmultiplizieren
+  - x - 10 = -30 | zusammenfassen
+  - x = -20 | +10
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 6 – auch die -5 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- (x + 4)`.'
+  - 'Aufgelöst: `2x - 6 - x - 4 = -30`.'
+  fehler:
+  - antwort: '-28'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '5'
+    hinweis: Auch die rechte Seite muss mit 6 multipliziert werden.
+- id: B1.7-025
+  typ: gleichung
+  stufe: 3
+  gleichung: (x - 6)/4 - (x - 6)/6 = -2
+  loesung: '-18'
+  anzeige: '-18'
+  weg:
+  - (x - 6)/4 - (x - 6)/6 = -2
+  - 3(x - 6) - 2(x - 6) = -24 | ·12
+  - 3x - 18 - 2x + 12 = -24 | ausmultiplizieren
+  - x - 6 = -24 | zusammenfassen
+  - x = -18 | +6
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 12 – auch die -2 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x - 6)`.'
+  - 'Aufgelöst: `3x - 18 - 2x + 12 = -24`.'
+  fehler:
+  - antwort: '6'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '4'
+    hinweis: Auch die rechte Seite muss mit 12 multipliziert werden.
+- id: B1.7-026
+  typ: gleichung
+  stufe: 3
+  gleichung: (x + 6)/3 - (x + 1)/2 = 3
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - (x + 6)/3 - (x + 1)/2 = 3
+  - 2(x + 6) - 3(x + 1) = 18 | ·6
+  - 2x + 12 - 3x - 3 = 18 | ausmultiplizieren
+  - -x + 9 = 18 | zusammenfassen
+  - -x = 9 | −9
+  - x = -9 | :(−1)
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 6 – auch die 3 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 3(x + 1)`.'
+  - 'Aufgelöst: `2x + 12 - 3x - 3 = 18`.'
+  fehler:
+  - antwort: '-3'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '6'
+    hinweis: Auch die rechte Seite muss mit 6 multipliziert werden.
+- id: B1.7-027
+  typ: gleichung
+  stufe: 3
+  gleichung: (x + 8)/3 - (x + 1)/6 = 5
+  loesung: '15'
+  anzeige: '15'
+  weg:
+  - (x + 8)/3 - (x + 1)/6 = 5
+  - 2(x + 8) - (x + 1) = 30 | ·6
+  - 2x + 16 - x - 1 = 30 | ausmultiplizieren
+  - x + 15 = 30 | zusammenfassen
+  - x = 15 | −15
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 6 – auch die 5 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- (x + 1)`.'
+  - 'Aufgelöst: `2x + 16 - x - 1 = 30`.'
+  fehler:
+  - antwort: '13'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '-10'
+    hinweis: Auch die rechte Seite muss mit 6 multipliziert werden.
+- id: B1.7-028
+  typ: gleichung
+  stufe: 3
+  gleichung: (x + 2)/2 - (x + 6)/3 = -3
+  loesung: '-12'
+  anzeige: '-12'
+  weg:
+  - (x + 2)/2 - (x + 6)/3 = -3
+  - 3(x + 2) - 2(x + 6) = -18 | ·6
+  - 3x + 6 - 2x - 12 = -18 | ausmultiplizieren
+  - x - 6 = -18 | zusammenfassen
+  - x = -12 | +6
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 6 – auch die -3 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x + 6)`.'
+  - 'Aufgelöst: `3x + 6 - 2x - 12 = -18`.'
+  fehler:
+  - antwort: '-36'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '3'
+    hinweis: Auch die rechte Seite muss mit 6 multipliziert werden.
+- id: B1.7-029
+  typ: gleichung
+  stufe: 3
+  gleichung: (x - 6)/4 - (x - 4)/6 = -2
+  loesung: '-14'
+  anzeige: '-14'
+  weg:
+  - (x - 6)/4 - (x - 4)/6 = -2
+  - 3(x - 6) - 2(x - 4) = -24 | ·12
+  - 3x - 18 - 2x + 8 = -24 | ausmultiplizieren
+  - x - 10 = -24 | zusammenfassen
+  - x = -14 | +10
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 12 – auch die -2 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x - 4)`.'
+  - 'Aufgelöst: `3x - 18 - 2x + 8 = -24`.'
+  fehler:
+  - antwort: '2'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '8'
+    hinweis: Auch die rechte Seite muss mit 12 multipliziert werden.
+- id: B1.7-030
+  typ: gleichung
+  stufe: 3
+  gleichung: (x - 2)/6 - (x - 6)/3 = 3
+  loesung: '-8'
+  anzeige: '-8'
+  weg:
+  - (x - 2)/6 - (x - 6)/3 = 3
+  - x - 2 - 2(x - 6) = 18 | ·6
+  - x - 2 - 2x + 12 = 18 | ausmultiplizieren
+  - -x + 10 = 18 | zusammenfassen
+  - -x = 8 | −10
+  - x = -8 | :(−1)
+  tipps:
+  - Multipliziere JEDES Glied mit dem Hauptnenner 6 – auch die 3 rechts.
+  - 'Das Minus vor dem zweiten Bruch gilt für den ganzen Zähler: `- 2(x - 6)`.'
+  - 'Aufgelöst: `x - 2 - 2x + 12 = 18`.'
+  fehler:
+  - antwort: '-32'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '7'
+    hinweis: Auch die rechte Seite muss mit 6 multipliziert werden.
+- id: B1.7-031
+  typ: gleichung
+  stufe: 4
+  gleichung: (2x + 6)/6 - (x - 1)/2 = (x - 1)/3
+  loesung: 11/3
+  anzeige: 11/3
+  weg:
+  - (2x + 6)/6 - (x - 1)/2 = (x - 1)/3
+  - 2x + 6 - 3(x - 1) = 2(x - 1) | ·6
+  - 2x + 6 - 3x + 3 = 2x - 2 | ausmultiplizieren
+  - -x + 9 = 2x - 2 | zusammenfassen
+  - -3x + 9 = -2 | −2x
+  - -3x = -11 | −9
+  - x = 11/3 | :(−3)
+  tipps:
+  - Der Hauptnenner von 6, 2 und 3 ist 6. Multipliziere jedes Glied damit.
+  - Es bleibt `2x + 6 - 3(x - 1) = 2(x - 1)`.
+  - 'Klammern auflösen, zusammenfassen: `-x + 9 = 2x - 2`.'
+  fehler:
+  - antwort: 5/3
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: -7/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-11'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '33'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-032
+  typ: gleichung
+  stufe: 4
+  gleichung: (2x + 2)/2 - (2x + 2)/4 = (x + 5)/6
+  loesung: '1'
+  anzeige: '1'
+  weg:
+  - (2x + 2)/2 - (2x + 2)/4 = (x + 5)/6
+  - 6(2x + 2) - 3(2x + 2) = 2(x + 5) | ·12
+  - 12x + 12 - 6x - 6 = 2x + 10 | ausmultiplizieren
+  - 6x + 6 = 2x + 10 | zusammenfassen
+  - 4x + 6 = 10 | −2x
+  - 4x = 4 | −6
+  - x = 1 | :4
+  tipps:
+  - Der Hauptnenner von 2, 4 und 6 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `6(2x + 2) - 3(2x + 2) = 2(x + 5)`.
+  - 'Klammern auflösen, zusammenfassen: `6x + 6 = 2x + 10`.'
+  fehler:
+  - antwort: '-2'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '4'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 1/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '16'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-033
+  typ: gleichung
+  stufe: 4
+  gleichung: (2x + 2)/4 - (3x + 5)/2 = (x - 5)/6
+  loesung: '-1'
+  anzeige: '-1'
+  weg:
+  - (2x + 2)/4 - (3x + 5)/2 = (x - 5)/6
+  - 3(2x + 2) - 6(3x + 5) = 2(x - 5) | ·12
+  - 6x + 6 - 18x - 30 = 2x - 10 | ausmultiplizieren
+  - -12x - 24 = 2x - 10 | zusammenfassen
+  - -14x - 24 = -10 | −2x
+  - -14x = 14 | +24
+  - x = -1 | :(−14)
+  tipps:
+  - Der Hauptnenner von 4, 2 und 6 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `3(2x + 2) - 6(3x + 5) = 2(x - 5)`.
+  - 'Klammern auflösen, zusammenfassen: `-12x - 24 = 2x - 10`.'
+  fehler:
+  - antwort: 23/7
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: 17/7
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -7/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-196'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-034
+  typ: gleichung
+  stufe: 4
+  gleichung: (3x - 1)/2 - (3x - 3)/3 = (x - 7)/4
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - (3x - 1)/2 - (3x - 3)/3 = (x - 7)/4
+  - 6(3x - 1) - 4(3x - 3) = 3(x - 7) | ·12
+  - 18x - 6 - 12x + 12 = 3x - 21 | ausmultiplizieren
+  - 6x + 6 = 3x - 21 | zusammenfassen
+  - 3x + 6 = -21 | −3x
+  - 3x = -27 | −6
+  - x = -9 | :3
+  tipps:
+  - Der Hauptnenner von 2, 3 und 4 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `6(3x - 1) - 4(3x - 3) = 3(x - 7)`.
+  - 'Klammern auflösen, zusammenfassen: `6x + 6 = 3x - 21`.'
+  fehler:
+  - antwort: '-1'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '-5'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-3'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-81'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-035
+  typ: gleichung
+  stufe: 4
+  gleichung: (3x - 6)/3 - (3x - 2)/2 = (x - 2)/4
+  loesung: -2/3
+  anzeige: -2/3
+  weg:
+  - (3x - 6)/3 - (3x - 2)/2 = (x - 2)/4
+  - 4(3x - 6) - 6(3x - 2) = 3(x - 2) | ·12
+  - 12x - 24 - 18x + 12 = 3x - 6 | ausmultiplizieren
+  - -6x - 12 = 3x - 6 | zusammenfassen
+  - -9x - 12 = -6 | −3x
+  - -9x = 6 | +12
+  - x = -2/3 | :(−9)
+  tipps:
+  - Der Hauptnenner von 3, 2 und 4 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `4(3x - 6) - 6(3x - 2) = 3(x - 2)`.
+  - 'Klammern auflösen, zusammenfassen: `-6x - 12 = 3x - 6`.'
+  fehler:
+  - antwort: -10/3
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '2'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: '-2'
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-54'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-036
+  typ: gleichung
+  stufe: 4
+  gleichung: (x - 2)/4 - (x + 3)/6 = (x + 6)/3
+  loesung: '-12'
+  anzeige: '-12'
+  weg:
+  - (x - 2)/4 - (x + 3)/6 = (x + 6)/3
+  - 3(x - 2) - 2(x + 3) = 4(x + 6) | ·12
+  - 3x - 6 - 2x - 6 = 4x + 24 | ausmultiplizieren
+  - x - 12 = 4x + 24 | zusammenfassen
+  - -3x - 12 = 24 | −4x
+  - -3x = 36 | +12
+  - x = -12 | :(−3)
+  tipps:
+  - Der Hauptnenner von 4, 6 und 3 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `3(x - 2) - 2(x + 3) = 4(x + 6)`.
+  - 'Klammern auflösen, zusammenfassen: `x - 12 = 4x + 24`.'
+  fehler:
+  - antwort: '-8'
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: '-4'
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: 36/5
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-108'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-037
+  typ: gleichung
+  stufe: 4
+  gleichung: (3x + 6)/2 - (3x + 1)/3 = (x + 3)/4
+  loesung: -23/3
+  anzeige: -23/3
+  weg:
+  - (3x + 6)/2 - (3x + 1)/3 = (x + 3)/4
+  - 6(3x + 6) - 4(3x + 1) = 3(x + 3) | ·12
+  - 18x + 36 - 12x - 4 = 3x + 9 | ausmultiplizieren
+  - 6x + 32 = 3x + 9 | zusammenfassen
+  - 3x + 32 = 9 | −3x
+  - 3x = -23 | −32
+  - x = -23/3 | :3
+  tipps:
+  - Der Hauptnenner von 2, 3 und 4 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `6(3x + 6) - 4(3x + 1) = 3(x + 3)`.
+  - 'Klammern auflösen, zusammenfassen: `6x + 32 = 3x + 9`.'
+  fehler:
+  - antwort: -31/3
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: 41/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -23/9
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-69'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-038
+  typ: gleichung
+  stufe: 4
+  gleichung: (x - 7)/6 - (3x + 6)/2 = (x - 5)/3
+  loesung: -3/2
+  anzeige: -3/2 = -1,5
+  weg:
+  - (x - 7)/6 - (3x + 6)/2 = (x - 5)/3
+  - x - 7 - 3(3x + 6) = 2(x - 5) | ·6
+  - x - 7 - 9x - 18 = 2x - 10 | ausmultiplizieren
+  - -8x - 25 = 2x - 10 | zusammenfassen
+  - -10x - 25 = -10 | −2x
+  - -10x = 15 | +25
+  - x = -3/2 | :(−10)
+  tipps:
+  - Der Hauptnenner von 6, 2 und 3 ist 6. Multipliziere jedes Glied damit.
+  - Es bleibt `x - 7 - 3(3x + 6) = 2(x - 5)`.
+  - 'Klammern auflösen, zusammenfassen: `-8x - 25 = 2x - 10`.'
+  fehler:
+  - antwort: 21/10
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: 7/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -5/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-150'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-039
+  typ: gleichung
+  stufe: 4
+  gleichung: (3x - 2)/2 - (3x - 5)/3 = (x - 1)/4
+  loesung: -11/3
+  anzeige: -11/3
+  weg:
+  - (3x - 2)/2 - (3x - 5)/3 = (x - 1)/4
+  - 6(3x - 2) - 4(3x - 5) = 3(x - 1) | ·12
+  - 18x - 12 - 12x + 20 = 3x - 3 | ausmultiplizieren
+  - 6x + 8 = 3x - 3 | zusammenfassen
+  - 3x + 8 = -3 | −3x
+  - 3x = -11 | −8
+  - x = -11/3 | :3
+  tipps:
+  - Der Hauptnenner von 2, 3 und 4 ist 12. Multipliziere jedes Glied damit.
+  - Es bleibt `6(3x - 2) - 4(3x - 5) = 3(x - 1)`.
+  - 'Klammern auflösen, zusammenfassen: `6x + 8 = 3x - 3`.'
+  fehler:
+  - antwort: 29/3
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: 5/3
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -11/9
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '-33'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.7-040
+  typ: gleichung
+  stufe: 4
+  gleichung: (x + 2)/2 - (3x - 7)/6 = (x - 1)/3
+  loesung: 15/2
+  anzeige: 15/2 = 7,5
+  weg:
+  - (x + 2)/2 - (3x - 7)/6 = (x - 1)/3
+  - 3(x + 2) - (3x - 7) = 2(x - 1) | ·6
+  - 3x + 6 - 3x + 7 = 2x - 2 | ausmultiplizieren
+  - 13 = 2x - 2 | zusammenfassen
+  - -2x + 13 = -2 | −2x
+  - -2x = -15 | −13
+  - x = 15/2 | :(−2)
+  tipps:
+  - Der Hauptnenner von 2, 6 und 3 ist 6. Multipliziere jedes Glied damit.
+  - Es bleibt `3(x + 2) - (3x - 7) = 2(x - 1)`.
+  - 'Klammern auflösen, zusammenfassen: `13 = 2x - 2`.'
+  fehler:
+  - antwort: 1/2
+    hinweis: Das Minus vor dem Bruch gilt für den ganzen Zähler – auch das Vorzeichen der Zahl dreht sich um.
+  - antwort: -11/2
+    hinweis: 'Achtung beim Hinüberbringen der Zahl: Aus + wird −, aus − wird +.'
+  - antwort: -15/2
+    hinweis: Beim Hinüberbringen des x-Glieds dreht sich das Vorzeichen um.
+  - antwort: '30'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.

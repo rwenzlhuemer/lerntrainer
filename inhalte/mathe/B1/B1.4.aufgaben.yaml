@@ -3,637 +3,925 @@
 - id: B1.4-001
   typ: gleichung
   stufe: 1
-  gleichung: 5x + 13 = 48
-  loesung: '7'
-  anzeige: '7'
+  gleichung: -2x + 9 = -9
+  loesung: '9'
+  anzeige: '9'
   weg:
-  - 5x + 13 = 48
-  - 5x = 35 | −13
-  - x = 7 | :5
+  - -2x + 9 = -9
+  - -2x = -18 | −9
+  - x = 9 | :(−2)
   tipps:
-  - 'Zwei Schritte: zuerst die + 13 wegbringen, dann das · 5.'
-  - Rechne auf beiden Seiten − 13. Dann steht da 5x = 35.
-  - 'Jetzt noch auf beiden Seiten : 5.'
+  - 'Zwei Schritte: zuerst die + `9` wegbringen, dann das · (-2).'
+  - Rechne auf beiden Seiten − `9`. Dann steht da `-2x = -18`.
+  - 'Jetzt noch auf beiden Seiten : (-2).'
   fehler:
-  - antwort: 61/5
-    hinweis: 'Achtung beim ersten Schritt: Um + 13 wegzubringen, rechnest du − 13.'
-  - antwort: '35'
-    hinweis: 'Fast! 5x = 35 stimmt schon. Jetzt fehlt nur noch : 5.'
-  - antwort: -17/5
+  - antwort: '0'
+    hinweis: 'Achtung beim ersten Schritt: Um + 9 wegzubringen, rechnest du − 9.'
+  - antwort: '-18'
+    hinweis: 'Fast! `-2x = -18` stimmt schon. Jetzt fehlt nur noch : (-2).'
+  - antwort: -9/2
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '36'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.4-002
   typ: gleichung
   stufe: 1
-  gleichung: 6x + 3 = 15
-  loesung: '2'
-  anzeige: '2'
+  gleichung: -6x + 9 = 33
+  loesung: '-4'
+  anzeige: '-4'
   weg:
-  - 6x + 3 = 15
-  - 6x = 12 | −3
-  - x = 2 | :6
+  - -6x + 9 = 33
+  - -6x = 24 | −9
+  - x = -4 | :(−6)
   tipps:
-  - 'Zwei Schritte: zuerst die + 3 wegbringen, dann das · 6.'
-  - Rechne auf beiden Seiten − 3. Dann steht da 6x = 12.
-  - 'Jetzt noch auf beiden Seiten : 6.'
+  - 'Zwei Schritte: zuerst die + `9` wegbringen, dann das · (-6).'
+  - Rechne auf beiden Seiten − `9`. Dann steht da `-6x = 24`.
+  - 'Jetzt noch auf beiden Seiten : (-6).'
   fehler:
-  - antwort: '3'
-    hinweis: 'Achtung beim ersten Schritt: Um + 3 wegzubringen, rechnest du − 3.'
-  - antwort: '12'
-    hinweis: 'Fast! 6x = 12 stimmt schon. Jetzt fehlt nur noch : 6.'
-  - antwort: -1/2
+  - antwort: '-7'
+    hinweis: 'Achtung beim ersten Schritt: Um + 9 wegzubringen, rechnest du − 9.'
+  - antwort: '24'
+    hinweis: 'Fast! `-6x = 24` stimmt schon. Jetzt fehlt nur noch : (-6).'
+  - antwort: -29/2
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-144'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.4-003
   typ: gleichung
   stufe: 1
-  gleichung: 3x + 1 = 4
-  loesung: '1'
-  anzeige: '1'
+  gleichung: -6x + 6 = 18
+  loesung: '-2'
+  anzeige: '-2'
   weg:
-  - 3x + 1 = 4
-  - 3x = 3 | −1
-  - x = 1 | :3
+  - -6x + 6 = 18
+  - -6x = 12 | −6
+  - x = -2 | :(−6)
   tipps:
-  - 'Zwei Schritte: zuerst die + 1 wegbringen, dann das · 3.'
-  - Rechne auf beiden Seiten − 1. Dann steht da 3x = 3.
-  - 'Jetzt noch auf beiden Seiten : 3.'
+  - 'Zwei Schritte: zuerst die + `6` wegbringen, dann das · (-6).'
+  - Rechne auf beiden Seiten − `6`. Dann steht da `-6x = 12`.
+  - 'Jetzt noch auf beiden Seiten : (-6).'
   fehler:
-  - antwort: 5/3
-    hinweis: 'Achtung beim ersten Schritt: Um + 1 wegzubringen, rechnest du − 1.'
-  - antwort: '3'
-    hinweis: 'Fast! 3x = 3 stimmt schon. Jetzt fehlt nur noch : 3.'
-  - antwort: 1/3
+  - antwort: '-4'
+    hinweis: 'Achtung beim ersten Schritt: Um + 6 wegzubringen, rechnest du − 6.'
+  - antwort: '12'
+    hinweis: 'Fast! `-6x = 12` stimmt schon. Jetzt fehlt nur noch : (-6).'
+  - antwort: '-9'
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-72'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.4-004
   typ: gleichung
   stufe: 1
-  gleichung: 5x + 8 = 48
-  loesung: '8'
-  anzeige: '8'
+  gleichung: 6x - 14 = -26
+  loesung: '-2'
+  anzeige: '-2'
   weg:
-  - 5x + 8 = 48
-  - 5x = 40 | −8
-  - x = 8 | :5
+  - 6x - 14 = -26
+  - 6x = -12 | +14
+  - x = -2 | :6
   tipps:
-  - 'Zwei Schritte: zuerst die + 8 wegbringen, dann das · 5.'
-  - Rechne auf beiden Seiten − 8. Dann steht da 5x = 40.
-  - 'Jetzt noch auf beiden Seiten : 5.'
+  - 'Zwei Schritte: zuerst die − `14` wegbringen, dann das · 6.'
+  - Rechne auf beiden Seiten + `14`. Dann steht da `6x = -12`.
+  - 'Jetzt noch auf beiden Seiten : 6.'
   fehler:
-  - antwort: 56/5
-    hinweis: 'Achtung beim ersten Schritt: Um + 8 wegzubringen, rechnest du − 8.'
-  - antwort: '40'
-    hinweis: 'Fast! 5x = 40 stimmt schon. Jetzt fehlt nur noch : 5.'
-  - antwort: 8/5
+  - antwort: -20/3
+    hinweis: 'Achtung beim ersten Schritt: Um − 14 wegzubringen, rechnest du + 14.'
+  - antwort: '-12'
+    hinweis: 'Fast! `6x = -12` stimmt schon. Jetzt fehlt nur noch : 6.'
+  - antwort: 29/3
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-72'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
 - id: B1.4-005
   typ: gleichung
   stufe: 1
-  gleichung: 4x + 4 = 16
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 4x + 4 = 16
-  - 4x = 12 | −4
-  - x = 3 | :4
-  tipps:
-  - 'Zwei Schritte: zuerst die + 4 wegbringen, dann das · 4.'
-  - Rechne auf beiden Seiten − 4. Dann steht da 4x = 12.
-  - 'Jetzt noch auf beiden Seiten : 4.'
-  fehler:
-  - antwort: '5'
-    hinweis: 'Achtung beim ersten Schritt: Um + 4 wegzubringen, rechnest du − 4.'
-  - antwort: '12'
-    hinweis: 'Fast! 4x = 12 stimmt schon. Jetzt fehlt nur noch : 4.'
-  - antwort: '0'
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-006
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x + 3 = 39
-  loesung: '6'
-  anzeige: '6'
-  weg:
-  - 6x + 3 = 39
-  - 6x = 36 | −3
-  - x = 6 | :6
-  tipps:
-  - 'Zwei Schritte: zuerst die + 3 wegbringen, dann das · 6.'
-  - Rechne auf beiden Seiten − 3. Dann steht da 6x = 36.
-  - 'Jetzt noch auf beiden Seiten : 6.'
-  fehler:
-  - antwort: '7'
-    hinweis: 'Achtung beim ersten Schritt: Um + 3 wegzubringen, rechnest du − 3.'
-  - antwort: '36'
-    hinweis: 'Fast! 6x = 36 stimmt schon. Jetzt fehlt nur noch : 6.'
-  - antwort: 7/2
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-007
-  typ: gleichung
-  stufe: 1
-  gleichung: 3x + 11 = 20
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 3x + 11 = 20
-  - 3x = 9 | −11
-  - x = 3 | :3
-  tipps:
-  - 'Zwei Schritte: zuerst die + 11 wegbringen, dann das · 3.'
-  - Rechne auf beiden Seiten − 11. Dann steht da 3x = 9.
-  - 'Jetzt noch auf beiden Seiten : 3.'
-  fehler:
-  - antwort: 31/3
-    hinweis: 'Achtung beim ersten Schritt: Um + 11 wegzubringen, rechnest du − 11.'
-  - antwort: '9'
-    hinweis: 'Fast! 3x = 9 stimmt schon. Jetzt fehlt nur noch : 3.'
-  - antwort: -13/3
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-008
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x + 2 = 44
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - 6x + 2 = 44
-  - 6x = 42 | −2
-  - x = 7 | :6
-  tipps:
-  - 'Zwei Schritte: zuerst die + 2 wegbringen, dann das · 6.'
-  - Rechne auf beiden Seiten − 2. Dann steht da 6x = 42.
-  - 'Jetzt noch auf beiden Seiten : 6.'
-  fehler:
-  - antwort: 23/3
-    hinweis: 'Achtung beim ersten Schritt: Um + 2 wegzubringen, rechnest du − 2.'
-  - antwort: '42'
-    hinweis: 'Fast! 6x = 42 stimmt schon. Jetzt fehlt nur noch : 6.'
-  - antwort: 16/3
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-009
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x + 2 = 20
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 6x + 2 = 20
-  - 6x = 18 | −2
-  - x = 3 | :6
-  tipps:
-  - 'Zwei Schritte: zuerst die + 2 wegbringen, dann das · 6.'
-  - Rechne auf beiden Seiten − 2. Dann steht da 6x = 18.
-  - 'Jetzt noch auf beiden Seiten : 6.'
-  fehler:
-  - antwort: 11/3
-    hinweis: 'Achtung beim ersten Schritt: Um + 2 wegzubringen, rechnest du − 2.'
-  - antwort: '18'
-    hinweis: 'Fast! 6x = 18 stimmt schon. Jetzt fehlt nur noch : 6.'
-  - antwort: 4/3
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-010
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x + 3 = 27
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - 6x + 3 = 27
-  - 6x = 24 | −3
-  - x = 4 | :6
-  tipps:
-  - 'Zwei Schritte: zuerst die + 3 wegbringen, dann das · 6.'
-  - Rechne auf beiden Seiten − 3. Dann steht da 6x = 24.
-  - 'Jetzt noch auf beiden Seiten : 6.'
-  fehler:
-  - antwort: '5'
-    hinweis: 'Achtung beim ersten Schritt: Um + 3 wegzubringen, rechnest du − 3.'
-  - antwort: '24'
-    hinweis: 'Fast! 6x = 24 stimmt schon. Jetzt fehlt nur noch : 6.'
-  - antwort: 3/2
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-011
-  typ: gleichung
-  stufe: 2
-  gleichung: -5x - 7 = 13
-  loesung: '-4'
-  anzeige: '-4'
-  weg:
-  - -5x - 7 = 13
-  - -5x = 20 | +7
-  - x = -4 | :(−5)
-  tipps:
-  - 'Zwei Schritte: zuerst die − 7 wegbringen, dann das · (-5).'
-  - Rechne auf beiden Seiten + 7. Dann steht da -5x = 20.
-  - 'Jetzt noch auf beiden Seiten : (-5).'
-  fehler:
-  - antwort: -6/5
-    hinweis: 'Achtung beim ersten Schritt: Um − 7 wegzubringen, rechnest du + 7.'
-  - antwort: '20'
-    hinweis: 'Fast! -5x = 20 stimmt schon. Jetzt fehlt nur noch : (-5).'
-  - antwort: 22/5
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-012
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x - 14 = -63
-  loesung: '-7'
-  anzeige: '-7'
-  weg:
-  - 7x - 14 = -63
-  - 7x = -49 | +14
-  - x = -7 | :7
-  tipps:
-  - 'Zwei Schritte: zuerst die − 14 wegbringen, dann das · 7.'
-  - Rechne auf beiden Seiten + 14. Dann steht da 7x = -49.
-  - 'Jetzt noch auf beiden Seiten : 7.'
-  fehler:
-  - antwort: '-11'
-    hinweis: 'Achtung beim ersten Schritt: Um − 14 wegzubringen, rechnest du + 14.'
-  - antwort: '-49'
-    hinweis: 'Fast! 7x = -49 stimmt schon. Jetzt fehlt nur noch : 7.'
-  - antwort: '5'
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-013
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x + 8 = 29
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 7x + 8 = 29
-  - 7x = 21 | −8
-  - x = 3 | :7
-  tipps:
-  - 'Zwei Schritte: zuerst die + 8 wegbringen, dann das · 7.'
-  - Rechne auf beiden Seiten − 8. Dann steht da 7x = 21.
-  - 'Jetzt noch auf beiden Seiten : 7.'
-  fehler:
-  - antwort: 37/7
-    hinweis: 'Achtung beim ersten Schritt: Um + 8 wegzubringen, rechnest du − 8.'
-  - antwort: '21'
-    hinweis: 'Fast! 7x = 21 stimmt schon. Jetzt fehlt nur noch : 7.'
-  - antwort: -27/7
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-014
-  typ: gleichung
-  stufe: 2
-  gleichung: -5x - 10 = -25
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - -5x - 10 = -25
-  - -5x = -15 | +10
-  - x = 3 | :(−5)
-  tipps:
-  - 'Zwei Schritte: zuerst die − 10 wegbringen, dann das · (-5).'
-  - Rechne auf beiden Seiten + 10. Dann steht da -5x = -15.
-  - 'Jetzt noch auf beiden Seiten : (-5).'
-  fehler:
-  - antwort: '7'
-    hinweis: 'Achtung beim ersten Schritt: Um − 10 wegzubringen, rechnest du + 10.'
-  - antwort: '-15'
-    hinweis: 'Fast! -5x = -15 stimmt schon. Jetzt fehlt nur noch : (-5).'
-  - antwort: '15'
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-015
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x + 14 = 77
-  loesung: '9'
-  anzeige: '9'
-  weg:
-  - 7x + 14 = 77
-  - 7x = 63 | −14
-  - x = 9 | :7
-  tipps:
-  - 'Zwei Schritte: zuerst die + 14 wegbringen, dann das · 7.'
-  - Rechne auf beiden Seiten − 14. Dann steht da 7x = 63.
-  - 'Jetzt noch auf beiden Seiten : 7.'
-  fehler:
-  - antwort: '13'
-    hinweis: 'Achtung beim ersten Schritt: Um + 14 wegzubringen, rechnest du − 14.'
-  - antwort: '63'
-    hinweis: 'Fast! 7x = 63 stimmt schon. Jetzt fehlt nur noch : 7.'
-  - antwort: '-3'
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-016
-  typ: gleichung
-  stufe: 2
-  gleichung: -6x + 12 = -36
-  loesung: '8'
-  anzeige: '8'
-  weg:
-  - -6x + 12 = -36
-  - -6x = -48 | −12
-  - x = 8 | :(−6)
-  tipps:
-  - 'Zwei Schritte: zuerst die + 12 wegbringen, dann das · (-6).'
-  - Rechne auf beiden Seiten − 12. Dann steht da -6x = -48.
-  - 'Jetzt noch auf beiden Seiten : (-6).'
-  fehler:
-  - antwort: '4'
-    hinweis: 'Achtung beim ersten Schritt: Um + 12 wegzubringen, rechnest du − 12.'
-  - antwort: '-48'
-    hinweis: 'Fast! -6x = -48 stimmt schon. Jetzt fehlt nur noch : (-6).'
-  - antwort: '-6'
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-017
-  typ: gleichung
-  stufe: 2
-  gleichung: -7x + 6 = -57
-  loesung: '9'
-  anzeige: '9'
-  weg:
-  - -7x + 6 = -57
-  - -7x = -63 | −6
-  - x = 9 | :(−7)
-  tipps:
-  - 'Zwei Schritte: zuerst die + 6 wegbringen, dann das · (-7).'
-  - Rechne auf beiden Seiten − 6. Dann steht da -7x = -63.
-  - 'Jetzt noch auf beiden Seiten : (-7).'
-  fehler:
-  - antwort: 51/7
-    hinweis: 'Achtung beim ersten Schritt: Um + 6 wegzubringen, rechnest du − 6.'
-  - antwort: '-63'
-    hinweis: 'Fast! -7x = -63 stimmt schon. Jetzt fehlt nur noch : (-7).'
-  - antwort: 15/7
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-018
-  typ: gleichung
-  stufe: 2
-  gleichung: 4x - 1 = 7
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - 4x - 1 = 7
-  - 4x = 8 | +1
-  - x = 2 | :4
-  tipps:
-  - 'Zwei Schritte: zuerst die − 1 wegbringen, dann das · 4.'
-  - Rechne auf beiden Seiten + 1. Dann steht da 4x = 8.
-  - 'Jetzt noch auf beiden Seiten : 4.'
-  fehler:
-  - antwort: 3/2
-    hinweis: 'Achtung beim ersten Schritt: Um − 1 wegzubringen, rechnest du + 1.'
-  - antwort: '8'
-    hinweis: 'Fast! 4x = 8 stimmt schon. Jetzt fehlt nur noch : 4.'
-  - antwort: 11/4
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-019
-  typ: gleichung
-  stufe: 2
-  gleichung: -3x - 5 = -2
-  loesung: '-1'
-  anzeige: '-1'
-  weg:
-  - -3x - 5 = -2
-  - -3x = 3 | +5
-  - x = -1 | :(−3)
-  tipps:
-  - 'Zwei Schritte: zuerst die − 5 wegbringen, dann das · (-3).'
-  - Rechne auf beiden Seiten + 5. Dann steht da -3x = 3.
-  - 'Jetzt noch auf beiden Seiten : (-3).'
-  fehler:
-  - antwort: 7/3
-    hinweis: 'Achtung beim ersten Schritt: Um − 5 wegzubringen, rechnest du + 5.'
-  - antwort: '3'
-    hinweis: 'Fast! -3x = 3 stimmt schon. Jetzt fehlt nur noch : (-3).'
-  - antwort: 17/3
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-020
-  typ: gleichung
-  stufe: 2
-  gleichung: -5x - 1 = -46
-  loesung: '9'
-  anzeige: '9'
-  weg:
-  - -5x - 1 = -46
-  - -5x = -45 | +1
-  - x = 9 | :(−5)
-  tipps:
-  - 'Zwei Schritte: zuerst die − 1 wegbringen, dann das · (-5).'
-  - Rechne auf beiden Seiten + 1. Dann steht da -5x = -45.
-  - 'Jetzt noch auf beiden Seiten : (-5).'
-  fehler:
-  - antwort: 47/5
-    hinweis: 'Achtung beim ersten Schritt: Um − 1 wegzubringen, rechnest du + 1.'
-  - antwort: '-45'
-    hinweis: 'Fast! -5x = -45 stimmt schon. Jetzt fehlt nur noch : (-5).'
-  - antwort: 51/5
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-021
-  typ: gleichung
-  stufe: 3
-  gleichung: -11 = -2x + 5
-  loesung: '8'
-  anzeige: '8'
-  weg:
-  - -11 = -2x + 5
-  - -16 = -2x | −5
-  - 8 = x | :(−2)
-  - x = 8 | Seiten tauschen
-  tipps:
-  - 'Zwei Schritte: zuerst die + 5 wegbringen, dann das · (-2).'
-  - Rechne auf beiden Seiten − 5. Dann steht da -2x = -16.
-  - 'Jetzt noch auf beiden Seiten : (-2).'
-  fehler:
-  - antwort: '3'
-    hinweis: 'Achtung beim ersten Schritt: Um + 5 wegzubringen, rechnest du − 5.'
-  - antwort: '-16'
-    hinweis: 'Fast! -2x = -16 stimmt schon. Jetzt fehlt nur noch : (-2).'
-  - antwort: 1/2
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-022
-  typ: gleichung
-  stufe: 3
-  gleichung: -21 = 2x - 5
+  gleichung: -6x - 7 = 41
   loesung: '-8'
   anzeige: '-8'
   weg:
-  - -21 = 2x - 5
-  - -16 = 2x | +5
-  - -8 = x | :2
-  - x = -8 | Seiten tauschen
+  - -6x - 7 = 41
+  - -6x = 48 | +7
+  - x = -8 | :(−6)
   tipps:
-  - 'Zwei Schritte: zuerst die − 5 wegbringen, dann das · 2.'
-  - Rechne auf beiden Seiten + 5. Dann steht da 2x = -16.
-  - 'Jetzt noch auf beiden Seiten : 2.'
-  fehler:
-  - antwort: '-13'
-    hinweis: 'Achtung beim ersten Schritt: Um − 5 wegzubringen, rechnest du + 5.'
-  - antwort: '-16'
-    hinweis: 'Fast! 2x = -16 stimmt schon. Jetzt fehlt nur noch : 2.'
-  - antwort: -11/2
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-023
-  typ: gleichung
-  stufe: 3
-  gleichung: -6x + 13 = 67
-  loesung: '-9'
-  anzeige: '-9'
-  weg:
-  - -6x + 13 = 67
-  - -6x = 54 | −13
-  - x = -9 | :(−6)
-  tipps:
-  - 'Zwei Schritte: zuerst die + 13 wegbringen, dann das · (-6).'
-  - Rechne auf beiden Seiten − 13. Dann steht da -6x = 54.
+  - 'Zwei Schritte: zuerst die − `7` wegbringen, dann das · (-6).'
+  - Rechne auf beiden Seiten + `7`. Dann steht da `-6x = 48`.
   - 'Jetzt noch auf beiden Seiten : (-6).'
   fehler:
-  - antwort: -40/3
-    hinweis: 'Achtung beim ersten Schritt: Um + 13 wegzubringen, rechnest du − 13.'
-  - antwort: '54'
-    hinweis: 'Fast! -6x = 54 stimmt schon. Jetzt fehlt nur noch : (-6).'
-  - antwort: -145/6
+  - antwort: -17/3
+    hinweis: 'Achtung beim ersten Schritt: Um − 7 wegzubringen, rechnest du + 7.'
+  - antwort: '48'
+    hinweis: 'Fast! `-6x = 48` stimmt schon. Jetzt fehlt nur noch : (-6).'
+  - antwort: 1/6
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-024
+  - antwort: '-288'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-006
   typ: gleichung
-  stufe: 3
-  gleichung: 15 = -2x + 9
+  stufe: 1
+  gleichung: 6x - 5 = 31
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - 6x - 5 = 31
+  - 6x = 36 | +5
+  - x = 6 | :6
+  tipps:
+  - 'Zwei Schritte: zuerst die − `5` wegbringen, dann das · 6.'
+  - Rechne auf beiden Seiten + `5`. Dann steht da `6x = 36`.
+  - 'Jetzt noch auf beiden Seiten : 6.'
+  fehler:
+  - antwort: 13/3
+    hinweis: 'Achtung beim ersten Schritt: Um − 5 wegzubringen, rechnest du + 5.'
+  - antwort: '36'
+    hinweis: 'Fast! `6x = 36` stimmt schon. Jetzt fehlt nur noch : 6.'
+  - antwort: 61/6
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '216'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-007
+  typ: gleichung
+  stufe: 1
+  gleichung: 4x - 10 = 22
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - 4x - 10 = 22
+  - 4x = 32 | +10
+  - x = 8 | :4
+  tipps:
+  - 'Zwei Schritte: zuerst die − `10` wegbringen, dann das · 4.'
+  - Rechne auf beiden Seiten + `10`. Dann steht da `4x = 32`.
+  - 'Jetzt noch auf beiden Seiten : 4.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Achtung beim ersten Schritt: Um − 10 wegzubringen, rechnest du + 10.'
+  - antwort: '32'
+    hinweis: 'Fast! `4x = 32` stimmt schon. Jetzt fehlt nur noch : 4.'
+  - antwort: 31/2
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '128'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-008
+  typ: gleichung
+  stufe: 1
+  gleichung: 2x + 4 = 12
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - 2x + 4 = 12
+  - 2x = 8 | −4
+  - x = 4 | :2
+  tipps:
+  - 'Zwei Schritte: zuerst die + `4` wegbringen, dann das · 2.'
+  - Rechne auf beiden Seiten − `4`. Dann steht da `2x = 8`.
+  - 'Jetzt noch auf beiden Seiten : 2.'
+  fehler:
+  - antwort: '8'
+    hinweis: 'Achtung beim ersten Schritt: Um + 4 wegzubringen, rechnest du − 4.'
+  - antwort: '2'
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '16'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-009
+  typ: gleichung
+  stufe: 1
+  gleichung: -3x - 2 = 4
+  loesung: '-2'
+  anzeige: '-2'
+  weg:
+  - -3x - 2 = 4
+  - -3x = 6 | +2
+  - x = -2 | :(−3)
+  tipps:
+  - 'Zwei Schritte: zuerst die − `2` wegbringen, dann das · (-3).'
+  - Rechne auf beiden Seiten + `2`. Dann steht da `-3x = 6`.
+  - 'Jetzt noch auf beiden Seiten : (-3).'
+  fehler:
+  - antwort: -2/3
+    hinweis: 'Achtung beim ersten Schritt: Um − 2 wegzubringen, rechnest du + 2.'
+  - antwort: '6'
+    hinweis: 'Fast! `-3x = 6` stimmt schon. Jetzt fehlt nur noch : (-3).'
+  - antwort: 2/3
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-18'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-010
+  typ: gleichung
+  stufe: 1
+  gleichung: 4x + 13 = 1
   loesung: '-3'
   anzeige: '-3'
   weg:
-  - 15 = -2x + 9
-  - 6 = -2x | −9
-  - -3 = x | :(−2)
-  - x = -3 | Seiten tauschen
+  - 4x + 13 = 1
+  - 4x = -12 | −13
+  - x = -3 | :4
   tipps:
-  - 'Zwei Schritte: zuerst die + 9 wegbringen, dann das · (-2).'
-  - Rechne auf beiden Seiten − 9. Dann steht da -2x = 6.
-  - 'Jetzt noch auf beiden Seiten : (-2).'
+  - 'Zwei Schritte: zuerst die + `13` wegbringen, dann das · 4.'
+  - Rechne auf beiden Seiten − `13`. Dann steht da `4x = -12`.
+  - 'Jetzt noch auf beiden Seiten : 4.'
   fehler:
+  - antwort: 7/2
+    hinweis: 'Achtung beim ersten Schritt: Um + 13 wegzubringen, rechnest du − 13.'
   - antwort: '-12'
-    hinweis: 'Achtung beim ersten Schritt: Um + 9 wegzubringen, rechnest du − 9.'
-  - antwort: '6'
-    hinweis: 'Fast! -2x = 6 stimmt schon. Jetzt fehlt nur noch : (-2).'
-  - antwort: -33/2
+    hinweis: 'Fast! `4x = -12` stimmt schon. Jetzt fehlt nur noch : 4.'
+  - antwort: -51/4
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-025
+  - antwort: '-48'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-011
   typ: gleichung
-  stufe: 3
-  gleichung: 23 = -5x + 3
-  loesung: '-4'
-  anzeige: '-4'
+  stufe: 2
+  gleichung: -15 = -3x - 18
+  loesung: '-1'
+  anzeige: '-1'
   weg:
-  - 23 = -5x + 3
-  - 20 = -5x | −3
-  - -4 = x | :(−5)
-  - x = -4 | Seiten tauschen
+  - -15 = -3x - 18
+  - 3 = -3x | +18
+  - -1 = x | :(−3)
+  - x = -1 | Seiten tauschen
   tipps:
-  - 'Zwei Schritte: zuerst die + 3 wegbringen, dann das · (-5).'
-  - Rechne auf beiden Seiten − 3. Dann steht da -5x = 20.
-  - 'Jetzt noch auf beiden Seiten : (-5).'
-  fehler:
-  - antwort: -26/5
-    hinweis: 'Achtung beim ersten Schritt: Um + 3 wegzubringen, rechnest du − 3.'
-  - antwort: '20'
-    hinweis: 'Fast! -5x = 20 stimmt schon. Jetzt fehlt nur noch : (-5).'
-  - antwort: -38/5
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-026
-  typ: gleichung
-  stufe: 3
-  gleichung: 4 = -5x + 3
-  loesung: -1/5
-  anzeige: -1/5 = -0,2
-  weg:
-  - 4 = -5x + 3
-  - 1 = -5x | −3
-  - -1/5 = x | :(−5)
-  - x = -1/5 | Seiten tauschen
-  tipps:
-  - 'Zwei Schritte: zuerst die + 3 wegbringen, dann das · (-5).'
-  - Rechne auf beiden Seiten − 3. Dann steht da -5x = 1.
-  - 'Jetzt noch auf beiden Seiten : (-5).'
-  fehler:
-  - antwort: -7/5
-    hinweis: 'Achtung beim ersten Schritt: Um + 3 wegzubringen, rechnest du − 3.'
-  - antwort: '1'
-    hinweis: 'Fast! -5x = 1 stimmt schon. Jetzt fehlt nur noch : (-5).'
-  - antwort: -19/5
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-027
-  typ: gleichung
-  stufe: 3
-  gleichung: -22 = -3x - 13
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - -22 = -3x - 13
-  - -9 = -3x | +13
-  - 3 = x | :(−3)
-  - x = 3 | Seiten tauschen
-  tipps:
-  - 'Zwei Schritte: zuerst die − 13 wegbringen, dann das · (-3).'
-  - Rechne auf beiden Seiten + 13. Dann steht da -3x = -9.
+  - 'Zwei Schritte: zuerst die − `18` wegbringen, dann das · (-3).'
+  - Rechne auf beiden Seiten + `18`. Dann steht da `-3x = 3`.
   - 'Jetzt noch auf beiden Seiten : (-3).'
   fehler:
-  - antwort: 35/3
-    hinweis: 'Achtung beim ersten Schritt: Um − 13 wegzubringen, rechnest du + 13.'
+  - antwort: '11'
+    hinweis: 'Achtung beim ersten Schritt: Um − 18 wegzubringen, rechnest du + 18.'
+  - antwort: '3'
+    hinweis: 'Fast! `-3x = 3` stimmt schon. Jetzt fehlt nur noch : (-3).'
+  - antwort: '23'
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
   - antwort: '-9'
-    hinweis: 'Fast! -3x = -9 stimmt schon. Jetzt fehlt nur noch : (-3).'
-  - antwort: 61/3
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-028
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-012
   typ: gleichung
-  stufe: 3
-  gleichung: 10 = 2x + 1
-  loesung: 9/2
-  anzeige: 9/2 = 4,5
-  weg:
-  - 10 = 2x + 1
-  - 9 = 2x | −1
-  - 9/2 = x | :2
-  - x = 9/2 | Seiten tauschen
-  tipps:
-  - 'Zwei Schritte: zuerst die + 1 wegbringen, dann das · 2.'
-  - Rechne auf beiden Seiten − 1. Dann steht da 2x = 9.
-  - 'Jetzt noch auf beiden Seiten : 2.'
-  fehler:
-  - antwort: 11/2
-    hinweis: 'Achtung beim ersten Schritt: Um + 1 wegzubringen, rechnest du − 1.'
-  - antwort: '9'
-    hinweis: 'Fast! 2x = 9 stimmt schon. Jetzt fehlt nur noch : 2.'
-  - antwort: '4'
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-029
-  typ: gleichung
-  stufe: 3
-  gleichung: -6x + 15 = 4
-  loesung: 11/6
-  anzeige: 11/6
-  weg:
-  - -6x + 15 = 4
-  - -6x = -11 | −15
-  - x = 11/6 | :(−6)
-  tipps:
-  - 'Zwei Schritte: zuerst die + 15 wegbringen, dann das · (-6).'
-  - Rechne auf beiden Seiten − 15. Dann steht da -6x = -11.
-  - 'Jetzt noch auf beiden Seiten : (-6).'
-  fehler:
-  - antwort: -19/6
-    hinweis: 'Achtung beim ersten Schritt: Um + 15 wegzubringen, rechnest du − 15.'
-  - antwort: '-11'
-    hinweis: 'Fast! -6x = -11 stimmt schon. Jetzt fehlt nur noch : (-6).'
-  - antwort: -47/3
-    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
-- id: B1.4-030
-  typ: gleichung
-  stufe: 3
-  gleichung: 6x + 12 = 7
+  stufe: 2
+  gleichung: 14 - 6x = 19
   loesung: -5/6
   anzeige: -5/6
   weg:
-  - 6x + 12 = 7
-  - 6x = -5 | −12
-  - x = -5/6 | :6
+  - 14 - 6x = 19
+  - -6x = 5 | −14
+  - x = -5/6 | :(−6)
   tipps:
-  - 'Zwei Schritte: zuerst die + 12 wegbringen, dann das · 6.'
-  - Rechne auf beiden Seiten − 12. Dann steht da 6x = -5.
-  - 'Jetzt noch auf beiden Seiten : 6.'
+  - 'Zwei Schritte: zuerst die + `14` wegbringen, dann das · (-6).'
+  - Rechne auf beiden Seiten − `14`. Dann steht da `-6x = 5`.
+  - 'Jetzt noch auf beiden Seiten : (-6).'
   fehler:
-  - antwort: 19/6
-    hinweis: 'Achtung beim ersten Schritt: Um + 12 wegzubringen, rechnest du − 12.'
-  - antwort: '-5'
-    hinweis: 'Fast! 6x = -5 stimmt schon. Jetzt fehlt nur noch : 6.'
-  - antwort: -65/6
+  - antwort: -11/2
+    hinweis: 'Achtung beim ersten Schritt: Um + 14 wegzubringen, rechnest du − 14.'
+  - antwort: '5'
+    hinweis: 'Fast! `-6x = 5` stimmt schon. Jetzt fehlt nur noch : (-6).'
+  - antwort: -103/6
     hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-30'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-013
+  typ: gleichung
+  stufe: 2
+  gleichung: -16 = -6x - 18
+  loesung: -1/3
+  anzeige: -1/3
+  weg:
+  - -16 = -6x - 18
+  - 2 = -6x | +18
+  - -1/3 = x | :(−6)
+  - x = -1/3 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die − `18` wegbringen, dann das · (-6).'
+  - Rechne auf beiden Seiten + `18`. Dann steht da `-6x = 2`.
+  - 'Jetzt noch auf beiden Seiten : (-6).'
+  fehler:
+  - antwort: 17/3
+    hinweis: 'Achtung beim ersten Schritt: Um − 18 wegzubringen, rechnest du + 18.'
+  - antwort: '2'
+    hinweis: 'Fast! `-6x = 2` stimmt schon. Jetzt fehlt nur noch : (-6).'
+  - antwort: 62/3
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-12'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-014
+  typ: gleichung
+  stufe: 2
+  gleichung: 7x + 3 = 18
+  loesung: 15/7
+  anzeige: 15/7
+  weg:
+  - 7x + 3 = 18
+  - 7x = 15 | −3
+  - x = 15/7 | :7
+  tipps:
+  - 'Zwei Schritte: zuerst die + `3` wegbringen, dann das · 7.'
+  - Rechne auf beiden Seiten − `3`. Dann steht da `7x = 15`.
+  - 'Jetzt noch auf beiden Seiten : 7.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Achtung beim ersten Schritt: Um + 3 wegzubringen, rechnest du − 3.'
+  - antwort: '15'
+    hinweis: 'Fast! `7x = 15` stimmt schon. Jetzt fehlt nur noch : 7.'
+  - antwort: -3/7
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '105'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-015
+  typ: gleichung
+  stufe: 2
+  gleichung: -6 = 9x - 19
+  loesung: 13/9
+  anzeige: 13/9
+  weg:
+  - -6 = 9x - 19
+  - 13 = 9x | +19
+  - 13/9 = x | :9
+  - x = 13/9 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die − `19` wegbringen, dann das · 9.'
+  - Rechne auf beiden Seiten + `19`. Dann steht da `9x = 13`.
+  - 'Jetzt noch auf beiden Seiten : 9.'
+  fehler:
+  - antwort: -25/9
+    hinweis: 'Achtung beim ersten Schritt: Um − 19 wegzubringen, rechnest du + 19.'
+  - antwort: '13'
+    hinweis: 'Fast! `9x = 13` stimmt schon. Jetzt fehlt nur noch : 9.'
+  - antwort: 55/3
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '117'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-016
+  typ: gleichung
+  stufe: 2
+  gleichung: -3 - 7x = 60
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - -3 - 7x = 60
+  - -7x = 63 | +3
+  - x = -9 | :(−7)
+  tipps:
+  - 'Zwei Schritte: zuerst die − `3` wegbringen, dann das · (-7).'
+  - Rechne auf beiden Seiten + `3`. Dann steht da `-7x = 63`.
+  - 'Jetzt noch auf beiden Seiten : (-7).'
+  fehler:
+  - antwort: -57/7
+    hinweis: 'Achtung beim ersten Schritt: Um − 3 wegzubringen, rechnest du + 3.'
+  - antwort: '63'
+    hinweis: 'Fast! `-7x = 63` stimmt schon. Jetzt fehlt nur noch : (-7).'
+  - antwort: -39/7
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-441'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-017
+  typ: gleichung
+  stufe: 2
+  gleichung: 3 = -6x + 20
+  loesung: 17/6
+  anzeige: 17/6
+  weg:
+  - 3 = -6x + 20
+  - -17 = -6x | −20
+  - 17/6 = x | :(−6)
+  - x = 17/6 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die + `20` wegbringen, dann das · (-6).'
+  - Rechne auf beiden Seiten − `20`. Dann steht da `-6x = -17`.
+  - 'Jetzt noch auf beiden Seiten : (-6).'
+  fehler:
+  - antwort: -23/6
+    hinweis: 'Achtung beim ersten Schritt: Um + 20 wegzubringen, rechnest du − 20.'
+  - antwort: '-17'
+    hinweis: 'Fast! `-6x = -17` stimmt schon. Jetzt fehlt nur noch : (-6).'
+  - antwort: -41/2
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '102'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-018
+  typ: gleichung
+  stufe: 2
+  gleichung: -9 = -7x - 6
+  loesung: 3/7
+  anzeige: 3/7
+  weg:
+  - -9 = -7x - 6
+  - -3 = -7x | +6
+  - 3/7 = x | :(−7)
+  - x = 3/7 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die − `6` wegbringen, dann das · (-7).'
+  - Rechne auf beiden Seiten + `6`. Dann steht da `-7x = -3`.
+  - 'Jetzt noch auf beiden Seiten : (-7).'
+  fehler:
+  - antwort: 15/7
+    hinweis: 'Achtung beim ersten Schritt: Um − 6 wegzubringen, rechnest du + 6.'
+  - antwort: '-3'
+    hinweis: 'Fast! `-7x = -3` stimmt schon. Jetzt fehlt nur noch : (-7).'
+  - antwort: 51/7
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '21'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-019
+  typ: gleichung
+  stufe: 2
+  gleichung: 24 = 2x + 8
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - 24 = 2x + 8
+  - 16 = 2x | −8
+  - 8 = x | :2
+  - x = 8 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die + `8` wegbringen, dann das · 2.'
+  - Rechne auf beiden Seiten − `8`. Dann steht da `2x = 16`.
+  - 'Jetzt noch auf beiden Seiten : 2.'
+  fehler:
+  - antwort: '16'
+    hinweis: 'Achtung beim ersten Schritt: Um + 8 wegzubringen, rechnest du − 8.'
+  - antwort: '4'
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '32'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-020
+  typ: gleichung
+  stufe: 2
+  gleichung: 2x - 16 = -30
+  loesung: '-7'
+  anzeige: '-7'
+  weg:
+  - 2x - 16 = -30
+  - 2x = -14 | +16
+  - x = -7 | :2
+  tipps:
+  - 'Zwei Schritte: zuerst die − `16` wegbringen, dann das · 2.'
+  - Rechne auf beiden Seiten + `16`. Dann steht da `2x = -14`.
+  - 'Jetzt noch auf beiden Seiten : 2.'
+  fehler:
+  - antwort: '-23'
+    hinweis: 'Achtung beim ersten Schritt: Um − 16 wegzubringen, rechnest du + 16.'
+  - antwort: '-14'
+    hinweis: 'Fast! `2x = -14` stimmt schon. Jetzt fehlt nur noch : 2.'
+  - antwort: '1'
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-28'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-021
+  typ: gleichung
+  stufe: 3
+  gleichung: -33,3 = 2x - 5,3
+  loesung: '-14'
+  anzeige: '-14'
+  weg:
+  - -33,3 = 2x - 5,3
+  - -28 = 2x | +5,3
+  - -14 = x | :2
+  - x = -14 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die − `5,3` wegbringen, dann das · 2.'
+  - Rechne auf beiden Seiten + `5,3`. Dann steht da `2x = -28`.
+  - 'Jetzt noch auf beiden Seiten : 2.'
+  fehler:
+  - antwort: -193/10
+    hinweis: 'Achtung beim ersten Schritt: Um − 5,3 wegzubringen, rechnest du + 5,3.'
+  - antwort: '-28'
+    hinweis: 'Fast! `2x = -28` stimmt schon. Jetzt fehlt nur noch : 2.'
+  - antwort: -227/20
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-56'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-022
+  typ: gleichung
+  stufe: 3
+  gleichung: -1,8x - 3,3 = -11,4
+  loesung: 9/2
+  anzeige: 9/2 = 4,5
+  weg:
+  - -1,8x - 3,3 = -11,4
+  - -1,8x = -8,1 | +3,3
+  - x = 4,5 | :(−1,8)
+  tipps:
+  - 'Zwei Schritte: zuerst die − `3,3` wegbringen, dann das · (-1,8).'
+  - Rechne auf beiden Seiten + `3,3`. Dann steht da `-1,8x = -8,1`.
+  - 'Jetzt noch auf beiden Seiten : (-1,8).'
+  fehler:
+  - antwort: 49/6
+    hinweis: 'Achtung beim ersten Schritt: Um − 3,3 wegzubringen, rechnest du + 3,3.'
+  - antwort: -81/10
+    hinweis: 'Fast! `-1,8x = -8,1` stimmt schon. Jetzt fehlt nur noch : (-1,8).'
+  - antwort: 289/30
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 729/50
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-023
+  typ: gleichung
+  stufe: 3
+  gleichung: -2,6 + 2x = -46,6
+  loesung: '-22'
+  anzeige: '-22'
+  weg:
+  - -2,6 + 2x = -46,6
+  - 2x = -44 | +2,6
+  - x = -22 | :2
+  tipps:
+  - 'Zwei Schritte: zuerst die − `2,6` wegbringen, dann das · 2.'
+  - Rechne auf beiden Seiten + `2,6`. Dann steht da `2x = -44`.
+  - 'Jetzt noch auf beiden Seiten : 2.'
+  fehler:
+  - antwort: -123/5
+    hinweis: 'Achtung beim ersten Schritt: Um − 2,6 wegzubringen, rechnest du + 2,6.'
+  - antwort: '-44'
+    hinweis: 'Fast! `2x = -44` stimmt schon. Jetzt fehlt nur noch : 2.'
+  - antwort: -207/10
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-88'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-024
+  typ: gleichung
+  stufe: 3
+  gleichung: 0,6x + 0,4 = -1,4
+  loesung: '-3'
+  anzeige: '-3'
+  weg:
+  - 0,6x + 0,4 = -1,4
+  - 0,6x = -1,8 | −0,4
+  - x = -3 | :0,6
+  tipps:
+  - 'Zwei Schritte: zuerst die + `0,4` wegbringen, dann das · 0,6.'
+  - Rechne auf beiden Seiten − `0,4`. Dann steht da `0,6x = -1,8`.
+  - 'Jetzt noch auf beiden Seiten : 0,6.'
+  fehler:
+  - antwort: -5/3
+    hinweis: 'Achtung beim ersten Schritt: Um + 0,4 wegzubringen, rechnest du − 0,4.'
+  - antwort: -9/5
+    hinweis: 'Fast! `0,6x = -1,8` stimmt schon. Jetzt fehlt nur noch : 0,6.'
+  - antwort: -41/15
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -27/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-025
+  typ: gleichung
+  stufe: 3
+  gleichung: -21,3 = 1,6x - 3,7
+  loesung: '-11'
+  anzeige: '-11'
+  weg:
+  - -21,3 = 1,6x - 3,7
+  - -17,6 = 1,6x | +3,7
+  - -11 = x | :1,6
+  - x = -11 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die − `3,7` wegbringen, dann das · 1,6.'
+  - Rechne auf beiden Seiten + `3,7`. Dann steht da `1,6x = -17,6`.
+  - 'Jetzt noch auf beiden Seiten : 1,6.'
+  fehler:
+  - antwort: -125/8
+    hinweis: 'Achtung beim ersten Schritt: Um − 3,7 wegzubringen, rechnest du + 3,7.'
+  - antwort: -88/5
+    hinweis: 'Fast! `1,6x = -17,6` stimmt schon. Jetzt fehlt nur noch : 1,6.'
+  - antwort: -769/80
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -704/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-026
+  typ: gleichung
+  stufe: 3
+  gleichung: 0,6x + 8,2 = 24,4
+  loesung: '27'
+  anzeige: '27'
+  weg:
+  - 0,6x + 8,2 = 24,4
+  - 0,6x = 16,2 | −8,2
+  - x = 27 | :0,6
+  tipps:
+  - 'Zwei Schritte: zuerst die + `8,2` wegbringen, dann das · 0,6.'
+  - Rechne auf beiden Seiten − `8,2`. Dann steht da `0,6x = 16,2`.
+  - 'Jetzt noch auf beiden Seiten : 0,6.'
+  fehler:
+  - antwort: 163/3
+    hinweis: 'Achtung beim ersten Schritt: Um + 8,2 wegzubringen, rechnest du − 8,2.'
+  - antwort: 81/5
+    hinweis: 'Fast! `0,6x = 16,2` stimmt schon. Jetzt fehlt nur noch : 0,6.'
+  - antwort: 487/15
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 243/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-027
+  typ: gleichung
+  stufe: 3
+  gleichung: -1,3x + 2,1 = 9,25
+  loesung: -11/2
+  anzeige: -11/2 = -5,5
+  weg:
+  - -1,3x + 2,1 = 9,25
+  - -1,3x = 7,15 | −2,1
+  - x = -5,5 | :(−1,3)
+  tipps:
+  - 'Zwei Schritte: zuerst die + `2,1` wegbringen, dann das · (-1,3).'
+  - Rechne auf beiden Seiten − `2,1`. Dann steht da `-1,3x = 7,15`.
+  - 'Jetzt noch auf beiden Seiten : (-1,3).'
+  fehler:
+  - antwort: -227/26
+    hinweis: 'Achtung beim ersten Schritt: Um + 2,1 wegzubringen, rechnest du − 2,1.'
+  - antwort: 143/20
+    hinweis: 'Fast! `-1,3x = 7,15` stimmt schon. Jetzt fehlt nur noch : (-1,3).'
+  - antwort: -599/65
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -1859/200
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-028
+  typ: gleichung
+  stufe: 3
+  gleichung: -2,3 + 2x = -23,3
+  loesung: -21/2
+  anzeige: -21/2 = -10,5
+  weg:
+  - -2,3 + 2x = -23,3
+  - 2x = -21 | +2,3
+  - x = -10,5 | :2
+  tipps:
+  - 'Zwei Schritte: zuerst die − `2,3` wegbringen, dann das · 2.'
+  - Rechne auf beiden Seiten + `2,3`. Dann steht da `2x = -21`.
+  - 'Jetzt noch auf beiden Seiten : 2.'
+  fehler:
+  - antwort: -64/5
+    hinweis: 'Achtung beim ersten Schritt: Um − 2,3 wegzubringen, rechnest du + 2,3.'
+  - antwort: '-21'
+    hinweis: 'Fast! `2x = -21` stimmt schon. Jetzt fehlt nur noch : 2.'
+  - antwort: -187/20
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-42'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-029
+  typ: gleichung
+  stufe: 3
+  gleichung: 1,2x + 5,5 = -4,1
+  loesung: '-8'
+  anzeige: '-8'
+  weg:
+  - 1,2x + 5,5 = -4,1
+  - 1,2x = -9,6 | −5,5
+  - x = -8 | :1,2
+  tipps:
+  - 'Zwei Schritte: zuerst die + `5,5` wegbringen, dann das · 1,2.'
+  - Rechne auf beiden Seiten − `5,5`. Dann steht da `1,2x = -9,6`.
+  - 'Jetzt noch auf beiden Seiten : 1,2.'
+  fehler:
+  - antwort: 7/6
+    hinweis: 'Achtung beim ersten Schritt: Um + 5,5 wegzubringen, rechnest du − 5,5.'
+  - antwort: -48/5
+    hinweis: 'Fast! `1,2x = -9,6` stimmt schon. Jetzt fehlt nur noch : 1,2.'
+  - antwort: -107/12
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -288/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-030
+  typ: gleichung
+  stufe: 3
+  gleichung: 2,2x - 5 = -57,8
+  loesung: '-24'
+  anzeige: '-24'
+  weg:
+  - 2,2x - 5 = -57,8
+  - 2,2x = -52,8 | +5
+  - x = -24 | :2,2
+  tipps:
+  - 'Zwei Schritte: zuerst die − `5` wegbringen, dann das · 2,2.'
+  - Rechne auf beiden Seiten + `5`. Dann steht da `2,2x = -52,8`.
+  - 'Jetzt noch auf beiden Seiten : 2,2.'
+  fehler:
+  - antwort: -314/11
+    hinweis: 'Achtung beim ersten Schritt: Um − 5 wegzubringen, rechnest du + 5.'
+  - antwort: -264/5
+    hinweis: 'Fast! `2,2x = -52,8` stimmt schon. Jetzt fehlt nur noch : 2,2.'
+  - antwort: -234/11
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -2904/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-031
+  typ: gleichung
+  stufe: 4
+  gleichung: 7/9 = 2/3·x + 1/3
+  loesung: 2/3
+  anzeige: 2/3
+  weg:
+  - 7/9 = 2/3·x + 1/3
+  - 4/9 = 2/3·x | −1/3
+  - 2/3 = x | :2/3
+  - x = 2/3 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die + `1/3` wegbringen, dann das · 2/3.'
+  - Rechne auf beiden Seiten − `1/3`. Dann steht da `2/3·x = 4/9`.
+  - 'Jetzt noch auf beiden Seiten : 2/3. Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 5/3
+    hinweis: 'Achtung beim ersten Schritt: Um + 1/3 wegzubringen, rechnest du − 1/3.'
+  - antwort: 4/9
+    hinweis: 'Fast! `2/3·x = 4/9` stimmt schon. Jetzt fehlt nur noch : 2/3.'
+  - antwort: 5/6
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 8/27
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-032
+  typ: gleichung
+  stufe: 4
+  gleichung: -5/3·x - 1/4 = 59/4
+  loesung: '-9'
+  anzeige: '-9'
+  weg:
+  - -5/3·x - 1/4 = 59/4
+  - -5/3·x = 15 | +1/4
+  - x = -9 | :(−5/3)
+  tipps:
+  - 'Zwei Schritte: zuerst die − `1/4` wegbringen, dann das · (-5/3).'
+  - Rechne auf beiden Seiten + `1/4`. Dann steht da `-5/3·x = 15`.
+  - 'Jetzt noch auf beiden Seiten : (-5/3). Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: -87/10
+    hinweis: 'Achtung beim ersten Schritt: Um − 1/4 wegzubringen, rechnest du + 1/4.'
+  - antwort: '15'
+    hinweis: 'Fast! `-5/3·x = 15` stimmt schon. Jetzt fehlt nur noch : (-5/3).'
+  - antwort: -43/5
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: '-25'
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-033
+  typ: gleichung
+  stufe: 4
+  gleichung: -6/5 = -7/5·x - 1/2
+  loesung: 1/2
+  anzeige: 1/2 = 0,5
+  weg:
+  - -6/5 = -7/5·x - 1/2
+  - -7/10 = -7/5·x | +1/2
+  - 1/2 = x | :(−7/5)
+  - x = 1/2 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die − `1/2` wegbringen, dann das · (-7/5).'
+  - Rechne auf beiden Seiten + `1/2`. Dann steht da `-7/5·x = -7/10`.
+  - 'Jetzt noch auf beiden Seiten : (-7/5). Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 17/14
+    hinweis: 'Achtung beim ersten Schritt: Um − 1/2 wegzubringen, rechnest du + 1/2.'
+  - antwort: -7/10
+    hinweis: 'Fast! `-7/5·x = -7/10` stimmt schon. Jetzt fehlt nur noch : (-7/5).'
+  - antwort: 19/14
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 49/50
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-034
+  typ: gleichung
+  stufe: 4
+  gleichung: -7/2·x + 3/2 = 13/4
+  loesung: -1/2
+  anzeige: -1/2 = -0,5
+  weg:
+  - -7/2·x + 3/2 = 13/4
+  - -7/2·x = 7/4 | −3/2
+  - x = -1/2 | :(−7/2)
+  tipps:
+  - 'Zwei Schritte: zuerst die + `3/2` wegbringen, dann das · (-7/2).'
+  - Rechne auf beiden Seiten − `3/2`. Dann steht da `-7/2·x = 7/4`.
+  - 'Jetzt noch auf beiden Seiten : (-7/2). Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: -19/14
+    hinweis: 'Achtung beim ersten Schritt: Um + 3/2 wegzubringen, rechnest du − 3/2.'
+  - antwort: 7/4
+    hinweis: 'Fast! `-7/2·x = 7/4` stimmt schon. Jetzt fehlt nur noch : (-7/2).'
+  - antwort: -17/7
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -49/8
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-035
+  typ: gleichung
+  stufe: 4
+  gleichung: 5/3·x + 7/2 = 23/18
+  loesung: -4/3
+  anzeige: -4/3
+  weg:
+  - 5/3·x + 7/2 = 23/18
+  - 5/3·x = -20/9 | −7/2
+  - x = -4/3 | :5/3
+  tipps:
+  - 'Zwei Schritte: zuerst die + `7/2` wegbringen, dann das · 5/3.'
+  - Rechne auf beiden Seiten − `7/2`. Dann steht da `5/3·x = -20/9`.
+  - 'Jetzt noch auf beiden Seiten : 5/3. Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 43/15
+    hinweis: 'Achtung beim ersten Schritt: Um + 7/2 wegzubringen, rechnest du − 7/2.'
+  - antwort: -20/9
+    hinweis: 'Fast! `5/3·x = -20/9` stimmt schon. Jetzt fehlt nur noch : 5/3.'
+  - antwort: -41/15
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: -100/27
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-036
+  typ: gleichung
+  stufe: 4
+  gleichung: 5/6 + 6/5·x = 169/30
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - 5/6 + 6/5·x = 169/30
+  - 6/5·x = 24/5 | −5/6
+  - x = 4 | :6/5
+  tipps:
+  - 'Zwei Schritte: zuerst die + `5/6` wegbringen, dann das · 6/5.'
+  - Rechne auf beiden Seiten − `5/6`. Dann steht da `6/5·x = 24/5`.
+  - 'Jetzt noch auf beiden Seiten : 6/5. Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 97/18
+    hinweis: 'Achtung beim ersten Schritt: Um + 5/6 wegzubringen, rechnest du − 5/6.'
+  - antwort: 24/5
+    hinweis: 'Fast! `6/5·x = 24/5` stimmt schon. Jetzt fehlt nur noch : 6/5.'
+  - antwort: 139/36
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 144/25
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-037
+  typ: gleichung
+  stufe: 4
+  gleichung: 0 = 3/2·x + 5/2
+  loesung: -5/3
+  anzeige: -5/3
+  weg:
+  - 0 = 3/2·x + 5/2
+  - -5/2 = 3/2·x | −5/2
+  - -5/3 = x | :3/2
+  - x = -5/3 | Seiten tauschen
+  tipps:
+  - 'Zwei Schritte: zuerst die + `5/2` wegbringen, dann das · 3/2.'
+  - Rechne auf beiden Seiten − `5/2`. Dann steht da `3/2·x = -5/2`.
+  - 'Jetzt noch auf beiden Seiten : 3/2. Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 5/3
+    hinweis: 'Achtung beim ersten Schritt: Um + 5/2 wegzubringen, rechnest du − 5/2.'
+  - antwort: -5/2
+    hinweis: 'Fast! `3/2·x = -5/2` stimmt schon. Jetzt fehlt nur noch : 3/2.'
+  - antwort: -15/4
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-038
+  typ: gleichung
+  stufe: 4
+  gleichung: -7/3·x + 3/2 = -103/6
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - -7/3·x + 3/2 = -103/6
+  - -7/3·x = -56/3 | −3/2
+  - x = 8 | :(−7/3)
+  tipps:
+  - 'Zwei Schritte: zuerst die + `3/2` wegbringen, dann das · (-7/3).'
+  - Rechne auf beiden Seiten − `3/2`. Dann steht da `-7/3·x = -56/3`.
+  - 'Jetzt noch auf beiden Seiten : (-7/3). Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 47/7
+    hinweis: 'Achtung beim ersten Schritt: Um + 3/2 wegzubringen, rechnest du − 3/2.'
+  - antwort: -56/3
+    hinweis: 'Fast! `-7/3·x = -56/3` stimmt schon. Jetzt fehlt nur noch : (-7/3).'
+  - antwort: 41/7
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 392/9
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-039
+  typ: gleichung
+  stufe: 4
+  gleichung: -3/2 + 5/6·x = 13/3
+  loesung: '7'
+  anzeige: '7'
+  weg:
+  - -3/2 + 5/6·x = 13/3
+  - 5/6·x = 35/6 | +3/2
+  - x = 7 | :5/6
+  tipps:
+  - 'Zwei Schritte: zuerst die − `3/2` wegbringen, dann das · 5/6.'
+  - Rechne auf beiden Seiten + `3/2`. Dann steht da `5/6·x = 35/6`.
+  - 'Jetzt noch auf beiden Seiten : 5/6. Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 17/5
+    hinweis: 'Achtung beim ersten Schritt: Um − 3/2 wegzubringen, rechnest du + 3/2.'
+  - antwort: 35/6
+    hinweis: 'Fast! `5/6·x = 35/6` stimmt schon. Jetzt fehlt nur noch : 5/6.'
+  - antwort: 67/10
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 175/36
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.
+- id: B1.4-040
+  typ: gleichung
+  stufe: 4
+  gleichung: -4/3 + 3/4·x = 5/3
+  loesung: '4'
+  anzeige: '4'
+  weg:
+  - -4/3 + 3/4·x = 5/3
+  - 3/4·x = 3 | +4/3
+  - x = 4 | :3/4
+  tipps:
+  - 'Zwei Schritte: zuerst die − `4/3` wegbringen, dann das · 3/4.'
+  - Rechne auf beiden Seiten + `4/3`. Dann steht da `3/4·x = 3`.
+  - 'Jetzt noch auf beiden Seiten : 3/4. Durch einen Bruch dividieren = mit dem Kehrwert multiplizieren.'
+  fehler:
+  - antwort: 4/9
+    hinweis: 'Achtung beim ersten Schritt: Um − 4/3 wegzubringen, rechnest du + 4/3.'
+  - antwort: '3'
+    hinweis: 'Fast! `3/4·x = 3` stimmt schon. Jetzt fehlt nur noch : 3/4.'
+  - antwort: 32/9
+    hinweis: 'Die Reihenfolge ist wichtig: zuerst Plus/Minus wegbringen, erst dann dividieren.'
+  - antwort: 9/4
+    hinweis: Am Schluss wird dividiert, nicht multipliziert.

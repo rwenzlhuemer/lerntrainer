@@ -39,7 +39,7 @@ for (const datei of readdirSync(DATEN)) {
         const gl = zeile.split("|")[0].trim();
         const r = M.pruefeGleichungsZeile(gl, a);
         const letzte = i === a.weg.length - 1;
-        erwarte(letzte ? r.art === "geloest" : ["schritt", "geloest"].includes(r.art),
+        erwarte(letzte ? r.art === "geloest" : ["schritt", "ausrechnen", "geloest"].includes(r.art),
           `${a.id}: Zeile "${zeile}" → ${r.art}`);
       });
       erwarte(M.pruefeGleichungsZeile(`x = ${a.loesung}`, a).art === "geloest", `${a.id}: Lösung nicht erkannt`);

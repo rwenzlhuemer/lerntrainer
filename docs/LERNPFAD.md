@@ -9,8 +9,10 @@ Grundkompetenzkatalog, Stand November 2024.
 
 - **Kleine Schritte.** Jeder Lernschritt behandelt genau *eine* Sache und ist in 10–20 Minuten machbar.
 - **Immer gleicher Ablauf pro Lernschritt:** kurze Erklärung → vorgerechnetes Beispiel →
-  Aufgaben in drei Stufen: *Einstieg* (mit Hilfe), *Üben*, *Matura-nah*.
-- **Überspringen erlaubt.** „Kann ich schon“ → drei Prüfaufgaben; passen sie, ist der Schritt erledigt.
+  Aufgaben in vier Stufen: *Einstieg*, *Üben*, *Vertiefen*, *Matura-Niveau*. Wer Stufe 3 sicher kann,
+  hat den Schritt geschafft; Stufe 4 ist Kür.
+- **Überspringen erlaubt.** „Kann ich schon“ → drei schwierigere Prüfaufgaben; passen sie, ist der Schritt
+  erledigt. „Zu leicht? Schwerer“ hebt die Stufe sofort an.
 - **★ = Kernpfad.** Das Minimum, um die Matura zu bestehen. Was nicht markiert ist, ist Vertiefung.
 - **Reihenfolge:** A → B → C → E → F, dazwischen D. Die App schlägt den nächsten Schritt vor,
   sie zwingt aber nichts.
@@ -83,15 +85,15 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| B1.1 ★ | Was ist eine Gleichung? | AG 1.2 | ✓ 22 |
-| B1.2 ★ | Auf beiden Seiten plus oder minus | AG 2.2 | ✓ 28 |
-| B1.3 ★ | Auf beiden Seiten mal oder durch | AG 2.2 | ✓ 28 |
-| B1.4 ★ | Zwei Schritte | AG 2.2 | ✓ 30 |
-| B1.5 ★ | x auf beiden Seiten | AG 2.2 | ✓ 28 |
-| B1.6 ★ | Gleichungen mit Klammern | AG 2.2 | ✓ 28 |
-| B1.7 ★ | Gleichungen mit Brüchen | AG 2.2 | ✓ 28 |
-| B1.8 ★ | Keine oder unendlich viele Lösungen | AG 1.2, AG 2.2 | ✓ 21 |
-| B1.9 ★ | Textgleichungen | AG 2.2 | ✓ 20 |
+| B1.1 ★ | Was ist eine Gleichung? | AG 1.2 | ✓ 40 |
+| B1.2 ★ | Auf beiden Seiten plus oder minus | AG 2.2 | ✓ 40 |
+| B1.3 ★ | Auf beiden Seiten mal oder durch | AG 2.2 | ✓ 40 |
+| B1.4 ★ | Zwei Schritte | AG 2.2 | ✓ 40 |
+| B1.5 ★ | x auf beiden Seiten | AG 2.2 | ✓ 40 |
+| B1.6 ★ | Gleichungen mit Klammern | AG 2.2 | ✓ 40 |
+| B1.7 ★ | Gleichungen mit Brüchen | AG 2.2 | ✓ 40 |
+| B1.8 ★ | Keine oder unendlich viele Lösungen | AG 1.2, AG 2.2 | ✓ 36 |
+| B1.9 ★ | Textgleichungen | AG 2.2 | ✓ 24 |
 
 ### B2 Formeln umformen
 

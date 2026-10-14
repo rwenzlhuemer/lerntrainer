@@ -32,7 +32,7 @@ APP = BASIS / "app"
 DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
-STUFEN = {1, 2, 3}
+STUFEN = {1, 2, 3, 4}
 TYPEN = {"gleichung", "zahl", "auswahl"}
 
 
@@ -194,8 +194,13 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 erzeugt = ordner / kap["id"] / f"{lid}.aufgaben.yaml"
                 if erzeugt.exists():
                     aufgaben += lade_yaml(erzeugt) or []
+                texte: set[str] = set()
                 for a in aufgaben:
                     aid = a.get("id", "?")
+                    text = a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage")
+                    if text in texte:
+                        fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
+                    texte.add(text)
                     if aid in gesehen_aufg:
                         fehler.melde(aid, "Aufgaben-ID doppelt")
                     gesehen_aufg.add(aid)
@@ -215,7 +220,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 ls["anzahl"] = len(aufgaben)
                 ausgaben[lid] = {**inhalt, "titel": inhalt.get("titel", ls["titel"]), "aufgaben": aufgaben,
                                  "kapitel": kap["id"]}
-                print(f"  {lid:6} {len(aufgaben):4} Aufgaben  (Stufe 1/2/3: {stufen[1]}/{stufen[2]}/{stufen[3]})")
+                print(f"  {lid:6} {len(aufgaben):4} Aufgaben  (Stufe 1/2/3/4: {stufen[1]}/{stufen[2]}/{stufen[3]}/{stufen[4]})")
     return pfad, ausgaben
 
 

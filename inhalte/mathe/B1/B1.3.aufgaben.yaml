@@ -3,522 +3,742 @@
 - id: B1.3-001
   typ: gleichung
   stufe: 1
-  gleichung: 6x = 24
-  loesung: '4'
-  anzeige: '4'
+  gleichung: 6x = -60
+  loesung: '-10'
+  anzeige: '-10'
   weg:
-  - 6x = 24
-  - x = 4 | :6
+  - 6x = -60
+  - x = -10 | :6
   tipps:
-  - 6x bedeutet 6 · x.
+  - '`6x` bedeutet `6 · x`.'
   - 'Das Gegenteil von · 6 ist : 6.'
-  - 'Rechne auf beiden Seiten : 6: x = 24 : 6.'
+  - 'Rechne auf beiden Seiten : 6.'
   fehler:
-  - antwort: '144'
+  - antwort: '-360'
     hinweis: 'Da wurde mal 6 gerechnet. Um · 6 wegzubringen, rechnest du : 6.'
-  - antwort: '18'
-    hinweis: 6x heißt 6 · x – also Mal, nicht Plus. Darum dividierst du durch 6.
-  - antwort: '-4'
+  - antwort: '-66'
+    hinweis: '`6x` heißt 6 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '10'
     hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-002
   typ: gleichung
   stufe: 1
-  gleichung: 7x = 21
-  loesung: '3'
-  anzeige: '3'
+  gleichung: x/8 = 7
+  loesung: '56'
+  anzeige: '56'
   weg:
-  - 7x = 21
-  - x = 3 | :7
-  tipps:
-  - 7x bedeutet 7 · x.
-  - 'Das Gegenteil von · 7 ist : 7.'
-  - 'Rechne auf beiden Seiten : 7: x = 21 : 7.'
-  fehler:
-  - antwort: '147'
-    hinweis: 'Da wurde mal 7 gerechnet. Um · 7 wegzubringen, rechnest du : 7.'
-  - antwort: '14'
-    hinweis: 7x heißt 7 · x – also Mal, nicht Plus. Darum dividierst du durch 7.
-  - antwort: '-3'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-003
-  typ: gleichung
-  stufe: 1
-  gleichung: 5x = 30
-  loesung: '6'
-  anzeige: '6'
-  weg:
-  - 5x = 30
-  - x = 6 | :5
-  tipps:
-  - 5x bedeutet 5 · x.
-  - 'Das Gegenteil von · 5 ist : 5.'
-  - 'Rechne auf beiden Seiten : 5: x = 30 : 5.'
-  fehler:
-  - antwort: '150'
-    hinweis: 'Da wurde mal 5 gerechnet. Um · 5 wegzubringen, rechnest du : 5.'
-  - antwort: '25'
-    hinweis: 5x heißt 5 · x – also Mal, nicht Plus. Darum dividierst du durch 5.
-  - antwort: '-6'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-004
-  typ: gleichung
-  stufe: 1
-  gleichung: 2x = 8
-  loesung: '4'
-  anzeige: '4'
-  weg:
-  - 2x = 8
-  - x = 4 | :2
-  tipps:
-  - 2x bedeutet 2 · x.
-  - 'Das Gegenteil von · 2 ist : 2.'
-  - 'Rechne auf beiden Seiten : 2: x = 8 : 2.'
-  fehler:
-  - antwort: '16'
-    hinweis: 'Da wurde mal 2 gerechnet. Um · 2 wegzubringen, rechnest du : 2.'
-  - antwort: '6'
-    hinweis: 2x heißt 2 · x – also Mal, nicht Plus. Darum dividierst du durch 2.
-  - antwort: '-4'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-005
-  typ: gleichung
-  stufe: 1
-  gleichung: 5x = 50
-  loesung: '10'
-  anzeige: '10'
-  weg:
-  - 5x = 50
-  - x = 10 | :5
-  tipps:
-  - 5x bedeutet 5 · x.
-  - 'Das Gegenteil von · 5 ist : 5.'
-  - 'Rechne auf beiden Seiten : 5: x = 50 : 5.'
-  fehler:
-  - antwort: '250'
-    hinweis: 'Da wurde mal 5 gerechnet. Um · 5 wegzubringen, rechnest du : 5.'
-  - antwort: '45'
-    hinweis: 5x heißt 5 · x – also Mal, nicht Plus. Darum dividierst du durch 5.
-  - antwort: '-10'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-006
-  typ: gleichung
-  stufe: 1
-  gleichung: x/3 = 6
-  loesung: '18'
-  anzeige: '18'
-  weg:
-  - x/3 = 6
-  - x = 18 | ·3
-  tipps:
-  - 'x/3 bedeutet x : 3.'
-  - 'Das Gegenteil von : 3 ist · 3.'
-  - Rechne auf beiden Seiten · 3.
-  fehler:
-  - antwort: '2'
-    hinweis: 'Da wurde durch 3 dividiert. Um : 3 wegzubringen, multiplizierst du mit 3.'
-- id: B1.3-007
-  typ: gleichung
-  stufe: 1
-  gleichung: x/9 = 3
-  loesung: '27'
-  anzeige: '27'
-  weg:
-  - x/9 = 3
-  - x = 27 | ·9
-  tipps:
-  - 'x/9 bedeutet x : 9.'
-  - 'Das Gegenteil von : 9 ist · 9.'
-  - Rechne auf beiden Seiten · 9.
-  fehler:
-  - antwort: 1/3
-    hinweis: 'Da wurde durch 9 dividiert. Um : 9 wegzubringen, multiplizierst du mit 9.'
-- id: B1.3-008
-  typ: gleichung
-  stufe: 1
-  gleichung: 4x = 28
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - 4x = 28
-  - x = 7 | :4
-  tipps:
-  - 4x bedeutet 4 · x.
-  - 'Das Gegenteil von · 4 ist : 4.'
-  - 'Rechne auf beiden Seiten : 4: x = 28 : 4.'
-  fehler:
-  - antwort: '112'
-    hinweis: 'Da wurde mal 4 gerechnet. Um · 4 wegzubringen, rechnest du : 4.'
-  - antwort: '24'
-    hinweis: 4x heißt 4 · x – also Mal, nicht Plus. Darum dividierst du durch 4.
-  - antwort: '-7'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-009
-  typ: gleichung
-  stufe: 1
-  gleichung: 6x = 12
-  loesung: '2'
-  anzeige: '2'
-  weg:
-  - 6x = 12
-  - x = 2 | :6
-  tipps:
-  - 6x bedeutet 6 · x.
-  - 'Das Gegenteil von · 6 ist : 6.'
-  - 'Rechne auf beiden Seiten : 6: x = 12 : 6.'
-  fehler:
-  - antwort: '72'
-    hinweis: 'Da wurde mal 6 gerechnet. Um · 6 wegzubringen, rechnest du : 6.'
-  - antwort: '6'
-    hinweis: 6x heißt 6 · x – also Mal, nicht Plus. Darum dividierst du durch 6.
-  - antwort: '-2'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-010
-  typ: gleichung
-  stufe: 1
-  gleichung: 4x = 28
-  loesung: '7'
-  anzeige: '7'
-  weg:
-  - 4x = 28
-  - x = 7 | :4
-  tipps:
-  - 4x bedeutet 4 · x.
-  - 'Das Gegenteil von · 4 ist : 4.'
-  - 'Rechne auf beiden Seiten : 4: x = 28 : 4.'
-  fehler:
-  - antwort: '112'
-    hinweis: 'Da wurde mal 4 gerechnet. Um · 4 wegzubringen, rechnest du : 4.'
-  - antwort: '24'
-    hinweis: 4x heißt 4 · x – also Mal, nicht Plus. Darum dividierst du durch 4.
-  - antwort: '-7'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-011
-  typ: gleichung
-  stufe: 2
-  gleichung: 8x = -56
-  loesung: '-7'
-  anzeige: '-7'
-  weg:
-  - 8x = -56
-  - x = -7 | :8
-  tipps:
-  - 8x bedeutet 8 · x.
-  - 'Das Gegenteil von · 8 ist : 8.'
-  - 'Rechne auf beiden Seiten : 8: x = -56 : 8.'
-  fehler:
-  - antwort: '-448'
-    hinweis: 'Da wurde mal 8 gerechnet. Um · 8 wegzubringen, rechnest du : 8.'
-  - antwort: '-64'
-    hinweis: 8x heißt 8 · x – also Mal, nicht Plus. Darum dividierst du durch 8.
-  - antwort: '7'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-012
-  typ: gleichung
-  stufe: 2
-  gleichung: -8x = 56
-  loesung: '-7'
-  anzeige: '-7'
-  weg:
-  - -8x = 56
-  - x = -7 | :(−8)
-  tipps:
-  - -8x bedeutet -8 · x.
-  - 'Das Gegenteil von · (-8) ist : (-8).'
-  - 'Rechne auf beiden Seiten : (-8): x = 56 : (-8).'
-  fehler:
-  - antwort: '-448'
-    hinweis: 'Da wurde mal (-8) gerechnet. Um · (-8) wegzubringen, rechnest du : (-8).'
-  - antwort: '64'
-    hinweis: -8x heißt -8 · x – also Mal, nicht Plus. Darum dividierst du durch (-8).
-  - antwort: '7'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-013
-  typ: gleichung
-  stufe: 2
-  gleichung: x/4 = 8
-  loesung: '32'
-  anzeige: '32'
-  weg:
-  - x/4 = 8
-  - x = 32 | ·4
-  tipps:
-  - 'x/4 bedeutet x : 4.'
-  - 'Das Gegenteil von : 4 ist · 4.'
-  - Rechne auf beiden Seiten · 4.
-  fehler:
-  - antwort: '2'
-    hinweis: 'Da wurde durch 4 dividiert. Um : 4 wegzubringen, multiplizierst du mit 4.'
-- id: B1.3-014
-  typ: gleichung
-  stufe: 2
-  gleichung: -8x = 56
-  loesung: '-7'
-  anzeige: '-7'
-  weg:
-  - -8x = 56
-  - x = -7 | :(−8)
-  tipps:
-  - -8x bedeutet -8 · x.
-  - 'Das Gegenteil von · (-8) ist : (-8).'
-  - 'Rechne auf beiden Seiten : (-8): x = 56 : (-8).'
-  fehler:
-  - antwort: '-448'
-    hinweis: 'Da wurde mal (-8) gerechnet. Um · (-8) wegzubringen, rechnest du : (-8).'
-  - antwort: '64'
-    hinweis: -8x heißt -8 · x – also Mal, nicht Plus. Darum dividierst du durch (-8).
-  - antwort: '7'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-015
-  typ: gleichung
-  stufe: 2
-  gleichung: 7x = 21
-  loesung: '3'
-  anzeige: '3'
-  weg:
-  - 7x = 21
-  - x = 3 | :7
-  tipps:
-  - 7x bedeutet 7 · x.
-  - 'Das Gegenteil von · 7 ist : 7.'
-  - 'Rechne auf beiden Seiten : 7: x = 21 : 7.'
-  fehler:
-  - antwort: '147'
-    hinweis: 'Da wurde mal 7 gerechnet. Um · 7 wegzubringen, rechnest du : 7.'
-  - antwort: '14'
-    hinweis: 7x heißt 7 · x – also Mal, nicht Plus. Darum dividierst du durch 7.
-  - antwort: '-3'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-016
-  typ: gleichung
-  stufe: 2
-  gleichung: -4x = 32
-  loesung: '-8'
-  anzeige: '-8'
-  weg:
-  - -4x = 32
-  - x = -8 | :(−4)
-  tipps:
-  - -4x bedeutet -4 · x.
-  - 'Das Gegenteil von · (-4) ist : (-4).'
-  - 'Rechne auf beiden Seiten : (-4): x = 32 : (-4).'
-  fehler:
-  - antwort: '-128'
-    hinweis: 'Da wurde mal (-4) gerechnet. Um · (-4) wegzubringen, rechnest du : (-4).'
-  - antwort: '36'
-    hinweis: -4x heißt -4 · x – also Mal, nicht Plus. Darum dividierst du durch (-4).
-  - antwort: '8'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-017
-  typ: gleichung
-  stufe: 2
-  gleichung: x/8 = -6
-  loesung: '-48'
-  anzeige: '-48'
-  weg:
-  - x/8 = -6
-  - x = -48 | ·8
+  - x/8 = 7
+  - x = 56 | ·8
   tipps:
   - 'x/8 bedeutet x : 8.'
   - 'Das Gegenteil von : 8 ist · 8.'
   - Rechne auf beiden Seiten · 8.
   fehler:
-  - antwort: -3/4
+  - antwort: 7/8
     hinweis: 'Da wurde durch 8 dividiert. Um : 8 wegzubringen, multiplizierst du mit 8.'
-- id: B1.3-018
+- id: B1.3-003
   typ: gleichung
-  stufe: 2
-  gleichung: x/6 = 5
-  loesung: '30'
-  anzeige: '30'
+  stufe: 1
+  gleichung: x/3 = -2
+  loesung: '-6'
+  anzeige: '-6'
   weg:
-  - x/6 = 5
-  - x = 30 | ·6
+  - x/3 = -2
+  - x = -6 | ·3
   tipps:
-  - 'x/6 bedeutet x : 6.'
-  - 'Das Gegenteil von : 6 ist · 6.'
-  - Rechne auf beiden Seiten · 6.
+  - 'x/3 bedeutet x : 3.'
+  - 'Das Gegenteil von : 3 ist · 3.'
+  - Rechne auf beiden Seiten · 3.
   fehler:
-  - antwort: 5/6
-    hinweis: 'Da wurde durch 6 dividiert. Um : 6 wegzubringen, multiplizierst du mit 6.'
-- id: B1.3-019
+  - antwort: -2/3
+    hinweis: 'Da wurde durch 3 dividiert. Um : 3 wegzubringen, multiplizierst du mit 3.'
+- id: B1.3-004
   typ: gleichung
-  stufe: 2
-  gleichung: -4x = 20
-  loesung: '-5'
-  anzeige: '-5'
+  stufe: 1
+  gleichung: x/8 = 9
+  loesung: '72'
+  anzeige: '72'
   weg:
-  - -4x = 20
-  - x = -5 | :(−4)
+  - x/8 = 9
+  - x = 72 | ·8
   tipps:
-  - -4x bedeutet -4 · x.
-  - 'Das Gegenteil von · (-4) ist : (-4).'
-  - 'Rechne auf beiden Seiten : (-4): x = 20 : (-4).'
+  - 'x/8 bedeutet x : 8.'
+  - 'Das Gegenteil von : 8 ist · 8.'
+  - Rechne auf beiden Seiten · 8.
   fehler:
-  - antwort: '-80'
-    hinweis: 'Da wurde mal (-4) gerechnet. Um · (-4) wegzubringen, rechnest du : (-4).'
-  - antwort: '24'
-    hinweis: -4x heißt -4 · x – also Mal, nicht Plus. Darum dividierst du durch (-4).
-  - antwort: '5'
+  - antwort: 9/8
+    hinweis: 'Da wurde durch 8 dividiert. Um : 8 wegzubringen, multiplizierst du mit 8.'
+- id: B1.3-005
+  typ: gleichung
+  stufe: 1
+  gleichung: 9x = 27
+  loesung: '3'
+  anzeige: '3'
+  weg:
+  - 9x = 27
+  - x = 3 | :9
+  tipps:
+  - '`9x` bedeutet `9 · x`.'
+  - 'Das Gegenteil von · 9 ist : 9.'
+  - 'Rechne auf beiden Seiten : 9.'
+  fehler:
+  - antwort: '243'
+    hinweis: 'Da wurde mal 9 gerechnet. Um · 9 wegzubringen, rechnest du : 9.'
+  - antwort: '18'
+    hinweis: '`9x` heißt 9 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '-3'
     hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-020
+- id: B1.3-006
   typ: gleichung
-  stufe: 2
-  gleichung: 7x = -63
-  loesung: '-9'
-  anzeige: '-9'
-  weg:
-  - 7x = -63
-  - x = -9 | :7
-  tipps:
-  - 7x bedeutet 7 · x.
-  - 'Das Gegenteil von · 7 ist : 7.'
-  - 'Rechne auf beiden Seiten : 7: x = -63 : 7.'
-  fehler:
-  - antwort: '-441'
-    hinweis: 'Da wurde mal 7 gerechnet. Um · 7 wegzubringen, rechnest du : 7.'
-  - antwort: '-70'
-    hinweis: 7x heißt 7 · x – also Mal, nicht Plus. Darum dividierst du durch 7.
-  - antwort: '9'
-    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-021
-  typ: gleichung
-  stufe: 3
-  gleichung: -7x = -56
+  stufe: 1
+  gleichung: 3x = 24
   loesung: '8'
   anzeige: '8'
   weg:
-  - -7x = -56
-  - x = 8 | :(−7)
+  - 3x = 24
+  - x = 8 | :3
   tipps:
-  - -7x bedeutet -7 · x.
-  - 'Das Gegenteil von · (-7) ist : (-7).'
-  - 'Rechne auf beiden Seiten : (-7): x = -56 : (-7).'
+  - '`3x` bedeutet `3 · x`.'
+  - 'Das Gegenteil von · 3 ist : 3.'
+  - 'Rechne auf beiden Seiten : 3.'
   fehler:
-  - antwort: '392'
-    hinweis: 'Da wurde mal (-7) gerechnet. Um · (-7) wegzubringen, rechnest du : (-7).'
-  - antwort: '-49'
-    hinweis: -7x heißt -7 · x – also Mal, nicht Plus. Darum dividierst du durch (-7).
+  - antwort: '72'
+    hinweis: 'Da wurde mal 3 gerechnet. Um · 3 wegzubringen, rechnest du : 3.'
+  - antwort: '21'
+    hinweis: '`3x` heißt 3 · x – also Mal, nicht Plus. Darum dividierst du.'
   - antwort: '-8'
     hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
-- id: B1.3-022
+- id: B1.3-007
   typ: gleichung
-  stufe: 3
-  gleichung: x/2 = 2
-  loesung: '4'
-  anzeige: '4'
+  stufe: 1
+  gleichung: 8x = -8
+  loesung: '-1'
+  anzeige: '-1'
   weg:
-  - x/2 = 2
-  - x = 4 | ·2
+  - 8x = -8
+  - x = -1 | :8
+  tipps:
+  - '`8x` bedeutet `8 · x`.'
+  - 'Das Gegenteil von · 8 ist : 8.'
+  - 'Rechne auf beiden Seiten : 8.'
+  fehler:
+  - antwort: '-64'
+    hinweis: 'Da wurde mal 8 gerechnet. Um · 8 wegzubringen, rechnest du : 8.'
+  - antwort: '-16'
+    hinweis: '`8x` heißt 8 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '1'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-008
+  typ: gleichung
+  stufe: 1
+  gleichung: x/3 = 1
+  loesung: '3'
+  anzeige: '3'
+  weg:
+  - x/3 = 1
+  - x = 3 | ·3
+  tipps:
+  - 'x/3 bedeutet x : 3.'
+  - 'Das Gegenteil von : 3 ist · 3.'
+  - Rechne auf beiden Seiten · 3.
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Da wurde durch 3 dividiert. Um : 3 wegzubringen, multiplizierst du mit 3.'
+- id: B1.3-009
+  typ: gleichung
+  stufe: 1
+  gleichung: 9x = -36
+  loesung: '-4'
+  anzeige: '-4'
+  weg:
+  - 9x = -36
+  - x = -4 | :9
+  tipps:
+  - '`9x` bedeutet `9 · x`.'
+  - 'Das Gegenteil von · 9 ist : 9.'
+  - 'Rechne auf beiden Seiten : 9.'
+  fehler:
+  - antwort: '-324'
+    hinweis: 'Da wurde mal 9 gerechnet. Um · 9 wegzubringen, rechnest du : 9.'
+  - antwort: '-45'
+    hinweis: '`9x` heißt 9 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '4'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-010
+  typ: gleichung
+  stufe: 1
+  gleichung: x/3 = 4
+  loesung: '12'
+  anzeige: '12'
+  weg:
+  - x/3 = 4
+  - x = 12 | ·3
+  tipps:
+  - 'x/3 bedeutet x : 3.'
+  - 'Das Gegenteil von : 3 ist · 3.'
+  - Rechne auf beiden Seiten · 3.
+  fehler:
+  - antwort: 4/3
+    hinweis: 'Da wurde durch 3 dividiert. Um : 3 wegzubringen, multiplizierst du mit 3.'
+- id: B1.3-011
+  typ: gleichung
+  stufe: 2
+  gleichung: x/(-8) = -5
+  loesung: '40'
+  anzeige: '40'
+  weg:
+  - x/(-8) = -5
+  - x = 40 | ·(−8)
+  tipps:
+  - 'x/(-8) bedeutet x : (-8).'
+  - 'Das Gegenteil von : (-8) ist · (-8).'
+  - Rechne auf beiden Seiten · (-8).
+  fehler:
+  - antwort: 5/8
+    hinweis: 'Da wurde durch (-8) dividiert. Um : (-8) wegzubringen, multiplizierst du mit (-8).'
+- id: B1.3-012
+  typ: gleichung
+  stufe: 2
+  gleichung: -x = 1
+  loesung: '-1'
+  anzeige: '-1'
+  weg:
+  - -x = 1
+  - x = -1 | ·(−1)
+  tipps:
+  - −x bedeutet (−1) · x.
+  - Multipliziere beide Seiten mit (−1).
+  - Dabei dreht sich auf beiden Seiten das Vorzeichen um.
+  fehler:
+  - antwort: '1'
+    hinweis: Fast! −x ist noch nicht x. Multipliziere beide Seiten mit (−1).
+- id: B1.3-013
+  typ: gleichung
+  stufe: 2
+  gleichung: -x = -11/5
+  loesung: 11/5
+  anzeige: 11/5 = 2,2
+  weg:
+  - -x = -11/5
+  - x = 11/5 | ·(−1)
+  tipps:
+  - −x bedeutet (−1) · x.
+  - Multipliziere beide Seiten mit (−1).
+  - Dabei dreht sich auf beiden Seiten das Vorzeichen um.
+  fehler:
+  - antwort: -11/5
+    hinweis: Fast! −x ist noch nicht x. Multipliziere beide Seiten mit (−1).
+- id: B1.3-014
+  typ: gleichung
+  stufe: 2
+  gleichung: -3x = -26
+  loesung: 26/3
+  anzeige: 26/3
+  weg:
+  - -3x = -26
+  - x = 26/3 | :(−3)
+  tipps:
+  - '`-3x` bedeutet `-3 · x`.'
+  - 'Das Gegenteil von · (-3) ist : (-3).'
+  - 'Rechne auf beiden Seiten : (-3). Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: '78'
+    hinweis: 'Da wurde mal (-3) gerechnet. Um · (-3) wegzubringen, rechnest du : (-3).'
+  - antwort: '-23'
+    hinweis: '`-3x` heißt -3 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: -26/3
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-015
+  typ: gleichung
+  stufe: 2
+  gleichung: x/5 = 5
+  loesung: '25'
+  anzeige: '25'
+  weg:
+  - x/5 = 5
+  - x = 25 | ·5
+  tipps:
+  - 'x/5 bedeutet x : 5.'
+  - 'Das Gegenteil von : 5 ist · 5.'
+  - Rechne auf beiden Seiten · 5.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Da wurde durch 5 dividiert. Um : 5 wegzubringen, multiplizierst du mit 5.'
+- id: B1.3-016
+  typ: gleichung
+  stufe: 2
+  gleichung: x/(-2) = 2
+  loesung: '-4'
+  anzeige: '-4'
+  weg:
+  - x/(-2) = 2
+  - x = -4 | ·(−2)
+  tipps:
+  - 'x/(-2) bedeutet x : (-2).'
+  - 'Das Gegenteil von : (-2) ist · (-2).'
+  - Rechne auf beiden Seiten · (-2).
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Da wurde durch (-2) dividiert. Um : (-2) wegzubringen, multiplizierst du mit (-2).'
+- id: B1.3-017
+  typ: gleichung
+  stufe: 2
+  gleichung: x/2 = -2
+  loesung: '-4'
+  anzeige: '-4'
+  weg:
+  - x/2 = -2
+  - x = -4 | ·2
   tipps:
   - 'x/2 bedeutet x : 2.'
   - 'Das Gegenteil von : 2 ist · 2.'
   - Rechne auf beiden Seiten · 2.
   fehler:
-  - antwort: '1'
+  - antwort: '-1'
     hinweis: 'Da wurde durch 2 dividiert. Um : 2 wegzubringen, multiplizierst du mit 2.'
+- id: B1.3-018
+  typ: gleichung
+  stufe: 2
+  gleichung: -5x = 9
+  loesung: -9/5
+  anzeige: -9/5 = -1,8
+  weg:
+  - -5x = 9
+  - x = -9/5 | :(−5)
+  tipps:
+  - '`-5x` bedeutet `-5 · x`.'
+  - 'Das Gegenteil von · (-5) ist : (-5).'
+  - 'Rechne auf beiden Seiten : (-5).'
+  fehler:
+  - antwort: '-45'
+    hinweis: 'Da wurde mal (-5) gerechnet. Um · (-5) wegzubringen, rechnest du : (-5).'
+  - antwort: '14'
+    hinweis: '`-5x` heißt -5 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: 9/5
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-019
+  typ: gleichung
+  stufe: 2
+  gleichung: 7x = 3
+  loesung: 3/7
+  anzeige: 3/7
+  weg:
+  - 7x = 3
+  - x = 3/7 | :7
+  tipps:
+  - '`7x` bedeutet `7 · x`.'
+  - 'Das Gegenteil von · 7 ist : 7.'
+  - 'Rechne auf beiden Seiten : 7. Das Ergebnis darf ein Bruch sein.'
+  fehler:
+  - antwort: '21'
+    hinweis: 'Da wurde mal 7 gerechnet. Um · 7 wegzubringen, rechnest du : 7.'
+  - antwort: '-4'
+    hinweis: '`7x` heißt 7 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: -3/7
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-020
+  typ: gleichung
+  stufe: 2
+  gleichung: x/(-9) = -4
+  loesung: '36'
+  anzeige: '36'
+  weg:
+  - x/(-9) = -4
+  - x = 36 | ·(−9)
+  tipps:
+  - 'x/(-9) bedeutet x : (-9).'
+  - 'Das Gegenteil von : (-9) ist · (-9).'
+  - Rechne auf beiden Seiten · (-9).
+  fehler:
+  - antwort: 4/9
+    hinweis: 'Da wurde durch (-9) dividiert. Um : (-9) wegzubringen, multiplizierst du mit (-9).'
+- id: B1.3-021
+  typ: gleichung
+  stufe: 3
+  gleichung: -0,25x = 7,75
+  loesung: '-31'
+  anzeige: '-31'
+  weg:
+  - -0,25x = 7,75
+  - x = -31 | :(−0,25)
+  tipps:
+  - '`-0,25x` bedeutet `-0,25 · x`.'
+  - 'Das Gegenteil von · (-0,25) ist : (-0,25).'
+  - 'Rechne auf beiden Seiten : (-0,25).'
+  fehler:
+  - antwort: -31/16
+    hinweis: 'Da wurde mal (-0,25) gerechnet. Um · (-0,25) wegzubringen, rechnest du : (-0,25).'
+  - antwort: '8'
+    hinweis: '`-0,25x` heißt -0,25 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '31'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-022
+  typ: gleichung
+  stufe: 3
+  gleichung: 0,5x = 7
+  loesung: '14'
+  anzeige: '14'
+  weg:
+  - 0,5x = 7
+  - x = 14 | :0,5
+  tipps:
+  - '`0,5x` bedeutet `0,5 · x`.'
+  - 'Das Gegenteil von · 0,5 ist : 0,5.'
+  - 'Rechne auf beiden Seiten : 0,5.'
+  fehler:
+  - antwort: 7/2
+    hinweis: 'Da wurde mal 0,5 gerechnet. Um · 0,5 wegzubringen, rechnest du : 0,5.'
+  - antwort: 13/2
+    hinweis: '`0,5x` heißt 0,5 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '-14'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-023
   typ: gleichung
   stufe: 3
-  gleichung: 5x = 31
-  loesung: 31/5
-  anzeige: 31/5 = 6,2
+  gleichung: 0,25x = -4,25
+  loesung: '-17'
+  anzeige: '-17'
   weg:
-  - 5x = 31
-  - x = 31/5 | :5
+  - 0,25x = -4,25
+  - x = -17 | :0,25
   tipps:
-  - 'Rechne auf beiden Seiten : 5.'
-  - '31 : 5 geht nicht glatt auf – das macht nichts!'
-  - 'Du darfst das Ergebnis als Bruch schreiben: x = 31/5.'
+  - '`0,25x` bedeutet `0,25 · x`.'
+  - 'Das Gegenteil von · 0,25 ist : 0,25.'
+  - 'Rechne auf beiden Seiten : 0,25.'
   fehler:
-  - antwort: '155'
-    hinweis: 'Um · 5 wegzubringen, rechnest du : 5, nicht · 5.'
-  - antwort: 5/31
-    hinweis: 'Achtung, umgekehrt: Es ist 31 : 5, also 31/5.'
+  - antwort: -17/16
+    hinweis: 'Da wurde mal 0,25 gerechnet. Um · 0,25 wegzubringen, rechnest du : 0,25.'
+  - antwort: -9/2
+    hinweis: '`0,25x` heißt 0,25 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '17'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-024
   typ: gleichung
   stufe: 3
-  gleichung: -x = -3
-  loesung: '3'
-  anzeige: '3'
+  gleichung: 0,25x = -5
+  loesung: '-20'
+  anzeige: '-20'
   weg:
-  - -x = -3
-  - x = 3 | ·(−1)
+  - 0,25x = -5
+  - x = -20 | :0,25
   tipps:
-  - −x bedeutet (−1) · x.
-  - Multipliziere beide Seiten mit (−1).
-  - Dabei dreht sich auf beiden Seiten das Vorzeichen um.
+  - '`0,25x` bedeutet `0,25 · x`.'
+  - 'Das Gegenteil von · 0,25 ist : 0,25.'
+  - 'Rechne auf beiden Seiten : 0,25.'
   fehler:
-  - antwort: '-3'
-    hinweis: Fast! −x ist noch nicht x. Multipliziere beide Seiten mit (−1).
+  - antwort: -5/4
+    hinweis: 'Da wurde mal 0,25 gerechnet. Um · 0,25 wegzubringen, rechnest du : 0,25.'
+  - antwort: -21/4
+    hinweis: '`0,25x` heißt 0,25 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '20'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-025
   typ: gleichung
   stufe: 3
-  gleichung: -8x = -32
-  loesung: '4'
-  anzeige: '4'
+  gleichung: 2,5x = -80
+  loesung: '-32'
+  anzeige: '-32'
   weg:
-  - -8x = -32
-  - x = 4 | :(−8)
+  - 2,5x = -80
+  - x = -32 | :2,5
   tipps:
-  - -8x bedeutet -8 · x.
-  - 'Das Gegenteil von · (-8) ist : (-8).'
-  - 'Rechne auf beiden Seiten : (-8): x = -32 : (-8).'
+  - '`2,5x` bedeutet `2,5 · x`.'
+  - 'Das Gegenteil von · 2,5 ist : 2,5.'
+  - 'Rechne auf beiden Seiten : 2,5.'
   fehler:
-  - antwort: '256'
-    hinweis: 'Da wurde mal (-8) gerechnet. Um · (-8) wegzubringen, rechnest du : (-8).'
-  - antwort: '-24'
-    hinweis: -8x heißt -8 · x – also Mal, nicht Plus. Darum dividierst du durch (-8).
-  - antwort: '-4'
+  - antwort: '-200'
+    hinweis: 'Da wurde mal 2,5 gerechnet. Um · 2,5 wegzubringen, rechnest du : 2,5.'
+  - antwort: -165/2
+    hinweis: '`2,5x` heißt 2,5 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '32'
     hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-026
   typ: gleichung
   stufe: 3
-  gleichung: -3x = 15
-  loesung: '-5'
-  anzeige: '-5'
+  gleichung: 1,2x = -15
+  loesung: -25/2
+  anzeige: -25/2 = -12,5
   weg:
-  - -3x = 15
-  - x = -5 | :(−3)
+  - 1,2x = -15
+  - x = -12,5 | :1,2
   tipps:
-  - -3x bedeutet -3 · x.
-  - 'Das Gegenteil von · (-3) ist : (-3).'
-  - 'Rechne auf beiden Seiten : (-3): x = 15 : (-3).'
+  - '`1,2x` bedeutet `1,2 · x`.'
+  - 'Das Gegenteil von · 1,2 ist : 1,2.'
+  - 'Rechne auf beiden Seiten : 1,2.'
   fehler:
-  - antwort: '-45'
-    hinweis: 'Da wurde mal (-3) gerechnet. Um · (-3) wegzubringen, rechnest du : (-3).'
-  - antwort: '18'
-    hinweis: -3x heißt -3 · x – also Mal, nicht Plus. Darum dividierst du durch (-3).
-  - antwort: '5'
+  - antwort: '-18'
+    hinweis: 'Da wurde mal 1,2 gerechnet. Um · 1,2 wegzubringen, rechnest du : 1,2.'
+  - antwort: -81/5
+    hinweis: '`1,2x` heißt 1,2 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: 25/2
     hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-027
   typ: gleichung
   stufe: 3
-  gleichung: -x = -9
-  loesung: '9'
-  anzeige: '9'
+  gleichung: 0,8x = 13,2
+  loesung: 33/2
+  anzeige: 33/2 = 16,5
   weg:
-  - -x = -9
-  - x = 9 | ·(−1)
+  - 0,8x = 13,2
+  - x = 16,5 | :0,8
   tipps:
-  - −x bedeutet (−1) · x.
-  - Multipliziere beide Seiten mit (−1).
-  - Dabei dreht sich auf beiden Seiten das Vorzeichen um.
+  - '`0,8x` bedeutet `0,8 · x`.'
+  - 'Das Gegenteil von · 0,8 ist : 0,8.'
+  - 'Rechne auf beiden Seiten : 0,8.'
   fehler:
-  - antwort: '-9'
-    hinweis: Fast! −x ist noch nicht x. Multipliziere beide Seiten mit (−1).
+  - antwort: 264/25
+    hinweis: 'Da wurde mal 0,8 gerechnet. Um · 0,8 wegzubringen, rechnest du : 0,8.'
+  - antwort: 62/5
+    hinweis: '`0,8x` heißt 0,8 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: -33/2
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
 - id: B1.3-028
   typ: gleichung
   stufe: 3
-  gleichung: -x = -9
-  loesung: '9'
-  anzeige: '9'
+  gleichung: 1,2x = -9,6
+  loesung: '-8'
+  anzeige: '-8'
   weg:
-  - -x = -9
-  - x = 9 | ·(−1)
+  - 1,2x = -9,6
+  - x = -8 | :1,2
   tipps:
-  - −x bedeutet (−1) · x.
-  - Multipliziere beide Seiten mit (−1).
-  - Dabei dreht sich auf beiden Seiten das Vorzeichen um.
+  - '`1,2x` bedeutet `1,2 · x`.'
+  - 'Das Gegenteil von · 1,2 ist : 1,2.'
+  - 'Rechne auf beiden Seiten : 1,2.'
   fehler:
-  - antwort: '-9'
-    hinweis: Fast! −x ist noch nicht x. Multipliziere beide Seiten mit (−1).
+  - antwort: -288/25
+    hinweis: 'Da wurde mal 1,2 gerechnet. Um · 1,2 wegzubringen, rechnest du : 1,2.'
+  - antwort: -54/5
+    hinweis: '`1,2x` heißt 1,2 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '8'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-029
+  typ: gleichung
+  stufe: 3
+  gleichung: -2,5x = -33,75
+  loesung: 27/2
+  anzeige: 27/2 = 13,5
+  weg:
+  - -2,5x = -33,75
+  - x = 13,5 | :(−2,5)
+  tipps:
+  - '`-2,5x` bedeutet `-2,5 · x`.'
+  - 'Das Gegenteil von · (-2,5) ist : (-2,5).'
+  - 'Rechne auf beiden Seiten : (-2,5).'
+  fehler:
+  - antwort: 675/8
+    hinweis: 'Da wurde mal (-2,5) gerechnet. Um · (-2,5) wegzubringen, rechnest du : (-2,5).'
+  - antwort: -125/4
+    hinweis: '`-2,5x` heißt -2,5 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: -27/2
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-030
+  typ: gleichung
+  stufe: 3
+  gleichung: -0,25x = -4,5
+  loesung: '18'
+  anzeige: '18'
+  weg:
+  - -0,25x = -4,5
+  - x = 18 | :(−0,25)
+  tipps:
+  - '`-0,25x` bedeutet `-0,25 · x`.'
+  - 'Das Gegenteil von · (-0,25) ist : (-0,25).'
+  - 'Rechne auf beiden Seiten : (-0,25).'
+  fehler:
+  - antwort: 9/8
+    hinweis: 'Da wurde mal (-0,25) gerechnet. Um · (-0,25) wegzubringen, rechnest du : (-0,25).'
+  - antwort: -17/4
+    hinweis: '`-0,25x` heißt -0,25 · x – also Mal, nicht Plus. Darum dividierst du.'
+  - antwort: '-18'
+    hinweis: 'Fast! Schau noch einmal auf das Vorzeichen: Minus durch Minus ergibt Plus.'
+- id: B1.3-031
+  typ: gleichung
+  stufe: 4
+  gleichung: 7x/2 = 7/3
+  loesung: 2/3
+  anzeige: 2/3
+  weg:
+  - 7x/2 = 7/3
+  - x = 7/3 · 2/7 | ·2/7
+  - x = 2/3 | ausrechnen
+  tipps:
+  - '`7x/2` heißt: x wird mit `7/2` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `7/2` ist `2/7`.'
+  - Rechne auf beiden Seiten · `2/7`.
+  fehler:
+  - antwort: 49/6
+    hinweis: Da wurde mit 7/2 multipliziert. Du brauchst aber den Kehrwert 2/7.
+  - antwort: -2/3
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-032
+  typ: gleichung
+  stufe: 4
+  gleichung: 4x/5 = 8/5
+  loesung: '2'
+  anzeige: '2'
+  weg:
+  - 4x/5 = 8/5
+  - x = 8/5 · 5/4 | ·5/4
+  - x = 2 | ausrechnen
+  tipps:
+  - '`4x/5` heißt: x wird mit `4/5` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `4/5` ist `5/4`.'
+  - Rechne auf beiden Seiten · `5/4`.
+  fehler:
+  - antwort: 32/25
+    hinweis: Da wurde mit 4/5 multipliziert. Du brauchst aber den Kehrwert 5/4.
+  - antwort: '-2'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-033
+  typ: gleichung
+  stufe: 4
+  gleichung: 4/3·x = 8
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - 4/3·x = 8
+  - x = 8 · 3/4 | ·3/4
+  - x = 6 | ausrechnen
+  tipps:
+  - '`4/3·x` heißt: x wird mit `4/3` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `4/3` ist `3/4`.'
+  - Rechne auf beiden Seiten · `3/4`.
+  fehler:
+  - antwort: 32/3
+    hinweis: Da wurde mit 4/3 multipliziert. Du brauchst aber den Kehrwert 3/4.
+  - antwort: '-6'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-034
+  typ: gleichung
+  stufe: 4
+  gleichung: 5/2·x = 45/4
+  loesung: 9/2
+  anzeige: 9/2 = 4,5
+  weg:
+  - 5/2·x = 45/4
+  - x = 45/4 · 2/5 | ·2/5
+  - x = 9/2 | ausrechnen
+  tipps:
+  - '`5/2·x` heißt: x wird mit `5/2` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `5/2` ist `2/5`.'
+  - Rechne auf beiden Seiten · `2/5`.
+  fehler:
+  - antwort: 225/8
+    hinweis: Da wurde mit 5/2 multipliziert. Du brauchst aber den Kehrwert 2/5.
+  - antwort: -9/2
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-035
+  typ: gleichung
+  stufe: 4
+  gleichung: -5/2·x = -15
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - -5/2·x = -15
+  - x = -15 · (-2/5) | ·(−2/5)
+  - x = 6 | ausrechnen
+  tipps:
+  - '`-5/2·x` heißt: x wird mit `-5/2` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `-5/2` ist `-2/5`.'
+  - Rechne auf beiden Seiten · `-2/5`.
+  fehler:
+  - antwort: 75/2
+    hinweis: Da wurde mit -5/2 multipliziert. Du brauchst aber den Kehrwert -2/5.
+  - antwort: '-6'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-036
+  typ: gleichung
+  stufe: 4
+  gleichung: 7/5·x = 42/5
+  loesung: '6'
+  anzeige: '6'
+  weg:
+  - 7/5·x = 42/5
+  - x = 42/5 · 5/7 | ·5/7
+  - x = 6 | ausrechnen
+  tipps:
+  - '`7/5·x` heißt: x wird mit `7/5` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `7/5` ist `5/7`.'
+  - Rechne auf beiden Seiten · `5/7`.
+  fehler:
+  - antwort: 294/25
+    hinweis: Da wurde mit 7/5 multipliziert. Du brauchst aber den Kehrwert 5/7.
+  - antwort: '-6'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-037
+  typ: gleichung
+  stufe: 4
+  gleichung: -1/2·x = -7/2
+  loesung: '7'
+  anzeige: '7'
+  weg:
+  - -1/2·x = -7/2
+  - x = -7/2 · (-2) | ·(−2)
+  - x = 7 | ausrechnen
+  tipps:
+  - '`-1/2·x` heißt: x wird mit `-1/2` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `-1/2` ist `-2`.'
+  - Rechne auf beiden Seiten · `-2`.
+  fehler:
+  - antwort: 7/4
+    hinweis: Da wurde mit -1/2 multipliziert. Du brauchst aber den Kehrwert -2.
+  - antwort: '-7'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-038
+  typ: gleichung
+  stufe: 4
+  gleichung: -7x/2 = 14
+  loesung: '-4'
+  anzeige: '-4'
+  weg:
+  - -7x/2 = 14
+  - x = 14 · (-2/7) | ·(−2/7)
+  - x = -4 | ausrechnen
+  tipps:
+  - '`-7x/2` heißt: x wird mit `-7/2` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `-7/2` ist `-2/7`.'
+  - Rechne auf beiden Seiten · `-2/7`.
+  fehler:
+  - antwort: '-49'
+    hinweis: Da wurde mit -7/2 multipliziert. Du brauchst aber den Kehrwert -2/7.
+  - antwort: '4'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-039
+  typ: gleichung
+  stufe: 4
+  gleichung: -5/4·x = -25/4
+  loesung: '5'
+  anzeige: '5'
+  weg:
+  - -5/4·x = -25/4
+  - x = -25/4 · (-4/5) | ·(−4/5)
+  - x = 5 | ausrechnen
+  tipps:
+  - '`-5/4·x` heißt: x wird mit `-5/4` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `-5/4` ist `-4/5`.'
+  - Rechne auf beiden Seiten · `-4/5`.
+  fehler:
+  - antwort: 125/16
+    hinweis: Da wurde mit -5/4 multipliziert. Du brauchst aber den Kehrwert -4/5.
+  - antwort: '-5'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.
+- id: B1.3-040
+  typ: gleichung
+  stufe: 4
+  gleichung: 5x/2 = 20
+  loesung: '8'
+  anzeige: '8'
+  weg:
+  - 5x/2 = 20
+  - x = 20 · 2/5 | ·2/5
+  - x = 8 | ausrechnen
+  tipps:
+  - '`5x/2` heißt: x wird mit `5/2` multipliziert.'
+  - 'Durch einen Bruch dividieren heißt: mit dem Kehrwert multiplizieren. Der Kehrwert von `5/2` ist `2/5`.'
+  - Rechne auf beiden Seiten · `2/5`.
+  fehler:
+  - antwort: '50'
+    hinweis: Da wurde mit 5/2 multipliziert. Du brauchst aber den Kehrwert 2/5.
+  - antwort: '-8'
+    hinweis: Fast! Schau noch einmal auf das Vorzeichen.

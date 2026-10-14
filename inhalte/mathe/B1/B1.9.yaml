@@ -20,46 +20,7 @@ beispiel:
     - "2x = 18 | −5"
     - "x = 9 | :2"
 aufgaben:
-  # ── Stufe 1: Zahlenrätsel ────────────────────────────
-  - id: B1.9-001
-    typ: zahl
-    stufe: 1
-    frage: Ich denke mir eine Zahl. Wenn ich 7 dazuzähle, erhalte ich 19. Wie heißt die Zahl?
-    gleichung: "x + 7 = 19"
-    loesung: "12"
-    weg: ["x + 7 = 19", "x = 12 | −7"]
-    tipps:
-      - Nenne die gesuchte Zahl x.
-      - „7 dazuzählen“ heißt + 7, „erhalte ich 19“ heißt = 19.
-      - Die Gleichung lautet x + 7 = 19.
-    fehler:
-      - {antwort: "26", hinweis: "Da wurde 7 dazugezählt. Um + 7 wegzubringen, rechnest du − 7."}
-  - id: B1.9-002
-    typ: zahl
-    stufe: 1
-    frage: Das Dreifache einer Zahl ist 27. Wie heißt die Zahl?
-    gleichung: "3x = 27"
-    loesung: "9"
-    weg: ["3x = 27", "x = 9 | :3"]
-    tipps:
-      - „Das Dreifache“ von x ist 3x.
-      - Die Gleichung lautet 3x = 27.
-      - Rechne auf beiden Seiten : 3.
-    fehler:
-      - {antwort: "24", hinweis: "Das Dreifache heißt 3 · x, also Mal. Darum dividierst du durch 3, statt 3 abzuziehen."}
-  - id: B1.9-003
-    typ: zahl
-    stufe: 1
-    frage: Wenn ich von einer Zahl 12 abziehe, bleiben 30 übrig. Wie heißt die Zahl?
-    gleichung: "x - 12 = 30"
-    loesung: "42"
-    weg: ["x - 12 = 30", "x = 42 | +12"]
-    tipps:
-      - „12 abziehen“ heißt − 12.
-      - Die Gleichung lautet x − 12 = 30.
-      - Rechne auf beiden Seiten + 12.
-    fehler:
-      - {antwort: "18", hinweis: "Um − 12 wegzubringen, rechnest du + 12."}
+  # ── Stufe 1: Zahlenrätsel und Alltag ──────────
   - id: B1.9-004
     typ: zahl
     stufe: 1
@@ -74,19 +35,6 @@ aufgaben:
     fehler:
       - {antwort: "12", hinweis: "Achtung bei der Reihenfolge: zuerst − 4 (→ 2x = 16), dann : 2."}
       - {antwort: "16", hinweis: "Fast! 2x = 16 stimmt. Jetzt noch : 2."}
-  - id: B1.9-005
-    typ: zahl
-    stufe: 1
-    frage: Die Hälfte einer Zahl ist 15. Wie heißt die Zahl?
-    gleichung: "x/2 = 15"
-    loesung: "30"
-    weg: ["x/2 = 15", "x = 30 | ·2"]
-    tipps:
-      - „Die Hälfte“ von x ist x/2.
-      - Die Gleichung lautet x/2 = 15.
-      - Rechne auf beiden Seiten · 2.
-    fehler:
-      - {antwort: "7,5", hinweis: "Die Hälfte der Zahl ist 15 – die Zahl selbst ist also größer als 15. Rechne · 2."}
   - id: B1.9-006
     typ: zahl
     stufe: 1
@@ -100,10 +48,9 @@ aufgaben:
       - Zuerst + 3, dann : 5.
     fehler:
       - {antwort: "29/5", hinweis: "Um − 3 wegzubringen, rechnest du + 3 – nicht − 3."}
-  # ── Stufe 2: Alltag ──────────────────────────────────
   - id: B1.9-007
     typ: zahl
-    stufe: 2
+    stufe: 1
     frage: >-
       Ein Handytarif kostet 9 € Grundgebühr im Monat und 0,10 € pro Minute.
       Lena hat im Mai 14,50 € bezahlt. Wie viele Minuten hat sie telefoniert?
@@ -118,6 +65,55 @@ aufgaben:
     fehler:
       - {antwort: "0,55", hinweis: "Durch 0,1 dividieren ist dasselbe wie mal 10 – das Ergebnis wird größer, nicht kleiner."}
       - {antwort: "145", hinweis: "Die 9 € Grundgebühr musst du zuerst abziehen."}
+  - id: B1.9-009
+    typ: zahl
+    stufe: 1
+    frage: >-
+      Ein Kinobesuch kostet 11 € Eintritt. Sophie kauft außerdem Popcorn und zahlt insgesamt 17,50 €.
+      Wie viel kostet das Popcorn?
+    gleichung: "11 + x = 17,5"
+    loesung: "6,5"
+    einheit: €
+    weg: ["11 + x = 17,5", "x = 6,5 | −11"]
+    tipps:
+      - x ist der Preis des Popcorns.
+      - Eintritt plus Popcorn ergibt 17,50 €, also 11 + x = 17,5.
+      - Rechne auf beiden Seiten − 11.
+    fehler:
+      - {antwort: "28,5", hinweis: "Um + 11 wegzubringen, rechnest du − 11."}
+  - id: B1.9-010
+    typ: zahl
+    stufe: 1
+    frage: >-
+      Drei Freundinnen teilen sich die Rechnung in der Pizzeria gerecht auf. Jede zahlt 13,40 €.
+      Wie hoch war die Rechnung?
+    gleichung: "x/3 = 13,4"
+    loesung: "40,2"
+    einheit: €
+    weg: ["x/3 = 13,4", "x = 40,2 | ·3"]
+    tipps:
+      - x ist der Rechnungsbetrag.
+      - Durch drei geteilt ergibt 13,40 €, also x/3 = 13,4.
+      - Rechne auf beiden Seiten · 3.
+    fehler:
+      - {antwort: "4,4666", hinweis: "Die ganze Rechnung ist größer als ein Anteil – du musst mal 3 rechnen, nicht durch 3."}
+  - id: B1.9-013
+    typ: zahl
+    stufe: 1
+    frage: >-
+      Anna spart jede Woche 15 €. Sie hat schon 45 € im Sparschwein und möchte sich Kopfhörer um 150 € kaufen.
+      Nach wie vielen Wochen hat sie genug Geld?
+    gleichung: "45 + 15x = 150"
+    loesung: "7"
+    einheit: Wochen
+    weg: ["45 + 15x = 150", "15x = 105 | −45", "x = 7 | :15"]
+    tipps:
+      - x ist die Anzahl der Wochen. In x Wochen spart sie 15x Euro dazu.
+      - "Startbetrag plus Erspartes soll 150 € ergeben: 45 + 15x = 150."
+      - Zuerst − 45, dann : 15.
+    fehler:
+      - {antwort: "10", hinweis: "Anna hat schon 45 € – die musst du zuerst abziehen."}
+  # ── Stufe 2: Mehrere Schritte ──────────
   - id: B1.9-008
     typ: zahl
     stufe: 2
@@ -135,38 +131,6 @@ aufgaben:
     fehler:
       - {antwort: "17", hinweis: "17 ist das Alter von Jonas. Gefragt ist nach Mia – sie ist 3 Jahre jünger."}
       - {antwort: "28", hinweis: "Fast! 2x = 28 stimmt. Jetzt noch : 2."}
-  - id: B1.9-009
-    typ: zahl
-    stufe: 2
-    frage: >-
-      Ein Kinobesuch kostet 11 € Eintritt. Sophie kauft außerdem Popcorn und zahlt insgesamt 17,50 €.
-      Wie viel kostet das Popcorn?
-    gleichung: "11 + x = 17,5"
-    loesung: "6,5"
-    einheit: €
-    weg: ["11 + x = 17,5", "x = 6,5 | −11"]
-    tipps:
-      - x ist der Preis des Popcorns.
-      - Eintritt plus Popcorn ergibt 17,50 €, also 11 + x = 17,5.
-      - Rechne auf beiden Seiten − 11.
-    fehler:
-      - {antwort: "28,5", hinweis: "Um + 11 wegzubringen, rechnest du − 11."}
-  - id: B1.9-010
-    typ: zahl
-    stufe: 2
-    frage: >-
-      Drei Freundinnen teilen sich die Rechnung in der Pizzeria gerecht auf. Jede zahlt 13,40 €.
-      Wie hoch war die Rechnung?
-    gleichung: "x/3 = 13,4"
-    loesung: "40,2"
-    einheit: €
-    weg: ["x/3 = 13,4", "x = 40,2 | ·3"]
-    tipps:
-      - x ist der Rechnungsbetrag.
-      - Durch drei geteilt ergibt 13,40 €, also x/3 = 13,4.
-      - Rechne auf beiden Seiten · 3.
-    fehler:
-      - {antwort: "4,4666", hinweis: "Die ganze Rechnung ist größer als ein Anteil – du musst mal 3 rechnen, nicht durch 3."}
   - id: B1.9-011
     typ: zahl
     stufe: 2
@@ -200,23 +164,54 @@ aufgaben:
       - Zuerst − 4,2, dann : 1,6.
     fehler:
       - {antwort: "15,25", hinweis: "Die Grundgebühr von 4,20 € musst du zuerst abziehen."}
-  - id: B1.9-013
+  - id: B1.9-017
     typ: zahl
     stufe: 2
     frage: >-
-      Anna spart jede Woche 15 €. Sie hat schon 45 € im Sparschwein und möchte sich Kopfhörer um 150 € kaufen.
-      Nach wie vielen Wochen hat sie genug Geld?
-    gleichung: "45 + 15x = 150"
-    loesung: "7"
-    einheit: Wochen
-    weg: ["45 + 15x = 150", "15x = 105 | −45", "x = 7 | :15"]
+      Die Summe von drei aufeinanderfolgenden ganzen Zahlen ist 87. Wie heißt die kleinste der drei Zahlen?
+    gleichung: "x + (x + 1) + (x + 2) = 87"
+    loesung: "28"
+    weg: ["x + (x + 1) + (x + 2) = 87", "3x + 3 = 87 | zusammenfassen", "3x = 84 | −3", "x = 28 | :3"]
     tipps:
-      - x ist die Anzahl der Wochen. In x Wochen spart sie 15x Euro dazu.
-      - "Startbetrag plus Erspartes soll 150 € ergeben: 45 + 15x = 150."
-      - Zuerst − 45, dann : 15.
+      - Die kleinste Zahl ist x. Die nächsten beiden sind x + 1 und x + 2.
+      - x + (x + 1) + (x + 2) = 87
+      - "Zusammengefasst: 3x + 3 = 87."
     fehler:
-      - {antwort: "10", hinweis: "Anna hat schon 45 € – die musst du zuerst abziehen."}
-  # ── Stufe 3: Matura-nah ──────────────────────────────
+      - {antwort: "29", hinweis: "29 ist die mittlere Zahl. Gefragt ist die kleinste."}
+  - id: B1.9-018
+    typ: zahl
+    stufe: 2
+    frage: >-
+      Ein Fitnessstudio bietet zwei Tarife an: Tarif A kostet 29 € im Monat, Tarif B kostet 15 € im Monat
+      plus 3,50 € pro Besuch. Ab wie vielen Besuchen pro Monat sind beide Tarife gleich teuer?
+    gleichung: "29 = 15 + 3,5x"
+    loesung: "4"
+    einheit: Besuche
+    weg: ["29 = 15 + 3,5x", "14 = 3,5x | −15", "4 = x | :3,5"]
+    tipps:
+      - x ist die Zahl der Besuche. Tarif B kostet dann 15 + 3,5x Euro.
+      - "Gleich teuer: 29 = 15 + 3,5x."
+      - Zuerst − 15, dann : 3,5.
+    fehler:
+      - {antwort: "8,2857", hinweis: "Die 15 € Grundpreis von Tarif B musst du zuerst abziehen."}
+  - id: B1.9-020
+    typ: zahl
+    stufe: 2
+    frage: >-
+      Ein Wassertank enthält 1 200 Liter. Pro Minute fließen 35 Liter ab. Nach wie vielen Minuten
+      sind nur noch 500 Liter im Tank?
+    gleichung: "1200 - 35x = 500"
+    loesung: "20"
+    einheit: Minuten
+    weg: ["1200 - 35x = 500", "-35x = -700 | −1200", "x = 20 | :(−35)"]
+    tipps:
+      - x ist die Zeit in Minuten. In x Minuten fließen 35x Liter ab.
+      - 1200 − 35x = 500
+      - Zuerst − 1200, dann : (−35). Minus durch Minus ergibt Plus.
+    fehler:
+      - {antwort: "-20", hinweis: "Eine Zeit kann nicht negativ sein. Schau beim Dividieren auf die Vorzeichen: Minus durch Minus ergibt Plus."}
+      - {antwort: "48,5714", hinweis: "Gefragt ist, wann noch 500 Liter da sind – also sind 700 Liter abgeflossen, nicht 1 700."}
+  # ── Stufe 3: Vergleiche und Klammern ──────────
   - id: B1.9-014
     typ: zahl
     stufe: 3
@@ -266,36 +261,6 @@ aufgaben:
       - "Klammer auflösen: 8x + 360 − 3x = 685."
     fehler:
       - {antwort: "55", hinweis: "55 ist die Zahl der Kinderkarten. Gefragt sind die Erwachsenenkarten."}
-  - id: B1.9-017
-    typ: zahl
-    stufe: 3
-    frage: >-
-      Die Summe von drei aufeinanderfolgenden ganzen Zahlen ist 87. Wie heißt die kleinste der drei Zahlen?
-    gleichung: "x + (x + 1) + (x + 2) = 87"
-    loesung: "28"
-    weg: ["x + (x + 1) + (x + 2) = 87", "3x + 3 = 87 | zusammenfassen", "3x = 84 | −3", "x = 28 | :3"]
-    tipps:
-      - Die kleinste Zahl ist x. Die nächsten beiden sind x + 1 und x + 2.
-      - x + (x + 1) + (x + 2) = 87
-      - "Zusammengefasst: 3x + 3 = 87."
-    fehler:
-      - {antwort: "29", hinweis: "29 ist die mittlere Zahl. Gefragt ist die kleinste."}
-  - id: B1.9-018
-    typ: zahl
-    stufe: 3
-    frage: >-
-      Ein Fitnessstudio bietet zwei Tarife an: Tarif A kostet 29 € im Monat, Tarif B kostet 15 € im Monat
-      plus 3,50 € pro Besuch. Ab wie vielen Besuchen pro Monat sind beide Tarife gleich teuer?
-    gleichung: "29 = 15 + 3,5x"
-    loesung: "4"
-    einheit: Besuche
-    weg: ["29 = 15 + 3,5x", "14 = 3,5x | −15", "4 = x | :3,5"]
-    tipps:
-      - x ist die Zahl der Besuche. Tarif B kostet dann 15 + 3,5x Euro.
-      - "Gleich teuer: 29 = 15 + 3,5x."
-      - Zuerst − 15, dann : 3,5.
-    fehler:
-      - {antwort: "8,2857", hinweis: "Die 15 € Grundpreis von Tarif B musst du zuerst abziehen."}
   - id: B1.9-019
     typ: zahl
     stufe: 3
@@ -312,20 +277,136 @@ aufgaben:
       - Rechne auf beiden Seiten : 1,02.
     fehler:
       - {antwort: "3498,6", hinweis: "Hier wurden 2 % von 3 570 € abgezogen. Die 2 % beziehen sich aber auf das Anfangskapital – darum : 1,02."}
-  - id: B1.9-020
+  - id: B1.9-021
+    typ: zahl
+    stufe: 3
+    frage: Ein Pullover kostet nach 20 % Rabatt nur noch 47,20 €. Wie viel hat er vorher gekostet?
+    gleichung: "0,8x = 47,2"
+    loesung: "59"
+    einheit: €
+    weg: ["0,8x = 47,2", "x = 59 | :0,8"]
+    tipps:
+      - x ist der alte Preis. 20 % weniger heißt, es bleiben 80 % übrig – also 0,8 · x.
+      - 0,8x = 47,2
+      - Rechne auf beiden Seiten : 0,8.
+    fehler:
+      - {antwort: "56,64", hinweis: "Hier wurden 20 % auf 47,20 € aufgeschlagen. Die 20 % gehören aber zum alten Preis – darum : 0,8."}
+      - {antwort: "37,76", hinweis: "Der alte Preis muss höher sein als 47,20 €. Rechne : 0,8 statt · 0,8."}
+  - id: B1.9-022
     typ: zahl
     stufe: 3
     frage: >-
-      Ein Wassertank enthält 1 200 Liter. Pro Minute fließen 35 Liter ab. Nach wie vielen Minuten
-      sind nur noch 500 Liter im Tank?
-    gleichung: "1200 - 35x = 500"
-    loesung: "20"
-    einheit: Minuten
-    weg: ["1200 - 35x = 500", "-35x = -700 | −1200", "x = 20 | :(−35)"]
+      Lisa gibt ein Drittel ihres Taschengelds für Kleidung und ein Viertel für Essen aus.
+      Es bleiben ihr 25 € übrig. Wie viel Taschengeld hatte sie?
+    gleichung: "x - x/3 - x/4 = 25"
+    loesung: "60"
+    einheit: €
+    weg: ["x - x/3 - x/4 = 25", "12x - 4x - 3x = 300 | ·12", "5x = 300 | zusammenfassen", "x = 60 | :5"]
     tipps:
-      - x ist die Zeit in Minuten. In x Minuten fließen 35x Liter ab.
-      - 1200 − 35x = 500
-      - Zuerst − 1200, dann : (−35). Minus durch Minus ergibt Plus.
+      - x ist das ganze Taschengeld. Ein Drittel davon ist x/3, ein Viertel x/4.
+      - "Was übrig bleibt: x − x/3 − x/4 = 25."
+      - Multipliziere jedes Glied mit dem Hauptnenner 12.
     fehler:
-      - {antwort: "-20", hinweis: "Eine Zeit kann nicht negativ sein. Schau beim Dividieren auf die Vorzeichen: Minus durch Minus ergibt Plus."}
-      - {antwort: "48,5714", hinweis: "Gefragt ist, wann noch 500 Liter da sind – also sind 700 Liter abgeflossen, nicht 1 700."}
+      - {antwort: "300/7", hinweis: "Die 25 € sind der Rest. Kleidung und Essen werden vom ganzen Taschengeld abgezogen: x − x/3 − x/4 = 25."}
+      - {antwort: "300", hinweis: "Fast! 5x = 300 stimmt. Jetzt noch : 5."}
+  # ── Stufe 4: Matura-Niveau ──────────
+  - id: B1.9-023
+    typ: zahl
+    stufe: 4
+    frage: >-
+      Handytarif A kostet 12 € Grundgebühr im Monat und 0,04 € pro Minute.
+      Tarif B kostet 4,80 € Grundgebühr und 0,10 € pro Minute.
+      Bei wie vielen Gesprächsminuten pro Monat sind beide Tarife gleich teuer?
+    gleichung: "12 + 0,04x = 4,8 + 0,1x"
+    loesung: "120"
+    einheit: Minuten
+    weg: ["12 + 0,04x = 4,8 + 0,1x", "7,2 + 0,04x = 0,1x | −4,8", "7,2 = 0,06x | −0,04x", "120 = x | :0,06"]
+    tipps:
+      - x ist die Anzahl der Minuten. Schreib für jeden Tarif die Kosten als Term.
+      - "Tarif A: 12 + 0,04x, Tarif B: 4,8 + 0,1x. Gleich teuer heißt: die Terme sind gleich."
+      - "Zahlen auf eine Seite, x auf die andere: 7,2 = 0,06x."
+    fehler:
+      - {antwort: "12", hinweis: "Achtung: 0,1 − 0,04 = 0,06, nicht 0,6."}
+      - {antwort: "240", hinweis: "Achtung: 12 − 4,8 = 7,2. Rechne die Differenz der Grundgebühren noch einmal nach."}
+  - id: B1.9-024
+    typ: zahl
+    stufe: 4
+    frage: >-
+      Zwei Orte liegen 250 km voneinander entfernt. Um 8:00 Uhr fährt ein Auto mit 80 km/h von Ort A in Richtung B los.
+      Eine halbe Stunde später fährt ein zweites Auto mit 60 km/h von B in Richtung A los.
+      Wie viele Stunden nach 8:00 Uhr begegnen sich die beiden Autos?
+    gleichung: "80x + 60(x - 0,5) = 250"
+    loesung: "2"
+    einheit: Stunden
+    weg: ["80x + 60(x - 0,5) = 250", "80x + 60x - 30 = 250 | ausmultiplizieren", "140x - 30 = 250 | zusammenfassen", "140x = 280 | +30", "x = 2 | :140"]
+    tipps:
+      - x ist die Fahrzeit des ersten Autos in Stunden. Das zweite Auto fährt eine halbe Stunde weniger, also x − 0,5.
+      - Weg = Geschwindigkeit · Zeit. Beim Treffen haben beide zusammen 250 km zurückgelegt.
+      - 80x + 60(x − 0,5) = 250
+    fehler:
+      - {antwort: "1,7857", hinweis: "Das zweite Auto fährt eine halbe Stunde später los – es ist nur x − 0,5 Stunden unterwegs."}
+      - {antwort: "1,5", hinweis: "1,5 Stunden ist das zweite Auto unterwegs. Gefragt ist die Zeit nach 8:00 Uhr."}
+  - id: B1.9-025
+    typ: zahl
+    stufe: 4
+    frage: >-
+      Eine Kaffeerösterei mischt zwei Sorten: Sorte A kostet 12 € pro kg, Sorte B 20 € pro kg.
+      Es sollen 10 kg einer Mischung entstehen, die 15 € pro kg kostet. Wie viel kg von Sorte A braucht man?
+    gleichung: "12x + 20(10 - x) = 150"
+    loesung: "6,25"
+    einheit: kg
+    weg: ["12x + 20(10 - x) = 150", "12x + 200 - 20x = 150 | ausmultiplizieren", "-8x + 200 = 150 | zusammenfassen", "-8x = -50 | −200", "x = 6,25 | :(−8)"]
+    tipps:
+      - x ist die Menge von Sorte A in kg. Dann sind es 10 − x kg von Sorte B.
+      - "Preis der Mischung: 10 kg · 15 € = 150 €. Also 12x + 20(10 − x) = 150."
+      - "Klammer auflösen: 12x + 200 − 20x = 150."
+    fehler:
+      - {antwort: "3,75", hinweis: "3,75 kg ist die Menge von Sorte B. Gefragt ist Sorte A."}
+      - {antwort: "-6,25", hinweis: "Eine Menge kann nicht negativ sein. Minus durch Minus ergibt Plus."}
+  - id: B1.9-026
+    typ: zahl
+    stufe: 4
+    frage: >-
+      Der Preis eines Fahrrads wird zuerst um 10 % erhöht und später um 10 % gesenkt.
+      Jetzt kostet es 594 €. Wie viel hat es ursprünglich gekostet?
+    gleichung: "1,1 · 0,9x = 594"
+    loesung: "600"
+    einheit: €
+    weg: ["1,1 · 0,9x = 594", "0,99x = 594 | ausrechnen", "x = 600 | :0,99"]
+    tipps:
+      - x ist der ursprüngliche Preis. Plus 10 % heißt · 1,1, minus 10 % heißt · 0,9.
+      - "Beides nacheinander: 1,1 · 0,9 · x = 594."
+      - "1,1 · 0,9 = 0,99. Dann rechnest du : 0,99."
+    fehler:
+      - {antwort: "594", hinweis: "Plus 10 % und minus 10 % heben sich nicht auf: Die 10 % werden beim zweiten Mal vom höheren Preis abgezogen."}
+  - id: B1.9-027
+    typ: zahl
+    stufe: 4
+    frage: Ein Drittel einer Zahl ist um 4 größer als ein Viertel der Zahl. Wie heißt die Zahl?
+    gleichung: "x/3 = x/4 + 4"
+    loesung: "48"
+    weg: ["x/3 = x/4 + 4", "4x = 3x + 48 | ·12", "x = 48 | −3x"]
+    tipps:
+      - Ein Drittel der Zahl ist x/3, ein Viertel ist x/4.
+      - "„Um 4 größer als“ heißt: x/3 = x/4 + 4."
+      - Multipliziere jedes Glied mit 12 – auch die 4.
+    fehler:
+      - {antwort: "4", hinweis: "Beim Multiplizieren mit 12 muss auch die 4 mal 12 gerechnet werden."}
+  - id: B1.9-028
+    typ: zahl
+    stufe: 4
+    frage: >-
+      Drei Geschwister teilen sich 5 400 €. Ben bekommt doppelt so viel wie Clara,
+      Anna bekommt 600 € mehr als Clara. Wie viel bekommt Clara?
+    gleichung: "x + 2x + (x + 600) = 5400"
+    loesung: "1200"
+    einheit: €
+    weg: ["x + 2x + (x + 600) = 5400", "4x + 600 = 5400 | zusammenfassen", "4x = 4800 | −600", "x = 1200 | :4"]
+    tipps:
+      - Clara bekommt x. Wie viel bekommen dann Ben und Anna?
+      - "Ben: 2x, Anna: x + 600. Zusammen: x + 2x + (x + 600) = 5400."
+      - "Zusammengefasst: 4x + 600 = 5400."
+    fehler:
+      - {antwort: "2400", hinweis: "2 400 € bekommt Ben. Gefragt ist Clara."}
+      - {antwort: "1800", hinweis: "1 800 € bekommt Anna. Gefragt ist Clara."}
+      - {antwort: "1350", hinweis: "Die 5 400 € werden nicht gleich aufgeteilt. Zieh zuerst die 600 € ab, die Anna mehr bekommt."}
