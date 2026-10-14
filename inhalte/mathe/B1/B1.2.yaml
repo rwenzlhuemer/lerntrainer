@@ -1,0 +1,20 @@
+id: B1.2
+titel: Auf beiden Seiten plus oder minus
+ziel: Du löst Gleichungen wie x + 4 = 9 oder x − 3 = 5.
+erklaerung: |
+  **Die goldene Regel:** Was du auf einer Seite machst, machst du auch auf der anderen.
+  Dann bleibt die Waage im Gleichgewicht.
+
+  Ziel ist immer: **x steht allein** auf einer Seite.
+
+  Steht neben x ein `+ 4`, bringst du es mit dem Gegenteil weg: `− 4` auf beiden Seiten.
+  Steht ein `− 3` da, rechnest du `+ 3`.
+
+  Hinter den senkrechten Strich `|` schreibst du, was du gerade auf beiden Seiten machst.
+  So behältst du den Überblick.
+beispiel:
+  gleichung: "x + 4 = 9"
+  weg:
+    - "x + 4 = 9"
+    - "x = 5 | −4"
+  text: "Probe: `5 + 4 = 9` ✓"

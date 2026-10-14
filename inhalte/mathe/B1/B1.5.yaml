@@ -1,0 +1,20 @@
+id: B1.5
+titel: x auf beiden Seiten
+ziel: Du löst Gleichungen, bei denen links und rechts ein x steht.
+erklaerung: |
+  Manchmal steht auf beiden Seiten ein x, zum Beispiel `5x + 2 = 3x + 10`.
+
+  **Plan:** Alle x auf eine Seite, alle Zahlen auf die andere.
+
+  Ein x-Glied bringst du genauso weg wie eine Zahl: mit dem Gegenteil, auf beiden Seiten.
+  Aus `+ 3x` wird `| −3x`.
+
+  Tipp: Bring die x am besten auf die Seite, wo **mehr** x stehen. Dann bleibt das x positiv.
+beispiel:
+  gleichung: "5x + 2 = 3x + 10"
+  weg:
+    - "5x + 2 = 3x + 10"
+    - "2x + 2 = 10 | −3x"
+    - "2x = 8 | −2"
+    - "x = 4 | :2"
+  text: "Probe: links `5 · 4 + 2 = 22`, rechts `3 · 4 + 10 = 22` ✓"

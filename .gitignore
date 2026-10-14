@@ -1,0 +1,18 @@
+# Alte Python-App (API-basiert, ruht) – nie hochladen, enthält api_keys.json
+_alt/
+
+# Quellmaterial (Schulbuch-PDFs, Matura-PDFs, >300 MB) – bleibt lokal
+quellen/
+
+# Vom Build erzeugt (tools/build.py) – entsteht auch in der GitHub-Action neu
+app/daten/
+app/sw.js
+app/js/version.js
+
+# Claude-Code-Arbeitsdateien
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

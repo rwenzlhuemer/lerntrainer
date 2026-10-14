@@ -1,0 +1,20 @@
+id: B1.4
+titel: Zwei Schritte
+ziel: Du löst Gleichungen wie 3x + 5 = 20 in zwei Schritten.
+erklaerung: |
+  Jetzt kombinierst du beides, was du schon kannst.
+
+  **Die Reihenfolge ist wichtig:**
+
+  1. Zuerst Plus und Minus wegbringen.
+  2. Dann Mal und Durch wegbringen.
+
+  Stell dir vor, du packst ein Geschenk aus: Zuerst kommt die äußere Schleife (+ 5) weg,
+  dann das Papier (· 3).
+beispiel:
+  gleichung: "3x + 5 = 20"
+  weg:
+    - "3x + 5 = 20"
+    - "3x = 15 | −5"
+    - "x = 5 | :3"
+  text: "Probe: `3 · 5 + 5 = 15 + 5 = 20` ✓"

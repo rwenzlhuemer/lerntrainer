@@ -1,0 +1,18 @@
+id: B1.8
+titel: Keine oder unendlich viele Lösungen
+ziel: Du erkennst, wann eine Gleichung keine oder unendlich viele Lösungen hat.
+erklaerung: |
+  Meistens hat eine lineare Gleichung **genau eine** Lösung. Es gibt aber zwei Sonderfälle.
+  Beide merkst du daran, dass beim Umformen **das x ganz verschwindet**.
+
+  **Keine Lösung:** Übrig bleibt etwas Falsches, z. B. `3 = 5`. Das stimmt nie –
+  egal, welche Zahl x ist. Man schreibt: L = { } (leere Menge).
+
+  **Unendlich viele Lösungen:** Übrig bleibt etwas, das immer stimmt, z. B. `6 = 6`.
+  Dann ist jede Zahl eine Lösung. Man schreibt: L = ℝ.
+beispiel:
+  text: |
+    `2x + 3 = 2x + 5` → auf beiden Seiten −2x → `3 = 5`. Das stimmt nie: **keine Lösung**.
+
+    `2(x + 3) = 2x + 6` → ausmultiplizieren → `2x + 6 = 2x + 6`. Das stimmt immer:
+    **unendlich viele Lösungen**.

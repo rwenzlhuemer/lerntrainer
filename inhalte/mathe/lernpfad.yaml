@@ -1,0 +1,737 @@
+fach: mathe
+titel: Mathematik
+# Einzige Quelle des Lernpfads. docs/LERNPFAD.md wird daraus von tools/build.py erzeugt.
+einleitung: |
+  Vom Fundament bis zur Matura (SRP Mathematik AHS). Grundlage: offizieller
+  Grundkompetenzkatalog, Stand November 2024.
+
+  ## Leitgedanken
+
+  - **Kleine Schritte.** Jeder Lernschritt behandelt genau *eine* Sache und ist in 10–20 Minuten machbar.
+  - **Immer gleicher Ablauf pro Lernschritt:** kurze Erklärung → vorgerechnetes Beispiel →
+    Aufgaben in drei Stufen: *Einstieg* (mit Hilfe), *Üben*, *Matura-nah*.
+  - **Überspringen erlaubt.** „Kann ich schon“ → drei Prüfaufgaben; passen sie, ist der Schritt erledigt.
+  - **★ = Kernpfad.** Das Minimum, um die Matura zu bestehen. Was nicht markiert ist, ist Vertiefung.
+  - **Reihenfolge:** A → B → C → E → F, dazwischen D. Die App schlägt den nächsten Schritt vor,
+    sie zwingt aber nichts.
+  - GK = Grundkompetenz laut Katalog (z. B. AG 2.2). Normalverteilung (WS 3.4/3.5) gilt ab Mai 2027;
+    Sinus- und Cosinussatz werden laut Katalog nicht benötigt.
+teile:
+- id: A
+  titel: Fundament (Unterstufe / 9. Schulstufe)
+  kapitel:
+  - id: A1
+    titel: Zahlen und Vorzeichen
+    lernschritte:
+    - id: A1.1
+      titel: Negative Zahlen auf der Zahlengeraden, ordnen, vergleichen
+      kern: true
+      gk: AG 1.1
+    - id: A1.2
+      titel: Plus und Minus mit negativen Zahlen
+      kern: true
+    - id: A1.3
+      titel: 'Mal und Durch: Vorzeichenregeln'
+      kern: true
+    - id: A1.4
+      titel: 'Vorrangregeln: Klammer vor Hoch vor Punkt vor Strich'
+      kern: true
+    - id: A1.5
+      titel: 'Zahlenmengen ℕ, ℤ, ℚ, ℝ, ℂ: Welche Zahl gehört wohin?'
+      gk: AG 1.1
+  - id: A2
+    titel: Brüche und Dezimalzahlen
+    lernschritte:
+    - id: A2.1
+      titel: Kürzen und Erweitern
+      kern: true
+    - id: A2.2
+      titel: Bruch ↔ Dezimalzahl ↔ Prozent
+      kern: true
+    - id: A2.3
+      titel: Brüche addieren und subtrahieren (gemeinsamer Nenner)
+      kern: true
+    - id: A2.4
+      titel: Brüche multiplizieren und dividieren
+      kern: true
+    - id: A2.5
+      titel: Doppelbrüche und gemischte Aufgaben
+  - id: A3
+    titel: Potenzen und Wurzeln
+    lernschritte:
+    - id: A3.1
+      titel: Was ist eine Potenz? Quadrat- und Kubikzahlen
+      kern: true
+    - id: A3.2
+      titel: Potenzregeln bei gleicher Basis (multiplizieren, dividieren, potenzieren)
+      kern: true
+      gk: AG 2.1
+    - id: A3.3
+      titel: Negative Hochzahlen, Zehnerpotenzen, Gleitkommadarstellung
+      kern: true
+    - id: A3.4
+      titel: Wurzeln; Wurzel als Potenz mit Hochzahl ½
+      kern: true
+    - id: A3.5
+      titel: Vorsilben und Einheiten (Kilo, Milli, Mikro …)
+      gk: Kontexte
+  - id: A4
+    titel: Terme
+    lernschritte:
+    - id: A4.1
+      titel: Variablen; Werte in einen Term einsetzen
+      kern: true
+      gk: AG 1.2
+    - id: A4.2
+      titel: Gleichartige Terme zusammenfassen
+      kern: true
+      gk: AG 2.1
+    - id: A4.3
+      titel: Klammern auflösen – auch „Minus vor der Klammer“
+      kern: true
+      gk: AG 2.1
+    - id: A4.4
+      titel: 'Ausmultiplizieren: (a + b) · (c + d)'
+      kern: true
+      gk: AG 2.1
+    - id: A4.5
+      titel: Herausheben (Ausklammern)
+      kern: true
+      gk: AG 2.1
+    - id: A4.6
+      titel: Binomische Formeln – vorwärts und rückwärts
+      kern: true
+      gk: AG 2.1
+    - id: A4.7
+      titel: 'Kürzen bei Bruchtermen: nur Faktoren, nie Summanden!'
+      kern: true
+      gk: AG 2.1
+    - id: A4.8
+      titel: Bruchterme addieren und multiplizieren
+      gk: AG 2.1
+    - id: A4.9
+      titel: Terme aus Text aufstellen („das Doppelte von x, vermindert um 3“)
+      kern: true
+      gk: AG 2.1
+  - id: A5
+    titel: Prozent, Verhältnisse, Proportionalität
+    lernschritte:
+    - id: A5.1
+      titel: Prozentwert, Grundwert, Prozentsatz
+      kern: true
+      gk: AN 1.1
+    - id: A5.2
+      titel: Prozentuelle Zu- und Abnahme, Änderungsfaktor (z. B. · 1,05)
+      kern: true
+      gk: AN 1.1
+    - id: A5.3
+      titel: Absolute vs. relative Änderung
+      kern: true
+      gk: AN 1.1
+    - id: A5.4
+      titel: Direkte und indirekte Proportionalität (Schlussrechnung)
+      gk: FA 2.6, FA 3.4
+    - id: A5.5
+      titel: 'Zinseszins: Kₙ = K₀ · (1 + i)ⁿ'
+      gk: Kontexte
+- id: B
+  titel: Gleichungen
+  kapitel:
+  - id: B1
+    titel: 'Lineare Gleichungen: Äquivalenzumformungen'
+    lernschritte:
+    - id: B1.1
+      titel: Was ist eine Gleichung? Das Waage-Bild; Lösung durch Probe prüfen
+      kern: true
+      gk: AG 1.2
+    - id: B1.2
+      titel: Auf beiden Seiten dasselbe addieren oder subtrahieren
+      kern: true
+      gk: AG 2.2
+    - id: B1.3
+      titel: Auf beiden Seiten mit derselben Zahl multiplizieren oder durch sie dividieren
+      kern: true
+      gk: AG 2.2
+    - id: B1.4
+      titel: Zweischrittige Gleichungen (3x + 5 = 20)
+      kern: true
+      gk: AG 2.2
+    - id: B1.5
+      titel: x auf beiden Seiten
+      kern: true
+      gk: AG 2.2
+    - id: B1.6
+      titel: Gleichungen mit Klammern
+      kern: true
+      gk: AG 2.2
+    - id: B1.7
+      titel: 'Gleichungen mit Brüchen: mit dem Hauptnenner multiplizieren'
+      kern: true
+      gk: AG 2.2
+    - id: B1.8
+      titel: 'Sonderfälle: keine Lösung, unendlich viele Lösungen'
+      kern: true
+      gk: AG 1.2, AG 2.2
+    - id: B1.9
+      titel: Textgleichungen aufstellen und lösen; Lösung im Kontext deuten
+      kern: true
+      gk: AG 2.2
+  - id: B2
+    titel: Formeln umformen
+    lernschritte:
+    - id: B2.1
+      titel: 'Formel nach einer Variablen auflösen (einfach: v = s / t)'
+      kern: true
+      gk: AG 2.1
+    - id: B2.2
+      titel: Formel nach einer Variablen auflösen (mehrere Schritte, Flächenformeln)
+      kern: true
+      gk: AG 2.1
+    - id: B2.3
+      titel: Formeln im Kontext deuten („Was passiert mit A, wenn r verdoppelt wird?“)
+      gk: AG 2.1, FA 1.8
+  - id: B3
+    titel: Lineare Ungleichungen
+    lernschritte:
+    - id: B3.1
+      titel: 'Ungleichungen umformen; Achtung: Ungleichheitszeichen umdrehen bei Multiplikation mit einer negativen Zahl'
+      kern: true
+      gk: AG 2.4
+    - id: B3.2
+      titel: Lösung als Intervall und auf der Zahlengeraden
+      gk: AG 2.4
+    - id: B3.3
+      titel: Ungleichungen aus Text aufstellen
+      gk: AG 2.4
+  - id: B4
+    titel: Lineare Gleichungssysteme (2 Variablen)
+    lernschritte:
+    - id: B4.1
+      titel: Einsetzungs- und Gleichsetzungsverfahren
+      kern: true
+      gk: AG 2.5
+    - id: B4.2
+      titel: Additionsverfahren (Eliminationsverfahren)
+      kern: true
+      gk: AG 2.5
+    - id: B4.3
+      titel: 'Lösungsfälle: eine, keine, unendlich viele Lösungen – geometrisch (zwei Geraden)'
+      kern: true
+      gk: AG 2.5
+    - id: B4.4
+      titel: Gleichungssysteme aus Text aufstellen
+      kern: true
+      gk: AG 2.5
+  - id: B5
+    titel: Quadratische Gleichungen
+    lernschritte:
+    - id: B5.1
+      titel: 'Reinquadratisch: x² = 25, x² − 7 = 0'
+      kern: true
+      gk: AG 2.3
+    - id: B5.2
+      titel: 'Herausheben und Produkt-Null-Satz: x · (x − 4) = 0'
+      kern: true
+      gk: AG 2.3
+    - id: B5.3
+      titel: Kleine Lösungsformel (Normalform x² + px + q = 0)
+      kern: true
+      gk: AG 2.3
+    - id: B5.4
+      titel: Große Lösungsformel (a·x² + b·x + c = 0)
+      gk: AG 2.3
+    - id: B5.5
+      titel: Diskriminante und Lösungsfälle (2 / 1 / keine reelle Lösung)
+      kern: true
+      gk: AG 2.3
+    - id: B5.6
+      titel: Lösungsfälle geometrisch deuten (Parabel schneidet x-Achse)
+      gk: AG 2.3
+- id: C
+  titel: Funktionen (10./11. Schulstufe)
+  kapitel:
+  - id: C1
+    titel: Funktionsbegriff
+    lernschritte:
+    - id: C1.1
+      titel: Was ist eine Funktion? Funktion oder nicht?
+      kern: true
+      gk: FA 1.1
+    - id: C1.2
+      titel: Wertetabelle ↔ Graph
+      kern: true
+      gk: FA 1.3
+    - id: C1.3
+      titel: 'Funktionswert und Argument: f(3) = ? und f(x) = 5 → x = ?'
+      kern: true
+      gk: FA 1.4
+    - id: C1.4
+      titel: Werte aus dem Graphen ablesen und im Kontext deuten
+      kern: true
+      gk: FA 1.4
+    - id: C1.5
+      titel: 'Schreibweise f: A → B, x ↦ f(x)'
+      gk: FA 1.2
+    - id: C1.6
+      titel: Formeln mit mehreren Variablen als Funktionen
+      gk: FA 1.8
+  - id: C2
+    titel: Lineare Funktionen f(x) = k · x + d
+    lernschritte:
+    - id: C2.1
+      titel: k und d aus der Gleichung ablesen; Bedeutung
+      kern: true
+      gk: FA 2.2
+    - id: C2.2
+      titel: 'Steigungsdreieck: k und d aus dem Graphen'
+      kern: true
+      gk: FA 2.2
+    - id: C2.3
+      titel: Gleichung aus zwei Punkten aufstellen
+      kern: true
+      gk: FA 2.2, FA 2.4
+    - id: C2.4
+      titel: Wirkung von k und d auf den Graphen
+      kern: true
+      gk: FA 2.3
+    - id: C2.5
+      titel: f(x + 1) = f(x) + k; Steigung = Differenzenquotient
+      kern: true
+      gk: FA 2.4
+    - id: C2.6
+      titel: Lineare Modelle im Kontext (Tarife, Füllstände, Kosten)
+      kern: true
+      gk: FA 2.1, FA 2.3
+    - id: C2.7
+      titel: Schnittpunkt zweier Geraden
+      gk: FA 1.6
+    - id: C2.8
+      titel: Ist ein lineares Modell angemessen?
+      gk: FA 2.5
+  - id: C3
+    titel: Quadratische Funktionen und Polynomfunktionen
+    lernschritte:
+    - id: C3.1
+      titel: 'Die Parabel: Scheitelpunkt, Öffnung, Nullstellen'
+      kern: true
+      gk: FA 4.1, FA 4.3
+    - id: C3.2
+      titel: Argumentwerte aus einer quadratischen Gleichung (f(x) = 3 → x = ?)
+      kern: true
+      gk: FA 4.3
+    - id: C3.3
+      titel: Typische Graphen nach Grad (1 bis 4) erkennen
+      kern: true
+      gk: FA 4.1
+    - id: C3.4
+      titel: Grad ↔ höchstens wie viele Null-, Extrem- und Wendestellen
+      kern: true
+      gk: FA 4.4
+    - id: C3.5
+      titel: Tabelle ↔ Graph bei Polynomfunktionen
+      gk: FA 4.2
+  - id: C4
+    titel: Potenzfunktionen
+    lernschritte:
+    - id: C4.1
+      titel: 'f(x) = a · xᶻ: Graphen für z = 2, 3, −1, −2, ½'
+      gk: FA 3.1
+    - id: C4.2
+      titel: Parameter a und b ablesen und deuten (a · xᶻ + b)
+      gk: FA 3.2, FA 3.3
+    - id: C4.3
+      titel: 'Indirekte Proportionalität: f(x) = a / x'
+      kern: true
+      gk: FA 3.4
+  - id: C5
+    titel: Exponentialfunktionen
+    lernschritte:
+    - id: C5.1
+      titel: 'Wachstum um denselben Faktor: f(x) = a · bˣ'
+      kern: true
+      gk: FA 5.1
+    - id: C5.2
+      titel: Bedeutung von a und b; f(x + 1) = b · f(x)
+      kern: true
+      gk: FA 5.3, FA 5.4
+    - id: C5.3
+      titel: Linear oder exponentiell? Tabellen und Texte erkennen
+      kern: true
+      gk: FA 5.1, FA 2.1
+    - id: C5.4
+      titel: 'Die e-Funktion: f(x) = a · e^(λ·x), Bedeutung von λ'
+      gk: FA 5.3
+    - id: C5.5
+      titel: 'Logarithmus als Werkzeug: bˣ = c lösen'
+      kern: true
+      gk: FA 5.5, AG 2.1
+    - id: C5.6
+      titel: Halbwertszeit und Verdoppelungszeit
+      kern: true
+      gk: FA 5.5
+    - id: C5.7
+      titel: Ist ein exponentielles Modell angemessen?
+      gk: FA 5.6
+  - id: C6
+    titel: Eigenschaften von Funktionen
+    lernschritte:
+    - id: C6.1
+      titel: 'Monotonie: steigend, fallend, Monotoniewechsel'
+      kern: true
+      gk: FA 1.5
+    - id: C6.2
+      titel: Hochpunkt und Tiefpunkt am Graphen
+      kern: true
+      gk: FA 1.5
+    - id: C6.3
+      titel: Schnittpunkte mit den Achsen
+      kern: true
+      gk: FA 1.5
+    - id: C6.4
+      titel: Symmetrie, Asymptoten, Periodizität
+      gk: FA 1.5
+    - id: C6.5
+      titel: Schnittpunkte zweier Graphen (grafisch und rechnerisch)
+      kern: true
+      gk: FA 1.6
+    - id: C6.6
+      titel: 'Überblick: Welcher Funktionstyp ist das?'
+      kern: true
+      gk: FA 1.2, FA 1.9
+    - id: C6.7
+      titel: 'Funktionen als Modelle: was sie leisten und wo sie aufhören'
+      gk: FA 1.7
+- id: D
+  titel: Trigonometrie und Vektoren
+  kapitel:
+  - id: D1
+    titel: Rechtwinkeliges Dreieck
+    lernschritte:
+    - id: D1.1
+      titel: Satz des Pythagoras
+      kern: true
+      gk: (Voraussetzung)
+    - id: D1.2
+      titel: 'Sinus, Cosinus und Tangens: Definitionen (Gegenkathete, Ankathete, Hypotenuse)'
+      kern: true
+      gk: AG 4.1
+    - id: D1.3
+      titel: Seiten und Winkel berechnen
+      kern: true
+      gk: AG 4.1
+    - id: D1.4
+      titel: 'Anwendungen: Steigungswinkel, Höhen, einfache Körper'
+      gk: AG 4.1
+  - id: D2
+    titel: Winkel über 90° und Sinusfunktion
+    lernschritte:
+    - id: D2.1
+      titel: 'Einheitskreis: sin und cos für Winkel über 90°'
+      gk: AG 4.2
+    - id: D2.2
+      titel: Gradmaß ↔ Bogenmaß
+      gk: FA 6.1
+    - id: D2.3
+      titel: 'f(x) = a · sin(b · x): Amplitude und Periode'
+      gk: FA 6.1–6.4
+    - id: D2.4
+      titel: cos(x) = sin(x + π/2)
+      gk: FA 6.5
+  - id: D3
+    titel: Vektoren
+    lernschritte:
+    - id: D3.1
+      titel: Vektoren als Zahlenlisten im Kontext (z. B. Stückzahlen und Preise)
+      kern: true
+      gk: AG 3.1
+    - id: D3.2
+      titel: Punkte und Pfeile; Vektor AB = B − A
+      kern: true
+      gk: AG 3.2
+    - id: D3.3
+      titel: Addieren und mit einer Zahl multiplizieren (auch geometrisch)
+      kern: true
+      gk: AG 3.3
+    - id: D3.4
+      titel: Betrag (Länge) eines Vektors
+      gk: AG 3.3
+    - id: D3.5
+      titel: Skalarprodukt; a · b = 0 bedeutet normal (rechter Winkel)
+      kern: true
+      gk: AG 3.3
+    - id: D3.6
+      titel: Normalvektor in ℝ²
+      gk: AG 3.5
+  - id: D4
+    titel: Geraden
+    lernschritte:
+    - id: D4.1
+      titel: Parameterdarstellung einer Geraden in ℝ² und ℝ³
+      kern: true
+      gk: AG 3.4
+    - id: D4.2
+      titel: Gleichung einer Geraden in ℝ² (Normalvektorform)
+      gk: AG 3.4, AG 3.5
+    - id: D4.3
+      titel: Liegt ein Punkt auf der Geraden?
+      gk: AG 3.4
+    - id: D4.4
+      titel: Lagebeziehungen und Schnittpunkt zweier Geraden
+      gk: AG 3.4
+- id: E
+  titel: Analysis (11./12. Schulstufe)
+  kapitel:
+  - id: E1
+    titel: Änderungsmaße
+    lernschritte:
+    - id: E1.1
+      titel: Absolute und relative (prozentuelle) Änderung
+      kern: true
+      gk: AN 1.1
+    - id: E1.2
+      titel: Differenzenquotient = mittlere Änderungsrate
+      kern: true
+      gk: AN 1.2
+    - id: E1.3
+      titel: Differenzialquotient = momentane Änderungsrate (Tangente, intuitiv)
+      kern: true
+      gk: AN 1.2
+    - id: E1.4
+      titel: Änderungsraten im Kontext deuten (Geschwindigkeit, Wachstum, Kosten)
+      kern: true
+      gk: AN 1.3
+  - id: E2
+    titel: Ableiten
+    lernschritte:
+    - id: E2.1
+      titel: 'Potenzregel: (xⁿ)′ = n · xⁿ⁻¹'
+      kern: true
+      gk: AN 2.1
+    - id: E2.2
+      titel: 'Faktorregel und Summenregel: Polynome ableiten'
+      kern: true
+      gk: AN 2.1
+    - id: E2.3
+      titel: Zweite Ableitung
+      kern: true
+      gk: AN 2.1
+    - id: E2.4
+      titel: '[f(k · x)]′, eˣ, sin und cos ableiten'
+      gk: AN 2.1, FA 5.4, FA 6.6
+    - id: E2.5
+      titel: 'Ausblick: Produkt- und Kettenregel (nur Teil 2, mit Technologie)'
+  - id: E3
+    titel: Was die Ableitung verrät
+    lernschritte:
+    - id: E3.1
+      titel: f′(x) ist die Steigung von f an der Stelle x
+      kern: true
+      gk: AN 3.1
+    - id: E3.2
+      titel: 'Monotonie: f′ > 0 heißt steigend, f′ < 0 heißt fallend'
+      kern: true
+      gk: AN 3.3
+    - id: E3.3
+      titel: 'Extremstellen: f′(x) = 0 und Vorzeichenwechsel'
+      kern: true
+      gk: AN 3.3
+    - id: E3.4
+      titel: 'Krümmung: f″ > 0 heißt linksgekrümmt, f″ < 0 heißt rechtsgekrümmt'
+      kern: true
+      gk: AN 3.3
+    - id: E3.5
+      titel: 'Wendestellen: f″(x) = 0'
+      kern: true
+      gk: AN 3.3
+  - id: E4
+    titel: Graphisches Ableiten
+    lernschritte:
+    - id: E4.1
+      titel: 'Von f zu f′: Graphen zuordnen'
+      kern: true
+      gk: AN 3.2
+    - id: E4.2
+      titel: 'Von f′ zu f: Was sagt der Graph von f′ über f?'
+      kern: true
+      gk: AN 3.2
+    - id: E4.3
+      titel: Funktion ↔ Stammfunktion grafisch
+      gk: AN 3.2
+  - id: E5
+    titel: Kurvendiskussion
+    lernschritte:
+    - id: E5.1
+      titel: Nullstellen eines Polynoms (Grad ≤ 3, mit Herausheben)
+      kern: true
+      gk: FA 1.5
+    - id: E5.2
+      titel: Hochpunkt und Tiefpunkt berechnen
+      kern: true
+      gk: AN 3.3
+    - id: E5.3
+      titel: Wendepunkt berechnen
+      kern: true
+      gk: AN 3.3
+    - id: E5.4
+      titel: Kurvendiskussion komplett, Schritt für Schritt
+      gk: AN 3.3, FA 1.5
+  - id: E6
+    titel: Anwendungen der Differenzialrechnung
+    lernschritte:
+    - id: E6.1
+      titel: 'Bewegung: s, v = s′, a = v′'
+      kern: true
+      gk: AN 1.3, Kontexte
+    - id: E6.2
+      titel: Kosten, Erlös, Gewinn, Grenzkosten, Break-even-Point
+      kern: true
+      gk: Kontexte
+    - id: E6.3
+      titel: Extremwertaufgaben (Optimieren mit Nebenbedingung)
+      gk: AN 3.3
+    - id: E6.4
+      titel: Funktion aus Eigenschaften aufstellen (Umkehraufgaben)
+      gk: Teil 2
+  - id: E7
+    titel: Integralrechnung
+    lernschritte:
+    - id: E7.1
+      titel: 'Stammfunktion: Ableiten rückwärts'
+      kern: true
+      gk: AN 3.1
+    - id: E7.2
+      titel: 'Integrationsregeln: Potenzregel, Summe, Faktor'
+      kern: true
+      gk: AN 4.2
+    - id: E7.3
+      titel: Bestimmtes Integral von Polynomen berechnen
+      kern: true
+      gk: AN 4.2
+    - id: E7.4
+      titel: Integral als Flächeninhalt (Achtung bei Flächen unter der x-Achse)
+      kern: true
+      gk: AN 4.3
+    - id: E7.5
+      titel: Fläche zwischen zwei Graphen
+      gk: AN 4.3
+    - id: E7.6
+      titel: 'Integral als Summe: Ober- und Untersumme, Streifen'
+      kern: true
+      gk: AN 4.1
+    - id: E7.7
+      titel: 'Integral im Kontext: Weg aus Geschwindigkeit, Arbeit aus Kraft, Gesamtmenge aus Rate'
+      kern: true
+      gk: AN 4.3
+- id: F
+  titel: Statistik und Wahrscheinlichkeit
+  kapitel:
+  - id: F1
+    titel: Beschreibende Statistik
+    lernschritte:
+    - id: F1.1
+      titel: Diagramme ablesen (Säulen, Balken, Linien, Prozentstreifen)
+      kern: true
+      gk: WS 1.1
+    - id: F1.2
+      titel: Mittelwert, Median, Modus
+      kern: true
+      gk: WS 1.3
+    - id: F1.3
+      titel: Mittelwert oder Median? Ausreißer; gewogenes Mittel
+      kern: true
+      gk: WS 1.4
+    - id: F1.4
+      titel: Quartile und Boxplot (Kastenschaubild)
+      kern: true
+      gk: WS 1.3, WS 1.4
+    - id: F1.5
+      titel: Spannweite, Varianz, Standardabweichung
+      gk: WS 1.3
+    - id: F1.6
+      titel: Histogramm, Stängel-Blatt-Diagramm; Diagramme selbst erstellen
+      gk: WS 1.1, WS 1.2
+    - id: F1.7
+      titel: Irreführende Grafiken erkennen
+      gk: WS 1.1
+  - id: F2
+    titel: Wahrscheinlichkeit
+    lernschritte:
+    - id: F2.1
+      titel: Grundraum, Ereignis, Gegenereignis
+      kern: true
+      gk: WS 2.1
+    - id: F2.2
+      titel: Relative Häufigkeit als Schätzwert
+      kern: true
+      gk: WS 2.2
+    - id: F2.3
+      titel: 'Laplace-Wahrscheinlichkeit: günstige / mögliche Fälle'
+      kern: true
+      gk: WS 2.3
+    - id: F2.4
+      titel: 'Baumdiagramm: Multiplikationsregel und Additionsregel'
+      kern: true
+      gk: WS 2.3
+    - id: F2.5
+      titel: „Mindestens einmal“ über das Gegenereignis
+      kern: true
+      gk: WS 2.3
+    - id: F2.6
+      titel: Binomialkoeffizient
+      gk: WS 2.4
+  - id: F3
+    titel: Zufallsvariable und Binomialverteilung
+    lernschritte:
+    - id: F3.1
+      titel: Zufallsvariable und Wahrscheinlichkeitsverteilung (Tabelle)
+      kern: true
+      gk: WS 3.1
+    - id: F3.2
+      titel: Erwartungswert berechnen und deuten
+      kern: true
+      gk: WS 3.1
+    - id: F3.3
+      titel: Standardabweichung deuten
+      gk: WS 3.1
+    - id: F3.4
+      titel: Wann ist etwas binomialverteilt?
+      kern: true
+      gk: WS 3.3
+    - id: F3.5
+      titel: 'Binomialverteilung: P(X = k), μ = n · p, σ'
+      kern: true
+      gk: WS 3.2
+  - id: F4
+    titel: Normalverteilung (Matura-Stoff ab Mai 2027)
+    lernschritte:
+    - id: F4.1
+      titel: Glockenkurve; Bedeutung von μ und σ für den Graphen
+      kern: true
+      gk: WS 3.4
+    - id: F4.2
+      titel: Wahrscheinlichkeit = Fläche unter der Kurve
+      kern: true
+      gk: WS 3.4
+    - id: F4.3
+      titel: σ-Regeln (σ, 2σ, 3σ)
+      kern: true
+      gk: WS 3.5
+    - id: F4.4
+      titel: Wahrscheinlichkeiten und Quantile mit Technologie
+      gk: WS 3.5
+- id: G
+  titel: Matura-Training
+  kapitel:
+  - id: G
+    titel: Matura-Training
+    lernschritte:
+    - id: G1
+      titel: 'Die Antwortformate kennenlernen: 2 aus 5, Lückentext, Zuordnung, offenes Format'
+      kern: true
+    - id: G2
+      titel: Original-Teil-1-Aufgaben nach Thema (aus den Maturajahrgängen 2014–2025)
+      kern: true
+    - id: G3
+      titel: 'Original-Teil-2-Aufgaben (mit Technologie: GeoGebra am iPad)'
+    - id: G4
+      titel: Probematura, wahlweise mit Zeit oder ohne

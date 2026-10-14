@@ -1,0 +1,18 @@
+id: B1.3
+titel: Auf beiden Seiten mal oder durch
+ziel: Du löst Gleichungen wie 3x = 12 oder x/4 = 5.
+erklaerung: |
+  `3x` heißt **3 mal x**. Um das „mal 3“ wegzubringen, rechnest du das Gegenteil:
+  **durch 3** – auf beiden Seiten.
+
+  `x/4` heißt **x durch 4**. Das Gegenteil davon ist **mal 4**.
+
+  Auch hier gilt die goldene Regel: Beide Seiten bekommen dieselbe Rechnung.
+
+  Das Ergebnis darf auch ein Bruch sein, zum Beispiel x = 5/2. Das ist völlig in Ordnung!
+beispiel:
+  gleichung: "3x = 12"
+  weg:
+    - "3x = 12"
+    - "x = 4 | :3"
+  text: "Probe: `3 · 4 = 12` ✓"

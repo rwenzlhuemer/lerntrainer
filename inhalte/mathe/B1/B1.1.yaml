@@ -1,0 +1,18 @@
+id: B1.1
+titel: Was ist eine Gleichung?
+ziel: Du weißt, was eine Lösung ist, und kannst mit der Probe prüfen, ob eine Zahl passt.
+erklaerung: |
+  Eine Gleichung ist wie eine **Waage im Gleichgewicht**: Links und rechts vom = steht gleich viel.
+
+  In `x + 3 = 7` ist x eine unbekannte Zahl. Gesucht ist die Zahl, bei der die Waage im
+  Gleichgewicht ist. Diese Zahl heißt **Lösung**.
+
+  Ob eine Zahl die Lösung ist, findest du mit der **Probe** heraus: Du setzt die Zahl statt x ein
+  und rechnest beide Seiten aus. Kommt links und rechts dasselbe heraus, passt sie.
+beispiel:
+  text: |
+    Ist x = 4 eine Lösung von `2x + 3 = 11`?
+
+    Probe: `2 · 4 + 3 = 8 + 3 = 11`. Rechts steht auch 11. ✓
+
+    Also ja: x = 4 ist die Lösung.

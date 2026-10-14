@@ -1,0 +1,20 @@
+id: B1.7
+titel: Gleichungen mit Brüchen
+ziel: Du löst Gleichungen mit Brüchen, indem du die Brüche zuerst loswirst.
+erklaerung: |
+  Brüche in Gleichungen sind lästig – also schaffen wir sie weg!
+
+  **Der Trick:** Multipliziere **beide Seiten** mit dem **Hauptnenner**. Das ist die kleinste Zahl,
+  durch die alle Nenner teilbar sind. Danach sind alle Bruchstriche verschwunden.
+
+  Wichtig: **Jedes** Glied wird multipliziert – auch die auf der rechten Seite!
+
+  Ein Bruchstrich wirkt wie eine Klammer: `(x + 1)/2` heißt (x + 1) : 2.
+beispiel:
+  gleichung: "x/2 + x/3 = 5"
+  weg:
+    - "x/2 + x/3 = 5"
+    - "3x + 2x = 30 | ·6"
+    - "5x = 30 | zusammenfassen"
+    - "x = 6 | :5"
+  text: "Hauptnenner von 2 und 3 ist 6. Probe: `6/2 + 6/3 = 3 + 2 = 5` ✓"

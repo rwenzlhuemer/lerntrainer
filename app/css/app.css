@@ -1,0 +1,187 @@
+/* Ruhig, warm, große Bedienflächen. Fehler in Orange (#FFF2CC), nie Rot. */
+:root {
+  --papier: #faf6ef;
+  --karte: #ffffff;
+  --tinte: #2d2a26;
+  --leise: #6f675d;
+  --linie: #e6ddd0;
+  --akzent: #2f6f7e;
+  --akzent-hell: #e3f0f2;
+  --gut: #e6f2e4;
+  --gut-rand: #9cc59a;
+  --falsch: #fff2cc;
+  --falsch-rand: #e8c66a;
+  --neutral: #f1ede6;
+  --radius: 14px;
+  --schatten: 0 1px 2px rgba(60, 45, 20, .06), 0 4px 14px rgba(60, 45, 20, .05);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--tinte);
+  font: 19px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+.haupt {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top)) 16px calc(40px + env(safe-area-inset-bottom));
+}
+h1 { font-size: 1.7rem; line-height: 1.25; margin: .4em 0 .3em; font-weight: 650; }
+h2 { font-size: 1.15rem; margin: 0 0 .5em; font-weight: 650; }
+p { margin: .5em 0; }
+a { color: var(--akzent); }
+.leise { color: var(--leise); }
+.klein-text { font-size: .85rem; }
+
+/* Knöpfe */
+.knopf {
+  display: inline-flex; align-items: center; justify-content: center; gap: .4em;
+  min-height: 52px; padding: 10px 20px;
+  border: 1.5px solid var(--linie); border-radius: 12px;
+  background: var(--karte); color: var(--tinte);
+  font: inherit; font-size: 1rem; text-decoration: none; cursor: pointer;
+  touch-action: manipulation;
+}
+.knopf:disabled { opacity: .45; cursor: default; }
+.knopf:focus-visible, .sym:focus-visible, input:focus-visible { outline: 3px solid var(--akzent); outline-offset: 2px; }
+.haupt-knopf { background: var(--akzent); border-color: var(--akzent); color: #fff; font-weight: 600; }
+.leise-knopf { background: transparent; }
+.knopf.klein { min-height: 40px; padding: 6px 12px; font-size: .9rem; }
+.knopfreihe { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0 8px; }
+
+/* Leiste oben */
+.leiste {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 8px; min-height: 44px; font-size: .95rem;
+}
+.leiste a { text-decoration: none; padding: 8px 0; }
+.leiste-titel { flex: 1; text-align: center; color: var(--leise); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.leiste-rechts { margin-left: auto; }
+
+/* Start */
+.start { text-align: center; padding-top: 6vh; }
+.start h1 { font-size: 2.1rem; }
+.zeitwahl { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 24px 0; }
+.zeit { min-height: 64px; font-size: 1.1rem; }
+.zeit:not(.leise-knopf) { background: var(--akzent-hell); border-color: #bfdbe0; }
+.weiter-info { color: var(--leise); }
+.unten-links { display: flex; justify-content: center; gap: 28px; margin-top: 36px; flex-wrap: wrap; }
+.unten-links a { padding: 10px 4px; }
+.hinweis-karte {
+  margin-top: 32px; padding: 16px; text-align: left;
+  background: var(--akzent-hell); border-radius: var(--radius);
+}
+
+/* Karten */
+.karte {
+  background: var(--karte); border-radius: var(--radius); box-shadow: var(--schatten);
+  padding: 20px; margin: 16px 0;
+}
+.ls-nummer { color: var(--leise); margin: 0; font-size: .9rem; }
+.ziel { color: var(--leise); }
+.erklaerung p:first-child { margin-top: 0; }
+.beispiel { background: #fffdf8; border: 1.5px dashed var(--linie); box-shadow: none; }
+
+/* Lernpfad */
+.legende { margin-top: 0; }
+.teil h2 { margin: 28px 0 8px; font-size: 1.05rem; color: var(--leise); font-weight: 600; }
+.kapitel { background: var(--karte); border-radius: 12px; margin: 8px 0; box-shadow: var(--schatten); }
+.kapitel summary { padding: 14px 16px; cursor: pointer; font-weight: 600; list-style-position: inside; }
+.kapitel ul { list-style: none; margin: 0; padding: 0 8px 10px; }
+.bald { font-weight: 400; color: var(--leise); font-size: .85rem; margin-left: .4em; }
+.ls a, .ls.aus { display: flex; gap: 10px; align-items: baseline; padding: 10px 8px; color: var(--tinte); text-decoration: none; border-radius: 8px; }
+.ls a:hover { background: var(--papier); }
+.ls.aus { color: #a79f94; }
+.ls-id { color: var(--leise); font-variant-numeric: tabular-nums; min-width: 3.2em; }
+.st { width: 1.2em; text-align: center; color: var(--akzent); }
+.st-sicher { color: #3f8a4a; }
+
+/* Mathe-Satz */
+.mathe { font-family: "Cambria Math", "STIX Two Math", "Times New Roman", serif; font-size: 1.12em; white-space: nowrap; }
+.mathe i { font-style: italic; margin-right: .1em; }
+.bruch { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; margin: 0 .12em; font-size: .92em; }
+.bruch .zaehler { border-bottom: 1.5px solid currentColor; padding: 0 .2em .05em; }
+.bruch .nenner { padding: .05em .2em 0; }
+.wurzel { border-top: 1.5px solid currentColor; padding-left: .1em; }
+sup { font-size: .7em; }
+
+/* Aufgabe */
+.stufe { margin: 0 0 6px; font-size: .85rem; color: var(--leise); text-transform: uppercase; letter-spacing: .05em; }
+.anweisung { margin: 0; color: var(--leise); }
+.gleichung-gross { font-size: 1.6rem; margin: 10px 0 14px; overflow-x: auto; }
+.frage { font-size: 1.05rem; }
+.zeilen { list-style: none; margin: 0 0 6px; padding: 0; font-size: 1.3rem; }
+.zeile { display: flex; align-items: center; gap: 12px; padding: 6px 0; border-top: 1px solid var(--papier); overflow-x: auto; }
+.haken { color: #3f8a4a; margin-left: auto; font-size: 1rem; }
+.weg { list-style: none; padding: 0; margin: 8px 0; font-size: 1.15rem; }
+.weg li { padding: 4px 0; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.weg-op { color: var(--leise); font-size: .85em; }
+
+.eingabe { display: flex; gap: 10px; margin-top: 10px; }
+.eingabe input {
+  flex: 1; min-width: 0; min-height: 56px; padding: 10px 14px;
+  font: inherit; font-size: 1.25rem;
+  border: 2px solid var(--linie); border-radius: 12px; background: #fffefb; color: var(--tinte);
+}
+.eingabe input:focus { border-color: var(--akzent); outline: none; }
+.vorschau { min-height: 1.8em; padding: 4px 2px 0; color: var(--leise); font-size: 1.1rem; }
+
+.symbole {
+  position: sticky; bottom: 0; z-index: 5;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); gap: 6px;
+  padding: 8px; margin: 0 -8px; background: rgba(250, 246, 239, .95);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.sym {
+  min-height: 48px; font-size: 1.25rem; border: 1.5px solid var(--linie); border-radius: 10px;
+  background: var(--karte); color: var(--tinte); font-family: "Cambria Math", "Times New Roman", serif;
+  touch-action: manipulation; cursor: pointer;
+}
+
+.optionen { display: grid; gap: 10px; margin-top: 12px; }
+.option { justify-content: flex-start; text-align: left; min-height: 56px; }
+.option.gewaehlt-gut { background: var(--gut); border-color: var(--gut-rand); opacity: 1; }
+.option.gewaehlt-falsch { background: var(--falsch); border-color: var(--falsch-rand); opacity: 1; }
+
+.rueckmeldung:empty { display: none; }
+.rueckmeldung { margin-top: 14px; padding: 14px 16px; border-radius: 12px; border: 1.5px solid transparent; }
+.rueckmeldung.gut { background: var(--gut); border-color: var(--gut-rand); }
+.rueckmeldung.falsch { background: var(--falsch); border-color: var(--falsch-rand); }
+.rueckmeldung.neutral { background: var(--neutral); border-color: var(--linie); }
+.rueckmeldung p:first-child { margin-top: 0; }
+.rueckmeldung p:last-child { margin-bottom: 0; }
+.mut { color: var(--leise); font-style: italic; }
+.aufstieg { margin-top: .8em; }
+.zeit-um { margin-top: .8em; font-weight: 600; }
+.weg-details summary { cursor: pointer; color: var(--akzent); padding: 6px 0; }
+
+.tipps .tipp { margin-top: 10px; padding: 12px 14px; background: var(--akzent-hell); border-radius: 12px; }
+.tipp p { margin: 0; display: inline; }
+.tipp-nr { font-weight: 600; color: var(--akzent); margin-right: .3em; }
+.hilfen { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+
+.erfolg { background: var(--gut); }
+
+/* Schmierzettel */
+.schmierzettel { padding: 12px; }
+.sz-leiste { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.sz-titel { flex: 1; color: var(--leise); }
+.sz-flaeche {
+  display: block; width: 100%; height: 46vh; min-height: 280px;
+  border-radius: 10px; touch-action: none; color: #24364a;
+  background-color: #fffefb;
+  background-image: linear-gradient(#e9eef5 1px, transparent 1px), linear-gradient(90deg, #e9eef5 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+@media (max-width: 520px) {
+  body { font-size: 18px; }
+  .eingabe { flex-direction: column; }
+  .gleichung-gross { font-size: 1.4rem; }
+}

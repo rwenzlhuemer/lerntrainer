@@ -1,0 +1,21 @@
+id: B1.6
+titel: Gleichungen mit Klammern
+ziel: Du löst Gleichungen mit Klammern, auch mit einem Minus vor der Klammer.
+erklaerung: |
+  Steht eine Klammer in der Gleichung, löst du sie **zuerst** auf.
+
+  **Ausmultiplizieren:** Die Zahl vor der Klammer wird mit **jedem** Glied in der Klammer multipliziert.
+  `3(x + 2) = 3x + 6` – nicht vergessen: auch die 2 bekommt das Mal 3!
+
+  **Minus vor der Klammer:** Beim Auflösen dreht sich **jedes** Vorzeichen in der Klammer um.
+  `−(2x − 5) = −2x + 5`
+
+  Danach geht es weiter wie gewohnt.
+beispiel:
+  gleichung: "3(x + 2) = 21"
+  weg:
+    - "3(x + 2) = 21"
+    - "3x + 6 = 21 | ausmultiplizieren"
+    - "3x = 15 | −6"
+    - "x = 5 | :3"
+  text: "Probe: `3 · (5 + 2) = 3 · 7 = 21` ✓"
