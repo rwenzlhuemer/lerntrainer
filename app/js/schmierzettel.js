@@ -77,6 +77,13 @@ export function schmierzettel(behaelter) {
   canvas.addEventListener("pointerup", ende);
   canvas.addEventListener("pointercancel", ende);
 
+  // iPad: Ohne das löst der Pencil Markieren, Lupe oder Kontextmenü aus, statt zu zeichnen
+  for (const art of ["touchstart", "touchmove", "touchend"]) {
+    canvas.addEventListener(art, (e) => e.preventDefault(), { passive: false });
+  }
+  canvas.addEventListener("contextmenu", (e) => e.preventDefault());
+  document.addEventListener("selectstart", (e) => { if (aktuell) e.preventDefault(); });
+
   behaelter.addEventListener("click", (e) => {
     const was = e.target.closest("[data-sz]")?.dataset.sz;
     if (was === "zurueck") { striche.pop(); zeichneAlles(); }

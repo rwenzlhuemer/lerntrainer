@@ -133,6 +133,22 @@ async function main() {
   pruefe(box.h > 200 && tinte > 50, `Schmierzettel: Strich gezeichnet (${tinte} Pixel)`);
   await bild("06-schmierzettel");
 
+  // Stift/Finger per Touch: muss zeichnen, darf nichts markieren
+  await cdp("Emulation.setTouchEmulationEnabled", { enabled: true, maxTouchPoints: 5 });
+  await js("document.querySelector('[data-sz=\"leeren\"]').click()");
+  const tp = (x, y) => [{ x, y, radiusX: 1, radiusY: 1, force: 0.5, id: 1 }];
+  await cdp("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: tp(b2.x + 50, b2.y + 50) });
+  for (let i = 1; i <= 20; i++) await cdp("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: tp(b2.x + 50 + i * 10, b2.y + 50 + i * 4) });
+  await cdp("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
+  await warte(200);
+  const tinte2 = await js(`(() => { const c = document.querySelector('.sz-flaeche'); const d = c.getContext('2d').getImageData(0, 0, c.width, c.height).data;
+    let n = 0; for (let i = 3; i < d.length; i += 4) if (d[i] > 0) n++; return n; })()`);
+  const auswahl = await js("String(getSelection())");
+  pruefe(tinte2 > 50 && auswahl === "", `Schmierzettel per Touch: gezeichnet (${tinte2} Pixel), nichts markiert`);
+  pruefe((await js("getComputedStyle(document.body).userSelect")) === "none" &&
+    (await js("getComputedStyle(document.querySelector('#feld')).userSelect")) !== "none", "Text nicht markierbar, Eingabefeld schon");
+  await cdp("Emulation.setTouchEmulationEnabled", { enabled: false });
+
   // B1.9: Textaufgabe mit Einheit
   await geh("#/ueben/B1.9");
   const t = await js("window.__aufgabe");
