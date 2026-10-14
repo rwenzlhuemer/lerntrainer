@@ -6,7 +6,7 @@ import { existsSync, mkdirSync, mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 
-const URL_BASIS = "http://127.0.0.1:8765/";
+const URL_BASIS = process.env.LT_URL || "http://127.0.0.1:8765/";  // LT_URL=https://… testet die Live-Seite
 const AUSGABE = process.argv[2] || join(tmpdir(), "lerntrainer-screens");
 mkdirSync(AUSGABE, { recursive: true });
 const BROWSER = ["C:/Program Files/Google/Chrome/Application/chrome.exe",
