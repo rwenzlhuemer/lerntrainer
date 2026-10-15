@@ -1,0 +1,16 @@
+id: C6.1
+titel: Monotonie
+ziel: Du liest am Graphen ab, wo eine Funktion steigt und wo sie fällt.
+erklaerung: |
+  Man liest einen Graphen immer **von links nach rechts**.
+
+  - **Streng monoton steigend:** Der Graph geht im ganzen Intervall hinauf.
+  - **Streng monoton fallend:** Der Graph geht im ganzen Intervall hinunter.
+
+  An einem **Hochpunkt** wechselt f von steigend zu fallend, an einem **Tiefpunkt** von fallend zu steigend.
+  Ein Intervall, das über so einen Punkt hinausreicht, ist weder steigend noch fallend.
+beispiel:
+  text: |
+    f steigt bis zum Hochpunkt bei x = −1, fällt dann bis zum Tiefpunkt bei x = 1 und steigt danach wieder.
+    Also: streng monoton fallend in [−1; 1].
+  graph: {x: [-4, 4], y: [-5, 5], kurven: [{term: "x^3 - 3x", name: "f"}], punkte: [{x: -1, y: 2, name: "H"}, {x: 1, y: -2, name: "T"}]}

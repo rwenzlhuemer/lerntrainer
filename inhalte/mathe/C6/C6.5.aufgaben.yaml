@@ -1,0 +1,490 @@
+# ERZEUGT von tools/generatoren/c6.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C6.5-001
+  typ: quadratisch
+  stufe: 1
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 4` und `g(x) = 5`?
+  gleichung: x^2 - 4 = 5
+  loesung: 3; -3
+  weg:
+  - x^2 - 4 = 5
+  - x = 3 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - 4
+      name: f
+    - term: '5'
+      name: g
+- id: C6.5-002
+  typ: quadratisch
+  stufe: 1
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2` und `g(x) = 4`?
+  gleichung: x^2 = 4
+  loesung: 2; -2
+  weg:
+  - x^2 = 4
+  - x = 2 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2
+      name: f
+    - term: '4'
+      name: g
+- id: C6.5-003
+  typ: quadratisch
+  stufe: 1
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 + 1` und `g(x) = 10`?
+  gleichung: x^2 + 1 = 10
+  loesung: 3; -3
+  weg:
+  - x^2 + 1 = 10
+  - x = 3 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 + 1
+      name: f
+    - term: '10'
+      name: g
+- id: C6.5-004
+  typ: quadratisch
+  stufe: 1
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2` und `g(x) = 9`?
+  gleichung: x^2 = 9
+  loesung: 3; -3
+  weg:
+  - x^2 = 9
+  - x = 3 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2
+      name: f
+    - term: '9'
+      name: g
+- id: C6.5-005
+  typ: quadratisch
+  stufe: 1
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 + 2` und `g(x) = 11`?
+  gleichung: x^2 + 2 = 11
+  loesung: 3; -3
+  weg:
+  - x^2 + 2 = 11
+  - x = 3 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 + 2
+      name: f
+    - term: '11'
+      name: g
+- id: C6.5-006
+  typ: quadratisch
+  stufe: 1
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 1` und `g(x) = 3`?
+  gleichung: x^2 - 1 = 3
+  loesung: 2; -2
+  weg:
+  - x^2 - 1 = 3
+  - x = 2 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - 1
+      name: f
+    - term: '3'
+      name: g
+- id: C6.5-007
+  typ: quadratisch
+  stufe: 2
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 + 4x + 3` und `g(x) = -x - 3`?
+  gleichung: x^2 + 4x + 3 = -x - 3
+  loesung: -2; -3
+  weg:
+  - x^2 + 4x + 3 = -x - 3
+  - x = -2 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -6
+    - 1
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 + 4x + 3
+      name: f
+    - term: -x - 3
+      name: g
+- id: C6.5-008
+  typ: quadratisch
+  stufe: 2
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 + 3x + 11` und `g(x) = -3x + 3`?
+  gleichung: x^2 + 3x + 11 = -3x + 3
+  loesung: -2; -4
+  weg:
+  - x^2 + 3x + 11 = -3x + 3
+  - x = -2 oder x = -4
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+- id: C6.5-009
+  typ: quadratisch
+  stufe: 2
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2` und `g(x) = -3x + 4`?
+  gleichung: x^2 = -3x + 4
+  loesung: 1; -4
+  weg:
+  - x^2 = -3x + 4
+  - x = 1 oder x = -4
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+- id: C6.5-010
+  typ: quadratisch
+  stufe: 2
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - x - 17` und `g(x) = -x - 1`?
+  gleichung: x^2 - x - 17 = -x - 1
+  loesung: 4; -4
+  weg:
+  - x^2 - x - 17 = -x - 1
+  - x = 4 oder x = -4
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -7
+    - 7
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - x - 17
+      name: f
+    - term: -x - 1
+      name: g
+- id: C6.5-011
+  typ: quadratisch
+  stufe: 2
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 3x + 2` und `g(x) = -3x + 3`?
+  gleichung: x^2 - 3x + 2 = -3x + 3
+  loesung: 1; -1
+  weg:
+  - x^2 - 3x + 2 = -3x + 3
+  - x = 1 oder x = -1
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - 3x + 2
+      name: f
+    - term: -3x + 3
+      name: g
+- id: C6.5-012
+  typ: quadratisch
+  stufe: 2
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 5` und `g(x) = 2x - 2`?
+  gleichung: x^2 - 5 = 2x - 2
+  loesung: 3; -1
+  weg:
+  - x^2 - 5 = 2x - 2
+  - x = 3 oder x = -1
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -4
+    - 6
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - 5
+      name: f
+    - term: 2x - 2
+      name: g
+- id: C6.5-013
+  typ: quadratisch
+  stufe: 3
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2/2 + 2x - 4` und `g(x) = 2x - 2`?
+  gleichung: x^2/2 + 2x - 4 = 2x - 2
+  loesung: 2; -2
+  weg:
+  - x^2/2 + 2x - 4 = 2x - 2
+  - x = 2 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2/2 + 2x - 4
+      name: f
+    - term: 2x - 2
+      name: g
+- id: C6.5-014
+  typ: quadratisch
+  stufe: 3
+  frage: Für welche x schneiden sich die Graphen von `f(x) = -x^2 + 3x + 3` und `g(x) = 3x - 1`?
+  gleichung: -x^2 + 3x + 3 = 3x - 1
+  loesung: 2; -2
+  weg:
+  - -x^2 + 3x + 3 = 3x - 1
+  - x = 2 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: -x^2 + 3x + 3
+      name: f
+    - term: 3x - 1
+      name: g
+- id: C6.5-015
+  typ: quadratisch
+  stufe: 3
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 + 2x + 9` und `g(x) = -3x + 3`?
+  gleichung: x^2 + 2x + 9 = -3x + 3
+  loesung: -2; -3
+  weg:
+  - x^2 + 2x + 9 = -3x + 3
+  - x = -2 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+- id: C6.5-016
+  typ: quadratisch
+  stufe: 3
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 2x - 2` und `g(x) = -2x + 2`?
+  gleichung: x^2 - 2x - 2 = -2x + 2
+  loesung: 2; -2
+  weg:
+  - x^2 - 2x - 2 = -2x + 2
+  - x = 2 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - 2x - 2
+      name: f
+    - term: -2x + 2
+      name: g
+- id: C6.5-017
+  typ: quadratisch
+  stufe: 3
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 3x - 2` und `g(x) = -x + 1`?
+  gleichung: x^2 - 3x - 2 = -x + 1
+  loesung: 3; -1
+  weg:
+  - x^2 - 3x - 2 = -x + 1
+  - x = 3 oder x = -1
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -4
+    - 6
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: x^2 - 3x - 2
+      name: f
+    - term: -x + 1
+      name: g
+- id: C6.5-018
+  typ: quadratisch
+  stufe: 3
+  frage: Für welche x schneiden sich die Graphen von `f(x) = -x^2 - 3x + 5` und `g(x) = -3x + 1`?
+  gleichung: -x^2 - 3x + 5 = -3x + 1
+  loesung: 2; -2
+  weg:
+  - -x^2 - 3x + 5 = -3x + 1
+  - x = 2 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -10
+    - 12
+    kurven:
+    - term: -x^2 - 3x + 5
+      name: f
+    - term: -3x + 1
+      name: g
+- id: C6.5-019
+  typ: quadratisch
+  stufe: 4
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2/2 + 3x/2 - 5` und `g(x) = x - 2`?
+  gleichung: x^2/2 + 3x/2 - 5 = x - 2
+  loesung: 2; -3
+  weg:
+  - x^2/2 + 3x/2 - 5 = x - 2
+  - x = 2 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+- id: C6.5-020
+  typ: quadratisch
+  stufe: 4
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 - 2x - 16` und `g(x) = -3x - 4`?
+  gleichung: x^2 - 2x - 16 = -3x - 4
+  loesung: 3; -4
+  weg:
+  - x^2 - 2x - 16 = -3x - 4
+  - x = 3 oder x = -4
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+- id: C6.5-021
+  typ: quadratisch
+  stufe: 4
+  frage: Für welche x schneiden sich `f(x) = x^2/2 - 9x/2 + 2` und `g(x) = -2x - 21`?
+  gleichung: x^2/2 - 9x/2 + 2 = -2x - 21
+  loesung: keine
+  weg: []
+  fehler: []
+  tipps:
+  - 'Gleichsetzen: `f(x) = g(x)`.'
+  - Bleibt unter der Wurzel eine negative Zahl, gibt es keinen Schnittpunkt.
+- id: C6.5-022
+  typ: quadratisch
+  stufe: 4
+  frage: Für welche x schneiden sich `f(x) = x^2 + 4x + 6` und `g(x) = -x - 18`?
+  gleichung: x^2 + 4x + 6 = -x - 18
+  loesung: keine
+  weg: []
+  fehler: []
+  tipps:
+  - 'Gleichsetzen: `f(x) = g(x)`.'
+  - Bleibt unter der Wurzel eine negative Zahl, gibt es keinen Schnittpunkt.
+- id: C6.5-023
+  typ: quadratisch
+  stufe: 4
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2 + 2x - 1` und `g(x) = x + 1`?
+  gleichung: x^2 + 2x - 1 = x + 1
+  loesung: 1; -2
+  weg:
+  - x^2 + 2x - 1 = x + 1
+  - x = 1 oder x = -2
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []
+- id: C6.5-024
+  typ: quadratisch
+  stufe: 4
+  frage: Für welche x schneiden sich die Graphen von `f(x) = x^2/2 + 5x/2 - 8` und `g(x) = 3x - 2`?
+  gleichung: x^2/2 + 5x/2 - 8 = 3x - 2
+  loesung: 4; -3
+  weg:
+  - x^2/2 + 5x/2 - 8 = 3x - 2
+  - x = 4 oder x = -3
+  tipps:
+  - 'Im Schnittpunkt sind die Funktionswerte gleich: `f(x) = g(x)` setzen.'
+  - Alles auf eine Seite bringen, dann lösen.
+  fehler: []

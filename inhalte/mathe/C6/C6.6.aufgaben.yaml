@@ -1,0 +1,311 @@
+# ERZEUGT von tools/generatoren/c6.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C6.6-001
+  typ: auswahl
+  stufe: 1
+  frage: Welcher Funktionstyp ist `f(x) = 0,5x + 1`?
+  optionen: &id001
+  - linear
+  - quadratisch
+  - Polynomfunktion vom Grad 3 oder höher
+  - exponentiell
+  - Potenzfunktion (z. B. a/x, √x)
+  richtig:
+  - 0
+  pruefung:
+    art: funktionstyp
+    term: 0,5x + 1
+  erklaerung: 'Höchste Hochzahl 1 – eine Gerade: linear.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-002
+  typ: auswahl
+  stufe: 1
+  frage: Welcher Funktionstyp ist `f(x) = 7 - 2x`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: funktionstyp
+    term: 7 - 2x
+  erklaerung: 'Höchste Hochzahl 1 – eine Gerade: linear.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-003
+  typ: auswahl
+  stufe: 1
+  frage: Welcher Funktionstyp ist `f(x) = 6/x`?
+  optionen: *id001
+  richtig:
+  - 4
+  pruefung:
+    art: funktionstyp
+    term: 6/x
+  erklaerung: x steht im Nenner oder unter der Wurzel – Potenzfunktion.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-004
+  typ: auswahl
+  stufe: 1
+  frage: Welcher Funktionstyp ist `f(x) = 0,5x² - x + 1`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: funktionstyp
+    term: 0,5x² - x + 1
+  erklaerung: 'Höchste Hochzahl 2 – eine Parabel: quadratisch.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-005
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Funktionstyp ist `f(x) = 3·2^x`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: funktionstyp
+    term: 3·2^x
+  erklaerung: x steht in der **Hochzahl** – exponentiell.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-006
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Funktionstyp ist `f(x) = -x/2 + 4`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: funktionstyp
+    term: -x/2 + 4
+  erklaerung: 'Höchste Hochzahl 1 – eine Gerade: linear.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-007
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Funktionstyp ist `f(x) = -x³/4 + x`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: funktionstyp
+    term: -x³/4 + x
+  erklaerung: Höchste Hochzahl 3 oder mehr – Polynomfunktion höheren Grades.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-008
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Funktionstyp ist `f(x) = 3x - 2`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: funktionstyp
+    term: 3x - 2
+  erklaerung: 'Höchste Hochzahl 1 – eine Gerade: linear.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+- id: C6.6-009
+  typ: auswahl
+  stufe: 3
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 4
+  pruefung:
+    art: funktionstyp
+    term: √x
+  erklaerung: x steht im Nenner oder unter der Wurzel – Potenzfunktion.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - 0
+    - 6
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: √x
+      name: f
+- id: C6.6-010
+  typ: auswahl
+  stufe: 3
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: funktionstyp
+    term: 2·1,5^x
+  erklaerung: x steht in der **Hochzahl** – exponentiell.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 6
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: 2·1,5^x
+      name: f
+- id: C6.6-011
+  typ: auswahl
+  stufe: 3
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: funktionstyp
+    term: x^4 - 2x²
+  erklaerung: Höchste Hochzahl 3 oder mehr – Polynomfunktion höheren Grades.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: x^4 - 2x²
+      name: f
+- id: C6.6-012
+  typ: auswahl
+  stufe: 3
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: funktionstyp
+    term: -2x² + 3x
+  erklaerung: 'Höchste Hochzahl 2 – eine Parabel: quadratisch.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: -2x² + 3x
+      name: f
+- id: C6.6-013
+  typ: auswahl
+  stufe: 4
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: funktionstyp
+    term: 3x - 2
+  erklaerung: 'Höchste Hochzahl 1 – eine Gerade: linear.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: 3x - 2
+      name: f
+- id: C6.6-014
+  typ: auswahl
+  stufe: 4
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: funktionstyp
+    term: 7 - 2x
+  erklaerung: 'Höchste Hochzahl 1 – eine Gerade: linear.'
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: 7 - 2x
+      name: f
+- id: C6.6-015
+  typ: auswahl
+  stufe: 4
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: funktionstyp
+    term: (x - 1)(x + 2)(x - 3)/4
+  erklaerung: Höchste Hochzahl 3 oder mehr – Polynomfunktion höheren Grades.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: (x - 1)(x + 2)(x - 3)/4
+      name: f
+- id: C6.6-016
+  typ: auswahl
+  stufe: 4
+  frage: Welcher Funktionstyp passt am besten zu diesem Graphen?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: funktionstyp
+    term: 100·0,8^x
+  erklaerung: x steht in der **Hochzahl** – exponentiell.
+  tipps:
+  - Wo steht das x? In der Hochzahl → exponentiell; im Nenner oder unter der Wurzel → Potenzfunktion.
+  - 'Sonst: Was ist die höchste Hochzahl von x?'
+  graph:
+    x:
+    - -4
+    - 6
+    y:
+    - -6
+    - 8
+    kurven:
+    - term: 100·0,8^x
+      name: f

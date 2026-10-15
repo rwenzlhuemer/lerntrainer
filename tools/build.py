@@ -367,6 +367,12 @@ def aus_term(p: dict):
         return xs if g == "scheitel_x" else t.subs(x, xs)
     if g == "grad":
         return sympy.degree(t, x)
+    if g in ("hochpunkt_x", "hochpunkt_y", "tiefpunkt_x", "tiefpunkt_y"):
+        d1, d2 = sympy.diff(t, x), sympy.diff(t, x, 2)
+        stellen = [s for s in sympy.solve(d1, x) if s.is_real and (d2.subs(x, s) < 0) == g.startswith("hoch") and d2.subs(x, s) != 0]
+        if len(stellen) != 1:
+            raise ValueError(f"{g}: nicht eindeutig ({stellen})")
+        return stellen[0] if g.endswith("_x") else t.subs(x, stellen[0])
     if g == "differenz":
         a, b = notation.zahl(str(p["von"])), notation.zahl(str(p["bis"]))
         return t.subs(x, b) - t.subs(x, a)
@@ -439,6 +445,32 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
                 erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] == "monoton":
+            # Optionen sind Intervalle „[a; b]“; richtig: f ist dort durchgehend steigend bzw. fallend (Stichproben von f′)
+            x = sympy.Symbol("x")
+            d1 = sympy.diff(notation.ausdruck(p["term"]), x)
+            erwartet = []
+            for i, o in enumerate(optionen):
+                lo, hi = [notation.zahl(v) for v in o.strip("[]").split(";")]
+                werte_ = [d1.subs(x, lo + (hi - lo) * sympy.Rational(k, 40)) for k in range(1, 40)]
+                if all(w > 0 for w in werte_) if p["richtung"] == "steigend" else all(w < 0 for w in werte_):
+                    erwartet.append(i)
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] == "funktionstyp":
+            x = sympy.Symbol("x")
+            t = notation.ausdruck(p["term"])
+            if t.is_polynomial(x):
+                n = sympy.degree(t, x)
+                typ = "linear" if n == 1 else "quadratisch" if n == 2 else "Polynomfunktion vom Grad 3 oder höher"
+            elif any(x in pw.exp.free_symbols for pw in t.atoms(sympy.Pow)) or t.has(sympy.exp):
+                typ = "exponentiell"
+            else:
+                typ = "Potenzfunktion (z. B. a/x, √x)"
+            if [optionen[i] for i in richtig] != [typ]:
+                fehler.melde(wo, f"'richtig' = {[optionen[i] for i in richtig]}, sympy sagt {typ!r}")
             return
         if p["art"] == "oeffnung":
             # Optionen 0 = nach oben, 1 = nach unten

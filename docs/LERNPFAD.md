@@ -193,12 +193,12 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| C6.1 ★ | Monotonie: steigend, fallend, Monotoniewechsel | FA 1.5 |  |
-| C6.2 ★ | Hochpunkt und Tiefpunkt am Graphen | FA 1.5 |  |
-| C6.3 ★ | Schnittpunkte mit den Achsen | FA 1.5 |  |
+| C6.1 ★ | Monotonie | FA 1.5 | ✓ 24 |
+| C6.2 ★ | Hochpunkt und Tiefpunkt | FA 1.5 | ✓ 24 |
+| C6.3 ★ | Schnittpunkte mit den Achsen | FA 1.5 | ✓ 24 |
 | C6.4 | Symmetrie, Asymptoten, Periodizität | FA 1.5 |  |
-| C6.5 ★ | Schnittpunkte zweier Graphen (grafisch und rechnerisch) | FA 1.6 |  |
-| C6.6 ★ | Überblick: Welcher Funktionstyp ist das? | FA 1.2, FA 1.9 |  |
+| C6.5 ★ | Schnittpunkte zweier Graphen | FA 1.6 | ✓ 24 |
+| C6.6 ★ | Welcher Funktionstyp ist das? | FA 1.2, FA 1.9 | ✓ 16 |
 | C6.7 | Funktionen als Modelle: was sie leisten und wo sie aufhören | FA 1.7 |  |
 
 ---
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 79.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 84.

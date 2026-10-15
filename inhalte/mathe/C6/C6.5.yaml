@@ -1,0 +1,22 @@
+id: C6.5
+titel: Schnittpunkte zweier Graphen
+ziel: Du findest die Schnittstellen zweier Funktionen – am Graphen und rechnerisch.
+erklaerung: |
+  Zwei Graphen schneiden sich dort, wo beide Funktionen **denselben Wert** haben: `f(x) = g(x)`.
+
+  1. Gleichsetzen.
+  2. Alles auf eine Seite bringen.
+  3. Lösen – bei einer Parabel und einer Geraden meist mit der Lösungsformel.
+
+  Gibt es keine reelle Lösung, schneiden sich die Graphen nicht.
+  Die y-Koordinate eines Schnittpunkts bekommst du durch Einsetzen in f oder g.
+beispiel:
+  gleichung: "x² - 1 = x + 1"
+  loesung: "2; -1"
+  text: |
+    `f(x) = x² − 1` und `g(x) = x + 1`.
+  graph: {x: [-3, 4], y: [-3, 8], kurven: [{term: "x² - 1", name: "f"}, {term: "x + 1", name: "g"}], punkte: [{x: -1, y: 0}, {x: 2, y: 3}]}
+  weg:
+    - "x² - 1 = x + 1"
+    - "x² - x - 2 = 0"
+    - "x = 2 oder x = -1"

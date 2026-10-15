@@ -1,0 +1,368 @@
+# ERZEUGT von tools/generatoren/c6.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C6.3-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 4x + 4`. Wo schneidet der Graph die **y-Achse**? Gib den y-Wert an.'
+  loesung: '4'
+  aus_term:
+    term: 4x + 4
+    groesse: wert
+    x: 0
+  tipps:
+  - Auf der y-Achse ist x = 0.
+  - Berechne f(0).
+  fehler: []
+- id: C6.3-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^2 - 4x + 8`. Wo schneidet der Graph die **y-Achse**? Gib den y-Wert an.'
+  loesung: '8'
+  aus_term:
+    term: x^2 - 4x + 8
+    groesse: wert
+    x: 0
+  tipps:
+  - Auf der y-Achse ist x = 0.
+  - Berechne f(0).
+  fehler: []
+- id: C6.3-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 3x + 8`. Wo schneidet der Graph die **y-Achse**? Gib den y-Wert an.'
+  loesung: '8'
+  aus_term:
+    term: 3x + 8
+    groesse: wert
+    x: 0
+  tipps:
+  - Auf der y-Achse ist x = 0.
+  - Berechne f(0).
+  fehler: []
+- id: C6.3-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^2 + x - 4`. Wo schneidet der Graph die **y-Achse**? Gib den y-Wert an.'
+  loesung: '-4'
+  aus_term:
+    term: x^2 + x - 4
+    groesse: wert
+    x: 0
+  tipps:
+  - Auf der y-Achse ist x = 0.
+  - Berechne f(0).
+  fehler: []
+- id: C6.3-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^2 - x + 4`. Wo schneidet der Graph die **y-Achse**? Gib den y-Wert an.'
+  loesung: '4'
+  aus_term:
+    term: x^2 - x + 4
+    groesse: wert
+    x: 0
+  tipps:
+  - Auf der y-Achse ist x = 0.
+  - Berechne f(0).
+  fehler: []
+- id: C6.3-006
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^2 - 3x - 2`. Wo schneidet der Graph die **y-Achse**? Gib den y-Wert an.'
+  loesung: '-2'
+  aus_term:
+    term: x^2 - 3x - 2
+    groesse: wert
+    x: 0
+  tipps:
+  - Auf der y-Achse ist x = 0.
+  - Berechne f(0).
+  fehler: []
+- id: C6.3-007
+  typ: quadratisch
+  stufe: 2
+  frage: Berechne die **Nullstellen** von `f(x) = x^2 - x - 2`.
+  gleichung: x^2 - x - 2 = 0
+  loesung: 2; -1
+  weg:
+  - x^2 - x - 2 = 0
+  - x = 2 oder x = -1
+  tipps:
+  - 'Nullstellen: Dort ist f(x) = 0 – der Graph schneidet die x-Achse.'
+  - Löse `f(x) = 0` mit der Lösungsformel.
+  fehler: []
+- id: C6.3-008
+  typ: quadratisch
+  stufe: 2
+  frage: Berechne die **Nullstellen** von `f(x) = x^2 + 8x + 15`.
+  gleichung: x^2 + 8x + 15 = 0
+  loesung: -3; -5
+  weg:
+  - x^2 + 8x + 15 = 0
+  - x = -3 oder x = -5
+  tipps:
+  - 'Nullstellen: Dort ist f(x) = 0 – der Graph schneidet die x-Achse.'
+  - Löse `f(x) = 0` mit der Lösungsformel.
+  fehler: []
+- id: C6.3-009
+  typ: quadratisch
+  stufe: 2
+  frage: Berechne die **Nullstellen** von `f(x) = x^2 + 3x - 4`.
+  gleichung: x^2 + 3x - 4 = 0
+  loesung: 1; -4
+  weg:
+  - x^2 + 3x - 4 = 0
+  - x = 1 oder x = -4
+  tipps:
+  - 'Nullstellen: Dort ist f(x) = 0 – der Graph schneidet die x-Achse.'
+  - Löse `f(x) = 0` mit der Lösungsformel.
+  fehler: []
+- id: C6.3-010
+  typ: quadratisch
+  stufe: 2
+  frage: Berechne die **Nullstellen** von `f(x) = x^2 - 36`.
+  gleichung: x^2 - 36 = 0
+  loesung: 6; -6
+  weg:
+  - x^2 - 36 = 0
+  - x = 6 oder x = -6
+  tipps:
+  - 'Nullstellen: Dort ist f(x) = 0 – der Graph schneidet die x-Achse.'
+  - Löse `f(x) = 0` mit der Lösungsformel.
+  fehler: []
+- id: C6.3-011
+  typ: quadratisch
+  stufe: 2
+  frage: Berechne die **Nullstellen** von `f(x) = x^2 - 25`.
+  gleichung: x^2 - 25 = 0
+  loesung: 5; -5
+  weg:
+  - x^2 - 25 = 0
+  - x = 5 oder x = -5
+  tipps:
+  - 'Nullstellen: Dort ist f(x) = 0 – der Graph schneidet die x-Achse.'
+  - Löse `f(x) = 0` mit der Lösungsformel.
+  fehler: []
+- id: C6.3-012
+  typ: quadratisch
+  stufe: 2
+  frage: Berechne die **Nullstellen** von `f(x) = x^2 + x - 30`.
+  gleichung: x^2 + x - 30 = 0
+  loesung: 5; -6
+  weg:
+  - x^2 + x - 30 = 0
+  - x = 5 oder x = -6
+  tipps:
+  - 'Nullstellen: Dort ist f(x) = 0 – der Graph schneidet die x-Achse.'
+  - Löse `f(x) = 0` mit der Lösungsformel.
+  fehler: []
+- id: C6.3-013
+  typ: quadratisch
+  stufe: 3
+  frage: Lies am Graphen alle **Nullstellen** von f ab.
+  gleichung: x^3/2 - x^2/2 - x = 0
+  loesung: 2; 0; -1
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^3/2 - x^2/2 - x
+      name: f
+  weg: []
+  tipps:
+  - Nullstellen sind die Stellen, an denen der Graph die x-Achse schneidet oder berührt.
+  - Es können mehr als zwei sein!
+  - 'Antwort z. B.: `x = -2 oder x = 0 oder x = 3` oder `-2; 0; 3`.'
+  fehler: []
+- id: C6.3-014
+  typ: quadratisch
+  stufe: 3
+  frage: Lies am Graphen alle **Nullstellen** von f ab.
+  gleichung: -x^3/2 - 5x^2/2 - x + 4 = 0
+  loesung: 1; -2; -4
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -x^3/2 - 5x^2/2 - x + 4
+      name: f
+  weg: []
+  tipps:
+  - Nullstellen sind die Stellen, an denen der Graph die x-Achse schneidet oder berührt.
+  - Es können mehr als zwei sein!
+  - 'Antwort z. B.: `x = -2 oder x = 0 oder x = 3` oder `-2; 0; 3`.'
+  fehler: []
+- id: C6.3-015
+  typ: quadratisch
+  stufe: 3
+  frage: Lies am Graphen alle **Nullstellen** von f ab.
+  gleichung: -x^3/3 + 7x^2/3 - 4x = 0
+  loesung: 4; 3; 0
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -x^3/3 + 7x^2/3 - 4x
+      name: f
+  weg: []
+  tipps:
+  - Nullstellen sind die Stellen, an denen der Graph die x-Achse schneidet oder berührt.
+  - Es können mehr als zwei sein!
+  - 'Antwort z. B.: `x = -2 oder x = 0 oder x = 3` oder `-2; 0; 3`.'
+  fehler: []
+- id: C6.3-016
+  typ: quadratisch
+  stufe: 3
+  frage: Lies am Graphen alle **Nullstellen** von f ab.
+  gleichung: -x^3/2 + 2x^2 - x/2 - 3 = 0
+  loesung: 3; 2; -1
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -x^3/2 + 2x^2 - x/2 - 3
+      name: f
+  weg: []
+  tipps:
+  - Nullstellen sind die Stellen, an denen der Graph die x-Achse schneidet oder berührt.
+  - Es können mehr als zwei sein!
+  - 'Antwort z. B.: `x = -2 oder x = 0 oder x = 3` oder `-2; 0; 3`.'
+  fehler: []
+- id: C6.3-017
+  typ: quadratisch
+  stufe: 3
+  frage: Lies am Graphen alle **Nullstellen** von f ab.
+  gleichung: x^3/4 - x^2/4 - 3x = 0
+  loesung: 4; 0; -3
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^3/4 - x^2/4 - 3x
+      name: f
+  weg: []
+  tipps:
+  - Nullstellen sind die Stellen, an denen der Graph die x-Achse schneidet oder berührt.
+  - Es können mehr als zwei sein!
+  - 'Antwort z. B.: `x = -2 oder x = 0 oder x = 3` oder `-2; 0; 3`.'
+  fehler: []
+- id: C6.3-018
+  typ: quadratisch
+  stufe: 3
+  frage: Lies am Graphen alle **Nullstellen** von f ab.
+  gleichung: -x^3/3 + x^2 + 4x/3 = 0
+  loesung: 4; 0; -1
+  graph:
+    x:
+    - -6
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -x^3/3 + x^2 + 4x/3
+      name: f
+  weg: []
+  tipps:
+  - Nullstellen sind die Stellen, an denen der Graph die x-Achse schneidet oder berührt.
+  - Es können mehr als zwei sein!
+  - 'Antwort z. B.: `x = -2 oder x = 0 oder x = 3` oder `-2; 0; 3`.'
+  fehler: []
+- id: C6.3-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x - 8`. Berechne die **Nullstelle**.'
+  loesung: '8'
+  aus_term:
+    term: x - 8
+    groesse: nullstelle
+  tipps:
+  - 'Nullstelle: f(x) = 0 setzen und nach x lösen.'
+  fehler:
+  - antwort: '-8'
+    hinweis: Vorzeichen! `kx + d = 0` → `x = -d/k`.
+- id: C6.3-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x - 1`. Berechne die **Nullstelle**.'
+  loesung: 0,5
+  aus_term:
+    term: 2x - 1
+    groesse: nullstelle
+  tipps:
+  - 'Nullstelle: f(x) = 0 setzen und nach x lösen.'
+  fehler:
+  - antwort: -1/2
+    hinweis: Vorzeichen! `kx + d = 0` → `x = -d/k`.
+- id: C6.3-021
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x - 2`. Berechne die **Nullstelle**.'
+  loesung: '2'
+  aus_term:
+    term: x - 2
+    groesse: nullstelle
+  tipps:
+  - 'Nullstelle: f(x) = 0 setzen und nach x lösen.'
+  fehler:
+  - antwort: '-2'
+    hinweis: Vorzeichen! `kx + d = 0` → `x = -d/k`.
+- id: C6.3-022
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 3x/2 - 3`. Berechne die **Nullstelle**.'
+  loesung: '2'
+  aus_term:
+    term: 3x/2 - 3
+    groesse: nullstelle
+  tipps:
+  - 'Nullstelle: f(x) = 0 setzen und nach x lösen.'
+  fehler:
+  - antwort: '-2'
+    hinweis: Vorzeichen! `kx + d = 0` → `x = -d/k`.
+- id: C6.3-023
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -3x - 1`. Berechne die **Nullstelle**.'
+  loesung: -1/3
+  aus_term:
+    term: -3x - 1
+    groesse: nullstelle
+  tipps:
+  - 'Nullstelle: f(x) = 0 setzen und nach x lösen.'
+  fehler:
+  - antwort: 1/3
+    hinweis: Vorzeichen! `kx + d = 0` → `x = -d/k`.
+- id: C6.3-024
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 3x + 1`. Berechne die **Nullstelle**.'
+  loesung: -1/3
+  aus_term:
+    term: 3x + 1
+    groesse: nullstelle
+  tipps:
+  - 'Nullstelle: f(x) = 0 setzen und nach x lösen.'
+  fehler:
+  - antwort: 1/3
+    hinweis: Vorzeichen! `kx + d = 0` → `x = -d/k`.

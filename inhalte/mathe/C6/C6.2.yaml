@@ -1,0 +1,15 @@
+id: C6.2
+titel: Hochpunkt und Tiefpunkt
+ziel: Du liest Hoch- und Tiefpunkte (Extrempunkte) am Graphen ab.
+erklaerung: |
+  - Ein **Hochpunkt** H ist ein „Gipfel“: In seiner Nähe ist kein Punkt höher.
+  - Ein **Tiefpunkt** T ist ein „Tal“: In seiner Nähe ist kein Punkt tiefer.
+
+  Gemeinsam heißen sie **Extrempunkte**. Ein Graph kann mehrere haben – sie müssen nicht der höchste
+  bzw. tiefste Punkt des ganzen Graphen sein (man sagt: lokales Maximum bzw. Minimum).
+
+  Die **x-Koordinate** heißt Extremstelle, die **y-Koordinate** Extremwert.
+beispiel:
+  text: |
+    H(−1|2) und T(1|−2): Extremstellen −1 und 1, Extremwerte 2 und −2.
+  graph: {x: [-4, 4], y: [-5, 5], kurven: [{term: "x^3 - 3x", name: "f"}], punkte: [{x: -1, y: 2, name: "H"}, {x: 1, y: -2, name: "T"}]}

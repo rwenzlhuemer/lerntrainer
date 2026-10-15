@@ -341,6 +341,10 @@ async function main() {
   const zs = await naechsteBis("C5.6", (x) => x.gerundet !== undefined);
   await tippe(`${zs.loesung} ${zs.einheit || ""}`);
   pruefe((await rm()).startsWith("rueckmeldung gut"), `C5.6: gerundete Antwort ${zs.loesung} angenommen`);
+  const hp = await naechsteBis("C6.2", () => true);
+  await tippe(hp.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `C6.2: ${hp.frage.slice(20, 60)} = ${hp.loesung}`);
+  await bild("09p-extrem");
   const tb = await naechsteBis("C1.1", () => true);
   pruefe(await js("!!document.querySelector('table.tabelle')"), "C1.1: Wertetabelle gezeigt");
   await bild("09m-tabelle");

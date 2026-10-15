@@ -1,0 +1,15 @@
+id: C6.6
+titel: Welcher Funktionstyp ist das?
+ziel: Du erkennst am Term und am Graphen, um welchen Funktionstyp es sich handelt.
+erklaerung: |
+  - **linear** `kx + d`: Gerade
+  - **quadratisch** `ax² + bx + c`: Parabel
+  - **Polynom höheren Grades** (x³, x⁴ …): mehrere Buckel
+  - **exponentiell** `a · bˣ`: x steht in der **Hochzahl**; wächst immer schneller oder nähert sich der x-Achse
+  - **Potenzfunktion** wie `a/x` oder `√x`: x im Nenner oder unter der Wurzel
+
+  Die wichtigste Frage am Term: **Wo steht das x?**
+beispiel:
+  text: |
+    `f(x) = 3 · 2ˣ`: x steht in der Hochzahl – exponentiell. `g(x) = 2x³`: x hat die Hochzahl 3 – Polynom.
+  graph: {x: [-3, 3], y: [-1, 12], kurven: [{term: "3·2^x", name: "f"}]}

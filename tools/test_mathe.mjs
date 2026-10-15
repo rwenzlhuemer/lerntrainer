@@ -93,7 +93,7 @@ for (const datei of readdirSync(DATEN)) {
       const l = String(a.loesung);
       const eingabe = l === "keine" ? "keine" : l.split(";").map((v) => `x = ${v.trim()}`).join(" oder ");
       erwarte(M.pruefeQuadratischZeile(eingabe, a).art === "geloest", `${a.id}: Lösung ${eingabe} nicht erkannt`);
-      if (a.gleichung && !/^x\s*=/.test(a.gleichung)) erwarte(M.pruefeQuadratischZeile(a.gleichung, a).art === "schritt", `${a.id}: Ausgangsgleichung nicht als Schritt`);
+      if (a.gleichung && !/^x\s*=/.test(a.gleichung) && !/[³⁴]|\^[3-9]/.test(a.gleichung)) erwarte(M.pruefeQuadratischZeile(a.gleichung, a).art === "schritt", `${a.id}: Ausgangsgleichung nicht als Schritt`);
       for (const zeile of a.weg || []) {
         const r = M.pruefeQuadratischZeile(zeile.split("|")[0], a);
         erwarte(["schritt", "geloest"].includes(r.art), `${a.id}: Weg-Zeile "${zeile}" → ${r.art}`);

@@ -1,0 +1,19 @@
+id: C6.3
+titel: Schnittpunkte mit den Achsen
+ziel: Du findest, wo ein Graph die y-Achse und die x-Achse schneidet.
+erklaerung: |
+  - **y-Achse:** Dort ist x = 0. Berechne also **f(0)**.
+  - **x-Achse:** Dort ist y = 0. Löse also **f(x) = 0** – diese x heißen **Nullstellen**.
+
+  Bei Geraden gibt es höchstens eine Nullstelle, bei Parabeln höchstens zwei, bei Polynomen vom Grad n
+  höchstens n. Am Graphen liest du sie dort ab, wo er die x-Achse schneidet oder berührt.
+beispiel:
+  gleichung: "x² - x - 6 = 0"
+  loesung: "3; -2"
+  text: |
+    `f(x) = x² − x − 6`: y-Achse bei f(0) = −6. Nullstellen: `x² − x − 6 = 0`.
+  graph: {x: [-4, 5], y: [-8, 6], kurven: [{term: "x² - x - 6", name: "f"}], punkte: [{x: -2, y: 0}, {x: 3, y: 0}, {x: 0, y: -6}]}
+  weg:
+    - "x² - x - 6 = 0"
+    - "(x - 3)(x + 2) = 0"
+    - "x = 3 oder x = -2"
