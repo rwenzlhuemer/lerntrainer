@@ -1,0 +1,19 @@
+id: B5.6
+titel: Lösungsfälle geometrisch
+ziel: Du verbindest die Lösungen einer quadratischen Gleichung mit den Nullstellen einer Parabel.
+erklaerung: |
+  Der Graph von `y = ax² + bx + c` ist eine **Parabel**. Wo sie die x-Achse trifft, ist `y = 0`.
+  Die Schnittpunkte mit der x-Achse (die **Nullstellen**) sind also genau die Lösungen von `ax² + bx + c = 0`.
+
+  - zwei Lösungen → die Parabel **schneidet** die x-Achse zweimal
+  - eine Lösung → sie **berührt** die x-Achse (der Scheitel liegt auf ihr)
+  - keine Lösung → sie liegt ganz **über** oder ganz **unter** der x-Achse
+beispiel:
+  gleichung: "x² - 4x + 3 = 0"
+  loesung: "3; 1"
+  text: |
+    `y = x² - 4x + 3` schneidet die x-Achse bei x = 1 und x = 3.
+  weg:
+    - "x² - 4x + 3 = 0"
+    - "(x - 1)(x - 3) = 0"
+    - "x = 1 oder x = 3"

@@ -1,0 +1,337 @@
+# ERZEUGT von tools/generatoren/b5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B5.6-001
+  typ: auswahl
+  stufe: 1
+  frage: Was gilt für die Parabel `y = x² + 8x + 12`?
+  optionen: &id001
+  - Sie schneidet die x-Achse in zwei Punkten.
+  - Sie berührt die x-Achse in genau einem Punkt.
+  - Sie hat keinen Punkt mit der x-Achse gemeinsam.
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 8x + 12 = 0
+  erklaerung: Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² + 8x + 12 = 0`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² + 8x + 12 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-002
+  typ: auswahl
+  stufe: 1
+  frage: Was gilt für die Parabel `y = x² + 2x + 10`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 2x + 10 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² + 2x + 10 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² + 2x + 10 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-003
+  typ: auswahl
+  stufe: 1
+  frage: Was gilt für die Parabel `y = x² - 8x + 16`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 8x + 16 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² - 8x + 16 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² - 8x + 16 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-004
+  typ: auswahl
+  stufe: 1
+  frage: Was gilt für die Parabel `y = x² - 4x + 4`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 4x + 4 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² - 4x + 4 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² - 4x + 4 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-005
+  typ: quadratisch
+  stufe: 1
+  frage: Wo schneidet die Parabel `y = x² - 8x + 15` die x-Achse? Gib die x-Werte (Nullstellen) an.
+  gleichung: x² - 8x + 15 = 0
+  loesung: 5; 3
+  weg:
+  - x² - 8x + 15 = 0
+  - x = 5 oder x = 3
+  tipps:
+  - Auf der x-Achse ist y = 0. Setz also den Term gleich 0.
+  - Löse die quadratische Gleichung, z. B. mit der Lösungsformel.
+  fehler: []
+- id: B5.6-006
+  typ: quadratisch
+  stufe: 1
+  frage: Wo schneidet die Parabel `y = x² - 7x + 10` die x-Achse? Gib die x-Werte (Nullstellen) an.
+  gleichung: x² - 7x + 10 = 0
+  loesung: 5; 2
+  weg:
+  - x² - 7x + 10 = 0
+  - x = 5 oder x = 2
+  tipps:
+  - Auf der x-Achse ist y = 0. Setz also den Term gleich 0.
+  - Löse die quadratische Gleichung, z. B. mit der Lösungsformel.
+  fehler: []
+- id: B5.6-007
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die Parabel `y = x² + 4x + 4`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 4x + 4 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² + 4x + 4 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² + 4x + 4 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-008
+  typ: quadratisch
+  stufe: 2
+  frage: Wo schneidet die Parabel `y = x² - 5x + 4` die x-Achse? Gib die x-Werte (Nullstellen) an.
+  gleichung: x² - 5x + 4 = 0
+  loesung: 4; 1
+  weg:
+  - x² - 5x + 4 = 0
+  - x = 4 oder x = 1
+  tipps:
+  - Auf der x-Achse ist y = 0. Setz also den Term gleich 0.
+  - Löse die quadratische Gleichung, z. B. mit der Lösungsformel.
+  fehler: []
+- id: B5.6-009
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die Parabel `y = x² - 12x + 36`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 12x + 36 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² - 12x + 36 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² - 12x + 36 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-010
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die Parabel `y = x² + 2x + 1`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 2x + 1 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² + 2x + 1 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² + 2x + 1 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-011
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die Parabel `y = x² - 8x + 21`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 8x + 21 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² - 8x + 21 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² - 8x + 21 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-012
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die Parabel `y = x² + 10x + 25`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 10x + 25 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `x² + 10x + 25 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `x² + 10x + 25 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-013
+  typ: auswahl
+  stufe: 3
+  frage: Was gilt für die Parabel `y = 2x² - 4x + 20`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² - 4x + 20 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `2x² - 4x + 20 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `2x² - 4x + 20 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-014
+  typ: auswahl
+  stufe: 3
+  frage: Was gilt für die Parabel `y = -x² - 2x - 3`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: -x² - 2x - 3 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `-x² - 2x - 3 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `-x² - 2x - 3 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-015
+  typ: auswahl
+  stufe: 3
+  frage: Was gilt für die Parabel `y = -3x² + 12x - 12`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: -3x² + 12x - 12 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `-3x² + 12x - 12 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `-3x² + 12x - 12 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-016
+  typ: auswahl
+  stufe: 3
+  frage: Was gilt für die Parabel `y = 3x² - 36x + 108`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: 3x² - 36x + 108 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `3x² - 36x + 108 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `3x² - 36x + 108 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-017
+  typ: auswahl
+  stufe: 3
+  frage: Was gilt für die Parabel `y = 3x² - 18x + 45`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 3x² - 18x + 45 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `3x² - 18x + 45 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `3x² - 18x + 45 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-018
+  typ: auswahl
+  stufe: 3
+  frage: Was gilt für die Parabel `y = -3x² - 24x - 66`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: -3x² - 24x - 66 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `-3x² - 24x - 66 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `-3x² - 24x - 66 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-019
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die Parabel `y = -2x² - 20x - 66`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: -2x² - 20x - 66 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `-2x² - 20x - 66 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `-2x² - 20x - 66 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-020
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die Parabel `y = 3x² + 12x + 12`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: 3x² + 12x + 12 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `3x² + 12x + 12 = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `3x² + 12x + 12 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-021
+  typ: quadratisch
+  stufe: 4
+  frage: Wo schneidet die Parabel `y = -3x² - 27x - 60` die x-Achse? Gib die x-Werte (Nullstellen) an.
+  gleichung: -3x² - 27x - 60 = 0
+  loesung: -4; -5
+  weg:
+  - -3x² - 27x - 60 = 0
+  - x = -4 oder x = -5
+  tipps:
+  - Auf der x-Achse ist y = 0. Setz also den Term gleich 0.
+  - Löse die quadratische Gleichung, z. B. mit der Lösungsformel.
+  fehler: []
+- id: B5.6-022
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die Parabel `y = 2x² - 24x + 74`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² - 24x + 74 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `2x² - 24x + 74 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `2x² - 24x + 74 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-023
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die Parabel `y = 2x² + 12x + 34`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² + 12x + 34 = 0
+  erklaerung: 'Die Schnittpunkte mit der x-Achse sind die Lösungen von `2x² + 12x + 34 = 0`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `2x² + 12x + 34 = 0`?
+  - Die Diskriminante verrät es.
+- id: B5.6-024
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die Parabel `y = -3x² - 3x + 18`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: -3x² - 3x + 18 = 0
+  erklaerung: Die Schnittpunkte mit der x-Achse sind die Lösungen von `-3x² - 3x + 18 = 0`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - Auf der x-Achse ist y = 0. Wie viele Lösungen hat `-3x² - 3x + 18 = 0`?
+  - Die Diskriminante verrät es.

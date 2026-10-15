@@ -1,0 +1,25 @@
+id: B5.3
+titel: Kleine Lösungsformel
+ziel: Du löst quadratische Gleichungen der Form x² + px + q = 0 mit der kleinen Lösungsformel.
+erklaerung: |
+  Für Gleichungen der Form `x² + px + q = 0` (vor x² steht 1!) gilt:
+
+  `x = -p/2 ± √((p/2)² - q)`
+
+  So gehst du vor:
+  1. Gleichung in die Form `x² + px + q = 0` bringen (alles auf eine Seite; steht vor x² eine Zahl, durch sie dividieren).
+  2. p und q **mit Vorzeichen** ablesen.
+  3. Einsetzen – zuerst unter der Wurzel ausrechnen.
+  4. Einmal mit +, einmal mit − rechnen.
+
+  Geht die Wurzel nicht auf, lässt du sie stehen: `x = 3 ± √2` ist eine fertige Antwort.
+beispiel:
+  gleichung: "x² - 6x + 8 = 0"
+  loesung: "4; 2"
+  text: |
+    p = -6, q = 8. Also `-p/2 = 3`.
+  weg:
+    - "x² - 6x + 8 = 0"
+    - "x = 3 ± √(3² - 8) | Formel"
+    - "x = 3 ± 1"
+    - "x = 4 oder x = 2"

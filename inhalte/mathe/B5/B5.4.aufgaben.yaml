@@ -1,0 +1,638 @@
+# ERZEUGT von tools/generatoren/b5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B5.4-001
+  typ: quadratisch
+  stufe: 1
+  gleichung: 3x² + 20x + 12 = 0
+  loesung: -2/3; -6
+  weg:
+  - 3x² + 20x + 12 = 0
+  - x = (-20 ± √(20² - 4·3·12))/(2·3) | a = 3, b = 20, c = 12
+  - x = (-20 ± √256)/6
+  - x = (-20 ± 16)/6
+  - x = -2/3 oder x = -6
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 3, b = 20, c = 12. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 256`.'
+  fehler:
+  - antwort: 6; 2/3
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -2; -18
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-002
+  typ: quadratisch
+  stufe: 1
+  gleichung: 2x² + 10x + 12 = 0
+  loesung: -2; -3
+  weg:
+  - 2x² + 10x + 12 = 0
+  - x = (-10 ± √(10² - 4·2·12))/(2·2) | a = 2, b = 10, c = 12
+  - x = (-10 ± √4)/4
+  - x = (-10 ± 2)/4
+  - x = -2 oder x = -3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 2, b = 10, c = 12. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 4`.'
+  fehler:
+  - antwort: 3; 2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -4; -6
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-003
+  typ: quadratisch
+  stufe: 1
+  gleichung: 3x² - 7x - 20 = 0
+  loesung: 4; -5/3
+  weg:
+  - 3x² - 7x - 20 = 0
+  - x = (7 ± √((-7)² - 4·3·(-20)))/(2·3) | a = 3, b = -7, c = -20
+  - x = (7 ± √289)/6
+  - x = (7 ± 17)/6
+  - x = 4 oder x = -5/3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 3, b = -7, c = -20. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 289`.'
+  fehler:
+  - antwort: 5/3; -4
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 12; -5
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-004
+  typ: quadratisch
+  stufe: 1
+  gleichung: 4x² - 7x - 2 = 0
+  loesung: 2; -1/4
+  weg:
+  - 4x² - 7x - 2 = 0
+  - x = (7 ± √((-7)² - 4·4·(-2)))/(2·4) | a = 4, b = -7, c = -2
+  - x = (7 ± √81)/8
+  - x = (7 ± 9)/8
+  - x = 2 oder x = -1/4
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = -7, c = -2. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 81`.'
+  fehler:
+  - antwort: 1/4; -2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 8; -1
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-005
+  typ: quadratisch
+  stufe: 1
+  gleichung: 4x² - 5x - 6 = 0
+  loesung: 2; -3/4
+  weg:
+  - 4x² - 5x - 6 = 0
+  - x = (5 ± √((-5)² - 4·4·(-6)))/(2·4) | a = 4, b = -5, c = -6
+  - x = (5 ± √121)/8
+  - x = (5 ± 11)/8
+  - x = 2 oder x = -3/4
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = -5, c = -6. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 121`.'
+  fehler:
+  - antwort: 3/4; -2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 8; -3
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-006
+  typ: quadratisch
+  stufe: 1
+  gleichung: 4x² + 15x - 4 = 0
+  loesung: 1/4; -4
+  weg:
+  - 4x² + 15x - 4 = 0
+  - x = (-15 ± √(15² - 4·4·(-4)))/(2·4) | a = 4, b = 15, c = -4
+  - x = (-15 ± √289)/8
+  - x = (-15 ± 17)/8
+  - x = 1/4 oder x = -4
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = 15, c = -4. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 289`.'
+  fehler:
+  - antwort: 4; -1/4
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 1; -16
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-007
+  typ: quadratisch
+  stufe: 1
+  gleichung: 4x² + 14x + 12 = 0
+  loesung: -3/2; -2
+  weg:
+  - 4x² + 14x + 12 = 0
+  - x = (-14 ± √(14² - 4·4·12))/(2·4) | a = 4, b = 14, c = 12
+  - x = (-14 ± √4)/8
+  - x = (-14 ± 2)/8
+  - x = -3/2 oder x = -2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = 14, c = 12. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 4`.'
+  fehler:
+  - antwort: 2; 3/2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -6; -8
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-008
+  typ: quadratisch
+  stufe: 1
+  gleichung: 4x² + 9x + 2 = 0
+  loesung: -1/4; -2
+  weg:
+  - 4x² + 9x + 2 = 0
+  - x = (-9 ± √(9² - 4·4·2))/(2·4) | a = 4, b = 9, c = 2
+  - x = (-9 ± √49)/8
+  - x = (-9 ± 7)/8
+  - x = -1/4 oder x = -2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = 9, c = 2. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 49`.'
+  fehler:
+  - antwort: 2; 1/4
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -1; -8
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-009
+  typ: quadratisch
+  stufe: 2
+  gleichung: 5x² + 17x - 40 = 0
+  loesung: 8/5; -5
+  weg:
+  - 5x² + 17x - 40 = 0
+  - x = (-17 ± √(17² - 4·5·(-40)))/(2·5) | a = 5, b = 17, c = -40
+  - x = (-17 ± √1089)/10
+  - x = (-17 ± 33)/10
+  - x = 8/5 oder x = -5
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 5, b = 17, c = -40. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 1089`.'
+  fehler:
+  - antwort: 5; -8/5
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 8; -25
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-010
+  typ: quadratisch
+  stufe: 2
+  gleichung: 5x² - 19x + 12 = 0
+  loesung: 3; 4/5
+  weg:
+  - 5x² - 19x + 12 = 0
+  - x = (19 ± √((-19)² - 4·5·12))/(2·5) | a = 5, b = -19, c = 12
+  - x = (19 ± √121)/10
+  - x = (19 ± 11)/10
+  - x = 3 oder x = 4/5
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 5, b = -19, c = 12. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 121`.'
+  fehler:
+  - antwort: -4/5; -3
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 15; 4
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-011
+  typ: quadratisch
+  stufe: 2
+  gleichung: -x² - 2x + 8 = 0
+  loesung: 2; -4
+  weg:
+  - -x² - 2x + 8 = 0
+  - x = (2 ± √((-2)² - 4·(-1)·8))/(2·(-1)) | a = -1, b = -2, c = 8
+  - x = (2 ± √36)/(-2)
+  - x = (2 ± 6)/(-2)
+  - x = 2 oder x = -4
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -1, b = -2, c = 8. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 36`.'
+  fehler:
+  - antwort: 4; -2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+- id: B5.4-012
+  typ: quadratisch
+  stufe: 2
+  gleichung: -2x² + 7x + 30 = 0
+  loesung: 6; -5/2
+  weg:
+  - -2x² + 7x + 30 = 0
+  - x = (-7 ± √(7² - 4·(-2)·30))/(2·(-2)) | a = -2, b = 7, c = 30
+  - x = (-7 ± √289)/(-4)
+  - x = (-7 ± 17)/(-4)
+  - x = 6 oder x = -5/2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -2, b = 7, c = 30. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 289`.'
+  fehler:
+  - antwort: 5/2; -6
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 5; -12
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-013
+  typ: quadratisch
+  stufe: 2
+  gleichung: 3x² - 16x + 16 = 0
+  loesung: 4; 4/3
+  weg:
+  - 3x² - 16x + 16 = 0
+  - x = (16 ± √((-16)² - 4·3·16))/(2·3) | a = 3, b = -16, c = 16
+  - x = (16 ± √64)/6
+  - x = (16 ± 8)/6
+  - x = 4 oder x = 4/3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 3, b = -16, c = 16. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 64`.'
+  fehler:
+  - antwort: -4/3; -4
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 12; 4
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-014
+  typ: quadratisch
+  stufe: 2
+  gleichung: 5x² - 15x - 20 = 0
+  loesung: 4; -1
+  weg:
+  - 5x² - 15x - 20 = 0
+  - x = (15 ± √((-15)² - 4·5·(-20)))/(2·5) | a = 5, b = -15, c = -20
+  - x = (15 ± √625)/10
+  - x = (15 ± 25)/10
+  - x = 4 oder x = -1
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 5, b = -15, c = -20. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 625`.'
+  fehler:
+  - antwort: 1; -4
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 20; -5
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-015
+  typ: quadratisch
+  stufe: 2
+  gleichung: 2x² - 11x + 9 = 0
+  loesung: 9/2; 1
+  weg:
+  - 2x² - 11x + 9 = 0
+  - x = (11 ± √((-11)² - 4·2·9))/(2·2) | a = 2, b = -11, c = 9
+  - x = (11 ± √49)/4
+  - x = (11 ± 7)/4
+  - x = 9/2 oder x = 1
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 2, b = -11, c = 9. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 49`.'
+  fehler:
+  - antwort: -1; -9/2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 9; 2
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-016
+  typ: quadratisch
+  stufe: 2
+  gleichung: -x² - 10x - 16 = 0
+  loesung: -2; -8
+  weg:
+  - -x² - 10x - 16 = 0
+  - x = (10 ± √((-10)² - 4·(-1)·(-16)))/(2·(-1)) | a = -1, b = -10, c = -16
+  - x = (10 ± √36)/(-2)
+  - x = (10 ± 6)/(-2)
+  - x = -2 oder x = -8
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -1, b = -10, c = -16. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 36`.'
+  fehler:
+  - antwort: 8; 2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+- id: B5.4-017
+  typ: quadratisch
+  stufe: 3
+  gleichung: 5x² + 22x + 21 = 0
+  loesung: -7/5; -3
+  weg:
+  - 5x² + 22x + 21 = 0
+  - x = (-22 ± √(22² - 4·5·21))/(2·5) | a = 5, b = 22, c = 21
+  - x = (-22 ± √64)/10
+  - x = (-22 ± 8)/10
+  - x = -7/5 oder x = -3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 5, b = 22, c = 21. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 64`.'
+  fehler:
+  - antwort: 3; 7/5
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -7; -15
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-018
+  typ: quadratisch
+  stufe: 3
+  gleichung: 4x² + 17x + 18 = 0
+  loesung: -2; -9/4
+  weg:
+  - 4x² + 17x + 18 = 0
+  - x = (-17 ± √(17² - 4·4·18))/(2·4) | a = 4, b = 17, c = 18
+  - x = (-17 ± √1)/8
+  - x = (-17 ± 1)/8
+  - x = -2 oder x = -9/4
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = 17, c = 18. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 1`.'
+  fehler:
+  - antwort: 9/4; 2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -8; -9
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-019
+  typ: quadratisch
+  stufe: 3
+  gleichung: 6x² - 26x + 8 = 0
+  loesung: 4; 1/3
+  weg:
+  - 6x² - 26x + 8 = 0
+  - x = (26 ± √((-26)² - 4·6·8))/(2·6) | a = 6, b = -26, c = 8
+  - x = (26 ± √484)/12
+  - x = (26 ± 22)/12
+  - x = 4 oder x = 1/3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 6, b = -26, c = 8. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 484`.'
+  fehler:
+  - antwort: -1/3; -4
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 24; 2
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-020
+  typ: quadratisch
+  stufe: 3
+  gleichung: 4x² - 18x + 18 = 0
+  loesung: 3; 3/2
+  weg:
+  - 4x² - 18x + 18 = 0
+  - x = (18 ± √((-18)² - 4·4·18))/(2·4) | a = 4, b = -18, c = 18
+  - x = (18 ± √36)/8
+  - x = (18 ± 6)/8
+  - x = 3 oder x = 3/2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 4, b = -18, c = 18. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 36`.'
+  fehler:
+  - antwort: -3/2; -3
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 12; 6
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-021
+  typ: quadratisch
+  stufe: 3
+  gleichung: 2x² + 4x - 16 = 0
+  loesung: 2; -4
+  weg:
+  - 2x² + 4x - 16 = 0
+  - x = (-4 ± √(4² - 4·2·(-16)))/(2·2) | a = 2, b = 4, c = -16
+  - x = (-4 ± √144)/4
+  - x = (-4 ± 12)/4
+  - x = 2 oder x = -4
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 2, b = 4, c = -16. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 144`.'
+  fehler:
+  - antwort: 4; -2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 4; -8
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-022
+  typ: quadratisch
+  stufe: 3
+  gleichung: 3x² - 2x - 1 = 0
+  loesung: 1; -1/3
+  weg:
+  - 3x² - 2x - 1 = 0
+  - x = (2 ± √((-2)² - 4·3·(-1)))/(2·3) | a = 3, b = -2, c = -1
+  - x = (2 ± √16)/6
+  - x = (2 ± 4)/6
+  - x = 1 oder x = -1/3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 3, b = -2, c = -1. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 16`.'
+  fehler:
+  - antwort: 1/3; -1
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 3; -1
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-023
+  typ: quadratisch
+  stufe: 3
+  gleichung: 2x² + 6x + 4 = 0
+  loesung: -1; -2
+  weg:
+  - 2x² + 6x + 4 = 0
+  - x = (-6 ± √(6² - 4·2·4))/(2·2) | a = 2, b = 6, c = 4
+  - x = (-6 ± √4)/4
+  - x = (-6 ± 2)/4
+  - x = -1 oder x = -2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 2, b = 6, c = 4. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 4`.'
+  fehler:
+  - antwort: 2; 1
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -2; -4
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-024
+  typ: quadratisch
+  stufe: 3
+  gleichung: 5x² - 8x - 4 = 0
+  loesung: 2; -2/5
+  weg:
+  - 5x² - 8x - 4 = 0
+  - x = (8 ± √((-8)² - 4·5·(-4)))/(2·5) | a = 5, b = -8, c = -4
+  - x = (8 ± √144)/10
+  - x = (8 ± 12)/10
+  - x = 2 oder x = -2/5
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 5, b = -8, c = -4. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 144`.'
+  fehler:
+  - antwort: 2/5; -2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 10; -2
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-025
+  typ: quadratisch
+  stufe: 4
+  gleichung: 2x² + 5x - 7 = 0
+  loesung: 1; -7/2
+  weg:
+  - 2x² + 5x - 7 = 0
+  - x = (-5 ± √(5² - 4·2·(-7)))/(2·2) | a = 2, b = 5, c = -7
+  - x = (-5 ± √81)/4
+  - x = (-5 ± 9)/4
+  - x = 1 oder x = -7/2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 2, b = 5, c = -7. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 81`.'
+  fehler:
+  - antwort: 7/2; -1
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 2; -7
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-026
+  typ: quadratisch
+  stufe: 4
+  gleichung: 3x² - 15x + 18 = 0
+  loesung: 3; 2
+  weg:
+  - 3x² - 15x + 18 = 0
+  - x = (15 ± √((-15)² - 4·3·18))/(2·3) | a = 3, b = -15, c = 18
+  - x = (15 ± √9)/6
+  - x = (15 ± 3)/6
+  - x = 3 oder x = 2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = 3, b = -15, c = 18. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 9`.'
+  fehler:
+  - antwort: -2; -3
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 9; 6
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-027
+  typ: quadratisch
+  stufe: 4
+  gleichung: -6x² - 19x - 10 = 0
+  loesung: -2/3; -5/2
+  weg:
+  - -6x² - 19x - 10 = 0
+  - x = (19 ± √((-19)² - 4·(-6)·(-10)))/(2·(-6)) | a = -6, b = -19, c = -10
+  - x = (19 ± √121)/(-12)
+  - x = (19 ± 11)/(-12)
+  - x = -2/3 oder x = -5/2
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -6, b = -19, c = -10. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 121`.'
+  fehler:
+  - antwort: 5/2; 2/3
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 15; 4
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-028
+  typ: quadratisch
+  stufe: 4
+  gleichung: -2x² - 8x - 6 = 0
+  loesung: -1; -3
+  weg:
+  - -2x² - 8x - 6 = 0
+  - x = (8 ± √((-8)² - 4·(-2)·(-6)))/(2·(-2)) | a = -2, b = -8, c = -6
+  - x = (8 ± √16)/(-4)
+  - x = (8 ± 4)/(-4)
+  - x = -1 oder x = -3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -2, b = -8, c = -6. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 16`.'
+  fehler:
+  - antwort: 3; 1
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 6; 2
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-029
+  typ: quadratisch
+  stufe: 4
+  gleichung: -6x² + 13x + 28 = 0
+  loesung: 7/2; -4/3
+  weg:
+  - -6x² + 13x + 28 = 0
+  - x = (-13 ± √(13² - 4·(-6)·28))/(2·(-6)) | a = -6, b = 13, c = 28
+  - x = (-13 ± √841)/(-12)
+  - x = (-13 ± 29)/(-12)
+  - x = 7/2 oder x = -4/3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -6, b = 13, c = 28. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 841`.'
+  fehler:
+  - antwort: 4/3; -7/2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 8; -21
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-030
+  typ: quadratisch
+  stufe: 4
+  gleichung: -3x² - 14x - 15 = 0
+  loesung: -5/3; -3
+  weg:
+  - -3x² - 14x - 15 = 0
+  - x = (14 ± √((-14)² - 4·(-3)·(-15)))/(2·(-3)) | a = -3, b = -14, c = -15
+  - x = (14 ± √16)/(-6)
+  - x = (14 ± 4)/(-6)
+  - x = -5/3 oder x = -3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -3, b = -14, c = -15. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 16`.'
+  fehler:
+  - antwort: 3; 5/3
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 9; 5
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-031
+  typ: quadratisch
+  stufe: 4
+  gleichung: -6x² - 3x + 3 = 0
+  loesung: 1/2; -1
+  weg:
+  - -6x² - 3x + 3 = 0
+  - x = (3 ± √((-3)² - 4·(-6)·3))/(2·(-6)) | a = -6, b = -3, c = 3
+  - x = (3 ± √81)/(-12)
+  - x = (3 ± 9)/(-12)
+  - x = 1/2 oder x = -1
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -6, b = -3, c = 3. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 81`.'
+  fehler:
+  - antwort: 1; -1/2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: 6; -3
+    hinweis: Der Nenner ist **2a**, nicht nur 2.
+- id: B5.4-032
+  typ: quadratisch
+  stufe: 4
+  gleichung: -6x² + 17x - 5 = 0
+  loesung: 5/2; 1/3
+  weg:
+  - -6x² + 17x - 5 = 0
+  - x = (-17 ± √(17² - 4·(-6)·(-5)))/(2·(-6)) | a = -6, b = 17, c = -5
+  - x = (-17 ± √169)/(-12)
+  - x = (-17 ± 13)/(-12)
+  - x = 5/2 oder x = 1/3
+  tipps:
+  - 'Große Lösungsformel für `ax² + bx + c = 0`: `x = (-b ± √(b² - 4ac))/(2a)`.'
+  - 'Hier: a = -6, b = 17, c = -5. Negative Zahlen in Klammern einsetzen!'
+  - 'Unter der Wurzel: `b² - 4ac = 169`.'
+  fehler:
+  - antwort: -1/3; -5/2
+    hinweis: 'Vorzeichen: Vorne steht **−b**.'
+  - antwort: -2; -15
+    hinweis: Der Nenner ist **2a**, nicht nur 2.

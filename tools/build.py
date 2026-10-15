@@ -35,7 +35,7 @@ DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
 STUFEN = {1, 2, 3, 4}
-TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung", "lgs"}
+TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung", "lgs", "quadratisch"}
 
 
 class Fehlerliste(list):
@@ -217,6 +217,49 @@ def pruefe_faktor(a: dict, wo: str, fehler: Fehlerliste, soll):
         fehler.melde(wo, f"Faktor nicht prüfbar ({e})")
 
 
+def q_menge(text: str):
+    """Lösungsmenge aus „x = 3 oder x = -2“, „3; -2“, „x = 3 ± √2“, „keine“ – oder aus einer Gleichung in x."""
+    t = text.strip()
+    if t in ("keine", "{ }", "{}"):
+        return sympy.S.EmptySet
+    teile = [s for s in re.split(r"\s*(?:;|\boder\b|,(?!\d))\s*", re.sub(r"x\s*[₁₂12]", "x", t)) if s]
+    aufzaehlung = len(teile) > 1 or "±" in t or re.fullmatch(r"x\s*=\s*[^x]+", t) or "x" not in t
+    if aufzaehlung:
+        werte = []
+        for teil in teile:
+            if "=" in teil:
+                links, rechts = teil.split("=")
+                if links.strip() != "x":
+                    # lineare Teilgleichung wie „x + 4 = ±3“
+                    for g in ([teil.replace("±", "+", 1), teil.replace("±", "-", 1)] if "±" in teil else [teil]):
+                        werte += list(notation.loesungsmenge(g))
+                    continue
+                teil = rechts
+            if "±" in teil:
+                werte += [notation.zahl(teil.replace("±", "+", 1)), notation.zahl(teil.replace("±", "-", 1))]
+            else:
+                werte.append(notation.zahl(teil))
+        return sympy.FiniteSet(*[sympy.nsimplify(sympy.simplify(w)) for w in werte])
+    return notation.loesungsmenge(t)
+
+
+def pruefe_quadratisch(a: dict, wo: str, fehler: Fehlerliste):
+    try:
+        soll = q_menge(str(a["loesung"]))
+        if a.get("gleichung"):
+            ist = notation.loesungsmenge(a["gleichung"])
+            if ist != soll:
+                fehler.melde(wo, f"Lösung {a['loesung']!r} stimmt nicht – sympy: {ist}")
+        for zeile in a.get("weg", []):
+            if q_menge(zeile.split("|")[0]) != soll:
+                fehler.melde(wo, f"Lösungsweg-Zeile {zeile!r} hat eine andere Lösungsmenge")
+        for f in a.get("fehler", []):
+            if q_menge(str(f["antwort"])) == soll:
+                fehler.melde(wo, f"Fehler-Antwort {f['antwort']!r} ist in Wahrheit richtig")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Quadratische Gleichung nicht lesbar ({e})")
+
+
 def lgs_loesung(gleichungen):
     x, y = sympy.symbols("x y")
     system = [notation.gleichung(g) for g in gleichungen]
@@ -331,6 +374,13 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
             return
+        if p["art"] == "q_anzahl":
+            # Optionen: 0 = zwei reelle Lösungen, 1 = eine, 2 = keine
+            n = len(notation.loesungsmenge(p["gleichung"]))
+            erwartet = [{2: 0, 1: 1, 0: 2}[n]]
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
         if p["art"] == "lgs_anzahl":
             # Optionen: 0 = genau eine Lösung, 1 = keine, 2 = unendlich viele
             ist = lgs_loesung(p["gleichungen"])
@@ -375,7 +425,8 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
 
 
 PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term,
-           "formel": pruefe_formel, "ungleichung": pruefe_ungleichung, "lgs": pruefe_lgs}
+           "formel": pruefe_formel, "ungleichung": pruefe_ungleichung, "lgs": pruefe_lgs,
+           "quadratisch": pruefe_quadratisch}
 
 
 def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
@@ -425,7 +476,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 texte: set[str] = set()
                 for a in aufgaben:
                     aid = a.get("id", "?")
-                    text = (a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage") or a.get("ungleichung") if a.get("typ") == "ungleichung" else
+                    text = (a.get("frage") or a.get("gleichung") if a.get("typ") in ("gleichung", "quadratisch") else a.get("frage") or a.get("ungleichung") if a.get("typ") == "ungleichung" else
                             a.get("frage") or " | ".join(a.get("gleichungen", [])) if a.get("typ") == "lgs" else
                             f"{a.get('formel')} nach {a.get('nach')}" if a.get("typ") == "formel" else a.get("frage") or a.get("term"))
                     if text in texte:
@@ -438,13 +489,15 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 for zeile in (inhalt.get("beispiel") or {}).get("weg", []):
                     teil_gl = gleichungsteil(zeile)
                     g = (inhalt.get("beispiel") or {}).get("gleichung")
-                    if g and "=" in teil_gl:
+                    if g and "=" in teil_gl and "loesung" not in (inhalt.get("beispiel") or {}):
                         try:
                             if notation.loesungsmenge(teil_gl) != notation.loesungsmenge(g):
                                 fehler.melde(lid, f"Beispiel-Zeile {zeile!r} ist keine Äquivalenzumformung")
                         except Exception as e:  # noqa: BLE001
                             fehler.melde(lid, f"Beispiel-Zeile {zeile!r} nicht lesbar ({e})")
                 bsp = inhalt.get("beispiel") or {}
+                if bsp.get("gleichung") and bsp.get("loesung") is not None:
+                    pruefe_quadratisch({**bsp, "fehler": []}, f"{lid}/Beispiel", fehler)
                 if bsp.get("gleichungen"):
                     pruefe_lgs(bsp, f"{lid}/Beispiel", fehler)
                 if bsp.get("ungleichung"):

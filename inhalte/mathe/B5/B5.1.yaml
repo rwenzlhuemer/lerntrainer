@@ -1,0 +1,23 @@
+id: B5.1
+titel: Reinquadratische Gleichungen
+ziel: Du löst Gleichungen wie x² = 25 oder (x − 2)² = 9 – und vergisst die negative Lösung nicht.
+erklaerung: |
+  Bei einer **reinquadratischen** Gleichung kommt x nur als x² vor. Du bringst x² allein auf eine Seite
+  und ziehst dann die Wurzel.
+
+  **Ganz wichtig:** Es gibt meistens **zwei** Lösungen! `x² = 25` stimmt für `x = 5` **und** für `x = -5`,
+  denn `(-5)² = 25`. Man schreibt kurz `x = ±5`.
+
+  Steht auf der anderen Seite eine **negative** Zahl, gibt es **keine** reelle Lösung – ein Quadrat ist nie negativ.
+
+  Bei `(x - 2)² = 9` musst du nicht ausmultiplizieren: Wurzel ziehen, dann `x - 2 = 3` oder `x - 2 = -3`.
+beispiel:
+  gleichung: "3x² - 48 = 0"
+  loesung: "4; -4"
+  text: |
+    Zuerst x² allein, dann Wurzel – plus und minus.
+  weg:
+    - "3x² - 48 = 0"
+    - "3x² = 48 | +48"
+    - "x² = 16 | :3"
+    - "x = 4 oder x = -4 | Wurzel"

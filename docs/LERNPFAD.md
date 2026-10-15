@@ -124,12 +124,12 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| B5.1 ★ | Reinquadratisch: x² = 25, x² − 7 = 0 | AG 2.3 |  |
-| B5.2 ★ | Herausheben und Produkt-Null-Satz: x · (x − 4) = 0 | AG 2.3 |  |
-| B5.3 ★ | Kleine Lösungsformel (Normalform x² + px + q = 0) | AG 2.3 |  |
-| B5.4 | Große Lösungsformel (a·x² + b·x + c = 0) | AG 2.3 |  |
-| B5.5 ★ | Diskriminante und Lösungsfälle (2 / 1 / keine reelle Lösung) | AG 2.3 |  |
-| B5.6 | Lösungsfälle geometrisch deuten (Parabel schneidet x-Achse) | AG 2.3 |  |
+| B5.1 ★ | Reinquadratische Gleichungen | AG 2.3 | ✓ 32 |
+| B5.2 ★ | Herausheben und Produkt-Null-Satz | AG 2.3 | ✓ 32 |
+| B5.3 ★ | Kleine Lösungsformel | AG 2.3 | ✓ 32 |
+| B5.4 | Große Lösungsformel | AG 2.3 | ✓ 32 |
+| B5.5 ★ | Diskriminante und Lösungsfälle | AG 2.3 | ✓ 32 |
+| B5.6 | Lösungsfälle geometrisch | AG 2.3 | ✓ 24 |
 
 ---
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 48.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 54.

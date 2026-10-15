@@ -1,0 +1,22 @@
+id: B5.2
+titel: Herausheben und Produkt-Null-Satz
+ziel: Du löst Gleichungen in Produktform und Gleichungen ohne Zahl-Glied durch Herausheben.
+erklaerung: |
+  **Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn einer der Faktoren 0 ist.
+
+  Bei `(x - 3)(x + 5) = 0` setzt du jede Klammer gleich 0: `x - 3 = 0` oder `x + 5 = 0`, also `x = 3` oder `x = -5`.
+
+  Fehlt die Zahl ohne x (z. B. `x² - 6x = 0`), hebst du x heraus: `x(x - 6) = 0`.
+  Lösungen: `x = 0` oder `x = 6`.
+
+  **Nicht** durch x dividieren! Dabei verlierst du die Lösung `x = 0`.
+beispiel:
+  gleichung: "2x² + 10x = 0"
+  loesung: "0; -5"
+  text: |
+    2x herausheben, dann jeden Faktor gleich 0 setzen.
+  weg:
+    - "2x² + 10x = 0"
+    - "2x(x + 5) = 0 | herausheben"
+    - "x = 0 oder x + 5 = 0 | Produkt-Null-Satz"
+    - "x = 0 oder x = -5"

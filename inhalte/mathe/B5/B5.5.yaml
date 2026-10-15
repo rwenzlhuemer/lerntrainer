@@ -1,0 +1,18 @@
+id: B5.5
+titel: Diskriminante und Lösungsfälle
+ziel: Du erkennst an der Diskriminante, ob eine quadratische Gleichung zwei, eine oder keine reelle Lösung hat.
+erklaerung: |
+  Der Teil unter der Wurzel heißt **Diskriminante** D:
+  bei der großen Formel `D = b² - 4ac`, bei der kleinen `D = (p/2)² - q`.
+
+  - **D > 0:** zwei Lösungen (plus und minus ergeben Verschiedenes)
+  - **D = 0:** genau eine Lösung (plus 0 und minus 0 ist dasselbe)
+  - **D < 0:** keine reelle Lösung (keine Wurzel aus negativen Zahlen in ℝ)
+
+  So weißt du schon vor dem Ausrechnen, was herauskommt.
+beispiel:
+  wert: "-11"
+  text: |
+    `x² + 3x + 5 = 0`: `D = 3² - 4·1·5 = 9 - 20 = -11`. Negativ – keine reelle Lösung.
+  weg:
+    - "3^2 - 4·1·5 = 9 - 20 = -11"

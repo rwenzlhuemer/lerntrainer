@@ -244,6 +244,25 @@ export function matheHTML(text) {
   return `<span class="mathe">${teile.map((g) => zeige(g.term)).join(" = ")}</span>`;
 }
 
+// „x = 3 ± √2“ und „x₁ = 4“ setzen (der Parser kennt ± und tiefgestellte Ziffern nicht)
+export function loesungsZeileHTML(text) {
+  const t = String(text).trim();
+  const index = t.match(/^x\s*([₁₂12])\s*=\s*(.+)$/);
+  if (index) {
+    return `<span class="mathe"><i>x</i><sub>${"₁1".includes(index[1]) ? 1 : 2}</sub> = </span>${loesungsZeileHTML(index[2])}`;
+  }
+  if (t.includes("±")) {
+    const [l, r] = t.split("±");
+    const ok = (s) => s.trim() === "" || matheHTML(s.trim()).startsWith("<span");
+    if (t.split("±").length === 2 && ok(l.replace(/=\s*$/, "")) && ok(r)) {
+      const links = l.trim().replace(/=\s*$/, "").trim();
+      const gleich = /=\s*$/.test(l.trim()) ? " = " : "";
+      return `${links ? matheHTML(links) : ""}<span class="mathe">${gleich}${links && !gleich ? " " : ""}±</span> ${matheHTML(r.trim())}`;
+    }
+  }
+  return matheHTML(t);
+}
+
 export function schoeneZeichen(text) {
   return String(text)
     .replace(/(^|[\s(=])-(?=[\dx(])/g, "$1−")
@@ -255,7 +274,7 @@ export function schoeneZeichen(text) {
 export function wegZeileHTML(zeile) {
   const [gl, ...rest] = String(zeile).split("|");
   const kommentar = rest.join("|").trim();
-  return `<span class="weg-gl">${matheHTML(gl.trim())}</span>` +
+  return `<span class="weg-gl">${gl.trim().split(/\s+oder\s+/).map(loesungsZeileHTML).join(" oder ")}</span>` +
     (kommentar ? `<span class="weg-op">| ${esc(schoeneZeichen(kommentar))}</span>` : "");
 }
 
@@ -598,6 +617,104 @@ function termGleichPositiv(t1, t2) {
     gueltig++;
   }
   return gueltig >= 3;
+}
+
+// ── Quadratische Gleichungen ─────────────────────────────
+// Lösungsmenge als sortierte Liste reeller Zahlen; [] = keine reelle Lösung
+
+const Q_KEINE = /^(l\s*=\s*)?(\{\s*\}|∅|keine( reelle)?( lösung(en)?)?( in ℝ)?|leer)$/i;
+
+function gleicheListe(a, b) {
+  return a.length === b.length && a.every((v, i) => nahe(v, b[i], 1e-7));
+}
+
+// „3 ± √2“ → [3 − √2, 3 + √2]; sonst ein Wert
+function plusMinusWerte(text) {
+  const t = String(text);
+  if (!t.includes("±")) { const v = zahlwert(t); return v === null ? null : [v]; }
+  const a = zahlwert(t.replace("±", "+")), b = zahlwert(t.replace("±", "-"));
+  return a === null || b === null ? null : [a, b];
+}
+
+// Mengen-Schreibweise: „x = 3 oder x = −2“, „x₁ = 3, x₂ = −2“, „L = {−2; 3}“, „±√7“
+function qMengeAusAufzaehlung(text) {
+  let t = String(text).trim().replace(/x\s*[₁₂12]/g, "x").replace(/^l\s*=\s*/i, "").replace(/^\{(.*)\}$/, "$1");
+  const teile = t.split(/\s*(?:;|\boder\b|\bund\b|\bbzw\.?|,(?!\d))\s*/i).filter(Boolean);
+  const werteListe = [];
+  for (let teil of teile) {
+    if (teil.includes("=")) {
+      const [l, ...r] = teil.split("=");
+      if (r.length !== 1) return null;
+      if (l.trim() !== "x") {
+        // lineare Teilgleichung wie „x + 4 = ±3“
+        for (const v of teil.includes("±") ? [teil.replace("±", "+"), teil.replace("±", "-")] : [teil]) {
+          const g = versuche(v);
+          const m = g && g.gleichung ? loesungLinear(g) : null;
+          if (!m || m.art !== "eine") return null;
+          werteListe.push(m.x);
+        }
+        continue;
+      }
+      teil = r[0];
+    }
+    if (/x/.test(teil)) return null;
+    const w = plusMinusWerte(teil);
+    if (!w) return null;
+    werteListe.push(...w);
+  }
+  return [...new Set(werteListe.map((v) => Math.round(v * 1e10) / 1e10))].sort((a, b) => a - b);
+}
+
+// Lösungen einer Gleichung bis Grad 2 in x (numerisch); null, wenn nicht quadratisch/linear
+function qMengeAusGleichung(g) {
+  const f = (x) => werte(g.links, { x }) - werte(g.rechts, { x });
+  let c, s1, sm1, s2, s3;
+  try { c = f(0); s1 = f(1); sm1 = f(-1); s2 = f(2); s3 = f(-3); } catch { return null; }
+  if (![c, s1, sm1, s2, s3].every(Number.isFinite)) return null;
+  const a = (s1 + sm1) / 2 - c, b = (s1 - sm1) / 2;
+  const p = (x) => a * x * x + b * x + c;
+  if (!nahe(p(2), s2, 1e-7) || !nahe(p(-3), s3, 1e-7)) return null;
+  if (nahe(a, 0, 1e-12)) {
+    if (nahe(b, 0, 1e-12)) return nahe(c, 0, 1e-12) ? "alle" : [];
+    return [-c / b];
+  }
+  const D = b * b - 4 * a * c;
+  if (D < -1e-12) return [];
+  if (Math.abs(D) <= 1e-12) return [-b / (2 * a)];
+  const w = Math.sqrt(D);
+  return [(-b - w) / (2 * a), (-b + w) / (2 * a)].sort((u, v) => u - v);
+}
+
+export function qSoll(loesung) {
+  if (String(loesung).trim() === "keine") return [];
+  return qMengeAusAufzaehlung(String(loesung));
+}
+
+// Ergebnis: {art: "geloest"|"teil"|"schritt"|"falsch"|"unklar", fehler?}
+export function pruefeQuadratischZeile(eingabe, aufgabe) {
+  const soll = qSoll(aufgabe.loesung);
+  const roh = String(eingabe).trim();
+  if (Q_KEINE.test(roh)) return { art: soll.length === 0 ? "geloest" : "falsch" };
+  const fehlerZu = (menge) => (aufgabe.fehler || []).find((f) => {
+    const m = f.antwort === "keine" ? [] : qMengeAusAufzaehlung(f.antwort);
+    return m && gleicheListe(m, menge);
+  }) || null;
+  // Aufzählung von Lösungen?
+  const aufz = qMengeAusAufzaehlung(roh);
+  if (aufz) {
+    if (gleicheListe(aufz, soll)) return { art: "geloest" };
+    if (aufz.length < soll.length && aufz.every((v) => soll.some((s) => nahe(v, s, 1e-7)))) return { art: "teil" };
+    return { art: "falsch", fehler: fehlerZu(aufz) };
+  }
+  // sonst eine Gleichung (Zwischenschritt)
+  const g = versuche(roh);
+  if (!g || !g.gleichung) return { art: "unklar" };
+  const vars = new Set([...variablen(g.links), ...variablen(g.rechts)]);
+  if (vars.size !== 1 || !vars.has("x")) return { art: "unklar" };
+  const menge = qMengeAusGleichung(g);
+  if (menge === null) return { art: "unklar" };
+  if (menge !== "alle" && gleicheListe(menge, soll)) return { art: "schritt" };
+  return { art: "falsch", fehler: menge === "alle" ? null : fehlerZu(menge) };
 }
 
 // ── Gleichungssysteme (2 Variablen) ──────────────────────

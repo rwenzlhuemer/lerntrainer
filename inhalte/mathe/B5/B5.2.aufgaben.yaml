@@ -1,0 +1,470 @@
+# ERZEUGT von tools/generatoren/b5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B5.2-001
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x - 4)(x - 8) = 0
+  loesung: 8; 4
+  weg:
+  - (x - 4)(x - 8) = 0
+  - x - 4 = 0 oder x - 8 = 0 | Produkt-Null-Satz
+  - x = 8 oder x = 4
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: -4; -8
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-002
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x + 5)(x + 3) = 0
+  loesung: -3; -5
+  weg:
+  - (x + 5)(x + 3) = 0
+  - x + 5 = 0 oder x + 3 = 0 | Produkt-Null-Satz
+  - x = -3 oder x = -5
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: 5; 3
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-003
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x + 5)(x - 7) = 0
+  loesung: 7; -5
+  weg:
+  - (x + 5)(x - 7) = 0
+  - x + 5 = 0 oder x - 7 = 0 | Produkt-Null-Satz
+  - x = 7 oder x = -5
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: 5; -7
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-004
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x - 8)(x - 3) = 0
+  loesung: 8; 3
+  weg:
+  - (x - 8)(x - 3) = 0
+  - x - 8 = 0 oder x - 3 = 0 | Produkt-Null-Satz
+  - x = 8 oder x = 3
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: -3; -8
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-005
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x + 4)(x - 7) = 0
+  loesung: 7; -4
+  weg:
+  - (x + 4)(x - 7) = 0
+  - x + 4 = 0 oder x - 7 = 0 | Produkt-Null-Satz
+  - x = 7 oder x = -4
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: 4; -7
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-006
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x - 3)(x - 1) = 0
+  loesung: 3; 1
+  weg:
+  - (x - 3)(x - 1) = 0
+  - x - 3 = 0 oder x - 1 = 0 | Produkt-Null-Satz
+  - x = 3 oder x = 1
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: -1; -3
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-007
+  typ: quadratisch
+  stufe: 1
+  gleichung: x(x - 5) = 0
+  loesung: 5; 0
+  weg:
+  - x(x - 5) = 0
+  - x = 0 oder x - 5 = 0 | Produkt-Null-Satz
+  - x = 5 oder x = 0
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Der erste Faktor ist x – also ist x = 0 eine Lösung!
+  fehler:
+  - antwort: x = 5
+    hinweis: 'Der Faktor x selbst kann auch 0 sein: x = 0 ist ebenfalls eine Lösung.'
+- id: B5.2-008
+  typ: quadratisch
+  stufe: 1
+  gleichung: (x - 2)(x + 1) = 0
+  loesung: 2; -1
+  weg:
+  - (x - 2)(x + 1) = 0
+  - x - 2 = 0 oder x + 1 = 0 | Produkt-Null-Satz
+  - x = 2 oder x = -1
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - 'Jede Klammer = 0 setzen und lösen. Achtung Vorzeichen: Aus x − 3 = 0 wird x = 3.'
+  fehler:
+  - antwort: 1; -2
+    hinweis: Vorzeichen! Aus `x - 3 = 0` folgt `x = 3`, nicht −3.
+- id: B5.2-009
+  typ: quadratisch
+  stufe: 2
+  gleichung: 3x² + 2x = 0
+  loesung: 0; -2/3
+  weg:
+  - 3x² + 2x = 0
+  - x(3x + 2) = 0 | x herausheben
+  - x = 0 oder x = -2/3
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = -2/3
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-010
+  typ: quadratisch
+  stufe: 2
+  gleichung: 6x² - 6x = 0
+  loesung: 1; 0
+  weg:
+  - 6x² - 6x = 0
+  - x(6x - 6) = 0 | x herausheben
+  - x = 1 oder x = 0
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = 1
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-011
+  typ: quadratisch
+  stufe: 2
+  gleichung: 2x² - 2x = 0
+  loesung: 1; 0
+  weg:
+  - 2x² - 2x = 0
+  - x(2x - 2) = 0 | x herausheben
+  - x = 1 oder x = 0
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = 1
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-012
+  typ: quadratisch
+  stufe: 2
+  gleichung: 5x² + 8x = 0
+  loesung: 0; -8/5
+  weg:
+  - 5x² + 8x = 0
+  - x(5x + 8) = 0 | x herausheben
+  - x = 0 oder x = -8/5
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = -8/5
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-013
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² - 7x = 0
+  loesung: 7; 0
+  weg:
+  - x² - 7x = 0
+  - x(x - 7) = 0 | x herausheben
+  - x = 7 oder x = 0
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = 7
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-014
+  typ: quadratisch
+  stufe: 2
+  gleichung: 2x² + 6x = 0
+  loesung: 0; -3
+  weg:
+  - 2x² + 6x = 0
+  - x(2x + 6) = 0 | x herausheben
+  - x = 0 oder x = -3
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = -3
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-015
+  typ: quadratisch
+  stufe: 2
+  gleichung: 4x² - 9x = 0
+  loesung: 9/4; 0
+  weg:
+  - 4x² - 9x = 0
+  - x(4x - 9) = 0 | x herausheben
+  - x = 9/4 oder x = 0
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = 9/4
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-016
+  typ: quadratisch
+  stufe: 2
+  gleichung: 5x² + 5x = 0
+  loesung: 0; -1
+  weg:
+  - 5x² + 5x = 0
+  - x(5x + 5) = 0 | x herausheben
+  - x = 0 oder x = -1
+  tipps:
+  - Heb x heraus – dann hast du ein Produkt.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Vergiss die Lösung x = 0 nicht!
+  fehler:
+  - antwort: x = -1
+    hinweis: Du hast durch x dividiert – dabei geht die Lösung x = 0 verloren. Heb x lieber heraus.
+- id: B5.2-017
+  typ: quadratisch
+  stufe: 3
+  gleichung: (2x - 7)(x + 2) = 0
+  loesung: 7/2; -2
+  weg:
+  - (2x - 7)(x + 2) = 0
+  - 2x - 7 = 0 oder x + 2 = 0 | Produkt-Null-Satz
+  - x = 7/2 oder x = -2
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Die erste Klammer ist eine kleine lineare Gleichung – löse sie wie gewohnt.
+  fehler: []
+- id: B5.2-018
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² = 3x
+  loesung: 3; 0
+  weg:
+  - x² = 3x
+  - x² - 3x = 0 | −3x
+  - x(x - 3) = 0 | herausheben
+  - x = 3 oder x = 0
+  tipps:
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Heb x heraus.
+  - Nicht durch x dividieren – sonst verlierst du x = 0!
+  fehler:
+  - antwort: x = 3
+    hinweis: 'Durch x dividieren ist gefährlich: Dabei geht die Lösung x = 0 verloren.'
+- id: B5.2-019
+  typ: quadratisch
+  stufe: 3
+  gleichung: (2x - 7)(x - 5) = 0
+  loesung: 5; 7/2
+  weg:
+  - (2x - 7)(x - 5) = 0
+  - 2x - 7 = 0 oder x - 5 = 0 | Produkt-Null-Satz
+  - x = 5 oder x = 7/2
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Die erste Klammer ist eine kleine lineare Gleichung – löse sie wie gewohnt.
+  fehler: []
+- id: B5.2-020
+  typ: quadratisch
+  stufe: 3
+  gleichung: (x + 4)(x - 1) = 0
+  loesung: 1; -4
+  weg:
+  - (x + 4)(x - 1) = 0
+  - x + 4 = 0 oder x - 1 = 0 | Produkt-Null-Satz
+  - x = 1 oder x = -4
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Die erste Klammer ist eine kleine lineare Gleichung – löse sie wie gewohnt.
+  fehler: []
+- id: B5.2-021
+  typ: quadratisch
+  stufe: 3
+  gleichung: (x + 1)(x + 6) = 0
+  loesung: -1; -6
+  weg:
+  - (x + 1)(x + 6) = 0
+  - x + 1 = 0 oder x + 6 = 0 | Produkt-Null-Satz
+  - x = -1 oder x = -6
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Die erste Klammer ist eine kleine lineare Gleichung – löse sie wie gewohnt.
+  fehler: []
+- id: B5.2-022
+  typ: quadratisch
+  stufe: 3
+  gleichung: (2x - 1)(x - 4) = 0
+  loesung: 4; 1/2
+  weg:
+  - (2x - 1)(x - 4) = 0
+  - 2x - 1 = 0 oder x - 4 = 0 | Produkt-Null-Satz
+  - x = 4 oder x = 1/2
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Die erste Klammer ist eine kleine lineare Gleichung – löse sie wie gewohnt.
+  fehler: []
+- id: B5.2-023
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² = 7x
+  loesung: 7; 0
+  weg:
+  - x² = 7x
+  - x² - 7x = 0 | −7x
+  - x(x - 7) = 0 | herausheben
+  - x = 7 oder x = 0
+  tipps:
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Heb x heraus.
+  - Nicht durch x dividieren – sonst verlierst du x = 0!
+  fehler:
+  - antwort: x = 7
+    hinweis: 'Durch x dividieren ist gefährlich: Dabei geht die Lösung x = 0 verloren.'
+- id: B5.2-024
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² = 8x
+  loesung: 8; 0
+  weg:
+  - x² = 8x
+  - x² - 8x = 0 | −8x
+  - x(x - 8) = 0 | herausheben
+  - x = 8 oder x = 0
+  tipps:
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Heb x heraus.
+  - Nicht durch x dividieren – sonst verlierst du x = 0!
+  fehler:
+  - antwort: x = 8
+    hinweis: 'Durch x dividieren ist gefährlich: Dabei geht die Lösung x = 0 verloren.'
+- id: B5.2-025
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x - 3)² - 5(x - 3) = 0
+  loesung: 8; 3
+  weg:
+  - (x - 3)² - 5(x - 3) = 0
+  - (x - 3)(x - 3 - 5) = 0 | Klammer herausheben
+  - x = 8 oder x = 3
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-026
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x + 2)² - 4(x + 2) = 0
+  loesung: 2; -2
+  weg:
+  - (x + 2)² - 4(x + 2) = 0
+  - (x + 2)(x + 2 - 4) = 0 | Klammer herausheben
+  - x = 2 oder x = -2
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-027
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x - 1)² - 4(x - 1) = 0
+  loesung: 5; 1
+  weg:
+  - (x - 1)² - 4(x - 1) = 0
+  - (x - 1)(x - 1 - 4) = 0 | Klammer herausheben
+  - x = 5 oder x = 1
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-028
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x + 3)² - 4(x + 3) = 0
+  loesung: 1; -3
+  weg:
+  - (x + 3)² - 4(x + 3) = 0
+  - (x + 3)(x + 3 - 4) = 0 | Klammer herausheben
+  - x = 1 oder x = -3
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-029
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x - 5)² - 6(x - 5) = 0
+  loesung: 11; 5
+  weg:
+  - (x - 5)² - 6(x - 5) = 0
+  - (x - 5)(x - 5 - 6) = 0 | Klammer herausheben
+  - x = 11 oder x = 5
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-030
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x + 3)² - 6(x + 3) = 0
+  loesung: 3; -3
+  weg:
+  - (x + 3)² - 6(x + 3) = 0
+  - (x + 3)(x + 3 - 6) = 0 | Klammer herausheben
+  - x = 3 oder x = -3
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-031
+  typ: quadratisch
+  stufe: 4
+  gleichung: (x + 4)² - 2(x + 4) = 0
+  loesung: -2; -4
+  weg:
+  - (x + 4)² - 2(x + 4) = 0
+  - (x + 4)(x + 4 - 2) = 0 | Klammer herausheben
+  - x = -2 oder x = -4
+  tipps:
+  - Die Klammer kommt zweimal vor – heb sie als Ganzes heraus.
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  fehler: []
+- id: B5.2-032
+  typ: quadratisch
+  stufe: 4
+  gleichung: 4x(2 - x) = 0
+  loesung: 2; 0
+  weg:
+  - 4x(2 - x) = 0
+  - x = 0 oder 2 - x = 0 | Produkt-Null-Satz
+  - x = 2 oder x = 0
+  tipps:
+  - '**Produkt-Null-Satz:** Ein Produkt ist genau dann 0, wenn (mindestens) ein Faktor 0 ist. Jeder Faktor = 0 setzen.'
+  - Der Faktor 4 kann nie 0 sein – bleiben x und (2 − x).
+  fehler: []

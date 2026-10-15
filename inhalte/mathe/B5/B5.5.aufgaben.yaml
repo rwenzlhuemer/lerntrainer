@@ -1,0 +1,451 @@
+# ERZEUGT von tools/generatoren/b5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B5.5-001
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² + 5x + 4 = 0`?
+  optionen: &id001
+  - zwei reelle Lösungen
+  - genau eine reelle Lösung
+  - keine reelle Lösung
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 5x + 4 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 9`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 5, c = 4.'
+- id: B5.5-002
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² + 4x + 12 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 4x + 12 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -32`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 4, c = 12.'
+- id: B5.5-003
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² + 12x + 36 = 0`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 12x + 36 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 12, c = 36.'
+- id: B5.5-004
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² + 12x + 39 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 12x + 39 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -12`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 12, c = 39.'
+- id: B5.5-005
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² + 10x + 25 = 0`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 10x + 25 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 10, c = 25.'
+- id: B5.5-006
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² - 4x + 4 = 0`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 4x + 4 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -4, c = 4.'
+- id: B5.5-007
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² + 5x = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 5x = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 25`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 5, c = 0.'
+- id: B5.5-008
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele reelle Lösungen hat `x² - 13x + 36 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 13x + 36 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 25`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -13, c = 36.'
+- id: B5.5-009
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² + 10x + 30 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 10x + 30 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -20`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 10, c = 30.'
+- id: B5.5-010
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² + 12x + 41 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 12x + 41 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -20`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 12, c = 41.'
+- id: B5.5-011
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² - 5x + 4 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 5x + 4 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 9`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -5, c = 4.'
+- id: B5.5-012
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² + 4x + 10 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 4x + 10 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -24`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 4, c = 10.'
+- id: B5.5-013
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² - 1 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 1 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 4`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 0, c = -1.'
+- id: B5.5-014
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² - 2x + 9 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 2x + 9 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -32`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -2, c = 9.'
+- id: B5.5-015
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² - 7x + 10 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 7x + 10 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 9`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -7, c = 10.'
+- id: B5.5-016
+  typ: auswahl
+  stufe: 2
+  frage: Wie viele reelle Lösungen hat `x² - 4x + 12 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 4x + 12 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -32`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -4, c = 12.'
+- id: B5.5-017
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `2x² + 8x + 16 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² + 8x + 16 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -64`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = 8, c = 16.'
+- id: B5.5-018
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `2x² + 12x + 34 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² + 12x + 34 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -128`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = 12, c = 34.'
+- id: B5.5-019
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `-x² + 8x - 16 = 0`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: -x² + 8x - 16 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = -1, b = 8, c = -16.'
+- id: B5.5-020
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `-2x² + 12x - 26 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: -2x² + 12x - 26 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -64`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = -2, b = 12, c = -26.'
+- id: B5.5-021
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `2x² + 8x + 14 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² + 8x + 14 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -48`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = 8, c = 14.'
+- id: B5.5-022
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `2x² + 6x - 8 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² + 6x - 8 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 100`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = 6, c = -8.'
+- id: B5.5-023
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² + 8x + 18 = 0
+  loesung: keine
+  weg:
+  - x² + 8x + 18 = 0
+  tipps:
+  - Berechne zuerst die Diskriminante `D = b² - 4ac` (bzw. `(p/2)² - q`).
+  - Ist sie negativ, gibt es keine reelle Lösung – schreib „keine“.
+  fehler: []
+  erklaerung: 'Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+- id: B5.5-024
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele reelle Lösungen hat `-3x² + 30x - 72 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: -3x² + 30x - 72 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 36`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = -3, b = 30, c = -72.'
+- id: B5.5-025
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `2x² - 8x + 6 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² - 8x + 6 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 16`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = -8, c = 6.'
+- id: B5.5-026
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `x² + 3x + 2 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: x² + 3x + 2 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 1`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = 3, c = 2.'
+- id: B5.5-027
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `-x² + 4x - 4 = 0`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: -x² + 4x - 4 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = -1, b = 4, c = -4.'
+- id: B5.5-028
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `2x² - 16x + 30 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² - 16x + 30 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 16`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = -16, c = 30.'
+- id: B5.5-029
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `-x² + 10x - 21 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: -x² + 10x - 21 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 16`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = -1, b = 10, c = -21.'
+- id: B5.5-030
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `2x² - 4x - 6 = 0`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: q_anzahl
+    gleichung: 2x² - 4x - 6 = 0
+  erklaerung: Die Diskriminante ist `b² - 4ac = 64`. Die Diskriminante ist **positiv** – unter der Wurzel steht eine positive Zahl, plus und minus geben zwei Lösungen.
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 2, b = -4, c = -6.'
+- id: B5.5-031
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `x² - 12x + 36 = 0`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: q_anzahl
+    gleichung: x² - 12x + 36 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = 0`. Die Diskriminante ist **0** – plus und minus 0 ergibt dieselbe Zahl: genau eine Lösung (Doppellösung).'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 1, b = -12, c = 36.'
+- id: B5.5-032
+  typ: auswahl
+  stufe: 4
+  frage: Wie viele reelle Lösungen hat `3x² - 30x + 81 = 0`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: q_anzahl
+    gleichung: 3x² - 30x + 81 = 0
+  erklaerung: 'Die Diskriminante ist `b² - 4ac = -72`. Die Diskriminante ist **negativ** – die Wurzel aus einer negativen Zahl gibt es in ℝ nicht: keine reelle Lösung.'
+  tipps:
+  - 'Berechne nur den Teil unter der Wurzel: die Diskriminante `D = b² - 4ac`.'
+  - 'Hier: a = 3, b = -30, c = 81.'

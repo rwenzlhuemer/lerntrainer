@@ -310,6 +310,15 @@ async function main() {
   pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `B4.2: dann y = ${sy.loesung.y} – gelöst`);
   await bild("09i-lgs");
 
+  // B5.1 reinquadratisch: nur die positive Lösung → Hinweis auf die zweite
+  const qu = await naechsteBis("B5.1", (x) => /^\d+; -\d+$/.test(x.loesung));
+  const [q1] = qu.loesung.split(";");
+  await tippe(`x = ${q1}`);
+  pruefe((await rm()).includes("zweite"), `B5.1: ${qu.gleichung} – nur x = ${q1} → Hinweis auf zweite Lösung`);
+  await tippe(`x = ±${q1}`);
+  pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `B5.1: x = ±${q1} gelöst`);
+  await bild("09j-quadratisch");
+
   // Lösung zeigen
   await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");

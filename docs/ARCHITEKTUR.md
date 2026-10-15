@@ -33,7 +33,9 @@ die Fächer liefern nur Daten.
 | `zahl` | 3,5 / 7/2 / -0,25 (Komma oder Punkt, Toleranz); optional `form: gekuerzt / nenner / dezimal` | – |
 | `term` | Term-Äquivalenz numerisch geprüft, dazu die verlangte Form: `zusammengefasst`, `ausmultipliziert`, `faktor` (mit `faktor`), `gekuerzt`, `frei`. Zwischenschritte zeilenweise | – |
 | `formel` | Formel nach einer Variablen umformen; jede Zeile muss mit der Lösung verträglich sein (positive Größen) | – |
-| `loesungsmenge` | {−2; 3}, Reihenfolge egal | – |
+| `ungleichung` | Lösungsmenge einer linearen Ungleichung, auch als Intervall ]−∞; 3[ | – |
+| `lgs` | Gleichungssystem mit x und y; Paar, Zwischengleichungen, „keine“/„unendlich“ | – |
+| `quadratisch` | Lösungsmenge {−2; 3}, Reihenfolge egal, ±, Wurzeln, „keine“; Hinweis bei nur einer Lösung | – |
 | `schritte` | Gleichung zeilenweise umformen, jede Zeile geprüft | – |
 | `auswahl` | Multiple Choice, „2 aus 5“ | ja |
 | `zuordnung` | Graph ↔ Gleichung | Wort ↔ Bedeutung |

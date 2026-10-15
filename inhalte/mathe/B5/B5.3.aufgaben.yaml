@@ -1,0 +1,539 @@
+# ERZEUGT von tools/generatoren/b5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B5.3-001
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 9x + 20 = 0
+  loesung: 5; 4
+  weg:
+  - x² - 9x + 20 = 0
+  - x = 9/2 ± √((9/2)² - 20) | Formel mit p = -9, q = 20
+  - x = 9/2 ± √(1/4)
+  - x = 9/2 ± 1/2
+  - x = 5 oder x = 4
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -9, q = 20. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: -4; -5
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -9 ist −p/2 = 9/2.'
+- id: B5.3-002
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 10x + 24 = 0
+  loesung: 6; 4
+  weg:
+  - x² - 10x + 24 = 0
+  - x = 5 ± √(5² - 24) | Formel mit p = -10, q = 24
+  - x = 5 ± √1
+  - x = 5 ± 1
+  - x = 6 oder x = 4
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -10, q = 24. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: -4; -6
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -10 ist −p/2 = 5.'
+- id: B5.3-003
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 5x + 4 = 0
+  loesung: 4; 1
+  weg:
+  - x² - 5x + 4 = 0
+  - x = 5/2 ± √((5/2)² - 4) | Formel mit p = -5, q = 4
+  - x = 5/2 ± √(9/4)
+  - x = 5/2 ± 3/2
+  - x = 4 oder x = 1
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -5, q = 4. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: -1; -4
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -5 ist −p/2 = 5/2.'
+- id: B5.3-004
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 16x + 63 = 0
+  loesung: 9; 7
+  weg:
+  - x² - 16x + 63 = 0
+  - x = 8 ± √(8² - 63) | Formel mit p = -16, q = 63
+  - x = 8 ± √1
+  - x = 8 ± 1
+  - x = 9 oder x = 7
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -16, q = 63. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: -7; -9
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -16 ist −p/2 = 8.'
+- id: B5.3-005
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 10x + 25 = 0
+  loesung: '5'
+  weg:
+  - x² - 10x + 25 = 0
+  - x = 5 ± √(5² - 25) | Formel mit p = -10, q = 25
+  - x = 5 ± √0
+  - x = 5
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -10, q = 25. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: '-5'
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -10 ist −p/2 = 5.'
+- id: B5.3-006
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 12x + 36 = 0
+  loesung: '6'
+  weg:
+  - x² - 12x + 36 = 0
+  - x = 6 ± √(6² - 36) | Formel mit p = -12, q = 36
+  - x = 6 ± √0
+  - x = 6
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -12, q = 36. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: '-6'
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -12 ist −p/2 = 6.'
+- id: B5.3-007
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 10x + 9 = 0
+  loesung: 9; 1
+  weg:
+  - x² - 10x + 9 = 0
+  - x = 5 ± √(5² - 9) | Formel mit p = -10, q = 9
+  - x = 5 ± √16
+  - x = 5 ± 4
+  - x = 9 oder x = 1
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -10, q = 9. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: -1; -9
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -10 ist −p/2 = 5.'
+- id: B5.3-008
+  typ: quadratisch
+  stufe: 1
+  gleichung: x² - 8x + 15 = 0
+  loesung: 5; 3
+  weg:
+  - x² - 8x + 15 = 0
+  - x = 4 ± √(4² - 15) | Formel mit p = -8, q = 15
+  - x = 4 ± √1
+  - x = 4 ± 1
+  - x = 5 oder x = 3
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -8, q = 15. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: -3; -5
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -8 ist −p/2 = 4.'
+- id: B5.3-009
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² + 3x - 40 = 0
+  loesung: 5; -8
+  weg:
+  - x² + 3x - 40 = 0
+  - x = -3/2 ± √((-3/2)² - (-40)) | Formel mit p = 3, q = -40
+  - x = -3/2 ± √(169/4)
+  - x = -3/2 ± 13/2
+  - x = 5 oder x = -8
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = 3, q = -40. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: 8; -5
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = 3 ist −p/2 = -3/2.'
+- id: B5.3-010
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² - 49 = 0
+  loesung: 7; -7
+  weg:
+  - x² - 49 = 0
+  - x = 0 ± √(0² - (-49)) | Formel mit p = 0, q = -49
+  - x = 0 ± √49
+  - x = 0 ± 7
+  - x = 7 oder x = -7
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = 0, q = -49. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler: []
+- id: B5.3-011
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² + 9x + 18 = 0
+  loesung: -3; -6
+  weg:
+  - x² + 9x + 18 = 0
+  - x = -9/2 ± √((-9/2)² - 18) | Formel mit p = 9, q = 18
+  - x = -9/2 ± √(9/4)
+  - x = -9/2 ± 3/2
+  - x = -3 oder x = -6
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = 9, q = 18. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: 6; 3
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = 9 ist −p/2 = -9/2.'
+- id: B5.3-012
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² - 81 = 0
+  loesung: 9; -9
+  weg:
+  - x² - 81 = 0
+  - x = 0 ± √(0² - (-81)) | Formel mit p = 0, q = -81
+  - x = 0 ± √81
+  - x = 0 ± 9
+  - x = 9 oder x = -9
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = 0, q = -81. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler: []
+- id: B5.3-013
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² - 6x - 27 = 0
+  loesung: 9; -3
+  weg:
+  - x² - 6x - 27 = 0
+  - x = 3 ± √(3² - (-27)) | Formel mit p = -6, q = -27
+  - x = 3 ± √36
+  - x = 3 ± 6
+  - x = 9 oder x = -3
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -6, q = -27. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: 3; -9
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -6 ist −p/2 = 3.'
+- id: B5.3-014
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² + 15x + 56 = 0
+  loesung: -7; -8
+  weg:
+  - x² + 15x + 56 = 0
+  - x = -15/2 ± √((-15/2)² - 56) | Formel mit p = 15, q = 56
+  - x = -15/2 ± √(1/4)
+  - x = -15/2 ± 1/2
+  - x = -7 oder x = -8
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = 15, q = 56. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: 8; 7
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = 15 ist −p/2 = -15/2.'
+- id: B5.3-015
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² - 4x - 21 = 0
+  loesung: 7; -3
+  weg:
+  - x² - 4x - 21 = 0
+  - x = 2 ± √(2² - (-21)) | Formel mit p = -4, q = -21
+  - x = 2 ± √25
+  - x = 2 ± 5
+  - x = 7 oder x = -3
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = -4, q = -21. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: 3; -7
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = -4 ist −p/2 = 2.'
+- id: B5.3-016
+  typ: quadratisch
+  stufe: 2
+  gleichung: x² + 4x - 5 = 0
+  loesung: 1; -5
+  weg:
+  - x² + 4x - 5 = 0
+  - x = -2 ± √((-2)² - (-5)) | Formel mit p = 4, q = -5
+  - x = -2 ± √9
+  - x = -2 ± 3
+  - x = 1 oder x = -5
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - Hier ist p = 4, q = -5. Achtung auf die Vorzeichen!
+  - Unter der Wurzel zuerst ausrechnen, dann plus und minus.
+  fehler:
+  - antwort: 5; -1
+    hinweis: 'Vorzeichen von p: In der Formel steht **−p/2**. Bei p = 4 ist −p/2 = -2.'
+- id: B5.3-017
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² + 10x + 10 = 0
+  loesung: -5 + √15; -5 - √15
+  weg:
+  - x² + 10x + 10 = 0
+  - x = -5 ± √((-5)² - 10) | Formel mit p = 10, q = 10
+  - x = -5 ± √15
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-018
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² + 8x + 5 = 0
+  loesung: -4 + √11; -4 - √11
+  weg:
+  - x² + 8x + 5 = 0
+  - x = -4 ± √((-4)² - 5) | Formel mit p = 8, q = 5
+  - x = -4 ± √11
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-019
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² + x - 9 = 0
+  loesung: -1/2 + √(37/4); -1/2 - √(37/4)
+  weg:
+  - x² + x - 9 = 0
+  - x = -1/2 ± √((-1/2)² - (-9)) | Formel mit p = 1, q = -9
+  - x = -1/2 ± √(37/4)
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-020
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² - 8x - 11 = 0
+  loesung: 4 + √27; 4 - √27
+  weg:
+  - x² - 8x - 11 = 0
+  - x = 4 ± √(4² - (-11)) | Formel mit p = -8, q = -11
+  - x = 4 ± √27
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-021
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² - 4x - 3 = 0
+  loesung: 2 + √7; 2 - √7
+  weg:
+  - x² - 4x - 3 = 0
+  - x = 2 ± √(2² - (-3)) | Formel mit p = -4, q = -3
+  - x = 2 ± √7
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-022
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² + 6x - 2 = 0
+  loesung: -3 + √11; -3 - √11
+  weg:
+  - x² + 6x - 2 = 0
+  - x = -3 ± √((-3)² - (-2)) | Formel mit p = 6, q = -2
+  - x = -3 ± √11
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-023
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² + 10x - 7 = 0
+  loesung: -5 + √32; -5 - √32
+  weg:
+  - x² + 10x - 7 = 0
+  - x = -5 ± √((-5)² - (-7)) | Formel mit p = 10, q = -7
+  - x = -5 ± √32
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-024
+  typ: quadratisch
+  stufe: 3
+  gleichung: x² - 6x - 4 = 0
+  loesung: 3 + √13; 3 - √13
+  weg:
+  - x² - 6x - 4 = 0
+  - x = 3 ± √(3² - (-4)) | Formel mit p = -6, q = -4
+  - x = 3 ± √13
+  tipps:
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - 'Geht die Wurzel nicht auf, lässt du sie stehen: z. B. `x = 3 ± √2`.'
+  fehler: []
+- id: B5.3-025
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = x + 12
+  loesung: 4; -3
+  weg:
+  - x² = x + 12
+  - x² - x - 12 = 0 | alles nach links
+  - x = 1/2 ± √((1/2)² - (-12)) | Formel mit p = -1, q = -12
+  - x = 1/2 ± √(49/4)
+  - x = 1/2 ± 7/2
+  - x = 4 oder x = -3
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: 3; -4
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-026
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = x + 30
+  loesung: 6; -5
+  weg:
+  - x² = x + 30
+  - x² - x - 30 = 0 | alles nach links
+  - x = 1/2 ± √((1/2)² - (-30)) | Formel mit p = -1, q = -30
+  - x = 1/2 ± √(121/4)
+  - x = 1/2 ± 11/2
+  - x = 6 oder x = -5
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: 5; -6
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-027
+  typ: quadratisch
+  stufe: 4
+  gleichung: 3x² - 15x + 18 = 0
+  loesung: 3; 2
+  weg:
+  - 3x² - 15x + 18 = 0
+  - x² - 5x + 6 = 0 | :3
+  - x = 5/2 ± √((5/2)² - 6) | Formel mit p = -5, q = 6
+  - x = 5/2 ± √(1/4)
+  - x = 5/2 ± 1/2
+  - x = 3 oder x = 2
+  tipps:
+  - Die Formel braucht vor x² eine 1. Dividiere zuerst die ganze Gleichung durch 3.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: -2; -3
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-028
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = 9x - 18
+  loesung: 6; 3
+  weg:
+  - x² = 9x - 18
+  - x² - 9x + 18 = 0 | alles nach links
+  - x = 9/2 ± √((9/2)² - 18) | Formel mit p = -9, q = 18
+  - x = 9/2 ± √(9/4)
+  - x = 9/2 ± 3/2
+  - x = 6 oder x = 3
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: -3; -6
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-029
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = 7x - 10
+  loesung: 5; 2
+  weg:
+  - x² = 7x - 10
+  - x² - 7x + 10 = 0 | alles nach links
+  - x = 7/2 ± √((7/2)² - 10) | Formel mit p = -7, q = 10
+  - x = 7/2 ± √(9/4)
+  - x = 7/2 ± 3/2
+  - x = 5 oder x = 2
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: -2; -5
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-030
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = 4x + 5
+  loesung: 5; -1
+  weg:
+  - x² = 4x + 5
+  - x² - 4x - 5 = 0 | alles nach links
+  - x = 2 ± √(2² - (-5)) | Formel mit p = -4, q = -5
+  - x = 2 ± √9
+  - x = 2 ± 3
+  - x = 5 oder x = -1
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: 1; -5
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-031
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = -6x - 9
+  loesung: '-3'
+  weg:
+  - x² = -6x - 9
+  - x² + 6x + 9 = 0 | alles nach links
+  - x = -3 ± √((-3)² - 9) | Formel mit p = 6, q = 9
+  - x = -3 ± √0
+  - x = -3
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'
+- id: B5.3-032
+  typ: quadratisch
+  stufe: 4
+  gleichung: x² = x + 2
+  loesung: 2; -1
+  weg:
+  - x² = x + 2
+  - x² - x - 2 = 0 | alles nach links
+  - x = 1/2 ± √((1/2)² - (-2)) | Formel mit p = -1, q = -2
+  - x = 1/2 ± √(9/4)
+  - x = 1/2 ± 3/2
+  - x = 2 oder x = -1
+  tipps:
+  - Bring zuerst alles auf eine Seite, sodass rechts 0 steht.
+  - 'Kleine Lösungsformel für `x² + px + q = 0`: `x = -p/2 ± √((p/2)² - q)`.'
+  - p und q mit Vorzeichen ablesen.
+  fehler:
+  - antwort: 1; -2
+    hinweis: 'Vorzeichen von p: In der Formel steht −p/2.'

@@ -89,6 +89,19 @@ for (const datei of readdirSync(DATEN)) {
         const r = M.pruefeFormelZeile(`${a.nach} = ${f.antwort}`, a);
         erwarte(r.art === "falsch" && r.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
       }
+    } else if (a.typ === "quadratisch") {
+      const l = String(a.loesung);
+      const eingabe = l === "keine" ? "keine" : l.split(";").map((v) => `x = ${v.trim()}`).join(" oder ");
+      erwarte(M.pruefeQuadratischZeile(eingabe, a).art === "geloest", `${a.id}: Lösung ${eingabe} nicht erkannt`);
+      if (a.gleichung && !/^x\s*=/.test(a.gleichung)) erwarte(M.pruefeQuadratischZeile(a.gleichung, a).art === "schritt", `${a.id}: Ausgangsgleichung nicht als Schritt`);
+      for (const zeile of a.weg || []) {
+        const r = M.pruefeQuadratischZeile(zeile.split("|")[0], a);
+        erwarte(["schritt", "geloest"].includes(r.art), `${a.id}: Weg-Zeile "${zeile}" → ${r.art}`);
+      }
+      for (const f of a.fehler || []) {
+        const r = M.pruefeQuadratischZeile(f.antwort === "keine" ? "keine" : f.antwort, a);
+        erwarte((r.art === "falsch" && r.fehler === f) || r.art === "teil", `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
+      }
     } else if (a.typ === "lgs") {
       const l = a.loesung;
       const eingabe = typeof l === "object" ? `x = ${l.x}, y = ${l.y}` : l === "keine" ? "keine" : "unendlich viele";

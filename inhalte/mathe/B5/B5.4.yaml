@@ -1,0 +1,25 @@
+id: B5.4
+titel: Große Lösungsformel
+ziel: Du löst quadratische Gleichungen ax² + bx + c = 0 mit der großen Lösungsformel.
+erklaerung: |
+  Für `ax² + bx + c = 0` gilt die **große Lösungsformel**:
+
+  `x = (-b ± √(b² - 4ac))/(2a)`
+
+  Sie funktioniert immer – auch wenn vor x² keine 1 steht.
+
+  Tipps:
+  - a, b, c mit Vorzeichen ablesen; negative Zahlen beim Einsetzen in Klammern.
+  - `b²` ist nie negativ: `(-5)² = 25`.
+  - Der Nenner ist `2a` – der ganze Bruchstrich gilt für Zähler mit ±.
+beispiel:
+  gleichung: "2x² - 7x + 3 = 0"
+  loesung: "3; 1/2"
+  text: |
+    a = 2, b = -7, c = 3.
+  weg:
+    - "2x² - 7x + 3 = 0"
+    - "x = (7 ± √((-7)² - 4·2·3))/(2·2) | Formel"
+    - "x = (7 ± √25)/4"
+    - "x = (7 ± 5)/4"
+    - "x = 3 oder x = 1/2"
