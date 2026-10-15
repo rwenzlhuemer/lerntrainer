@@ -281,11 +281,17 @@ async function seiteUeben(lid, testModus) {
     const istGl = a.typ === "gleichung";
     const istTerm = a.typ === "term";
     const istFormel = a.typ === "formel";
+    const istUngl = a.typ === "ungleichung";
     const kopf = test ? `Prüfaufgabe ${test.nr} von 3` : `${STUFE_NAME[stufe]} · Stufe ${stufe} von ${S.HOECHSTE_STUFE}`;
     let koerper;
     if (istGl) {
       koerper = `<p class="anweisung">Löse die Gleichung.</p>
         <div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>
+        <ol class="zeilen" id="zeilen"></ol>`;
+    } else if (istUngl) {
+      koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">${a.form === "intervall"
+          ? "Löse die Ungleichung und gib die Lösungsmenge als Intervall an." : "Löse die Ungleichung."}</p>
+        <div class="gleichung-gross">${M.ungleichungHTML(a.ungleichung)}</div>`}
         <ol class="zeilen" id="zeilen"></ol>`;
     } else if (istFormel) {
       koerper = `<p class="anweisung">Forme die Formel nach <span class="mathe"><i>${esc(a.nach)}</i></span> um.</p>
@@ -298,7 +304,7 @@ async function seiteUeben(lid, testModus) {
     } else {
       koerper = `<div class="frage">${M.textHTML(a.frage)}</div>`;
     }
-    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istFormel ? `nächste Zeile, z. B. ${a.nach} = …` : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
+    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istUngl ? (a.form === "intervall" ? "z. B. ]−∞; 3[" : "z. B. x < 3") : istFormel ? `nächste Zeile, z. B. ${a.nach} = …` : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
     const eingabe = a.typ === "auswahl"
       ? `<div class="optionen">${a.optionen.map((o, i) => `<button class="knopf option" data-i="${i}">${a.mathe ? M.matheHTML(o) : esc(o)}</button>`).join("")}</div>`
       : `<form class="eingabe" id="form" autocomplete="off">
@@ -308,7 +314,7 @@ async function seiteUeben(lid, testModus) {
          </form>
          <div class="vorschau" id="vorschau" aria-hidden="true"></div>
          ${istGl ? `<p class="leise klein-text eingabe-hinweis">Schreib Zeile für Zeile – oder gleich das Ergebnis, z. B. x = 4.</p>` : ""}
-         ${istTerm || istFormel ? `<p class="leise klein-text eingabe-hinweis">Du kannst Zwischenschritte schreiben – jede Zeile wird geprüft.</p>` : ""}
+         ${istTerm || istFormel || istUngl ? `<p class="leise klein-text eingabe-hinweis">Du kannst Zwischenschritte schreiben – jede Zeile wird geprüft.</p>` : ""}
          ${a.form === "gekuerzt" && !istTerm ? `<p class="leise klein-text eingabe-hinweis">Ergebnis als gekürzter Bruch (oder ganze Zahl), z. B. 3/4.</p>` : ""}
          ${a.einheit ? `<p class="leise klein-text eingabe-hinweis">Antwort in ${esc(a.einheit)}</p>` : ""}`;
 
@@ -334,7 +340,8 @@ async function seiteUeben(lid, testModus) {
     const feld = ort.querySelector("#feld");
     const symbole = haupt.querySelector("#symbole");
     symbole.hidden = !feld;
-    const zeichen = istFormel ? [...[...M.variablen(M.lies(a.formel).links), ...M.variablen(M.lies(a.formel).rechts)]].filter((v, i, l) => l.indexOf(v) === i).sort().concat(["=", "²", "√", "(", ")", "·", "/", "+", "−"])
+    const zeichen = istUngl ? ["x", "<", ">", "≤", "≥", "(", ")", "−", "/", ",", ...(a.form === "intervall" ? ["]", "[", ";", "∞"] : [])]
+      : istFormel ? [...[...M.variablen(M.lies(a.formel).links), ...M.variablen(M.lies(a.formel).rechts)]].filter((v, i, l) => l.indexOf(v) === i).sort().concat(["=", "²", "√", "(", ")", "·", "/", "+", "−"])
       : istTerm ? [...[...M.variablen(M.lies(a.loesung).term)].sort(), "²", "^", "(", ")", "·", "/", "+", "−", ","]
       : a.form === "gleitkomma" ? ["·", "10", "^", "−", ","] : a.typ === "zahl" ? ["/", "−", ",", "(", ")", "^"] : SYMBOLE;
     symbole.innerHTML = zeichen.map((s) => `<button type="button" class="sym" data-s="${s}">${s}</button>`).join("") +
@@ -421,7 +428,7 @@ async function seiteUeben(lid, testModus) {
       if (zustand.fertig) return;
       zustand.gezeigt = true;
       const loesung = a.typ === "auswahl" ? esc(a.optionen[a.richtig[0]]) :
-        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : istFormel ? M.matheHTML(`${a.nach} = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
+        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : istUngl ? ungleichungLoesung() : istFormel ? M.matheHTML(`${a.nach} = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
       abschliessen("gezeigt", `<p><strong>Lösung:</strong> ${loesung}</p>${wegHTML()}
         ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
         <p class="mut">Anschauen ist auch lernen. Geh die Schritte in Ruhe durch – bei der nächsten Aufgabe probierst du es selbst.</p>`);
@@ -458,8 +465,51 @@ async function seiteUeben(lid, testModus) {
       if (istGl) pruefeZeile(roh);
       else if (istTerm) pruefeTerm(roh);
       else if (istFormel) pruefeFormel(roh);
+      else if (istUngl) pruefeUngleichung(roh);
       else pruefeAntwort(roh);
     });
+
+    function ungleichungLoesung() {
+      return `${M.ungleichungHTML(a.loesung)} &nbsp;bzw.&nbsp; <span class="mathe">${esc(M.intervallText(M.ungleichungsMenge(a.loesung).menge))}</span>`;
+    }
+
+    function pruefeUngleichung(roh) {
+      const r = M.pruefeUngleichungsZeile(roh, a);
+      const neueZeile = () => {
+        ort.querySelector("#zeilen").insertAdjacentHTML("beforeend",
+          `<li class="zeile ok">${M.ungleichungHTML(roh)}<span class="haken" aria-label="richtig">✓</span></li>`);
+        feld.value = "";
+        ort.querySelector("#vorschau").innerHTML = "";
+      };
+      if (r.art === "geloest") {
+        neueZeile();
+        abschliessen(ergebnisArt(), `<p><strong>${zufall(LOB)}</strong> Lösung: ${ungleichungLoesung()}</p>
+          ${a.weg?.length ? `<details class="weg-details"><summary>Musterlösung ansehen</summary>${wegUngleichungHTML()}</details>` : ""}
+          <p class="mut">${zufall(MUT)}</p>`);
+      } else if (r.art === "schritt") {
+        neueZeile();
+        melde("gut", `<p>✓ Richtig umgeformt. Weiter, bis x allein steht.</p>`);
+        feld.focus();
+      } else if (r.art === "form") {
+        neueZeile();
+        melde("neutral", `<p>Stimmt! Schreib die Lösung jetzt noch als Intervall, zum Beispiel <span class="mathe">]−∞; 3[</span> für x &lt; 3.</p>`);
+      } else if (r.art === "falsch") {
+        zustand.fehlversuche++;
+        const text = r.fehler ? M.textHTML(r.fehler.hinweis)
+          : r.umgedreht ? `<p>Fast! Die Zahl stimmt, aber das Zeichen zeigt in die falsche Richtung. Hast du mit einer <strong>negativen</strong> Zahl multipliziert oder dividiert? Dann dreht sich das Zeichen um.</p>`
+          : `<p>Diese Zeile hat eine andere Lösungsmenge – beim letzten Schritt ist ein kleiner Fehler passiert.</p>`;
+        melde("falsch", `${text}<p class="mut">${zufall(TROST)}</p>`);
+      } else {
+        melde("neutral", `<p>Das kann ich leider nicht lesen. Schreib zum Beispiel <span class="mathe"><i>x</i> &lt; 3</span> oder <span class="mathe">2<i>x</i> ≥ 5</span>.</p>`);
+      }
+    }
+
+    function wegUngleichungHTML() {
+      return `<ol class="weg">${a.weg.map((z) => {
+        const [u, ...k] = z.split("|");
+        return `<li>${M.ungleichungHTML(u.trim())}${k.length ? `<span class="weg-op">| ${esc(k.join("|").trim())}</span>` : ""}</li>`;
+      }).join("")}</ol>`;
+    }
 
     function pruefeFormel(roh) {
       const r = M.pruefeFormelZeile(roh, a);

@@ -89,6 +89,18 @@ for (const datei of readdirSync(DATEN)) {
         const r = M.pruefeFormelZeile(`${a.nach} = ${f.antwort}`, a);
         erwarte(r.art === "falsch" && r.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
       }
+    } else if (a.typ === "ungleichung") {
+      erwarte(M.pruefeUngleichungsZeile(a.loesung, a).art === (a.form === "intervall" ? "form" : "geloest"), `${a.id}: Lösung nicht erkannt`);
+      erwarte(M.pruefeUngleichungsZeile(M.intervallText(M.ungleichungsMenge(a.loesung).menge), a).art === "geloest", `${a.id}: Intervall nicht erkannt`);
+      if (a.ungleichung) erwarte(M.pruefeUngleichungsZeile(a.ungleichung, a).art !== "geloest" || /^x\s*[<>≤≥]/.test(a.ungleichung), `${a.id}: Ausgangsungleichung schon gelöst?`);
+      for (const zeile of a.weg || []) {
+        const r = M.pruefeUngleichungsZeile(zeile.split("|")[0], a);
+        erwarte(["schritt", "geloest", "form"].includes(r.art), `${a.id}: Weg-Zeile "${zeile}" → ${r.art}`);
+      }
+      for (const f of a.fehler || []) {
+        const r = M.pruefeUngleichungsZeile(f.antwort, a);
+        erwarte(r.art === "falsch" && r.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
+      }
     } else if (a.typ === "auswahl" && a.mathe) {
       for (const o of a.optionen) erwarte(M.versuche(o), `${a.id}: Option ${o} nicht lesbar`);
     }

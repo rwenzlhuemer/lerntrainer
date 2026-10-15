@@ -1,0 +1,20 @@
+id: B3.3
+titel: Ungleichungen aus Text
+ziel: Du übersetzt Fragen wie „höchstens“, „mindestens“, „ab wann billiger“ in Ungleichungen.
+erklaerung: |
+  Wörter, die auf eine Ungleichung hinweisen:
+  - „höchstens“, „nicht mehr als“ → `≤`
+  - „mindestens“, „nicht weniger als“ → `≥`
+  - „weniger als“, „billiger als“, „unter“ → `<`
+  - „mehr als“, „über“ → `>`
+
+  So gehst du vor: Wofür steht x? Wie hängt die Größe von x ab? Dann Ungleichung aufstellen und lösen.
+  Bei Tarifvergleichen: „Tarif B billiger als A“ heißt `Kosten B < Kosten A`.
+beispiel:
+  ungleichung: "10 + 0,05x ≤ 25"
+  text: |
+    Ein Tarif kostet 10 € plus 0,05 € pro Minute. Die Rechnung soll **höchstens** 25 € sein. x = Minuten.
+  weg:
+    - "10 + 0,05x ≤ 25"
+    - "0,05x ≤ 15 | −10"
+    - "x ≤ 300 | :0,05"

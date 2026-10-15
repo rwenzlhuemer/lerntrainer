@@ -289,6 +289,19 @@ async function main() {
   pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `B2.2: ${fo.formel} nach ${fo.nach} gelöst`);
   await bild("09g-formel");
 
+  // B3.1 Ungleichung: Zeichen nicht umgedreht → eigener Hinweis; richtig → gelöst
+  await js(`(() => { const z = JSON.parse(localStorage.getItem('lerntrainer.v1'));
+    z.faecher.mathe.ls['B3.1'] = { stufe: 2, status: 'angefangen', verlauf: [] };
+    localStorage.setItem('lerntrainer.v1', JSON.stringify(z)); })()`);
+  await cdp("Page.reload");
+  await warte(1200);
+  const un = await naechsteBis("B3.1", (x) => x.fehler.length > 0);
+  await tippe(un.fehler[0].antwort);
+  pruefe((await rm()).includes("negativen"), `B3.1: ${un.ungleichung} – vergessenes Umdrehen erkannt`);
+  await tippe(un.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `B3.1: ${un.loesung} gelöst`);
+  await bild("09h-ungleichung");
+
   // Lösung zeigen
   await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");

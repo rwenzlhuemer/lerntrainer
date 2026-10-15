@@ -1,0 +1,21 @@
+id: B3.1
+titel: Ungleichungen umformen
+ziel: Du löst lineare Ungleichungen – und denkst ans Umdrehen des Zeichens.
+erklaerung: |
+  Eine Ungleichung hat statt „=“ eines dieser Zeichen: `<` kleiner, `>` größer, `≤` kleiner oder gleich, `≥` größer oder gleich.
+  Ihre Lösung ist nicht eine Zahl, sondern ein ganzer **Bereich**, z. B. alle x kleiner als 3.
+
+  Du formst fast genauso um wie bei Gleichungen: auf beiden Seiten dasselbe addieren, subtrahieren,
+  multiplizieren oder dividieren.
+
+  **Die eine wichtige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl,
+  **dreht sich das Zeichen um**: aus `<` wird `>`, aus `≤` wird `≥`.
+  Warum? `2 < 5`, aber `-2 > -5`.
+beispiel:
+  ungleichung: "-3x + 4 < 10"
+  text: |
+    Zuerst −4. Dann durch −3 – eine negative Zahl, also das Zeichen umdrehen.
+  weg:
+    - "-3x + 4 < 10"
+    - "-3x < 6 | −4"
+    - "x > -2 | :(−3), Zeichen umdrehen!"

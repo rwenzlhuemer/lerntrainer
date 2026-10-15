@@ -1,0 +1,630 @@
+# ERZEUGT von tools/generatoren/b3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B3.1-001
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 5x - 4 ≤ -34
+  loesung: x ≤ -6
+  weg:
+  - 5x - 4 ≤ -34
+  - 5x ≤ -30 | +4
+  - x ≤ -6 | :5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.1-002
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 2x - 2 > -14
+  loesung: x > -6
+  weg:
+  - 2x - 2 > -14
+  - 2x > -12 | +2
+  - x > -6 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.1-003
+  typ: ungleichung
+  stufe: 1
+  ungleichung: x - 3 > -6
+  loesung: x > -3
+  weg:
+  - x - 3 > -6
+  - x > -3 | +3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.1-004
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 6x - 6 ≤ 24
+  loesung: x ≤ 5
+  weg:
+  - 6x - 6 ≤ 24
+  - 6x ≤ 30 | +6
+  - x ≤ 5 | :6
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.1-005
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 2x + 7 > -3
+  loesung: x > -5
+  weg:
+  - 2x + 7 > -3
+  - 2x > -10 | −7
+  - x > -5 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.1-006
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 5x + 5 > -25
+  loesung: x > -6
+  weg:
+  - 5x + 5 > -25
+  - 5x > -30 | −5
+  - x > -6 | :5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.1-007
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 3x - 5 < 4
+  loesung: x < 3
+  weg:
+  - 3x - 5 < 4
+  - 3x < 9 | +5
+  - x < 3 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x < …`'
+  fehler: []
+- id: B3.1-008
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 4x - 8 ≤ -32
+  loesung: x ≤ -6
+  weg:
+  - 4x - 8 ≤ -32
+  - 4x ≤ -24 | +8
+  - x ≤ -6 | :4
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.1-009
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 2x + 5 > -5
+  loesung: x > -5
+  weg:
+  - 2x + 5 > -5
+  - 2x > -10 | −5
+  - x > -5 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.1-010
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 5x - 2 < 8
+  loesung: x < 2
+  weg:
+  - 5x - 2 < 8
+  - 5x < 10 | +2
+  - x < 2 | :5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x < …`'
+  fehler: []
+- id: B3.1-011
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -6x - 4 ≤ -22
+  loesung: x ≥ 3
+  weg:
+  - -6x - 4 ≤ -22
+  - -6x ≤ -18 | +4
+  - x ≥ 3 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≤ 3
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-012
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -6x + 4 ≥ -2
+  loesung: x ≤ 1
+  weg:
+  - -6x + 4 ≥ -2
+  - -6x ≥ -6 | −4
+  - x ≤ 1 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ 1
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-013
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -5x + 3 < -7
+  loesung: x > 2
+  weg:
+  - -5x + 3 < -7
+  - -5x < -10 | −3
+  - x > 2 | :(-5) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 2
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-014
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -6x - 7 > -1
+  loesung: x < -1
+  weg:
+  - -6x - 7 > -1
+  - -6x > 6 | +7
+  - x < -1 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x > -1
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-015
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -4x + 7 < 19
+  loesung: x > -3
+  weg:
+  - -4x + 7 < 19
+  - -4x < 12 | −7
+  - x > -3 | :(-4) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < -3
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-016
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -6x - 7 < 11
+  loesung: x > -3
+  weg:
+  - -6x - 7 < 11
+  - -6x < 18 | +7
+  - x > -3 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < -3
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-017
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -3x - 7 ≥ -22
+  loesung: x ≤ 5
+  weg:
+  - -3x - 7 ≥ -22
+  - -3x ≥ -15 | +7
+  - x ≤ 5 | :(-3) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ 5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-018
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -4x - 8 < -32
+  loesung: x > 6
+  weg:
+  - -4x - 8 < -32
+  - -4x < -24 | +8
+  - x > 6 | :(-4) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 6
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-019
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -6x + 6 ≥ 42
+  loesung: x ≤ -6
+  weg:
+  - -6x + 6 ≥ 42
+  - -6x ≥ 36 | −6
+  - x ≤ -6 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ -6
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-020
+  typ: ungleichung
+  stufe: 2
+  ungleichung: -6x - 4 > 8
+  loesung: x < -2
+  weg:
+  - -6x - 4 > 8
+  - -6x > 12 | +4
+  - x < -2 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x > -2
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-021
+  typ: ungleichung
+  stufe: 3
+  ungleichung: 5x + 5 ≤ -6x - 72
+  loesung: x ≤ -7
+  weg:
+  - 5x + 5 ≤ -6x - 72
+  - 11x + 5 ≤ -72 | +6x
+  - 11x ≤ -77 | −5
+  - x ≤ -7 | :11
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.1-022
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -6x + 9 < -2x + 1
+  loesung: x > 2
+  weg:
+  - -6x + 9 < -2x + 1
+  - -4x + 9 < 1 | +2x
+  - -4x < -8 | −9
+  - x > 2 | :(-4) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 2
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-023
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -6x + 7 < 5x - 48
+  loesung: x > 5
+  weg:
+  - -6x + 7 < 5x - 48
+  - -11x + 7 < -48 | −5x
+  - -11x < -55 | −7
+  - x > 5 | :(-11) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-024
+  typ: ungleichung
+  stufe: 3
+  ungleichung: 2x + 4 < -2x - 24
+  loesung: x < -7
+  weg:
+  - 2x + 4 < -2x - 24
+  - 4x + 4 < -24 | +2x
+  - 4x < -28 | −4
+  - x < -7 | :4
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x < …`'
+  fehler: []
+- id: B3.1-025
+  typ: ungleichung
+  stufe: 3
+  ungleichung: 5x - 3 ≥ -x + 21
+  loesung: x ≥ 4
+  weg:
+  - 5x - 3 ≥ -x + 21
+  - 6x - 3 ≥ 21 | +x
+  - 6x ≥ 24 | +3
+  - x ≥ 4 | :6
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≥ …`'
+  fehler: []
+- id: B3.1-026
+  typ: ungleichung
+  stufe: 3
+  ungleichung: 4x + 8 ≤ 3x + 15
+  loesung: x ≤ 7
+  weg:
+  - 4x + 8 ≤ 3x + 15
+  - x + 8 ≤ 15 | −3x
+  - x ≤ 7 | −8
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.1-027
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -2x - 1 ≥ 5x + 13
+  loesung: x ≤ -2
+  weg:
+  - -2x - 1 ≥ 5x + 13
+  - -7x - 1 ≥ 13 | −5x
+  - -7x ≥ 14 | +1
+  - x ≤ -2 | :(-7) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ -2
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-028
+  typ: ungleichung
+  stufe: 3
+  ungleichung: 6x + 9 ≥ 2x + 1
+  loesung: x ≥ -2
+  weg:
+  - 6x + 9 ≥ 2x + 1
+  - 4x + 9 ≥ 1 | −2x
+  - 4x ≥ -8 | −9
+  - x ≥ -2 | :4
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≥ …`'
+  fehler: []
+- id: B3.1-029
+  typ: ungleichung
+  stufe: 3
+  ungleichung: x + 5 > 2x + 10
+  loesung: x < -5
+  weg:
+  - x + 5 > 2x + 10
+  - -x + 5 > 10 | −2x
+  - -x > 5 | −5
+  - x < -5 | :(-1) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x > -5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-030
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -6x + 5 < 6x - 43
+  loesung: x > 4
+  weg:
+  - -6x + 5 < 6x - 43
+  - -12x + 5 < -43 | −6x
+  - -12x < -48 | −5
+  - x > 4 | :(-12) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 4
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-031
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -4(x - 5) ≤ 4(x + 4)
+  loesung: x ≥ 0,5
+  weg:
+  - -4(x - 5) ≤ 4(x + 4)
+  - -4x + 20 ≤ 4x + 16 | Klammern aufgelöst
+  - -8x + 20 ≤ 16 | −4x
+  - -8x ≤ -4 | −20
+  - x ≥ 0,5 | :(-8) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≤ 0,5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-032
+  typ: ungleichung
+  stufe: 4
+  ungleichung: 0,75x + 1,5 ≥ -2x - 4
+  loesung: x ≥ -2
+  weg:
+  - 0,75x + 1,5 ≥ -2x - 4
+  - 2,75x + 1,5 ≥ -4 | +2x
+  - 2,75x ≥ -5,5 | −1,5
+  - x ≥ -2 | :2,75
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≥ …`'
+  fehler: []
+- id: B3.1-033
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -2(x - 3) < 2(x - 2)
+  loesung: x > 2,5
+  weg:
+  - -2(x - 3) < 2(x - 2)
+  - -2x + 6 < 2x - 4 | Klammern aufgelöst
+  - -4x + 6 < -4 | −2x
+  - -4x < -10 | −6
+  - x > 2,5 | :(-4) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 2,5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-034
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -3(x - 3) ≥ 3(x + 1)
+  loesung: x ≤ 1
+  weg:
+  - -3(x - 3) ≥ 3(x + 1)
+  - -3x + 9 ≥ 3x + 3 | Klammern aufgelöst
+  - -6x + 9 ≥ 3 | −3x
+  - -6x ≥ -6 | −9
+  - x ≤ 1 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ 1
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-035
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -4(x - 3) ≤ 3(x + 2)
+  loesung: x ≥ 6/7
+  weg:
+  - -4(x - 3) ≤ 3(x + 2)
+  - -4x + 12 ≤ 3x + 6 | Klammern aufgelöst
+  - -7x + 12 ≤ 6 | −3x
+  - -7x ≤ -6 | −12
+  - x ≥ 6/7 | :(-7) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≤ 6/7
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-036
+  typ: ungleichung
+  stufe: 4
+  ungleichung: 2x + 8 < 1,5x + 1,5
+  loesung: x < -13
+  weg:
+  - 2x + 8 < 1,5x + 1,5
+  - 0,5x + 8 < 1,5 | −1,5x
+  - 0,5x < -6,5 | −8
+  - x < -13 | :0,5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x < …`'
+  fehler: []
+- id: B3.1-037
+  typ: ungleichung
+  stufe: 4
+  ungleichung: 0,75x - 7 ≥ x - 7
+  loesung: x ≤ 0
+  weg:
+  - 0,75x - 7 ≥ x - 7
+  - -0,25x - 7 ≥ -7 | −x
+  - -0,25x ≥ 0 | +7
+  - x ≤ 0 | :(-0,25) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ 0
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-038
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -4(x - 1) ≥ 4(x + 5)
+  loesung: x ≤ -2
+  weg:
+  - -4(x - 1) ≥ 4(x + 5)
+  - -4x + 4 ≥ 4x + 20 | Klammern aufgelöst
+  - -8x + 4 ≥ 20 | −4x
+  - -8x ≥ 16 | −4
+  - x ≤ -2 | :(-8) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≥ -2
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-039
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -2(x - 3) ≤ 2(x + 4)
+  loesung: x ≥ -0,5
+  weg:
+  - -2(x - 3) ≤ 2(x + 4)
+  - -2x + 6 ≤ 2x + 8 | Klammern aufgelöst
+  - -4x + 6 ≤ 8 | −2x
+  - -4x ≤ 2 | −6
+  - x ≥ -0,5 | :(-4) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x ≤ -0,5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.1-040
+  typ: ungleichung
+  stufe: 4
+  ungleichung: 0,25x + 2,5 > -x + 3
+  loesung: x > 0,4
+  weg:
+  - 0,25x + 2,5 > -x + 3
+  - 1,25x + 2,5 > 3 | +x
+  - 1,25x > 0,5 | −2,5
+  - x > 0,4 | :1,25
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []

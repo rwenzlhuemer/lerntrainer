@@ -600,6 +600,96 @@ function termGleichPositiv(t1, t2) {
   return gueltig >= 3;
 }
 
+// ── Ungleichungen ────────────────────────────────────────
+// Lösungsmenge als {art: "gt"|"lt"|"alle"|"keine", b?, strikt?}: x > b (gt) bzw. x < b (lt)
+
+const REL = [["<=", "≤"], [">=", "≥"], ["≤", "≤"], ["≥", "≥"], ["<", "<"], [">", ">"]];
+
+function teileUngleichung(text) {
+  const t = String(text).replace(/=</g, "<=").replace(/=>/g, ">=");
+  for (const [zeichen, rel] of REL) {
+    const i = t.indexOf(zeichen);
+    if (i > 0) return { links: t.slice(0, i), rel, rechts: t.slice(i + zeichen.length) };
+  }
+  return null;
+}
+
+const UNENDLICH = /^(\+?∞|\+?inf|\+?unendlich)$/i;
+const MINUS_UNENDLICH = /^(-|−)(∞|inf|unendlich)$/i;
+
+// Intervall „]−∞; 3[“, „[2; ∞[“, „(−∞; 3)“ → Menge
+function intervallMenge(text) {
+  const m = String(text).replace(/\s+/g, "").match(/^(\]|\[|\()(.+);(.+)(\[|\]|\))$/);
+  if (!m) return null;
+  const [, l, a, b, r] = m;
+  if (MINUS_UNENDLICH.test(a) && !UNENDLICH.test(b)) {
+    const w = zahlwert(b);
+    return w === null ? null : { art: "lt", b: w, strikt: r !== "]" };
+  }
+  if (UNENDLICH.test(b) && !MINUS_UNENDLICH.test(a)) {
+    const w = zahlwert(a);
+    return w === null ? null : { art: "gt", b: w, strikt: l !== "[" };
+  }
+  if (MINUS_UNENDLICH.test(a) && UNENDLICH.test(b)) return { art: "alle" };
+  return null;
+}
+
+export function ungleichungsMenge(text) {
+  const iv = intervallMenge(text);
+  if (iv) return { menge: iv, intervall: true };
+  const u = teileUngleichung(text);
+  if (!u) return null;
+  const g = versuche(`${u.links} = ${u.rechts}`);
+  if (!g || !g.gleichung) return null;
+  const vars = new Set([...variablen(g.links), ...variablen(g.rechts)]);
+  if (vars.size > 1 || (vars.size === 1 && !vars.has("x"))) return null;
+  const f = (x) => werte(g.links, { x }) - werte(g.rechts, { x });
+  const gilt = (x) => { const v = f(x); return u.rel === "<" ? v < 0 : u.rel === ">" ? v > 0 : u.rel === "≤" ? v <= 1e-12 : v >= -1e-12; };
+  const l = loesungLinear(g);
+  if (!l) return null;
+  const strikt = u.rel === "<" || u.rel === ">";
+  if (l.art !== "eine") return { menge: gilt(0) ? { art: "alle" } : { art: "keine" }, intervall: false, u, g };
+  return { menge: { art: gilt(l.x + 1) ? "gt" : "lt", b: l.x, strikt }, intervall: false, u, g };
+}
+
+function gleicheUngleichungsMenge(a, b) {
+  if (!a || !b || a.art !== b.art) return false;
+  if (a.art === "alle" || a.art === "keine") return true;
+  return a.strikt === b.strikt && nahe(a.b, b.b, 1e-9);
+}
+
+// Ergebnis: {art: "geloest"|"schritt"|"form"|"falsch"|"unklar", fehler?, umgedreht?}
+export function pruefeUngleichungsZeile(eingabe, aufgabe) {
+  const ist = ungleichungsMenge(eingabe);
+  const soll = ungleichungsMenge(aufgabe.loesung).menge;
+  if (!ist) return { art: "unklar" };
+  if (!gleicheUngleichungsMenge(ist.menge, soll)) {
+    const f = (aufgabe.fehler || []).find((x) => gleicheUngleichungsMenge(ungleichungsMenge(x.antwort)?.menge, ist.menge));
+    const umgedreht = ist.menge.art !== soll.art && (ist.menge.art === "gt" || ist.menge.art === "lt") && nahe(ist.menge.b, soll.b ?? NaN, 1e-9);
+    return { art: "falsch", fehler: f || null, umgedreht };
+  }
+  if (aufgabe.form === "intervall") return ist.intervall ? { art: "geloest" } : { art: "form" };
+  if (ist.intervall) return { art: "geloest" };
+  const allein = (s) => s.t === "var" && s.n === "x";
+  const fertig = (allein(ist.g.links) && !variablen(ist.g.rechts).size) || (allein(ist.g.rechts) && !variablen(ist.g.links).size);
+  return fertig ? { art: "geloest" } : { art: "schritt" };
+}
+
+// Anzeige: „−2x + 3 ≤ 7“ mit gesetzten Seiten; Intervalle als Text
+export function ungleichungHTML(text) {
+  const u = teileUngleichung(text);
+  if (!u) return esc(schoeneZeichen(text)).replace(/inf/gi, "∞");
+  return `${matheHTML(u.links.trim())} <span class="mathe">${u.rel}</span> ${matheHTML(u.rechts.trim())}`;
+}
+
+// Menge als Intervall in österreichischer Schreibweise
+export function intervallText(menge) {
+  const z = (v) => String(Math.round(v * 1e9) / 1e9).replace(".", ",").replace("-", "−");
+  if (menge.art === "gt") return `${menge.strikt ? "]" : "["}${z(menge.b)}; ∞[`;
+  if (menge.art === "lt") return `]−∞; ${z(menge.b)}${menge.strikt ? "[" : "]"}`;
+  return menge.art === "alle" ? "ℝ" : "{ }";
+}
+
 // Passt ein Wert zu einer vorbereiteten Fehler-Antwort?
 export function findeFehler(wert, fehlerListe) {
   if (wert === null || wert === undefined || !fehlerListe) return null;

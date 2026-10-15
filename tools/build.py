@@ -35,7 +35,7 @@ DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
 STUFEN = {1, 2, 3, 4}
-TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel"}
+TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung"}
 
 
 class Fehlerliste(list):
@@ -217,6 +217,43 @@ def pruefe_faktor(a: dict, wo: str, fehler: Fehlerliste, soll):
         fehler.melde(wo, f"Faktor nicht prüfbar ({e})")
 
 
+REL = [("<=", "≤"), (">=", "≥"), ("≤", "≤"), ("≥", "≥"), ("<", "<"), (">", ">")]
+
+
+def ungleichung_menge(text: str):
+    """„3 - 2x ≤ 7“ oder „]-∞; 3[“ → sympy-Menge in ℝ"""
+    t = text.replace(" ", "")
+    m = re.fullmatch(r"([\]\[(])(.+);(.+)([\[\])])", t)
+    if m:
+        l, a, b, r = m.groups()
+        unten = -sympy.oo if a in ("-∞", "−∞") else notation.zahl(a)
+        oben = sympy.oo if b in ("∞", "+∞") else notation.zahl(b)
+        return sympy.Interval(unten, oben, left_open=l != "[", right_open=r != "]")
+    for zeichen, rel in REL:
+        if zeichen in text:
+            links, rechts = text.split(zeichen)
+            x = sympy.Symbol("x")
+            L, R = notation.ausdruck(links), notation.ausdruck(rechts)
+            ausdruck = {"≤": L <= R, "≥": L >= R, "<": L < R, ">": L > R}[rel]
+            return sympy.solveset(ausdruck, x, domain=sympy.S.Reals)
+    raise ValueError(f"keine Ungleichung: {text!r}")
+
+
+def pruefe_ungleichung(a: dict, wo: str, fehler: Fehlerliste):
+    try:
+        soll = ungleichung_menge(a["loesung"])
+        if a.get("ungleichung") and ungleichung_menge(a["ungleichung"]) != soll:
+            fehler.melde(wo, f"Lösung {a['loesung']!r} stimmt nicht – sympy: {ungleichung_menge(a['ungleichung'])}")
+        for zeile in a.get("weg", []):
+            if ungleichung_menge(zeile.split("|")[0]) != soll:
+                fehler.melde(wo, f"Lösungsweg-Zeile {zeile!r} ist keine Äquivalenzumformung")
+        for f in a.get("fehler", []):
+            if ungleichung_menge(f["antwort"]) == soll:
+                fehler.melde(wo, f"Fehler-Antwort {f['antwort']!r} ist in Wahrheit richtig")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Ungleichung nicht lesbar ({e})")
+
+
 def pruefe_zahlform(a: dict, wo: str, fehler: Fehlerliste):
     """form: gekuerzt | nenner | dezimal – die Lösung selbst muss die verlangte Form haben."""
     form, l = a.get("form"), str(a["loesung"]).replace(" ", "")
@@ -259,6 +296,13 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
             return
+        if p["art"] == "intervall":
+            # Optionen sind Intervalle/Ungleichungen; richtig sind die mit derselben Lösungsmenge wie das Ziel
+            ziel = ungleichung_menge(p["ziel"])
+            erwartet = [i for i, o in enumerate(optionen) if ungleichung_menge(o) == ziel]
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
         if p["art"] == "zahlenmenge":
             # Optionen ℕ, ℤ, ℚ, ℝ, ℂ – richtig ist die kleinste Menge, zu der die Zahl gehört (ℕ mit 0)
             v = sympy.nsimplify(notation.ausdruck(str(p["zahl"])))
@@ -289,7 +333,7 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
 
 
 PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term,
-           "formel": pruefe_formel}
+           "formel": pruefe_formel, "ungleichung": pruefe_ungleichung}
 
 
 def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
@@ -339,7 +383,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 texte: set[str] = set()
                 for a in aufgaben:
                     aid = a.get("id", "?")
-                    text = (a.get("gleichung") if a.get("typ") == "gleichung" else
+                    text = (a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage") or a.get("ungleichung") if a.get("typ") == "ungleichung" else
                             f"{a.get('formel')} nach {a.get('nach')}" if a.get("typ") == "formel" else a.get("frage") or a.get("term"))
                     if text in texte:
                         fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
@@ -358,6 +402,14 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                         except Exception as e:  # noqa: BLE001
                             fehler.melde(lid, f"Beispiel-Zeile {zeile!r} nicht lesbar ({e})")
                 bsp = inhalt.get("beispiel") or {}
+                if bsp.get("ungleichung"):
+                    try:
+                        soll_u = ungleichung_menge(bsp["ungleichung"])
+                        for zeile in bsp.get("weg", []):
+                            if ungleichung_menge(zeile.split("|")[0]) != soll_u:
+                                fehler.melde(lid, f"Beispiel-Zeile {zeile!r} ist keine Äquivalenzumformung")
+                    except Exception as e:  # noqa: BLE001
+                        fehler.melde(lid, f"Beispiel nicht lesbar ({e})")
                 if bsp.get("formel"):
                     pruefe_formel({**bsp, "fehler": []}, f"{lid}/Beispiel", fehler)
                 if bsp.get("term") or bsp.get("wert"):

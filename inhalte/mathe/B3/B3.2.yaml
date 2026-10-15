@@ -1,0 +1,22 @@
+id: B3.2
+titel: Lösung als Intervall
+ziel: Du schreibst Lösungsmengen von Ungleichungen als Intervall und liest Intervalle.
+erklaerung: |
+  Ein **Intervall** beschreibt einen Bereich auf der Zahlengeraden.
+  In Österreich schreibt man so:
+  - `[2; ∞[` – alle Zahlen ab 2, die 2 gehört dazu (x ≥ 2)
+  - `]2; ∞[` – alle Zahlen größer als 2, ohne die 2 (x > 2)
+  - `]-∞; 3]` – alle Zahlen bis 3, mit der 3 (x ≤ 3)
+  - `]-∞; 3[` – alle Zahlen kleiner als 3 (x < 3)
+
+  Merke: Zeigt die Klammer **zur Zahl hin**, gehört die Zahl dazu. Zeigt sie **weg**, gehört sie nicht dazu.
+  Bei ∞ ist die Klammer immer offen – unendlich erreicht man nie.
+beispiel:
+  ungleichung: "2x - 1 ≥ 5"
+  text: |
+    Lösen wie gewohnt: x ≥ 3. Die 3 gehört dazu, nach oben geht es bis unendlich: `[3; ∞[`.
+  weg:
+    - "2x - 1 ≥ 5"
+    - "2x ≥ 6 | +1"
+    - "x ≥ 3 | :2"
+    - "[3; ∞[ | als Intervall"

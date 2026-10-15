@@ -1,0 +1,522 @@
+# ERZEUGT von tools/generatoren/b3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B3.2-001
+  typ: ungleichung
+  stufe: 1
+  ungleichung: x - 3 > 1
+  form: intervall
+  loesung: x > 4
+  weg:
+  - x - 3 > 1
+  - x > 4 | +3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-002
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 5x + 2 < -3
+  form: intervall
+  loesung: x < -1
+  weg:
+  - 5x + 2 < -3
+  - 5x < -5 | −2
+  - x < -1 | :5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-003
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 3x - 5 ≥ -8
+  form: intervall
+  loesung: x ≥ -1
+  weg:
+  - 3x - 5 ≥ -8
+  - 3x ≥ -3 | +5
+  - x ≥ -1 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-004
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 3x + 6 > -9
+  form: intervall
+  loesung: x > -5
+  weg:
+  - 3x + 6 > -9
+  - 3x > -15 | −6
+  - x > -5 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-005
+  typ: ungleichung
+  stufe: 1
+  ungleichung: x + 6 ≤ 12
+  form: intervall
+  loesung: x ≤ 6
+  weg:
+  - x + 6 ≤ 12
+  - x ≤ 6 | −6
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-006
+  typ: ungleichung
+  stufe: 1
+  ungleichung: x - 6 ≥ -7
+  form: intervall
+  loesung: x ≥ -1
+  weg:
+  - x - 6 ≥ -7
+  - x ≥ -1 | +6
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-007
+  typ: ungleichung
+  stufe: 1
+  ungleichung: x + 4 ≤ 8
+  form: intervall
+  loesung: x ≤ 4
+  weg:
+  - x + 4 ≤ 8
+  - x ≤ 4 | −4
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-008
+  typ: ungleichung
+  stufe: 1
+  ungleichung: 3x - 8 ≥ -14
+  form: intervall
+  loesung: x ≥ -2
+  weg:
+  - 3x - 8 ≥ -14
+  - 3x ≥ -6 | +8
+  - x ≥ -2 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-009
+  typ: auswahl
+  stufe: 2
+  frage: Welches Intervall beschreibt alle Zahlen mit `x > -5`?
+  optionen:
+  - ']-∞; -5['
+  - '[-5; ∞['
+  - ']-5; ∞['
+  richtig:
+  - 2
+  pruefung:
+    art: intervall
+    ziel: x > -5
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-010
+  typ: ungleichung
+  stufe: 2
+  ungleichung: 3x + 9 < 15
+  form: intervall
+  loesung: x < 2
+  weg:
+  - 3x + 9 < 15
+  - 3x < 6 | −9
+  - x < 2 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-011
+  typ: ungleichung
+  stufe: 2
+  ungleichung: 4x - 9 > -13
+  form: intervall
+  loesung: x > -1
+  weg:
+  - 4x - 9 > -13
+  - 4x > -4 | +9
+  - x > -1 | :4
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-012
+  typ: auswahl
+  stufe: 2
+  frage: Welches Intervall beschreibt alle Zahlen mit `x ≤ -4`?
+  optionen:
+  - ']-∞; -4]'
+  - ']-∞; -4['
+  - '[-4; ∞['
+  richtig:
+  - 0
+  pruefung:
+    art: intervall
+    ziel: x ≤ -4
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-013
+  typ: auswahl
+  stufe: 2
+  frage: Welches Intervall beschreibt alle Zahlen mit `x ≤ 2`?
+  optionen:
+  - ']-∞; 2['
+  - ']-∞; 2]'
+  - '[2; ∞['
+  richtig:
+  - 1
+  pruefung:
+    art: intervall
+    ziel: x ≤ 2
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-014
+  typ: auswahl
+  stufe: 2
+  frage: Welches Intervall beschreibt alle Zahlen mit `x ≤ 6`?
+  optionen:
+  - '[6; ∞['
+  - ']-∞; 6['
+  - ']-∞; 6]'
+  richtig:
+  - 2
+  pruefung:
+    art: intervall
+    ziel: x ≤ 6
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-015
+  typ: ungleichung
+  stufe: 2
+  ungleichung: 2x - 1 < -7
+  form: intervall
+  loesung: x < -3
+  weg:
+  - 2x - 1 < -7
+  - 2x < -6 | +1
+  - x < -3 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-016
+  typ: auswahl
+  stufe: 2
+  frage: Welches Intervall beschreibt alle Zahlen mit `x ≤ 7`?
+  optionen:
+  - '[7; ∞['
+  - ']-∞; 7['
+  - ']-∞; 7]'
+  richtig:
+  - 2
+  pruefung:
+    art: intervall
+    ziel: x ≤ 7
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-017
+  typ: auswahl
+  stufe: 3
+  frage: Welches Intervall beschreibt alle Zahlen mit `x ≥ -4,5`?
+  optionen:
+  - ']-4,5; ∞['
+  - '[-4,5; ∞['
+  - ']-∞; -4,5]'
+  richtig:
+  - 1
+  pruefung:
+    art: intervall
+    ziel: x ≥ -4,5
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-018
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -4x + 1 < 5
+  form: intervall
+  loesung: x > -1
+  weg:
+  - -4x + 1 < 5
+  - -4x < 4 | −1
+  - x > -1 | :(-4) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x < -1
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-019
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -2x - 2 ≤ 2
+  form: intervall
+  loesung: x ≥ -2
+  weg:
+  - -2x - 2 ≤ 2
+  - -2x ≤ 4 | +2
+  - x ≥ -2 | :(-2) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≤ -2
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-020
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -2x + 7 ≥ -1
+  form: intervall
+  loesung: x ≤ 4
+  weg:
+  - -2x + 7 ≥ -1
+  - -2x ≥ -8 | −7
+  - x ≤ 4 | :(-2) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≥ 4
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-021
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -5x + 3 ≤ -27
+  form: intervall
+  loesung: x ≥ 6
+  weg:
+  - -5x + 3 ≤ -27
+  - -5x ≤ -30 | −3
+  - x ≥ 6 | :(-5) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≤ 6
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-022
+  typ: auswahl
+  stufe: 3
+  frage: Welches Intervall beschreibt alle Zahlen mit `x < -6`?
+  optionen:
+  - ']-∞; -6]'
+  - ']-6; ∞['
+  - ']-∞; -6['
+  richtig:
+  - 2
+  pruefung:
+    art: intervall
+    ziel: x < -6
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-023
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -5x - 6 ≤ 24
+  form: intervall
+  loesung: x ≥ -6
+  weg:
+  - -5x - 6 ≤ 24
+  - -5x ≤ 30 | +6
+  - x ≥ -6 | :(-5) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≤ -6
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-024
+  typ: ungleichung
+  stufe: 3
+  ungleichung: -6x - 9 ≥ -27
+  form: intervall
+  loesung: x ≤ 3
+  weg:
+  - -6x - 9 ≥ -27
+  - -6x ≥ -18 | +9
+  - x ≤ 3 | :(-6) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≥ 3
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-025
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -2x - 4 ≤ -5x + 2
+  form: intervall
+  loesung: x ≤ 2
+  weg:
+  - -2x - 4 ≤ -5x + 2
+  - 3x - 4 ≤ 2 | +5x
+  - 3x ≤ 6 | +4
+  - x ≤ 2 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-026
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -4x + 5 ≥ 6x + 55
+  form: intervall
+  loesung: x ≤ -5
+  weg:
+  - -4x + 5 ≥ 6x + 55
+  - -10x + 5 ≥ 55 | −6x
+  - -10x ≥ 50 | −5
+  - x ≤ -5 | :(-10) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≥ -5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-027
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -5x + 9 > -4x + 15
+  form: intervall
+  loesung: x < -6
+  weg:
+  - -5x + 9 > -4x + 15
+  - -x + 9 > 15 | +4x
+  - -x > 6 | −9
+  - x < -6 | :(-1) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x > -6
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-028
+  typ: auswahl
+  stufe: 4
+  frage: Welches Intervall beschreibt alle Zahlen mit `x > -8`?
+  optionen:
+  - ']-∞; -8['
+  - '[-8; ∞['
+  - ']-8; ∞['
+  richtig:
+  - 2
+  pruefung:
+    art: intervall
+    ziel: x > -8
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-029
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -4x - 7 > -6x + 7
+  form: intervall
+  loesung: x > 7
+  weg:
+  - -4x - 7 > -6x + 7
+  - 2x - 7 > 7 | +6x
+  - 2x > 14 | +7
+  - x > 7 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler: []
+- id: B3.2-030
+  typ: auswahl
+  stufe: 4
+  frage: Welches Intervall beschreibt alle Zahlen mit `x ≤ 3`?
+  optionen:
+  - ']-∞; 3['
+  - '[3; ∞['
+  - ']-∞; 3]'
+  richtig:
+  - 2
+  pruefung:
+    art: intervall
+    ziel: x ≤ 3
+  erklaerung: 'Die Klammer zeigt, ob die Grenze dazugehört: `[` bzw. `]` nach innen = gehört dazu (≤, ≥); nach außen gedreht = gehört nicht dazu (<, >). Bei ∞ ist die Klammer immer offen.'
+  tipps:
+  - 'Zeichne dir die Zahlengerade: Liegen die Lösungen links oder rechts der Grenze?'
+  - Gehört die Grenze selbst dazu (≤, ≥) oder nicht (<, >)?
+- id: B3.2-031
+  typ: ungleichung
+  stufe: 4
+  ungleichung: -4x - 9 > -2x + 5
+  form: intervall
+  loesung: x < -7
+  weg:
+  - -4x - 9 > -2x + 5
+  - -2x - 9 > 5 | +2x
+  - -2x > 14 | +9
+  - x < -7 | :(-2) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x > -7
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.2-032
+  typ: ungleichung
+  stufe: 4
+  ungleichung: 5x - 1 ≥ 6x - 7
+  form: intervall
+  loesung: x ≤ 6
+  weg:
+  - 5x - 1 ≥ 6x - 7
+  - -x - 1 ≥ -7 | −6x
+  - -x ≥ -6 | +1
+  - x ≤ 6 | :(-1) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Als Intervall: `x < 3` ist `]-∞; 3[`, `x ≥ 2` ist `[2; ∞[`. Die eckige Klammer zeigt nach außen, wenn die Zahl **nicht** dazugehört.'
+  fehler:
+  - antwort: x ≥ 6
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!

@@ -1,0 +1,274 @@
+# ERZEUGT von tools/generatoren/b3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B3.3-001
+  typ: ungleichung
+  stufe: 1
+  frage: Lisa hat 30 € und kauft Hefte um je 2,5 €. Wie viele Hefte x kann sie höchstens kaufen? (Ungleichung) Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 2,5x ≤ 30
+  loesung: x ≤ 12
+  weg:
+  - 2,5x ≤ 30
+  - 2,5x - 30 ≤ 0 | alles auf eine Seite
+  - 2,5x ≤ 30 | +30
+  - x ≤ 12 | :2,5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.3-002
+  typ: ungleichung
+  stufe: 1
+  frage: Ein Aufzug trägt höchstens 600 kg. Ein Mann mit 90 kg fährt mit Kisten zu je 30 kg. Wie viele Kisten x darf er mitnehmen? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 90 + 30x ≤ 600
+  loesung: x ≤ 17
+  weg:
+  - 90 + 30x ≤ 600
+  - 30x - 510 ≤ 0 | alles auf eine Seite
+  - 30x ≤ 510 | +510
+  - x ≤ 17 | :30
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.3-003
+  typ: ungleichung
+  stufe: 1
+  frage: Das Dreifache einer Zahl x, vermehrt um 4, ist größer als 19. Welche Zahlen x erfüllen das? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 3x + 4 > 19
+  loesung: x > 5
+  weg:
+  - 3x + 4 > 19
+  - 3x - 15 > 0 | alles auf eine Seite
+  - 3x > 15 | +15
+  - x > 5 | :3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.3-004
+  typ: ungleichung
+  stufe: 1
+  frage: Ein Handytarif kostet 10 € Grundgebühr und 0,05 € pro Minute. Wie viele Minuten x darf man höchstens telefonieren, damit die Rechnung höchstens 25 € beträgt? Gib die Lösung als Ungleichung an.
+    Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 10 + 0,05x ≤ 25
+  loesung: x ≤ 300
+  weg:
+  - 10 + 0,05x ≤ 25
+  - 0,05x - 15 ≤ 0 | alles auf eine Seite
+  - 0,05x ≤ 15 | +15
+  - x ≤ 300 | :0,05
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.3-005
+  typ: ungleichung
+  stufe: 2
+  frage: 'Tarif A: 15 € Grundgebühr + 0,10 € pro Minute. Tarif B: 25 € Grundgebühr + 0,05 € pro Minute. Für welche Minutenzahlen x ist Tarif B billiger? Stell eine Ungleichung auf und löse sie nach x.'
+  ungleichung: 25 + 0,05x < 15 + 0,1x
+  loesung: x > 200
+  weg:
+  - 25 + 0,05x < 15 + 0,1x
+  - -0,05x + 10 < 0 | alles auf eine Seite
+  - -0,05x < -10 | −10
+  - x > 200 | :(-0,05) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 200
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.3-006
+  typ: ungleichung
+  stufe: 2
+  frage: Ein Wasserbecken enthält 800 Liter und verliert 25 Liter pro Stunde. Nach wie vielen Stunden x sind weniger als 300 Liter drin? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 800 - 25x < 300
+  loesung: x > 20
+  weg:
+  - 800 - 25x < 300
+  - -25x + 500 < 0 | alles auf eine Seite
+  - -25x < -500 | −500
+  - x > 20 | :(-25) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 20
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.3-007
+  typ: ungleichung
+  stufe: 2
+  frage: Eine Zahl x wird um 7 verkleinert und das Ergebnis verdoppelt. Das ist kleiner als 10. Welche Zahlen x erfüllen das? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 2(x - 7) < 10
+  loesung: x < 12
+  weg:
+  - 2(x - 7) < 10
+  - 2x - 24 < 0 | alles auf eine Seite
+  - 2x < 24 | +24
+  - x < 12 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x < …`'
+  fehler: []
+- id: B3.3-008
+  typ: ungleichung
+  stufe: 2
+  frage: Ein Rechteck ist 5 cm lang. Für welche Breiten x ist der Umfang mindestens 24 cm? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 2·5 + 2x ≥ 24
+  loesung: x ≥ 7
+  weg:
+  - 2·5 + 2x ≥ 24
+  - 2x - 14 ≥ 0 | alles auf eine Seite
+  - 2x ≥ 14 | +14
+  - x ≥ 7 | :2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≥ …`'
+  fehler: []
+- id: B3.3-009
+  typ: ungleichung
+  stufe: 3
+  frage: Ein Taxi kostet 3,5 € plus 1,2 € pro km. Wie viele km x kann man mit 20 € höchstens fahren? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 3,5 + 1,2x ≤ 20
+  loesung: x ≤ 13,75
+  weg:
+  - 3,5 + 1,2x ≤ 20
+  - 1,2x - 16,5 ≤ 0 | alles auf eine Seite
+  - 1,2x ≤ 16,5 | +16,5
+  - x ≤ 13,75 | :1,2
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≤ …`'
+  fehler: []
+- id: B3.3-010
+  typ: ungleichung
+  stufe: 3
+  frage: Die Temperatur fällt ab 20 °C jede Stunde um 1,5 Grad. Nach wie vielen Stunden x ist es kälter als 5 °C? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 20 - 1,5x < 5
+  loesung: x > 10
+  weg:
+  - 20 - 1,5x < 5
+  - -1,5x + 15 < 0 | alles auf eine Seite
+  - -1,5x < -15 | −15
+  - x > 10 | :(-1,5) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 10
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.3-011
+  typ: ungleichung
+  stufe: 3
+  frage: Für welche x ist der Term 4 - 3x positiv? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 4 - 3x > 0
+  loesung: x < 4/3
+  weg:
+  - 4 - 3x > 0
+  - -3x + 4 > 0 | alles auf eine Seite
+  - -3x > -4 | −4
+  - x < 4/3 | :(-3) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x > 4/3
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.3-012
+  typ: ungleichung
+  stufe: 3
+  frage: Ein Kopierladen verlangt 0,08 € pro Kopie, ein anderer 0,05 € pro Kopie plus 6 € Grundgebühr. Ab wie vielen Kopien x ist der zweite billiger? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 6 + 0,05x < 0,08x
+  loesung: x > 200
+  weg:
+  - 6 + 0,05x < 0,08x
+  - -0,03x + 6 < 0 | alles auf eine Seite
+  - -0,03x < -6 | −6
+  - x > 200 | :(-0,03) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 200
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.3-013
+  typ: ungleichung
+  stufe: 4
+  frage: Ein Sparschwein enthält 40 €. Jede Woche kommen 7,5 € dazu, Paul nimmt aber jede Woche 2 € heraus. Ab wie vielen Wochen x sind mehr als 100 € drin? Stell eine Ungleichung auf und löse sie nach
+    x.
+  ungleichung: 40 + 7,5x - 2x > 100
+  loesung: x > 120/11
+  weg:
+  - 40 + 7,5x - 2x > 100
+  - 5,5x - 60 > 0 | alles auf eine Seite
+  - 5,5x > 60 | +60
+  - x > 120/11 | :5,5
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x > …`'
+  fehler: []
+- id: B3.3-014
+  typ: ungleichung
+  stufe: 4
+  frage: Für welche x ist 3(x - 2) kleiner als 5x + 4? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 3(x - 2) < 5x + 4
+  loesung: x > -5
+  weg:
+  - 3(x - 2) < 5x + 4
+  - -2x - 10 < 0 | alles auf eine Seite
+  - -2x < 10 | +10
+  - x > -5 | :(-2) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < -5
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!
+- id: B3.3-015
+  typ: ungleichung
+  stufe: 4
+  frage: Für welche x ist der Mittelwert von x, 8 und 11 mindestens 10? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: (x + 8 + 11)/3 ≥ 10
+  loesung: x ≥ 11
+  weg:
+  - (x + 8 + 11)/3 ≥ 10
+  - 1/3x - 11/3 ≥ 0 | alles auf eine Seite
+  - 1/3x ≥ 11/3 | +11/3
+  - x ≥ 11 | :1/3
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - 'Zum Schluss steht da: `x ≥ …`'
+  fehler: []
+- id: B3.3-016
+  typ: ungleichung
+  stufe: 4
+  frage: Ein Fitnessstudio A kostet 40 € Aufnahme und 25 € pro Monat, Studio B keine Aufnahme und 30 € pro Monat. Ab wie vielen Monaten x ist A günstiger? Stell eine Ungleichung auf und löse sie nach x.
+  ungleichung: 40 + 25x < 30x
+  loesung: x > 8
+  weg:
+  - 40 + 25x < 30x
+  - -5x + 40 < 0 | alles auf eine Seite
+  - -5x < -40 | −40
+  - x > 8 | :(-5) – Zeichen umdrehen!
+  tipps:
+  - 'Du formst wie bei einer Gleichung um: x-Glieder auf eine Seite, Zahlen auf die andere.'
+  - '**Einzige Ausnahme:** Multiplizierst oder dividierst du mit einer **negativen** Zahl, dreht sich das Zeichen um (aus < wird >).'
+  - Hier musst du durch eine negative Zahl dividieren – Zeichen umdrehen!
+  fehler:
+  - antwort: x < 8
+    hinweis: Beim Multiplizieren oder Dividieren mit einer **negativen** Zahl dreht sich das Ungleichheitszeichen um!

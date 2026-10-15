@@ -107,9 +107,9 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| B3.1 ★ | Ungleichungen umformen; Achtung: Ungleichheitszeichen umdrehen bei Multiplikation mit einer negativen Zahl | AG 2.4 |  |
-| B3.2 | Lösung als Intervall und auf der Zahlengeraden | AG 2.4 |  |
-| B3.3 | Ungleichungen aus Text aufstellen | AG 2.4 |  |
+| B3.1 ★ | Ungleichungen umformen | AG 2.4 | ✓ 40 |
+| B3.2 | Lösung als Intervall | AG 2.4 | ✓ 32 |
+| B3.3 | Ungleichungen aus Text | AG 2.4 | ✓ 16 |
 
 ### B4 Lineare Gleichungssysteme (2 Variablen)
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 41.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 44.
