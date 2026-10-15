@@ -1,0 +1,13 @@
+id: E4.2
+titel: "Von f′ zu f"
+ziel: Du liest aus dem Graphen von f′ Eigenschaften von f ab.
+erklaerung: |
+  Ist der Graph von **f′** gegeben:
+  - Wo f′ über der x-Achse liegt, **steigt** f; wo darunter, **fällt** f.
+  - **Nullstelle von f′ mit Wechsel von + nach −** → **Hochpunkt** von f.
+  - **Nullstelle von f′ mit Wechsel von − nach +** → **Tiefpunkt** von f.
+  - Hoch- oder Tiefpunkt von f′ → Wendestelle von f.
+beispiel:
+  text: |
+    Schneidet f′ die x-Achse bei x = 2 von oben nach unten, hat f bei x = 2 einen Hochpunkt.
+

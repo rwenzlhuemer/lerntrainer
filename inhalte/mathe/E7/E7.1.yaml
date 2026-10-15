@@ -1,0 +1,19 @@
+id: E7.1
+titel: "Stammfunktion"
+ziel: Du findest eine Funktion, deren Ableitung eine gegebene Funktion ist.
+erklaerung: |
+  Eine **Stammfunktion** F von f ist eine Funktion mit F′ = f – „Ableiten rückwärts“.
+
+  - xⁿ → xⁿ⁺¹/(n + 1): Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.
+  - Eine Zahl k → k·x.
+  - cos x → sin x, sin x → -cos x, `eˣ → `eˣ.
+
+  Man darf eine Konstante dazuzählen (+ C) – jede Stammfunktion ist richtig.
+  **Probe:** F ableiten muss wieder f ergeben.
+beispiel:
+  wert: "9"
+  text: |
+    `f(x) = x² → F(x) = x³/3. Probe: (x³/3)′ = x² ✓. F(3) = 9.
+  weg:
+    - "3^3/3 = 9"
+

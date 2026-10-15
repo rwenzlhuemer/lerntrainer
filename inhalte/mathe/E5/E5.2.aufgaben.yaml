@@ -1,0 +1,288 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E5.2-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -0,125x^3 + 0,375x^2 + 1,125x + 1,625`. Berechne die **y-Koordinate des Hochpunkts**.'
+  loesung: '5'
+  aus_term:
+    term: -0,125x^3 + 0,375x^2 + 1,125x + 1,625
+    groesse: hochpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 2x^3 - 12x^2 + 18x - 7`. Berechne die **x-Koordinate des Hochpunkts**.'
+  loesung: '1'
+  aus_term:
+    term: 2x^3 - 12x^2 + 18x - 7
+    groesse: hochpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 2x^3 + 6x^2 - 3`. Berechne die **y-Koordinate des Hochpunkts**.'
+  loesung: '5'
+  aus_term:
+    term: 2x^3 + 6x^2 - 3
+    groesse: hochpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 2x^3 + 6x^2 - 2`. Berechne die **y-Koordinate des Hochpunkts**.'
+  loesung: '6'
+  aus_term:
+    term: 2x^3 + 6x^2 - 2
+    groesse: hochpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 0,25x^3 + 0,75x^2 - 2,25x - 3,75`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '1'
+  aus_term:
+    term: 0,25x^3 + 0,75x^2 - 2,25x - 3,75
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-006
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = x^3 - 3x^2 + 1`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '2'
+  aus_term:
+    term: x^3 - 3x^2 + 1
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '0'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-007
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -0,125x^3 - 0,75x^2 + 5`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '-4'
+  aus_term:
+    term: -0,125x^3 - 0,75x^2 + 5
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '0'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-008
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 0,125x^3 + 0,375x^2 - 1,125x - 1,375`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '1'
+  aus_term:
+    term: 0,125x^3 + 0,375x^2 - 1,125x - 1,375
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 2x^3 - 6x - 2`. Berechne die **y-Koordinate des Tiefpunkts**.'
+  loesung: '-6'
+  aus_term:
+    term: 2x^3 - 6x - 2
+    groesse: tiefpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 0,125x^3 + 0,75x^2 - 5`. Berechne die **x-Koordinate des Hochpunkts**.'
+  loesung: '-4'
+  aus_term:
+    term: 0,125x^3 + 0,75x^2 - 5
+    groesse: hochpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '0'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-011
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -x^3 + 3x - 1`. Berechne die **x-Koordinate des Hochpunkts**.'
+  loesung: '1'
+  aus_term:
+    term: -x^3 + 3x - 1
+    groesse: hochpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-012
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 - 3x^2 + 5`. Berechne die **x-Koordinate des Hochpunkts**.'
+  loesung: '0'
+  aus_term:
+    term: x^3 - 3x^2 + 5
+    groesse: hochpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-013
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -0,125x^3 - 0,375x^2 + 1,125x + 1,375`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '-3'
+  aus_term:
+    term: -0,125x^3 - 0,375x^2 + 1,125x + 1,375
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-014
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 0,125x^3 - 1,5x + 3`. Berechne die **y-Koordinate des Hochpunkts**.'
+  loesung: '5'
+  aus_term:
+    term: 0,125x^3 - 1,5x + 3
+    groesse: hochpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-015
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 - 6x^2 + 9x - 5`. Berechne die **y-Koordinate des Tiefpunkts**.'
+  loesung: '-5'
+  aus_term:
+    term: x^3 - 6x^2 + 9x - 5
+    groesse: tiefpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-016
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -0,125x^3 + 1,5x`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '-2'
+  aus_term:
+    term: -0,125x^3 + 1,5x
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-017
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 0,125x^3 + 0,375x^2 - 1,125x - 3,375`. Berechne die **x-Koordinate des Hochpunkts**.'
+  loesung: '-3'
+  aus_term:
+    term: 0,125x^3 + 0,375x^2 - 1,125x - 3,375
+    groesse: hochpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-018
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -x^3 - 3x^2 + 4`. Berechne die **y-Koordinate des Hochpunkts**.'
+  loesung: '4'
+  aus_term:
+    term: -x^3 - 3x^2 + 4
+    groesse: hochpunkt_y
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler: []
+- id: E5.2-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -0,125x^3 + 0,75x^2 - 2`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '0'
+  aus_term:
+    term: -0,125x^3 + 0,75x^2 - 2
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '4'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'
+- id: E5.2-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x^3 - 3x + 3`. Berechne die **x-Koordinate des Tiefpunkts**.'
+  loesung: '1'
+  aus_term:
+    term: x^3 - 3x + 3
+    groesse: tiefpunkt_x
+  tipps:
+  - f′(x) = 0 liefert die Extremstellen.
+  - 'f″ entscheidet: f″ < 0 → Hochpunkt, f″ > 0 → Tiefpunkt.'
+  - Für die y-Koordinate x in f (nicht in f′!) einsetzen.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Prüf mit f″: negativ → Hochpunkt, positiv → Tiefpunkt.'

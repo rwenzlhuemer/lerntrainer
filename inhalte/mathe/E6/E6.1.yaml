@@ -1,0 +1,16 @@
+id: E6.1
+titel: "Bewegung: Weg, Geschwindigkeit, Beschleunigung"
+ziel: Du berechnest Geschwindigkeit und Beschleunigung mit Ableitungen.
+erklaerung: |
+  Ist s(t) der zurückgelegte Weg:
+  - **Geschwindigkeit** `v(t) = s′(t)
+  - **Beschleunigung** `a(t) = v′(t) = s″(t)
+
+  Einheiten: s in m, t in s → v in m/s, a in m/s².
+beispiel:
+  wert: "12"
+  text: |
+    s(t) = 2t² + 4t: `v(t) = 4t + 4, also v(2) = 12 m/s; `a(t) = 4 m/s².
+  weg:
+    - "4·2 + 4 = 12"
+

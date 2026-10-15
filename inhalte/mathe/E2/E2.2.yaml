@@ -1,0 +1,20 @@
+id: E2.2
+titel: Polynome ableiten
+ziel: Du leitest Summen und Vielfache ab.
+erklaerung: '- **Summenregel:** Jedes Glied wird einzeln abgeleitet.
+
+  - **Faktorregel:** Eine Zahl davor bleibt stehen: (5x³)′ = 15x².
+
+  - Eine **Zahl allein** (ohne x) fällt weg: ihre Ableitung ist 0.
+
+  - (kx)′ = k.
+
+
+  Bei Produkten von Klammern: zuerst ausmultiplizieren, dann ableiten.
+
+  '
+beispiel:
+  wert: '20'
+  text: '`f(x) = 2x³ - 4x + 7`: Jedes Glied einzeln: `f′(x) = 6x² - 4` (die 7 fällt weg). An der Stelle 2: 24 − 4 = 20.'
+  weg:
+  - 6·2^2 - 4 = 20

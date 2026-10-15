@@ -1,0 +1,158 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E2.4-001
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = sin(x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: cos(x)
+  ableitung_von: sin(x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: -cos(x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-002
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = e^x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: e^x
+  ableitung_von: e^x
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: x·e^(x-1)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-003
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = cos(x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -sin(x)
+  ableitung_von: cos(x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: sin(x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-004
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = sin(2x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 2cos(2x)
+  ableitung_von: sin(2x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: cos(2x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-005
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 3e^x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 3e^x
+  ableitung_von: 3e^x
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-006
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = cos(3x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -3sin(3x)
+  ableitung_von: cos(3x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: -sin(3x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-007
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 5e^(-x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -5e^(-x)
+  ableitung_von: 5e^(-x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: 5e^(-x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-008
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 2sin(x) + x^2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 2cos(x) + 2x
+  ableitung_von: 2sin(x) + x^2
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: 2cos(x) + x
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-009
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = e^(2x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 2e^(2x)
+  ableitung_von: e^(2x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: e^(2x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-010
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = sin(4x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 4cos(4x)
+  ableitung_von: sin(4x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: cos(4x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-011
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = 4cos(x) - 3x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -4sin(x) - 3
+  ableitung_von: 4cos(x) - 3x
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: 4sin(x) - 3
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'
+- id: E2.4-012
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = e^(0,5x)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 0,5e^(0,5x)
+  ableitung_von: e^(0,5x)
+  tipps:
+  - '`(sin x)′ = cos x`, `(cos x)′ = −sin x`, `(eˣ)′ = eˣ`.'
+  - 'Steht innen k·x, kommt der Faktor k nach vorne: `[f(kx)]′ = k · f′(kx)`.'
+  fehler:
+  - antwort: e^(0,5x)
+    hinweis: 'Prüf die Regel: Vorzeichen bei cos, und der innere Faktor k kommt nach vorne.'

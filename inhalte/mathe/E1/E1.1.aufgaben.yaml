@@ -1,0 +1,344 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E1.1-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -3x^2 + x + 1`. Berechne die **absolute Änderung** von f im Intervall [-1; 2].'
+  loesung: '-6'
+  aus_term:
+    term: -3x^2 + x + 1
+    groesse: differenz
+    von: -1
+    bis: 2
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(2) - f(-1)`'
+  fehler:
+  - antwort: '6'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -2x^2 - 3x + 3`. Berechne die **absolute Änderung** von f im Intervall [2; 3].'
+  loesung: '-13'
+  aus_term:
+    term: -2x^2 - 3x + 3
+    groesse: differenz
+    von: 2
+    bis: 3
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(3) - f(2)`'
+  fehler:
+  - antwort: '13'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -2x^2 + x + 3`. Berechne die **absolute Änderung** von f im Intervall [0; 1].'
+  loesung: '-1'
+  aus_term:
+    term: -2x^2 + x + 3
+    groesse: differenz
+    von: 0
+    bis: 1
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(1) - f(0)`'
+  fehler:
+  - antwort: '1'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -3x^2 - 2x + 2`. Berechne die **absolute Änderung** von f im Intervall [-2; 4].'
+  loesung: '-48'
+  aus_term:
+    term: -3x^2 - 2x + 2
+    groesse: differenz
+    von: -2
+    bis: 4
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(4) - f(-2)`'
+  fehler:
+  - antwort: '48'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -3x^2 - 2x + 2`. Berechne die **absolute Änderung** von f im Intervall [-1; 4].'
+  loesung: '-55'
+  aus_term:
+    term: -3x^2 - 2x + 2
+    groesse: differenz
+    von: -1
+    bis: 4
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(4) - f(-1)`'
+  fehler:
+  - antwort: '55'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-006
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 2x^2 + 3x + 3`. Berechne die **absolute Änderung** von f im Intervall [-1; 4].'
+  loesung: '45'
+  aus_term:
+    term: 2x^2 + 3x + 3
+    groesse: differenz
+    von: -1
+    bis: 4
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(4) - f(-1)`'
+  fehler:
+  - antwort: '-45'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-007
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -2x^2 + 3x - 1`. Berechne die **absolute Änderung** von f im Intervall [-2; 0].'
+  loesung: '14'
+  aus_term:
+    term: -2x^2 + 3x - 1
+    groesse: differenz
+    von: -2
+    bis: 0
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(0) - f(-2)`'
+  fehler:
+  - antwort: '-14'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-008
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -3x^2 + 2x`. Berechne die **absolute Änderung** von f im Intervall [2; 4].'
+  loesung: '-32'
+  aus_term:
+    term: -3x^2 + 2x
+    groesse: differenz
+    von: 2
+    bis: 4
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(4) - f(2)`'
+  fehler:
+  - antwort: '32'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 3x^2 - 3x - 1`. Berechne die **absolute Änderung** von f im Intervall [-1; 2].'
+  loesung: '0'
+  aus_term:
+    term: 3x^2 - 3x - 1
+    groesse: differenz
+    von: -1
+    bis: 2
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(2) - f(-1)`'
+  fehler: []
+- id: E1.1-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 3x^2 - x - 1`. Berechne die **absolute Änderung** von f im Intervall [0; 1].'
+  loesung: '2'
+  aus_term:
+    term: 3x^2 - x - 1
+    groesse: differenz
+    von: 0
+    bis: 1
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(1) - f(0)`'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-011
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 3x^2 + 3x + 2`. Berechne die **absolute Änderung** von f im Intervall [0; 2].'
+  loesung: '18'
+  aus_term:
+    term: 3x^2 + 3x + 2
+    groesse: differenz
+    von: 0
+    bis: 2
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(2) - f(0)`'
+  fehler:
+  - antwort: '-18'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-012
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -3x^2 - x + 3`. Berechne die **absolute Änderung** von f im Intervall [-1; 4].'
+  loesung: '-50'
+  aus_term:
+    term: -3x^2 - x + 3
+    groesse: differenz
+    von: -1
+    bis: 4
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(4) - f(-1)`'
+  fehler:
+  - antwort: '50'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-013
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 3x^3 + x^2 - 3x`. Berechne die **relative Änderung** von f im Intervall [-2; 3] (als Dezimalzahl).'
+  loesung: -95/14
+  rechnung: (81 - (-14))/(-14)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(-2) = -14, f(3) = 81.
+  fehler:
+  - antwort: 95/81
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-014
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 2x^3 - 2x^2 - 2x + 1`. Berechne die **relative Änderung** von f im Intervall [1; 4] (als Dezimalzahl).'
+  loesung: '-90'
+  rechnung: (89 - (-1))/(-1)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(1) = -1, f(4) = 89.
+  fehler:
+  - antwort: 90/89
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-015
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -2x^3 - 2x^2 + x - 1`. Berechne die **relative Änderung** von f im Intervall [-2; 4] (als Dezimalzahl).'
+  loesung: -32,4
+  rechnung: (-157 - (5))/(5)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(-2) = 5, f(4) = -157.
+  fehler:
+  - antwort: 162/157
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-016
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -3x^3 + 2x^2 - 3x - 2`. Berechne die **relative Änderung** von f im Intervall [-1; 4] (als Dezimalzahl).'
+  loesung: '-30'
+  rechnung: (-174 - (6))/(6)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(-1) = 6, f(4) = -174.
+  fehler:
+  - antwort: 30/29
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-017
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -3x^3 - 3x^2 - 3`. Berechne die **relative Änderung** von f im Intervall [0; 3] (als Dezimalzahl).'
+  loesung: '36'
+  rechnung: (-111 - (-3))/(-3)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(0) = -3, f(3) = -111.
+  fehler:
+  - antwort: 36/37
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-018
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 3x^3 + 3x^2 + x + 3`. Berechne die **relative Änderung** von f im Intervall [2; 3] (als Dezimalzahl).'
+  loesung: 73/41
+  rechnung: (114 - (41))/(41)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(2) = 41, f(3) = 114.
+  fehler:
+  - antwort: 73/114
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x^3 + x^2 - 3x - 2`. Berechne die **absolute Änderung** von f im Intervall [-1; 1].'
+  loesung: '-2'
+  aus_term:
+    term: 2x^3 + x^2 - 3x - 2
+    groesse: differenz
+    von: -1
+    bis: 1
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(1) - f(-1)`'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -2x^3 - 3x - 3`. Berechne die **relative Änderung** von f im Intervall [-1; 1] (als Dezimalzahl).'
+  loesung: '-5'
+  rechnung: (-8 - (2))/(2)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(-1) = 2, f(1) = -8.
+  fehler:
+  - antwort: 5/4
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-021
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x^3 + 3x + 3`. Berechne die **relative Änderung** von f im Intervall [-2; 2] (als Dezimalzahl).'
+  loesung: -44/19
+  rechnung: (25 - (-19))/(-19)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(-2) = -19, f(2) = 25.
+  fehler:
+  - antwort: 44/25
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-022
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -3x^3 + 3x^2 + 3x - 1`. Berechne die **relative Änderung** von f im Intervall [1; 2] (als Dezimalzahl).'
+  loesung: -4,5
+  rechnung: (-7 - (2))/(2)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(1) = 2, f(2) = -7.
+  fehler:
+  - antwort: 9/7
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).
+- id: E1.1-023
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -x^3 - 1`. Berechne die **absolute Änderung** von f im Intervall [-1; 4].'
+  loesung: '-65'
+  aus_term:
+    term: -x^3 - 1
+    groesse: differenz
+    von: -1
+    bis: 4
+  tipps:
+  - Absolute Änderung = f(b) − f(a).
+  - '`f(4) - f(-1)`'
+  fehler:
+  - antwort: '65'
+    hinweis: 'Neuer minus alter Wert: f(b) − f(a).'
+- id: E1.1-024
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -x^3 - 3x - 3`. Berechne die **relative Änderung** von f im Intervall [-2; 2] (als Dezimalzahl).'
+  loesung: -28/11
+  rechnung: (-17 - (11))/(11)
+  tipps:
+  - 'Relative Änderung = (f(b) − f(a)) : f(a).'
+  - f(-2) = 11, f(2) = -17.
+  fehler:
+  - antwort: 28/17
+    hinweis: Geteilt wird durch den **Anfangswert** f(a).

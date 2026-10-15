@@ -1,0 +1,328 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E2.2-001
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = 4x^2 - 2x + 5`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 8x - 2
+  ableitung_von: 4x^2 - 2x + 5
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 8x + 3
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-002
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = 4x^2 + 5x - 6`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 8x + 5
+  ableitung_von: 4x^2 + 5x - 6
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 8x - 1
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-003
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = 5x^2 + 5x + 4`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 10x + 5
+  ableitung_von: 5x^2 + 5x + 4
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 10x + 9
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-004
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = 5x^2 + 4x - 2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 10x + 4
+  ableitung_von: 5x^2 + 4x - 2
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 10x + 2
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-005
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = -5x^2 - 6x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -10x - 6
+  ableitung_von: -5x^2 - 6x
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler: []
+- id: E2.2-006
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = 4x^2 + 6x - 6`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 8x + 6
+  ableitung_von: 4x^2 + 6x - 6
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 8x
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-007
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = -4x^3 + 6x^2 - x - 4`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -12x^2 + 12x - 1
+  ableitung_von: -4x^3 + 6x^2 - x - 4
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: -12x^2 + 12x - 5
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-008
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 6x^3 - x^2 - 6x + 2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 18x^2 - 2x - 6
+  ableitung_von: 6x^3 - x^2 - 6x + 2
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 18x^2 - 2x - 4
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-009
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 3x^3 - 4x^2 + 3x + 6`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 9x^2 - 8x + 3
+  ableitung_von: 3x^3 - 4x^2 + 3x + 6
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 9x^2 - 8x + 9
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-010
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = -3x^3 + 3x^2 - 2x - 2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -9x^2 + 6x - 2
+  ableitung_von: -3x^3 + 3x^2 - 2x - 2
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: -9x^2 + 6x - 4
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-011
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 4x^3 - 3x^2 + 2x + 2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 12x^2 - 6x + 2
+  ableitung_von: 4x^3 - 3x^2 + 2x + 2
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 12x^2 - 6x + 4
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-012
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = -5x^3 + 5x - 3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -15x^2 + 5
+  ableitung_von: -5x^3 + 5x - 3
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: -15x^2 + 2
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-013
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 2,5x^4 - 3x^2 - 2x + 3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 10x^3 - 6x - 2
+  ableitung_von: 2,5x^4 - 3x^2 - 2x + 3
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 10x^3 - 6x + 1
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-014
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 3x^4 - 6x^3 + 2x + 1`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 12x^3 - 18x^2 + 2
+  ableitung_von: 3x^4 - 6x^3 + 2x + 1
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 12x^3 - 18x^2 + 3
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-015
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 0,5x^4 - 2x^3 - 6x^2 - 1,5x - 6`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 2x^3 - 6x^2 - 12x - 1,5
+  ableitung_von: 0,5x^4 - 2x^3 - 6x^2 - 1,5x - 6
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 2x^3 - 6x^2 - 12x - 7,5
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-016
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 3x^4 - x^3 - 3x^2 - 2x - 4`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 12x^3 - 3x^2 - 6x - 2
+  ableitung_von: 3x^4 - x^3 - 3x^2 - 2x - 4
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 12x^3 - 3x^2 - 6x - 6
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-017
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 2x^4 - x^3 + 3x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 8x^3 - 3x^2 + 3
+  ableitung_von: 2x^4 - x^3 + 3x
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler: []
+- id: E2.2-018
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 2,5x^4 + x^3 - 2x^2 - x + 1`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 10x^3 + 3x^2 - 4x - 1
+  ableitung_von: 2,5x^4 + x^3 - 2x^2 - x + 1
+  tipps:
+  - 'Summenregel: Jedes Glied einzeln ableiten.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Eine Zahl ohne x fällt weg (Ableitung 0).
+  fehler:
+  - antwort: 10x^3 + 3x^2 - 4x
+    hinweis: Eine Zahl ohne x fällt beim Ableiten weg.
+- id: E2.2-019
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = (-3x - 2)(-3x + 3)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 18x - 3
+  ableitung_von: (-3x - 2)(-3x + 3)
+  tipps:
+  - Multipliziere zuerst aus, dann leite jedes Glied ab.
+  - 'Ausmultipliziert: `9x^2 - 3x - 6`.'
+  fehler:
+  - antwort: '9'
+    hinweis: Man darf nicht einfach die Faktoren einzeln ableiten – zuerst ausmultiplizieren.
+- id: E2.2-020
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = (-3x + 3)(x + 1)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -6x
+  ableitung_von: (-3x + 3)(x + 1)
+  tipps:
+  - Multipliziere zuerst aus, dann leite jedes Glied ab.
+  - 'Ausmultipliziert: `-3x^2 + 3`.'
+  fehler:
+  - antwort: '-3'
+    hinweis: Man darf nicht einfach die Faktoren einzeln ableiten – zuerst ausmultiplizieren.
+- id: E2.2-021
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = (-x - 3)(-3x - 1)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 6x + 10
+  ableitung_von: (-x - 3)(-3x - 1)
+  tipps:
+  - Multipliziere zuerst aus, dann leite jedes Glied ab.
+  - 'Ausmultipliziert: `3x^2 + 10x + 3`.'
+  fehler:
+  - antwort: '3'
+    hinweis: Man darf nicht einfach die Faktoren einzeln ableiten – zuerst ausmultiplizieren.
+- id: E2.2-022
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = (-x - 3)(-x + 2)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 2x + 1
+  ableitung_von: (-x - 3)(-x + 2)
+  tipps:
+  - Multipliziere zuerst aus, dann leite jedes Glied ab.
+  - 'Ausmultipliziert: `x^2 + x - 6`.'
+  fehler:
+  - antwort: '1'
+    hinweis: Man darf nicht einfach die Faktoren einzeln ableiten – zuerst ausmultiplizieren.
+- id: E2.2-023
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = (-3x - 2)(-2x - 3)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 12x + 13
+  ableitung_von: (-3x - 2)(-2x - 3)
+  tipps:
+  - Multipliziere zuerst aus, dann leite jedes Glied ab.
+  - 'Ausmultipliziert: `6x^2 + 13x + 6`.'
+  fehler:
+  - antwort: '6'
+    hinweis: Man darf nicht einfach die Faktoren einzeln ableiten – zuerst ausmultiplizieren.
+- id: E2.2-024
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = (-3x - 3)(-x - 1)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 6x + 6
+  ableitung_von: (-3x - 3)(-x - 1)
+  tipps:
+  - Multipliziere zuerst aus, dann leite jedes Glied ab.
+  - 'Ausmultipliziert: `3x^2 + 6x + 3`.'
+  fehler:
+  - antwort: '3'
+    hinweis: Man darf nicht einfach die Faktoren einzeln ableiten – zuerst ausmultiplizieren.

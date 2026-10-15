@@ -1,0 +1,17 @@
+id: E5.1
+titel: Nullstellen von Polynomen
+ziel: Du berechnest Nullstellen von Polynomen bis Grad 4 – mit Herausheben und Substitution.
+erklaerung: 'Nullstellen: `f(x) = 0 lösen.
+
+  - Fehlt die Zahl ohne x: **x herausheben** → Produkt-Null-Satz. x³ - 4x = x(x² - 4).
+
+  - Kommen nur x⁴ und x² vor: **x² = u** setzen, quadratische Gleichung in u lösen, dann x = ±√u.
+
+  - Doppelte Nullstellen (z. B. aus x²) zählen nur einmal.
+
+  '
+beispiel:
+  wert: '0'
+  text: '`x³ - 4x = 0` → `x(x² - 4) = 0` → x = 0 oder x = 2 oder x = −2. Probe für x = 2: 8 − 8 = 0.'
+  weg:
+  - 2^3 - 4·2 = 0

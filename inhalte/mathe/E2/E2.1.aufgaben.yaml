@@ -1,0 +1,332 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E2.1-001
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = x^5`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 5x^4
+  ableitung_von: x^5
+  tipps:
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: x^4
+    hinweis: Die alte Hochzahl kommt als Faktor nach vorne.
+  - antwort: 5x^5
+    hinweis: Die Hochzahl wird um 1 kleiner.
+- id: E2.1-002
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = x^4`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 4x^3
+  ableitung_von: x^4
+  tipps:
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: x^3
+    hinweis: Die alte Hochzahl kommt als Faktor nach vorne.
+  - antwort: 4x^4
+    hinweis: Die Hochzahl wird um 1 kleiner.
+- id: E2.1-003
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = x^2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 2x
+  ableitung_von: x^2
+  tipps:
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: x^1
+    hinweis: Die alte Hochzahl kommt als Faktor nach vorne.
+  - antwort: 2x^2
+    hinweis: Die Hochzahl wird um 1 kleiner.
+- id: E2.1-004
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = x^6`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 6x^5
+  ableitung_von: x^6
+  tipps:
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: x^5
+    hinweis: Die alte Hochzahl kommt als Faktor nach vorne.
+  - antwort: 6x^6
+    hinweis: Die Hochzahl wird um 1 kleiner.
+- id: E2.1-005
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = x^3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 3x^2
+  ableitung_von: x^3
+  tipps:
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: x^2
+    hinweis: Die alte Hochzahl kommt als Faktor nach vorne.
+  - antwort: 3x^3
+    hinweis: Die Hochzahl wird um 1 kleiner.
+- id: E2.1-006
+  typ: term
+  stufe: 1
+  frage: 'Leite ab: `f(x) = x^9`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 9x^8
+  ableitung_von: x^9
+  tipps:
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: x^8
+    hinweis: Die alte Hochzahl kommt als Faktor nach vorne.
+  - antwort: 9x^9
+    hinweis: Die Hochzahl wird um 1 kleiner.
+- id: E2.1-007
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 3x^4`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 12x^3
+  ableitung_von: 3x^4
+  tipps:
+  - 'Faktorregel: Die Zahl davor bleibt stehen.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: 3x^3
+    hinweis: 'Die Hochzahl kommt auch nach vorne: mal n.'
+- id: E2.1-008
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = -4x^5`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -20x^4
+  ableitung_von: -4x^5
+  tipps:
+  - 'Faktorregel: Die Zahl davor bleibt stehen.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: -4x^4
+    hinweis: 'Die Hochzahl kommt auch nach vorne: mal n.'
+- id: E2.1-009
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = -1x^3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -3x^2
+  ableitung_von: -1x^3
+  tipps:
+  - 'Faktorregel: Die Zahl davor bleibt stehen.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: -x^2
+    hinweis: 'Die Hochzahl kommt auch nach vorne: mal n.'
+- id: E2.1-010
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = -3x^6`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -18x^5
+  ableitung_von: -3x^6
+  tipps:
+  - 'Faktorregel: Die Zahl davor bleibt stehen.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: -3x^5
+    hinweis: 'Die Hochzahl kommt auch nach vorne: mal n.'
+- id: E2.1-011
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 2x^5`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 10x^4
+  ableitung_von: 2x^5
+  tipps:
+  - 'Faktorregel: Die Zahl davor bleibt stehen.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: 2x^4
+    hinweis: 'Die Hochzahl kommt auch nach vorne: mal n.'
+- id: E2.1-012
+  typ: term
+  stufe: 2
+  frage: 'Leite ab: `f(x) = 3x^3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 9x^2
+  ableitung_von: 3x^3
+  tipps:
+  - 'Faktorregel: Die Zahl davor bleibt stehen.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  fehler:
+  - antwort: 3x^2
+    hinweis: 'Die Hochzahl kommt auch nach vorne: mal n.'
+- id: E2.1-013
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 4/x^3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -12/x^4
+  ableitung_von: 4/x^3
+  tipps:
+  - 'Schreib zuerst als Potenz: `a/xⁿ = a · x⁻ⁿ`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Die neue Hochzahl ist −n − 1.
+  fehler:
+  - antwort: 4/x^2
+    hinweis: Schreib als Potenz mit negativer Hochzahl, dann Potenzregel.
+- id: E2.1-014
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 3/x^3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -9/x^4
+  ableitung_von: 3/x^3
+  tipps:
+  - 'Schreib zuerst als Potenz: `a/xⁿ = a · x⁻ⁿ`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Die neue Hochzahl ist −n − 1.
+  fehler:
+  - antwort: 3/x^2
+    hinweis: Schreib als Potenz mit negativer Hochzahl, dann Potenzregel.
+- id: E2.1-015
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 2/x^2`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -4/x^3
+  ableitung_von: 2/x^2
+  tipps:
+  - 'Schreib zuerst als Potenz: `a/xⁿ = a · x⁻ⁿ`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Die neue Hochzahl ist −n − 1.
+  fehler:
+  - antwort: 2/x^1
+    hinweis: Schreib als Potenz mit negativer Hochzahl, dann Potenzregel.
+- id: E2.1-016
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = -1/x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 1/x^2
+  ableitung_von: -1/x
+  tipps:
+  - 'Schreib zuerst als Potenz: `a/xⁿ = a · x⁻ⁿ`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Die neue Hochzahl ist −n − 1.
+  fehler:
+  - antwort: '-1'
+    hinweis: Schreib als Potenz mit negativer Hochzahl, dann Potenzregel.
+- id: E2.1-017
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = -2/x^3`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 6/x^4
+  ableitung_von: -2/x^3
+  tipps:
+  - 'Schreib zuerst als Potenz: `a/xⁿ = a · x⁻ⁿ`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Die neue Hochzahl ist −n − 1.
+  fehler:
+  - antwort: -2/x^2
+    hinweis: Schreib als Potenz mit negativer Hochzahl, dann Potenzregel.
+- id: E2.1-018
+  typ: term
+  stufe: 3
+  frage: 'Leite ab: `f(x) = 2/x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: -2/x^2
+  ableitung_von: 2/x
+  tipps:
+  - 'Schreib zuerst als Potenz: `a/xⁿ = a · x⁻ⁿ`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - Die neue Hochzahl ist −n − 1.
+  fehler:
+  - antwort: '2'
+    hinweis: Schreib als Potenz mit negativer Hochzahl, dann Potenzregel.
+- id: E2.1-019
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = x^(1/3)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 1/(3x^(2/3))
+  ableitung_von: x^(1/3)
+  tipps:
+  - 'Wurzel als Potenz: `√x = x^(1/2)`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - '`1/2 − 1 = −1/2`, und `x^(-1/2) = 1/√x`.'
+  fehler:
+  - antwort: x^(1/3)/3
+    hinweis: 'Potenzregel: Hochzahl nach vorne, neue Hochzahl um 1 kleiner (bei √x wird sie negativ).'
+- id: E2.1-020
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = x^(3/2)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 3√x/2
+  ableitung_von: x^(3/2)
+  tipps:
+  - 'Wurzel als Potenz: `√x = x^(1/2)`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - '`1/2 − 1 = −1/2`, und `x^(-1/2) = 1/√x`.'
+  fehler:
+  - antwort: x^(1/2)
+    hinweis: 'Potenzregel: Hochzahl nach vorne, neue Hochzahl um 1 kleiner (bei √x wird sie negativ).'
+- id: E2.1-021
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = 2√x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 1/√x
+  ableitung_von: 2√x
+  tipps:
+  - 'Wurzel als Potenz: `√x = x^(1/2)`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - '`1/2 − 1 = −1/2`, und `x^(-1/2) = 1/√x`.'
+  fehler:
+  - antwort: √x
+    hinweis: 'Potenzregel: Hochzahl nach vorne, neue Hochzahl um 1 kleiner (bei √x wird sie negativ).'
+- id: E2.1-022
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = x^(5/2)`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 5x^(3/2)/2
+  ableitung_von: x^(5/2)
+  tipps:
+  - 'Wurzel als Potenz: `√x = x^(1/2)`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - '`1/2 − 1 = −1/2`, und `x^(-1/2) = 1/√x`.'
+  fehler:
+  - antwort: x^(3/2)
+    hinweis: 'Potenzregel: Hochzahl nach vorne, neue Hochzahl um 1 kleiner (bei √x wird sie negativ).'
+- id: E2.1-023
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = √x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 1/(2√x)
+  ableitung_von: √x
+  tipps:
+  - 'Wurzel als Potenz: `√x = x^(1/2)`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - '`1/2 − 1 = −1/2`, und `x^(-1/2) = 1/√x`.'
+  fehler:
+  - antwort: √x/2
+    hinweis: 'Potenzregel: Hochzahl nach vorne, neue Hochzahl um 1 kleiner (bei √x wird sie negativ).'
+- id: E2.1-024
+  typ: term
+  stufe: 4
+  frage: 'Leite ab: `f(x) = 6√x`. Gib `f′(x)` an.'
+  form: frei
+  loesung: 3/√x
+  ableitung_von: 6√x
+  tipps:
+  - 'Wurzel als Potenz: `√x = x^(1/2)`.'
+  - 'Potenzregel: `(xⁿ)′ = n · xⁿ⁻¹` – die Hochzahl kommt nach vorne, die neue Hochzahl ist um 1 kleiner.'
+  - '`1/2 − 1 = −1/2`, und `x^(-1/2) = 1/√x`.'
+  fehler:
+  - antwort: 3√x
+    hinweis: 'Potenzregel: Hochzahl nach vorne, neue Hochzahl um 1 kleiner (bei √x wird sie negativ).'

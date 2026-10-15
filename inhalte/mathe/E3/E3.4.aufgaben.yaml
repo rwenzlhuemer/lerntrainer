@@ -1,0 +1,410 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E3.4-001
+  typ: auswahl
+  stufe: 1
+  frage: '`f(x) = x^3 - 2x^2 - x - 3`. Ist der Graph an der Stelle x = 1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: x^3 - 2x^2 - x - 3
+    x: 1
+  erklaerung: '`f″(x) = 6x - 4`, also `f″(1) = 2`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-002
+  typ: auswahl
+  stufe: 1
+  frage: '`f(x) = -3x^3 - 3x^2 - 2x + 2`. Ist der Graph an der Stelle x = 2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -3x^3 - 3x^2 - 2x + 2
+    x: 2
+  erklaerung: '`f″(x) = -18x - 6`, also `f″(2) = -42`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-003
+  typ: auswahl
+  stufe: 1
+  frage: '`f(x) = -x^3 - 2x^2 - 2`. Ist der Graph an der Stelle x = 3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -x^3 - 2x^2 - 2
+    x: 3
+  erklaerung: '`f″(x) = -6x - 4`, also `f″(3) = -22`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-004
+  typ: auswahl
+  stufe: 1
+  frage: '`f(x) = -3x^3 - x^2 - 2x - 2`. Ist der Graph an der Stelle x = 3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -3x^3 - x^2 - 2x - 2
+    x: 3
+  erklaerung: '`f″(x) = -18x - 2`, also `f″(3) = -56`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-005
+  typ: auswahl
+  stufe: 1
+  frage: '`f(x) = 2x^3 + 3x^2 + 2x - 1`. Ist der Graph an der Stelle x = -1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: 2x^3 + 3x^2 + 2x - 1
+    x: -1
+  erklaerung: '`f″(x) = 12x + 6`, also `f″(-1) = -6`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-006
+  typ: auswahl
+  stufe: 1
+  frage: '`f(x) = x^3 + 2x^2 - 3x + 2`. Ist der Graph an der Stelle x = -2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: x^3 + 2x^2 - 3x + 2
+    x: -2
+  erklaerung: '`f″(x) = 6x + 4`, also `f″(-2) = -8`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-007
+  typ: auswahl
+  stufe: 2
+  frage: '`f(x) = -2x^3 - x^2 + x + 1`. Ist der Graph an der Stelle x = -2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: -2x^3 - x^2 + x + 1
+    x: -2
+  erklaerung: '`f″(x) = -12x - 2`, also `f″(-2) = 22`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-008
+  typ: auswahl
+  stufe: 2
+  frage: '`f(x) = -x^3 + 2x^2 - 1`. Ist der Graph an der Stelle x = -3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: -x^3 + 2x^2 - 1
+    x: -3
+  erklaerung: '`f″(x) = -6x + 4`, also `f″(-3) = 22`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-009
+  typ: auswahl
+  stufe: 2
+  frage: '`f(x) = 2x^3 - 3x - 3`. Ist der Graph an der Stelle x = 1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: 2x^3 - 3x - 3
+    x: 1
+  erklaerung: '`f″(x) = 12x`, also `f″(1) = 12`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-010
+  typ: auswahl
+  stufe: 2
+  frage: '`f(x) = -2x^3 + 3x^2 + 2x + 3`. Ist der Graph an der Stelle x = -2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: -2x^3 + 3x^2 + 2x + 3
+    x: -2
+  erklaerung: '`f″(x) = -12x + 6`, also `f″(-2) = 30`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-011
+  typ: auswahl
+  stufe: 2
+  frage: '`f(x) = 2x^3 + x^2 - x + 3`. Ist der Graph an der Stelle x = -1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: 2x^3 + x^2 - x + 3
+    x: -1
+  erklaerung: '`f″(x) = 12x + 2`, also `f″(-1) = -10`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-012
+  typ: auswahl
+  stufe: 2
+  frage: '`f(x) = x^3 - x^2 + 3x + 3`. Ist der Graph an der Stelle x = -1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: x^3 - x^2 + 3x + 3
+    x: -1
+  erklaerung: '`f″(x) = 6x - 2`, also `f″(-1) = -8`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-013
+  typ: auswahl
+  stufe: 3
+  frage: '`f(x) = -3x^3 + 3x^2 + 3x + 1`. Ist der Graph an der Stelle x = 2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -3x^3 + 3x^2 + 3x + 1
+    x: 2
+  erklaerung: '`f″(x) = -18x + 6`, also `f″(2) = -30`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-014
+  typ: auswahl
+  stufe: 3
+  frage: '`f(x) = -x^3 - 2x^2 - 2x - 1`. Ist der Graph an der Stelle x = 3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -x^3 - 2x^2 - 2x - 1
+    x: 3
+  erklaerung: '`f″(x) = -6x - 4`, also `f″(3) = -22`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-015
+  typ: auswahl
+  stufe: 3
+  frage: '`f(x) = -3x^3 + 2x^2 + 2x + 2`. Ist der Graph an der Stelle x = 2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -3x^3 + 2x^2 + 2x + 2
+    x: 2
+  erklaerung: '`f″(x) = -18x + 4`, also `f″(2) = -32`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-016
+  typ: auswahl
+  stufe: 3
+  frage: '`f(x) = -2x^3 + x^2 - 2x - 1`. Ist der Graph an der Stelle x = 2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -2x^3 + x^2 - 2x - 1
+    x: 2
+  erklaerung: '`f″(x) = -12x + 2`, also `f″(2) = -22`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-017
+  typ: auswahl
+  stufe: 3
+  frage: '`f(x) = 3x^3 + 3x^2 - 3x - 2`. Ist der Graph an der Stelle x = -3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: 3x^3 + 3x^2 - 3x - 2
+    x: -3
+  erklaerung: '`f″(x) = 18x + 6`, also `f″(-3) = -48`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-018
+  typ: auswahl
+  stufe: 3
+  frage: '`f(x) = 3x^3 + x - 3`. Ist der Graph an der Stelle x = -2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: 3x^3 + x - 3
+    x: -2
+  erklaerung: '`f″(x) = 18x`, also `f″(-2) = -36`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-019
+  typ: auswahl
+  stufe: 4
+  frage: '`f(x) = -2x^3 - 2x^2 - 2x - 2`. Ist der Graph an der Stelle x = 3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -2x^3 - 2x^2 - 2x - 2
+    x: 3
+  erklaerung: '`f″(x) = -12x - 4`, also `f″(3) = -40`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-020
+  typ: auswahl
+  stufe: 4
+  frage: '`f(x) = -x^3 - 2x - 1`. Ist der Graph an der Stelle x = -1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: -x^3 - 2x - 1
+    x: -1
+  erklaerung: '`f″(x) = -6x`, also `f″(-1) = 6`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-021
+  typ: auswahl
+  stufe: 4
+  frage: '`f(x) = -3x^3 - x^2 - x - 2`. Ist der Graph an der Stelle x = 3 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -3x^3 - x^2 - x - 2
+    x: 3
+  erklaerung: '`f″(x) = -18x - 2`, also `f″(3) = -56`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-022
+  typ: auswahl
+  stufe: 4
+  frage: '`f(x) = -2x^3 - 3x^2 + 3x - 3`. Ist der Graph an der Stelle x = -1 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: -2x^3 - 3x^2 + 3x - 3
+    x: -1
+  erklaerung: '`f″(x) = -12x - 6`, also `f″(-1) = 6`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-023
+  typ: auswahl
+  stufe: 4
+  frage: '`f(x) = -2x^3 + x^2 - 3x + 2`. Ist der Graph an der Stelle x = 2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 1
+  pruefung:
+    art: kruemmung
+    term: -2x^3 + x^2 - 3x + 2
+    x: 2
+  erklaerung: '`f″(x) = -12x + 2`, also `f″(2) = -22`. Negativ: rechtsgekrümmt.'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'
+- id: E3.4-024
+  typ: auswahl
+  stufe: 4
+  frage: '`f(x) = -x^3 - 2x - 1`. Ist der Graph an der Stelle x = -2 links- oder rechtsgekrümmt?'
+  optionen:
+  - linksgekrümmt (f″ > 0)
+  - rechtsgekrümmt (f″ < 0)
+  richtig:
+  - 0
+  pruefung:
+    art: kruemmung
+    term: -x^3 - 2x - 1
+    x: -2
+  erklaerung: '`f″(x) = -6x`, also `f″(-2) = 12`. Positiv: linksgekrümmt (wie ein lächelnder Mund).'
+  tipps:
+  - Zweimal ableiten, dann x einsetzen.
+  - 'f″ > 0: linksgekrümmt, f″ < 0: rechtsgekrümmt.'

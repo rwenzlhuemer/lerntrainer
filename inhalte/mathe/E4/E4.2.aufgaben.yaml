@@ -1,0 +1,482 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E4.2-001
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-3'
+  aus_term:
+    term: -x^2 - x + 6
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x^2 - x + 6
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-002
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '1'
+  aus_term:
+    term: 0,5x^2 + 0,5x - 1
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: 0,5x^2 + 0,5x - 1
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-003
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Hochpunkt**?
+  loesung: '2'
+  aus_term:
+    term: -x^2 + 4
+    groesse: vzw_plus_minus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x^2 + 4
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-004
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-1'
+  aus_term:
+    term: x^2 + 4x + 3
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 + 4x + 3
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-005
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-3'
+  aus_term:
+    term: -0,5x^2 - 0,5x + 3
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -0,5x^2 - 0,5x + 3
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-006
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '3'
+  aus_term:
+    term: x^2 - 2x - 3
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 - 2x - 3
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-007
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '1'
+  aus_term:
+    term: x^2 + x - 2
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 + x - 2
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-008
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-3'
+  aus_term:
+    term: -0,5x^2 + 4,5
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -0,5x^2 + 4,5
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-009
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-2'
+  aus_term:
+    term: x^2 + 5x + 6
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 + 5x + 6
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-010
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-3'
+  aus_term:
+    term: -x^2 - 2x + 3
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x^2 - 2x + 3
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '1'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-011
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Hochpunkt**?
+  loesung: '0'
+  aus_term:
+    term: -x^2 - 3x
+    groesse: vzw_plus_minus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x^2 - 3x
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-012
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '2'
+  aus_term:
+    term: 0,5x^2 - 1,5x + 1
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: 0,5x^2 - 1,5x + 1
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '1'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-013
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Hochpunkt**?
+  loesung: '2'
+  aus_term:
+    term: -x^2 + 2x
+    groesse: vzw_plus_minus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x^2 + 2x
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '0'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-014
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '3'
+  aus_term:
+    term: x^2 - 5x + 6
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 - 5x + 6
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-015
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Hochpunkt**?
+  loesung: '0'
+  aus_term:
+    term: 0,5x^2 - 1,5x
+    groesse: vzw_plus_minus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: 0,5x^2 - 1,5x
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-016
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '0'
+  aus_term:
+    term: 0,5x^2 + x
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: 0,5x^2 + x
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-017
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '3'
+  aus_term:
+    term: x^2 - x - 6
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 - x - 6
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-018
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '-2'
+  aus_term:
+    term: -0,5x^2 - 1,5x - 1
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -0,5x^2 - 1,5x - 1
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-019
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Tiefpunkt**?
+  loesung: '1'
+  aus_term:
+    term: 0,5x^2 - 0,5
+    groesse: vzw_minus_plus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: 0,5x^2 - 0,5
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'
+- id: E4.2-020
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist der Graph der **Ableitung f′**. An welcher Stelle hat f einen **Hochpunkt**?
+  loesung: '-2'
+  aus_term:
+    term: 0,5x^2 - 0,5x - 3
+    groesse: vzw_plus_minus
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: 0,5x^2 - 0,5x - 3
+      name: f′
+  tipps:
+  - f hat eine Extremstelle, wo f′ die x-Achse schneidet (f′ = 0).
+  - 'Hochpunkt: f′ wechselt von + nach − (der Graph von f′ geht von oben nach unten durch die x-Achse). Tiefpunkt: von − nach +.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Prüf den Vorzeichenwechsel: Hochpunkt von f heißt f′ wechselt von plus nach minus.'

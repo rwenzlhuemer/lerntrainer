@@ -1,0 +1,17 @@
+id: E2.4
+titel: "Sinus, Cosinus und e-Funktion ableiten"
+ziel: Du leitest sin, cos, eˣ und Funktionen der Form f(kx) ab.
+erklaerung: |
+  - (sin x)′ = cos x
+  - (cos x)′ = -sin x
+  - (eˣ)′ = eˣ – die e-Funktion ist ihre eigene Ableitung!
+
+  Steht innen ein Vielfaches k·x, kommt k als Faktor nach vorne:
+  (sin(2x))′ = 2cos(2x), (e^(3x))′ = 3e^(3x).
+beispiel:
+  wert: "2"
+  text: |
+    (sin(2x))′ = 2cos(2x). Bei x = 0: 2 · cos(0) = 2.
+  weg:
+    - "2·cos(0) = 2"
+

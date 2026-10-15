@@ -1,0 +1,17 @@
+id: E1.2
+titel: "Differenzenquotient"
+ziel: Du berechnest die mittlere Änderungsrate einer Funktion.
+erklaerung: |
+  Der **Differenzenquotient** (mittlere Änderungsrate) im Intervall [a; b] ist
+
+  (f(b) - f(a)) : (b - a)
+
+  Geometrisch: die Steigung der **Sekante** durch die Punkte (a|f(a)) und (b|f(b)).
+  Im Kontext: z. B. die durchschnittliche Geschwindigkeit.
+beispiel:
+  wert: "5"
+  text: |
+    `f(x) = x² in [2; 3]: (9 − 4) : (3 − 2) = 5.
+  weg:
+    - "(3^2 - 2^2)/(3 - 2) = 5"
+

@@ -1,0 +1,20 @@
+id: E7.7
+titel: Integral im Kontext
+ziel: Du berechnest Gesamtmengen aus Änderungsraten.
+erklaerung: 'Das Integral einer **Rate** ergibt die **Gesamtmenge**:
+
+  - Geschwindigkeit v(t) → Integral = **zurückgelegter Weg**
+
+  - Zuflussrate r(t) → Integral = **zugeflossene Menge**
+
+  - Kraft F(s) → Integral = **Arbeit**
+
+
+  Einheiten multiplizieren sich: m/s · s = m.
+
+  '
+beispiel:
+  wert: '24'
+  text: '`v(t) = 2t + 2` (m/s), erste 4 Sekunden: Stammfunktion `t² + 2t`, also 16 + 8 = 24 m.'
+  weg:
+  - 4^2 + 2·4 = 24

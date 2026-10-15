@@ -1,0 +1,512 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E7.4-001
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = -0,5x^2 + 0,5` und der x-Achse im Intervall [-1; 1]?
+  loesung: 2/3
+  flaeche:
+    term: -0,5x^2 + 0,5
+    von: -1
+    bis: 1
+  graph:
+    x:
+    - -2
+    - 2
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -0,5x^2 + 0,5
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler: []
+- id: E7.4-002
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = -2x^2 + 2` und der x-Achse im Intervall [-1; 1]?
+  loesung: 8/3
+  flaeche:
+    term: -2x^2 + 2
+    von: -1
+    bis: 1
+  graph:
+    x:
+    - -2
+    - 2
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -2x^2 + 2
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler: []
+- id: E7.4-003
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = -2x^2 + 32` und der x-Achse im Intervall [-4; 4]?
+  loesung: 512/3
+  flaeche:
+    term: -2x^2 + 32
+    von: -4
+    bis: 4
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -2x^2 + 32
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler: []
+- id: E7.4-004
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = -x^2 + 9` und der x-Achse im Intervall [-3; 3]?
+  loesung: '36'
+  flaeche:
+    term: -x^2 + 9
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -x^2 + 9
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler: []
+- id: E7.4-005
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = -0,5x^2 + 4,5` und der x-Achse im Intervall [-3; 3]?
+  loesung: '18'
+  flaeche:
+    term: -0,5x^2 + 4,5
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: -0,5x^2 + 4,5
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler: []
+- id: E7.4-006
+  typ: zahl
+  stufe: 2
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 - 16` und der x-Achse im Intervall [-4; 4]?
+  loesung: 256/3
+  flaeche:
+    term: x^2 - 16
+    von: -4
+    bis: 4
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 - 16
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: -256/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-007
+  typ: zahl
+  stufe: 2
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = 2x^2 - 18` und der x-Achse im Intervall [-3; 3]?
+  loesung: '72'
+  flaeche:
+    term: 2x^2 - 18
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: 2x^2 - 18
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: '-72'
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-008
+  typ: zahl
+  stufe: 2
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = 0,5x^2 - 4,5` und der x-Achse im Intervall [-3; 3]?
+  loesung: '18'
+  flaeche:
+    term: 0,5x^2 - 4,5
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: 0,5x^2 - 4,5
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: '-18'
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-009
+  typ: zahl
+  stufe: 2
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = 2x^2 - 32` und der x-Achse im Intervall [-4; 4]?
+  loesung: 512/3
+  flaeche:
+    term: 2x^2 - 32
+    von: -4
+    bis: 4
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: 2x^2 - 32
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: -512/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-010
+  typ: zahl
+  stufe: 2
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 - 1` und der x-Achse im Intervall [-1; 1]?
+  loesung: 4/3
+  flaeche:
+    term: x^2 - 1
+    von: -1
+    bis: 1
+  graph:
+    x:
+    - -2
+    - 2
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 - 1
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: -4/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-011
+  typ: zahl
+  stufe: 3
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 + x` und der x-Achse im Intervall [-2; 2]?
+  loesung: 17/3
+  flaeche:
+    term: x^2 + x
+    von: -2
+    bis: 2
+  graph:
+    x:
+    - -3
+    - 3
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 + x
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: 16/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-012
+  typ: zahl
+  stufe: 3
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 - 2x - 3` und der x-Achse im Intervall [-3; 5]?
+  loesung: '32'
+  flaeche:
+    term: x^2 - 2x - 3
+    von: -3
+    bis: 5
+  graph:
+    x:
+    - -4
+    - 6
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 - 2x - 3
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: 32/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-013
+  typ: zahl
+  stufe: 3
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 - 3x + 2` und der x-Achse im Intervall [0; 3]?
+  loesung: 11/6
+  flaeche:
+    term: x^2 - 3x + 2
+    von: 0
+    bis: 3
+  graph:
+    x:
+    - -1
+    - 4
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 - 3x + 2
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: 3/2
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-014
+  typ: zahl
+  stufe: 3
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 + 2x` und der x-Achse im Intervall [-2; 2]?
+  loesung: '8'
+  flaeche:
+    term: x^2 + 2x
+    von: -2
+    bis: 2
+  graph:
+    x:
+    - -3
+    - 3
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 + 2x
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: 16/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-015
+  typ: zahl
+  stufe: 3
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 + x - 2` und der x-Achse im Intervall [-2; 2]?
+  loesung: 19/3
+  flaeche:
+    term: x^2 + x - 2
+    von: -2
+    bis: 2
+  graph:
+    x:
+    - -3
+    - 3
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 + x - 2
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: -8/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-016
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 + x - 6` und der x-Achse im Intervall [-3; 4]?
+  loesung: 33,5
+  flaeche:
+    term: x^2 + x - 6
+    von: -3
+    bis: 4
+  graph:
+    x:
+    - -4
+    - 5
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 + x - 6
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: -49/6
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-017
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 + 2x - 3` und der x-Achse im Intervall [-3; 3]?
+  loesung: 64/3
+  flaeche:
+    term: x^2 + 2x - 3
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 + 2x - 3
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: '0'
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-018
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 - x - 2` und der x-Achse im Intervall [-2; 4]?
+  loesung: '15'
+  flaeche:
+    term: x^2 - x - 2
+    von: -2
+    bis: 4
+  graph:
+    x:
+    - -3
+    - 5
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 - x - 2
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: '6'
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-019
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 - 2x` und der x-Achse im Intervall [-1; 4]?
+  loesung: 28/3
+  flaeche:
+    term: x^2 - 2x
+    von: -1
+    bis: 4
+  graph:
+    x:
+    - -2
+    - 5
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 - 2x
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: 20/3
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.
+- id: E7.4-020
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Fläche** zwischen dem Graphen von `f(x) = x^2 + 3x` und der x-Achse im Intervall [-5; 1]?
+  loesung: '15'
+  flaeche:
+    term: x^2 + 3x
+    von: -5
+    bis: 1
+  graph:
+    x:
+    - -6
+    - 2
+    y:
+    - -8
+    - 8
+    kurven:
+    - term: x^2 + 3x
+      name: f
+  tipps:
+  - Zuerst die Nullstellen im Intervall suchen.
+  - Flächen unter der x-Achse ergeben ein negatives Integral – davon den **Betrag** nehmen.
+  - Teilflächen einzeln berechnen und addieren.
+  fehler:
+  - antwort: '6'
+    hinweis: Teile unter der x-Achse zählen negativ – für die Fläche Beträge der Teilintegrale addieren.

@@ -1,0 +1,17 @@
+id: E5.2
+titel: "Hoch- und Tiefpunkte berechnen"
+ziel: Du berechnest die Extrempunkte einer Polynomfunktion vollständig.
+erklaerung: |
+  1. f′ und f″ bilden.
+  2. f′(x) = 0 lösen.
+  3. Mit f″ entscheiden: negativ → Hochpunkt, positiv → Tiefpunkt.
+  4. y-Werte in **f** berechnen.
+
+  Ergebnis z. B.: H(−1|2), T(1|−2).
+beispiel:
+  wert: "-2"
+  text: |
+    `f(x) = x³ - 3x: Tiefpunkt bei x = 1, f(1) = 1 − 3 = −2.
+  weg:
+    - "1^3 - 3·1 = -2"
+

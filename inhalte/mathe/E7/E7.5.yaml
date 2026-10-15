@@ -1,0 +1,15 @@
+id: E7.5
+titel: Fläche zwischen zwei Graphen
+ziel: Du berechnest die Fläche, die zwei Graphen einschließen.
+erklaerung: '1. Schnittstellen berechnen: `f(x) = g(x).
+
+  2. Zwischen den Schnittstellen: ∫ (oben − unten) dx.
+
+  3. Weiß man nicht, wer oben liegt: Betrag nehmen.
+
+  '
+beispiel:
+  wert: 32/3
+  text: '`f(x) = 4 - x²` und `g(x) = 0` (die x-Achse) schneiden sich bei x = ±2. Fläche: `∫ (4 - x²) dx` von −2 bis 2.'
+  weg:
+  - (8 - 8/3) - (-8 + 8/3) = 32/3

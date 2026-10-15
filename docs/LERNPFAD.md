@@ -251,54 +251,54 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E1.1 ★ | Absolute und relative (prozentuelle) Änderung | AN 1.1 |  |
-| E1.2 ★ | Differenzenquotient = mittlere Änderungsrate | AN 1.2 |  |
-| E1.3 ★ | Differenzialquotient = momentane Änderungsrate (Tangente, intuitiv) | AN 1.2 |  |
-| E1.4 ★ | Änderungsraten im Kontext deuten (Geschwindigkeit, Wachstum, Kosten) | AN 1.3 |  |
+| E1.1 ★ | Absolute und relative Änderung bei Funktionen | AN 1.1 | ✓ 24 |
+| E1.2 ★ | Differenzenquotient | AN 1.2 | ✓ 24 |
+| E1.3 ★ | Momentane Änderungsrate | AN 1.2 | ✓ 20 |
+| E1.4 ★ | Änderungsraten im Kontext | AN 1.3 | ✓ 20 |
 
 ### E2 Ableiten
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E2.1 ★ | Potenzregel: (xⁿ)′ = n · xⁿ⁻¹ | AN 2.1 |  |
-| E2.2 ★ | Faktorregel und Summenregel: Polynome ableiten | AN 2.1 |  |
-| E2.3 ★ | Zweite Ableitung | AN 2.1 |  |
-| E2.4 | [f(k · x)]′, eˣ, sin und cos ableiten | AN 2.1, FA 5.4, FA 6.6 |  |
+| E2.1 ★ | Potenzregel | AN 2.1 | ✓ 24 |
+| E2.2 ★ | Polynome ableiten | AN 2.1 | ✓ 24 |
+| E2.3 ★ | Zweite Ableitung | AN 2.1 | ✓ 24 |
+| E2.4 | Sinus, Cosinus und e-Funktion ableiten | AN 2.1, FA 5.4, FA 6.6 | ✓ 12 |
 | E2.5 | Ausblick: Produkt- und Kettenregel (nur Teil 2, mit Technologie) |  |  |
 
 ### E3 Was die Ableitung verrät
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E3.1 ★ | f′(x) ist die Steigung von f an der Stelle x | AN 3.1 |  |
-| E3.2 ★ | Monotonie: f′ > 0 heißt steigend, f′ < 0 heißt fallend | AN 3.3 |  |
-| E3.3 ★ | Extremstellen: f′(x) = 0 und Vorzeichenwechsel | AN 3.3 |  |
-| E3.4 ★ | Krümmung: f″ > 0 heißt linksgekrümmt, f″ < 0 heißt rechtsgekrümmt | AN 3.3 |  |
-| E3.5 ★ | Wendestellen: f″(x) = 0 | AN 3.3 |  |
+| E3.1 ★ | Ableitung als Steigung | AN 3.1 | ✓ 24 |
+| E3.2 ★ | Monotonie mit der Ableitung | AN 3.3 | ✓ 24 |
+| E3.3 ★ | Extremstellen berechnen | AN 3.3 | ✓ 24 |
+| E3.4 ★ | Krümmung | AN 3.3 | ✓ 24 |
+| E3.5 ★ | Wendestellen berechnen | AN 3.3 | ✓ 24 |
 
 ### E4 Graphisches Ableiten
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E4.1 ★ | Von f zu f′: Graphen zuordnen | AN 3.2 |  |
-| E4.2 ★ | Von f′ zu f: Was sagt der Graph von f′ über f? | AN 3.2 |  |
+| E4.1 ★ | Von f zu f′ | AN 3.2 | ✓ 20 |
+| E4.2 ★ | Von f′ zu f | AN 3.2 | ✓ 20 |
 | E4.3 | Funktion ↔ Stammfunktion grafisch | AN 3.2 |  |
 
 ### E5 Kurvendiskussion
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E5.1 ★ | Nullstellen eines Polynoms (Grad ≤ 3, mit Herausheben) | FA 1.5 |  |
-| E5.2 ★ | Hochpunkt und Tiefpunkt berechnen | AN 3.3 |  |
-| E5.3 ★ | Wendepunkt berechnen | AN 3.3 |  |
+| E5.1 ★ | Nullstellen von Polynomen | FA 1.5 | ✓ 20 |
+| E5.2 ★ | Hoch- und Tiefpunkte berechnen | AN 3.3 | ✓ 20 |
+| E5.3 ★ | Wendepunkt berechnen | AN 3.3 | ✓ 20 |
 | E5.4 | Kurvendiskussion komplett, Schritt für Schritt | AN 3.3, FA 1.5 |  |
 
 ### E6 Anwendungen der Differenzialrechnung
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E6.1 ★ | Bewegung: s, v = s′, a = v′ | AN 1.3, Kontexte |  |
-| E6.2 ★ | Kosten, Erlös, Gewinn, Grenzkosten, Break-even-Point | Kontexte |  |
+| E6.1 ★ | Bewegung: Weg, Geschwindigkeit, Beschleunigung | AN 1.3, Kontexte | ✓ 20 |
+| E6.2 ★ | Kosten, Erlös, Gewinn | Kontexte | ✓ 20 |
 | E6.3 | Extremwertaufgaben (Optimieren mit Nebenbedingung) | AN 3.3 |  |
 | E6.4 | Funktion aus Eigenschaften aufstellen (Umkehraufgaben) | Teil 2 |  |
 
@@ -306,13 +306,13 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| E7.1 ★ | Stammfunktion: Ableiten rückwärts | AN 3.1 |  |
-| E7.2 ★ | Integrationsregeln: Potenzregel, Summe, Faktor | AN 4.2 |  |
-| E7.3 ★ | Bestimmtes Integral von Polynomen berechnen | AN 4.2 |  |
-| E7.4 ★ | Integral als Flächeninhalt (Achtung bei Flächen unter der x-Achse) | AN 4.3 |  |
-| E7.5 | Fläche zwischen zwei Graphen | AN 4.3 |  |
-| E7.6 ★ | Integral als Summe: Ober- und Untersumme, Streifen | AN 4.1 |  |
-| E7.7 ★ | Integral im Kontext: Weg aus Geschwindigkeit, Arbeit aus Kraft, Gesamtmenge aus Rate | AN 4.3 |  |
+| E7.1 ★ | Stammfunktion | AN 3.1 | ✓ 16 |
+| E7.2 ★ | Integrationsregeln | AN 4.2 | ✓ 24 |
+| E7.3 ★ | Bestimmtes Integral | AN 4.2 | ✓ 24 |
+| E7.4 ★ | Integral und Flächeninhalt | AN 4.3 | ✓ 20 |
+| E7.5 | Fläche zwischen zwei Graphen | AN 4.3 | ✓ 20 |
+| E7.6 ★ | Ober- und Untersumme | AN 4.1 | ✓ 12 |
+| E7.7 ★ | Integral im Kontext | AN 4.3 | ✓ 20 |
 
 ---
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 84.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 111.

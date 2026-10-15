@@ -1,0 +1,16 @@
+id: E7.3
+titel: "Bestimmtes Integral"
+ziel: Du berechnest bestimmte Integrale von Polynomen.
+erklaerung: |
+  ∫ f(x) dx von a bis b berechnest du so:
+  1. Eine Stammfunktion F bilden.
+  2. Obere Grenze einsetzen minus untere Grenze einsetzen: **F(b) − F(a)**.
+
+  Das Ergebnis ist eine Zahl (keine Funktion).
+beispiel:
+  wert: "9"
+  text: |
+    ∫ x² dx von 0 bis 3: F(x) = x³/3, also 9 − 0 = 9.
+  weg:
+    - "3^3/3 - 0 = 9"
+

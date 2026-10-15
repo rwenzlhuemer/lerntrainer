@@ -1,0 +1,16 @@
+id: E1.1
+titel: Absolute und relative Änderung bei Funktionen
+ziel: Du berechnest, wie stark sich ein Funktionswert in einem Intervall ändert – absolut und relativ.
+erklaerung: '- **Absolute Änderung** im Intervall [a; b]: `f(b) - f(a).
+
+  - **Relative Änderung**: (f(b) - f(a)) : f(a) – bezogen auf den Anfangswert, oft in Prozent.
+
+
+  Beides kennst du schon von Preisen (A5.3) – jetzt mit Funktionswerten.
+
+  '
+beispiel:
+  wert: '15'
+  text: '`f(x) = x²`, Intervall [1; 4]: f(1) = 1, f(4) = 16. Absolute Änderung: 16 − 1 = 15. Relative Änderung: 15 : 1 = 15, also +1500 %.'
+  weg:
+  - 4^2 - 1^2 = 15

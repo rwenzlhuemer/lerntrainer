@@ -1,0 +1,134 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E7.6-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 2] mit 2 gleich breiten Streifen.
+  loesung: '1'
+  rechnung: 1·(0^2 + 1^2)
+  tipps:
+  - 'Streifenbreite: 2 : 2 = 1.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne die **Obersumme** von `f(x) = x²` im Intervall [0; 4] mit 4 gleich breiten Streifen.
+  loesung: '30'
+  rechnung: 1·(1^2 + 2^2 + 3^2 + 4^2)
+  tipps:
+  - 'Streifenbreite: 4 : 4 = 1.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne die **Obersumme** von `f(x) = x²` im Intervall [0; 2] mit 4 gleich breiten Streifen.
+  loesung: 3,75
+  rechnung: 0,5·(0,5^2 + 1^2 + 1,5^2 + 2^2)
+  tipps:
+  - 'Streifenbreite: 2 : 4 = 0,5.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-004
+  typ: zahl
+  stufe: 2
+  frage: Berechne die **Obersumme** von `f(x) = x²` im Intervall [0; 2] mit 2 gleich breiten Streifen.
+  loesung: '5'
+  rechnung: 1·(1^2 + 2^2)
+  tipps:
+  - 'Streifenbreite: 2 : 2 = 1.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-005
+  typ: zahl
+  stufe: 2
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 4] mit 4 gleich breiten Streifen.
+  loesung: '14'
+  rechnung: 1·(0^2 + 1^2 + 2^2 + 3^2)
+  tipps:
+  - 'Streifenbreite: 4 : 4 = 1.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-006
+  typ: zahl
+  stufe: 2
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 4] mit 2 gleich breiten Streifen.
+  loesung: '8'
+  rechnung: 2·(0^2 + 2^2)
+  tipps:
+  - 'Streifenbreite: 4 : 2 = 2.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-007
+  typ: zahl
+  stufe: 3
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 5] mit 5 gleich breiten Streifen.
+  loesung: '30'
+  rechnung: 1·(0^2 + 1^2 + 2^2 + 3^2 + 4^2)
+  tipps:
+  - 'Streifenbreite: 5 : 5 = 1.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-008
+  typ: zahl
+  stufe: 3
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 2] mit 4 gleich breiten Streifen.
+  loesung: 1,75
+  rechnung: 0,5·(0^2 + 0,5^2 + 1^2 + 1,5^2)
+  tipps:
+  - 'Streifenbreite: 2 : 4 = 0,5.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-009
+  typ: zahl
+  stufe: 3
+  frage: Berechne die **Obersumme** von `f(x) = x²` im Intervall [0; 3] mit 4 gleich breiten Streifen.
+  loesung: 12,65625
+  rechnung: 0,75·(0,75^2 + 1,5^2 + 2,25^2 + 3^2)
+  tipps:
+  - 'Streifenbreite: 3 : 4 = 0,75.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-010
+  typ: zahl
+  stufe: 4
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 5] mit 4 gleich breiten Streifen.
+  loesung: 27,34375
+  rechnung: 1,25·(0^2 + 1,25^2 + 2,5^2 + 3,75^2)
+  tipps:
+  - 'Streifenbreite: 5 : 4 = 1,25.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-011
+  typ: zahl
+  stufe: 4
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 2] mit 5 gleich breiten Streifen.
+  loesung: 1,92
+  rechnung: 0,4·(0^2 + 0,4^2 + 0,8^2 + 1,2^2 + 1,6^2)
+  tipps:
+  - 'Streifenbreite: 2 : 5 = 0,4.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []
+- id: E7.6-012
+  typ: zahl
+  stufe: 4
+  frage: Berechne die **Untersumme** von `f(x) = x²` im Intervall [0; 3] mit 4 gleich breiten Streifen.
+  loesung: 5,90625
+  rechnung: 0,75·(0^2 + 0,75^2 + 1,5^2 + 2,25^2)
+  tipps:
+  - 'Streifenbreite: 3 : 4 = 0,75.'
+  - 'f ist hier steigend: Für die Untersumme nimmst du jeweils den linken Rand, für die Obersumme den rechten.'
+  - Summe aus Breite mal Höhe aller Streifen.
+  fehler: []

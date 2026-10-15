@@ -1,0 +1,14 @@
+id: E3.2
+titel: "Monotonie mit der Ableitung"
+ziel: Du entscheidest mit f′, ob eine Funktion steigt oder fällt.
+erklaerung: |
+  - `f′(x) > 0 → f ist dort **streng monoton steigend**
+  - `f′(x) < 0 → f ist dort **streng monoton fallend**
+  - `f′(x) = 0 → waagrechte Tangente (möglicherweise Hoch- oder Tiefpunkt)
+beispiel:
+  wert: "-2"
+  text: |
+    `f(x) = x² - 4x, x = 1: `f′(1) = 2 - 4 = -2 – negativ, also fällt f dort.
+  weg:
+    - "2·1 - 4 = -2"
+

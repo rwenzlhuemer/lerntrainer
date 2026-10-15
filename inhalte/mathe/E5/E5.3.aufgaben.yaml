@@ -1,0 +1,262 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E5.3-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -x^3 + 9x^2 - 5x + 2`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '3'
+  aus_term:
+    term: -x^3 + 9x^2 - 5x + 2
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = -6x + 18`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^3/3 - 2x^2 + 2x - 3`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '2'
+  aus_term:
+    term: x^3/3 - 2x^2 + 2x - 3
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x - 4`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -x^3 - 9x^2 - 6x - 3`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '-3'
+  aus_term:
+    term: -x^3 - 9x^2 - 6x - 3
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = -6x - 18`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^3/3 + 3x^2 - 3x - 3`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '-3'
+  aus_term:
+    term: x^3/3 + 3x^2 - 3x - 3
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x + 6`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x^3/3 - x^2 + 5x + 1`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '1'
+  aus_term:
+    term: x^3/3 - x^2 + 5x + 1
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x - 2`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-006
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = x^3 + 6x^2 - 2x - 1`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '-2'
+  aus_term:
+    term: x^3 + 6x^2 - 2x - 1
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 6x + 12`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-007
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 2x^3 + 18x^2 - x - 2`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '-3'
+  aus_term:
+    term: 2x^3 + 18x^2 - x - 2
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 12x + 36`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-008
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = x^3 + 6x^2 - 3x - 3`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '-2'
+  aus_term:
+    term: x^3 + 6x^2 - 3x - 3
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 6x + 12`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = x^3/3 + x^2 - 5x - 1`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '-1'
+  aus_term:
+    term: x^3/3 + x^2 - 5x - 1
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x + 2`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = x^3 - 9x^2 + 6x + 5`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '3'
+  aus_term:
+    term: x^3 - 9x^2 + 6x + 5
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 6x - 18`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-011
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3/3 + 2x^2 + x - 2`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: 4/3
+  aus_term:
+    term: x^3/3 + 2x^2 + x - 2
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x + 4`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-012
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 + 9x^2 - 5x - 3`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: '66'
+  aus_term:
+    term: x^3 + 9x^2 - 5x - 3
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 6x + 18`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-013
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -x^3 + 9x^2 - x - 5`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: '46'
+  aus_term:
+    term: -x^3 + 9x^2 - x - 5
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = -6x + 18`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-014
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 - 3x^2 - 4x + 3`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: '-3'
+  aus_term:
+    term: x^3 - 3x^2 - 4x + 3
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 6x - 6`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-015
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -x^3 + 6x^2 - x - 1`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '2'
+  aus_term:
+    term: -x^3 + 6x^2 - x - 1
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = -6x + 12`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-016
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x^3 - 12x^2 + 2x - 4`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '2'
+  aus_term:
+    term: 2x^3 - 12x^2 + 2x - 4
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 12x - 24`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-017
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x^3 + 6x^2 - 4x + 5`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: '13'
+  aus_term:
+    term: 2x^3 + 6x^2 - 4x + 5
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 12x + 12`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-018
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x^3/3 - 2x^2 + 4x - 1`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: 5/3
+  aus_term:
+    term: x^3/3 - 2x^2 + 4x - 1
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x - 4`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x^3/3 - x^2 + 3x + 5`. Berechne die **y-Koordinate des Wendepunkts**.'
+  loesung: 22/3
+  aus_term:
+    term: x^3/3 - x^2 + 3x + 5
+    groesse: wendepunkt_y
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 2x - 2`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []
+- id: E5.3-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x^3 - 6x^2 - 6x + 3`. Berechne die **x-Koordinate des Wendepunkts**.'
+  loesung: '2'
+  aus_term:
+    term: x^3 - 6x^2 - 6x + 3
+    groesse: wendestelle_x
+  tipps:
+  - 'Wendestelle: f″(x) = 0 setzen.'
+  - '`f″(x) = 6x - 12`.'
+  - Für die y-Koordinate x in f einsetzen.
+  fehler: []

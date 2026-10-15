@@ -101,6 +101,23 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
             fehler.melde(wo, f"aus_term nicht prüfbar ({e})")
     if "formel_faktor" in a:
         pruefe_faktor(a, wo, fehler, soll)
+    for schluessel, flaeche in (("integral", False), ("flaeche", True)):
+        if schluessel in a:
+            try:
+                p = a[schluessel]
+                x = sympy.Symbol("x")
+                t = notation.ausdruck(p["term"])
+                lo, hi = notation.zahl(str(p["von"])), notation.zahl(str(p["bis"]))
+                if flaeche:
+                    stellen = sorted({lo, hi, *[s for s in sympy.solve(t, x) if s.is_real and lo < s < hi]})
+                    wert_ = sum(abs(sympy.integrate(t, (x, u, v))) for u, v in zip(stellen, stellen[1:]))
+                else:
+                    wert_ = sympy.integrate(t, (x, lo, hi))
+                erlaubt = sympy.Rational(1, 2 * 10 ** a["gerundet"]) if "gerundet" in a else 0
+                if abs(wert_ - soll) > erlaubt or (not erlaubt and sympy.simplify(wert_ - soll) != 0):
+                    fehler.melde(wo, f"{schluessel} ergibt {wert_}, nicht {a['loesung']!r}")
+            except Exception as e:  # noqa: BLE001
+                fehler.melde(wo, f"{schluessel} nicht prüfbar ({e})")
     if "grad_regel" in a:
         # Polynom vom Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen
         n, art = a["grad_regel"]["grad"], a["grad_regel"]["art"]
@@ -157,7 +174,7 @@ def gleicher_term(t1: str, t2: str) -> bool:
     return sympy.simplify(notation.ausdruck(t1) - notation.ausdruck(t2)) == 0
 
 
-TERM_FORMEN = {"zusammengefasst", "ausmultipliziert", "faktor", "gekuerzt", "potenz", "frei"}
+TERM_FORMEN = {"zusammengefasst", "ausmultipliziert", "faktor", "gekuerzt", "potenz", "frei", "stammfunktion"}
 
 
 def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
@@ -171,6 +188,15 @@ def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
             wert = notation.ausdruck(a["loesung"]).subs(sympy.Symbol(a.get("variable", "x")), notation.zahl(str(px_)))
             if sympy.simplify(wert - notation.zahl(str(py_))) != 0:
                 fehler.melde(wo, f"Lösung {a['loesung']!r} geht nicht durch ({px_}|{py_})")
+        if a.get("ableitung_von"):
+            x = sympy.Symbol("x")
+            soll_abl = sympy.diff(notation.ausdruck(a["ableitung_von"]), x, a.get("ordnung", 1))
+            if sympy.simplify(soll_abl - notation.ausdruck(a["loesung"])) != 0:
+                fehler.melde(wo, f"Ableitung von {a['ableitung_von']!r} ist {soll_abl}, nicht {a['loesung']!r}")
+        if a.get("stammfunktion_von"):
+            x = sympy.Symbol("x")
+            if sympy.simplify(sympy.diff(notation.ausdruck(a["loesung"]), x) - notation.ausdruck(a["stammfunktion_von"])) != 0:
+                fehler.melde(wo, f"{a['loesung']!r} ist keine Stammfunktion von {a['stammfunktion_von']!r}")
         if a.get("term") and not gleicher_term(a["term"], a["loesung"]):
             fehler.melde(wo, f"Lösung {a['loesung']!r} ist nicht gleich {a['term']!r}")
         if a.get("form") == "faktor":
@@ -182,7 +208,8 @@ def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
                 if teil.strip() and not gleicher_term(teil, a["loesung"]):
                     fehler.melde(wo, f"Lösungsweg {zeile!r}: {teil.strip()!r} ist nicht gleich")
         for f in a.get("fehler", []):
-            if gleicher_term(str(f["antwort"]), a["loesung"]):
+            unterschied = sympy.simplify(notation.ausdruck(str(f["antwort"])) - notation.ausdruck(a["loesung"]))
+            if unterschied == 0 or (a.get("form") == "stammfunktion" and not unterschied.free_symbols):
                 fehler.melde(wo, f"Fehler-Antwort {f['antwort']!r} ist in Wahrheit richtig")
     except Exception as e:  # noqa: BLE001
         fehler.melde(wo, f"Term nicht lesbar ({e})")
@@ -266,6 +293,11 @@ def pruefe_quadratisch(a: dict, wo: str, fehler: Fehlerliste):
             ist = notation.loesungsmenge(a["gleichung"])
             if ist != soll:
                 fehler.melde(wo, f"Lösung {a['loesung']!r} stimmt nicht – sympy: {ist}")
+        if a.get("ableitung_von"):
+            x = sympy.Symbol("x")
+            ist = sympy.solveset(sympy.diff(notation.ausdruck(a["ableitung_von"]), x, a.get("ordnung", 1)), x, sympy.S.Reals)
+            if ist != soll:
+                fehler.melde(wo, f"Nullstellen der Ableitung: sympy {ist}, nicht {a['loesung']!r}")
         for zeile in a.get("weg", []):
             if q_menge(zeile.split("|")[0]) != soll:
                 fehler.melde(wo, f"Lösungsweg-Zeile {zeile!r} hat eine andere Lösungsmenge")
@@ -367,6 +399,22 @@ def aus_term(p: dict):
         return xs if g == "scheitel_x" else t.subs(x, xs)
     if g == "grad":
         return sympy.degree(t, x)
+    if g == "ableitung":
+        return sympy.diff(t, x).subs(x, notation.zahl(str(p["x"])))
+    if g in ("wendestelle_x", "wendepunkt_y"):
+        (w,) = [s for s in sympy.solve(sympy.diff(t, x, 2), x) if sympy.diff(t, x, 3).subs(x, s) != 0]
+        return w if g == "wendestelle_x" else t.subs(x, w)
+    if g in ("vzw_plus_minus", "vzw_minus_plus"):
+        # Nullstelle von t (= f′), an der das Vorzeichen von + nach − (Hochpunkt von f) bzw. − nach + wechselt
+        treffer = []
+        for s in sympy.solve(t, x):
+            if not s.is_real:
+                continue
+            links, rechts = t.subs(x, s - sympy.Rational(1, 100)), t.subs(x, s + sympy.Rational(1, 100))
+            if (links > 0 > rechts) if g == "vzw_plus_minus" else (links < 0 < rechts):
+                treffer.append(s)
+        (n,) = treffer
+        return n
     if g in ("hochpunkt_x", "hochpunkt_y", "tiefpunkt_x", "tiefpunkt_y"):
         d1, d2 = sympy.diff(t, x), sympy.diff(t, x, 2)
         stellen = [s for s in sympy.solve(d1, x) if s.is_real and (d2.subs(x, s) < 0) == g.startswith("hoch") and d2.subs(x, s) != 0]
@@ -445,6 +493,14 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
                 erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] in ("ableitung_vorzeichen", "kruemmung"):
+            # Optionen 0 = positiv (steigend / linksgekrümmt), 1 = negativ (fallend / rechtsgekrümmt), 2 = null
+            x = sympy.Symbol("x")
+            d = sympy.diff(notation.ausdruck(p["term"]), x, 1 if p["art"] == "ableitung_vorzeichen" else 2).subs(x, notation.zahl(str(p["x"])))
+            erwartet = [0] if d > 0 else [1] if d < 0 else [2]
+            if sorted(richtig) != erwartet[: len(optionen)] or erwartet[0] >= len(optionen):
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet} (Wert {d})")
             return
         if p["art"] == "monoton":
             # Optionen sind Intervalle „[a; b]“; richtig: f ist dort durchgehend steigend bzw. fallend (Stichproben von f′)

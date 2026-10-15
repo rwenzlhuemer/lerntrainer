@@ -462,6 +462,14 @@ export function termGleich(t1, t2) {
   return gueltig >= 3;
 }
 
+// F1 − F2 konstant? (Stammfunktionen dürfen sich um eine Konstante unterscheiden)
+function bisAufKonstante(t1, t2) {
+  const d = (x) => werte(t1, { x }) - werte(t2, { x });
+  let d0;
+  try { d0 = d(0.37); } catch { return false; }
+  return PROBE.every((x) => { try { return nahe(d(x), d0, 1e-8); } catch { return false; } });
+}
+
 const ohneHuelle = (b) => (b.t === "klammer" || b.t === "neg" ? ohneHuelle(b.a) : b);
 
 function summanden(b) {
@@ -559,6 +567,12 @@ export function pruefeTermZeile(eingabe, aufgabe) {
   const g = versuche(t);
   if (!t.trim() || !g || g.gleichung) return { art: "unklar" };
   const soll = lies(aufgabe.loesung).term;
+  if (aufgabe.form === "stammfunktion") {
+    const ohneC = versuche(t.replace(/[+−-]\s*[cC]\s*$/, ""));
+    if (ohneC && !ohneC.gleichung && bisAufKonstante(ohneC.term, soll)) return { art: "geloest" };
+    const f = (aufgabe.fehler || []).find((x) => { const h = versuche(x.antwort); return h && ohneC && bisAufKonstante(ohneC.term, h.term); });
+    return { art: "falsch", fehler: f || null };
+  }
   if (!termGleich(g.term, soll)) {
     const f = (aufgabe.fehler || []).find((x) => { const h = versuche(x.antwort); return h && termGleich(g.term, h.term); });
     return { art: "falsch", fehler: f || null };
@@ -669,26 +683,62 @@ function qMengeAusAufzaehlung(text) {
   return [...new Set(werteListe.map((v) => Math.round(v * 1e10) / 1e10))].sort((a, b) => a - b);
 }
 
-// Lösungen einer Gleichung bis Grad 2 in x (numerisch); null, wenn nicht quadratisch/linear
+// Reelle Lösungen einer Polynomgleichung bis Grad 4 in x (numerisch); null, wenn kein Polynom bis Grad 4
 function qMengeAusGleichung(g) {
   const f = (x) => werte(g.links, { x }) - werte(g.rechts, { x });
-  let c, s1, sm1, s2, s3;
-  try { c = f(0); s1 = f(1); sm1 = f(-1); s2 = f(2); s3 = f(-3); } catch { return null; }
-  if (![c, s1, sm1, s2, s3].every(Number.isFinite)) return null;
-  const a = (s1 + sm1) / 2 - c, b = (s1 - sm1) / 2;
-  const p = (x) => a * x * x + b * x + c;
-  if (!nahe(p(2), s2, 1e-7) || !nahe(p(-3), s3, 1e-7)) return null;
-  if (nahe(a, 0, 1e-12)) {
-    if (nahe(b, 0, 1e-12)) return nahe(c, 0, 1e-12) ? "alle" : [];
-    return [-c / b];
+  // Koeffizienten aus 5 Stützstellen (Lagrange → Newton), dann an zwei weiteren Stellen prüfen
+  const xs = [-2, -1, 0, 1, 2];
+  let ys;
+  try { ys = xs.map(f); } catch { return null; }
+  if (!ys.every(Number.isFinite)) return null;
+  const koeff = polyKoeffizienten(xs, ys); // [a0, a1, a2, a3, a4]
+  const p = (x) => koeff.reduce((s, k, i) => s + k * x ** i, 0);
+  for (const t of [3, -3.5, 0.7]) {
+    let v;
+    try { v = f(t); } catch { return null; }
+    if (!nahe(p(t), v, 1e-7)) return null;
   }
-  const D = b * b - 4 * a * c;
-  if (D < -1e-12) return [];
-  if (Math.abs(D) <= 1e-12) return [-b / (2 * a)];
-  const w = Math.sqrt(D);
-  return [(-b - w) / (2 * a), (-b + w) / (2 * a)].sort((u, v) => u - v);
+  const a = koeff.map((k) => (Math.abs(k) < 1e-10 ? 0 : k));
+  let grad = 4;
+  while (grad > 0 && a[grad] === 0) grad--;
+  if (grad === 0) return a[0] === 0 ? "alle" : [];
+  return reelleNullstellen(a.slice(0, grad + 1));
 }
 
+// Newton-Interpolation → Koeffizienten in Potenzform
+function polyKoeffizienten(xs, ys) {
+  const n = xs.length, d = [...ys];
+  for (let j = 1; j < n; j++) for (let i = n - 1; i >= j; i--) d[i] = (d[i] - d[i - 1]) / (xs[i] - xs[i - j]);
+  let koeff = [0, 0, 0, 0, 0];
+  let basis = [1, 0, 0, 0, 0];
+  for (let i = 0; i < n; i++) {
+    koeff = koeff.map((k, m) => k + d[i] * basis[m]);
+    basis = basis.map((_, m) => (m > 0 ? basis[m - 1] : 0) - xs[i] * basis[m]);
+  }
+  return koeff;
+}
+
+// Durand-Kerner: alle komplexen Nullstellen, davon die reellen (doppelte zusammengefasst)
+function reelleNullstellen(a) {
+  const n = a.length - 1, lead = a[n];
+  const c = a.map((k) => k / lead);
+  let z = Array.from({ length: n }, (_, k) => [Math.cos(0.4 + (2 * Math.PI * k) / n) * 1.3, Math.sin(0.4 + (2 * Math.PI * k) / n) * 1.3]);
+  const mul = (u, v) => [u[0] * v[0] - u[1] * v[1], u[0] * v[1] + u[1] * v[0]];
+  const div = (u, v) => { const q = v[0] * v[0] + v[1] * v[1]; return [(u[0] * v[0] + u[1] * v[1]) / q, (u[1] * v[0] - u[0] * v[1]) / q]; };
+  const wert = (w) => { let s = [1, 0]; for (let i = n - 1; i >= 0; i--) s = [mul(s, w)[0] + c[i], mul(s, w)[1]]; return s; };
+  for (let it = 0; it < 500; it++) {
+    z = z.map((w, i) => {
+      let nenner = [1, 0];
+      z.forEach((v, j) => { if (j !== i) nenner = mul(nenner, [w[0] - v[0], w[1] - v[1]]); });
+      const q = div(wert(w), nenner);
+      return [w[0] - q[0], w[1] - q[1]];
+    });
+  }
+  const reell = z.filter((w) => Math.abs(w[1]) < 1e-5).map((w) => w[0]).sort((u, v) => u - v);
+  const aus = [];
+  for (const r of reell) if (!aus.some((s) => Math.abs(s - r) < 1e-4)) aus.push(Math.round(r * 1e8) / 1e8);
+  return aus;
+}
 export function qSoll(loesung) {
   if (String(loesung).trim() === "keine") return [];
   return qMengeAusAufzaehlung(String(loesung));

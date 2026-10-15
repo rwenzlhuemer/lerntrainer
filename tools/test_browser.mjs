@@ -345,6 +345,15 @@ async function main() {
   await tippe(hp.loesung);
   pruefe((await rm()).startsWith("rueckmeldung gut"), `C6.2: ${hp.frage.slice(20, 60)} = ${hp.loesung}`);
   await bild("09p-extrem");
+  const ab = await naechsteBis("E2.2", () => true);
+  await tippe(`f'(x) = ${ab.loesung}`);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `E2.2: Ableitung von ${ab.ableitung_von} = ${ab.loesung}`);
+  const st = await naechsteBis("E7.2", () => true);
+  await tippe(`${st.loesung} + C`);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `E7.2: Stammfunktion ${st.loesung} + C angenommen`);
+  await bild("09q-stammfunktion");
+  await geh("#/ls/E3.3");
+  await bild("09r-erklaerung-E");
   const tb = await naechsteBis("C1.1", () => true);
   pruefe(await js("!!document.querySelector('table.tabelle')"), "C1.1: Wertetabelle gezeigt");
   await bild("09m-tabelle");

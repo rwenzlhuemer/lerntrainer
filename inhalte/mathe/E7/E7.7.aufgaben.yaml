@@ -1,0 +1,302 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E7.7-001
+  typ: zahl
+  stufe: 1
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 3t + 2` (v in m/s, t in s). Welchen Weg legt es in den ersten 3 Sekunden zurück?
+  loesung: 19,5
+  integral:
+    term: 3x + 2
+    von: 0
+    bis: 3
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '33'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-002
+  typ: zahl
+  stufe: 1
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = t + 5` (v in m/s, t in s). Welchen Weg legt es in den ersten 3 Sekunden zurück?
+  loesung: 19,5
+  integral:
+    term: x + 5
+    von: 0
+    bis: 3
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '24'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-003
+  typ: zahl
+  stufe: 1
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 2t` (v in m/s, t in s). Welchen Weg legt es in den ersten 6 Sekunden zurück?
+  loesung: '36'
+  integral:
+    term: 2x
+    von: 0
+    bis: 6
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '72'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-004
+  typ: zahl
+  stufe: 1
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 3t` (v in m/s, t in s). Welchen Weg legt es in den ersten 4 Sekunden zurück?
+  loesung: '24'
+  integral:
+    term: 3x
+    von: 0
+    bis: 4
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '48'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-005
+  typ: zahl
+  stufe: 1
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 2t + 2` (v in m/s, t in s). Welchen Weg legt es in den ersten 7 Sekunden zurück?
+  loesung: '63'
+  integral:
+    term: 2x + 2
+    von: 0
+    bis: 7
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '112'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-006
+  typ: zahl
+  stufe: 2
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = t + 5` (v in m/s, t in s). Welchen Weg legt es in den ersten 4 Sekunden zurück?
+  loesung: '28'
+  integral:
+    term: x + 5
+    von: 0
+    bis: 4
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '36'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-007
+  typ: zahl
+  stufe: 2
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 3t` (v in m/s, t in s). Welchen Weg legt es in den ersten 2 Sekunden zurück?
+  loesung: '6'
+  integral:
+    term: 3x
+    von: 0
+    bis: 2
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '12'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-008
+  typ: zahl
+  stufe: 2
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 2t + 5` (v in m/s, t in s). Welchen Weg legt es in den ersten 4 Sekunden zurück?
+  loesung: '36'
+  integral:
+    term: 2x + 5
+    von: 0
+    bis: 4
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '52'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-009
+  typ: zahl
+  stufe: 2
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 2t + 2` (v in m/s, t in s). Welchen Weg legt es in den ersten 5 Sekunden zurück?
+  loesung: '35'
+  integral:
+    term: 2x + 2
+    von: 0
+    bis: 5
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '60'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-010
+  typ: zahl
+  stufe: 2
+  frage: Ein Fahrzeug hat die Geschwindigkeit `v(t) = 2t + 10` (v in m/s, t in s). Welchen Weg legt es in den ersten 3 Sekunden zurück?
+  loesung: '39'
+  integral:
+    term: 2x + 10
+    von: 0
+    bis: 3
+  einheit: m
+  tipps:
+  - 'Weg = Integral der Geschwindigkeit: `∫ v(t) dt` von 0 bis t₁.'
+  - Stammfunktion bilden, Grenzen einsetzen.
+  fehler:
+  - antwort: '48'
+    hinweis: Die Geschwindigkeit ist nicht konstant – du brauchst das Integral.
+- id: E7.7-011
+  typ: zahl
+  stufe: 3
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = t^2 + 5` (Liter pro Minute). Wie viele Liter fließen in den ersten 3 Minuten hinein?
+  loesung: '24'
+  integral:
+    term: x^2 + 5
+    von: 0
+    bis: 3
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 3.'
+  fehler: []
+- id: E7.7-012
+  typ: zahl
+  stufe: 3
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = t^2 + 10` (Liter pro Minute). Wie viele Liter fließen in den ersten 9 Minuten hinein?
+  loesung: '333'
+  integral:
+    term: x^2 + 10
+    von: 0
+    bis: 9
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 9.'
+  fehler: []
+- id: E7.7-013
+  typ: zahl
+  stufe: 3
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 2t^2` (Liter pro Minute). Wie viele Liter fließen in den ersten 6 Minuten hinein?
+  loesung: '144'
+  integral:
+    term: 2x^2
+    von: 0
+    bis: 6
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 6.'
+  fehler: []
+- id: E7.7-014
+  typ: zahl
+  stufe: 3
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 2t^2` (Liter pro Minute). Wie viele Liter fließen in den ersten 3 Minuten hinein?
+  loesung: '18'
+  integral:
+    term: 2x^2
+    von: 0
+    bis: 3
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 3.'
+  fehler: []
+- id: E7.7-015
+  typ: zahl
+  stufe: 3
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 0,5t^2` (Liter pro Minute). Wie viele Liter fließen in den ersten 3 Minuten hinein?
+  loesung: 4,5
+  integral:
+    term: 0,5x^2
+    von: 0
+    bis: 3
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 3.'
+  fehler: []
+- id: E7.7-016
+  typ: zahl
+  stufe: 4
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 2t^2 + 5` (Liter pro Minute). Wie viele Liter fließen in den ersten 9 Minuten hinein?
+  loesung: '531'
+  integral:
+    term: 2x^2 + 5
+    von: 0
+    bis: 9
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 9.'
+  fehler: []
+- id: E7.7-017
+  typ: zahl
+  stufe: 4
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 0,5t^2 + 10` (Liter pro Minute). Wie viele Liter fließen in den ersten 6 Minuten hinein?
+  loesung: '96'
+  integral:
+    term: 0,5x^2 + 10
+    von: 0
+    bis: 6
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 6.'
+  fehler: []
+- id: E7.7-018
+  typ: zahl
+  stufe: 4
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 2t^2 + 5` (Liter pro Minute). Wie viele Liter fließen in den ersten 3 Minuten hinein?
+  loesung: '33'
+  integral:
+    term: 2x^2 + 5
+    von: 0
+    bis: 3
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 3.'
+  fehler: []
+- id: E7.7-019
+  typ: zahl
+  stufe: 4
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = t^2 + 10` (Liter pro Minute). Wie viele Liter fließen in den ersten 3 Minuten hinein?
+  loesung: '39'
+  integral:
+    term: x^2 + 10
+    von: 0
+    bis: 3
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 3.'
+  fehler: []
+- id: E7.7-020
+  typ: zahl
+  stufe: 4
+  frage: In ein Becken fließt Wasser mit der Rate `r(t) = 2t^2 + 10` (Liter pro Minute). Wie viele Liter fließen in den ersten 6 Minuten hinein?
+  loesung: '204'
+  integral:
+    term: 2x^2 + 10
+    von: 0
+    bis: 6
+  einheit: l
+  tipps:
+  - Gesamtmenge = Integral der Rate.
+  - '`∫ r(t) dt` von 0 bis 6.'
+  fehler: []

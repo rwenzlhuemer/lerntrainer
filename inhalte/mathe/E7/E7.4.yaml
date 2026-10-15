@@ -1,0 +1,22 @@
+id: E7.4
+titel: Integral und Flächeninhalt
+ziel: Du berechnest Flächen zwischen Graph und x-Achse – auch unter der x-Achse.
+erklaerung: 'Liegt der Graph **über** der x-Achse, ist das Integral gleich der Fläche.
+
+  Liegt er **unter** der x-Achse, ist das Integral **negativ** – die Fläche ist der Betrag.
+
+
+  Wechselt der Graph im Intervall die Seite:
+
+  1. Nullstellen im Intervall suchen.
+
+  2. Teilintegrale getrennt berechnen.
+
+  3. **Beträge** addieren.
+
+  '
+beispiel:
+  wert: '2'
+  text: '`f(x) = x² - 1` in [0; 2]: Nullstelle bei x = 1. Von 0 bis 1 liegt der Graph unter der x-Achse (Integral −2/3), von 1 bis 2 darüber (4/3). Fläche: 2/3 + 4/3 = 2. Das Integral allein wäre nur 2/3!'
+  weg:
+  - 2/3 + 4/3 = 2

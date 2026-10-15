@@ -1,0 +1,18 @@
+id: E7.2
+titel: Integrationsregeln
+ziel: Du bildest Stammfunktionen von Polynomen.
+erklaerung: '- **Summenregel:** Jedes Glied einzeln integrieren.
+
+  - **Faktorregel:** Eine Zahl davor bleibt stehen: 4x³ → 4 · x⁴/4 = x⁴.
+
+  - **Potenzregel:** xⁿ → xⁿ⁺¹/(n + 1).
+
+
+  `f(x) = 6x² - 4x + 3 → F(x) = 2x³ - 2x² + 3x.
+
+  '
+beispiel:
+  wert: '14'
+  text: '`f(x) = 6x² - 4x + 3` → `F(x) = 2x³ - 2x² + 3x`. Probe durch Ableiten: `6x² - 4x + 3` ✓. Zum Beispiel F(2) = 16 − 8 + 6 = 14.'
+  weg:
+  - 2·2^3 - 2·2^2 + 3·2 = 14

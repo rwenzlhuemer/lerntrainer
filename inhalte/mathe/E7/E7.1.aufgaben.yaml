@@ -1,0 +1,218 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E7.1-001
+  typ: term
+  stufe: 1
+  frage: Gib eine **Stammfunktion** F von `f(x) = x^3` an.
+  form: stammfunktion
+  loesung: 0,25x^4
+  stammfunktion_von: x^3
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 3x^2
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-002
+  typ: term
+  stufe: 1
+  frage: Gib eine **Stammfunktion** F von `f(x) = x^2` an.
+  form: stammfunktion
+  loesung: x^3/3
+  stammfunktion_von: x^2
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 2x
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-003
+  typ: term
+  stufe: 1
+  frage: Gib eine **Stammfunktion** F von `f(x) = x^4` an.
+  form: stammfunktion
+  loesung: 0,2x^5
+  stammfunktion_von: x^4
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 4x^3
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-004
+  typ: term
+  stufe: 1
+  frage: Gib eine **Stammfunktion** F von `f(x) = x^5` an.
+  form: stammfunktion
+  loesung: x^6/6
+  stammfunktion_von: x^5
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 5x^4
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-005
+  typ: term
+  stufe: 2
+  frage: Gib eine **Stammfunktion** F von `f(x) = 5x^5` an.
+  form: stammfunktion
+  loesung: 5x^6/6
+  stammfunktion_von: 5x^5
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 25x^4
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-006
+  typ: term
+  stufe: 2
+  frage: Gib eine **Stammfunktion** F von `f(x) = 8x^4` an.
+  form: stammfunktion
+  loesung: 1,6x^5
+  stammfunktion_von: 8x^4
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 32x^3
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-007
+  typ: term
+  stufe: 2
+  frage: Gib eine **Stammfunktion** F von `f(x) = 3x^5` an.
+  form: stammfunktion
+  loesung: 0,5x^6
+  stammfunktion_von: 3x^5
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 15x^4
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-008
+  typ: term
+  stufe: 2
+  frage: Gib eine **Stammfunktion** F von `f(x) = 8x` an.
+  form: stammfunktion
+  loesung: 4x^2
+  stammfunktion_von: 8x
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: '8'
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-009
+  typ: term
+  stufe: 3
+  frage: Gib eine **Stammfunktion** F von `f(x) = 3x^2 + 2x + 2` an.
+  form: stammfunktion
+  loesung: x^3 + x^2 + 2x
+  stammfunktion_von: 3x^2 + 2x + 2
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 6x + 2
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-010
+  typ: term
+  stufe: 3
+  frage: Gib eine **Stammfunktion** F von `f(x) = 2x^2 - 2x - 1` an.
+  form: stammfunktion
+  loesung: 2x^3/3 - x^2 - x
+  stammfunktion_von: 2x^2 - 2x - 1
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 4x - 2
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-011
+  typ: term
+  stufe: 3
+  frage: Gib eine **Stammfunktion** F von `f(x) = 4x^2 + x - 4` an.
+  form: stammfunktion
+  loesung: 4x^3/3 + 0,5x^2 - 4x
+  stammfunktion_von: 4x^2 + x - 4
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: 8x + 1
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-012
+  typ: term
+  stufe: 3
+  frage: Gib eine **Stammfunktion** F von `f(x) = -4x^2 - x - 4` an.
+  form: stammfunktion
+  loesung: -4x^3/3 - 0,5x^2 - 4x
+  stammfunktion_von: -4x^2 - x - 4
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler:
+  - antwort: -8x - 1
+    hinweis: Das ist die Ableitung. Gesucht ist umgekehrt eine Funktion, deren Ableitung f ist.
+- id: E7.1-013
+  typ: term
+  stufe: 4
+  frage: Gib eine **Stammfunktion** F von `f(x) = 3sin(x)` an.
+  form: stammfunktion
+  loesung: -3cos(x)
+  stammfunktion_von: 3sin(x)
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler: []
+- id: E7.1-014
+  typ: term
+  stufe: 4
+  frage: Gib eine **Stammfunktion** F von `f(x) = 2/x^3` an.
+  form: stammfunktion
+  loesung: -1/x^2
+  stammfunktion_von: 2/x^3
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler: []
+- id: E7.1-015
+  typ: term
+  stufe: 4
+  frage: Gib eine **Stammfunktion** F von `f(x) = 1/x^2` an.
+  form: stammfunktion
+  loesung: -1/x
+  stammfunktion_von: 1/x^2
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler: []
+- id: E7.1-016
+  typ: term
+  stufe: 4
+  frage: Gib eine **Stammfunktion** F von `f(x) = e^x` an.
+  form: stammfunktion
+  loesung: e^x
+  stammfunktion_von: e^x
+  tipps:
+  - 'Stammfunktion: Ableiten rückwärts. Probe: F′ muss f ergeben.'
+  - '`xⁿ` → `xⁿ⁺¹/(n + 1)`: Hochzahl um 1 erhöhen, durch die neue Hochzahl dividieren.'
+  - Eine Konstante + C darfst du dazuschreiben, musst aber nicht.
+  fehler: []

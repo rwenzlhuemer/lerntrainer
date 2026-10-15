@@ -1,0 +1,292 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E6.2-001
+  typ: zahl
+  stufe: 1
+  frage: Kostenfunktion `K(x) = 0,2x^2 + 15x + 1000` (x in Stück, K in €). Wie hoch sind die **Fixkosten**?
+  loesung: '1000'
+  aus_term:
+    term: 0,2x^2 + 15x + 1000
+    groesse: wert
+    x: 0
+  einheit: €
+  tipps:
+  - 'Fixkosten fallen auch an, wenn nichts produziert wird: K(0).'
+  fehler: []
+- id: E6.2-002
+  typ: zahl
+  stufe: 1
+  frage: Kostenfunktion `K(x) = x^2 + 10x + 500` (x in Stück, K in €). Wie hoch sind die **Fixkosten**?
+  loesung: '500'
+  aus_term:
+    term: x^2 + 10x + 500
+    groesse: wert
+    x: 0
+  einheit: €
+  tipps:
+  - 'Fixkosten fallen auch an, wenn nichts produziert wird: K(0).'
+  fehler: []
+- id: E6.2-003
+  typ: zahl
+  stufe: 1
+  frage: Kostenfunktion `K(x) = 0,5x^2 + 25x + 200` (x in Stück, K in €). Wie hoch sind die **Fixkosten**?
+  loesung: '200'
+  aus_term:
+    term: 0,5x^2 + 25x + 200
+    groesse: wert
+    x: 0
+  einheit: €
+  tipps:
+  - 'Fixkosten fallen auch an, wenn nichts produziert wird: K(0).'
+  fehler: []
+- id: E6.2-004
+  typ: zahl
+  stufe: 1
+  frage: Kostenfunktion `K(x) = x^2 + 20x + 1000` (x in Stück, K in €). Wie hoch sind die **Fixkosten**?
+  loesung: '1000'
+  aus_term:
+    term: x^2 + 20x + 1000
+    groesse: wert
+    x: 0
+  einheit: €
+  tipps:
+  - 'Fixkosten fallen auch an, wenn nichts produziert wird: K(0).'
+  fehler: []
+- id: E6.2-005
+  typ: zahl
+  stufe: 1
+  frage: Kostenfunktion `K(x) = 0,5x^2 + 20x + 300` (x in Stück, K in €). Wie hoch sind die **Fixkosten**?
+  loesung: '300'
+  aus_term:
+    term: 0,5x^2 + 20x + 300
+    groesse: wert
+    x: 0
+  einheit: €
+  tipps:
+  - 'Fixkosten fallen auch an, wenn nichts produziert wird: K(0).'
+  fehler: []
+- id: E6.2-006
+  typ: zahl
+  stufe: 2
+  frage: '`K(x) = 0,1x^2 + 25x + 300`. Berechne die **Grenzkosten** bei x = 20 (also K′(20)).'
+  loesung: '29'
+  aus_term:
+    term: 0,1x^2 + 25x + 300
+    groesse: ableitung
+    x: 20
+  einheit: €/Stück
+  tipps:
+  - 'Grenzkosten = K′(x): ungefähr die Kosten für ein zusätzliches Stück.'
+  - '`K′(x) = 0,2x + 25`.'
+  fehler:
+  - antwort: '840'
+    hinweis: Das sind die Gesamtkosten K(x₀). Gesucht ist K′(x₀).
+- id: E6.2-007
+  typ: zahl
+  stufe: 2
+  frage: '`K(x) = 0,5x^2 + 25x + 200`. Berechne die **Grenzkosten** bei x = 10 (also K′(10)).'
+  loesung: '35'
+  aus_term:
+    term: 0,5x^2 + 25x + 200
+    groesse: ableitung
+    x: 10
+  einheit: €/Stück
+  tipps:
+  - 'Grenzkosten = K′(x): ungefähr die Kosten für ein zusätzliches Stück.'
+  - '`K′(x) = x + 25`.'
+  fehler:
+  - antwort: '500'
+    hinweis: Das sind die Gesamtkosten K(x₀). Gesucht ist K′(x₀).
+- id: E6.2-008
+  typ: zahl
+  stufe: 2
+  frage: '`K(x) = x^2 + 25x + 300`. Berechne die **Grenzkosten** bei x = 20 (also K′(20)).'
+  loesung: '65'
+  aus_term:
+    term: x^2 + 25x + 300
+    groesse: ableitung
+    x: 20
+  einheit: €/Stück
+  tipps:
+  - 'Grenzkosten = K′(x): ungefähr die Kosten für ein zusätzliches Stück.'
+  - '`K′(x) = 2x + 25`.'
+  fehler:
+  - antwort: '1200'
+    hinweis: Das sind die Gesamtkosten K(x₀). Gesucht ist K′(x₀).
+- id: E6.2-009
+  typ: zahl
+  stufe: 2
+  frage: '`K(x) = x^2 + 15x + 300`. Berechne die **Grenzkosten** bei x = 30 (also K′(30)).'
+  loesung: '75'
+  aus_term:
+    term: x^2 + 15x + 300
+    groesse: ableitung
+    x: 30
+  einheit: €/Stück
+  tipps:
+  - 'Grenzkosten = K′(x): ungefähr die Kosten für ein zusätzliches Stück.'
+  - '`K′(x) = 2x + 15`.'
+  fehler:
+  - antwort: '1650'
+    hinweis: Das sind die Gesamtkosten K(x₀). Gesucht ist K′(x₀).
+- id: E6.2-010
+  typ: zahl
+  stufe: 2
+  frage: '`K(x) = 0,2x^2 + 15x + 1000`. Berechne die **Grenzkosten** bei x = 10 (also K′(10)).'
+  loesung: '19'
+  aus_term:
+    term: 0,2x^2 + 15x + 1000
+    groesse: ableitung
+    x: 10
+  einheit: €/Stück
+  tipps:
+  - 'Grenzkosten = K′(x): ungefähr die Kosten für ein zusätzliches Stück.'
+  - '`K′(x) = 0,4x + 15`.'
+  fehler:
+  - antwort: '1170'
+    hinweis: Das sind die Gesamtkosten K(x₀). Gesucht ist K′(x₀).
+- id: E6.2-011
+  typ: zahl
+  stufe: 3
+  frage: Kosten `K(x) = 0,5x^2 + 10x + 200`, Erlös `E(x) = 80x`. Wie groß ist der **Gewinn** bei x = 20 Stück?
+  loesung: '1000'
+  aus_term:
+    term: -0,5x^2 + 70x - 200
+    groesse: wert
+    x: 20
+  einheit: €
+  tipps:
+  - 'Gewinn = Erlös − Kosten: `G(x) = E(x) − K(x)`.'
+  - '`G(20) = 80·20 − K(20)`.'
+  fehler:
+  - antwort: '-1000'
+    hinweis: Erlös minus Kosten – nicht umgekehrt.
+- id: E6.2-012
+  typ: zahl
+  stufe: 3
+  frage: Kosten `K(x) = 0,5x^2 + 25x + 300`, Erlös `E(x) = 80x`. Wie groß ist der **Gewinn** bei x = 20 Stück?
+  loesung: '600'
+  aus_term:
+    term: -0,5x^2 + 55x - 300
+    groesse: wert
+    x: 20
+  einheit: €
+  tipps:
+  - 'Gewinn = Erlös − Kosten: `G(x) = E(x) − K(x)`.'
+  - '`G(20) = 80·20 − K(20)`.'
+  fehler:
+  - antwort: '-600'
+    hinweis: Erlös minus Kosten – nicht umgekehrt.
+- id: E6.2-013
+  typ: zahl
+  stufe: 3
+  frage: Kosten `K(x) = 0,2x^2 + 25x + 300`, Erlös `E(x) = 50x`. Wie groß ist der **Gewinn** bei x = 20 Stück?
+  loesung: '120'
+  aus_term:
+    term: -0,2x^2 + 25x - 300
+    groesse: wert
+    x: 20
+  einheit: €
+  tipps:
+  - 'Gewinn = Erlös − Kosten: `G(x) = E(x) − K(x)`.'
+  - '`G(20) = 50·20 − K(20)`.'
+  fehler:
+  - antwort: '-120'
+    hinweis: Erlös minus Kosten – nicht umgekehrt.
+- id: E6.2-014
+  typ: zahl
+  stufe: 3
+  frage: Kosten `K(x) = 0,2x^2 + 20x + 500`, Erlös `E(x) = 40x`. Wie groß ist der **Gewinn** bei x = 30 Stück?
+  loesung: '-80'
+  aus_term:
+    term: -0,2x^2 + 20x - 500
+    groesse: wert
+    x: 30
+  einheit: €
+  tipps:
+  - 'Gewinn = Erlös − Kosten: `G(x) = E(x) − K(x)`.'
+  - '`G(30) = 40·30 − K(30)`.'
+  fehler:
+  - antwort: '80'
+    hinweis: Erlös minus Kosten – nicht umgekehrt.
+- id: E6.2-015
+  typ: zahl
+  stufe: 3
+  frage: Kosten `K(x) = 0,1x^2 + 15x + 1000`, Erlös `E(x) = 50x`. Wie groß ist der **Gewinn** bei x = 40 Stück?
+  loesung: '240'
+  aus_term:
+    term: -0,1x^2 + 35x - 1000
+    groesse: wert
+    x: 40
+  einheit: €
+  tipps:
+  - 'Gewinn = Erlös − Kosten: `G(x) = E(x) − K(x)`.'
+  - '`G(40) = 50·40 − K(40)`.'
+  fehler:
+  - antwort: '-240'
+    hinweis: Erlös minus Kosten – nicht umgekehrt.
+- id: E6.2-016
+  typ: quadratisch
+  stufe: 4
+  frage: Kosten `K(x) = 0,2x^2 + 34x + 300`, Erlös `E(x) = 50x`. Bei welchen Stückzahlen ist der Gewinn genau 0 (Gewinngrenzen, Break-even)?
+  gleichung: 50x = 0,2x^2 + 34x + 300
+  loesung: 50; 30
+  weg:
+  - -0,2x^2 + 16x - 300 = 0
+  - x = 50 oder x = 30
+  tipps:
+  - Gewinn 0 heißt Erlös = Kosten.
+  - Alles auf eine Seite und mit der Lösungsformel lösen.
+  fehler: []
+- id: E6.2-017
+  typ: quadratisch
+  stufe: 4
+  frage: Kosten `K(x) = 0,5x^2 + 40x + 750`, Erlös `E(x) = 80x`. Bei welchen Stückzahlen ist der Gewinn genau 0 (Gewinngrenzen, Break-even)?
+  gleichung: 80x = 0,5x^2 + 40x + 750
+  loesung: 50; 30
+  weg:
+  - -0,5x^2 + 40x - 750 = 0
+  - x = 50 oder x = 30
+  tipps:
+  - Gewinn 0 heißt Erlös = Kosten.
+  - Alles auf eine Seite und mit der Lösungsformel lösen.
+  fehler: []
+- id: E6.2-018
+  typ: quadratisch
+  stufe: 4
+  frage: Kosten `K(x) = 0,2x^2 + 32x + 160`, Erlös `E(x) = 50x`. Bei welchen Stückzahlen ist der Gewinn genau 0 (Gewinngrenzen, Break-even)?
+  gleichung: 50x = 0,2x^2 + 32x + 160
+  loesung: 80; 10
+  weg:
+  - -0,2x^2 + 18x - 160 = 0
+  - x = 80 oder x = 10
+  tipps:
+  - Gewinn 0 heißt Erlös = Kosten.
+  - Alles auf eine Seite und mit der Lösungsformel lösen.
+  fehler: []
+- id: E6.2-019
+  typ: quadratisch
+  stufe: 4
+  frage: Kosten `K(x) = 0,5x^2 + 35x + 900`, Erlös `E(x) = 80x`. Bei welchen Stückzahlen ist der Gewinn genau 0 (Gewinngrenzen, Break-even)?
+  gleichung: 80x = 0,5x^2 + 35x + 900
+  loesung: 60; 30
+  weg:
+  - -0,5x^2 + 45x - 900 = 0
+  - x = 60 oder x = 30
+  tipps:
+  - Gewinn 0 heißt Erlös = Kosten.
+  - Alles auf eine Seite und mit der Lösungsformel lösen.
+  fehler: []
+- id: E6.2-020
+  typ: quadratisch
+  stufe: 4
+  frage: Kosten `K(x) = 0,5x^2 + 25x + 100`, Erlös `E(x) = 40x`. Bei welchen Stückzahlen ist der Gewinn genau 0 (Gewinngrenzen, Break-even)?
+  gleichung: 40x = 0,5x^2 + 25x + 100
+  loesung: 20; 10
+  weg:
+  - -0,5x^2 + 15x - 100 = 0
+  - x = 20 oder x = 10
+  tipps:
+  - Gewinn 0 heißt Erlös = Kosten.
+  - Alles auf eine Seite und mit der Lösungsformel lösen.
+  fehler: []

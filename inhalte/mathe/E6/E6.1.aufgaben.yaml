@@ -1,0 +1,322 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E6.1-001
+  typ: zahl
+  stufe: 1
+  frage: Für eine Bewegung gilt `s(t) = 5t^2 + 8t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 4?
+  loesung: '48'
+  aus_term:
+    term: 5x^2 + 8x
+    groesse: ableitung
+    x: 4
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 10t + 8`.'
+  fehler:
+  - antwort: '112'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-002
+  typ: zahl
+  stufe: 1
+  frage: Für eine Bewegung gilt `s(t) = 2t^2 + 6t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 2?
+  loesung: '14'
+  aus_term:
+    term: 2x^2 + 6x
+    groesse: ableitung
+    x: 2
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 4t + 6`.'
+  fehler:
+  - antwort: '20'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-003
+  typ: zahl
+  stufe: 1
+  frage: Für eine Bewegung gilt `s(t) = 5t^2 + t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 5?
+  loesung: '51'
+  aus_term:
+    term: 5x^2 + x
+    groesse: ableitung
+    x: 5
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 10t + 1`.'
+  fehler:
+  - antwort: '130'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-004
+  typ: zahl
+  stufe: 1
+  frage: Für eine Bewegung gilt `s(t) = 5t^2 + 4t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 1?
+  loesung: '14'
+  aus_term:
+    term: 5x^2 + 4x
+    groesse: ableitung
+    x: 1
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 10t + 4`.'
+  fehler:
+  - antwort: '9'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-005
+  typ: zahl
+  stufe: 1
+  frage: Für eine Bewegung gilt `s(t) = 2t^2 + 2t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 4?
+  loesung: '18'
+  aus_term:
+    term: 2x^2 + 2x
+    groesse: ableitung
+    x: 4
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 4t + 2`.'
+  fehler:
+  - antwort: '40'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-006
+  typ: zahl
+  stufe: 2
+  frage: Für eine Bewegung gilt `s(t) = 5t^2 + t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 4?
+  loesung: '41'
+  aus_term:
+    term: 5x^2 + x
+    groesse: ableitung
+    x: 4
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 10t + 1`.'
+  fehler:
+  - antwort: '84'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-007
+  typ: zahl
+  stufe: 2
+  frage: Für eine Bewegung gilt `s(t) = 5t^2 + 8t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 3?
+  loesung: '38'
+  aus_term:
+    term: 5x^2 + 8x
+    groesse: ableitung
+    x: 3
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 10t + 8`.'
+  fehler:
+  - antwort: '69'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-008
+  typ: zahl
+  stufe: 2
+  frage: Für eine Bewegung gilt `s(t) = 3t^2 + t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 1?
+  loesung: '7'
+  aus_term:
+    term: 3x^2 + x
+    groesse: ableitung
+    x: 1
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 6t + 1`.'
+  fehler:
+  - antwort: '4'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-009
+  typ: zahl
+  stufe: 2
+  frage: Für eine Bewegung gilt `s(t) = 3t^2 + t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 4?
+  loesung: '25'
+  aus_term:
+    term: 3x^2 + x
+    groesse: ableitung
+    x: 4
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 6t + 1`.'
+  fehler:
+  - antwort: '52'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-010
+  typ: zahl
+  stufe: 2
+  frage: Für eine Bewegung gilt `s(t) = 2t^2 + 6t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 1?
+  loesung: '10'
+  aus_term:
+    term: 2x^2 + 6x
+    groesse: ableitung
+    x: 1
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 4t + 6`.'
+  fehler:
+  - antwort: '8'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-011
+  typ: zahl
+  stufe: 3
+  frage: Für eine Bewegung gilt `s(t) = 2t^3/3 + 8t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 2?
+  loesung: '8'
+  aus_term:
+    term: 2x^2 + 8
+    groesse: ableitung
+    x: 2
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 2t^2 + 8`, also `a(t) = 4t`.'
+  fehler:
+  - antwort: '16'
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.
+- id: E6.1-012
+  typ: zahl
+  stufe: 3
+  frage: Für eine Bewegung gilt `s(t) = t^3 + 2t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 5?
+  loesung: '30'
+  aus_term:
+    term: 3x^2 + 2
+    groesse: ableitung
+    x: 5
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 3t^2 + 2`, also `a(t) = 6t`.'
+  fehler:
+  - antwort: '77'
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.
+- id: E6.1-013
+  typ: zahl
+  stufe: 3
+  frage: Für eine Bewegung gilt `s(t) = t^3 + t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 5?
+  loesung: '76'
+  aus_term:
+    term: x^3 + x
+    groesse: ableitung
+    x: 5
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 3t^2 + 1`.'
+  fehler:
+  - antwort: '130'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-014
+  typ: zahl
+  stufe: 3
+  frage: Für eine Bewegung gilt `s(t) = 2t^3/3 + 6t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 5?
+  loesung: '20'
+  aus_term:
+    term: 2x^2 + 6
+    groesse: ableitung
+    x: 5
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 2t^2 + 6`, also `a(t) = 4t`.'
+  fehler:
+  - antwort: '56'
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.
+- id: E6.1-015
+  typ: zahl
+  stufe: 3
+  frage: Für eine Bewegung gilt `s(t) = t^3/6 + 3t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 5?
+  loesung: '5'
+  aus_term:
+    term: 0,5x^2 + 3
+    groesse: ableitung
+    x: 5
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 0,5t^2 + 3`, also `a(t) = t`.'
+  fehler:
+  - antwort: 31/2
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.
+- id: E6.1-016
+  typ: zahl
+  stufe: 4
+  frage: Für eine Bewegung gilt `s(t) = t^3 + 8t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 1?
+  loesung: '6'
+  aus_term:
+    term: 3x^2 + 8
+    groesse: ableitung
+    x: 1
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 3t^2 + 8`, also `a(t) = 6t`.'
+  fehler:
+  - antwort: '11'
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.
+- id: E6.1-017
+  typ: zahl
+  stufe: 4
+  frage: Für eine Bewegung gilt `s(t) = 2t^3/3 + 6t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 3?
+  loesung: '24'
+  aus_term:
+    term: 2x^3/3 + 6x
+    groesse: ableitung
+    x: 3
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = 2t^2 + 6`.'
+  fehler:
+  - antwort: '36'
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-018
+  typ: zahl
+  stufe: 4
+  frage: Für eine Bewegung gilt `s(t) = t^3/6 + 5t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 2?
+  loesung: '2'
+  aus_term:
+    term: 0,5x^2 + 5
+    groesse: ableitung
+    x: 2
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 0,5t^2 + 5`, also `a(t) = t`.'
+  fehler:
+  - antwort: '7'
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.
+- id: E6.1-019
+  typ: zahl
+  stufe: 4
+  frage: Für eine Bewegung gilt `s(t) = t^3/3 + 3t` (s in m, t in s). Wie groß ist die **Geschwindigkeit** zum Zeitpunkt t = 2?
+  loesung: '7'
+  aus_term:
+    term: x^3/3 + 3x
+    groesse: ableitung
+    x: 2
+  einheit: m/s
+  tipps:
+  - Geschwindigkeit `v(t) = s′(t)`.
+  - '`v(t) = t^2 + 3`.'
+  fehler:
+  - antwort: 26/3
+    hinweis: Das ist der Weg s(t). Gesucht ist die Geschwindigkeit v(t) = s′(t).
+- id: E6.1-020
+  typ: zahl
+  stufe: 4
+  frage: Für eine Bewegung gilt `s(t) = 2t^3/3 + 4t` (s in m, t in s). Wie groß ist die **Beschleunigung** zum Zeitpunkt t = 2?
+  loesung: '8'
+  aus_term:
+    term: 2x^2 + 4
+    groesse: ableitung
+    x: 2
+  einheit: m/s²
+  tipps:
+  - Beschleunigung `a(t) = v′(t) = s″(t)`.
+  - '`v(t) = 2t^2 + 4`, also `a(t) = 4t`.'
+  fehler:
+  - antwort: '12'
+    hinweis: Das ist die Geschwindigkeit. Noch einmal ableiten.

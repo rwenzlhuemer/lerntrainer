@@ -1,0 +1,19 @@
+id: E2.1
+titel: "Potenzregel"
+ziel: Du leitest Potenzen ab – auch mit negativen und gebrochenen Hochzahlen.
+erklaerung: |
+  **Potenzregel:** (xⁿ)′ = n · xⁿ⁻¹
+
+  Die Hochzahl kommt als Faktor nach vorne, die neue Hochzahl ist um 1 kleiner.
+  - (x⁵)′ = 5x⁴
+  - (1/x²)′ = (x⁻²)′ = -2x⁻³ = -2/x³
+  - (√x)′ = (x^(1/2))′ = 1/2 · x^(-1/2) = 1/(2√x)
+
+  Eine Zahl vor xⁿ bleibt einfach stehen (Faktorregel).
+beispiel:
+  wert: "12"
+  text: |
+    `f(x) = x³: `f′(x) = 3x², also f′(2) = 12.
+  weg:
+    - "3·2^2 = 12"
+

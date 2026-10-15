@@ -1,0 +1,19 @@
+id: E6.2
+titel: Kosten, Erlös, Gewinn
+ziel: Du rechnest mit Kosten-, Erlös- und Gewinnfunktionen.
+erklaerung: '- **Kosten** K(x): Fixkosten K(0) plus variable Kosten.
+
+  - **Erlös** E(x) = Preis · Stückzahl.
+
+  - **Gewinn** G(x) = E(x) − K(x).
+
+  - **Grenzkosten** K′(x): ungefähr die Kosten für ein zusätzliches Stück.
+
+  - **Gewinngrenzen (Break-even):** G(x) = 0, also E(x) = K(x).
+
+  '
+beispiel:
+  wert: '200'
+  text: 'K(x) = 0,5x² + 10x + 200, E(x) = 40x. Bei 20 Stück: E = 800 €, K = 200 + 200 + 200 = 600 €, Gewinn 200 €.'
+  weg:
+  - 40·20 - (0,5·20^2 + 10·20 + 200) = 200

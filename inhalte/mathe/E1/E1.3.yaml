@@ -1,0 +1,15 @@
+id: E1.3
+titel: "Momentane Änderungsrate"
+ziel: Du verstehst die Ableitung als Steigung der Tangente.
+erklaerung: |
+  Macht man das Intervall beim Differenzenquotienten immer kleiner, wird aus der Sekante die **Tangente**.
+  Ihre Steigung heißt **Differenzialquotient** oder **Ableitung** f′(x₀): die **momentane** Änderungsrate.
+
+  Am Graphen liest du sie mit einem Steigungsdreieck an der Tangente ab.
+beispiel:
+  wert: "2"
+  text: |
+    Bei `f(x) = x² hat die Tangente an der Stelle 1 die Steigung 2.
+  weg:
+    - "2·1 = 2"
+

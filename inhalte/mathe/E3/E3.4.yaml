@@ -1,0 +1,15 @@
+id: E3.4
+titel: "Krümmung"
+ziel: Du bestimmst mit f″, ob ein Graph links- oder rechtsgekrümmt ist.
+erklaerung: |
+  - `f″(x) > 0 → **linksgekrümmt** (wie eine Schüssel, „lächelnd“)
+  - `f″(x) < 0 → **rechtsgekrümmt** (wie ein Hügel)
+
+  Merkhilfe: Fährst du mit dem Rad den Graphen entlang, lenkst du bei Linkskrümmung nach links.
+beispiel:
+  wert: "6"
+  text: |
+    `f(x) = x³, x = 1: `f″(1) = 6 > 0 – linksgekrümmt.
+  weg:
+    - "6·1 = 6"
+

@@ -1,0 +1,15 @@
+id: E4.1
+titel: "Von f zu f′"
+ziel: Du ordnest einem Graphen den Graphen bzw. Term seiner Ableitung zu.
+erklaerung: |
+  Was du am Graphen von f siehst, verrät f′:
+  - f **steigt** → f′ ist **positiv** (über der x-Achse)
+  - f **fällt** → f′ ist **negativ**
+  - **Hoch- oder Tiefpunkt** von f → **Nullstelle** von f′
+  - je steiler f, desto größer der Betrag von f′
+
+  Eine Parabel hat als Ableitung eine Gerade, ein Polynom 3. Grades eine Parabel.
+beispiel:
+  text: |
+    f(x) = x² hat bei x = 0 einen Tiefpunkt, fällt links davon und steigt rechts – passend dazu ist f′(x) = 2x links negativ, bei 0 null, rechts positiv.
+

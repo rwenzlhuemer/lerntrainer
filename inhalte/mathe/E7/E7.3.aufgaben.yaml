@@ -1,0 +1,428 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E7.3-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne `∫ (4x + 4) dx` von 1 bis 3.
+  loesung: '24'
+  integral:
+    term: 4x + 4
+    von: 1
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = 2x^2 + 4x`.'
+  - Ergebnis = F(3) − F(1).
+  fehler:
+  - antwort: '-24'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '8'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne `∫ (2x + 3) dx` von -1 bis 0.
+  loesung: '2'
+  integral:
+    term: 2x + 3
+    von: -1
+    bis: 0
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = x^2 + 3x`.'
+  - Ergebnis = F(0) − F(-1).
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+- id: E7.3-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne `∫ (3x + 1) dx` von -1 bis 3.
+  loesung: '16'
+  integral:
+    term: 3x + 1
+    von: -1
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = 1,5x^2 + x`.'
+  - Ergebnis = F(3) − F(-1).
+  fehler:
+  - antwort: '-16'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '12'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne `∫ (4x + 3) dx` von -2 bis 4.
+  loesung: '42'
+  integral:
+    term: 4x + 3
+    von: -2
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = 2x^2 + 3x`.'
+  - Ergebnis = F(4) − F(-2).
+  fehler:
+  - antwort: '-42'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '24'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne `∫ (-3x + 1) dx` von -2 bis 1.
+  loesung: 7,5
+  integral:
+    term: -3x + 1
+    von: -2
+    bis: 1
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -1,5x^2 + x`.'
+  - Ergebnis = F(1) − F(-2).
+  fehler:
+  - antwort: -15/2
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-9'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne `∫ (-2x + 1) dx` von -1 bis 4.
+  loesung: '-10'
+  integral:
+    term: -2x + 1
+    von: -1
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -x^2 + x`.'
+  - Ergebnis = F(4) − F(-1).
+  fehler:
+  - antwort: '10'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+- id: E7.3-007
+  typ: zahl
+  stufe: 2
+  frage: Berechne `∫ (x^2 + 4x - 3) dx` von 0 bis 3.
+  loesung: '18'
+  integral:
+    term: x^2 + 4x - 3
+    von: 0
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = x^3/3 + 2x^2 - 3x`.'
+  - Ergebnis = F(3) − F(0).
+  fehler:
+  - antwort: '-18'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '21'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-008
+  typ: zahl
+  stufe: 2
+  frage: Berechne `∫ (x^2 + 3) dx` von -2 bis 2.
+  loesung: 52/3
+  integral:
+    term: x^2 + 3
+    von: -2
+    bis: 2
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = x^3/3 + 3x`.'
+  - Ergebnis = F(2) − F(-2).
+  fehler:
+  - antwort: -52/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '0'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-009
+  typ: zahl
+  stufe: 2
+  frage: Berechne `∫ (x^2 + 2x + 3) dx` von -2 bis 3.
+  loesung: 95/3
+  integral:
+    term: x^2 + 2x + 3
+    von: -2
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = x^3/3 + x^2 + 3x`.'
+  - Ergebnis = F(3) − F(-2).
+  fehler:
+  - antwort: -95/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '15'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-010
+  typ: zahl
+  stufe: 2
+  frage: Berechne `∫ (-4x^2 + 2x - 2) dx` von -1 bis 4.
+  loesung: -245/3
+  integral:
+    term: -4x^2 + 2x - 2
+    von: -1
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -4x^3/3 + x^2 - 2x`.'
+  - Ergebnis = F(4) − F(-1).
+  fehler:
+  - antwort: 245/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-50'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-011
+  typ: zahl
+  stufe: 2
+  frage: Berechne `∫ (4x^2 - 2x - 3) dx` von -1 bis 2.
+  loesung: '0'
+  integral:
+    term: 4x^2 - 2x - 3
+    von: -1
+    bis: 2
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = 4x^3/3 - x^2 - 3x`.'
+  - Ergebnis = F(2) − F(-1).
+  fehler:
+  - antwort: '6'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne `∫ (-2x^2 + 3x + 2) dx` von 0 bis 4.
+  loesung: -32/3
+  integral:
+    term: -2x^2 + 3x + 2
+    von: 0
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -2x^3/3 + 1,5x^2 + 2x`.'
+  - Ergebnis = F(4) − F(0).
+  fehler:
+  - antwort: 32/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-20'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-013
+  typ: zahl
+  stufe: 3
+  frage: Berechne `∫ (-x^2 - 3x) dx` von -1 bis 4.
+  loesung: -265/6
+  integral:
+    term: -x^2 - 3x
+    von: -1
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -x^3/3 - 1,5x^2`.'
+  - Ergebnis = F(4) − F(-1).
+  fehler:
+  - antwort: 265/6
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-30'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-014
+  typ: zahl
+  stufe: 3
+  frage: Berechne `∫ (3x^2 - x - 4) dx` von -1 bis 3.
+  loesung: '8'
+  integral:
+    term: 3x^2 - x - 4
+    von: -1
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = x^3 - 0,5x^2 - 4x`.'
+  - Ergebnis = F(3) − F(-1).
+  fehler:
+  - antwort: '-8'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '20'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-015
+  typ: zahl
+  stufe: 3
+  frage: Berechne `∫ (-3x^2 - 3) dx` von -1 bis 0.
+  loesung: '-4'
+  integral:
+    term: -3x^2 - 3
+    von: -1
+    bis: 0
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -x^3 - 3x`.'
+  - Ergebnis = F(0) − F(-1).
+  fehler:
+  - antwort: '4'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '3'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-016
+  typ: zahl
+  stufe: 3
+  frage: Berechne `∫ (-4x^2 - 2) dx` von 3 bis 4.
+  loesung: -154/3
+  integral:
+    term: -4x^2 - 2
+    von: 3
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -4x^3/3 - 2x`.'
+  - Ergebnis = F(4) − F(3).
+  fehler:
+  - antwort: 154/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-28'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-017
+  typ: zahl
+  stufe: 3
+  frage: Berechne `∫ (-3x^2 - 3x + 1) dx` von 0 bis 2.
+  loesung: '-12'
+  integral:
+    term: -3x^2 - 3x + 1
+    von: 0
+    bis: 2
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -x^3 - 1,5x^2 + x`.'
+  - Ergebnis = F(2) − F(0).
+  fehler:
+  - antwort: '12'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-18'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-018
+  typ: zahl
+  stufe: 3
+  frage: Berechne `∫ (-4x^2 - 4x + 2) dx` von -2 bis -1.
+  loesung: -4/3
+  integral:
+    term: -4x^2 - 4x + 2
+    von: -2
+    bis: -1
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -4x^3/3 - 2x^2 + 2x`.'
+  - Ergebnis = F(-1) − F(-2).
+  fehler:
+  - antwort: 4/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '8'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-019
+  typ: zahl
+  stufe: 4
+  frage: Berechne `∫ (4x^3 - x^2 - 2x - 1) dx` von 0 bis 4.
+  loesung: 644/3
+  integral:
+    term: 4x^3 - x^2 - 2x - 1
+    von: 0
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = x^4 - x^3/3 - x^2 - x`.'
+  - Ergebnis = F(4) − F(0).
+  fehler:
+  - antwort: -644/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '232'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-020
+  typ: zahl
+  stufe: 4
+  frage: Berechne `∫ (-4x^3 - 2x^2 + 2x + 1) dx` von 1 bis 2.
+  loesung: -47/3
+  integral:
+    term: -4x^3 - 2x^2 + 2x + 1
+    von: 1
+    bis: 2
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -x^4 - 2x^3/3 + x^2 + x`.'
+  - Ergebnis = F(2) − F(1).
+  fehler:
+  - antwort: 47/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-32'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-021
+  typ: zahl
+  stufe: 4
+  frage: Berechne `∫ (2x^3 + x - 2) dx` von -1 bis 4.
+  loesung: '125'
+  integral:
+    term: 2x^3 + x - 2
+    von: -1
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = 0,5x^4 + 0,5x^2 - 2x`.'
+  - Ergebnis = F(4) − F(-1).
+  fehler:
+  - antwort: '-125'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '135'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-022
+  typ: zahl
+  stufe: 4
+  frage: Berechne `∫ (-3x^3 + x - 1) dx` von 1 bis 3.
+  loesung: '-58'
+  integral:
+    term: -3x^3 + x - 1
+    von: 1
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -0,75x^4 + 0,5x^2 - x`.'
+  - Ergebnis = F(3) − F(1).
+  fehler:
+  - antwort: '58'
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-76'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-023
+  typ: zahl
+  stufe: 4
+  frage: Berechne `∫ (-x^3 + x^2 + x - 2) dx` von -1 bis 3.
+  loesung: -44/3
+  integral:
+    term: -x^3 + x^2 + x - 2
+    von: -1
+    bis: 3
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = -0,25x^4 + x^3/3 + 0,5x^2 - 2x`.'
+  - Ergebnis = F(3) − F(-1).
+  fehler:
+  - antwort: 44/3
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '-16'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.
+- id: E7.3-024
+  typ: zahl
+  stufe: 4
+  frage: Berechne `∫ (3x^3 - x^2 - 4x + 3) dx` von -1 bis 4.
+  loesung: 1855/12
+  integral:
+    term: 3x^3 - x^2 - 4x + 3
+    von: -1
+    bis: 4
+  tipps:
+  - Stammfunktion F bestimmen.
+  - '`F(x) = 0,75x^4 - x^3/3 - 2x^2 + 3x`.'
+  - Ergebnis = F(4) − F(-1).
+  fehler:
+  - antwort: -1855/12
+    hinweis: 'Obere Grenze minus untere: F(b) − F(a).'
+  - antwort: '160'
+    hinweis: Du brauchst F (die Stammfunktion), nicht f.

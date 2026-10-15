@@ -1,0 +1,16 @@
+id: E3.5
+titel: "Wendestellen berechnen"
+ziel: Du berechnest Wendepunkte mit der zweiten Ableitung.
+erklaerung: |
+  An einer **Wendestelle** wechselt die Krümmung (von links nach rechts oder umgekehrt).
+
+  1. **f″(x) = 0** setzen und lösen.
+  2. Prüfen: f‴ ≠ 0 (bei Polynomen 3. Grades ist das immer so).
+  3. y-Koordinate: x in f einsetzen.
+beispiel:
+  wert: "1"
+  text: |
+    `f(x) = x³ - 3x²: `f″(x) = 6x - 6 = 0 → x = 1.
+  weg:
+    - "6/6 = 1"
+

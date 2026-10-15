@@ -1,0 +1,16 @@
+id: E1.4
+titel: "Änderungsraten im Kontext"
+ziel: Du deutest mittlere und momentane Änderungsraten, z. B. als Geschwindigkeit.
+erklaerung: |
+  Ist s(t) der Weg nach t Sekunden, dann ist
+  - (s(b) - s(a)) : (b - a) die **mittlere Geschwindigkeit** zwischen a und b,
+  - s′(t) die **momentane Geschwindigkeit** zum Zeitpunkt t.
+
+  Genauso: Kosten pro Stück, Wachstum pro Tag, Temperaturänderung pro Stunde.
+beispiel:
+  wert: "20"
+  text: |
+    s(t) = 5t²: zwischen t = 1 und t = 3 ist die mittlere Geschwindigkeit (45 − 5) : 2 = 20 m/s.
+  weg:
+    - "(5·3^2 - 5·1^2)/(3 - 1) = 20"
+

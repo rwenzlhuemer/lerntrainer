@@ -1,0 +1,14 @@
+id: E2.3
+titel: "Zweite Ableitung"
+ziel: Du bildest die zweite Ableitung.
+erklaerung: |
+  Die **zweite Ableitung** f″ ist die Ableitung der Ableitung: einfach zweimal hintereinander ableiten.
+
+  Sie beschreibt, wie sich die Steigung ändert – also die **Krümmung** des Graphen.
+beispiel:
+  wert: "6"
+  text: |
+    `f(x) = x³: `f′(x) = 3x², `f″(x) = 6x, also f″(1) = 6.
+  weg:
+    - "6·1 = 6"
+

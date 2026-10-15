@@ -1,0 +1,616 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E1.3-001
+  typ: zahl
+  stufe: 1
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '3'
+  aus_term:
+    term: 0,25x^2 + 2x - 2
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -3
+    - 9
+    kurven:
+    - term: 0,25x^2 + 2x - 2
+      name: f
+    - term: 3x - 3
+      name: t
+    punkte:
+    - x: 2
+      y: 3
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-002
+  typ: zahl
+  stufe: 1
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '4'
+  aus_term:
+    term: 0,5x^2 + 2x - 1
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -1
+    - 11
+    kurven:
+    - term: 0,5x^2 + 2x - 1
+      name: f
+    - term: 4x - 3
+      name: t
+    punkte:
+    - x: 2
+      y: 5
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-4'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-003
+  typ: zahl
+  stufe: 1
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-5'
+  aus_term:
+    term: x^2 - x - 1
+    groesse: ableitung
+    x: -2
+  graph:
+    x:
+    - -6
+    - 2
+    y:
+    - -1
+    - 11
+    kurven:
+    - term: x^2 - x - 1
+      name: f
+    - term: -5x - 5
+      name: t
+    punkte:
+    - x: -2
+      y: 5
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '5'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-004
+  typ: zahl
+  stufe: 1
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '0'
+  aus_term:
+    term: 0,25x^2 + x - 1
+    groesse: ableitung
+    x: -2
+  graph:
+    x:
+    - -6
+    - 2
+    y:
+    - -8
+    - 4
+    kurven:
+    - term: 0,25x^2 + x - 1
+      name: f
+    - term: '-2'
+      name: t
+    punkte:
+    - x: -2
+      y: -2
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler: []
+- id: E1.3-005
+  typ: zahl
+  stufe: 1
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '1'
+  aus_term:
+    term: 0,25x^2 + 2x - 3
+    groesse: ableitung
+    x: -2
+  graph:
+    x:
+    - -6
+    - 2
+    y:
+    - -12
+    - 0
+    kurven:
+    - term: 0,25x^2 + 2x - 3
+      name: f
+    - term: x - 4
+      name: t
+    punkte:
+    - x: -2
+      y: -6
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-006
+  typ: zahl
+  stufe: 2
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-4'
+  aus_term:
+    term: -x^2 - 2x + 1
+    groesse: ableitung
+    x: 1
+  graph:
+    x:
+    - -3
+    - 5
+    y:
+    - -8
+    - 4
+    kurven:
+    - term: -x^2 - 2x + 1
+      name: f
+    - term: -4x + 2
+      name: t
+    punkte:
+    - x: 1
+      y: -2
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '4'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-007
+  typ: zahl
+  stufe: 2
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '3'
+  aus_term:
+    term: x^2 - x - 3
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -7
+    - 5
+    kurven:
+    - term: x^2 - x - 3
+      name: f
+    - term: 3x - 7
+      name: t
+    punkte:
+    - x: 2
+      y: -1
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-008
+  typ: zahl
+  stufe: 2
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-5'
+  aus_term:
+    term: x^2 - x - 3
+    groesse: ableitung
+    x: -2
+  graph:
+    x:
+    - -6
+    - 2
+    y:
+    - -3
+    - 9
+    kurven:
+    - term: x^2 - x - 3
+      name: f
+    - term: -5x - 7
+      name: t
+    punkte:
+    - x: -2
+      y: 3
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '5'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-009
+  typ: zahl
+  stufe: 2
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '0'
+  aus_term:
+    term: -0,5x^2 + 2x - 3
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -7
+    - 5
+    kurven:
+    - term: -0,5x^2 + 2x - 3
+      name: f
+    - term: '-1'
+      name: t
+    punkte:
+    - x: 2
+      y: -1
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler: []
+- id: E1.3-010
+  typ: zahl
+  stufe: 2
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-4'
+  aus_term:
+    term: x^2 - 2x - 3
+    groesse: ableitung
+    x: -1
+  graph:
+    x:
+    - -5
+    - 3
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x^2 - 2x - 3
+      name: f
+    - term: -4x - 4
+      name: t
+    punkte:
+    - x: -1
+      y: 0
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '4'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-011
+  typ: zahl
+  stufe: 3
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-1'
+  aus_term:
+    term: -0,5x^2 + x - 1
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -7
+    - 5
+    kurven:
+    - term: -0,5x^2 + x - 1
+      name: f
+    - term: -x + 1
+      name: t
+    punkte:
+    - x: 2
+      y: -1
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-012
+  typ: zahl
+  stufe: 3
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '0'
+  aus_term:
+    term: 0,5x^2 - 2x - 1
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -9
+    - 3
+    kurven:
+    - term: 0,5x^2 - 2x - 1
+      name: f
+    - term: '-3'
+      name: t
+    punkte:
+    - x: 2
+      y: -3
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler: []
+- id: E1.3-013
+  typ: zahl
+  stufe: 3
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-3'
+  aus_term:
+    term: -0,5x^2 - x + 1
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -9
+    - 3
+    kurven:
+    - term: -0,5x^2 - x + 1
+      name: f
+    - term: -3x + 3
+      name: t
+    punkte:
+    - x: 2
+      y: -3
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-014
+  typ: zahl
+  stufe: 3
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '3'
+  aus_term:
+    term: 0,5x^2 + x + 2
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - 0
+    - 12
+    kurven:
+    - term: 0,5x^2 + x + 2
+      name: f
+    - term: 3x
+      name: t
+    punkte:
+    - x: 2
+      y: 6
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-015
+  typ: zahl
+  stufe: 3
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '1'
+  aus_term:
+    term: 0,5x^2 - x + 2
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -4
+    - 8
+    kurven:
+    - term: 0,5x^2 - x + 2
+      name: f
+    - term: x
+      name: t
+    punkte:
+    - x: 2
+      y: 2
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-016
+  typ: zahl
+  stufe: 4
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-4'
+  aus_term:
+    term: -x^2 - 2x + 2
+    groesse: ableitung
+    x: 1
+  graph:
+    x:
+    - -3
+    - 5
+    y:
+    - -7
+    - 5
+    kurven:
+    - term: -x^2 - 2x + 2
+      name: f
+    - term: -4x + 3
+      name: t
+    punkte:
+    - x: 1
+      y: -1
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '4'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-017
+  typ: zahl
+  stufe: 4
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-1'
+  aus_term:
+    term: x^2 + x - 3
+    groesse: ableitung
+    x: -1
+  graph:
+    x:
+    - -5
+    - 3
+    y:
+    - -9
+    - 3
+    kurven:
+    - term: x^2 + x - 3
+      name: f
+    - term: -x - 4
+      name: t
+    punkte:
+    - x: -1
+      y: -3
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-018
+  typ: zahl
+  stufe: 4
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-1'
+  aus_term:
+    term: -0,5x^2 + x + 2
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -4
+    - 8
+    kurven:
+    - term: -0,5x^2 + x + 2
+      name: f
+    - term: -x + 4
+      name: t
+    punkte:
+    - x: 2
+      y: 2
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-019
+  typ: zahl
+  stufe: 4
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '-3'
+  aus_term:
+    term: -x^2 + x - 2
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -10
+    - 2
+    kurven:
+    - term: -x^2 + x - 2
+      name: f
+    - term: -3x + 2
+      name: t
+    punkte:
+    - x: 2
+      y: -4
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'
+- id: E1.3-020
+  typ: zahl
+  stufe: 4
+  frage: Im Bild siehst du den Graphen von f und die **Tangente** im markierten Punkt. Lies die Steigung der Tangente ab – das ist die momentane Änderungsrate f′ an dieser Stelle.
+  loesung: '3'
+  aus_term:
+    term: 0,5x^2 + x + 1
+    groesse: ableitung
+    x: 2
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - -1
+    - 11
+    kurven:
+    - term: 0,5x^2 + x + 1
+      name: f
+    - term: 3x - 1
+      name: t
+    punkte:
+    - x: 2
+      y: 5
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck an der Tangente (nicht am Graphen!): eine Einheit nach rechts – wie viel nach oben oder unten?'
+  - Fällt die Tangente, ist die Steigung negativ.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Vorzeichen: Fällt die Tangente von links nach rechts, ist die Steigung negativ.'

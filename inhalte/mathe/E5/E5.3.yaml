@@ -1,0 +1,15 @@
+id: E5.3
+titel: Wendepunkt berechnen
+ziel: Du berechnest den Wendepunkt einer Polynomfunktion.
+erklaerung: '1. f″ bilden und `f″(x) = 0 lösen.
+
+  2. Bei Polynomen 3. Grades gibt es genau eine Wendestelle – sie liegt genau in der Mitte zwischen Hoch- und Tiefpunkt.
+
+  3. y-Wert: x in f einsetzen.
+
+  '
+beispiel:
+  wert: '0'
+  text: '`f(x) = x³ - 3x² + 2`: `f″(x) = 6x - 6 = 0` → x = 1. f(1) = 1 − 3 + 2 = 0. Wendepunkt W(1|0).'
+  weg:
+  - 1^3 - 3·1^2 + 2 = 0

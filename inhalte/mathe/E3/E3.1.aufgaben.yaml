@@ -1,0 +1,360 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E3.1-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -x^2 - 4x + 2`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '-2'
+  aus_term:
+    term: -x^2 - 4x + 2
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -2x - 4`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '5'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 4x^2 - 3x - 1`. Wie groß ist die Steigung des Graphen an der Stelle x = -3?'
+  loesung: '-27'
+  aus_term:
+    term: 4x^2 - 3x - 1
+    groesse: ableitung
+    x: -3
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 8x - 3`. Setz x = -3 ein.'
+  fehler:
+  - antwort: '44'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 4x^2 - x + 4`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '-17'
+  aus_term:
+    term: 4x^2 - x + 4
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 8x - 1`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '22'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -4x^2 - x - 3`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '15'
+  aus_term:
+    term: -4x^2 - x - 3
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -8x - 1`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '-17'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 3x^2 + 3x + 3`. Wie groß ist die Steigung des Graphen an der Stelle x = 2?'
+  loesung: '15'
+  aus_term:
+    term: 3x^2 + 3x + 3
+    groesse: ableitung
+    x: 2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 6x + 3`. Setz x = 2 ein.'
+  fehler:
+  - antwort: '21'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-006
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -3x^2 + 4x + 1`. Wie groß ist die Steigung des Graphen an der Stelle x = 3?'
+  loesung: '-14'
+  aus_term:
+    term: -3x^2 + 4x + 1
+    groesse: ableitung
+    x: 3
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -6x + 4`. Setz x = 3 ein.'
+  fehler: []
+- id: E3.1-007
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -4x^2 + 2x + 1`. Wie groß ist die Steigung des Graphen an der Stelle x = -3?'
+  loesung: '26'
+  aus_term:
+    term: -4x^2 + 2x + 1
+    groesse: ableitung
+    x: -3
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -8x + 2`. Setz x = -3 ein.'
+  fehler:
+  - antwort: '-41'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-008
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 3x^2 - 2`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '-12'
+  aus_term:
+    term: 3x^2 - 2
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 6x`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '10'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -2x^2 - 2x + 4`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '2'
+  aus_term:
+    term: -2x^2 - 2x + 4
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -4x - 2`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '4'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -4x^2 + x - 3`. Wie groß ist die Steigung des Graphen an der Stelle x = 2?'
+  loesung: '-15'
+  aus_term:
+    term: -4x^2 + x - 3
+    groesse: ableitung
+    x: 2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -8x + 1`. Setz x = 2 ein.'
+  fehler:
+  - antwort: '-17'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-011
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -x^2 + 3x + 2`. Wie groß ist die Steigung des Graphen an der Stelle x = -3?'
+  loesung: '9'
+  aus_term:
+    term: -x^2 + 3x + 2
+    groesse: ableitung
+    x: -3
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -2x + 3`. Setz x = -3 ein.'
+  fehler:
+  - antwort: '-16'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-012
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 4x^2 + 3x + 2`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '-5'
+  aus_term:
+    term: 4x^2 + 3x + 2
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 8x + 3`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '3'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-013
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 + 3x^2 - x - 1`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '-1'
+  aus_term:
+    term: x^3 + 3x^2 - x - 1
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 3x^2 + 6x - 1`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '5'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-014
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 - 2x^2 - 2x`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '18'
+  aus_term:
+    term: x^3 - 2x^2 - 2x
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 3x^2 - 4x - 2`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '-12'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-015
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -2x^3 - 3x^2 - 4x + 1`. Wie groß ist die Steigung des Graphen an der Stelle x = 1?'
+  loesung: '-16'
+  aus_term:
+    term: -2x^3 - 3x^2 - 4x + 1
+    groesse: ableitung
+    x: 1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -6x^2 - 6x - 4`. Setz x = 1 ein.'
+  fehler:
+  - antwort: '-8'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-016
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x^3 - x^2 - x + 1`. Wie groß ist die Steigung des Graphen an der Stelle x = -3?'
+  loesung: '32'
+  aus_term:
+    term: x^3 - x^2 - x + 1
+    groesse: ableitung
+    x: -3
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 3x^2 - 2x - 1`. Setz x = -3 ein.'
+  fehler:
+  - antwort: '-32'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-017
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -3x^3 - 4x^2 + x - 2`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '-19'
+  aus_term:
+    term: -3x^3 - 4x^2 + x - 2
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -9x^2 - 8x + 1`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '4'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-018
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -3x^3 + x + 3`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '-8'
+  aus_term:
+    term: -3x^3 + x + 3
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -9x^2 + 1`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '5'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -x^3 - 3x^2 + 4x - 3`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '4'
+  aus_term:
+    term: -x^3 - 3x^2 + 4x - 3
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -3x^2 - 6x + 4`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '-15'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 3x^3 - 3x^2 + x - 3`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '16'
+  aus_term:
+    term: 3x^3 - 3x^2 + x - 3
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 9x^2 - 6x + 1`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '-10'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-021
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 3x^3 - 2x + 3`. Wie groß ist die Steigung des Graphen an der Stelle x = -2?'
+  loesung: '34'
+  aus_term:
+    term: 3x^3 - 2x + 3
+    groesse: ableitung
+    x: -2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 9x^2 - 2`. Setz x = -2 ein.'
+  fehler:
+  - antwort: '-17'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-022
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 4x^3 - 2x^2 + x - 2`. Wie groß ist die Steigung des Graphen an der Stelle x = 2?'
+  loesung: '41'
+  aus_term:
+    term: 4x^3 - 2x^2 + x - 2
+    groesse: ableitung
+    x: 2
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = 12x^2 - 4x + 1`. Setz x = 2 ein.'
+  fehler:
+  - antwort: '24'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-023
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -3x^3 + 4x^2 + x + 1`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '-16'
+  aus_term:
+    term: -3x^3 + 4x^2 + x + 1
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -9x^2 + 8x + 1`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '7'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).
+- id: E3.1-024
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -2x^3 + 4x^2 + 4x - 1`. Wie groß ist die Steigung des Graphen an der Stelle x = -1?'
+  loesung: '-10'
+  aus_term:
+    term: -2x^3 + 4x^2 + 4x - 1
+    groesse: ableitung
+    x: -1
+  tipps:
+  - Die Steigung an einer Stelle ist f′ an dieser Stelle.
+  - '`f′(x) = -6x^2 + 8x + 4`. Setz x = -1 ein.'
+  fehler:
+  - antwort: '1'
+    hinweis: Das ist der Funktionswert f(x₀). Gesucht ist f′(x₀).

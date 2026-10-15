@@ -1,0 +1,17 @@
+id: E7.6
+titel: "Ober- und Untersumme"
+ziel: Du näherst Flächen mit Rechtecksstreifen an.
+erklaerung: |
+  Die Fläche unter einem Graphen kann man mit **Rechtecken** annähern:
+  - Intervall in n gleich breite Streifen teilen (Breite Δx).
+  - **Untersumme:** jeweils die **kleinste** Höhe im Streifen; **Obersumme:** die **größte**.
+  - Summe aus Breite mal Höhe.
+
+  Je mehr Streifen, desto genauer – im Grenzfall ergibt sich genau das Integral.
+beispiel:
+  wert: "5"
+  text: |
+    `f(x) = x² auf [0; 2] mit 2 Streifen: Obersumme 1 · (1² + 2²) = 5.
+  weg:
+    - "1·(1^2 + 2^2) = 5"
+

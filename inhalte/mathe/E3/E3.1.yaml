@@ -1,0 +1,15 @@
+id: E3.1
+titel: "Ableitung als Steigung"
+ziel: Du berechnest die Steigung eines Graphen an einer Stelle.
+erklaerung: |
+  `f′(x₀) ist die Steigung des Graphen (bzw. der Tangente) an der Stelle x₀.
+
+  So gehst du vor: f ableiten, dann x₀ einsetzen.
+  Achtung: Gesucht ist f′(x₀), nicht der Funktionswert f(x₀).
+beispiel:
+  wert: "4"
+  text: |
+    `f(x) = x² - 2x: `f′(x) = 2x - 2, an der Stelle 3: 6 − 2 = 4.
+  weg:
+    - "2·3 - 2 = 4"
+

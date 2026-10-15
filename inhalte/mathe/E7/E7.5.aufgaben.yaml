@@ -1,0 +1,562 @@
+# ERZEUGT von tools/generatoren/e.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: E7.5-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 5x - 4` und `g(x) = -x - 1`.
+  loesung: 4/3
+  flaeche:
+    term: -x^2 - 4x - 3
+    von: -3
+    bis: -1
+  graph:
+    x:
+    - -5
+    - 1
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 5x - 4
+      name: f
+    - term: -x - 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = -1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -4/3
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 2x - 2` und `g(x) = 2x + 1`.
+  loesung: 4/3
+  flaeche:
+    term: -x^2 - 4x - 3
+    von: -3
+    bis: -1
+  graph:
+    x:
+    - -5
+    - 1
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 2x - 2
+      name: f
+    - term: 2x + 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = -1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -4/3
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - x + 6` und `g(x) = -x - 3`.
+  loesung: '36'
+  flaeche:
+    term: -x^2 + 9
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - x + 6
+      name: f
+    - term: -x - 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = 3.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: '-36'
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 5x - 5` und `g(x) = -2x - 3`.
+  loesung: 1/6
+  flaeche:
+    term: -x^2 - 3x - 2
+    von: -2
+    bis: -1
+  graph:
+    x:
+    - -4
+    - 1
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 5x - 5
+      name: f
+    - term: -2x - 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -2 und x = -1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -1/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - x + 3` und `g(x) = -2x + 3`.
+  loesung: 1/6
+  flaeche:
+    term: -x^2 + x
+    von: 0
+    bis: 1
+  graph:
+    x:
+    - -2
+    - 3
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - x + 3
+      name: f
+    - term: -2x + 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = 0 und x = 1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -1/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-006
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 4x + 5` und `g(x) = -2x + 2`.
+  loesung: 32/3
+  flaeche:
+    term: -x^2 - 2x + 3
+    von: -3
+    bis: 1
+  graph:
+    x:
+    - -5
+    - 3
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 4x + 5
+      name: f
+    - term: -2x + 2
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = 1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -32/3
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-007
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + 4x - 5` und `g(x) = x - 3`.
+  loesung: 1/6
+  flaeche:
+    term: -x^2 + 3x - 2
+    von: 1
+    bis: 2
+  graph:
+    x:
+    - -1
+    - 4
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + 4x - 5
+      name: f
+    - term: x - 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = 1 und x = 2.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -1/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-008
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 3x + 7` und `g(x) = -2x + 1`.
+  loesung: 125/6
+  flaeche:
+    term: -x^2 - x + 6
+    von: -3
+    bis: 2
+  graph:
+    x:
+    - -5
+    - 4
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 3x + 7
+      name: f
+    - term: -2x + 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = 2.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -125/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-009
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 3x - 1` und `g(x) = -2x - 3`.
+  loesung: 4,5
+  flaeche:
+    term: -x^2 - x + 2
+    von: -2
+    bis: 1
+  graph:
+    x:
+    - -4
+    - 3
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 3x - 1
+      name: f
+    - term: -2x - 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -2 und x = 1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -9/2
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-010
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 2x + 6` und `g(x) = -2x + 2`.
+  loesung: 32/3
+  flaeche:
+    term: -x^2 + 4
+    von: -2
+    bis: 2
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 2x + 6
+      name: f
+    - term: -2x + 2
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -2 und x = 2.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -32/3
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-011
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + 2x + 1` und `g(x) = x - 1`.
+  loesung: 4,5
+  flaeche:
+    term: -x^2 + x + 2
+    von: -1
+    bis: 2
+  graph:
+    x:
+    - -3
+    - 4
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + 2x + 1
+      name: f
+    - term: x - 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -1 und x = 2.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -9/2
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-012
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 3` und `g(x) = -x - 3`.
+  loesung: 1/6
+  flaeche:
+    term: -x^2 + x
+    von: 0
+    bis: 1
+  graph:
+    x:
+    - -2
+    - 3
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 3
+      name: f
+    - term: -x - 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = 0 und x = 1.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -1/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-013
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 2x + 8` und `g(x) = -2x - 1`.
+  loesung: '36'
+  flaeche:
+    term: -x^2 + 9
+    von: -3
+    bis: 3
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 2x + 8
+      name: f
+    - term: -2x - 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = 3.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: '-36'
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-014
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + 2x + 7` und `g(x) = x + 1`.
+  loesung: 125/6
+  flaeche:
+    term: -x^2 + x + 6
+    von: -2
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 5
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + 2x + 7
+      name: f
+    - term: x + 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -2 und x = 3.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -125/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-015
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + 4x + 2` und `g(x) = x + 2`.
+  loesung: 4,5
+  flaeche:
+    term: -x^2 + 3x
+    von: 0
+    bis: 3
+  graph:
+    x:
+    - -2
+    - 5
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + 4x + 2
+      name: f
+    - term: x + 2
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = 0 und x = 3.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -9/2
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-016
+  typ: zahl
+  stufe: 4
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + x + 4` und `g(x) = 2x - 2`.
+  loesung: 125/6
+  flaeche:
+    term: -x^2 - x + 6
+    von: -3
+    bis: 2
+  graph:
+    x:
+    - -5
+    - 4
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + x + 4
+      name: f
+    - term: 2x - 2
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = 2.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -125/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-017
+  typ: zahl
+  stufe: 4
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + 2x` und `g(x) = -2x + 3`.
+  loesung: 4/3
+  flaeche:
+    term: -x^2 + 4x - 3
+    von: 1
+    bis: 3
+  graph:
+    x:
+    - -1
+    - 5
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + 2x
+      name: f
+    - term: -2x + 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = 1 und x = 3.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -4/3
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-018
+  typ: zahl
+  stufe: 4
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 - 2x - 1` und `g(x) = x - 1`.
+  loesung: 4,5
+  flaeche:
+    term: -x^2 - 3x
+    von: -3
+    bis: 0
+  graph:
+    x:
+    - -5
+    - 2
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 - 2x - 1
+      name: f
+    - term: x - 1
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -3 und x = 0.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -9/2
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-019
+  typ: zahl
+  stufe: 4
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + x + 2` und `g(x) = x - 2`.
+  loesung: 32/3
+  flaeche:
+    term: -x^2 + 4
+    von: -2
+    bis: 2
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + x + 2
+      name: f
+    - term: x - 2
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -2 und x = 2.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -32/3
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
+- id: E7.5-020
+  typ: zahl
+  stufe: 4
+  frage: Berechne die Fläche zwischen den Graphen von `f(x) = -x^2 + 9` und `g(x) = -x + 3`.
+  loesung: 125/6
+  flaeche:
+    term: -x^2 + x + 6
+    von: -2
+    bis: 3
+  graph:
+    x:
+    - -4
+    - 5
+    y:
+    - -9
+    - 9
+    kurven:
+    - term: -x^2 + 9
+      name: f
+    - term: -x + 3
+      name: g
+  tipps:
+  - 'Schnittstellen: f(x) = g(x).'
+  - Sie schneiden sich bei x = -2 und x = 3.
+  - Fläche = ∫ (oberer − unterer Graph) dx.
+  fehler:
+  - antwort: -125/6
+    hinweis: 'Fläche ist immer positiv: oberer minus unterer Graph.'
