@@ -1,0 +1,702 @@
+# ERZEUGT von tools/generatoren/a2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A2.5-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/4)/(1/6)`.
+  loesung: 3/2
+  form: gekuerzt
+  weg:
+  - '(1/4)/(1/6) = 1/4 : 1/6 = 1/4 · 6 = 3/2'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/4)/(1/6) = 1/4 : 1/6`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/3
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/24
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/4)/(1/6)
+- id: A2.5-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(2/5)/(3/5)`.
+  loesung: 2/3
+  form: gekuerzt
+  weg:
+  - '(2/5)/(3/5) = 2/5 : 3/5 = 2/5 · 5/3 = 2/3'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(2/5)/(3/5) = 2/5 : 3/5`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/2
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 6/25
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (2/5)/(3/5)
+- id: A2.5-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/2)/(1/5)`.
+  loesung: 5/2
+  form: gekuerzt
+  weg:
+  - '(1/2)/(1/5) = 1/2 : 1/5 = 1/2 · 5 = 5/2'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/2)/(1/5) = 1/2 : 1/5`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/5
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/10
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/2)/(1/5)
+- id: A2.5-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/3)/(1/5)`.
+  loesung: 5/3
+  form: gekuerzt
+  weg:
+  - '(1/3)/(1/5) = 1/3 : 1/5 = 1/3 · 5 = 5/3'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/3)/(1/5) = 1/3 : 1/5`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/5
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/15
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/3)/(1/5)
+- id: A2.5-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(2/3)/(1/4)`.
+  loesung: 8/3
+  form: gekuerzt
+  weg:
+  - '(2/3)/(1/4) = 2/3 : 1/4 = 2/3 · 4 = 8/3'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(2/3)/(1/4) = 2/3 : 1/4`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/8
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/6
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (2/3)/(1/4)
+- id: A2.5-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/3)/(2/3)`.
+  loesung: 1/2
+  form: gekuerzt
+  weg:
+  - '(1/3)/(2/3) = 1/3 : 2/3 = 1/3 · 3/2 = 1/2'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/3)/(2/3) = 1/3 : 2/3`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 2/9
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/3)/(2/3)
+- id: A2.5-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/2)/(3/4)`.
+  loesung: 2/3
+  form: gekuerzt
+  weg:
+  - '(1/2)/(3/4) = 1/2 : 3/4 = 1/2 · 4/3 = 2/3'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/2)/(3/4) = 1/2 : 3/4`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/2
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 3/8
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/2)/(3/4)
+- id: A2.5-008
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/2)/(1/6)`.
+  loesung: '3'
+  form: gekuerzt
+  weg:
+  - '(1/2)/(1/6) = 1/2 : 1/6 = 1/2 · 6 = 3'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/2)/(1/6) = 1/2 : 1/6`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/12
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/2)/(1/6)
+- id: A2.5-009
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/3)/(1/2)`.
+  loesung: 2/3
+  form: gekuerzt
+  weg:
+  - '(1/3)/(1/2) = 1/3 : 1/2 = 1/3 · 2 = 2/3'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/3)/(1/2) = 1/3 : 1/2`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/2
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/6
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/3)/(1/2)
+- id: A2.5-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Doppelbruch `(1/2)/(1/4)`.
+  loesung: '2'
+  form: gekuerzt
+  weg:
+  - '(1/2)/(1/4) = 1/2 : 1/4 = 1/2 · 4 = 2'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/2)/(1/4) = 1/2 : 1/4`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/2
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/8
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/2)/(1/4)
+- id: A2.5-011
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Doppelbruch `(1/4)/6`.
+  loesung: 1/24
+  form: gekuerzt
+  weg:
+  - '(1/4)/6 = 1/4 : 6 = 1/4 · 1/6 = 1/24'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(1/4)/6 = 1/4 : 6`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '24'
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 3/2
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (1/4)/6
+- id: A2.5-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/2 + 1/3 · 3/2`.
+  loesung: '1'
+  form: gekuerzt
+  weg:
+  - 1/2 + 1/3 · 3/2 = 1/2 + 1/2 = 1
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/3 · 3/2 = 1/2`. Jetzt noch addieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/4
+    hinweis: Punkt vor Strich! Zuerst `1/3 · 3/2` rechnen, dann erst addieren.
+  rechnung: 1/2 + 1/3 · 3/2
+- id: A2.5-013
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Doppelbruch `6/(2/3)`.
+  loesung: '9'
+  form: gekuerzt
+  weg:
+  - '6/(2/3) = 6 : 2/3 = 6 · 3/2 = 9'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`6/(2/3) = 6 : 2/3`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/9
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: '4'
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: 6/(2/3)
+- id: A2.5-014
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Doppelbruch `(3/5)/(1/4)`.
+  loesung: 12/5
+  form: gekuerzt
+  weg:
+  - '(3/5)/(1/4) = 3/5 : 1/4 = 3/5 · 4 = 12/5'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(3/5)/(1/4) = 3/5 : 1/4`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/12
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 3/20
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (3/5)/(1/4)
+- id: A2.5-015
+  typ: zahl
+  stufe: 2
+  frage: Berechne `3/4 - 1/2 · 7/3`.
+  loesung: -5/12
+  form: gekuerzt
+  weg:
+  - 3/4 - 1/2 · 7/3 = 3/4 - 7/6 = -5/12
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/2 · 7/3 = 7/6`. Jetzt noch subtrahieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 7/12
+    hinweis: Punkt vor Strich! Zuerst `1/2 · 7/3` rechnen, dann erst subtrahieren.
+  rechnung: 3/4 - 1/2 · 7/3
+- id: A2.5-016
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Doppelbruch `(2/3)/4`.
+  loesung: 1/6
+  form: gekuerzt
+  weg:
+  - '(2/3)/4 = 2/3 : 4 = 2/3 · 1/4 = 1/6'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(2/3)/4 = 2/3 : 4`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '6'
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 8/3
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (2/3)/4
+- id: A2.5-017
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Doppelbruch `(3/4)/(4/7)`.
+  loesung: 21/16
+  form: gekuerzt
+  weg:
+  - '(3/4)/(4/7) = 3/4 : 4/7 = 3/4 · 7/4 = 21/16'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(3/4)/(4/7) = 3/4 : 4/7`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 16/21
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 3/7
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (3/4)/(4/7)
+- id: A2.5-018
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/2 - 3/4 · 3/5`.
+  loesung: 1/20
+  form: gekuerzt
+  weg:
+  - 1/2 - 3/4 · 3/5 = 1/2 - 9/20 = 1/20
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`3/4 · 3/5 = 9/20`. Jetzt noch subtrahieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -3/20
+    hinweis: Punkt vor Strich! Zuerst `3/4 · 3/5` rechnen, dann erst subtrahieren.
+  rechnung: 1/2 - 3/4 · 3/5
+- id: A2.5-019
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Doppelbruch `(3/4)/(1/3)`.
+  loesung: 9/4
+  form: gekuerzt
+  weg:
+  - '(3/4)/(1/3) = 3/4 : 1/3 = 3/4 · 3 = 9/4'
+  tipps:
+  - 'Ein Doppelbruch ist eine Division: oben **durch** unten.'
+  - '`(3/4)/(1/3) = 3/4 : 1/3`. Dividieren heißt: mit dem Kehrwert multiplizieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 4/9
+    hinweis: 'Oben ist der Zähler, unten der Nenner: Rechne oben **durch** unten, nicht umgekehrt.'
+  - antwort: 1/4
+    hinweis: Ein Doppelbruch ist eine Division – du musst mit dem Kehrwert multiplizieren.
+  rechnung: (3/4)/(1/3)
+- id: A2.5-020
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/2 - 1/3 · 5/2`.
+  loesung: -1/3
+  form: gekuerzt
+  weg:
+  - 1/2 - 1/3 · 5/2 = 1/2 - 5/6 = -1/3
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/3 · 5/2 = 5/6`. Jetzt noch subtrahieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/12
+    hinweis: Punkt vor Strich! Zuerst `1/3 · 5/2` rechnen, dann erst subtrahieren.
+  rechnung: 1/2 - 1/3 · 5/2
+- id: A2.5-021
+  typ: zahl
+  stufe: 3
+  frage: Berechne `1/8 - 1/6 · 1/3`.
+  loesung: 5/72
+  form: gekuerzt
+  weg:
+  - 1/8 - 1/6 · 1/3 = 1/8 - 1/18 = 5/72
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/6 · 1/3 = 1/18`. Jetzt noch subtrahieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/72
+    hinweis: Punkt vor Strich! Zuerst `1/6 · 1/3` rechnen, dann erst subtrahieren.
+  rechnung: 1/8 - 1/6 · 1/3
+- id: A2.5-022
+  typ: zahl
+  stufe: 3
+  frage: Berechne `1/3 + 1/5 · 3/4`.
+  loesung: 29/60
+  form: gekuerzt
+  weg:
+  - 1/3 + 1/5 · 3/4 = 1/3 + 3/20 = 29/60
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/5 · 3/4 = 3/20`. Jetzt noch addieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/5
+    hinweis: Punkt vor Strich! Zuerst `1/5 · 3/4` rechnen, dann erst addieren.
+  rechnung: 1/3 + 1/5 · 3/4
+- id: A2.5-023
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(1/4 + 1/2)/(2/3)`.
+  loesung: 9/8
+  form: gekuerzt
+  weg:
+  - '(1/4 + 1/2)/(2/3) = (3/4)/(2/3) = 3/4 : 2/3 = 9/8'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `3/4` heraus, unten `2/3`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 8/9
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 1/2
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/4 + 1/2)/(2/3)
+- id: A2.5-024
+  typ: zahl
+  stufe: 3
+  frage: Berechne `7/8 + 1/3 · 1/3`.
+  loesung: 71/72
+  form: gekuerzt
+  weg:
+  - 7/8 + 1/3 · 1/3 = 7/8 + 1/9 = 71/72
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/3 · 1/3 = 1/9`. Jetzt noch addieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 29/72
+    hinweis: Punkt vor Strich! Zuerst `1/3 · 1/3` rechnen, dann erst addieren.
+  rechnung: 7/8 + 1/3 · 1/3
+- id: A2.5-025
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(1/2 + 1/4)/(1 - 1/2)`.
+  loesung: 3/2
+  form: gekuerzt
+  weg:
+  - '(1/2 + 1/4)/(1 - 1/2) = (3/4)/(1/2) = 3/4 : 1/2 = 3/2'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `3/4` heraus, unten `1/2`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 2/3
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 3/8
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/2 + 1/4)/(1 - 1/2)
+- id: A2.5-026
+  typ: zahl
+  stufe: 3
+  frage: Berechne `1/3 + 1/2 · 3/2`.
+  loesung: 13/12
+  form: gekuerzt
+  weg:
+  - 1/3 + 1/2 · 3/2 = 1/3 + 3/4 = 13/12
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`1/2 · 3/2 = 3/4`. Jetzt noch addieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/4
+    hinweis: Punkt vor Strich! Zuerst `1/2 · 3/2` rechnen, dann erst addieren.
+  rechnung: 1/3 + 1/2 · 3/2
+- id: A2.5-027
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(1/3 + 2/3)/(1/2)`.
+  loesung: '2'
+  form: gekuerzt
+  weg:
+  - '(1/3 + 2/3)/(1/2) = (1)/(1/2) = 1 : 1/2 = 2'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `1` heraus, unten `1/2`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 1/2
+    hinweis: Oben durch unten – nicht umgekehrt.
+  rechnung: (1/3 + 2/3)/(1/2)
+- id: A2.5-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(1/3 + 1/2)/(1 - 1/3)`.
+  loesung: 5/4
+  form: gekuerzt
+  weg:
+  - '(1/3 + 1/2)/(1 - 1/3) = (5/6)/(2/3) = 5/6 : 2/3 = 5/4'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `5/6` heraus, unten `2/3`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 4/5
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 5/9
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/3 + 1/2)/(1 - 1/3)
+- id: A2.5-029
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(1/4 + 5/6)/(1 - 1/3)`.
+  loesung: 13/8
+  form: gekuerzt
+  weg:
+  - '(1/4 + 5/6)/(1 - 1/3) = (13/12)/(2/3) = 13/12 : 2/3 = 13/8'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `13/12` heraus, unten `2/3`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 8/13
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 13/18
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/4 + 5/6)/(1 - 1/3)
+- id: A2.5-030
+  typ: zahl
+  stufe: 3
+  frage: Berechne `3/5 + 3/4 · 1/2`.
+  loesung: 39/40
+  form: gekuerzt
+  weg:
+  - 3/5 + 3/4 · 1/2 = 3/5 + 3/8 = 39/40
+  tipps:
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  - '`3/4 · 1/2 = 3/8`. Jetzt noch addieren.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 27/40
+    hinweis: Punkt vor Strich! Zuerst `3/4 · 1/2` rechnen, dann erst addieren.
+  rechnung: 3/5 + 3/4 · 1/2
+- id: A2.5-031
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(3/4 - 7/8)/(1/3 + 3/8)`.
+  loesung: -3/17
+  form: gekuerzt
+  weg:
+  - '(3/4 - 7/8)/(1/3 + 3/8) = (-1/8)/(17/24) = -1/8 : 17/24 = -3/17'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `-1/8` heraus, unten `17/24`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: -17/3
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: -17/192
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (3/4 - 7/8)/(1/3 + 3/8)
+- id: A2.5-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(1/8 - 1/2)/(7/8 + 1/3)`.
+  loesung: -9/29
+  form: gekuerzt
+  weg:
+  - '(1/8 - 1/2)/(7/8 + 1/3) = (-3/8)/(29/24) = -3/8 : 29/24 = -9/29'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `-3/8` heraus, unten `29/24`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: -29/9
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: -29/64
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/8 - 1/2)/(7/8 + 1/3)
+- id: A2.5-033
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(3/4 - 1/2)/(1/3 + 3/5)`.
+  loesung: 15/56
+  form: gekuerzt
+  weg:
+  - '(3/4 - 1/2)/(1/3 + 3/5) = (1/4)/(14/15) = 1/4 : 14/15 = 15/56'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `1/4` heraus, unten `14/15`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 56/15
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 7/30
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (3/4 - 1/2)/(1/3 + 3/5)
+- id: A2.5-034
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(1/2 - 2/5)/(4/5 + 3/5)`.
+  loesung: 1/14
+  form: gekuerzt
+  weg:
+  - '(1/2 - 2/5)/(4/5 + 3/5) = (1/10)/(7/5) = 1/10 : 7/5 = 1/14'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `1/10` heraus, unten `7/5`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: '14'
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 7/50
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/2 - 2/5)/(4/5 + 3/5)
+- id: A2.5-035
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(1/8 - 1/4)/(2/3 + 1/2)`.
+  loesung: -3/28
+  form: gekuerzt
+  weg:
+  - '(1/8 - 1/4)/(2/3 + 1/2) = (-1/8)/(7/6) = -1/8 : 7/6 = -3/28'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `-1/8` heraus, unten `7/6`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: -28/3
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: -7/48
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/8 - 1/4)/(2/3 + 1/2)
+- id: A2.5-036
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(3/4 - 1/5)/(1/2 + 3/4)`.
+  loesung: 11/25
+  form: gekuerzt
+  weg:
+  - '(3/4 - 1/5)/(1/2 + 3/4) = (11/20)/(5/4) = 11/20 : 5/4 = 11/25'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `11/20` heraus, unten `5/4`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 25/11
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 11/16
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (3/4 - 1/5)/(1/2 + 3/4)
+- id: A2.5-037
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(3/4 - 1/8)/(1/3 + 1/2)`.
+  loesung: 3/4
+  form: gekuerzt
+  weg:
+  - '(3/4 - 1/8)/(1/3 + 1/2) = (5/8)/(5/6) = 5/8 : 5/6 = 3/4'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `5/8` heraus, unten `5/6`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 4/3
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 25/48
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (3/4 - 1/8)/(1/3 + 1/2)
+- id: A2.5-038
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(4/5 - 2/5)/(3/8 + 2/3)`.
+  loesung: 48/125
+  form: gekuerzt
+  weg:
+  - '(4/5 - 2/5)/(3/8 + 2/3) = (2/5)/(25/24) = 2/5 : 25/24 = 48/125'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `2/5` heraus, unten `25/24`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: 125/48
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 5/12
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (4/5 - 2/5)/(3/8 + 2/3)
+- id: A2.5-039
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(1/2 - 5/6)/(1/3 + 7/8)`.
+  loesung: -8/29
+  form: gekuerzt
+  weg:
+  - '(1/2 - 5/6)/(1/3 + 7/8) = (-1/3)/(29/24) = -1/3 : 29/24 = -8/29'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `-1/3` heraus, unten `29/24`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: -29/8
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: -29/72
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (1/2 - 5/6)/(1/3 + 7/8)
+- id: A2.5-040
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(2/3 - 1/2)/(1/3 + 1/2)`.
+  loesung: 1/5
+  form: gekuerzt
+  weg:
+  - '(2/3 - 1/2)/(1/3 + 1/2) = (1/6)/(5/6) = 1/6 : 5/6 = 1/5'
+  tipps:
+  - Rechne zuerst oben und unten getrennt aus – jeweils ein einziger Bruch.
+  - Oben kommt `1/6` heraus, unten `5/6`.
+  - 'Dann oben durch unten: mit dem Kehrwert multiplizieren. Am Schluss kürzen, so weit es geht.'
+  fehler:
+  - antwort: '5'
+    hinweis: Oben durch unten – nicht umgekehrt.
+  - antwort: 5/36
+    hinweis: 'Ein Bruchstrich bedeutet Division: mit dem Kehrwert multiplizieren.'
+  rechnung: (2/3 - 1/2)/(1/3 + 1/2)

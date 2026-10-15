@@ -1,0 +1,670 @@
+# ERZEUGT von tools/generatoren/a2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A2.4-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne `5/2 · 2/3`.
+  loesung: 5/3
+  form: gekuerzt
+  weg:
+  - 5/2 · 2/3 = 10/6 = 5/3
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler: []
+  rechnung: 5/2 · 2/3
+- id: A2.4-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne `6 · 2/9`.
+  loesung: 4/3
+  form: gekuerzt
+  weg:
+  - 6 · 2/9 = 12/9 = 4/3
+  tipps:
+  - 'Schreib 6 als Bruch: `6 = 6/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/27
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 6 · 2/9
+- id: A2.4-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne `5 · 12/7`.
+  loesung: 60/7
+  form: gekuerzt
+  weg:
+  - 5 · 12/7 = 60/7
+  tipps:
+  - 'Schreib 5 als Bruch: `5 = 5/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 12/35
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 5 · 12/7
+- id: A2.4-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne `6 · 1/2`.
+  loesung: '3'
+  form: gekuerzt
+  weg:
+  - 6 · 1/2 = 6/2 = 3
+  tipps:
+  - 'Schreib 6 als Bruch: `6 = 6/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/12
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 6 · 1/2
+- id: A2.4-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2 · 1/2`.
+  loesung: '1'
+  form: gekuerzt
+  weg:
+  - 2 · 1/2 = 2/2 = 1
+  tipps:
+  - 'Schreib 2 als Bruch: `2 = 2/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/4
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 2 · 1/2
+- id: A2.4-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne `1/5 · 9/2`.
+  loesung: 9/10
+  form: gekuerzt
+  weg:
+  - 1/5 · 9/2 = 9/10
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler: []
+  rechnung: 1/5 · 9/2
+- id: A2.4-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne `5 · 9/7`.
+  loesung: 45/7
+  form: gekuerzt
+  weg:
+  - 5 · 9/7 = 45/7
+  tipps:
+  - 'Schreib 5 als Bruch: `5 = 5/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 9/35
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 5 · 9/7
+- id: A2.4-008
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2 · 5/4`.
+  loesung: 5/2
+  form: gekuerzt
+  weg:
+  - 2 · 5/4 = 10/4 = 5/2
+  tipps:
+  - 'Schreib 2 als Bruch: `2 = 2/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/8
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 2 · 5/4
+- id: A2.4-009
+  typ: zahl
+  stufe: 1
+  frage: Berechne `6 · 9/4`.
+  loesung: 27/2
+  form: gekuerzt
+  weg:
+  - 6 · 9/4 = 54/4 = 27/2
+  tipps:
+  - 'Schreib 6 als Bruch: `6 = 6/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/8
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 6 · 9/4
+- id: A2.4-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3 · 3/4`.
+  loesung: 9/4
+  form: gekuerzt
+  weg:
+  - 3 · 3/4 = 9/4
+  tipps:
+  - 'Schreib 3 als Bruch: `3 = 3/1`. Dann Zähler mal Zähler, Nenner mal Nenner.'
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/4
+    hinweis: Eine ganze Zahl multiplizierst du nur mit dem **Zähler** (denk dir 3 = 3/1).
+  rechnung: 3 · 3/4
+- id: A2.4-011
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `5/2 : 6`.'
+  loesung: 5/12
+  form: gekuerzt
+  weg:
+  - '5/2 : 6 = 5/2 · 1/6 = 5/12'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `6` ist `1/6`. Also: `5/2 · 1/6`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '15'
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 12/5
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '5/2 : 6'
+- id: A2.4-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne `9/4 · 5/3`.
+  loesung: 15/4
+  form: gekuerzt
+  weg:
+  - 9/4 · 5/3 = 45/12 = 15/4
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler: []
+  rechnung: 9/4 · 5/3
+- id: A2.4-013
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `7 : 3/2`.'
+  loesung: 14/3
+  form: gekuerzt
+  weg:
+  - '7 : 3/2 = 7 · 2/3 = 14/3'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `3/2` ist `2/3`. Also: `7 · 2/3`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 21/2
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 3/14
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '7 : 3/2'
+- id: A2.4-014
+  typ: zahl
+  stufe: 2
+  frage: Berechne `5/3 · 4/5`.
+  loesung: 4/3
+  form: gekuerzt
+  weg:
+  - 5/3 · 4/5 = 20/15 = 4/3
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler: []
+  rechnung: 5/3 · 4/5
+- id: A2.4-015
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `5/7 : 9/2`.'
+  loesung: 10/63
+  form: gekuerzt
+  weg:
+  - '5/7 : 9/2 = 5/7 · 2/9 = 10/63'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `9/2` ist `2/9`. Also: `5/7 · 2/9`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 45/14
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 63/10
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '5/7 : 9/2'
+- id: A2.4-016
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `5/7 : 7/4`.'
+  loesung: 20/49
+  form: gekuerzt
+  weg:
+  - '5/7 : 7/4 = 5/7 · 4/7 = 20/49'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `7/4` ist `4/7`. Also: `5/7 · 4/7`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/4
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 49/20
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '5/7 : 7/4'
+- id: A2.4-017
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `10/3 : 1/4`.'
+  loesung: 40/3
+  form: gekuerzt
+  weg:
+  - '10/3 : 1/4 = 10/3 · 4 = 40/3'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `1/4` ist `4`. Also: `10/3 · 4`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 5/6
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 3/40
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '10/3 : 1/4'
+- id: A2.4-018
+  typ: zahl
+  stufe: 2
+  frage: Berechne `11/3 · 1/2`.
+  loesung: 11/6
+  form: gekuerzt
+  weg:
+  - 11/3 · 1/2 = 11/6
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler: []
+  rechnung: 11/3 · 1/2
+- id: A2.4-019
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `1/4 : 3/2`.'
+  loesung: 1/6
+  form: gekuerzt
+  weg:
+  - '1/4 : 3/2 = 1/4 · 2/3 = 1/6'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `3/2` ist `2/3`. Also: `1/4 · 2/3`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/8
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: '6'
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '1/4 : 3/2'
+- id: A2.4-020
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `1/3 : 4/7`.'
+  loesung: 7/12
+  form: gekuerzt
+  weg:
+  - '1/3 : 4/7 = 1/3 · 7/4 = 7/12'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `4/7` ist `7/4`. Also: `1/3 · 7/4`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 4/21
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 12/7
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  rechnung: '1/3 : 4/7'
+- id: A2.4-021
+  typ: zahl
+  stufe: 3
+  frage: 'Berechne `6/5 : 10/9`.'
+  loesung: 27/25
+  form: gekuerzt
+  weg:
+  - '6/5 : 10/9 = 6/5 · 9/10 = 27/25'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `10/9` ist `9/10`. Also: `6/5 · 9/10`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 4/3
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 25/27
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  - antwort: -27/25
+    hinweis: Achte auf das Vorzeichen!
+  rechnung: '6/5 : 10/9'
+- id: A2.4-022
+  typ: zahl
+  stufe: 3
+  frage: Berechne `8/9 · 11/4 · 4/5`.
+  loesung: 88/45
+  form: gekuerzt
+  weg:
+  - 8/9 · 11/4 · 4/5 = 352/180 = 88/45
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -88/45
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: 8/9 · 11/4 · 4/5
+- id: A2.4-023
+  typ: zahl
+  stufe: 3
+  frage: 'Berechne `-5 : (-7/5)`.'
+  loesung: 25/7
+  form: gekuerzt
+  weg:
+  - '-5 : (-7/5) = -5 · (-5/7) = 25/7'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `-7/5` ist `-5/7`. Also: `-5 · (-5/7)`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '7'
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 7/25
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  - antwort: -25/7
+    hinweis: Achte auf das Vorzeichen!
+  rechnung: '-5 : (-7/5)'
+- id: A2.4-024
+  typ: zahl
+  stufe: 3
+  frage: 'Berechne `1/4 : (-5/9)`.'
+  loesung: -9/20
+  form: gekuerzt
+  weg:
+  - '1/4 : (-5/9) = 1/4 · (-9/5) = -9/20'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `-5/9` ist `-9/5`. Also: `1/4 · (-9/5)`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -5/36
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: -20/9
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  - antwort: 9/20
+    hinweis: Achte auf das Vorzeichen!
+  rechnung: '1/4 : (-5/9)'
+- id: A2.4-025
+  typ: zahl
+  stufe: 3
+  frage: 'Berechne `-2 : (-1/5)`.'
+  loesung: '10'
+  form: gekuerzt
+  weg:
+  - '-2 : (-1/5) = -2 · (-5) = 10'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `-1/5` ist `-5`. Also: `-2 · (-5)`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/5
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: 1/10
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  - antwort: '-10'
+    hinweis: Achte auf das Vorzeichen!
+  rechnung: '-2 : (-1/5)'
+- id: A2.4-026
+  typ: zahl
+  stufe: 3
+  frage: Berechne `5/3 · (-1/5) · 1/2`.
+  loesung: -1/6
+  form: gekuerzt
+  weg:
+  - 5/3 · (-1/5) · 1/2 = -5/30 = -1/6
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/6
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: 5/3 · (-1/5) · 1/2
+- id: A2.4-027
+  typ: zahl
+  stufe: 3
+  frage: Berechne `-2/9 · 5/3 · 8/3`.
+  loesung: -80/81
+  form: gekuerzt
+  weg:
+  - -2/9 · 5/3 · 8/3 = -80/81
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 80/81
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: -2/9 · 5/3 · 8/3
+- id: A2.4-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne `4/3 · (-6/5) · 7/6`.
+  loesung: -28/15
+  form: gekuerzt
+  weg:
+  - 4/3 · (-6/5) · 7/6 = -168/90 = -28/15
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 28/15
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: 4/3 · (-6/5) · 7/6
+- id: A2.4-029
+  typ: zahl
+  stufe: 3
+  frage: 'Berechne `-7 : 7/4`.'
+  loesung: '-4'
+  form: gekuerzt
+  weg:
+  - '-7 : 7/4 = -7 · 4/7 = -4'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `7/4` ist `4/7`. Also: `-7 · 4/7`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -49/4
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: -1/4
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  - antwort: '4'
+    hinweis: Achte auf das Vorzeichen!
+  rechnung: '-7 : 7/4'
+- id: A2.4-030
+  typ: zahl
+  stufe: 3
+  frage: 'Berechne `2/9 : (-7/8)`.'
+  loesung: -16/63
+  form: gekuerzt
+  weg:
+  - '2/9 : (-7/8) = 2/9 · (-8/7) = -16/63'
+  tipps:
+  - Durch einen Bruch dividierst du, indem du mit dem **Kehrwert** multiplizierst.
+  - 'Der Kehrwert von `-7/8` ist `-8/7`. Also: `2/9 · (-8/7)`.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -7/36
+    hinweis: Beim Dividieren musst du den zweiten Bruch umdrehen (Kehrwert) und dann multiplizieren.
+  - antwort: -63/16
+    hinweis: Nur der **zweite** Bruch wird umgedreht, nicht der erste.
+  - antwort: 16/63
+    hinweis: Achte auf das Vorzeichen!
+  rechnung: '2/9 : (-7/8)'
+- id: A2.4-031
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(1/3 - 1/2) · 1/2`.
+  loesung: -1/12
+  form: gekuerzt
+  weg:
+  - (1/3 - 1/2) · 1/2 = (-1/6) · 1/2 = -1/12
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `-1/6` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/12
+    hinweis: Die Klammer kommt zuerst! Erst die Differenz in der Klammer ausrechnen, dann multiplizieren.
+  rechnung: (1/3 - 1/2) · 1/2
+- id: A2.4-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-1/12 · (-1/10) · 9/10`.
+  loesung: 3/400
+  form: gekuerzt
+  weg:
+  - -1/12 · (-1/10) · 9/10 = 9/1200 = 3/400
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -3/400
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: -1/12 · (-1/10) · 9/10
+- id: A2.4-033
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `5/3 : (1/2 + 1/5)`.'
+  loesung: 50/21
+  form: gekuerzt
+  weg:
+  - '5/3 : (1/2 + 1/5) = 5/3 : 7/10 = 50/21'
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `7/10` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 53/15
+    hinweis: Die Klammer kommt zuerst! Erst die Summe in der Klammer ausrechnen, dann dividieren.
+  rechnung: '5/3 : (1/2 + 1/5)'
+- id: A2.4-034
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `3/2 : (1/2 + 2/3)`.'
+  loesung: 9/7
+  form: gekuerzt
+  weg:
+  - '3/2 : (1/2 + 2/3) = 3/2 : 7/6 = 9/7'
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `7/6` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 11/3
+    hinweis: Die Klammer kommt zuerst! Erst die Summe in der Klammer ausrechnen, dann dividieren.
+  rechnung: '3/2 : (1/2 + 2/3)'
+- id: A2.4-035
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/4 · (-1/10) · 3/2`.
+  loesung: -3/80
+  form: gekuerzt
+  weg:
+  - 1/4 · (-1/10) · 3/2 = -3/80
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/80
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: 1/4 · (-1/10) · 3/2
+- id: A2.4-036
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `5/4 : (2/3 + 4/5)`.'
+  loesung: 75/88
+  form: gekuerzt
+  weg:
+  - '5/4 : (2/3 + 4/5) = 5/4 : 22/15 = 75/88'
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `22/15` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 107/40
+    hinweis: Die Klammer kommt zuerst! Erst die Summe in der Klammer ausrechnen, dann dividieren.
+  rechnung: '5/4 : (2/3 + 4/5)'
+- id: A2.4-037
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `5/4 : (3/4 + 1/2)`.'
+  loesung: '1'
+  form: gekuerzt
+  weg:
+  - '5/4 : (3/4 + 1/2) = 5/4 : 5/4 = 1'
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `5/4` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 13/6
+    hinweis: Die Klammer kommt zuerst! Erst die Summe in der Klammer ausrechnen, dann dividieren.
+  rechnung: '5/4 : (3/4 + 1/2)'
+- id: A2.4-038
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `7/3 : (1/6 + 2/3)`.'
+  loesung: 14/5
+  form: gekuerzt
+  weg:
+  - '7/3 : (1/6 + 2/3) = 7/3 : 5/6 = 14/5'
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `5/6` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 44/3
+    hinweis: Die Klammer kommt zuerst! Erst die Summe in der Klammer ausrechnen, dann dividieren.
+  rechnung: '7/3 : (1/6 + 2/3)'
+- id: A2.4-039
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(1/5 - 3/4) · 9/4`.
+  loesung: -99/80
+  form: gekuerzt
+  weg:
+  - (1/5 - 3/4) · 9/4 = (-11/20) · 9/4 = -99/80
+  tipps:
+  - 'Zuerst die Klammer: Dafür brauchst du einen gemeinsamen Nenner.'
+  - In der Klammer kommt `-11/20` heraus.
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -119/80
+    hinweis: Die Klammer kommt zuerst! Erst die Differenz in der Klammer ausrechnen, dann multiplizieren.
+  rechnung: (1/5 - 3/4) · 9/4
+- id: A2.4-040
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-17/10 · 7/5 · (-5/2)`.
+  loesung: 119/20
+  form: gekuerzt
+  weg:
+  - -17/10 · 7/5 · (-5/2) = 595/100 = 119/20
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner. Einen gemeinsamen Nenner brauchst du hier **nicht**.
+  - 'Tipp: Du kannst schon vor dem Ausrechnen über Kreuz kürzen – dann bleiben die Zahlen klein.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -119/20
+    hinweis: 'Achte auf das Vorzeichen: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus.'
+  rechnung: -17/10 · 7/5 · (-5/2)

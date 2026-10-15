@@ -1,0 +1,670 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.4-001
+  typ: term
+  stufe: 1
+  term: (x + 1)(x + 7)
+  form: ausmultipliziert
+  loesung: x² + 8x + 7
+  weg:
+  - (x + 1)(x + 7) = 7 + x + 7x + x² = x² + 8x + 7
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `7 + x + 7x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 7
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 8x + 7
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-002
+  typ: term
+  stufe: 1
+  term: (x + 3)(x + 4)
+  form: ausmultipliziert
+  loesung: x² + 7x + 12
+  weg:
+  - (x + 3)(x + 4) = 12 + 3x + 4x + x² = x² + 7x + 12
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `12 + 3x + 4x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 12
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 7x + 12
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-003
+  typ: term
+  stufe: 1
+  term: (x + 2)(x + 8)
+  form: ausmultipliziert
+  loesung: x² + 10x + 16
+  weg:
+  - (x + 2)(x + 8) = 16 + 2x + 8x + x² = x² + 10x + 16
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `16 + 2x + 8x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 16
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 10x + 16
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-004
+  typ: term
+  stufe: 1
+  term: (x + 8)(x + 3)
+  form: ausmultipliziert
+  loesung: x² + 11x + 24
+  weg:
+  - (x + 8)(x + 3) = 24 + 8x + 3x + x² = x² + 11x + 24
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `24 + 8x + 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 24
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 11x + 24
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-005
+  typ: term
+  stufe: 1
+  term: (x + 3)(x + 3)
+  form: ausmultipliziert
+  loesung: x² + 6x + 9
+  weg:
+  - (x + 3)(x + 3) = 9 + 3x + 3x + x² = x² + 6x + 9
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `9 + 3x + 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 9
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 6x + 9
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-006
+  typ: term
+  stufe: 1
+  term: (x + 1)(x + 5)
+  form: ausmultipliziert
+  loesung: x² + 6x + 5
+  weg:
+  - (x + 1)(x + 5) = 5 + x + 5x + x² = x² + 6x + 5
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `5 + x + 5x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 5
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 6x + 5
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-007
+  typ: term
+  stufe: 1
+  term: (x + 7)(x + 7)
+  form: ausmultipliziert
+  loesung: x² + 14x + 49
+  weg:
+  - (x + 7)(x + 7) = 49 + 7x + 7x + x² = x² + 14x + 49
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `49 + 7x + 7x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 49
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 14x + 49
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-008
+  typ: term
+  stufe: 1
+  term: (x + 7)(x + 1)
+  form: ausmultipliziert
+  loesung: x² + 8x + 7
+  weg:
+  - (x + 7)(x + 1) = 7 + 7x + x + x² = x² + 8x + 7
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `7 + 7x + x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 7
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 8x + 7
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-009
+  typ: term
+  stufe: 1
+  term: (x + 1)(x + 6)
+  form: ausmultipliziert
+  loesung: x² + 7x + 6
+  weg:
+  - (x + 1)(x + 6) = 6 + x + 6x + x² = x² + 7x + 6
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `6 + x + 6x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 6
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 7x + 6
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-010
+  typ: term
+  stufe: 1
+  term: (x + 1)(x + 3)
+  form: ausmultipliziert
+  loesung: x² + 4x + 3
+  weg:
+  - (x + 1)(x + 3) = 3 + x + 3x + x² = x² + 4x + 3
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `3 + x + 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² + 3
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 4x + 3
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-011
+  typ: term
+  stufe: 2
+  term: (x + 3)(x - 5)
+  form: ausmultipliziert
+  loesung: x² - 2x - 15
+  weg:
+  - (x + 3)(x - 5) = -15 + 3x - 5x + x² = x² - 2x - 15
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-15 + 3x - 5x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 15
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + 2x - 15
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-012
+  typ: term
+  stufe: 2
+  term: (x + 7)(x - 4)
+  form: ausmultipliziert
+  loesung: x² + 3x - 28
+  weg:
+  - (x + 7)(x - 4) = -28 + 7x - 4x + x² = x² + 3x - 28
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-28 + 7x - 4x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 28
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 3x - 28
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-013
+  typ: term
+  stufe: 2
+  term: (x - 3)(x + 8)
+  form: ausmultipliziert
+  loesung: x² + 5x - 24
+  weg:
+  - (x - 3)(x + 8) = -24 - 3x + 8x + x² = x² + 5x - 24
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-24 - 3x + 8x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 24
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 5x - 24
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-014
+  typ: term
+  stufe: 2
+  term: (x - 5)(x + 4)
+  form: ausmultipliziert
+  loesung: x² - x - 20
+  weg:
+  - (x - 5)(x + 4) = -20 - 5x + 4x + x² = x² - x - 20
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-20 - 5x + 4x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 20
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + x - 20
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-015
+  typ: term
+  stufe: 2
+  term: (x + 5)(x - 2)
+  form: ausmultipliziert
+  loesung: x² + 3x - 10
+  weg:
+  - (x + 5)(x - 2) = -10 + 5x - 2x + x² = x² + 3x - 10
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-10 + 5x - 2x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 10
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² - 3x - 10
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-016
+  typ: term
+  stufe: 2
+  term: (x + 1)(x - 4)
+  form: ausmultipliziert
+  loesung: x² - 3x - 4
+  weg:
+  - (x + 1)(x - 4) = -4 + x - 4x + x² = x² - 3x - 4
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-4 + x - 4x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 4
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + 3x - 4
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-017
+  typ: term
+  stufe: 2
+  term: (x + 6)(x - 8)
+  form: ausmultipliziert
+  loesung: x² - 2x - 48
+  weg:
+  - (x + 6)(x - 8) = -48 + 6x - 8x + x² = x² - 2x - 48
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-48 + 6x - 8x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 48
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + 2x - 48
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-018
+  typ: term
+  stufe: 2
+  term: (x - 7)(x + 3)
+  form: ausmultipliziert
+  loesung: x² - 4x - 21
+  weg:
+  - (x - 7)(x + 3) = -21 - 7x + 3x + x² = x² - 4x - 21
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-21 - 7x + 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 21
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + 4x - 21
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-019
+  typ: term
+  stufe: 2
+  term: (x - 8)(x + 3)
+  form: ausmultipliziert
+  loesung: x² - 5x - 24
+  weg:
+  - (x - 8)(x + 3) = -24 - 8x + 3x + x² = x² - 5x - 24
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-24 - 8x + 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 24
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + 5x - 24
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-020
+  typ: term
+  stufe: 2
+  term: (x - 8)(x + 1)
+  form: ausmultipliziert
+  loesung: x² - 7x - 8
+  weg:
+  - (x - 8)(x + 1) = -8 - 8x + x + x² = x² - 7x - 8
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-8 - 8x + x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x² - 8
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: x² + 7x - 8
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-021
+  typ: term
+  stufe: 3
+  term: (4x - 6)(3x - 2)
+  form: ausmultipliziert
+  loesung: 12x² - 26x + 12
+  weg:
+  - (4x - 6)(3x - 2) = 12 - 18x - 8x + 12x² = 12x² - 26x + 12
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `12 - 18x - 8x + 12x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 12x² + 12
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 12x² + 26x + 12
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-022
+  typ: term
+  stufe: 3
+  term: (5x - 4)(3x + 4)
+  form: ausmultipliziert
+  loesung: 15x² + 8x - 16
+  weg:
+  - (5x - 4)(3x + 4) = -16 - 12x + 20x + 15x² = 15x² + 8x - 16
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-16 - 12x + 20x + 15x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 15x² - 16
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 15x² - 8x - 16
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-023
+  typ: term
+  stufe: 3
+  term: (5x + 3)(x - 5)
+  form: ausmultipliziert
+  loesung: 5x² - 22x - 15
+  weg:
+  - (5x + 3)(x - 5) = -15 + 3x - 25x + 5x² = 5x² - 22x - 15
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-15 + 3x - 25x + 5x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 5x² - 15
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 5x² + 22x - 15
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-024
+  typ: term
+  stufe: 3
+  term: (2x - 5)(x + 7)
+  form: ausmultipliziert
+  loesung: 2x² + 9x - 35
+  weg:
+  - (2x - 5)(x + 7) = -35 - 5x + 14x + 2x² = 2x² + 9x - 35
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-35 - 5x + 14x + 2x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 2x² - 35
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 2x² - 9x - 35
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-025
+  typ: term
+  stufe: 3
+  term: (3x + 6)(x + 4)
+  form: ausmultipliziert
+  loesung: 3x² + 18x + 24
+  weg:
+  - (3x + 6)(x + 4) = 24 + 6x + 12x + 3x² = 3x² + 18x + 24
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `24 + 6x + 12x + 3x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 3x² + 24
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 3x² - 18x + 24
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-026
+  typ: term
+  stufe: 3
+  term: (2x + 6)(x + 2)
+  form: ausmultipliziert
+  loesung: 2x² + 10x + 12
+  weg:
+  - (2x + 6)(x + 2) = 12 + 6x + 4x + 2x² = 2x² + 10x + 12
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `12 + 6x + 4x + 2x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 2x² + 12
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 2x² - 10x + 12
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-027
+  typ: term
+  stufe: 3
+  term: (5x + 7)(4x - 2)
+  form: ausmultipliziert
+  loesung: 20x² + 18x - 14
+  weg:
+  - (5x + 7)(4x - 2) = -14 + 28x - 10x + 20x² = 20x² + 18x - 14
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-14 + 28x - 10x + 20x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 20x² - 14
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 20x² - 18x - 14
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-028
+  typ: term
+  stufe: 3
+  term: (a - 3b)(a - b)
+  form: ausmultipliziert
+  loesung: a² - 4ab + 3b²
+  weg:
+  - (a - 3b)(a - b) = a² - ab - 3ab + 3b² = a² - 4ab + 3b²
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `a² - ab - 3ab + 3b²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: a² + 3b²
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+- id: A4.4-029
+  typ: term
+  stufe: 3
+  term: (4x - 7)(4x + 7)
+  form: ausmultipliziert
+  loesung: 16x² - 49
+  weg:
+  - (4x - 7)(4x + 7) = -49 - 28x + 28x + 16x² = 16x² - 49
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-49 - 28x + 28x + 16x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler: []
+- id: A4.4-030
+  typ: term
+  stufe: 3
+  term: (a + 2b)(3a - 3b)
+  form: ausmultipliziert
+  loesung: 3a² + 3ab - 6b²
+  weg:
+  - (a + 2b)(3a - 3b) = -3ab + 3a² - 6b² + 6ab = 3a² + 3ab - 6b²
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-3ab + 3a² - 6b² + 6ab`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 3a² - 6b²
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+- id: A4.4-031
+  typ: term
+  stufe: 4
+  term: -3(x + 5)(x + 3)
+  form: ausmultipliziert
+  loesung: -3x² - 24x - 45
+  weg:
+  - -3(x + 5)(x + 3) = -3(15 + 5x + 3x + x²) = -3x² - 24x - 45
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `15 + 5x + 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -3x² - 45
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: -3x² + 24x - 45
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-032
+  typ: term
+  stufe: 4
+  term: (2x + 1)(-x + 2)
+  form: ausmultipliziert
+  loesung: -2x² + 3x + 2
+  weg:
+  - (2x + 1)(-x + 2) = 2 - x + 4x - 2x² = -2x² + 3x + 2
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `2 - x + 4x - 2x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -2x² + 2
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: -2x² - 3x + 2
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-033
+  typ: term
+  stufe: 4
+  term: (4x + 5)(-x + 1)
+  form: ausmultipliziert
+  loesung: -4x² - x + 5
+  weg:
+  - (4x + 5)(-x + 1) = 5 - 5x + 4x - 4x² = -4x² - x + 5
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `5 - 5x + 4x - 4x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -4x² + 5
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: -4x² + x + 5
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-034
+  typ: term
+  stufe: 4
+  term: -(x - 4)(x + 1)
+  form: ausmultipliziert
+  loesung: -x² + 3x + 4
+  weg:
+  - -(x - 4)(x + 1) = -(-4 - 4x + x + x²) = -x² + 3x + 4
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-4 - 4x + x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -x² + 4
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: -x² - 3x + 4
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-035
+  typ: term
+  stufe: 4
+  term: (x + 1)(x² - 3x + 4)
+  form: ausmultipliziert
+  loesung: x³ - 2x² + x + 4
+  weg:
+  - (x + 1)(x² - 3x + 4) = 4 + x² - 3x + 4x + x³ - 3x² = x³ - 2x² + x + 4
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `4 + x² - 3x + 4x + x³ - 3x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x³ - 2x² - x + 4
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-036
+  typ: term
+  stufe: 4
+  term: (4x + 1)(-x - 6)
+  form: ausmultipliziert
+  loesung: -4x² - 25x - 6
+  weg:
+  - (4x + 1)(-x - 6) = -6 - x - 24x - 4x² = -4x² - 25x - 6
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-6 - x - 24x - 4x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -4x² - 6
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: -4x² + 25x - 6
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-037
+  typ: term
+  stufe: 4
+  term: (x - 3)(x² - 3x - 4)
+  form: ausmultipliziert
+  loesung: x³ - 6x² + 5x + 12
+  weg:
+  - (x - 3)(x² - 3x - 4) = 12 - 3x² + 9x - 4x + x³ - 3x² = x³ - 6x² + 5x + 12
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `12 - 3x² + 9x - 4x + x³ - 3x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: x³ - 6x² - 5x + 12
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-038
+  typ: term
+  stufe: 4
+  term: 2(x - 6)(x - 3)
+  form: ausmultipliziert
+  loesung: 2x² - 18x + 36
+  weg:
+  - 2(x - 6)(x - 3) = 2(18 - 6x - 3x + x²) = 2x² - 18x + 36
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `18 - 6x - 3x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 2x² + 36
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 2x² + 18x + 36
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-039
+  typ: term
+  stufe: 4
+  term: -(x - 3)(x - 4)
+  form: ausmultipliziert
+  loesung: -x² + 7x - 12
+  weg:
+  - -(x - 3)(x - 4) = -(12 - 3x - 4x + x²) = -x² + 7x - 12
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `12 - 3x - 4x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -x² - 12
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: -x² - 7x - 12
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'
+- id: A4.4-040
+  typ: term
+  stufe: 4
+  term: 2(x - 3)(x + 1)
+  form: ausmultipliziert
+  loesung: 2x² - 4x - 6
+  weg:
+  - 2(x - 3)(x + 1) = 2(-3 - 3x + x + x²) = 2x² - 4x - 6
+  tipps:
+  - Jedes Glied der ersten Klammer mal jedes Glied der zweiten Klammer.
+  - 'Die Einzelprodukte: `-3 - 3x + x + x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 2x² - 6
+    hinweis: Jedes Glied der ersten Klammer wird mit **jedem** Glied der zweiten multipliziert – das sind 4 Produkte.
+  - antwort: 2x² + 4x - 6
+    hinweis: 'Achte bei jedem Produkt auf das Vorzeichen: Minus mal Minus ist Plus.'

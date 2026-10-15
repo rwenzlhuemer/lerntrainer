@@ -1,0 +1,646 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.1-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `10 - 2x` für x = 1.
+  loesung: '8'
+  term: 10 - 2x
+  werte:
+    x: '1'
+  weg:
+  - 10 - 2·1 = 8
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `10 - 2·1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `3·(x + 2)` für x = 2.
+  loesung: '12'
+  term: 3·(x + 2)
+  werte:
+    x: '2'
+  weg:
+  - 3·(2 + 2) = 12
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `3·(2 + 2)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `2x - 7` für x = 4.
+  loesung: '1'
+  term: 2x - 7
+  werte:
+    x: '4'
+  weg:
+  - 2·4 - 7 = 1
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·4 - 7`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `2·(x - 1)` für x = 5.
+  loesung: '8'
+  term: 2·(x - 1)
+  werte:
+    x: '5'
+  weg:
+  - 2·(5 - 1) = 8
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·(5 - 1)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `2·(x - 1)` für x = 3.
+  loesung: '4'
+  term: 2·(x - 1)
+  werte:
+    x: '3'
+  weg:
+  - 2·(3 - 1) = 4
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·(3 - 1)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `x² - 3` für x = 2.
+  loesung: '1'
+  term: x² - 3
+  werte:
+    x: '2'
+  weg:
+  - 2² - 3 = 1
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2² - 3`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `3·(x + 2)` für x = 5.
+  loesung: '21'
+  term: 3·(x + 2)
+  werte:
+    x: '5'
+  weg:
+  - 3·(5 + 2) = 21
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `3·(5 + 2)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-008
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `6x - 4` für x = 5.
+  loesung: '26'
+  term: 6x - 4
+  werte:
+    x: '5'
+  weg:
+  - 6·5 - 4 = 26
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `6·5 - 4`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-009
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `x² - 3` für x = 1.
+  loesung: '-2'
+  term: x² - 3
+  werte:
+    x: '1'
+  weg:
+  - 1² - 3 = -2
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `1² - 3`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne den Wert von `4x + 1` für x = 6.
+  loesung: '25'
+  term: 4x + 1
+  werte:
+    x: '6'
+  weg:
+  - 4·6 + 1 = 25
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `4·6 + 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-011
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `x² + 1` für x = -4.
+  loesung: '17'
+  term: x² + 1
+  werte:
+    x: '-4'
+  weg:
+  - (-4)² + 1 = 17
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-4)² + 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-15'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `x² - 4x` für x = -3.
+  loesung: '21'
+  term: x² - 4x
+  werte:
+    x: '-3'
+  weg:
+  - (-3)² - 4·(-3) = 21
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-3)² - 4·(-3)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-013
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `x² + x` für x = -1.
+  loesung: '0'
+  term: x² + x
+  werte:
+    x: '-1'
+  weg:
+  - (-1)² + (-1) = 0
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-1)² + (-1)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-014
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `x² + 1` für x = -5.
+  loesung: '26'
+  term: x² + 1
+  werte:
+    x: '-5'
+  weg:
+  - (-5)² + 1 = 26
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-5)² + 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-24'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-015
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `5 - 3x` für x = -4.
+  loesung: '17'
+  term: 5 - 3x
+  werte:
+    x: '-4'
+  weg:
+  - 5 - 3·(-4) = 17
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `5 - 3·(-4)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-016
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `3x + 5` für x = -1.
+  loesung: '2'
+  term: 3x + 5
+  werte:
+    x: '-1'
+  weg:
+  - 3·(-1) + 5 = 2
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `3·(-1) + 5`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-017
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `2x - 7` für x = -3.
+  loesung: '-13'
+  term: 2x - 7
+  werte:
+    x: '-3'
+  weg:
+  - 2·(-3) - 7 = -13
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·(-3) - 7`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-018
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `5 - 3x` für x = -2.
+  loesung: '11'
+  term: 5 - 3x
+  werte:
+    x: '-2'
+  weg:
+  - 5 - 3·(-2) = 11
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `5 - 3·(-2)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-019
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `4 - x²` für x = -3.
+  loesung: '-5'
+  term: 4 - x²
+  werte:
+    x: '-3'
+  weg:
+  - 4 - (-3)² = -5
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `4 - (-3)²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '13'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-020
+  typ: zahl
+  stufe: 2
+  frage: Berechne den Wert von `x² + x` für x = -2.
+  loesung: '2'
+  term: x² + x
+  werte:
+    x: '-2'
+  weg:
+  - (-2)² + (-2) = 2
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-2)² + (-2)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-6'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-021
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `3ab` für a = -2, b = -1.
+  loesung: '6'
+  term: 3ab
+  werte:
+    a: '-2'
+    b: '-1'
+  weg:
+  - 3·(-2)·(-1) = 6
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `3·(-2)·(-1)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-022
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `x² - 2x` für x = 1/2.
+  loesung: -3/4
+  term: x² - 2x
+  werte:
+    x: 1/2
+  weg:
+  - (1/2)² - 2·(1/2) = -3/4
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(1/2)² - 2·(1/2)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-023
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `x² - 2x` für x = -3.
+  loesung: '15'
+  term: x² - 2x
+  werte:
+    x: '-3'
+  weg:
+  - (-3)² - 2·(-3) = 15
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-3)² - 2·(-3)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-024
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `6x - 3` für x = 1/2.
+  loesung: '0'
+  term: 6x - 3
+  werte:
+    x: 1/2
+  weg:
+  - 6·(1/2) - 3 = 0
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `6·(1/2) - 3`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-025
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `2a + b²` für a = 1, b = -5.
+  loesung: '27'
+  term: 2a + b²
+  werte:
+    a: '1'
+    b: '-5'
+  weg:
+  - 2·1 + (-5)² = 27
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·1 + (-5)²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-23'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-026
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `4x + 1` für x = 1/2.
+  loesung: '3'
+  term: 4x + 1
+  werte:
+    x: 1/2
+  weg:
+  - 4·(1/2) + 1 = 3
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `4·(1/2) + 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-027
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `2a + b²` für a = 5, b = 2.
+  loesung: '14'
+  term: 2a + b²
+  werte:
+    a: '5'
+    b: '2'
+  weg:
+  - 2·5 + 2² = 14
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·5 + 2²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `a² - b²` für a = -3, b = 1.
+  loesung: '8'
+  term: a² - b²
+  werte:
+    a: '-3'
+    b: '1'
+  weg:
+  - (-3)² - 1² = 8
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-3)² - 1²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-10'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-029
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `2a - 3b` für a = -1, b = 2.
+  loesung: '-8'
+  term: 2a - 3b
+  werte:
+    a: '-1'
+    b: '2'
+  weg:
+  - 2·(-1) - 3·2 = -8
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `2·(-1) - 3·2`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-030
+  typ: zahl
+  stufe: 3
+  frage: Berechne den Wert von `(a - b)²` für a = -3, b = -4.
+  loesung: '1'
+  term: (a - b)²
+  werte:
+    a: '-3'
+    b: '-4'
+  weg:
+  - ((-3) - (-4))² = 1
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `((-3) - (-4))²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-031
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `a² - 2ab + b²` für a = -4, b = -1.
+  loesung: '9'
+  term: a² - 2ab + b²
+  werte:
+    a: '-4'
+    b: '-1'
+  weg:
+  - (-4)² - 2·(-4)·(-1) + (-1)² = 9
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-4)² - 2·(-4)·(-1) + (-1)²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-25'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `a² - 2ab + b²` für a = 4, b = 1.
+  loesung: '9'
+  term: a² - 2ab + b²
+  werte:
+    a: '4'
+    b: '1'
+  weg:
+  - 4² - 2·4·1 + 1² = 9
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `4² - 2·4·1 + 1²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-033
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `3x² - 2x + 1` für x = -1/2.
+  loesung: 11/4
+  term: 3x² - 2x + 1
+  werte:
+    x: -1/2
+  weg:
+  - 3·(-1/2)² - 2·(-1/2) + 1 = 11/4
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `3·(-1/2)² - 2·(-1/2) + 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: 5/4
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-034
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `4x² - 1` für x = -1/2.
+  loesung: '0'
+  term: 4x² - 1
+  werte:
+    x: -1/2
+  weg:
+  - 4·(-1/2)² - 1 = 0
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `4·(-1/2)² - 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-035
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `-x² + 3x` für x = -1.
+  loesung: '-4'
+  term: -x² + 3x
+  werte:
+    x: '-1'
+  weg:
+  - -(-1)² + 3·(-1) = -4
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `-(-1)² + 3·(-1)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-036
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `x² - x/2` für x = -1/2.
+  loesung: 1/2
+  term: x² - x/2
+  werte:
+    x: -1/2
+  weg:
+  - (-1/2)² - (-1/2)/2 = 1/2
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-1/2)² - (-1/2)/2`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '0'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-037
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `-a² + b²` für a = 5, b = 2.
+  loesung: '-21'
+  term: -a² + b²
+  werte:
+    a: '5'
+    b: '2'
+  weg:
+  - -5² + 2² = -21
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `-5² + 2²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler: []
+- id: A4.1-038
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `a² - 2ab + b²` für a = -5, b = -3.
+  loesung: '4'
+  term: a² - 2ab + b²
+  werte:
+    a: '-5'
+    b: '-3'
+  weg:
+  - (-5)² - 2·(-5)·(-3) + (-3)² = 4
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `(-5)² - 2·(-5)·(-3) + (-3)²`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-64'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-039
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `4x² - 1` für x = -2.
+  loesung: '15'
+  term: 4x² - 1
+  werte:
+    x: '-2'
+  weg:
+  - 4·(-2)² - 1 = 15
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `4·(-2)² - 1`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: '-17'
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'
+- id: A4.1-040
+  typ: zahl
+  stufe: 4
+  frage: Berechne den Wert von `-x² + 3x` für x = -1/2.
+  loesung: -7/4
+  term: -x² + 3x
+  werte:
+    x: -1/2
+  weg:
+  - -(-1/2)² + 3·(-1/2) = -7/4
+  tipps:
+  - Ersetze jede Variable durch ihre Zahl – negative Zahlen und Brüche **in Klammern**.
+  - 'Eingesetzt: `-(-1/2)² + 3·(-1/2)`.'
+  - 'Dann die Vorrangregeln: Hochzahl vor Punkt vor Strich.'
+  fehler:
+  - antwort: -5/4
+    hinweis: 'Achtung beim Quadrieren einer negativen Zahl: `(-3)² = (-3) · (-3) = +9`. Setz die Zahl immer in Klammern!'

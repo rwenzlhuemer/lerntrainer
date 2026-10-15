@@ -1,0 +1,22 @@
+id: A2.5
+titel: Doppelbrüche und gemischte Aufgaben
+ziel: Du berechnest Doppelbrüche und hältst bei gemischten Aufgaben die Vorrangregeln ein.
+erklaerung: |
+  Ein **Doppelbruch** ist ein Bruch, bei dem oben oder unten wieder ein Bruch steht.
+  Der große Bruchstrich bedeutet einfach „**durch**“: oben durch unten.
+
+  So gehst du vor:
+  1. Oben und unten getrennt ausrechnen, bis dort jeweils **ein** Bruch steht.
+  2. Oben durch unten: mit dem **Kehrwert** von unten multiplizieren.
+  3. Kürzen.
+
+  Bei gemischten Aufgaben gelten die Vorrangregeln: **Klammer vor Punkt vor Strich**.
+  In `1/2 + 1/3 · 3/4` wird zuerst multipliziert!
+beispiel:
+  wert: "4/5"
+  text: |
+    Oben: `1/2 + 1/6 = 3/6 + 1/6 = 4/6 = 2/3`. Unten: `5/6`. Dann oben durch unten.
+  weg:
+    - "(1/2 + 1/6)/(5/6) = (2/3)/(5/6) | oben zusammengefasst"
+    - "(2/3)/(5/6) = 2/3 · 6/5 | mit dem Kehrwert multiplizieren"
+    - "2/3 · 6/5 = 12/15 = 4/5 | gekürzt durch 3"

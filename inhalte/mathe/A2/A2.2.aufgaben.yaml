@@ -1,0 +1,599 @@
+# ERZEUGT von tools/generatoren/a2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A2.2-001
+  typ: zahl
+  stufe: 1
+  frage: Wie viel Prozent sind `0,8`?
+  loesung: '80'
+  einheit: '%'
+  weg:
+  - 0,8 · 100 = 80 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 4/5
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: '8'
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-002
+  typ: zahl
+  stufe: 1
+  frage: Wie viel Prozent sind `0,6`?
+  loesung: '60'
+  einheit: '%'
+  weg:
+  - 0,6 · 100 = 60 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 3/5
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: '6'
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-003
+  typ: zahl
+  stufe: 1
+  frage: Schreib 3 % als Dezimalzahl.
+  loesung: 0,03
+  form: dezimal
+  weg:
+  - '3 : 100 = 0,03 | Prozent heißt Hundertstel'
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: dividiere durch 100.'
+  - 'Durch 100 dividieren: Das Komma rückt zwei Stellen nach links.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Das ist noch die Prozentzahl. Als Dezimalzahl: durch 100.'
+  - antwort: 3/10
+    hinweis: Fast – das Komma rückt **zwei** Stellen nach links (durch 100).
+- id: A2.2-004
+  typ: zahl
+  stufe: 1
+  frage: Schreib `3/4` als Dezimalzahl.
+  loesung: 0,75
+  form: dezimal
+  weg:
+  - 3/4 = 75/100 = 0,75 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`3/4 = 75/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 3 : 4.'
+  fehler:
+  - antwort: 17/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `3/4` heißt 3 : 4.'
+- id: A2.2-005
+  typ: zahl
+  stufe: 1
+  frage: Schreib 30 % als Dezimalzahl.
+  loesung: 0,3
+  form: dezimal
+  weg:
+  - '30 : 100 = 0,3 | Prozent heißt Hundertstel'
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: dividiere durch 100.'
+  - 'Durch 100 dividieren: Das Komma rückt zwei Stellen nach links.'
+  fehler:
+  - antwort: '30'
+    hinweis: 'Das ist noch die Prozentzahl. Als Dezimalzahl: durch 100.'
+  - antwort: '3'
+    hinweis: Fast – das Komma rückt **zwei** Stellen nach links (durch 100).
+- id: A2.2-006
+  typ: zahl
+  stufe: 1
+  frage: Schreib `1/2` als Dezimalzahl.
+  loesung: 0,5
+  form: dezimal
+  weg:
+  - 1/2 = 5/10 = 0,5 | auf den Nenner 10 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`1/2 = 5/10`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 1 : 2.'
+  fehler:
+  - antwort: 6/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `1/2` heißt 1 : 2.'
+- id: A2.2-007
+  typ: zahl
+  stufe: 1
+  frage: Schreib 20 % als Dezimalzahl.
+  loesung: 0,2
+  form: dezimal
+  weg:
+  - '20 : 100 = 0,2 | Prozent heißt Hundertstel'
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: dividiere durch 100.'
+  - 'Durch 100 dividieren: Das Komma rückt zwei Stellen nach links.'
+  fehler:
+  - antwort: '20'
+    hinweis: 'Das ist noch die Prozentzahl. Als Dezimalzahl: durch 100.'
+  - antwort: '2'
+    hinweis: Fast – das Komma rückt **zwei** Stellen nach links (durch 100).
+- id: A2.2-008
+  typ: zahl
+  stufe: 1
+  frage: Schreib `1/4` als Dezimalzahl.
+  loesung: 0,25
+  form: dezimal
+  weg:
+  - 1/4 = 25/100 = 0,25 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`1/4 = 25/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 1 : 4.'
+  fehler:
+  - antwort: 7/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `1/4` heißt 1 : 4.'
+- id: A2.2-009
+  typ: zahl
+  stufe: 1
+  frage: Schreib 75 % als Dezimalzahl.
+  loesung: 0,75
+  form: dezimal
+  weg:
+  - '75 : 100 = 0,75 | Prozent heißt Hundertstel'
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: dividiere durch 100.'
+  - 'Durch 100 dividieren: Das Komma rückt zwei Stellen nach links.'
+  fehler:
+  - antwort: '75'
+    hinweis: 'Das ist noch die Prozentzahl. Als Dezimalzahl: durch 100.'
+  - antwort: 15/2
+    hinweis: Fast – das Komma rückt **zwei** Stellen nach links (durch 100).
+- id: A2.2-010
+  typ: zahl
+  stufe: 1
+  frage: Schreib 50 % als Dezimalzahl.
+  loesung: 0,5
+  form: dezimal
+  weg:
+  - '50 : 100 = 0,5 | Prozent heißt Hundertstel'
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: dividiere durch 100.'
+  - 'Durch 100 dividieren: Das Komma rückt zwei Stellen nach links.'
+  fehler:
+  - antwort: '50'
+    hinweis: 'Das ist noch die Prozentzahl. Als Dezimalzahl: durch 100.'
+  - antwort: '5'
+    hinweis: Fast – das Komma rückt **zwei** Stellen nach links (durch 100).
+- id: A2.2-011
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,5` als gekürzten Bruch.
+  loesung: 1/2
+  form: gekuerzt
+  weg:
+  - 0,5 = 5/10 = 1/2 | Zehntel, dann kürzen
+  tipps:
+  - 'Die letzte Nachkommastelle zeigt dir den Nenner: Zehntel → 10.'
+  - '`0,5 = 5/10`. Jetzt kürzen!'
+  fehler: []
+- id: A2.2-012
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind `0,72`?
+  loesung: '72'
+  einheit: '%'
+  weg:
+  - 0,72 · 100 = 72 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 18/25
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 36/5
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-013
+  typ: zahl
+  stufe: 2
+  frage: Schreib `9/25` als Dezimalzahl.
+  loesung: 0,36
+  form: dezimal
+  weg:
+  - 9/25 = 36/100 = 0,36 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`9/25 = 36/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 9 : 25.'
+  fehler:
+  - antwort: 37/4
+    hinweis: 'Der Bruchstrich ist kein Komma: `9/25` heißt 9 : 25.'
+- id: A2.2-014
+  typ: zahl
+  stufe: 2
+  frage: Schreib `8/25` als Dezimalzahl.
+  loesung: 0,32
+  form: dezimal
+  weg:
+  - 8/25 = 32/100 = 0,32 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`8/25 = 32/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 8 : 25.'
+  fehler:
+  - antwort: 33/4
+    hinweis: 'Der Bruchstrich ist kein Komma: `8/25` heißt 8 : 25.'
+- id: A2.2-015
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,75` als gekürzten Bruch.
+  loesung: 3/4
+  form: gekuerzt
+  weg:
+  - 0,75 = 75/100 = 3/4 | Hundertstel, dann kürzen
+  tipps:
+  - 'Die letzte Nachkommastelle zeigt dir den Nenner: Hundertstel → 100.'
+  - '`0,75 = 75/100`. Jetzt kürzen!'
+  fehler: []
+- id: A2.2-016
+  typ: zahl
+  stufe: 2
+  frage: Schreib `14/25` als Dezimalzahl.
+  loesung: 0,56
+  form: dezimal
+  weg:
+  - 14/25 = 56/100 = 0,56 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`14/25 = 56/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 14 : 25.'
+  fehler:
+  - antwort: 57/4
+    hinweis: 'Der Bruchstrich ist kein Komma: `14/25` heißt 14 : 25.'
+- id: A2.2-017
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind `0,18`?
+  loesung: '18'
+  einheit: '%'
+  weg:
+  - 0,18 · 100 = 18 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 9/50
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 9/5
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-018
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind `0,64`?
+  loesung: '64'
+  einheit: '%'
+  weg:
+  - 0,64 · 100 = 64 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 16/25
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 32/5
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-019
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind `0,4`?
+  loesung: '40'
+  einheit: '%'
+  weg:
+  - 0,4 · 100 = 40 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 2/5
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: '4'
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-020
+  typ: zahl
+  stufe: 2
+  frage: Schreib `21/50` als Dezimalzahl.
+  loesung: 0,42
+  form: dezimal
+  weg:
+  - 21/50 = 42/100 = 0,42 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`21/50 = 42/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 21 : 50.'
+  fehler:
+  - antwort: 43/2
+    hinweis: 'Der Bruchstrich ist kein Komma: `21/50` heißt 21 : 50.'
+- id: A2.2-021
+  typ: zahl
+  stufe: 3
+  frage: Schreib 7,5 % als gekürzten Bruch.
+  loesung: 3/40
+  form: gekuerzt
+  weg:
+  - 7,5/100 = 3/40 | Prozent heißt Hundertstel, dann kürzen
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: Schreib die Prozentzahl über 100.'
+  - Hat die Prozentzahl ein Komma, erweitere mit 10, damit der Zähler ganz wird. Dann kürzen.
+  fehler:
+  - antwort: 40/3
+    hinweis: 'Umgekehrt: Die Prozentzahl gehört in den Zähler, 100 in den Nenner.'
+- id: A2.2-022
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent sind `1,55`?
+  loesung: '155'
+  einheit: '%'
+  weg:
+  - 1,55 · 100 = 155 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 31/20
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 31/2
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-023
+  typ: zahl
+  stufe: 3
+  frage: Schreib `19/8` als Dezimalzahl.
+  loesung: 2,375
+  form: dezimal
+  weg:
+  - 19/8 = 2375/1000 = 2,375 | auf den Nenner 1000 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`19/8 = 2375/1000`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 19 : 8.'
+  fehler:
+  - antwort: 99/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `19/8` heißt 19 : 8.'
+- id: A2.2-024
+  typ: zahl
+  stufe: 3
+  frage: Schreib 250 % als gekürzten Bruch.
+  loesung: 5/2
+  form: gekuerzt
+  weg:
+  - 250/100 = 5/2 | Prozent heißt Hundertstel, dann kürzen
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: Schreib die Prozentzahl über 100.'
+  - Hat die Prozentzahl ein Komma, erweitere mit 10, damit der Zähler ganz wird. Dann kürzen.
+  fehler:
+  - antwort: 2/5
+    hinweis: 'Umgekehrt: Die Prozentzahl gehört in den Zähler, 100 in den Nenner.'
+- id: A2.2-025
+  typ: zahl
+  stufe: 3
+  frage: Schreib `27/20` als Dezimalzahl.
+  loesung: 1,35
+  form: dezimal
+  weg:
+  - 27/20 = 135/100 = 1,35 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`27/20 = 135/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 27 : 20.'
+  fehler:
+  - antwort: 136/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `27/20` heißt 27 : 20.'
+- id: A2.2-026
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent sind `0,925`?
+  loesung: 92,5
+  einheit: '%'
+  weg:
+  - 0,925 · 100 = 92,5 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 37/40
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 37/4
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-027
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent sind `1,75`?
+  loesung: '175'
+  einheit: '%'
+  weg:
+  - 1,75 · 100 = 175 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 7/4
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 35/2
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-028
+  typ: zahl
+  stufe: 3
+  frage: Schreib `17/20` als Dezimalzahl.
+  loesung: 0,85
+  form: dezimal
+  weg:
+  - 17/20 = 85/100 = 0,85 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`17/20 = 85/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 17 : 20.'
+  fehler:
+  - antwort: 86/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `17/20` heißt 17 : 20.'
+- id: A2.2-029
+  typ: zahl
+  stufe: 3
+  frage: Schreib `31/20` als Dezimalzahl.
+  loesung: 1,55
+  form: dezimal
+  weg:
+  - 31/20 = 155/100 = 1,55 | auf den Nenner 100 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`31/20 = 155/100`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 31 : 20.'
+  fehler:
+  - antwort: 156/5
+    hinweis: 'Der Bruchstrich ist kein Komma: `31/20` heißt 31 : 20.'
+- id: A2.2-030
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent sind `0,825`?
+  loesung: 82,5
+  einheit: '%'
+  weg:
+  - 0,825 · 100 = 82,5 | Prozent heißt Hundertstel
+  tipps:
+  - „Prozent“ heißt „Hundertstel“. Wie viele Hundertstel sind das?
+  - 'Multipliziere mit 100: Das Komma rückt zwei Stellen nach rechts.'
+  fehler:
+  - antwort: 33/40
+    hinweis: 'Das ist noch die Dezimalzahl. In Prozent: mal 100 – das Komma rückt zwei Stellen nach rechts.'
+  - antwort: 33/4
+    hinweis: Fast – für Prozent rückt das Komma **zwei** Stellen nach rechts (mal 100).
+- id: A2.2-031
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent sind `3/8`?
+  loesung: 37,5
+  einheit: '%'
+  weg:
+  - 3/8 · 100 = 37,5 | Prozent heißt Hundertstel
+  tipps:
+  - Erweitere auf den Nenner 100 – der Zähler ist dann die Prozentzahl.
+  - 'Oder: zuerst als Dezimalzahl (0,375), dann mal 100.'
+  fehler:
+  - antwort: 3/8
+    hinweis: 'Das ist die Dezimalzahl. In Prozent: noch mal 100.'
+- id: A2.2-032
+  typ: zahl
+  stufe: 4
+  frage: Schreib 6,25 % als gekürzten Bruch.
+  loesung: 1/16
+  form: gekuerzt
+  weg:
+  - 6,25/100 = 1/16 | Prozent heißt Hundertstel, dann kürzen
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: Schreib die Prozentzahl über 100.'
+  - Hat die Prozentzahl ein Komma, erweitere mit 10, damit der Zähler ganz wird. Dann kürzen.
+  fehler:
+  - antwort: '16'
+    hinweis: 'Umgekehrt: Die Prozentzahl gehört in den Zähler, 100 in den Nenner.'
+- id: A2.2-033
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent sind `7/40`?
+  loesung: 17,5
+  einheit: '%'
+  weg:
+  - 7/40 · 100 = 17,5 | Prozent heißt Hundertstel
+  tipps:
+  - Erweitere auf den Nenner 100 – der Zähler ist dann die Prozentzahl.
+  - 'Oder: zuerst als Dezimalzahl (0,175), dann mal 100.'
+  fehler:
+  - antwort: 7/40
+    hinweis: 'Das ist die Dezimalzahl. In Prozent: noch mal 100.'
+- id: A2.2-034
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent sind `2/5`?
+  loesung: '40'
+  einheit: '%'
+  weg:
+  - 2/5 · 100 = 40 | Prozent heißt Hundertstel
+  tipps:
+  - Erweitere auf den Nenner 100 – der Zähler ist dann die Prozentzahl.
+  - 'Oder: zuerst als Dezimalzahl (0,4), dann mal 100.'
+  fehler:
+  - antwort: 2/5
+    hinweis: 'Das ist die Dezimalzahl. In Prozent: noch mal 100.'
+- id: A2.2-035
+  typ: zahl
+  stufe: 4
+  frage: Schreib `15/16` als Dezimalzahl.
+  loesung: 0,9375
+  form: dezimal
+  weg:
+  - 15/16 = 9375/10000 = 0,9375 | auf den Nenner 10000 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`15/16 = 9375/10000`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 15 : 16.'
+  fehler:
+  - antwort: 379/25
+    hinweis: 'Der Bruchstrich ist kein Komma: `15/16` heißt 15 : 16.'
+- id: A2.2-036
+  typ: zahl
+  stufe: 4
+  frage: Schreib `11/16` als Dezimalzahl.
+  loesung: 0,6875
+  form: dezimal
+  weg:
+  - 11/16 = 6875/10000 = 0,6875 | auf den Nenner 10000 erweitert
+  tipps:
+  - Erweitere den Bruch auf den Nenner 10, 100 oder 1000.
+  - '`11/16 = 6875/10000`. Wie schreibt man das als Dezimalzahl?'
+  - 'Oder rechne einfach 11 : 16.'
+  fehler:
+  - antwort: 279/25
+    hinweis: 'Der Bruchstrich ist kein Komma: `11/16` heißt 11 : 16.'
+- id: A2.2-037
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent sind `7/8`?
+  loesung: 87,5
+  einheit: '%'
+  weg:
+  - 7/8 · 100 = 87,5 | Prozent heißt Hundertstel
+  tipps:
+  - Erweitere auf den Nenner 100 – der Zähler ist dann die Prozentzahl.
+  - 'Oder: zuerst als Dezimalzahl (0,875), dann mal 100.'
+  fehler:
+  - antwort: 7/8
+    hinweis: 'Das ist die Dezimalzahl. In Prozent: noch mal 100.'
+- id: A2.2-038
+  typ: zahl
+  stufe: 4
+  frage: Schreib `0,28` als gekürzten Bruch.
+  loesung: 7/25
+  form: gekuerzt
+  weg:
+  - 0,28 = 28/100 = 7/25 | Hundertstel, dann kürzen
+  tipps:
+  - 'Die letzte Nachkommastelle zeigt dir den Nenner: Hundertstel → 100.'
+  - '`0,28 = 28/100`. Jetzt kürzen!'
+  fehler: []
+- id: A2.2-039
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent sind `1/8`?
+  loesung: 12,5
+  einheit: '%'
+  weg:
+  - 1/8 · 100 = 12,5 | Prozent heißt Hundertstel
+  tipps:
+  - Erweitere auf den Nenner 100 – der Zähler ist dann die Prozentzahl.
+  - 'Oder: zuerst als Dezimalzahl (0,125), dann mal 100.'
+  fehler:
+  - antwort: 1/8
+    hinweis: 'Das ist die Dezimalzahl. In Prozent: noch mal 100.'
+- id: A2.2-040
+  typ: zahl
+  stufe: 4
+  frage: Schreib 0,5 % als gekürzten Bruch.
+  loesung: 1/200
+  form: gekuerzt
+  weg:
+  - 0,5/100 = 1/200 | Prozent heißt Hundertstel, dann kürzen
+  tipps:
+  - '„Prozent“ heißt „Hundertstel“: Schreib die Prozentzahl über 100.'
+  - Hat die Prozentzahl ein Komma, erweitere mit 10, damit der Zähler ganz wird. Dann kürzen.
+  fehler:
+  - antwort: '200'
+    hinweis: 'Umgekehrt: Die Prozentzahl gehört in den Zähler, 100 in den Nenner.'

@@ -1,0 +1,21 @@
+id: A2.2
+titel: Bruch, Dezimalzahl, Prozent
+ziel: Du wechselst sicher zwischen Bruch, Dezimalzahl und Prozent.
+erklaerung: |
+  Dieselbe Zahl kann man auf drei Arten schreiben: `3/4 = 0,75 = 75 %`.
+
+  **Bruch → Dezimalzahl:** auf den Nenner 10, 100 oder 1000 erweitern – oder einfach Zähler durch Nenner rechnen.
+
+  **Dezimalzahl → Bruch:** Die Nachkommastellen zeigen den Nenner: eine Stelle = Zehntel, zwei Stellen =
+  Hundertstel, drei Stellen = Tausendstel. Danach kürzen.
+
+  **Prozent** heißt „Hundertstel“: `35 % = 35/100 = 0,35`.
+  → Dezimalzahl in Prozent: **mal 100** (Komma zwei Stellen nach rechts).
+  → Prozent in Dezimalzahl: **durch 100** (Komma zwei Stellen nach links).
+beispiel:
+  wert: "3/8"
+  text: |
+    `3/8` als Dezimalzahl: 8 passt in 1000 (8 · 125 = 1000), also auf Tausendstel erweitern.
+    In Prozent: `0,375 · 100 = 37,5`, also 37,5 %.
+  weg:
+    - "3/8 = 375/1000 = 0,375 | mit 125 erweitert"

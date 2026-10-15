@@ -91,8 +91,8 @@ async function main() {
   await bild("01-start");
   await js("document.querySelector('[data-min=\"20\"]').click()");
   await warte(600);
-  pruefe((await js("location.hash")) === "#/ls/B1.1", "Start → empfohlener Lernschritt B1.1");
-  await bild("02-lernschritt-B1.1");
+  pruefe((await js("location.hash")) === "#/ls/A2.1", "Start → empfohlener Lernschritt A2.1 (erster Kernschritt)");
+  await bild("02-lernschritt-A2.1");
 
   // B1.4: Gleichung Schritt für Schritt, mit einem Fehler zwischendurch
   await geh("#/ueben/B1.4");
@@ -201,6 +201,61 @@ async function main() {
   pruefe(await js("!!document.querySelector('.gleichung-gross .bruch')"), "B1.7: Bruch gesetzt");
   await bild("09-bruch");
 
+  // A4.3 Term: Zwischenschritt mit Klammer wird angenommen, fertig erst ohne Klammer
+  await geh("#/ueben/A4.3");
+  const t3 = await js("window.__aufgabe");
+  pruefe(t3.typ === "term" && (await js("document.querySelector('.anweisung').innerText")).includes("Klammer"), `A4.3: Term-Aufgabe ${t3.id} ${t3.term}`);
+  await tippe(t3.term);
+  const r3a = await rm();
+  pruefe(r3a.startsWith("rueckmeldung gut") && r3a.includes("Klammer") && (await js("document.querySelectorAll('.zeile.ok').length")) === 1,
+    `A4.3: Ausgangsterm als Zwischenschritt (${r3a.slice(0, 60)})`);
+  if (t3.fehler?.length) {
+    await tippe(t3.fehler[0].antwort);
+    pruefe((await rm()).startsWith("rueckmeldung falsch"), `A4.3: typischer Fehler ${t3.fehler[0].antwort} orange mit Hinweis`);
+  }
+  await tippe(t3.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `A4.3: Lösung ${t3.loesung} erkannt`);
+  await bild("09b-term");
+
+  // A4.5 Herausheben: Summe ist noch nicht fertig, Produkt schon; Symbolleiste hat die Variablen
+  await geh("#/ueben/A4.5");
+  const t5 = await js("window.__aufgabe");
+  pruefe((await js("[...document.querySelectorAll('#symbole .sym')].map(b => b.dataset.s).join(' ')")).includes("x"), "A4.5: Symbolleiste mit x");
+  await tippe(t5.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `A4.5: ${t5.term} = ${t5.loesung} erkannt`);
+
+  // A2.1 Kürzen: ungekürzt → freundlicher Hinweis (neutral), gekürzt → richtig
+  const naechsteBis = async (lid, bed) => {
+    await geh(`#/ueben/${lid}`);
+    for (let i = 0; i < 25; i++) {
+      const kand = await js("window.__aufgabe");
+      if (bed(kand)) return kand;
+      await js("document.querySelector('#zeigen').click()");
+      await warte(150);
+      await js("document.querySelector('#next').click()");
+      await warte(250);
+    }
+    return null;
+  };
+  const k = await naechsteBis("A2.1", (x) => x.form === "gekuerzt");
+  const roh = /`(.+)`/.exec(k.frage)[1];
+  await tippe(roh);
+  const rk = await rm();
+  pruefe(rk.startsWith("rueckmeldung neutral") && rk.includes("kürzen"), `A2.1: ungekürzt ${roh} → Hinweis (${rk.slice(0, 60)})`);
+  await tippe(k.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `A2.1: ${k.loesung} richtig`);
+  await bild("09c-kuerzen");
+
+  // A2.4 Division mit Doppelpunkt wird als „:“ gesetzt, nicht als Bruch
+  await js(`(() => { const z = JSON.parse(localStorage.getItem('lerntrainer.v1'));
+    z.faecher.mathe.ls['A2.4'] = { stufe: 2, status: 'angefangen', verlauf: [] };
+    localStorage.setItem('lerntrainer.v1', JSON.stringify(z)); })()`);
+  await cdp("Page.reload");
+  await warte(1200);
+  const dv = await naechsteBis("A2.4", (x) => x.frage.includes(":"));
+  pruefe(dv && (await js("document.querySelector('.frage .mathe').innerText")).includes(":"), `A2.4: Division ${dv?.frage} mit „:“ gesetzt`);
+  await bild("09d-division");
+
   // Lösung zeigen
   await js("document.querySelector('#zeigen').click()");
   await warte(200);
@@ -251,7 +306,8 @@ async function main() {
 
   // Lernpfad und Lernstand
   await geh("#/pfad");
-  pruefe((await js("document.querySelectorAll('.ls a').length")) === 9, "Lernpfad: 9 verfügbare Lernschritte verlinkt");
+  const nLs = await js("document.querySelectorAll('.ls a').length");
+  pruefe(nLs === 23, `Lernpfad: ${nLs} verfügbare Lernschritte verlinkt (A2, A4, B1)`);
   await bild("11-lernpfad");
   await geh("#/einstellungen");
   await bild("12-einstellungen");

@@ -16,6 +16,7 @@ und schreibt nichts.
 
 import hashlib
 import json
+import math
 import shutil
 import sys
 from pathlib import Path
@@ -33,7 +34,7 @@ DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
 STUFEN = {1, 2, 3, 4}
-TYPEN = {"gleichung", "zahl", "auswahl"}
+TYPEN = {"gleichung", "zahl", "auswahl", "term"}
 
 
 class Fehlerliste(list):
@@ -90,6 +91,15 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
     except Exception as e:  # noqa: BLE001
         fehler.melde(wo, f"Lösung nicht lesbar ({e})")
         return
+    pruefe_zahlform(a, wo, fehler)
+    if "term" in a:
+        # Einsetzen: term mit werte {x: -2} muss die Lösung ergeben
+        try:
+            werte = {sympy.Symbol(k): notation.zahl(str(v)) for k, v in a["werte"].items()}
+            if sympy.simplify(notation.ausdruck(a["term"]).subs(werte) - soll) != 0:
+                fehler.melde(wo, f"{a['term']!r} mit {a['werte']} ergibt nicht {a['loesung']!r}")
+        except Exception as e:  # noqa: BLE001
+            fehler.melde(wo, f"Einsetzen nicht prüfbar ({e})")
     if "rechnung" in a:
         try:
             if sympy.simplify(notation.zahl(a["rechnung"]) - soll) != 0:
@@ -107,12 +117,69 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
                     fehler.melde(wo, f"Lösungsweg-Zeile {zeile!r} ist keine Äquivalenzumformung")
         except Exception as e:  # noqa: BLE001
             fehler.melde(wo, f"Gleichung nicht lesbar ({e})")
+    if "gleichung" not in a:
+        # Rechenweg als Kette: „1/2 + 1/3 = 3/6 + 2/6 = 5/6“ – jedes Glied muss den Wert der Lösung haben
+        for zeile in a.get("weg", []):
+            for teil in zeile.split("|")[0].split("="):
+                try:
+                    if teil.strip() and sympy.simplify(notation.zahl(teil) - soll) != 0:
+                        fehler.melde(wo, f"Rechenweg {zeile!r}: {teil.strip()!r} hat einen anderen Wert")
+                except Exception as e:  # noqa: BLE001
+                    fehler.melde(wo, f"Rechenweg {zeile!r} nicht lesbar ({e})")
     for f in a.get("fehler", []):
         try:
             if sympy.simplify(notation.zahl(str(f["antwort"])) - soll) == 0:
                 fehler.melde(wo, f"Fehler-Antwort {f['antwort']!r} ist in Wahrheit richtig")
         except Exception as e:  # noqa: BLE001
             fehler.melde(wo, f"Fehler-Antwort nicht lesbar ({e})")
+
+
+def gleicher_term(t1: str, t2: str) -> bool:
+    return sympy.simplify(notation.ausdruck(t1) - notation.ausdruck(t2)) == 0
+
+
+TERM_FORMEN = {"zusammengefasst", "ausmultipliziert", "faktor", "gekuerzt", "frei"}
+
+
+def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
+    """Term-Aufgabe: Ausgangsterm (oder Text) → gleichwertiger Term in einer verlangten Form."""
+    if a.get("form") not in TERM_FORMEN:
+        fehler.melde(wo, f"Form fehlt oder unbekannt: {a.get('form')!r}")
+    if not (a.get("term") or a.get("frage")):
+        fehler.melde(wo, "Term oder Frage fehlt")
+    try:
+        if a.get("term") and not gleicher_term(a["term"], a["loesung"]):
+            fehler.melde(wo, f"Lösung {a['loesung']!r} ist nicht gleich {a['term']!r}")
+        if a.get("form") == "faktor":
+            q = sympy.cancel(notation.ausdruck(a["loesung"]) / notation.ausdruck(a["faktor"]))
+            if sympy.fraction(q)[1].free_symbols:
+                fehler.melde(wo, f"Faktor {a['faktor']!r} steckt nicht in {a['loesung']!r}")
+        for zeile in a.get("weg", []):
+            for teil in zeile.split("|")[0].split("="):
+                if teil.strip() and not gleicher_term(teil, a["loesung"]):
+                    fehler.melde(wo, f"Lösungsweg {zeile!r}: {teil.strip()!r} ist nicht gleich")
+        for f in a.get("fehler", []):
+            if gleicher_term(str(f["antwort"]), a["loesung"]):
+                fehler.melde(wo, f"Fehler-Antwort {f['antwort']!r} ist in Wahrheit richtig")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Term nicht lesbar ({e})")
+
+
+def pruefe_zahlform(a: dict, wo: str, fehler: Fehlerliste):
+    """form: gekuerzt | nenner | dezimal – die Lösung selbst muss die verlangte Form haben."""
+    form, l = a.get("form"), str(a["loesung"]).replace(" ", "")
+    teile = l.lstrip("-").split("/")
+    if form == "gekuerzt":
+        if not all(t.isdigit() for t in teile) or (len(teile) == 2 and math.gcd(int(teile[0]), int(teile[1])) != 1):
+            fehler.melde(wo, f"Lösung {l!r} ist kein gekürzter Bruch")
+    elif form == "nenner":
+        if len(teile) != 2 or teile[1] != str(a.get("nenner")):
+            fehler.melde(wo, f"Lösung {l!r} hat nicht den Nenner {a.get('nenner')!r}")
+    elif form == "dezimal":
+        if "/" in l:
+            fehler.melde(wo, f"Lösung {l!r} ist keine Dezimalzahl")
+    elif form is not None:
+        fehler.melde(wo, f"unbekannte Form {form!r}")
 
 
 def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
@@ -126,6 +193,16 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
     if not p:
         return
     try:
+        if p["art"] in ("wert", "termgleich"):
+            # Optionen sind Zahlen bzw. Terme; richtig sind genau die, die gleich dem Ziel sind
+            if p["art"] == "wert":
+                ziel = notation.zahl(str(p["ziel"]))
+                erwartet = [i for i, o in enumerate(optionen) if sympy.simplify(notation.zahl(o) - ziel) == 0]
+            else:
+                erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
         menge = notation.loesungsmenge(p["gleichung"])
         if p["art"] == "einsetzen":
             # Optionen: 0 = Ja, 1 = Nein
@@ -147,7 +224,7 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
         fehler.melde(wo, f"Prüfung nicht lesbar ({e})")
 
 
-PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl}
+PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term}
 
 
 def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
@@ -197,7 +274,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 texte: set[str] = set()
                 for a in aufgaben:
                     aid = a.get("id", "?")
-                    text = a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage")
+                    text = a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage") or a.get("term")
                     if text in texte:
                         fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
                     texte.add(text)
@@ -214,6 +291,20 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                                 fehler.melde(lid, f"Beispiel-Zeile {zeile!r} ist keine Äquivalenzumformung")
                         except Exception as e:  # noqa: BLE001
                             fehler.melde(lid, f"Beispiel-Zeile {zeile!r} nicht lesbar ({e})")
+                bsp = inhalt.get("beispiel") or {}
+                if bsp.get("term") or bsp.get("wert"):
+                    # Beispiel als Kette: jedes Glied gleich dem Term bzw. Wert
+                    for zeile in bsp.get("weg", []):
+                        for teil in zeile.split("|")[0].split("="):
+                            if not teil.strip():
+                                continue
+                            try:
+                                gleich = (gleicher_term(teil, bsp["term"]) if bsp.get("term")
+                                          else sympy.simplify(notation.zahl(teil) - notation.zahl(str(bsp["wert"]))) == 0)
+                                if not gleich:
+                                    fehler.melde(lid, f"Beispiel {zeile!r}: {teil.strip()!r} stimmt nicht")
+                            except Exception as e:  # noqa: BLE001
+                                fehler.melde(lid, f"Beispiel {zeile!r} nicht lesbar ({e})")
                 stufen = {s: sum(1 for a in aufgaben if a.get("stufe") == s) for s in STUFEN}
                 ls["titel"] = inhalt.get("titel", ls["titel"])  # Inhaltsdatei hat den kurzen Titel
                 ls["verfuegbar"] = bool(aufgaben)

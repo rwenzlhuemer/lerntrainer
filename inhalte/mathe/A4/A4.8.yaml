@@ -1,0 +1,19 @@
+id: A4.8
+titel: Bruchterme addieren und multiplizieren
+ziel: Du rechnest mit Bruchtermen wie mit Zahlen-Brüchen.
+erklaerung: |
+  Für Bruchterme gelten dieselben Regeln wie für Brüche mit Zahlen:
+
+  **Addieren/Subtrahieren:** auf einen gemeinsamen Nenner bringen, dann die Zähler zusammenfassen.
+  `x/2 + x/3 = 3x/6 + 2x/6 = 5x/6`
+  Der gemeinsame Nenner enthält jeden Faktor, der in einem Nenner vorkommt: für `1/x + 1/y` ist das `xy`.
+
+  **Multiplizieren:** Zähler mal Zähler, Nenner mal Nenner – vorher kürzen spart Arbeit.
+  **Dividieren:** mit dem Kehrwert multiplizieren.
+beispiel:
+  term: "1/x + 1/(2x)"
+  text: |
+    Der gemeinsame Nenner ist 2x. Den ersten Bruch mit 2 erweitern.
+  weg:
+    - "1/x + 1/(2x) = 2/(2x) + 1/(2x) | auf den Nenner 2x erweitert"
+    - "2/(2x) + 1/(2x) = 3/(2x) | Zähler addiert"

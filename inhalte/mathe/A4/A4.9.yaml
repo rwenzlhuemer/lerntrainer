@@ -1,0 +1,22 @@
+id: A4.9
+titel: Terme aus Text aufstellen
+ziel: Du übersetzt Sätze und Sachsituationen in Terme.
+erklaerung: |
+  Ein kleines Wörterbuch:
+  - „das Doppelte / Dreifache von x“ → `2x`, `3x`
+  - „die Hälfte / der dritte Teil von x“ → `x/2`, `x/3`
+  - „vermehrt um 5“, „um 5 größer“ → `+ 5`; „vermindert um 5“, „um 5 kleiner“ → `- 5`
+  - **Summe** = plus, **Differenz** = minus, **Produkt** = mal, **Quotient** = durch
+
+  **Achtung bei Klammern:** „Das Doppelte der **Summe** aus x und 3“ ist `2(x + 3)` –
+  die ganze Summe wird verdoppelt. „Das Doppelte von x, vermehrt um 3“ ist dagegen `2x + 3`.
+
+  Bei Sachaufgaben überlegst du zuerst: Wofür steht die Variable? Was hängt davon ab?
+  Du musst den Term nicht vereinfachen – jede richtige Schreibweise zählt.
+beispiel:
+  term: "2b + 2(b + 4)"
+  text: |
+    Ein Rechteck ist um 4 cm länger als breit, die Breite ist b. Dann ist die Länge `b + 4`.
+    Der Umfang besteht aus zwei Breiten und zwei Längen.
+  weg:
+    - "2b + 2(b + 4) = 4b + 8 | vereinfacht (muss nicht sein)"

@@ -1,0 +1,22 @@
+id: A2.1
+titel: Kürzen und Erweitern
+ziel: Du kürzt Brüche so weit wie möglich und erweiterst sie auf einen gewünschten Nenner.
+erklaerung: |
+  Ein Bruch ändert seinen Wert nicht, wenn du Zähler **und** Nenner mit derselben Zahl
+  multiplizierst oder durch dieselbe Zahl dividierst.
+
+  **Kürzen** heißt: Zähler und Nenner durch dieselbe Zahl dividieren. Die Zahlen werden kleiner,
+  der Wert bleibt gleich. „So weit wie möglich“ heißt: bis es keine gemeinsame Zahl mehr gibt.
+
+  **Erweitern** heißt: Zähler und Nenner mit derselben Zahl multiplizieren. Das brauchst du, um
+  Brüche auf einen gemeinsamen Nenner zu bringen.
+
+  Wichtig: Immer **beide** – Zähler und Nenner. Und nur multiplizieren oder dividieren, nie dazuzählen.
+beispiel:
+  wert: "3/4"
+  text: |
+    Kürze `18/24`. Beide Zahlen sind gerade, also zuerst durch 2. Dann sind beide noch durch 3 teilbar.
+    (Wer gleich sieht, dass beide durch 6 teilbar sind, ist in einem Schritt fertig.)
+  weg:
+    - "18/24 = 9/12 | durch 2"
+    - "9/12 = 3/4 | durch 3"

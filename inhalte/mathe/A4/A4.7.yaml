@@ -1,0 +1,21 @@
+id: A4.7
+titel: "Kürzen bei Bruchtermen: nur Faktoren!"
+ziel: Du kürzt Bruchterme richtig – und weißt, wann man nicht kürzen darf.
+erklaerung: |
+  Die wichtigste Regel: **Kürzen darf man nur Faktoren, nie Summanden.**
+
+  Richtig: `6x/(9x) = 2/3` – oben und unten steht ein Produkt, x und 3 kürzen sich.
+  **Falsch:** `(x + 3)/3 = x + 1` ✗ – die 3 oben ist ein Summand, kein Faktor!
+
+  Steht oben oder unten eine Summe, machst du zuerst ein Produkt daraus:
+  - **Herausheben:** `(3x + 6)/3 = 3(x + 2)/3 = x + 2`
+  - **Binomische Formel:** `(x² - 9)/(x + 3) = (x + 3)(x - 3)/(x + 3) = x - 3`
+
+  Erst wenn oben und unten derselbe **Faktor** steht, darfst du ihn kürzen.
+beispiel:
+  term: "(4x + 8)/(x² + 2x)"
+  text: |
+    Oben 4 herausheben, unten x herausheben. Dann steht oben und unten der Faktor (x + 2).
+  weg:
+    - "(4x + 8)/(x² + 2x) = 4(x + 2)/(x(x + 2)) | herausgehoben"
+    - "4(x + 2)/(x(x + 2)) = 4/x | (x + 2) gekürzt"

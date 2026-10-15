@@ -1,0 +1,21 @@
+id: A2.3
+titel: Brüche addieren und subtrahieren
+ziel: Du addierst und subtrahierst Brüche – auch mit verschiedenen Nennern.
+erklaerung: |
+  Addieren und subtrahieren kannst du nur Brüche mit **gleichem Nenner**. Dann rechnest du nur
+  mit den Zählern, der Nenner bleibt stehen: `2/7 + 3/7 = 5/7`.
+
+  Bei verschiedenen Nennern:
+  1. **Gemeinsamen Nenner suchen** – eine Zahl, in der alle Nenner aufgehen (am besten die kleinste).
+  2. **Jeden Bruch erweitern** auf diesen Nenner – Zähler und Nenner mit derselben Zahl mal.
+  3. **Zähler addieren** bzw. subtrahieren, Nenner bleibt.
+  4. **Kürzen**, wenn es geht.
+
+  Der häufigste Fehler: Nenner addieren. `1/2 + 1/3` ist **nicht** `2/5`!
+beispiel:
+  wert: "5/6"
+  text: |
+    `1/2 + 1/3`: 2 und 3 gehen beide in 6 auf. `1/2 = 3/6` und `1/3 = 2/6`.
+  weg:
+    - "1/2 + 1/3 = 3/6 + 2/6 | auf den Nenner 6 erweitert"
+    - "3/6 + 2/6 = 5/6 | Zähler addieren"

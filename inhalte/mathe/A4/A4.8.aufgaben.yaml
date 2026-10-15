@@ -1,0 +1,454 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.8-001
+  typ: term
+  stufe: 1
+  term: x/2 + x/3
+  form: gekuerzt
+  loesung: 5x/6
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - x/2 + x/3 = 5x/6
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler:
+  - antwort: 2x/5
+    hinweis: 'Nenner werden nicht addiert! Gemeinsamer Nenner 6: `3x/6 + 2x/6`.'
+- id: A4.8-002
+  typ: term
+  stufe: 1
+  term: x/4 + x/2
+  form: gekuerzt
+  loesung: 3x/4
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - x/4 + x/2 = 3x/4
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-003
+  typ: term
+  stufe: 1
+  term: x/5 + 2x/5
+  form: gekuerzt
+  loesung: 3x/5
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - x/5 + 2x/5 = 3x/5
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-004
+  typ: term
+  stufe: 1
+  term: 3/a - 1/a
+  form: gekuerzt
+  loesung: 2/a
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 3/a - 1/a = 2/a
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-005
+  typ: term
+  stufe: 1
+  term: 5x/6 - x/3
+  form: gekuerzt
+  loesung: x/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 5x/6 - x/3 = x/2
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-006
+  typ: term
+  stufe: 1
+  term: 3x/4 - x/4
+  form: gekuerzt
+  loesung: x/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 3x/4 - x/4 = x/2
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-007
+  typ: term
+  stufe: 1
+  term: 2x/3 · 3/4
+  form: gekuerzt
+  loesung: x/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 2x/3 · 3/4 = x/2
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner – beim Dividieren mit dem Kehrwert.
+  - 'Kürze, bevor du ausmultiplizierst: gleiche Faktoren oben und unten fallen weg.'
+  - Binomische Formeln erkennen hilft beim Kürzen.
+  fehler: []
+- id: A4.8-008
+  typ: term
+  stufe: 1
+  term: a/3 + a/6
+  form: gekuerzt
+  loesung: a/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - a/3 + a/6 = a/2
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-009
+  typ: term
+  stufe: 2
+  term: '(x/2) : (x/4)'
+  form: gekuerzt
+  loesung: '2'
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - '(x/2) : (x/4) = 2'
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner – beim Dividieren mit dem Kehrwert.
+  - 'Kürze, bevor du ausmultiplizierst: gleiche Faktoren oben und unten fallen weg.'
+  - Binomische Formeln erkennen hilft beim Kürzen.
+  fehler: []
+- id: A4.8-010
+  typ: term
+  stufe: 2
+  term: 1/x - 1/x²
+  form: gekuerzt
+  loesung: (x - 1)/x²
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/x - 1/x² = (x - 1)/x²
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-011
+  typ: term
+  stufe: 2
+  term: 3/(2x) - 1/x
+  form: gekuerzt
+  loesung: 1/(2x)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 3/(2x) - 1/x = 1/(2x)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-012
+  typ: term
+  stufe: 2
+  term: 1/x + 1/(2x)
+  form: gekuerzt
+  loesung: 3/(2x)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/x + 1/(2x) = 3/(2x)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-013
+  typ: term
+  stufe: 2
+  term: x²/6 · 3/x
+  form: gekuerzt
+  loesung: x/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - x²/6 · 3/x = x/2
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner – beim Dividieren mit dem Kehrwert.
+  - 'Kürze, bevor du ausmultiplizierst: gleiche Faktoren oben und unten fallen weg.'
+  - Binomische Formeln erkennen hilft beim Kürzen.
+  fehler: []
+- id: A4.8-014
+  typ: term
+  stufe: 2
+  term: 2/x + 3/x²
+  form: gekuerzt
+  loesung: (2x + 3)/x²
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 2/x + 3/x² = (2x + 3)/x²
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-015
+  typ: term
+  stufe: 2
+  term: 5/(3a) + 1/(6a)
+  form: gekuerzt
+  loesung: 11/(6a)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 5/(3a) + 1/(6a) = 11/(6a)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-016
+  typ: term
+  stufe: 2
+  term: '(4x/5) : (2/x)'
+  form: gekuerzt
+  loesung: 2x²/5
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - '(4x/5) : (2/x) = 2x²/5'
+  tipps:
+  - Zähler mal Zähler, Nenner mal Nenner – beim Dividieren mit dem Kehrwert.
+  - 'Kürze, bevor du ausmultiplizierst: gleiche Faktoren oben und unten fallen weg.'
+  - Binomische Formeln erkennen hilft beim Kürzen.
+  fehler: []
+- id: A4.8-017
+  typ: term
+  stufe: 3
+  term: 1/x + 1/y
+  form: gekuerzt
+  loesung: (x + y)/(xy)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/x + 1/y = (x + y)/(xy)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler:
+  - antwort: 2/(x + y)
+    hinweis: Nenner werden nicht addiert! Gemeinsamer Nenner ist `xy`.
+- id: A4.8-018
+  typ: term
+  stufe: 3
+  term: 1/(x - 1) - 1/x
+  form: gekuerzt
+  loesung: 1/(x(x - 1))
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/(x - 1) - 1/x = 1/(x(x - 1))
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-019
+  typ: term
+  stufe: 3
+  term: (x + 1)/x · x²/(x + 1)
+  form: gekuerzt
+  loesung: x
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - (x + 1)/x · x²/(x + 1) = x
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-020
+  typ: term
+  stufe: 3
+  term: 1/a + 1/(2a) + 1/(3a)
+  form: gekuerzt
+  loesung: 11/(6a)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/a + 1/(2a) + 1/(3a) = 11/(6a)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-021
+  typ: term
+  stufe: 3
+  term: 2/(a - b) · (a - b)/4
+  form: gekuerzt
+  loesung: 1/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 2/(a - b) · (a - b)/4 = 1/2
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-022
+  typ: term
+  stufe: 3
+  term: x/(x + 3) + 3/(x + 3)
+  form: gekuerzt
+  loesung: '1'
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - x/(x + 3) + 3/(x + 3) = 1
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-023
+  typ: term
+  stufe: 3
+  term: 3/(x + 2) · (x + 2)/6
+  form: gekuerzt
+  loesung: 1/2
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 3/(x + 2) · (x + 2)/6 = 1/2
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-024
+  typ: term
+  stufe: 3
+  term: 2/(x + 1) + 1/(x + 1)
+  form: gekuerzt
+  loesung: 3/(x + 1)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 2/(x + 1) + 1/(x + 1) = 3/(x + 1)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-025
+  typ: term
+  stufe: 4
+  term: (a + b)/a · a²/(a² - b²)
+  form: gekuerzt
+  loesung: a/(a - b)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - (a + b)/a · a²/(a² - b²) = a/(a - b)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-026
+  typ: term
+  stufe: 4
+  term: 1/(x(x + 1)) + 1/(x + 1)
+  form: gekuerzt
+  loesung: 1/x
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/(x(x + 1)) + 1/(x + 1) = 1/x
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-027
+  typ: term
+  stufe: 4
+  term: (x² - 1)/x · x/(x + 1)
+  form: gekuerzt
+  loesung: x - 1
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - (x² - 1)/x · x/(x + 1) = x - 1
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-028
+  typ: term
+  stufe: 4
+  term: 1/(x - 2) - 1/(x + 2)
+  form: gekuerzt
+  loesung: 4/((x + 2)(x - 2))
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/(x - 2) - 1/(x + 2) = 4/((x + 2)(x - 2))
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-029
+  typ: term
+  stufe: 4
+  term: 1/(x - 1) + 1/(x + 1)
+  form: gekuerzt
+  loesung: 2x/((x + 1)(x - 1))
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 1/(x - 1) + 1/(x + 1) = 2x/((x + 1)(x - 1))
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-030
+  typ: term
+  stufe: 4
+  term: 2/x - 3/(2x) + 1/(4x)
+  form: gekuerzt
+  loesung: 3/(4x)
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - 2/x - 3/(2x) + 1/(4x) = 3/(4x)
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-031
+  typ: term
+  stufe: 4
+  term: a/(a - b) - b/(a - b)
+  form: gekuerzt
+  loesung: '1'
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - a/(a - b) - b/(a - b) = 1
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []
+- id: A4.8-032
+  typ: term
+  stufe: 4
+  term: '((x² - 4)/(3x)) : ((x + 2)/(6x))'
+  form: gekuerzt
+  loesung: 2x - 4
+  anweisung: Rechne aus und kürze so weit wie möglich.
+  weg:
+  - '((x² - 4)/(3x)) : ((x + 2)/(6x)) = 2x - 4'
+  tipps:
+  - 'Wie bei Zahlen-Brüchen: zuerst auf einen gemeinsamen Nenner bringen, dann die Zähler addieren.'
+  - Der gemeinsame Nenner enthält jeden Faktor, der in einem der Nenner vorkommt.
+  - Zum Schluss kürzen, wenn es geht.
+  fehler: []

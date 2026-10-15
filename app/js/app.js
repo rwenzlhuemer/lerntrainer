@@ -16,6 +16,11 @@ const TROST = [
   "Fehler gehören zum Lernen dazu – du schaffst das.", "Kein Problem, genau dafür üben wir.",
   "Das passiert jedem. Probier es gleich noch einmal.", "Du bist nah dran!",
 ];
+const TERM_ANWEISUNG = {
+  zusammengefasst: "Fasse zusammen.", ausmultipliziert: "Löse die Klammern auf und fasse zusammen.",
+  faktor: "Heb heraus – schreib den Term als Produkt.", gekuerzt: "Kürze so weit wie möglich.", frei: "Schreib den Term auf.",
+};
+const SYMBOLE = ["x", "²", "(", ")", "·", ":", "/", "+", "−", "=", ","];
 const zufall = (liste) => liste[Math.floor(Math.random() * liste.length)];
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -205,10 +210,7 @@ async function seiteUeben(lid, testModus) {
     </div>
     <div id="aufgabe"></div>
     <section class="schmierzettel karte" id="zettel" hidden></section>
-    <div class="symbole" id="symbole" hidden>
-      ${["x", "²", "(", ")", "·", ":", "/", "+", "−", "=", ","].map((s) => `<button type="button" class="sym" data-s="${s}">${s}</button>`).join("")}
-      <button type="button" class="sym" data-s="⌫" aria-label="Zeichen löschen">⌫</button>
-    </div>`;
+    <div class="symbole" id="symbole" hidden></div>`;
   const ort = haupt.querySelector("#aufgabe");
   const zettelOrt = haupt.querySelector("#zettel");
 
@@ -277,24 +279,32 @@ async function seiteUeben(lid, testModus) {
     const zustand = { tipps: 0, fehlversuche: 0, gezeigt: false, fertig: false, zeilen: [] };
     window.__aufgabe = a; // für tools/test_browser.mjs
     const istGl = a.typ === "gleichung";
+    const istTerm = a.typ === "term";
     const kopf = test ? `Prüfaufgabe ${test.nr} von 3` : `${STUFE_NAME[stufe]} · Stufe ${stufe} von ${S.HOECHSTE_STUFE}`;
     let koerper;
     if (istGl) {
       koerper = `<p class="anweisung">Löse die Gleichung.</p>
         <div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>
         <ol class="zeilen" id="zeilen"></ol>`;
+    } else if (istTerm) {
+      koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">${esc(a.anweisung || TERM_ANWEISUNG[a.form] || "Vereinfache.")}</p>`}
+        ${a.term ? `<div class="gleichung-gross">${M.matheHTML(a.term)}</div>` : ""}
+        <ol class="zeilen" id="zeilen"></ol>`;
     } else {
       koerper = `<div class="frage">${M.textHTML(a.frage)}</div>`;
     }
+    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
     const eingabe = a.typ === "auswahl"
-      ? `<div class="optionen">${a.optionen.map((o, i) => `<button class="knopf option" data-i="${i}">${esc(o)}</button>`).join("")}</div>`
+      ? `<div class="optionen">${a.optionen.map((o, i) => `<button class="knopf option" data-i="${i}">${a.mathe ? M.matheHTML(o) : esc(o)}</button>`).join("")}</div>`
       : `<form class="eingabe" id="form" autocomplete="off">
            <input id="feld" type="text" inputmode="text" autocapitalize="off" autocorrect="off" spellcheck="false"
-             placeholder="${istGl ? "nächste Zeile, z. B. 3x = 15" : "Antwort"}" aria-label="Deine Antwort">
+             placeholder="${platzhalter}" aria-label="Deine Antwort">
            <button class="knopf haupt-knopf" type="submit">Prüfen</button>
          </form>
          <div class="vorschau" id="vorschau" aria-hidden="true"></div>
          ${istGl ? `<p class="leise klein-text eingabe-hinweis">Schreib Zeile für Zeile – oder gleich das Ergebnis, z. B. x = 4.</p>` : ""}
+         ${istTerm ? `<p class="leise klein-text eingabe-hinweis">Du kannst Zwischenschritte schreiben – jede Zeile wird geprüft.</p>` : ""}
+         ${a.form === "gekuerzt" && !istTerm ? `<p class="leise klein-text eingabe-hinweis">Ergebnis als gekürzter Bruch (oder ganze Zahl), z. B. 3/4.</p>` : ""}
          ${a.einheit ? `<p class="leise klein-text eingabe-hinweis">Antwort in ${esc(a.einheit)}</p>` : ""}`;
 
     ort.innerHTML = `
@@ -319,6 +329,10 @@ async function seiteUeben(lid, testModus) {
     const feld = ort.querySelector("#feld");
     const symbole = haupt.querySelector("#symbole");
     symbole.hidden = !feld;
+    const zeichen = istTerm ? [...[...M.variablen(M.lies(a.loesung).term)].sort(), "²", "(", ")", "·", "/", "+", "−", ","]
+      : a.typ === "zahl" && a.form ? ["/", "−", ",", "(", ")"] : SYMBOLE;
+    symbole.innerHTML = zeichen.map((s) => `<button type="button" class="sym" data-s="${s}">${s}</button>`).join("") +
+      `<button type="button" class="sym" data-s="⌫" aria-label="Zeichen löschen">⌫</button>`;
     if (feld) {
       aktivesFeld = feld;
       feld.addEventListener("focus", () => { aktivesFeld = feld; });
@@ -401,7 +415,7 @@ async function seiteUeben(lid, testModus) {
       if (zustand.fertig) return;
       zustand.gezeigt = true;
       const loesung = a.typ === "auswahl" ? esc(a.optionen[a.richtig[0]]) :
-        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : esc(a.loesung.replace(".", ",")) + (a.einheit ? " " + esc(a.einheit) : "");
+        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
       abschliessen("gezeigt", `<p><strong>Lösung:</strong> ${loesung}</p>${wegHTML()}
         ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
         <p class="mut">Anschauen ist auch lernen. Geh die Schritte in Ruhe durch – bei der nächsten Aufgabe probierst du es selbst.</p>`);
@@ -424,7 +438,7 @@ async function seiteUeben(lid, testModus) {
           abschliessen("hilfe", `<p><strong>Nicht ganz.</strong></p>${M.textHTML(a.erklaerung)}<p class="mut">${zufall(TROST)}</p>`);
         } else {
           b.disabled = true;
-          melde("falsch", `<p>Das stimmt leider nicht. Schau dir die Gleichung noch einmal an – vielleicht hilft ein Tipp.</p><p class="mut">${zufall(TROST)}</p>`);
+          melde("falsch", `<p>Das stimmt leider nicht. Schau dir die Aufgabe noch einmal an – vielleicht hilft ein Tipp.</p><p class="mut">${zufall(TROST)}</p>`);
         }
       }
     }));
@@ -436,8 +450,38 @@ async function seiteUeben(lid, testModus) {
       const roh = feld.value.trim();
       if (!roh) return;
       if (istGl) pruefeZeile(roh);
+      else if (istTerm) pruefeTerm(roh);
       else pruefeAntwort(roh);
     });
+
+    function pruefeTerm(roh) {
+      const r = M.pruefeTermZeile(roh, a);
+      const neueZeile = () => {
+        const t = roh.includes("=") ? roh.slice(roh.lastIndexOf("=") + 1).trim() : roh;
+        ort.querySelector("#zeilen").insertAdjacentHTML("beforeend",
+          `<li class="zeile ok"><span class="weg-op">=</span> ${M.matheHTML(t)}<span class="haken" aria-label="richtig">✓</span></li>`);
+        feld.value = "";
+        ort.querySelector("#vorschau").innerHTML = "";
+      };
+      if (r.art === "geloest") {
+        neueZeile();
+        abschliessen(ergebnisArt(), `<p><strong>${zufall(LOB)}</strong> ${a.term ? `${M.matheHTML(a.term)} = ` : ""}${M.matheHTML(a.loesung)}</p>
+          ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
+          ${a.weg?.length ? `<details class="weg-details"><summary>Musterlösung ansehen</summary>${wegHTML()}</details>` : ""}
+          <p class="mut">${zufall(MUT)}</p>`);
+      } else if (r.art === "schritt") {
+        neueZeile();
+        melde("gut", `<p>✓ ${esc(r.hinweis)}</p>`);
+        feld.focus();
+      } else if (r.art === "falsch") {
+        zustand.fehlversuche++;
+        const text = r.fehler ? M.textHTML(r.fehler.hinweis)
+          : `<p>Das ist leider nicht derselbe Term. Setz zur Probe eine Zahl ein, z. B. x = 2 – dann muss bei beiden dasselbe herauskommen.</p>`;
+        melde("falsch", `${text}<p class="mut">${zufall(TROST)}</p>`);
+      } else {
+        melde("neutral", `<p>Das kann ich leider nicht lesen. Schreib zum Beispiel <span class="mathe">3<i>x</i> + 6</span> oder <span class="mathe">2(<i>x</i> − 1)</span>.</p>`);
+      }
+    }
 
     function pruefeZeile(roh) {
       const [glText, ...kommentar] = roh.split("|");
@@ -477,13 +521,16 @@ async function seiteUeben(lid, testModus) {
     }
 
     function pruefeAntwort(roh) {
-      const r = M.pruefeZahl(roh, a.loesung);
+      const r = M.pruefeZahl(roh, a.loesung, a.form, a.nenner);
       const einheitText = a.einheit ? " " + esc(a.einheit) : "";
+      if (r.art === "form") return melde("neutral", `<p>${esc(r.hinweis)}</p>`);
+      if (r.art === "gemischt") return melde("neutral", `<p>Schreib gemischte Zahlen bitte als Bruch: statt 2 1/2 schreibst du 5/2.</p>`);
       if (r.art === "richtig" || r.art === "gerundet") {
-        abschliessen(ergebnisArt(), `<p><strong>${zufall(LOB)}</strong> ${esc(a.loesung.replace(".", ","))}${einheitText} stimmt${
+        abschliessen(ergebnisArt(), `<p><strong>${zufall(LOB)}</strong> ${M.matheHTML(a.loesung)}${einheitText} stimmt${
           r.art === "gerundet" ? " (du hast sinnvoll gerundet)" : ""}.</p>
           ${a.gleichung ? `<p>Die Gleichung dazu: ${M.matheHTML(a.gleichung)}</p>` : ""}
-          <details class="weg-details"><summary>Musterlösung ansehen</summary>${wegHTML()}</details>
+          ${a.weg?.length ? `<details class="weg-details"><summary>Musterlösung ansehen</summary>${wegHTML()}</details>` : ""}
+          ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
           <p class="mut">${zufall(MUT)}</p>`);
       } else if (r.art === "falsch") {
         zustand.fehlversuche++;

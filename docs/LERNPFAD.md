@@ -37,11 +37,11 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| A2.1 ★ | Kürzen und Erweitern |  |  |
-| A2.2 ★ | Bruch ↔ Dezimalzahl ↔ Prozent |  |  |
-| A2.3 ★ | Brüche addieren und subtrahieren (gemeinsamer Nenner) |  |  |
-| A2.4 ★ | Brüche multiplizieren und dividieren |  |  |
-| A2.5 | Doppelbrüche und gemischte Aufgaben |  |  |
+| A2.1 ★ | Kürzen und Erweitern |  | ✓ 40 |
+| A2.2 ★ | Bruch, Dezimalzahl, Prozent |  | ✓ 40 |
+| A2.3 ★ | Brüche addieren und subtrahieren |  | ✓ 40 |
+| A2.4 ★ | Brüche multiplizieren und dividieren |  | ✓ 40 |
+| A2.5 | Doppelbrüche und gemischte Aufgaben |  | ✓ 40 |
 
 ### A3 Potenzen und Wurzeln
 
@@ -57,15 +57,15 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| A4.1 ★ | Variablen; Werte in einen Term einsetzen | AG 1.2 |  |
-| A4.2 ★ | Gleichartige Terme zusammenfassen | AG 2.1 |  |
-| A4.3 ★ | Klammern auflösen – auch „Minus vor der Klammer“ | AG 2.1 |  |
-| A4.4 ★ | Ausmultiplizieren: (a + b) · (c + d) | AG 2.1 |  |
-| A4.5 ★ | Herausheben (Ausklammern) | AG 2.1 |  |
-| A4.6 ★ | Binomische Formeln – vorwärts und rückwärts | AG 2.1 |  |
-| A4.7 ★ | Kürzen bei Bruchtermen: nur Faktoren, nie Summanden! | AG 2.1 |  |
-| A4.8 | Bruchterme addieren und multiplizieren | AG 2.1 |  |
-| A4.9 ★ | Terme aus Text aufstellen („das Doppelte von x, vermindert um 3“) | AG 2.1 |  |
+| A4.1 ★ | Werte in einen Term einsetzen | AG 1.2 | ✓ 40 |
+| A4.2 ★ | Gleichartige Terme zusammenfassen | AG 2.1 | ✓ 40 |
+| A4.3 ★ | Klammern auflösen | AG 2.1 | ✓ 40 |
+| A4.4 ★ | Klammer mal Klammer | AG 2.1 | ✓ 40 |
+| A4.5 ★ | Herausheben | AG 2.1 | ✓ 40 |
+| A4.6 ★ | Binomische Formeln | AG 2.1 | ✓ 40 |
+| A4.7 ★ | Kürzen bei Bruchtermen: nur Faktoren! | AG 2.1 | ✓ 32 |
+| A4.8 | Bruchterme addieren und multiplizieren | AG 2.1 | ✓ 32 |
+| A4.9 ★ | Terme aus Text aufstellen | AG 2.1 | ✓ 24 |
 
 ### A5 Prozent, Verhältnisse, Proportionalität
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 9.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 23.

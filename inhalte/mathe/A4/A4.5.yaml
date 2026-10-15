@@ -1,0 +1,24 @@
+id: A4.5
+titel: Herausheben
+ziel: Du hebst gemeinsame Faktoren heraus und schreibst Summen als Produkt.
+erklaerung: |
+  Herausheben ist das Gegenteil von Ausmultiplizieren. Du suchst, was in **allen** Gliedern steckt,
+  und stellst es vor eine Klammer:
+
+  `6x + 9 = 3 · 2x + 3 · 3 = 3(2x + 3)`
+
+  So gehst du vor:
+  1. Größte Zahl suchen, durch die alle Zahlen teilbar sind.
+  2. Variable suchen, die in allen Gliedern vorkommt (mit der kleinsten Hochzahl).
+  3. Jedes Glied durch das Herausgehobene dividieren – das kommt in die Klammer.
+
+  Hebst du ein ganzes Glied heraus, bleibt eine **1** stehen: `x² + x = x(x + 1)`.
+  **Probe:** Wieder ausmultiplizieren – dann muss der ursprüngliche Term herauskommen.
+  Auch eine ganze Klammer kann man herausheben: `x(a + b) + 2(a + b) = (a + b)(x + 2)`.
+beispiel:
+  term: "12x² - 8x"
+  text: |
+    12 und 8 sind beide durch 4 teilbar, und beide Glieder enthalten x. Also wird 4x herausgehoben.
+  weg:
+    - "12x² - 8x = 4x · 3x - 4x · 2 | 4x steckt in beiden Gliedern"
+    - "4x · 3x - 4x · 2 = 4x(3x - 2) | herausgehoben"

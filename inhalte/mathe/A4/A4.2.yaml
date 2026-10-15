@@ -1,0 +1,19 @@
+id: A4.2
+titel: Gleichartige Terme zusammenfassen
+ziel: Du fasst gleichartige Glieder zusammen – auch mit Minus, zwei Variablen und Hochzahlen.
+erklaerung: |
+  **Gleichartig** sind Glieder mit genau derselben Variablen und derselben Hochzahl:
+  `3x` und `-5x` sind gleichartig, `3x` und `3x²` **nicht**, `3x` und `7` auch nicht.
+
+  Nur gleichartige Glieder darfst du zusammenfassen – du rechnest dabei nur mit den Zahlen davor:
+  `3x + 5x = 8x`, `4a - 7a = -3a`.
+
+  Das Vorzeichen gehört immer zum Glied **dahinter**. Ordne am besten zuerst um:
+  gleichartige Glieder nebeneinander, das Vorzeichen wandert mit.
+beispiel:
+  term: "4x + 3 - 6x + 5"
+  text: |
+    Erst ordnen (das Minus bleibt bei der 6x), dann die x-Glieder und die Zahlen getrennt zusammenfassen.
+  weg:
+    - "4x + 3 - 6x + 5 = 4x - 6x + 3 + 5 | ordnen"
+    - "4x - 6x + 3 + 5 = -2x + 8 | zusammenfassen"

@@ -1,0 +1,706 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.6-001
+  typ: term
+  stufe: 1
+  term: (x + 6)²
+  form: ausmultipliziert
+  loesung: x² + 12x + 36
+  weg:
+  - (x + 6)² = x² + 2·x·6 + 6² = x² + 12x + 36
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `x` und b = `6`.
+  - 'Ausgeschrieben: `x² + 2·x·6 + 6²`.'
+  fehler:
+  - antwort: x² + 36
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: x² + 6x + 36
+    hinweis: Das Mittelglied ist **2**·a·b.
+- id: A4.6-002
+  typ: term
+  stufe: 1
+  term: (x + 6)(x - 6)
+  form: ausmultipliziert
+  loesung: x² - 36
+  weg:
+  - (x + 6)(x - 6) = x² - 6² = x² - 36
+  tipps:
+  - '3. binomische Formel: `(a + b)(a - b) = a² - b²`.'
+  - Hier ist a = `x` und b = `6`.
+  - 'Ausgeschrieben: `x² - 6²`.'
+  fehler:
+  - antwort: x² + 36
+    hinweis: '`(a + b)(a - b) = a² - b²` – in der Mitte steht ein **Minus**.'
+  - antwort: x² - 12x + 36
+    hinweis: 'Bei `(a + b)(a - b)` heben sich die Mittelglieder weg: a² - b².'
+- id: A4.6-003
+  typ: term
+  stufe: 1
+  term: (x + 2)²
+  form: ausmultipliziert
+  loesung: x² + 4x + 4
+  weg:
+  - (x + 2)² = x² + 2·x·2 + 2² = x² + 4x + 4
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `x` und b = `2`.
+  - 'Ausgeschrieben: `x² + 2·x·2 + 2²`.'
+  fehler:
+  - antwort: x² + 4
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: x² + 2x + 4
+    hinweis: Das Mittelglied ist **2**·a·b.
+- id: A4.6-004
+  typ: term
+  stufe: 1
+  term: (x - 8)²
+  form: ausmultipliziert
+  loesung: x² - 16x + 64
+  weg:
+  - (x - 8)² = x² - 2·x·8 + 8² = x² - 16x + 64
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `x` und b = `8`.
+  - 'Ausgeschrieben: `x² - 2·x·8 + 8²`.'
+  fehler:
+  - antwort: x² - 64
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: x² - 16x - 64
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+- id: A4.6-005
+  typ: term
+  stufe: 1
+  term: (x + 9)(x - 9)
+  form: ausmultipliziert
+  loesung: x² - 81
+  weg:
+  - (x + 9)(x - 9) = x² - 9² = x² - 81
+  tipps:
+  - '3. binomische Formel: `(a + b)(a - b) = a² - b²`.'
+  - Hier ist a = `x` und b = `9`.
+  - 'Ausgeschrieben: `x² - 9²`.'
+  fehler:
+  - antwort: x² + 81
+    hinweis: '`(a + b)(a - b) = a² - b²` – in der Mitte steht ein **Minus**.'
+  - antwort: x² - 18x + 81
+    hinweis: 'Bei `(a + b)(a - b)` heben sich die Mittelglieder weg: a² - b².'
+- id: A4.6-006
+  typ: term
+  stufe: 1
+  term: (x - 7)²
+  form: ausmultipliziert
+  loesung: x² - 14x + 49
+  weg:
+  - (x - 7)² = x² - 2·x·7 + 7² = x² - 14x + 49
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `x` und b = `7`.
+  - 'Ausgeschrieben: `x² - 2·x·7 + 7²`.'
+  fehler:
+  - antwort: x² - 49
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: x² - 14x - 49
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+- id: A4.6-007
+  typ: term
+  stufe: 1
+  term: (x + 7)(x - 7)
+  form: ausmultipliziert
+  loesung: x² - 49
+  weg:
+  - (x + 7)(x - 7) = x² - 7² = x² - 49
+  tipps:
+  - '3. binomische Formel: `(a + b)(a - b) = a² - b²`.'
+  - Hier ist a = `x` und b = `7`.
+  - 'Ausgeschrieben: `x² - 7²`.'
+  fehler:
+  - antwort: x² + 49
+    hinweis: '`(a + b)(a - b) = a² - b²` – in der Mitte steht ein **Minus**.'
+  - antwort: x² - 14x + 49
+    hinweis: 'Bei `(a + b)(a - b)` heben sich die Mittelglieder weg: a² - b².'
+- id: A4.6-008
+  typ: term
+  stufe: 1
+  term: (x + 4)²
+  form: ausmultipliziert
+  loesung: x² + 8x + 16
+  weg:
+  - (x + 4)² = x² + 2·x·4 + 4² = x² + 8x + 16
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `x` und b = `4`.
+  - 'Ausgeschrieben: `x² + 2·x·4 + 4²`.'
+  fehler:
+  - antwort: x² + 16
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: x² + 4x + 16
+    hinweis: Das Mittelglied ist **2**·a·b.
+- id: A4.6-009
+  typ: term
+  stufe: 1
+  term: (x + 3)²
+  form: ausmultipliziert
+  loesung: x² + 6x + 9
+  weg:
+  - (x + 3)² = x² + 2·x·3 + 3² = x² + 6x + 9
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `x` und b = `3`.
+  - 'Ausgeschrieben: `x² + 2·x·3 + 3²`.'
+  fehler:
+  - antwort: x² + 9
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: x² + 3x + 9
+    hinweis: Das Mittelglied ist **2**·a·b.
+- id: A4.6-010
+  typ: term
+  stufe: 1
+  term: (x - 6)²
+  form: ausmultipliziert
+  loesung: x² - 12x + 36
+  weg:
+  - (x - 6)² = x² - 2·x·6 + 6² = x² - 12x + 36
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `x` und b = `6`.
+  - 'Ausgeschrieben: `x² - 2·x·6 + 6²`.'
+  fehler:
+  - antwort: x² - 36
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: x² - 12x - 36
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+- id: A4.6-011
+  typ: term
+  stufe: 2
+  term: 25x² + 70x + 49
+  form: faktor
+  loesung: (5x + 7)²
+  faktor: 5x + 7
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 25x² + 70x + 49 = (5x + 7)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `25x²` und b² = `49`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (5x + 7)(5x - 7)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-012
+  typ: term
+  stufe: 2
+  term: (5x + 4)²
+  form: ausmultipliziert
+  loesung: 25x² + 40x + 16
+  weg:
+  - (5x + 4)² = (5x)² + 2·(5x)·4 + 4² = 25x² + 40x + 16
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `5x` und b = `4`.
+  - 'Ausgeschrieben: `(5x)² + 2·(5x)·4 + 4²`.'
+  fehler:
+  - antwort: 25x² + 16
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: 25x² + 20x + 16
+    hinweis: Das Mittelglied ist **2**·a·b.
+  - antwort: 5x² + 40x + 16
+    hinweis: 'Auch die Zahl wird quadriert: `(5x)² = 25x²`.'
+- id: A4.6-013
+  typ: term
+  stufe: 2
+  term: (4x - 5)²
+  form: ausmultipliziert
+  loesung: 16x² - 40x + 25
+  weg:
+  - (4x - 5)² = (4x)² - 2·(4x)·5 + 5² = 16x² - 40x + 25
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `4x` und b = `5`.
+  - 'Ausgeschrieben: `(4x)² - 2·(4x)·5 + 5²`.'
+  fehler:
+  - antwort: 16x² - 25
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: 16x² - 40x - 25
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+  - antwort: 4x² - 40x + 25
+    hinweis: 'Auch die Zahl wird quadriert: `(4x)² = 16x²`.'
+- id: A4.6-014
+  typ: term
+  stufe: 2
+  term: 9x² - 16
+  form: faktor
+  loesung: (3x + 4)(3x - 4)
+  faktor: 3x + 4
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 9x² - 16 = (3x + 4)(3x - 4)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `9x²` und b² = `16`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (3x - 4)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-015
+  typ: term
+  stufe: 2
+  term: (4x + 7)(4x - 7)
+  form: ausmultipliziert
+  loesung: 16x² - 49
+  weg:
+  - (4x + 7)(4x - 7) = (4x)² - 7² = 16x² - 49
+  tipps:
+  - '3. binomische Formel: `(a + b)(a - b) = a² - b²`.'
+  - Hier ist a = `4x` und b = `7`.
+  - 'Ausgeschrieben: `(4x)² - 7²`.'
+  fehler:
+  - antwort: 16x² + 49
+    hinweis: '`(a + b)(a - b) = a² - b²` – in der Mitte steht ein **Minus**.'
+  - antwort: 16x² - 56x + 49
+    hinweis: 'Bei `(a + b)(a - b)` heben sich die Mittelglieder weg: a² - b².'
+  - antwort: 4x² - 49
+    hinweis: 'Auch die Zahl wird quadriert: `(4x)² = 16x²`.'
+- id: A4.6-016
+  typ: term
+  stufe: 2
+  term: 9x² - 49
+  form: faktor
+  loesung: (3x + 7)(3x - 7)
+  faktor: 3x + 7
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 9x² - 49 = (3x + 7)(3x - 7)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `9x²` und b² = `49`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (3x - 7)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-017
+  typ: term
+  stufe: 2
+  term: 25x² + 40x + 16
+  form: faktor
+  loesung: (5x + 4)²
+  faktor: 5x + 4
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 25x² + 40x + 16 = (5x + 4)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `25x²` und b² = `16`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (5x + 4)(5x - 4)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-018
+  typ: term
+  stufe: 2
+  term: (3x + 5)²
+  form: ausmultipliziert
+  loesung: 9x² + 30x + 25
+  weg:
+  - (3x + 5)² = (3x)² + 2·(3x)·5 + 5² = 9x² + 30x + 25
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `3x` und b = `5`.
+  - 'Ausgeschrieben: `(3x)² + 2·(3x)·5 + 5²`.'
+  fehler:
+  - antwort: 9x² + 25
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: 9x² + 15x + 25
+    hinweis: Das Mittelglied ist **2**·a·b.
+  - antwort: 3x² + 30x + 25
+    hinweis: 'Auch die Zahl wird quadriert: `(3x)² = 9x²`.'
+- id: A4.6-019
+  typ: term
+  stufe: 2
+  term: (3x - 2)²
+  form: ausmultipliziert
+  loesung: 9x² - 12x + 4
+  weg:
+  - (3x - 2)² = (3x)² - 2·(3x)·2 + 2² = 9x² - 12x + 4
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `3x` und b = `2`.
+  - 'Ausgeschrieben: `(3x)² - 2·(3x)·2 + 2²`.'
+  fehler:
+  - antwort: 9x² - 4
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: 9x² - 12x - 4
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+  - antwort: 3x² - 12x + 4
+    hinweis: 'Auch die Zahl wird quadriert: `(3x)² = 9x²`.'
+- id: A4.6-020
+  typ: term
+  stufe: 2
+  term: (3x + 7)²
+  form: ausmultipliziert
+  loesung: 9x² + 42x + 49
+  weg:
+  - (3x + 7)² = (3x)² + 2·(3x)·7 + 7² = 9x² + 42x + 49
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `3x` und b = `7`.
+  - 'Ausgeschrieben: `(3x)² + 2·(3x)·7 + 7²`.'
+  fehler:
+  - antwort: 9x² + 49
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: 9x² + 21x + 49
+    hinweis: Das Mittelglied ist **2**·a·b.
+  - antwort: 3x² + 42x + 49
+    hinweis: 'Auch die Zahl wird quadriert: `(3x)² = 9x²`.'
+- id: A4.6-021
+  typ: term
+  stufe: 3
+  term: (4a - b)²
+  form: ausmultipliziert
+  loesung: 16a² - 8ab + b²
+  weg:
+  - (4a - b)² = (4a)² - 2·(4a)·b + b² = 16a² - 8ab + b²
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `4a` und b = `b`.
+  - 'Ausgeschrieben: `(4a)² - 2·(4a)·b + b²`.'
+  fehler:
+  - antwort: 16a² - b²
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: 16a² - 8ab - b²
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+  - antwort: 4a² - 8ab + b²
+    hinweis: 'Auch die Zahl wird quadriert: `(4a)² = 16a²`.'
+- id: A4.6-022
+  typ: term
+  stufe: 3
+  term: 4a² - 25b²
+  form: faktor
+  loesung: (2a + 5b)(2a - 5b)
+  faktor: 2a + 5b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 4a² - 25b² = (2a + 5b)(2a - 5b)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `4a²` und b² = `25b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (2a - 5b)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-023
+  typ: term
+  stufe: 3
+  term: (5a - 4b)²
+  form: ausmultipliziert
+  loesung: 25a² - 40ab + 16b²
+  weg:
+  - (5a - 4b)² = (5a)² - 2·(5a)·(4b) + (4b)² = 25a² - 40ab + 16b²
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `5a` und b = `4b`.
+  - 'Ausgeschrieben: `(5a)² - 2·(5a)·(4b) + (4b)²`.'
+  fehler:
+  - antwort: 25a² - 16b²
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: 25a² - 40ab - 16b²
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+  - antwort: 5a² - 40ab + 16b²
+    hinweis: 'Auch die Zahl wird quadriert: `(5a)² = 25a²`.'
+- id: A4.6-024
+  typ: term
+  stufe: 3
+  term: 4a² - 16b²
+  form: faktor
+  loesung: (2a + 4b)(2a - 4b)
+  faktor: 2a + 4b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 4a² - 16b² = (2a + 4b)(2a - 4b)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `4a²` und b² = `16b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (2a - 4b)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-025
+  typ: term
+  stufe: 3
+  term: 9a² - 6ab + b²
+  form: faktor
+  loesung: (3a - b)²
+  faktor: 3a - b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 9a² - 6ab + b² = (3a - b)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `9a²` und b² = `b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (3a + b)(3a - b)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-026
+  typ: term
+  stufe: 3
+  term: 9a² - 25b²
+  form: faktor
+  loesung: (3a + 5b)(3a - 5b)
+  faktor: 3a + 5b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 9a² - 25b² = (3a + 5b)(3a - 5b)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `9a²` und b² = `25b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (3a - 5b)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-027
+  typ: term
+  stufe: 3
+  term: 9a² + 30ab + 25b²
+  form: faktor
+  loesung: (3a + 5b)²
+  faktor: 3a + 5b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 9a² + 30ab + 25b² = (3a + 5b)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `9a²` und b² = `25b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (3a + 5b)(3a - 5b)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-028
+  typ: term
+  stufe: 3
+  term: 16a² + 16ab + 4b²
+  form: faktor
+  loesung: (4a + 2b)²
+  faktor: 4a + 2b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 16a² + 16ab + 4b² = (4a + 2b)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `16a²` und b² = `4b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (4a + 2b)(4a - 2b)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-029
+  typ: term
+  stufe: 3
+  term: 16a² - 4b²
+  form: faktor
+  loesung: (4a + 2b)(4a - 2b)
+  faktor: 4a + 2b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 16a² - 4b² = (4a + 2b)(4a - 2b)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `16a²` und b² = `4b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (4a - 2b)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-030
+  typ: term
+  stufe: 3
+  term: 16a² - 32ab + 16b²
+  form: faktor
+  loesung: (4a - 4b)²
+  faktor: 4a - 4b
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 16a² - 32ab + 16b² = (4a - 4b)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `16a²` und b² = `16b²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (4a + 4b)(4a - 4b)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-031
+  typ: term
+  stufe: 4
+  term: (4x - 3y)²
+  form: ausmultipliziert
+  loesung: 16x² - 24xy + 9y²
+  weg:
+  - (4x - 3y)² = (4x)² - 2·(4x)·(3y) + (3y)² = 16x² - 24xy + 9y²
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `4x` und b = `3y`.
+  - 'Ausgeschrieben: `(4x)² - 2·(4x)·(3y) + (3y)²`.'
+  fehler:
+  - antwort: 16x² - 9y²
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: 16x² - 24xy - 9y²
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+  - antwort: 4x² - 24xy + 9y²
+    hinweis: 'Auch die Zahl wird quadriert: `(4x)² = 16x²`.'
+- id: A4.6-032
+  typ: term
+  stufe: 4
+  term: (x + 1/4)²
+  form: ausmultipliziert
+  loesung: x² + x/2 + 1/16
+  weg:
+  - (x + 1/4)² = x² + 2·x·(1/4) + (1/4)² = x² + x/2 + 1/16
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `x` und b = `1/4`.
+  - 'Ausgeschrieben: `x² + 2·x·(1/4) + (1/4)²`.'
+  fehler:
+  - antwort: x² + 1/16
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: x² + x/4 + 1/16
+    hinweis: Das Mittelglied ist **2**·a·b.
+- id: A4.6-033
+  typ: term
+  stufe: 4
+  term: 16x² - 40xy + 25y²
+  form: faktor
+  loesung: (4x - 5y)²
+  faktor: 4x - 5y
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 16x² - 40xy + 25y² = (4x - 5y)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `16x²` und b² = `25y²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (4x + 5y)(4x - 5y)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-034
+  typ: term
+  stufe: 4
+  term: (2x - 5y)²
+  form: ausmultipliziert
+  loesung: 4x² - 20xy + 25y²
+  weg:
+  - (2x - 5y)² = (2x)² - 2·(2x)·(5y) + (5y)² = 4x² - 20xy + 25y²
+  tipps:
+  - '2. binomische Formel: `(a - b)² = a² - 2ab + b²`.'
+  - Hier ist a = `2x` und b = `5y`.
+  - 'Ausgeschrieben: `(2x)² - 2·(2x)·(5y) + (5y)²`.'
+  fehler:
+  - antwort: 4x² - 25y²
+    hinweis: Das Mittelglied fehlt! `(a - b)² = a² - 2ab + b²`.
+  - antwort: 4x² - 20xy - 25y²
+    hinweis: 'Das letzte Glied ist immer **plus**: `(-b)² = +b²`.'
+  - antwort: 2x² - 20xy + 25y²
+    hinweis: 'Auch die Zahl wird quadriert: `(2x)² = 4x²`.'
+- id: A4.6-035
+  typ: term
+  stufe: 4
+  term: (x/2 + 2)(x/2 - 2)
+  form: ausmultipliziert
+  loesung: x²/4 - 4
+  weg:
+  - (x/2 + 2)(x/2 - 2) = (x/2)² - 2² = x²/4 - 4
+  tipps:
+  - '3. binomische Formel: `(a + b)(a - b) = a² - b²`.'
+  - Hier ist a = `x/2` und b = `2`.
+  - 'Ausgeschrieben: `(x/2)² - 2²`.'
+  fehler:
+  - antwort: x²/4 + 4
+    hinweis: '`(a + b)(a - b) = a² - b²` – in der Mitte steht ein **Minus**.'
+  - antwort: x²/4 - 2x + 4
+    hinweis: 'Bei `(a + b)(a - b)` heben sich die Mittelglieder weg: a² - b².'
+  - antwort: x²/2 - 4
+    hinweis: 'Auch die Zahl wird quadriert: `(x/2)² = x²/4`.'
+- id: A4.6-036
+  typ: term
+  stufe: 4
+  term: 4x² + 20xy + 25y²
+  form: faktor
+  loesung: (2x + 5y)²
+  faktor: 2x + 5y
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 4x² + 20xy + 25y² = (2x + 5y)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `4x²` und b² = `25y²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (2x + 5y)(2x - 5y)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-037
+  typ: term
+  stufe: 4
+  term: 9x² + 12xy + 4y²
+  form: faktor
+  loesung: (3x + 2y)²
+  faktor: 3x + 2y
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 9x² + 12xy + 4y² = (3x + 2y)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `9x²` und b² = `4y²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (3x + 2y)(3x - 2y)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-038
+  typ: term
+  stufe: 4
+  term: 25x² - 4y²
+  form: faktor
+  loesung: (5x + 2y)(5x - 2y)
+  faktor: 5x + 2y
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 25x² - 4y² = (5x + 2y)(5x - 2y)
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `25x²` und b² = `4y²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (5x - 2y)²
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-039
+  typ: term
+  stufe: 4
+  term: 36x² + 36xy + 9y²
+  form: faktor
+  loesung: (6x + 3y)²
+  faktor: 6x + 3y
+  anweisung: Schreib den Term mit einer binomischen Formel als Produkt.
+  weg:
+  - 36x² + 36xy + 9y² = (6x + 3y)²
+  tipps:
+  - 'Prüf: Ist der Term `a² + 2ab + b²`, `a² - 2ab + b²` oder `a² - b²`?'
+  - 'Was ist `a`, was ist `b`? Hier: a² = `36x²` und b² = `9y²`.'
+  - 'Prüf das Mittelglied: Ist es wirklich 2·a·b?'
+  fehler:
+  - antwort: (6x + 3y)(6x - 3y)
+    hinweis: Prüf mit Ausmultiplizieren, ob wirklich der ursprüngliche Term herauskommt.
+- id: A4.6-040
+  typ: term
+  stufe: 4
+  term: (x/2 + 5)²
+  form: ausmultipliziert
+  loesung: x²/4 + 5x + 25
+  weg:
+  - (x/2 + 5)² = (x/2)² + 2·(x/2)·5 + 5² = x²/4 + 5x + 25
+  tipps:
+  - '1. binomische Formel: `(a + b)² = a² + 2ab + b²`.'
+  - Hier ist a = `x/2` und b = `5`.
+  - 'Ausgeschrieben: `(x/2)² + 2·(x/2)·5 + 5²`.'
+  fehler:
+  - antwort: x²/4 + 25
+    hinweis: Das Mittelglied fehlt! `(a + b)² = a² + 2ab + b²` – nicht nur a² + b².
+  - antwort: x²/4 + 5x/2 + 25
+    hinweis: Das Mittelglied ist **2**·a·b.
+  - antwort: x²/2 + 5x + 25
+    hinweis: 'Auch die Zahl wird quadriert: `(x/2)² = x²/4`.'

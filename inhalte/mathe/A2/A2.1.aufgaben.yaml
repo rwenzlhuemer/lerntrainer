@@ -1,0 +1,662 @@
+# ERZEUGT von tools/generatoren/a2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A2.1-001
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `9/15`'
+  loesung: 3/5
+  form: gekuerzt
+  weg:
+  - 9/15 = 3/5 | Zähler und Nenner durch 3
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 9 und 15 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 3.
+  fehler:
+  - antwort: 1/5
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 9/5
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-002
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `4/6`'
+  loesung: 2/3
+  form: gekuerzt
+  weg:
+  - 4/6 = 2/3 | Zähler und Nenner durch 2
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 4 und 6 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 2.
+  fehler:
+  - antwort: 1/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 4/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-003
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `5/10`'
+  loesung: 1/2
+  form: gekuerzt
+  weg:
+  - 5/10 = 1/2 | Zähler und Nenner durch 5
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 5 und 10 sind beide durch 5 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 5.
+  fehler:
+  - antwort: 1/10
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 5/2
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-004
+  typ: zahl
+  stufe: 1
+  frage: Erweitere `3/5` auf den Nenner 20.
+  loesung: 12/20
+  form: nenner
+  nenner: 20
+  weg:
+  - 3/5 = 12/20 | Zähler und Nenner mal 4
+  tipps:
+  - Womit musst du 5 multiplizieren, damit 20 herauskommt?
+  - 5 · 4 = 20. Jetzt den Zähler auch mal 4.
+  fehler:
+  - antwort: 3/20
+    hinweis: Auch der Zähler muss mit 4 multipliziert werden – sonst ändert sich der Wert.
+  - antwort: 9/10
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+- id: A2.1-005
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `9/12`'
+  loesung: 3/4
+  form: gekuerzt
+  weg:
+  - 9/12 = 3/4 | Zähler und Nenner durch 3
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 9 und 12 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 3.
+  fehler:
+  - antwort: 1/4
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 9/4
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-006
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `12/15`'
+  loesung: 4/5
+  form: gekuerzt
+  weg:
+  - 12/15 = 4/5 | Zähler und Nenner durch 3
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 12 und 15 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 3.
+  fehler:
+  - antwort: 4/15
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 12/5
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-007
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `3/9`'
+  loesung: 1/3
+  form: gekuerzt
+  weg:
+  - 3/9 = 1/3 | Zähler und Nenner durch 3
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 3 und 9 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 3.
+  fehler:
+  - antwort: 1/9
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: '1'
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-008
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `2/8`'
+  loesung: 1/4
+  form: gekuerzt
+  weg:
+  - 2/8 = 1/4 | Zähler und Nenner durch 2
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 2 und 8 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 2.
+  fehler:
+  - antwort: 1/8
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 1/2
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-009
+  typ: zahl
+  stufe: 1
+  frage: 'Kürze so weit wie möglich: `2/4`'
+  loesung: 1/2
+  form: gekuerzt
+  weg:
+  - 2/4 = 1/2 | Zähler und Nenner durch 2
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 2 und 4 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 2.
+  fehler:
+  - antwort: 1/4
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: '1'
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-010
+  typ: zahl
+  stufe: 1
+  frage: Erweitere `2/3` auf den Nenner 12.
+  loesung: 8/12
+  form: nenner
+  nenner: 12
+  weg:
+  - 2/3 = 8/12 | Zähler und Nenner mal 4
+  tipps:
+  - Womit musst du 3 multiplizieren, damit 12 herauskommt?
+  - 3 · 4 = 12. Jetzt den Zähler auch mal 4.
+  fehler:
+  - antwort: 1/6
+    hinweis: Auch der Zähler muss mit 4 multipliziert werden – sonst ändert sich der Wert.
+  - antwort: 11/12
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+- id: A2.1-011
+  typ: zahl
+  stufe: 2
+  frage: 'Kürze so weit wie möglich: `16/24`'
+  loesung: 2/3
+  form: gekuerzt
+  weg:
+  - 16/24 = 2/3 | Zähler und Nenner durch 8
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 16 und 24 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 8.
+  fehler:
+  - antwort: 1/12
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 16/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-012
+  typ: zahl
+  stufe: 2
+  frage: '`1/8` soll so erweitert werden, dass im Nenner 24 steht. Welcher Zähler kommt heraus?'
+  loesung: '3'
+  tipps:
+  - 'Rechne zuerst: 8 mal wie viel ergibt 24?'
+  - 8 · 3 = 24 – also auch den Zähler mal 3.
+  fehler:
+  - antwort: '17'
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+  - antwort: '1'
+    hinweis: Der Zähler muss auch mit 3 multipliziert werden.
+- id: A2.1-013
+  typ: zahl
+  stufe: 2
+  frage: 'Kürze so weit wie möglich: `8/12`'
+  loesung: 2/3
+  form: gekuerzt
+  weg:
+  - 8/12 = 2/3 | Zähler und Nenner durch 4
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 8 und 12 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 4.
+  fehler:
+  - antwort: 1/6
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 8/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-014
+  typ: zahl
+  stufe: 2
+  frage: '`2/3` soll so erweitert werden, dass im Nenner 24 steht. Welcher Zähler kommt heraus?'
+  loesung: '16'
+  tipps:
+  - 'Rechne zuerst: 3 mal wie viel ergibt 24?'
+  - 3 · 8 = 24 – also auch den Zähler mal 8.
+  fehler:
+  - antwort: '23'
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+  - antwort: '2'
+    hinweis: Der Zähler muss auch mit 8 multipliziert werden.
+- id: A2.1-015
+  typ: zahl
+  stufe: 2
+  frage: '`1/3` soll so erweitert werden, dass im Nenner 18 steht. Welcher Zähler kommt heraus?'
+  loesung: '6'
+  tipps:
+  - 'Rechne zuerst: 3 mal wie viel ergibt 18?'
+  - 3 · 6 = 18 – also auch den Zähler mal 6.
+  fehler:
+  - antwort: '16'
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+  - antwort: '1'
+    hinweis: Der Zähler muss auch mit 6 multipliziert werden.
+- id: A2.1-016
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Bruch ist gleich groß wie `1/3`?
+  mathe: true
+  optionen:
+  - 5/7
+  - 4/12
+  - 4/7
+  richtig:
+  - 1
+  pruefung:
+    art: wert
+    ziel: 1/3
+  erklaerung: '`4/12` ist `1/3`, erweitert mit 4: Zähler **und** Nenner mal 4. Bei den anderen wurde etwas dazugezählt – das ändert den Wert.'
+  tipps:
+  - Kürze jeden Bruch so weit wie möglich und vergleiche dann.
+- id: A2.1-017
+  typ: zahl
+  stufe: 2
+  frage: 'Kürze so weit wie möglich: `6/36`'
+  loesung: 1/6
+  form: gekuerzt
+  weg:
+  - 6/36 = 1/6 | Zähler und Nenner durch 6
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 6 und 36 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 6.
+  fehler:
+  - antwort: 1/36
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: '1'
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-018
+  typ: zahl
+  stufe: 2
+  frage: '`4/7` soll so erweitert werden, dass im Nenner 49 steht. Welcher Zähler kommt heraus?'
+  loesung: '28'
+  tipps:
+  - 'Rechne zuerst: 7 mal wie viel ergibt 49?'
+  - 7 · 7 = 49 – also auch den Zähler mal 7.
+  fehler:
+  - antwort: '46'
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+  - antwort: '4'
+    hinweis: Der Zähler muss auch mit 7 multipliziert werden.
+- id: A2.1-019
+  typ: zahl
+  stufe: 2
+  frage: 'Kürze so weit wie möglich: `96/108`'
+  loesung: 8/9
+  form: gekuerzt
+  weg:
+  - 96/108 = 8/9 | Zähler und Nenner durch 12
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 96 und 108 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 12.
+  fehler:
+  - antwort: 2/27
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 32/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-020
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Bruch ist gleich groß wie `4/7`?
+  mathe: true
+  optionen:
+  - 8/14
+  - 8/9
+  - 6/9
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: 4/7
+  erklaerung: '`8/14` ist `4/7`, erweitert mit 2: Zähler **und** Nenner mal 2. Bei den anderen wurde etwas dazugezählt – das ändert den Wert.'
+  tipps:
+  - Kürze jeden Bruch so weit wie möglich und vergleiche dann.
+- id: A2.1-021
+  typ: zahl
+  stufe: 3
+  frage: 'Kürze so weit wie möglich: `105/252`'
+  loesung: 5/12
+  form: gekuerzt
+  weg:
+  - 105/252 = 5/12 | Zähler und Nenner durch 21
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 105 und 252 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 21.
+  fehler:
+  - antwort: 5/252
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 35/4
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-022
+  typ: zahl
+  stufe: 3
+  frage: Erweitere `4/7` auf den Nenner 49.
+  loesung: 28/49
+  form: nenner
+  nenner: 49
+  weg:
+  - 4/7 = 28/49 | Zähler und Nenner mal 7
+  tipps:
+  - Womit musst du 7 multiplizieren, damit 49 herauskommt?
+  - 7 · 7 = 49. Jetzt den Zähler auch mal 7.
+  fehler:
+  - antwort: 4/49
+    hinweis: Auch der Zähler muss mit 7 multipliziert werden – sonst ändert sich der Wert.
+  - antwort: 46/49
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+- id: A2.1-023
+  typ: zahl
+  stufe: 3
+  frage: Erweitere `7/12` auf den Nenner 72.
+  loesung: 42/72
+  form: nenner
+  nenner: 72
+  weg:
+  - 7/12 = 42/72 | Zähler und Nenner mal 6
+  tipps:
+  - Womit musst du 12 multiplizieren, damit 72 herauskommt?
+  - 12 · 6 = 72. Jetzt den Zähler auch mal 6.
+  fehler:
+  - antwort: 7/72
+    hinweis: Auch der Zähler muss mit 6 multipliziert werden – sonst ändert sich der Wert.
+  - antwort: 67/72
+    hinweis: Erweitern heißt multiplizieren – nicht dieselbe Zahl dazuzählen.
+- id: A2.1-024
+  typ: auswahl
+  stufe: 3
+  frage: 'Welcher Bruch ist größer: `4/9` oder `1/3`?'
+  mathe: true
+  optionen:
+  - 4/9
+  - 1/3
+  richtig:
+  - 0
+  erklaerung: 'Bring beide auf den Nenner 9: `4/9 = 4/9` und `1/3 = 3/9`. Jetzt siehst du: `4/9` ist größer.'
+  pruefung:
+    art: wert
+    ziel: 4/9
+  tipps:
+  - Bring beide Brüche auf denselben Nenner. Dann vergleichst du nur die Zähler.
+- id: A2.1-025
+  typ: zahl
+  stufe: 3
+  frage: 'Kürze so weit wie möglich: `-84/96`'
+  loesung: -7/8
+  form: gekuerzt
+  weg:
+  - -84/96 = -7/8 | Zähler und Nenner durch 12
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 84 und 96 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 12.
+  fehler:
+  - antwort: -7/96
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: -21/2
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-026
+  typ: zahl
+  stufe: 3
+  frage: 'Kürze so weit wie möglich: `90/126`'
+  loesung: 5/7
+  form: gekuerzt
+  weg:
+  - 90/126 = 5/7 | Zähler und Nenner durch 18
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 90 und 126 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 18.
+  fehler:
+  - antwort: 5/126
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 90/7
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-027
+  typ: zahl
+  stufe: 3
+  frage: 'Kürze so weit wie möglich: `64/176`'
+  loesung: 4/11
+  form: gekuerzt
+  weg:
+  - 64/176 = 4/11 | Zähler und Nenner durch 16
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 64 und 176 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 16.
+  fehler:
+  - antwort: 1/44
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 64/11
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-028
+  typ: auswahl
+  stufe: 3
+  frage: 'Welcher Bruch ist größer: `2/3` oder `3/4`?'
+  mathe: true
+  optionen:
+  - 2/3
+  - 3/4
+  richtig:
+  - 1
+  erklaerung: 'Bring beide auf den Nenner 12: `2/3 = 8/12` und `3/4 = 9/12`. Jetzt siehst du: `3/4` ist größer.'
+  pruefung:
+    art: wert
+    ziel: 3/4
+  tipps:
+  - Bring beide Brüche auf denselben Nenner. Dann vergleichst du nur die Zähler.
+- id: A2.1-029
+  typ: auswahl
+  stufe: 3
+  frage: 'Welcher Bruch ist größer: `2/3` oder `5/6`?'
+  mathe: true
+  optionen:
+  - 2/3
+  - 5/6
+  richtig:
+  - 1
+  erklaerung: 'Bring beide auf den Nenner 6: `2/3 = 4/6` und `5/6 = 5/6`. Jetzt siehst du: `5/6` ist größer.'
+  pruefung:
+    art: wert
+    ziel: 5/6
+  tipps:
+  - Bring beide Brüche auf denselben Nenner. Dann vergleichst du nur die Zähler.
+- id: A2.1-030
+  typ: zahl
+  stufe: 3
+  frage: 'Kürze so weit wie möglich: `48/108`'
+  loesung: 4/9
+  form: gekuerzt
+  weg:
+  - 48/108 = 4/9 | Zähler und Nenner durch 12
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 48 und 108 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 12.
+  fehler:
+  - antwort: 1/27
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 16/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-031
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `-45/360`'
+  loesung: -1/8
+  form: gekuerzt
+  weg:
+  - -45/360 = -1/8 | Zähler und Nenner durch 45
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 45 und 360 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 45.
+  fehler:
+  - antwort: -1/360
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: -45/8
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-032
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `-48/72`'
+  loesung: -2/3
+  form: gekuerzt
+  weg:
+  - -48/72 = -2/3 | Zähler und Nenner durch 24
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 48 und 72 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 24.
+  fehler:
+  - antwort: -1/36
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: '-16'
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-033
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `-147/189`'
+  loesung: -7/9
+  form: gekuerzt
+  weg:
+  - -147/189 = -7/9 | Zähler und Nenner durch 21
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 147 und 189 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 21.
+  fehler:
+  - antwort: -1/27
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: -49/3
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-034
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `-192/224`'
+  loesung: -6/7
+  form: gekuerzt
+  weg:
+  - -192/224 = -6/7 | Zähler und Nenner durch 32
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 192 und 224 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 32.
+  fehler:
+  - antwort: -3/112
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: -192/7
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-035
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `-126/231`'
+  loesung: -6/11
+  form: gekuerzt
+  weg:
+  - -126/231 = -6/11 | Zähler und Nenner durch 21
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 126 und 231 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 21.
+  fehler:
+  - antwort: -2/77
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: -126/11
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-036
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `210/294`'
+  loesung: 5/7
+  form: gekuerzt
+  weg:
+  - 210/294 = 5/7 | Zähler und Nenner durch 42
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 210 und 294 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 42.
+  fehler:
+  - antwort: 5/294
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: '30'
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-037
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `84/273`'
+  loesung: 4/13
+  form: gekuerzt
+  weg:
+  - 84/273 = 4/13 | Zähler und Nenner durch 21
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 84 und 273 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 21.
+  fehler:
+  - antwort: 4/273
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 84/13
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-038
+  typ: auswahl
+  stufe: 4
+  frage: 'Welcher Bruch ist größer: `2/3` oder `5/8`?'
+  mathe: true
+  optionen:
+  - 2/3
+  - 5/8
+  richtig:
+  - 0
+  erklaerung: 'Bring beide auf den Nenner 24: `2/3 = 16/24` und `5/8 = 15/24`. Jetzt siehst du: `2/3` ist größer.'
+  pruefung:
+    art: wert
+    ziel: 2/3
+  tipps:
+  - Bring beide Brüche auf denselben Nenner. Dann vergleichst du nur die Zähler.
+- id: A2.1-039
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `-231/315`'
+  loesung: -11/15
+  form: gekuerzt
+  weg:
+  - -231/315 = -11/15 | Zähler und Nenner durch 21
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 231 und 315 sind beide durch 3 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 21.
+  fehler:
+  - antwort: -11/315
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: -77/5
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.
+- id: A2.1-040
+  typ: zahl
+  stufe: 4
+  frage: 'Kürze so weit wie möglich: `196/252`'
+  loesung: 7/9
+  form: gekuerzt
+  weg:
+  - 196/252 = 7/9 | Zähler und Nenner durch 28
+  tipps:
+  - Suche eine Zahl, durch die Zähler **und** Nenner teilbar sind, und dividiere beide durch sie.
+  - 196 und 252 sind beide durch 2 teilbar. Schau danach, ob es noch weiter geht.
+  - Der größte gemeinsame Teiler ist 28.
+  fehler:
+  - antwort: 1/36
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Zähler.
+  - antwort: 196/9
+    hinweis: Beim Kürzen werden Zähler **und** Nenner durch dieselbe Zahl dividiert – nicht nur der Nenner.

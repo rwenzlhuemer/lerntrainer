@@ -12,7 +12,7 @@ export function normalisiere(text) {
   return String(text)
     .replace(/[−–—]/g, "-")
     .replace(/[·×*⋅]/g, "*")
-    .replace(/[:÷]/g, "/")
+    .replace(/[:÷]/g, ":")
     .replace(/(\d),(?=\d)/g, "$1.")
     .replace(/√/g, " √ ")
     .trim();
@@ -50,7 +50,7 @@ function tokenisiere(text) {
       i = j; continue;
     }
     if (c === "√") { tokens.push({ art: "fn", wert: "sqrt" }); i++; continue; }
-    if ("+-*/^()=".includes(c)) { tokens.push({ art: c === "=" ? "gleich" : "op", wert: c }); i++; continue; }
+    if ("+-*/:^()=".includes(c)) { tokens.push({ art: c === "=" ? "gleich" : "op", wert: c }); i++; continue; }
     if (c === "[" || c === "{") { tokens.push({ art: "op", wert: "(" }); i++; continue; }
     if (c === "]" || c === "}") { tokens.push({ art: "op", wert: ")" }); i++; continue; }
     throw new Error("Zeichen " + c);
@@ -79,10 +79,23 @@ class Leser {
       if (this.istOp("*") || this.istOp("/")) {
         const op = this.nimm().wert;
         a = { t: "bin", op, a, b: this.vorzeichen() };
+      } else if (this.istOp(":")) {
+        this.nimm();
+        a = { t: "bin", op: ":", a, b: this.zahlenbruchOderVorzeichen() };
       } else if (this.beginntFaktor()) {
         a = { t: "bin", op: "*", impl: true, a, b: this.potenz() };
       } else return a;
     }
+  }
+
+  // „3/4 : 2/5“ – ein Zahlenbruch nach „:“ gehört zusammen (sonst ((3/4):2)/5)
+  zahlenbruchOderVorzeichen() {
+    const [k0, k1, k2, k3] = this.t.slice(this.i, this.i + 4);
+    if (k0?.art === "zahl" && k1?.art === "op" && k1.wert === "/" && k2?.art === "zahl" && !(k3?.art === "op" && k3.wert === "^")) {
+      this.i += 3;
+      return { t: "bin", op: "/", a: { t: "zahl", v: k0.wert, s: k0.text }, b: { t: "zahl", v: k2.wert, s: k2.text } };
+    }
+    return this.vorzeichen();
   }
 
   beginntFaktor() {
@@ -161,7 +174,7 @@ export function werte(b, env = {}) {
     }
     case "bin": {
       const a = werte(b.a, env), c = werte(b.b, env);
-      return { "+": a + c, "-": a - c, "*": a * c, "/": a / c, "^": Math.pow(a, c) }[b.op];
+      return { "+": a + c, "-": a - c, "*": a * c, "/": a / c, ":": a / c, "^": Math.pow(a, c) }[b.op];
     }
   }
   throw new Error("Knoten");
@@ -205,6 +218,7 @@ function zeige(b) {
     case "bin":
       if (b.op === "+") return `${zeige(b.a)} + ${zeige(b.b)}`;
       if (b.op === "-") return `${zeige(b.a)} − ${zeige(b.b)}`;
+      if (b.op === ":") return `${zeige(b.a)} : ${zeige(b.b)}`;
       if (b.op === "*") return b.impl ? `${zeige(b.a)}${zeige(b.b)}` : `${zeige(b.a)} · ${zeige(b.b)}`;
       if (b.op === "/") {
         return `<span class="bruch"><span class="zaehler">${zeige(ohneKlammer(b.a))}</span>` +
@@ -340,22 +354,161 @@ function istBruch(b) {
   return b.t === "bin" && b.op === "/" && istZahl(b.a) && istZahl(b.b);
 }
 
+const ggT = (a, b) => (b ? ggT(b, a % b) : Math.abs(a));
+
+// Bruch in der Eingabe: „-3/4“ → {z: -3, n: 4}; ganze Zahl → {z, n: 1}; sonst null
+export function bruchForm(text) {
+  const t = normalisiere(text).replace(/\s+/g, "");
+  let m = t.match(/^\(?([+-]?\d+)\)?$/);
+  if (m) return { z: Number(m[1]), n: 1 };
+  m = t.match(/^([+-]?)\(?([+-]?\d+)\)?\/\(?([+-]?\d+)\)?$/);
+  if (!m) return null;
+  let z = Number(m[2]), n = Number(m[3]);
+  if (m[1] === "-") z = -z;
+  if (n < 0) { z = -z; n = -n; }
+  return n ? { z, n } : null;
+}
+
+// Verlangte Schreibweise bei Zahl-Aufgaben. null = passt, sonst ein freundlicher Hinweis.
+function zahlFormHinweis(t, form, nenner) {
+  const b = bruchForm(t);
+  if (form === "gekuerzt") {
+    if (!b) return "Das stimmt! Schreib das Ergebnis aber als Bruch, zum Beispiel 3/4.";
+    if (ggT(b.z, b.n) > 1) return `Das stimmt! Du kannst aber noch kürzen – Zähler und Nenner sind beide durch ${ggT(b.z, b.n)} teilbar.`;
+  }
+  if (form === "nenner" && (!b || b.n !== Number(nenner))) {
+    return `Der Wert stimmt – gefragt ist aber ein Bruch mit dem Nenner ${nenner}.`;
+  }
+  if (form === "dezimal" && /\//.test(t)) return "Das stimmt! Schreib es aber als Dezimalzahl, zum Beispiel 0,75.";
+  return null;
+}
+
 // Zahl-Antwort: Einheiten und „x =“ werden toleriert.
-// Ergebnis: {art: "richtig"|"gerundet"|"falsch"|"unklar", wert?}
-export function pruefeZahl(eingabe, loesung) {
+// Ergebnis: {art: "richtig"|"gerundet"|"form"|"gemischt"|"falsch"|"unklar", wert?, hinweis?}
+export function pruefeZahl(eingabe, loesung, form = null, nenner = null) {
   let t = String(eingabe).trim();
   if (t.includes("=")) t = t.slice(t.lastIndexOf("=") + 1);
   t = t.replace(/[a-zA-ZäöüÄÖÜß€%]+\.?/g, " ").replace(/\s+/g, " ").trim();
+  // Gemischte Zahl „2 1/2“ würde sonst als 2 · 1/2 gelesen
+  if (/^[+-−]?\d+ \d+\s*\/\s*\d+$/.test(t)) return { art: "gemischt" };
   // Tausender-Leerzeichen: „3 500“ → 3500
   t = t.replace(/(\d) (?=\d{3}\b)/g, "$1");
   const ist = zahlwert(t);
   const soll = zahlwert(loesung);
   if (ist === null) return { art: "unklar" };
-  if (nahe(ist, soll)) return { art: "richtig", wert: ist };
+  if (nahe(ist, soll)) {
+    const hinweis = form ? zahlFormHinweis(t, form, nenner) : null;
+    return hinweis ? { art: "form", wert: ist, hinweis } : { art: "richtig", wert: ist };
+  }
+  if (form === "gekuerzt" || form === "nenner") return { art: "falsch", wert: ist }; // exakt gefragt, nicht gerundet
   // Gerundet gilt nur, wenn die eingegebenen Nachkommastellen passen: 4,47 für 4,4666…, nicht 4
   const stellen = (normalisiere(t).match(/\.(\d+)/) || [, ""])[1].length;
   if (stellen > 0 && Math.abs(ist - soll) <= 0.5 * 10 ** -stellen + EPS) return { art: "gerundet", wert: ist };
   return { art: "falsch", wert: ist };
+}
+
+// ── Terme ────────────────────────────────────────────────
+// Zwei Terme sind gleich, wenn sie an mehreren „krummen“ Stellen denselben Wert haben.
+
+const PROBE = [1.37, -2.21, 0.73, 3.11, -0.59, 2.47];
+
+export function termGleich(t1, t2) {
+  const vars = [...new Set([...variablen(t1), ...variablen(t2)])].sort();
+  let gueltig = 0;
+  for (let i = 0; i < PROBE.length; i++) {
+    const env = {};
+    vars.forEach((v, j) => { env[v] = PROBE[(i + 2 * j) % PROBE.length] + 0.11 * j; });
+    let a, b;
+    try { a = werte(t1, env); b = werte(t2, env); } catch { return false; }
+    if (!Number.isFinite(b)) continue; // Definitionslücke der Lösung
+    if (!Number.isFinite(a) || !nahe(a, b, 1e-8)) return false;
+    gueltig++;
+  }
+  return gueltig >= 3;
+}
+
+const ohneHuelle = (b) => (b.t === "klammer" || b.t === "neg" ? ohneHuelle(b.a) : b);
+
+function summanden(b) {
+  b = b.t === "klammer" ? b.a : b;
+  if (b.t === "neg") return summanden(b.a);
+  if (b.t === "bin" && (b.op === "+" || b.op === "-")) return summanden(b.a) + summanden(b.b);
+  return 1;
+}
+
+function vorkommen(b) {
+  if (b.t === "var") return 1;
+  return (b.a ? vorkommen(b.a) : 0) + (b.b ? vorkommen(b.b) : 0);
+}
+
+function zahlenSumme(b) {
+  if (b.t === "zahl") return Math.abs(b.v);
+  if (b.t === "bin" && b.op === "^") return zahlenSumme(b.a); // Hochzahlen zählen nicht
+  return (b.a ? zahlenSumme(b.a) : 0) + (b.b ? zahlenSumme(b.b) : 0);
+}
+
+// Steht noch eine Klammer mit einer Summe und einer Variablen darin? (Hochzahl-Klammern zählen nicht)
+function klammerOffen(b) {
+  if (b.t === "klammer" && summanden(b.a) > 1 && variablen(b.a).size) return true;
+  if (b.t === "bin" && b.op === "/") return klammerOffen(b.a) || klammerOffen(b.b);
+  return (b.a ? klammerOffen(b.a) : false) || (b.b ? klammerOffen(b.b) : false);
+}
+
+// Faktoren eines Produkts: 6ab(2a − 3b) → [6, a, b, (2a − 3b)]; (x + 3)² → [(x + 3), (x + 3)]
+function faktoren(b) {
+  if (b.t === "klammer" && summanden(b.a) === 1) return faktoren(b.a);
+  if (b.t === "neg") return faktoren(b.a);
+  if (b.t === "bin" && b.op === "*") return [...faktoren(b.a), ...faktoren(b.b)];
+  if (b.t === "bin" && b.op === "^" && b.b.t === "zahl" && Number.isInteger(b.b.v) && b.b.v >= 1 && b.b.v <= 4) {
+    return Array(b.b.v).fill(0).flatMap(() => faktoren(b.a));
+  }
+  return [b];
+}
+
+const produkt = (liste) => liste.reduce((p, f) => ({ t: "bin", op: "*", a: p, b: f }), { t: "zahl", v: 1, s: "1" });
+const plusMinusGleich = (t, soll) => termGleich(t, soll) || termGleich({ t: "neg", a: t }, soll);
+
+// Ist der (schon als gleichwertig erkannte) Term in der verlangten Form? null = ja, sonst Hinweis.
+export function termFormHinweis(ist, soll, form, faktor) {
+  if (form === "frei") return null;
+  if (form === "zusammengefasst" || form === "ausmultipliziert") {
+    if (klammerOffen(ist)) return "Stimmt! Jetzt noch die Klammer auflösen.";
+    if (summanden(ist) > summanden(soll) || vorkommen(ist) > vorkommen(soll)) return "Stimmt! Jetzt noch gleichartige Glieder zusammenfassen.";
+    return null;
+  }
+  if (form === "gekuerzt") {
+    if (summanden(ist) > summanden(soll) || vorkommen(ist) > vorkommen(soll) || zahlenSumme(ist) > zahlenSumme(soll) + 1e-9) {
+      return "Stimmt! Das lässt sich aber noch weiter vereinfachen oder kürzen.";
+    }
+    return null;
+  }
+  if (form === "faktor") {
+    if (summanden(ohneHuelle(ist)) > 1 || ohneHuelle(ist).t !== "bin" && ohneHuelle(ist).t !== "klammer") {
+      return "Stimmt – aber das ist noch eine Summe. Gesucht ist ein Produkt, also etwas wie 3(2x + 1).";
+    }
+    const f = faktoren(ist);
+    const ziel = lies(faktor).term;
+    const einzeln = f.filter((k) => summanden(k) === 1);
+    if (plusMinusGleich(produkt(einzeln), ziel) || f.some((k) => summanden(k) > 1 && plusMinusGleich(k, ziel))) return null;
+    return "Stimmt – du kannst aber noch mehr herausheben. Schau, was in allen Gliedern steckt.";
+  }
+  return null;
+}
+
+// Prüft eine Zeile bei einer Term-Aufgabe („Vereinfache …“). Führendes „=“ und „Term =“ werden toleriert.
+// Ergebnis: {art: "geloest"|"schritt"|"falsch"|"unklar", hinweis?, fehler?}
+export function pruefeTermZeile(eingabe, aufgabe) {
+  let t = String(eingabe).trim();
+  if (t.includes("=")) t = t.slice(t.lastIndexOf("=") + 1);
+  const g = versuche(t);
+  if (!t.trim() || !g || g.gleichung) return { art: "unklar" };
+  const soll = lies(aufgabe.loesung).term;
+  if (!termGleich(g.term, soll)) {
+    const f = (aufgabe.fehler || []).find((x) => { const h = versuche(x.antwort); return h && termGleich(g.term, h.term); });
+    return { art: "falsch", fehler: f || null };
+  }
+  const hinweis = termFormHinweis(g.term, soll, aufgabe.form || "frei", aufgabe.faktor);
+  return hinweis ? { art: "schritt", hinweis } : { art: "geloest" };
 }
 
 // Passt ein Wert zu einer vorbereiteten Fehler-Antwort?

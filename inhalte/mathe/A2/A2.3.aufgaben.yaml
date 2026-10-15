@@ -1,0 +1,684 @@
+# ERZEUGT von tools/generatoren/a2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A2.3-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne `1/12 - 5/6`.
+  loesung: -3/4
+  form: gekuerzt
+  weg:
+  - 1/12 - 5/6 = 1/12 - 10/12 = -9/12 = -3/4
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -2/9
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  - antwort: -1/3
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/12 - 5/6
+- id: A2.3-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3/4 + 1/2`.
+  loesung: 5/4
+  form: gekuerzt
+  weg:
+  - 3/4 + 1/2 = 3/4 + 2/4 = 5/4
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/3
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  - antwort: '1'
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 3/4 + 1/2
+- id: A2.3-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne `1/2 + 1/3`.
+  loesung: 5/6
+  form: gekuerzt
+  weg:
+  - 1/2 + 1/3 = 3/6 + 2/6 = 5/6
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/5
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  - antwort: 1/3
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/2 + 1/3
+- id: A2.3-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3/7 - 1/7`.
+  loesung: 2/7
+  form: gekuerzt
+  weg:
+  - 3/7 - 1/7 = 2/7
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/7
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  rechnung: 3/7 - 1/7
+- id: A2.3-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne `1/5 + 2/5`.
+  loesung: 3/5
+  form: gekuerzt
+  weg:
+  - 1/5 + 2/5 = 3/5
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/10
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  rechnung: 1/5 + 2/5
+- id: A2.3-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2/5 + 1/5`.
+  loesung: 3/5
+  form: gekuerzt
+  weg:
+  - 2/5 + 1/5 = 3/5
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/10
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  rechnung: 2/5 + 1/5
+- id: A2.3-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne `6/7 + 1/7`.
+  loesung: '1'
+  form: gekuerzt
+  weg:
+  - 6/7 + 1/7 = 7/7 = 1
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/2
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  rechnung: 6/7 + 1/7
+- id: A2.3-008
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3/5 + 2/5`.
+  loesung: '1'
+  form: gekuerzt
+  weg:
+  - 3/5 + 2/5 = 5/5 = 1
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/2
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  rechnung: 3/5 + 2/5
+- id: A2.3-009
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2/5 - 3/10`.
+  loesung: 1/10
+  form: gekuerzt
+  weg:
+  - 2/5 - 3/10 = 4/10 - 3/10 = 1/10
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/15
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  - antwort: -1/10
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 2/5 - 3/10
+- id: A2.3-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2/7 - 5/7`.
+  loesung: -3/7
+  form: gekuerzt
+  weg:
+  - 2/7 - 5/7 = -3/7
+  tipps:
+  - 'Die Nenner sind gleich: Rechne nur mit den Zählern, der Nenner bleibt.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -3/14
+    hinweis: Die Nenner werden nicht addiert! Bei gleichem Nenner bleibt der Nenner einfach stehen, du rechnest nur mit den Zählern.
+  rechnung: 2/7 - 5/7
+- id: A2.3-011
+  typ: zahl
+  stufe: 2
+  frage: Berechne `3/4 + 1/3`.
+  loesung: 13/12
+  form: gekuerzt
+  weg:
+  - 3/4 + 1/3 = 9/12 + 4/12 = 13/12
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 12.
+  - Erweitere jeden Bruch auf den Nenner 12 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 4/7
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/3
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 3/4 + 1/3
+- id: A2.3-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne `3/4 - 1/2`.
+  loesung: 1/4
+  form: gekuerzt
+  weg:
+  - 3/4 - 1/2 = 3/4 - 2/4 = 1/4
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 4.
+  - Erweitere jeden Bruch auf den Nenner 4 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/3
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/2
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 3/4 - 1/2
+- id: A2.3-013
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/4 + 1/2`.
+  loesung: 3/4
+  form: gekuerzt
+  weg:
+  - 1/4 + 1/2 = 1/4 + 2/4 = 3/4
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 4.
+  - Erweitere jeden Bruch auf den Nenner 4 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/3
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/2
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/4 + 1/2
+- id: A2.3-014
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/3 + 1/2`.
+  loesung: 5/6
+  form: gekuerzt
+  weg:
+  - 1/3 + 1/2 = 2/6 + 3/6 = 5/6
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 6.
+  - Erweitere jeden Bruch auf den Nenner 6 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/5
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/3
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/3 + 1/2
+- id: A2.3-015
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/5 + 3/4`.
+  loesung: 19/20
+  form: gekuerzt
+  weg:
+  - 1/5 + 3/4 = 4/20 + 15/20 = 19/20
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 20.
+  - Erweitere jeden Bruch auf den Nenner 20 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 4/9
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/5
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/5 + 3/4
+- id: A2.3-016
+  typ: zahl
+  stufe: 2
+  frage: Berechne `2/3 + 5/6`.
+  loesung: 3/2
+  form: gekuerzt
+  weg:
+  - 2/3 + 5/6 = 4/6 + 5/6 = 9/6 = 3/2
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 6.
+  - Erweitere jeden Bruch auf den Nenner 6 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 7/9
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 7/6
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 2/3 + 5/6
+- id: A2.3-017
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/3 - 5/6`.
+  loesung: -1/2
+  form: gekuerzt
+  weg:
+  - 1/3 - 5/6 = 2/6 - 5/6 = -3/6 = -1/2
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 6.
+  - Erweitere jeden Bruch auf den Nenner 6 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -4/9
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -2/3
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/3 - 5/6
+- id: A2.3-018
+  typ: zahl
+  stufe: 2
+  frage: Berechne `3/4 - 1/8`.
+  loesung: 5/8
+  form: gekuerzt
+  weg:
+  - 3/4 - 1/8 = 6/8 - 1/8 = 5/8
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 8.
+  - Erweitere jeden Bruch auf den Nenner 8 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/6
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/4
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 3/4 - 1/8
+- id: A2.3-019
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/3 - 3/4`.
+  loesung: -5/12
+  form: gekuerzt
+  weg:
+  - 1/3 - 3/4 = 4/12 - 9/12 = -5/12
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 12.
+  - Erweitere jeden Bruch auf den Nenner 12 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -2/7
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -1/6
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/3 - 3/4
+- id: A2.3-020
+  typ: zahl
+  stufe: 2
+  frage: Berechne `1/2 + 2/3`.
+  loesung: 7/6
+  form: gekuerzt
+  weg:
+  - 1/2 + 2/3 = 3/6 + 4/6 = 7/6
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 6.
+  - Erweitere jeden Bruch auf den Nenner 6 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/5
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/2
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/2 + 2/3
+- id: A2.3-021
+  typ: zahl
+  stufe: 3
+  frage: Berechne `2/3 - 1/6 + 1/4`.
+  loesung: 3/4
+  form: gekuerzt
+  weg:
+  - 2/3 - 1/6 + 1/4 = 8/12 - 2/12 + 3/12 = 9/12 = 3/4
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 12.
+  - Erweitere jeden Bruch auf den Nenner 12 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/13
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/6
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 2/3 - 1/6 + 1/4
+- id: A2.3-022
+  typ: zahl
+  stufe: 3
+  frage: Berechne `-1/3 + 1/4`.
+  loesung: -1/12
+  form: gekuerzt
+  weg:
+  - -1/3 + 1/4 = -4/12 + 3/12 = -1/12
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 12.
+  - Erweitere jeden Bruch auf den Nenner 12 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '0'
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  rechnung: -1/3 + 1/4
+- id: A2.3-023
+  typ: zahl
+  stufe: 3
+  frage: Berechne `4 - 1/5`.
+  loesung: 19/5
+  form: gekuerzt
+  weg:
+  - 4 - 1/5 = 20/5 - 1/5 = 19/5
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 5.
+  - Erweitere jeden Bruch auf den Nenner 5 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/2
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 3/5
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 4 - 1/5
+- id: A2.3-024
+  typ: zahl
+  stufe: 3
+  frage: Berechne `2 - 3/4`.
+  loesung: 5/4
+  form: gekuerzt
+  weg:
+  - 2 - 3/4 = 8/4 - 3/4 = 5/4
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 4.
+  - Erweitere jeden Bruch auf den Nenner 4 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/5
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -1/4
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 2 - 3/4
+- id: A2.3-025
+  typ: zahl
+  stufe: 3
+  frage: Berechne `-1/2 + 3/4`.
+  loesung: 1/4
+  form: gekuerzt
+  weg:
+  - -1/2 + 3/4 = -2/4 + 3/4 = 1/4
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 4.
+  - Erweitere jeden Bruch auf den Nenner 4 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 1/3
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/2
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: -1/2 + 3/4
+- id: A2.3-026
+  typ: zahl
+  stufe: 3
+  frage: Berechne `4/5 - 1/2`.
+  loesung: 3/10
+  form: gekuerzt
+  weg:
+  - 4/5 - 1/2 = 8/10 - 5/10 = 3/10
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 10.
+  - Erweitere jeden Bruch auf den Nenner 10 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/7
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  rechnung: 4/5 - 1/2
+- id: A2.3-027
+  typ: zahl
+  stufe: 3
+  frage: Berechne `5/6 + 1/3 + 1/2`.
+  loesung: 5/3
+  form: gekuerzt
+  weg:
+  - 5/6 + 1/3 + 1/2 = 5/6 + 2/6 + 3/6 = 10/6 = 5/3
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 6.
+  - Erweitere jeden Bruch auf den Nenner 6 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 7/11
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 7/6
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 5/6 + 1/3 + 1/2
+- id: A2.3-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne `3/4 - 1/3`.
+  loesung: 5/12
+  form: gekuerzt
+  weg:
+  - 3/4 - 1/3 = 9/12 - 4/12 = 5/12
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 12.
+  - Erweitere jeden Bruch auf den Nenner 12 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 2/7
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/6
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 3/4 - 1/3
+- id: A2.3-029
+  typ: zahl
+  stufe: 3
+  frage: Berechne `4 - 7/8`.
+  loesung: 25/8
+  form: gekuerzt
+  weg:
+  - 4 - 7/8 = 32/8 - 7/8 = 25/8
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 8.
+  - Erweitere jeden Bruch auf den Nenner 8 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/3
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -3/8
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 4 - 7/8
+- id: A2.3-030
+  typ: zahl
+  stufe: 3
+  frage: Berechne `1/3 - 1/4 - 1/2`.
+  loesung: -5/12
+  form: gekuerzt
+  weg:
+  - 1/3 - 1/4 - 1/2 = 4/12 - 3/12 - 6/12 = -5/12
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 12.
+  - Erweitere jeden Bruch auf den Nenner 12 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/9
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -1/12
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/3 - 1/4 - 1/2
+- id: A2.3-031
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/2 - 3/4`.
+  loesung: -1/4
+  form: gekuerzt
+  weg:
+  - 1/2 - 3/4 = 2/4 - 3/4 = -1/4
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 4.
+  - Erweitere jeden Bruch auf den Nenner 4 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/3
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -1/2
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/2 - 3/4
+- id: A2.3-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-4/9 - 1/6`.
+  loesung: -11/18
+  form: gekuerzt
+  weg:
+  - -4/9 - 1/6 = -8/18 - 3/18 = -11/18
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 18.
+  - Erweitere jeden Bruch auf den Nenner 18 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/3
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -5/18
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: -4/9 - 1/6
+- id: A2.3-033
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/8 - 3/4`.
+  loesung: -5/8
+  form: gekuerzt
+  weg:
+  - 1/8 - 3/4 = 1/8 - 6/8 = -5/8
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 8.
+  - Erweitere jeden Bruch auf den Nenner 8 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/6
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: -1/4
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/8 - 3/4
+- id: A2.3-034
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/2 - (1/3 - 1/4)`.
+  loesung: 5/12
+  form: gekuerzt
+  weg:
+  - 1/2 - (1/3 - 1/4) = 1/2 - 1/3 + 1/4 = 6/12 - 4/12 + 3/12 = 5/12
+  tipps:
+  - 'Minus vor der Klammer: Beim Auflösen dreht sich jedes Vorzeichen in der Klammer um.'
+  - '`1/2 - (1/3 - 1/4) = 1/2 - 1/3 + 1/4`. Gemeinsamer Nenner: 12.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/12
+    hinweis: 'Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um: aus − wird +.'
+  rechnung: 1/2 - (1/3 - 1/4)
+- id: A2.3-035
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/2 - (1/2 - 1/3)`.
+  loesung: 1/3
+  form: gekuerzt
+  weg:
+  - 1/2 - (1/2 - 1/3) = 1/2 - 1/2 + 1/3 = 3/6 - 3/6 + 2/6 = 2/6 = 1/3
+  tipps:
+  - 'Minus vor der Klammer: Beim Auflösen dreht sich jedes Vorzeichen in der Klammer um.'
+  - '`1/2 - (1/2 - 1/3) = 1/2 - 1/2 + 1/3`. Gemeinsamer Nenner: 6.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/3
+    hinweis: 'Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um: aus − wird +.'
+  rechnung: 1/2 - (1/2 - 1/3)
+- id: A2.3-036
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-4/5 + 2/3`.
+  loesung: -2/15
+  form: gekuerzt
+  weg:
+  - -4/5 + 2/3 = -12/15 + 10/15 = -2/15
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 15.
+  - Erweitere jeden Bruch auf den Nenner 15 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/4
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  rechnung: -4/5 + 2/3
+- id: A2.3-037
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/3 - 1/15`.
+  loesung: 4/15
+  form: gekuerzt
+  weg:
+  - 1/3 - 1/15 = 5/15 - 1/15 = 4/15
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 15.
+  - Erweitere jeden Bruch auf den Nenner 15 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: '0'
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  rechnung: 1/3 - 1/15
+- id: A2.3-038
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/2 - (7/8 - 1/2)`.
+  loesung: 1/8
+  form: gekuerzt
+  weg:
+  - 1/2 - (7/8 - 1/2) = 1/2 - 7/8 + 1/2 = 4/8 - 7/8 + 4/8 = 1/8
+  tipps:
+  - 'Minus vor der Klammer: Beim Auflösen dreht sich jedes Vorzeichen in der Klammer um.'
+  - '`1/2 - (7/8 - 1/2) = 1/2 - 7/8 + 1/2`. Gemeinsamer Nenner: 8.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -7/8
+    hinweis: 'Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um: aus − wird +.'
+  rechnung: 1/2 - (7/8 - 1/2)
+- id: A2.3-039
+  typ: zahl
+  stufe: 4
+  frage: Berechne `2/3 - (2/3 - 1/2)`.
+  loesung: 1/2
+  form: gekuerzt
+  weg:
+  - 2/3 - (2/3 - 1/2) = 2/3 - 2/3 + 1/2 = 4/6 - 4/6 + 3/6 = 3/6 = 1/2
+  tipps:
+  - 'Minus vor der Klammer: Beim Auflösen dreht sich jedes Vorzeichen in der Klammer um.'
+  - '`2/3 - (2/3 - 1/2) = 2/3 - 2/3 + 1/2`. Gemeinsamer Nenner: 6.'
+  - Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: -1/2
+    hinweis: 'Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um: aus − wird +.'
+  rechnung: 2/3 - (2/3 - 1/2)
+- id: A2.3-040
+  typ: zahl
+  stufe: 4
+  frage: Berechne `1/3 + 7/8 + 4/9`.
+  loesung: 119/72
+  form: gekuerzt
+  weg:
+  - 1/3 + 7/8 + 4/9 = 24/72 + 63/72 + 32/72 = 119/72
+  tipps:
+  - Such einen gemeinsamen Nenner. Hier passt 72.
+  - Erweitere jeden Bruch auf den Nenner 72 – Zähler und Nenner mit derselben Zahl mal.
+  - Dann die Zähler addieren bzw. subtrahieren. Am Schluss kürzen, so weit es geht.
+  fehler:
+  - antwort: 3/5
+    hinweis: Die Nenner werden nicht addiert! Bring die Brüche auf einen gemeinsamen Nenner – dann rechnest du nur mit den Zählern.
+  - antwort: 1/6
+    hinweis: Beim Erweitern musst du auch den **Zähler** mit derselben Zahl multiplizieren wie den Nenner.
+  rechnung: 1/3 + 7/8 + 4/9

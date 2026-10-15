@@ -1,0 +1,22 @@
+id: A4.3
+titel: Klammern auflösen
+ziel: Du löst Klammern auf – auch mit Minus vor der Klammer und verschachtelt.
+erklaerung: |
+  **Zahl vor der Klammer:** Sie wird mit **jedem** Glied in der Klammer multipliziert.
+  `3(2x - 4) = 6x - 12`
+
+  **Minus vor der Klammer:** Beim Weglassen der Klammer dreht sich **jedes** Vorzeichen in ihr um.
+  `-(2x - 5) = -2x + 5`
+
+  **Negative Zahl vor der Klammer:** beides zugleich – mal die Zahl, und die Vorzeichen beachten:
+  `-2(x - 3) = -2x + 6` (Minus mal Minus ergibt Plus).
+
+  Steht ein x vor der Klammer, gilt `x · x = x²`. Bei verschachtelten Klammern arbeitest du
+  von innen nach außen. Zum Schluss fasst du zusammen.
+beispiel:
+  term: "5x - 2(x - 4)"
+  text: |
+    Die -2 wird mit x und mit -4 multipliziert: `-2 · x = -2x` und `-2 · (-4) = +8`.
+  weg:
+    - "5x - 2(x - 4) = 5x - 2x + 8 | Klammer aufgelöst"
+    - "5x - 2x + 8 = 3x + 8 | zusammengefasst"

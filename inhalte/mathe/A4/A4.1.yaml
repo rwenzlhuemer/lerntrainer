@@ -1,0 +1,21 @@
+id: A4.1
+titel: Werte in einen Term einsetzen
+ziel: Du setzt Zahlen für Variablen ein und rechnest den Wert eines Terms aus.
+erklaerung: |
+  Ein **Term** ist ein Rechenausdruck mit Zahlen und Variablen, z. B. `3x + 5`.
+  Die **Variable** x ist ein Platzhalter für eine Zahl.
+
+  Zum Einsetzen ersetzt du jedes x durch die Zahl. Zwischen Zahl und x steht ein unsichtbares Mal:
+  `3x` heißt `3 · x`.
+
+  **Ganz wichtig:** Negative Zahlen und Brüche setzt du **in Klammern** ein.
+  Für x = -3 ist `x² = (-3)² = 9` – ohne Klammer würde man fälschlich -9 rechnen.
+
+  Danach gelten die Vorrangregeln: Klammer vor Hochzahl vor Punkt vor Strich.
+beispiel:
+  wert: "23"
+  text: |
+    Berechne `2x² - x + 2` für x = -3. Die -3 kommt überall in Klammern.
+  weg:
+    - "2·(-3)² - (-3) + 2 = 2·9 + 3 + 2 | zuerst quadrieren"
+    - "2·9 + 3 + 2 = 23"

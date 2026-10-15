@@ -1,0 +1,18 @@
+id: A4.4
+titel: Klammer mal Klammer
+ziel: Du multiplizierst zwei Klammern aus und fasst zusammen.
+erklaerung: |
+  Bei `(a + b)(c + d)` wird **jedes** Glied der ersten Klammer mit **jedem** Glied der zweiten
+  multipliziert. Bei zwei mal zwei Gliedern sind das **4 Produkte**:
+
+  `(a + b)(c + d) = ac + ad + bc + bd`
+
+  Achte bei jedem Produkt auf das Vorzeichen. Danach fasst du gleichartige Glieder zusammen
+  – meistens die zwei in der Mitte.
+beispiel:
+  term: "(x + 3)(x - 5)"
+  text: |
+    x mal x, x mal -5, 3 mal x, 3 mal -5. Dann die beiden x-Glieder zusammenfassen.
+  weg:
+    - "(x + 3)(x - 5) = x² - 5x + 3x - 15 | 4 Produkte"
+    - "x² - 5x + 3x - 15 = x² - 2x - 15 | zusammengefasst"

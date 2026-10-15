@@ -29,6 +29,8 @@ _ERSETZUNGEN = [
 def zu_sympy_text(text: str) -> str:
     """Normalisiert Schulnotation zu einem Text, den parse_expr versteht."""
     t = text.strip()
+    # „3/4 : 2/5“ – ein Zahlenbruch nach „:“ gehört zusammen (wie in app/js/mathe.js)
+    t = re.sub(r"[:÷]\s*(\d+(?:[.,]\d+)?)\s*/\s*(\d+(?:[.,]\d+)?)(?!\s*[\^²³⁴])", r"/(\1/\2)", t)
     for alt, neu in _ERSETZUNGEN:
         t = t.replace(alt, neu)
     # Dezimalkomma: 2,5 → 2.5 (nur zwischen Ziffern)

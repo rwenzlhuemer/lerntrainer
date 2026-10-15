@@ -1,0 +1,606 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.3-001
+  typ: term
+  stufe: 1
+  term: 2(x - 6)
+  form: ausmultipliziert
+  loesung: 2x - 12
+  weg:
+  - 2(x - 6) = 2x - 12
+  tipps:
+  - Multipliziere 2 mit jedem Glied in der Klammer.
+  - '`2 · x` und `2 · (-6)`.'
+  fehler:
+  - antwort: 2x - 6
+    hinweis: Die 2 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 6.
+- id: A4.3-002
+  typ: term
+  stufe: 1
+  term: 6(x - 1)
+  form: ausmultipliziert
+  loesung: 6x - 6
+  weg:
+  - 6(x - 1) = 6x - 6
+  tipps:
+  - Multipliziere 6 mit jedem Glied in der Klammer.
+  - '`6 · x` und `6 · (-1)`.'
+  fehler:
+  - antwort: 6x - 1
+    hinweis: Die 6 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 1.
+- id: A4.3-003
+  typ: term
+  stufe: 1
+  term: 4(5x + 2)
+  form: ausmultipliziert
+  loesung: 20x + 8
+  weg:
+  - 4(5x + 2) = 20x + 8
+  tipps:
+  - Multipliziere 4 mit jedem Glied in der Klammer.
+  - '`4 · 5x` und `4 · (2)`.'
+  fehler:
+  - antwort: 20x + 2
+    hinweis: Die 4 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 2.
+- id: A4.3-004
+  typ: term
+  stufe: 1
+  term: 3(x - 3)
+  form: ausmultipliziert
+  loesung: 3x - 9
+  weg:
+  - 3(x - 3) = 3x - 9
+  tipps:
+  - Multipliziere 3 mit jedem Glied in der Klammer.
+  - '`3 · x` und `3 · (-3)`.'
+  fehler:
+  - antwort: 3x - 3
+    hinweis: Die 3 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 3.
+- id: A4.3-005
+  typ: term
+  stufe: 1
+  term: 5(3x - 9)
+  form: ausmultipliziert
+  loesung: 15x - 45
+  weg:
+  - 5(3x - 9) = 15x - 45
+  tipps:
+  - Multipliziere 5 mit jedem Glied in der Klammer.
+  - '`5 · 3x` und `5 · (-9)`.'
+  fehler:
+  - antwort: 15x - 9
+    hinweis: Die 5 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 9.
+- id: A4.3-006
+  typ: term
+  stufe: 1
+  term: 5(5x + 3)
+  form: ausmultipliziert
+  loesung: 25x + 15
+  weg:
+  - 5(5x + 3) = 25x + 15
+  tipps:
+  - Multipliziere 5 mit jedem Glied in der Klammer.
+  - '`5 · 5x` und `5 · (3)`.'
+  fehler:
+  - antwort: 25x + 3
+    hinweis: Die 5 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 3.
+- id: A4.3-007
+  typ: term
+  stufe: 1
+  term: 4(5x - 3)
+  form: ausmultipliziert
+  loesung: 20x - 12
+  weg:
+  - 4(5x - 3) = 20x - 12
+  tipps:
+  - Multipliziere 4 mit jedem Glied in der Klammer.
+  - '`4 · 5x` und `4 · (-3)`.'
+  fehler:
+  - antwort: 20x - 3
+    hinweis: Die 4 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 3.
+- id: A4.3-008
+  typ: term
+  stufe: 1
+  term: 5(5x + 6)
+  form: ausmultipliziert
+  loesung: 25x + 30
+  weg:
+  - 5(5x + 6) = 25x + 30
+  tipps:
+  - Multipliziere 5 mit jedem Glied in der Klammer.
+  - '`5 · 5x` und `5 · (6)`.'
+  fehler:
+  - antwort: 25x + 6
+    hinweis: Die 5 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 6.
+- id: A4.3-009
+  typ: term
+  stufe: 1
+  term: 4(3x + 7)
+  form: ausmultipliziert
+  loesung: 12x + 28
+  weg:
+  - 4(3x + 7) = 12x + 28
+  tipps:
+  - Multipliziere 4 mit jedem Glied in der Klammer.
+  - '`4 · 3x` und `4 · (7)`.'
+  fehler:
+  - antwort: 12x + 7
+    hinweis: Die 4 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 7.
+- id: A4.3-010
+  typ: term
+  stufe: 1
+  term: 4(2x - 9)
+  form: ausmultipliziert
+  loesung: 8x - 36
+  weg:
+  - 4(2x - 9) = 8x - 36
+  tipps:
+  - Multipliziere 4 mit jedem Glied in der Klammer.
+  - '`4 · 2x` und `4 · (-9)`.'
+  fehler:
+  - antwort: 8x - 9
+    hinweis: Die 4 wird mit **jedem** Glied in der Klammer multipliziert – auch mit 9.
+- id: A4.3-011
+  typ: term
+  stufe: 2
+  term: 2x - 5(-4x + 4)
+  form: ausmultipliziert
+  loesung: 22x - 20
+  weg:
+  - 2x - 5(-4x + 4) = 22x - 20
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 22x + 20
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen um.
+- id: A4.3-012
+  typ: term
+  stufe: 2
+  term: -(3x - 9)
+  form: ausmultipliziert
+  loesung: -3x + 9
+  weg:
+  - -(3x - 9) = -3x + 9
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -3x - 9
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um – auch beim letzten Glied.
+- id: A4.3-013
+  typ: term
+  stufe: 2
+  term: -(6x - 1)
+  form: ausmultipliziert
+  loesung: -6x + 1
+  weg:
+  - -(6x - 1) = -6x + 1
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -6x - 1
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um – auch beim letzten Glied.
+- id: A4.3-014
+  typ: term
+  stufe: 2
+  term: -(-5x + 1)
+  form: ausmultipliziert
+  loesung: 5x - 1
+  weg:
+  - -(-5x + 1) = 5x - 1
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 5x + 1
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um – auch beim letzten Glied.
+- id: A4.3-015
+  typ: term
+  stufe: 2
+  term: -4(3x + 4)
+  form: ausmultipliziert
+  loesung: -12x - 16
+  weg:
+  - -4(3x + 4) = -12x - 16
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -12x + 16
+    hinweis: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus – prüf jedes Vorzeichen.
+  - antwort: -12x + 4
+    hinweis: Die -4 wird mit **jedem** Glied multipliziert.
+- id: A4.3-016
+  typ: term
+  stufe: 2
+  term: -(-6x - 9)
+  form: ausmultipliziert
+  loesung: 6x + 9
+  weg:
+  - -(-6x - 9) = 6x + 9
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 6x - 9
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen in der Klammer um – auch beim letzten Glied.
+- id: A4.3-017
+  typ: term
+  stufe: 2
+  term: -6(-6x - 2)
+  form: ausmultipliziert
+  loesung: 36x + 12
+  weg:
+  - -6(-6x - 2) = 36x + 12
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 36x - 12
+    hinweis: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus – prüf jedes Vorzeichen.
+  - antwort: 36x - 2
+    hinweis: Die -6 wird mit **jedem** Glied multipliziert.
+- id: A4.3-018
+  typ: term
+  stufe: 2
+  term: 2x - 4(-2x - 9)
+  form: ausmultipliziert
+  loesung: 10x + 36
+  weg:
+  - 2x - 4(-2x - 9) = 10x + 36
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 10x - 36
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen um.
+- id: A4.3-019
+  typ: term
+  stufe: 2
+  term: -2(4x + 6)
+  form: ausmultipliziert
+  loesung: -8x - 12
+  weg:
+  - -2(4x + 6) = -8x - 12
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -8x + 12
+    hinweis: Minus mal Minus ergibt Plus, Minus mal Plus ergibt Minus – prüf jedes Vorzeichen.
+  - antwort: -8x + 6
+    hinweis: Die -2 wird mit **jedem** Glied multipliziert.
+- id: A4.3-020
+  typ: term
+  stufe: 2
+  term: 2x - 5(-3x + 2)
+  form: ausmultipliziert
+  loesung: 17x - 10
+  weg:
+  - 2x - 5(-3x + 2) = 17x - 10
+  tipps:
+  - 'Minus vor der Klammer: Jedes Vorzeichen in der Klammer dreht sich um.'
+  - Steht eine Zahl davor, multiplizierst du jedes Glied mit ihr – mit ihrem Vorzeichen.
+  - Danach gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 17x + 10
+    hinweis: Minus vor der Klammer dreht **jedes** Vorzeichen um.
+- id: A4.3-021
+  typ: term
+  stufe: 3
+  term: 3(x + 6) + 2(3x + 6)
+  form: ausmultipliziert
+  loesung: 9x + 30
+  weg:
+  - 3(x + 6) + 2(3x + 6) = 9x + 30
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 9x + 24
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-022
+  typ: term
+  stufe: 3
+  term: -3x(5x + 1)
+  form: ausmultipliziert
+  loesung: -15x² - 3x
+  weg:
+  - -3x(5x + 1) = -15x² - 3x
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -15x² + 1
+    hinweis: Das `x` vor der Klammer wird auch mit der Zahl multipliziert.
+  - antwort: -18x
+    hinweis: '`x · x = x²` – das ergibt nicht einfach x.'
+- id: A4.3-023
+  typ: term
+  stufe: 3
+  term: -4x(x + 2)
+  form: ausmultipliziert
+  loesung: -4x² - 8x
+  weg:
+  - -4x(x + 2) = -4x² - 8x
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -4x² + 2
+    hinweis: Das `x` vor der Klammer wird auch mit der Zahl multipliziert.
+  - antwort: -12x
+    hinweis: '`x · x = x²` – das ergibt nicht einfach x.'
+- id: A4.3-024
+  typ: term
+  stufe: 3
+  term: 3(x - 6) - 2(3x - 6)
+  form: ausmultipliziert
+  loesung: -3x - 6
+  weg:
+  - 3(x - 6) - 2(3x - 6) = -3x - 6
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: -3x - 12
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-025
+  typ: term
+  stufe: 3
+  term: 4(2x + 3) + 5(3x + 2)
+  form: ausmultipliziert
+  loesung: 23x + 22
+  weg:
+  - 4(2x + 3) + 5(3x + 2) = 23x + 22
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 23x + 14
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-026
+  typ: term
+  stufe: 3
+  term: 5(x + 6) + 3(x + 1)
+  form: ausmultipliziert
+  loesung: 8x + 33
+  weg:
+  - 5(x + 6) + 3(x + 1) = 8x + 33
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 8x + 31
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-027
+  typ: term
+  stufe: 3
+  term: 2(2x - 5) + 3(2x + 3)
+  form: ausmultipliziert
+  loesung: 10x - 1
+  weg:
+  - 2(2x - 5) + 3(2x + 3) = 10x - 1
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 10x - 7
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-028
+  typ: term
+  stufe: 3
+  term: 2(4x + 4) - 2(4x + 6)
+  form: ausmultipliziert
+  loesung: '-4'
+  weg:
+  - 2(4x + 4) - 2(4x + 6) = -4
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-029
+  typ: term
+  stufe: 3
+  term: 2(3x - 6) + 3(2x - 5)
+  form: ausmultipliziert
+  loesung: 12x - 27
+  weg:
+  - 2(3x - 6) + 3(2x - 5) = 12x - 27
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 12x - 17
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-030
+  typ: term
+  stufe: 3
+  term: 5(2x - 4) - 2(2x + 4)
+  form: ausmultipliziert
+  loesung: 6x - 28
+  weg:
+  - 5(2x - 4) - 2(2x + 4) = 6x - 28
+  tipps:
+  - 'Löse jede Klammer einzeln auf: die Zahl (oder das x) davor mal jedes Glied.'
+  - '`x · x = x²`.'
+  - Zum Schluss gleichartige Glieder zusammenfassen.
+  fehler:
+  - antwort: 6x - 24
+    hinweis: 'Auch bei der zweiten Klammer: die Zahl davor mit **jedem** Glied multiplizieren.'
+- id: A4.3-031
+  typ: term
+  stufe: 4
+  term: 3/4·(4x + 20)
+  form: ausmultipliziert
+  loesung: 3x + 15
+  weg:
+  - 3/4·(4x + 20) = 3x + 15
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: 3x + 20
+    hinweis: Der Bruch wird mit **jedem** Glied multipliziert.
+- id: A4.3-032
+  typ: term
+  stufe: 4
+  term: x(x - 1) - (2x² - 3x)
+  form: ausmultipliziert
+  loesung: -x² + 2x
+  weg:
+  - x(x - 1) - (2x² - 3x) = -x² + 2x
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: -x² - 4x
+    hinweis: Minus vor der zweiten Klammer dreht **jedes** Vorzeichen in ihr um.
+- id: A4.3-033
+  typ: term
+  stufe: 4
+  term: x(x - 4) - (x² + 4x)
+  form: ausmultipliziert
+  loesung: -8x
+  weg:
+  - x(x - 4) - (x² + 4x) = -8x
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: '0'
+    hinweis: Minus vor der zweiten Klammer dreht **jedes** Vorzeichen in ihr um.
+- id: A4.3-034
+  typ: term
+  stufe: 4
+  term: x(x + 2) - (x² + 3x)
+  form: ausmultipliziert
+  loesung: -x
+  weg:
+  - x(x + 2) - (x² + 3x) = -x
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: 5x
+    hinweis: Minus vor der zweiten Klammer dreht **jedes** Vorzeichen in ihr um.
+- id: A4.3-035
+  typ: term
+  stufe: 4
+  term: x(x + 1) - (5x² - 4x)
+  form: ausmultipliziert
+  loesung: -4x² + 5x
+  weg:
+  - x(x + 1) - (5x² - 4x) = -4x² + 5x
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: -4x² - 3x
+    hinweis: Minus vor der zweiten Klammer dreht **jedes** Vorzeichen in ihr um.
+- id: A4.3-036
+  typ: term
+  stufe: 4
+  term: x(x - 3) - (3x² + 2x)
+  form: ausmultipliziert
+  loesung: -2x² - 5x
+  weg:
+  - x(x - 3) - (3x² + 2x) = -2x² - 5x
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: -2x² - x
+    hinweis: Minus vor der zweiten Klammer dreht **jedes** Vorzeichen in ihr um.
+- id: A4.3-037
+  typ: term
+  stufe: 4
+  term: 2(x - 2(x - 3))
+  form: ausmultipliziert
+  loesung: -2x + 12
+  weg:
+  - 2(x - 2(x - 3)) = -2x + 12
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: -2x - 12
+    hinweis: 'Minus vor der inneren Klammer: Aus `- 2(x - 3)` wird `- 2x + 6`.'
+  - antwort: '6'
+    hinweis: Die äußere 2 gilt für die **ganze** große Klammer.
+- id: A4.3-038
+  typ: term
+  stufe: 4
+  term: 3/4·(8x - 8)
+  form: ausmultipliziert
+  loesung: 6x - 6
+  weg:
+  - 3/4·(8x - 8) = 6x - 6
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: 6x - 8
+    hinweis: Der Bruch wird mit **jedem** Glied multipliziert.
+- id: A4.3-039
+  typ: term
+  stufe: 4
+  term: 4(x - 2(x - 5))
+  form: ausmultipliziert
+  loesung: -4x + 40
+  weg:
+  - 4(x - 2(x - 5)) = -4x + 40
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: -4x - 40
+    hinweis: 'Minus vor der inneren Klammer: Aus `- 2(x - 5)` wird `- 2x + 10`.'
+  - antwort: 2x + 10
+    hinweis: Die äußere 4 gilt für die **ganze** große Klammer.
+- id: A4.3-040
+  typ: term
+  stufe: 4
+  term: x(x - 4) - (5x² - x)
+  form: ausmultipliziert
+  loesung: -4x² - 3x
+  weg:
+  - x(x - 4) - (5x² - x) = -4x² - 3x
+  tipps:
+  - 'Bei verschachtelten Klammern: von innen nach außen auflösen.'
+  - Minus vor einer Klammer dreht jedes Vorzeichen in ihr um.
+  - Zum Schluss zusammenfassen.
+  fehler:
+  - antwort: -4x² - 5x
+    hinweis: Minus vor der zweiten Klammer dreht **jedes** Vorzeichen in ihr um.

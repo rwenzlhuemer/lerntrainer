@@ -1,0 +1,656 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.5-001
+  typ: term
+  stufe: 1
+  term: 6x - 2
+  form: faktor
+  loesung: 2(3x - 1)
+  faktor: '2'
+  weg:
+  - 6x - 2 = 2·(-1) + 2·3x = 2(3x - 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `2`.
+  - 'Dividiere jedes Glied durch `2` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 2(3x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 2(-3x - 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-002
+  typ: term
+  stufe: 1
+  term: 2x + 12
+  form: faktor
+  loesung: 2(x + 6)
+  faktor: '2'
+  weg:
+  - 2x + 12 = 2·6 + 2·x = 2(x + 6)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `2`.
+  - 'Dividiere jedes Glied durch `2` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 2(-x + 6)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-003
+  typ: term
+  stufe: 1
+  term: 12x - 20
+  form: faktor
+  loesung: 4(3x - 5)
+  faktor: '4'
+  weg:
+  - 12x - 20 = 4·(-5) + 4·3x = 4(3x - 5)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `4`.
+  - 'Dividiere jedes Glied durch `4` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 4(-3x - 5)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-004
+  typ: term
+  stufe: 1
+  term: 45x - 36
+  form: faktor
+  loesung: 9(5x - 4)
+  faktor: '9'
+  weg:
+  - 45x - 36 = 9·(-4) + 9·5x = 9(5x - 4)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `9`.
+  - 'Dividiere jedes Glied durch `9` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 9(-5x - 4)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-005
+  typ: term
+  stufe: 1
+  term: 45x + 27
+  form: faktor
+  loesung: 9(5x + 3)
+  faktor: '9'
+  weg:
+  - 45x + 27 = 9·3 + 9·5x = 9(5x + 3)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `9`.
+  - 'Dividiere jedes Glied durch `9` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 9(-5x + 3)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-006
+  typ: term
+  stufe: 1
+  term: 35x + 56
+  form: faktor
+  loesung: 7(5x + 8)
+  faktor: '7'
+  weg:
+  - 35x + 56 = 7·8 + 7·5x = 7(5x + 8)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `7`.
+  - 'Dividiere jedes Glied durch `7` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 7(-5x + 8)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-007
+  typ: term
+  stufe: 1
+  term: 25x + 30
+  form: faktor
+  loesung: 5(5x + 6)
+  faktor: '5'
+  weg:
+  - 25x + 30 = 5·6 + 5·5x = 5(5x + 6)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `5`.
+  - 'Dividiere jedes Glied durch `5` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 5(-5x + 6)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-008
+  typ: term
+  stufe: 1
+  term: 30x - 5
+  form: faktor
+  loesung: 5(6x - 1)
+  faktor: '5'
+  weg:
+  - 30x - 5 = 5·(-1) + 5·6x = 5(6x - 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `5`.
+  - 'Dividiere jedes Glied durch `5` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 5(6x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 5(-6x - 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-009
+  typ: term
+  stufe: 1
+  term: 10x - 6
+  form: faktor
+  loesung: 2(5x - 3)
+  faktor: '2'
+  weg:
+  - 10x - 6 = 2·(-3) + 2·5x = 2(5x - 3)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `2`.
+  - 'Dividiere jedes Glied durch `2` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 2(-5x - 3)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-010
+  typ: term
+  stufe: 1
+  term: 4x + 18
+  form: faktor
+  loesung: 2(2x + 9)
+  faktor: '2'
+  weg:
+  - 4x + 18 = 2·9 + 2·2x = 2(2x + 9)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `2`.
+  - 'Dividiere jedes Glied durch `2` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 2(-2x + 9)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-011
+  typ: term
+  stufe: 2
+  term: 3x² + 4x
+  form: faktor
+  loesung: x(3x + 4)
+  faktor: x
+  weg:
+  - 3x² + 4x = x·4 + x·3x = x(3x + 4)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `x`.
+  - 'Dividiere jedes Glied durch `x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: x(-3x + 4)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-012
+  typ: term
+  stufe: 2
+  term: 5x² - 2x
+  form: faktor
+  loesung: x(5x - 2)
+  faktor: x
+  weg:
+  - 5x² - 2x = x·(-2) + x·5x = x(5x - 2)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `x`.
+  - 'Dividiere jedes Glied durch `x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: x(-5x - 2)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-013
+  typ: term
+  stufe: 2
+  term: x² - 9x
+  form: faktor
+  loesung: x(x - 9)
+  faktor: x
+  weg:
+  - x² - 9x = x·(-9) + x·x = x(x - 9)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `x`.
+  - 'Dividiere jedes Glied durch `x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: x(-x - 9)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-014
+  typ: term
+  stufe: 2
+  term: 2x² + 4x
+  form: faktor
+  loesung: x(2x + 4)
+  faktor: x
+  weg:
+  - 2x² + 4x = x·4 + x·2x = x(2x + 4)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `x`.
+  - 'Dividiere jedes Glied durch `x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: x(-2x + 4)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-015
+  typ: term
+  stufe: 2
+  term: 8x² - 2x
+  form: faktor
+  loesung: 2x(4x - 1)
+  faktor: 2x
+  weg:
+  - 8x² - 2x = 2x·(-1) + 2x·4x = 2x(4x - 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `2x`.
+  - 'Dividiere jedes Glied durch `2x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 2x(4x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 2x(-4x - 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-016
+  typ: term
+  stufe: 2
+  term: 12x² - 4x
+  form: faktor
+  loesung: 4x(3x - 1)
+  faktor: 4x
+  weg:
+  - 12x² - 4x = 4x·(-1) + 4x·3x = 4x(3x - 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `4x`.
+  - 'Dividiere jedes Glied durch `4x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 4x(3x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 4x(-3x - 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-017
+  typ: term
+  stufe: 2
+  term: 6x² - 6x
+  form: faktor
+  loesung: 6x(x - 1)
+  faktor: 6x
+  weg:
+  - 6x² - 6x = 6x·(-1) + 6x·x = 6x(x - 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `6x`.
+  - 'Dividiere jedes Glied durch `6x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 6x(x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 6x(-x - 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-018
+  typ: term
+  stufe: 2
+  term: 4x² + 9x
+  form: faktor
+  loesung: x(4x + 9)
+  faktor: x
+  weg:
+  - 4x² + 9x = x·9 + x·4x = x(4x + 9)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `x`.
+  - 'Dividiere jedes Glied durch `x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: x(-4x + 9)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-019
+  typ: term
+  stufe: 2
+  term: 5x² + 10x
+  form: faktor
+  loesung: 5x(x + 2)
+  faktor: 5x
+  weg:
+  - 5x² + 10x = 5x·2 + 5x·x = 5x(x + 2)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `5x`.
+  - 'Dividiere jedes Glied durch `5x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 5x(-x + 2)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-020
+  typ: term
+  stufe: 2
+  term: 12x² - 6x
+  form: faktor
+  loesung: 6x(2x - 1)
+  faktor: 6x
+  weg:
+  - 12x² - 6x = 6x·(-1) + 6x·2x = 6x(2x - 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `6x`.
+  - 'Dividiere jedes Glied durch `6x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 6x(2x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 6x(-2x - 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-021
+  typ: term
+  stufe: 3
+  term: 18a²b - 6ab²
+  form: faktor
+  loesung: 6ab(3a - b)
+  faktor: 6ab
+  weg:
+  - 18a²b - 6ab² = 6ab·(-b) + 6ab·3a = 6ab(3a - b)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `6ab`.
+  - 'Dividiere jedes Glied durch `6ab` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 6ab(3a + b)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-022
+  typ: term
+  stufe: 3
+  term: 9a²b - 3ab²
+  form: faktor
+  loesung: 3ab(3a - b)
+  faktor: 3ab
+  weg:
+  - 9a²b - 3ab² = 3ab·(-b) + 3ab·3a = 3ab(3a - b)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `3ab`.
+  - 'Dividiere jedes Glied durch `3ab` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 3ab(3a + b)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-023
+  typ: term
+  stufe: 3
+  term: 10a²b + 5ab²
+  form: faktor
+  loesung: 5ab(2a + b)
+  faktor: 5ab
+  weg:
+  - 10a²b + 5ab² = 5ab·b + 5ab·2a = 5ab(2a + b)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `5ab`.
+  - 'Dividiere jedes Glied durch `5ab` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 5ab(2a - b)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-024
+  typ: term
+  stufe: 3
+  term: 6x³ + 15x² - 18x
+  form: faktor
+  loesung: 3x(2x² + 5x - 6)
+  faktor: 3x
+  weg:
+  - 6x³ + 15x² - 18x = 3x·(-6) + 3x·2x² + 3x·5x = 3x(2x² + 5x - 6)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `3x`.
+  - 'Dividiere jedes Glied durch `3x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 3x(-2x² + 5x - 6)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-025
+  typ: term
+  stufe: 3
+  term: 5x³ - 15x² - 20x
+  form: faktor
+  loesung: 5x(x² - 3x - 4)
+  faktor: 5x
+  weg:
+  - 5x³ - 15x² - 20x = 5x·(-4) + 5x·x² + 5x·(-3x) = 5x(x² - 3x - 4)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `5x`.
+  - 'Dividiere jedes Glied durch `5x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 5x(-x² - 3x - 4)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-026
+  typ: term
+  stufe: 3
+  term: 6a²b - 8ab²
+  form: faktor
+  loesung: 2ab(3a - 4b)
+  faktor: 2ab
+  weg:
+  - 6a²b - 8ab² = 2ab·(-4b) + 2ab·3a = 2ab(3a - 4b)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `2ab`.
+  - 'Dividiere jedes Glied durch `2ab` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 2ab(3a + 4b)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-027
+  typ: term
+  stufe: 3
+  term: 7a²b - 21ab²
+  form: faktor
+  loesung: 7ab(a - 3b)
+  faktor: 7ab
+  weg:
+  - 7a²b - 21ab² = 7ab·a + 7ab·(-3b) = 7ab(a - 3b)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `7ab`.
+  - 'Dividiere jedes Glied durch `7ab` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 7ab(a + 3b)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-028
+  typ: term
+  stufe: 3
+  term: 8x³ - 20x² - 8x
+  form: faktor
+  loesung: 4x(2x² - 5x - 2)
+  faktor: 4x
+  weg:
+  - 8x³ - 20x² - 8x = 4x·(-2) + 4x·(-5x) + 4x·2x² = 4x(2x² - 5x - 2)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `4x`.
+  - 'Dividiere jedes Glied durch `4x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 4x(-2x² - 5x - 2)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-029
+  typ: term
+  stufe: 3
+  term: 4x³ + 24x² + 16x
+  form: faktor
+  loesung: 4x(x² + 6x + 4)
+  faktor: 4x
+  weg:
+  - 4x³ + 24x² + 16x = 4x·4 + 4x·x² + 4x·6x = 4x(x² + 6x + 4)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `4x`.
+  - 'Dividiere jedes Glied durch `4x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 4x(-x² + 6x + 4)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-030
+  typ: term
+  stufe: 3
+  term: 4x³ + 24x² + 4x
+  form: faktor
+  loesung: 4x(x² + 6x + 1)
+  faktor: 4x
+  weg:
+  - 4x³ + 24x² + 4x = 4x·1 + 4x·x² + 4x·6x = 4x(x² + 6x + 1)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `4x`.
+  - 'Dividiere jedes Glied durch `4x` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 4x(x² + 6x)
+    hinweis: Hebst du ein ganzes Glied heraus, bleibt in der Klammer **1** stehen – nicht nichts!
+  - antwort: 4x(-x² + 6x + 1)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-031
+  typ: term
+  stufe: 4
+  term: 3x(a + b) + 5(a + b)
+  form: faktor
+  loesung: (a + b)(3x + 5)
+  faktor: a + b
+  weg:
+  - 3x(a + b) + 5(a + b) = (a + b)(3x + 5)
+  tipps:
+  - 'Schau genau: Die Klammer `(a + b)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(a + b)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(a + b)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (a + b)(3x)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-032
+  typ: term
+  stufe: 4
+  term: x(a - b) + 3(a - b)
+  form: faktor
+  loesung: (a - b)(x + 3)
+  faktor: a - b
+  weg:
+  - x(a - b) + 3(a - b) = (a - b)(x + 3)
+  tipps:
+  - 'Schau genau: Die Klammer `(a - b)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(a - b)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(a - b)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (a - b)(x)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-033
+  typ: term
+  stufe: 4
+  term: 24x²y + 18xy² - 24xy
+  form: faktor
+  loesung: 6xy(4x + 3y - 4)
+  faktor: 6xy
+  weg:
+  - 24x²y + 18xy² - 24xy = 6xy·(-4) + 6xy·3y + 6xy·4x = 6xy(4x + 3y - 4)
+  tipps:
+  - 'Suche, was in **allen** Gliedern steckt: die größte gemeinsame Zahl und gemeinsame Variablen.'
+  - Gemeinsam ist `6xy`.
+  - 'Dividiere jedes Glied durch `6xy` – das kommt in die Klammer. Probe: wieder ausmultiplizieren.'
+  fehler:
+  - antwort: 6xy(4x - 3y - 4)
+    hinweis: 'Prüf die Vorzeichen in der Klammer: Multiplizier zur Probe wieder aus.'
+- id: A4.5-034
+  typ: term
+  stufe: 4
+  term: 5y(x + 1) - 4(x + 1)
+  form: faktor
+  loesung: (x + 1)(5y - 4)
+  faktor: x + 1
+  weg:
+  - 5y(x + 1) - 4(x + 1) = (x + 1)(5y - 4)
+  tipps:
+  - 'Schau genau: Die Klammer `(x + 1)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(x + 1)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(x + 1)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (x + 1)(5y)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-035
+  typ: term
+  stufe: 4
+  term: 3x(a + b) + (a + b)
+  form: faktor
+  loesung: (a + b)(3x + 1)
+  faktor: a + b
+  weg:
+  - 3x(a + b) + (a + b) = (a + b)(3x + 1)
+  tipps:
+  - 'Schau genau: Die Klammer `(a + b)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(a + b)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(a + b)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (a + b)(3x)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-036
+  typ: term
+  stufe: 4
+  term: 5y(x - 2) - 4(x - 2)
+  form: faktor
+  loesung: (x - 2)(5y - 4)
+  faktor: x - 2
+  weg:
+  - 5y(x - 2) - 4(x - 2) = (x - 2)(5y - 4)
+  tipps:
+  - 'Schau genau: Die Klammer `(x - 2)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(x - 2)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(x - 2)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (x - 2)(5y)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-037
+  typ: term
+  stufe: 4
+  term: 3x(a - b) - (a - b)
+  form: faktor
+  loesung: (a - b)(3x - 1)
+  faktor: a - b
+  weg:
+  - 3x(a - b) - (a - b) = (a - b)(3x - 1)
+  tipps:
+  - 'Schau genau: Die Klammer `(a - b)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(a - b)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(a - b)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (a - b)(3x)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-038
+  typ: term
+  stufe: 4
+  term: 3x(a - b) - 4(a - b)
+  form: faktor
+  loesung: (a - b)(3x - 4)
+  faktor: a - b
+  weg:
+  - 3x(a - b) - 4(a - b) = (a - b)(3x - 4)
+  tipps:
+  - 'Schau genau: Die Klammer `(a - b)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(a - b)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(a - b)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (a - b)(3x)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-039
+  typ: term
+  stufe: 4
+  term: 2y(x + 2) + 3(x + 2)
+  form: faktor
+  loesung: (x + 2)(2y + 3)
+  faktor: x + 2
+  weg:
+  - 2y(x + 2) + 3(x + 2) = (x + 2)(2y + 3)
+  tipps:
+  - 'Schau genau: Die Klammer `(x + 2)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(x + 2)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(x + 2)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (x + 2)(2y)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.
+- id: A4.5-040
+  typ: term
+  stufe: 4
+  term: 5y(x + 2) - 6(x + 2)
+  form: faktor
+  loesung: (x + 2)(5y - 6)
+  faktor: x + 2
+  weg:
+  - 5y(x + 2) - 6(x + 2) = (x + 2)(5y - 6)
+  tipps:
+  - 'Schau genau: Die Klammer `(x + 2)` steckt in beiden Gliedern.'
+  - Heb die ganze Klammer `(x + 2)` heraus – wie eine Zahl.
+  - Was bleibt übrig, wenn du `(x + 2)` wegnimmst? Das kommt in die zweite Klammer.
+  fehler:
+  - antwort: (x + 2)(5y)
+    hinweis: Vom zweiten Glied bleibt nach dem Herausheben noch etwas übrig – vergiss es nicht.

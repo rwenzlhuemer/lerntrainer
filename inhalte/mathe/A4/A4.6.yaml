@@ -1,0 +1,23 @@
+id: A4.6
+titel: Binomische Formeln
+ziel: Du verwendest die binomischen Formeln – zum Ausmultiplizieren und zum Zerlegen.
+erklaerung: |
+  Drei Abkürzungen, die du immer wieder brauchst:
+
+  1. `(a + b)² = a² + 2ab + b²`
+  2. `(a - b)² = a² - 2ab + b²`
+  3. `(a + b)(a - b) = a² - b²`
+
+  Der häufigste Fehler: das **Mittelglied** 2ab vergessen. `(x + 3)²` ist **nicht** `x² + 9`!
+
+  Steht vor dem x eine Zahl, wird sie mitquadriert: `(2x)² = 4x²`.
+
+  **Rückwärts** (zerlegen): Erkennst du zwei Quadrate, prüf das Mittelglied.
+  `x² + 10x + 25`: a = x, b = 5, und 2 · x · 5 = 10x ✓ – also `(x + 5)²`.
+beispiel:
+  term: "(3x - 2)²"
+  text: |
+    2. binomische Formel mit a = 3x und b = 2.
+  weg:
+    - "(3x - 2)² = (3x)² - 2·3x·2 + 2² | a² - 2ab + b²"
+    - "(3x)² - 2·3x·2 + 2² = 9x² - 12x + 4"

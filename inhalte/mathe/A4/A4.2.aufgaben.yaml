@@ -1,0 +1,624 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.2-001
+  typ: term
+  stufe: 1
+  term: 6 + 5x + 9x + 3x
+  form: zusammengefasst
+  loesung: 17x + 6
+  weg:
+  - 6 + 5x + 9x + 3x = 5x + 9x + 3x + 6 = 17x + 6
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `5x + 9x + 3x + 6`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 23x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-002
+  typ: term
+  stufe: 1
+  term: x - 1 + 1 - 7x
+  form: zusammengefasst
+  loesung: -6x
+  weg:
+  - x - 1 + 1 - 7x = x - 7x - 1 + 1 = -6x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `x - 7x - 1 + 1`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -6x + 2
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-003
+  typ: term
+  stufe: 1
+  term: 8x + 4x - 6 + 7
+  form: zusammengefasst
+  loesung: 12x + 1
+  weg:
+  - 8x + 4x - 6 + 7 = 12x + 1
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `8x + 4x - 6 + 7`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 12x + 13
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 13x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-004
+  typ: term
+  stufe: 1
+  term: 6 + 9 + 8x - 3x
+  form: zusammengefasst
+  loesung: 5x + 15
+  weg:
+  - 6 + 9 + 8x - 3x = 8x - 3x + 6 + 9 = 5x + 15
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `8x - 3x + 6 + 9`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 11x + 15
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 20x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-005
+  typ: term
+  stufe: 1
+  term: 7x + 8x + 3x + 6x
+  form: zusammengefasst
+  loesung: 24x
+  weg:
+  - 7x + 8x + 3x + 6x = 24x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `7x + 8x + 3x + 6x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler: []
+- id: A4.2-006
+  typ: term
+  stufe: 1
+  term: 4x - 5x - 7x
+  form: zusammengefasst
+  loesung: -8x
+  weg:
+  - 4x - 5x - 7x = -8x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `4x - 5x - 7x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 2x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-007
+  typ: term
+  stufe: 1
+  term: 7x + 9x + 2x
+  form: zusammengefasst
+  loesung: 18x
+  weg:
+  - 7x + 9x + 2x = 18x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `7x + 9x + 2x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler: []
+- id: A4.2-008
+  typ: term
+  stufe: 1
+  term: 4 + 9x + 7
+  form: zusammengefasst
+  loesung: 9x + 11
+  weg:
+  - 4 + 9x + 7 = 9x + 4 + 7 = 9x + 11
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `9x + 4 + 7`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 20x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-009
+  typ: term
+  stufe: 1
+  term: x + 9x + 2x
+  form: zusammengefasst
+  loesung: 12x
+  weg:
+  - x + 9x + 2x = 12x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `x + 9x + 2x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler: []
+- id: A4.2-010
+  typ: term
+  stufe: 1
+  term: 9x + 8x + 9x
+  form: zusammengefasst
+  loesung: 26x
+  weg:
+  - 9x + 8x + 9x = 26x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `9x + 8x + 9x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler: []
+- id: A4.2-011
+  typ: term
+  stufe: 2
+  term: 2 - 6x + 3 - 3x
+  form: zusammengefasst
+  loesung: -9x + 5
+  weg:
+  - 2 - 6x + 3 - 3x = -6x - 3x + 2 + 3 = -9x + 5
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-6x - 3x + 2 + 3`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 3x + 5
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -4x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-012
+  typ: term
+  stufe: 2
+  term: -2 + x + x + 2
+  form: zusammengefasst
+  loesung: 2x
+  weg:
+  - -2 + x + x + 2 = x + x - 2 + 2 = 2x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `x + x - 2 + 2`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler: []
+- id: A4.2-013
+  typ: term
+  stufe: 2
+  term: 8 - 7 - 6x - x
+  form: zusammengefasst
+  loesung: -7x + 1
+  weg:
+  - 8 - 7 - 6x - x = -6x - x + 8 - 7 = -7x + 1
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-6x - x + 8 - 7`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -7x + 15
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -6x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-014
+  typ: term
+  stufe: 2
+  term: -3x - 3 - 3x + 4
+  form: zusammengefasst
+  loesung: -6x + 1
+  weg:
+  - -3x - 3 - 3x + 4 = -3x - 3x - 3 + 4 = -6x + 1
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-3x - 3x - 3 + 4`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -6x + 7
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -5x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-015
+  typ: term
+  stufe: 2
+  term: -4x + 4 - 7 + 8x
+  form: zusammengefasst
+  loesung: 4x - 3
+  weg:
+  - -4x + 4 - 7 + 8x = -4x + 8x + 4 - 7 = 4x - 3
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-4x + 8x + 4 - 7`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 4x + 11
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 1x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-016
+  typ: term
+  stufe: 2
+  term: -6x + 9 - 9x + 6
+  form: zusammengefasst
+  loesung: -15x + 15
+  weg:
+  - -6x + 9 - 9x + 6 = -6x - 9x + 9 + 6 = -15x + 15
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-6x - 9x + 9 + 6`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 3x + 15
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-017
+  typ: term
+  stufe: 2
+  term: 6x + 9 + 2 - 5x
+  form: zusammengefasst
+  loesung: x + 11
+  weg:
+  - 6x + 9 + 2 - 5x = 6x - 5x + 9 + 2 = x + 11
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `6x - 5x + 9 + 2`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 11x + 11
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 12x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-018
+  typ: term
+  stufe: 2
+  term: -5 - 4x + x + 3
+  form: zusammengefasst
+  loesung: -3x - 2
+  weg:
+  - -5 - 4x + x + 3 = -4x + x - 5 + 3 = -3x - 2
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-4x + x - 5 + 3`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 5x - 2
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -5x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-019
+  typ: term
+  stufe: 2
+  term: 9 + 2x - 6 - x
+  form: zusammengefasst
+  loesung: x + 3
+  weg:
+  - 9 + 2x - 6 - x = 2x - x + 9 - 6 = x + 3
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `2x - x + 9 - 6`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: x + 15
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 4x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-020
+  typ: term
+  stufe: 2
+  term: -6x + 3 + 5 - 6x
+  form: zusammengefasst
+  loesung: -12x + 8
+  weg:
+  - -6x + 3 + 5 - 6x = -6x - 6x + 3 + 5 = -12x + 8
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-6x - 6x + 3 + 5`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: '8'
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -4x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-021
+  typ: term
+  stufe: 3
+  term: -5a - 5 - 7 + 2b + b + 8a
+  form: zusammengefasst
+  loesung: 3a + 3b - 12
+  weg:
+  - -5a - 5 - 7 + 2b + b + 8a = -5a + 8a + 2b + b - 5 - 7 = 3a + 3b - 12
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-5a + 8a + 2b + b - 5 - 7`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 3a + 3b - 2
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-022
+  typ: term
+  stufe: 3
+  term: 2a - 4b + 2a + 5 - 1 - 2b
+  form: zusammengefasst
+  loesung: 4a - 6b + 4
+  weg:
+  - 2a - 4b + 2a + 5 - 1 - 2b = 2a + 2a - 4b - 2b + 5 - 1 = 4a - 6b + 4
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `2a + 2a - 4b - 2b + 5 - 1`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 4a + 2b + 4
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-023
+  typ: term
+  stufe: 3
+  term: b - 3a + 8b - 8a
+  form: zusammengefasst
+  loesung: -11a + 9b
+  weg:
+  - b - 3a + 8b - 8a = -3a - 8a + b + 8b = -11a + 9b
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-3a - 8a + b + 8b`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -5a + 9b
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-024
+  typ: term
+  stufe: 3
+  term: -8a - 6ab - 9a + 7ab
+  form: zusammengefasst
+  loesung: ab - 17a
+  weg:
+  - -8a - 6ab - 9a + 7ab = -6ab + 7ab - 8a - 9a = ab - 17a
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-6ab + 7ab - 8a - 9a`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 13ab - 17a
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-025
+  typ: term
+  stufe: 3
+  term: -3a - 8b + 7b - 3a
+  form: zusammengefasst
+  loesung: -6a - b
+  weg:
+  - -3a - 8b + 7b - 3a = -3a - 3a - 8b + 7b = -6a - b
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-3a - 3a - 8b + 7b`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -6a + 15b
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-026
+  typ: term
+  stufe: 3
+  term: 5a - 3b + 6 + 8a + 3 + 6b
+  form: zusammengefasst
+  loesung: 13a + 3b + 9
+  weg:
+  - 5a - 3b + 6 + 8a + 3 + 6b = 5a + 8a - 3b + 6b + 6 + 3 = 13a + 3b + 9
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `5a + 8a - 3b + 6b + 6 + 3`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 13a + 9b + 9
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-027
+  typ: term
+  stufe: 3
+  term: -4 + 3x² - 9x + 3 + 5x² + 3x
+  form: zusammengefasst
+  loesung: 8x² - 6x - 1
+  weg:
+  - -4 + 3x² - 9x + 3 + 5x² + 3x = 3x² + 5x² - 9x + 3x - 4 + 3 = 8x² - 6x - 1
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `3x² + 5x² - 9x + 3x - 4 + 3`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 8x² + 12x - 1
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-028
+  typ: term
+  stufe: 3
+  term: 5x² + 5x + 8x² - 3x
+  form: zusammengefasst
+  loesung: 13x² + 2x
+  weg:
+  - 5x² + 5x + 8x² - 3x = 5x² + 8x² + 5x - 3x = 13x² + 2x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `5x² + 8x² + 5x - 3x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 13x² + 8x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 15x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-029
+  typ: term
+  stufe: 3
+  term: -3x - 9x² - 2x² - x
+  form: zusammengefasst
+  loesung: -11x² - 4x
+  weg:
+  - -3x - 9x² - 2x² - x = -9x² - 2x² - 3x - x = -11x² - 4x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-9x² - 2x² - 3x - x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 7x² - 4x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -15x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-030
+  typ: term
+  stufe: 3
+  term: 9x² - x + 6x - 2x²
+  form: zusammengefasst
+  loesung: 7x² + 5x
+  weg:
+  - 9x² - x + 6x - 2x² = 9x² - 2x² - x + 6x = 7x² + 5x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `9x² - 2x² - x + 6x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 7x² + 7x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 12x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-031
+  typ: term
+  stufe: 4
+  term: 0,3b + 0,5b - 1,3a + 2,2a
+  form: zusammengefasst
+  loesung: 0,9a + 0,8b
+  weg:
+  - 0,3b + 0,5b - 1,3a + 2,2a = -1,3a + 2,2a + 0,3b + 0,5b = 0,9a + 0,8b
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-1,3a + 2,2a + 0,3b + 0,5b`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 3,5a + 0,8b
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-032
+  typ: term
+  stufe: 4
+  term: 0,9x + 1,6x² - 2,4x² + 0,1x
+  form: zusammengefasst
+  loesung: -0,8x² + x
+  weg:
+  - 0,9x + 1,6x² - 2,4x² + 0,1x = 1,6x² - 2,4x² + 0,9x + 0,1x = -0,8x² + x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `1,6x² - 2,4x² + 0,9x + 0,1x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 4x² + x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 1/5x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-033
+  typ: term
+  stufe: 4
+  term: 4/3 + 5x/3 + 1/4
+  form: zusammengefasst
+  loesung: 5x/3 + 19/12
+  weg:
+  - 4/3 + 5x/3 + 1/4 = 5x/3 + 4/3 + 1/4 = 5x/3 + 19/12
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `5x/3 + 4/3 + 1/4`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 13/4x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-034
+  typ: term
+  stufe: 4
+  term: -3x²/4 - 5x/2 + x²/3 - x/2
+  form: zusammengefasst
+  loesung: -5x²/12 - 3x
+  weg:
+  - -3x²/4 - 5x/2 + x²/3 - x/2 = -3x²/4 + x²/3 - 5x/2 - x/2 = -5x²/12 - 3x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-3x²/4 + x²/3 - 5x/2 - x/2`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -5x²/12 + 2x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -41/12x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-035
+  typ: term
+  stufe: 4
+  term: 0,4b + 0,8b + 1,6a - 0,7a
+  form: zusammengefasst
+  loesung: 0,9a + 1,2b
+  weg:
+  - 0,4b + 0,8b + 1,6a - 0,7a = 1,6a - 0,7a + 0,4b + 0,8b = 0,9a + 1,2b
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `1,6a - 0,7a + 0,4b + 0,8b`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 2,3a + 1,2b
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-036
+  typ: term
+  stufe: 4
+  term: 0,1x + 2,2x + 2,4x² + 0,9x²
+  form: zusammengefasst
+  loesung: 3,3x² + 2,3x
+  weg:
+  - 0,1x + 2,2x + 2,4x² + 0,9x² = 2,4x² + 0,9x² + 0,1x + 2,2x = 3,3x² + 2,3x
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `2,4x² + 0,9x² + 0,1x + 2,2x`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 28/5x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-037
+  typ: term
+  stufe: 4
+  term: 1,5a + 0,2b - 0,8b - 1,7a
+  form: zusammengefasst
+  loesung: -0,2a - 0,6b
+  weg:
+  - 1,5a + 0,2b - 0,8b - 1,7a = 1,5a - 1,7a + 0,2b - 0,8b = -0,2a - 0,6b
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `1,5a - 1,7a + 0,2b - 0,8b`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -0,2a + b
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+- id: A4.2-038
+  typ: term
+  stufe: 4
+  term: -5x²/4 - 2x/3 - 3x²/4 - 5x/3
+  form: zusammengefasst
+  loesung: -2x² - 7x/3
+  weg:
+  - -5x²/4 - 2x/3 - 3x²/4 - 5x/3 = -5x²/4 - 3x²/4 - 2x/3 - 5x/3 = -2x² - 7x/3
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `-5x²/4 - 3x²/4 - 2x/3 - 5x/3`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: -2x² - x
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: -13/3x²
+    hinweis: '`x²` und `x` sind **nicht** gleichartig – die darfst du nicht zusammenfassen.'
+- id: A4.2-039
+  typ: term
+  stufe: 4
+  term: -1,3 + 2,4x + 1,8 - 1,6x
+  form: zusammengefasst
+  loesung: 0,8x + 0,5
+  weg:
+  - -1,3 + 2,4x + 1,8 - 1,6x = 2,4x - 1,6x - 1,3 + 1,8 = 0,8x + 0,5
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `2,4x - 1,6x - 1,3 + 1,8`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler:
+  - antwort: 4x + 0,5
+    hinweis: 'Achte auf das Vorzeichen: Das Minus gehört immer zum Glied dahinter.'
+  - antwort: 13/10x
+    hinweis: Glieder mit x und reine Zahlen sind nicht gleichartig – sie dürfen nicht zusammengezählt werden.
+- id: A4.2-040
+  typ: term
+  stufe: 4
+  term: -1,1b + 0,3b + 2,8a + 0,4a
+  form: zusammengefasst
+  loesung: 3,2a - 0,8b
+  weg:
+  - -1,1b + 0,3b + 2,8a + 0,4a = 2,8a + 0,4a - 1,1b + 0,3b = 3,2a - 0,8b
+  tipps:
+  - Gleichartig sind Glieder mit genau derselben Variablen (und Hochzahl).
+  - 'Ordne zuerst: `2,8a + 0,4a - 1,1b + 0,3b`.'
+  - Rechne dann nur mit den Zahlen davor. Das Vorzeichen gehört zum Glied dahinter.
+  fehler: []

@@ -49,12 +49,34 @@ for (const datei of readdirSync(DATEN)) {
         erwarte(M.findeFehler(r.menge?.x, a.fehler) === f, `${a.id}: Fehler-Hinweis ${f.antwort} nicht gefunden`);
       }
     } else if (a.typ === "zahl") {
-      erwarte(M.pruefeZahl(a.loesung, a.loesung).art === "richtig", `${a.id}: Lösung nicht erkannt`);
+      erwarte(M.pruefeZahl(a.loesung, a.loesung, a.form, a.nenner).art === "richtig", `${a.id}: Lösung nicht erkannt`);
       if (a.einheit) erwarte(M.pruefeZahl(`${a.loesung} ${a.einheit}`, a.loesung).art === "richtig", `${a.id}: mit Einheit`);
       for (const f of a.fehler || []) {
-        const r = M.pruefeZahl(f.antwort, a.loesung);
+        const r = M.pruefeZahl(f.antwort, a.loesung, a.form, a.nenner);
         erwarte(r.art === "falsch", `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
       }
+      // Bei „gekürzt“ darf die ungekürzte Angabe aus der Aufgabe nicht als fertig gelten
+      const roh = a.form === "gekuerzt" && /Kürze so weit wie möglich: `(.+)`/.exec(a.frage)?.[1];
+      if (roh) erwarte(M.pruefeZahl(roh, a.loesung, a.form).art === "form", `${a.id}: ungekürzt ${roh} nicht bemängelt`);
+    } else if (a.typ === "term") {
+      const r = M.pruefeTermZeile(a.loesung, a);
+      erwarte(r.art === "geloest", `${a.id}: Lösung ${a.loesung} → ${r.art} ${r.hinweis || ""}`);
+      if (a.term && a.form !== "frei") {
+        const r0 = M.pruefeTermZeile(a.term, a);
+        erwarte(r0.art === "schritt", `${a.id}: Ausgangsterm ${a.term} → ${r0.art} (darf nicht schon fertig sein)`);
+      }
+      for (const zeile of a.weg || []) {
+        for (const teil of zeile.split("|")[0].split("=")) {
+          const rt = M.pruefeTermZeile(teil, a);
+          erwarte(["schritt", "geloest"].includes(rt.art), `${a.id}: Weg-Teil "${teil.trim()}" → ${rt.art}`);
+        }
+      }
+      for (const f of a.fehler || []) {
+        const rf = M.pruefeTermZeile(f.antwort, a);
+        erwarte(rf.art === "falsch" && rf.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${rf.art}`);
+      }
+    } else if (a.typ === "auswahl" && a.mathe) {
+      for (const o of a.optionen) erwarte(M.versuche(o), `${a.id}: Option ${o} nicht lesbar`);
     }
     // Alle Texte müssen sich darstellen lassen
     for (const t of [a.frage, a.erklaerung, ...(a.tipps || [])]) if (t) M.textHTML(t);

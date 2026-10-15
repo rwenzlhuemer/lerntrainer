@@ -1,0 +1,448 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.7-001
+  typ: term
+  stufe: 1
+  term: 8x²/(4x)
+  form: gekuerzt
+  loesung: 2x
+  weg:
+  - 8x²/(4x) = 2x
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-002
+  typ: term
+  stufe: 1
+  term: 20ab²/(4ab)
+  form: gekuerzt
+  loesung: 5b
+  weg:
+  - 20ab²/(4ab) = 5b
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-003
+  typ: term
+  stufe: 1
+  term: 6x/(8x²)
+  form: gekuerzt
+  loesung: 3/(4x)
+  weg:
+  - 6x/(8x²) = 3/(4x)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-004
+  typ: term
+  stufe: 1
+  term: 14a²/(7a)
+  form: gekuerzt
+  loesung: 2a
+  weg:
+  - 14a²/(7a) = 2a
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-005
+  typ: term
+  stufe: 1
+  term: 4x³/(2x)
+  form: gekuerzt
+  loesung: 2x²
+  weg:
+  - 4x³/(2x) = 2x²
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-006
+  typ: term
+  stufe: 1
+  term: 10x/(15x²)
+  form: gekuerzt
+  loesung: 2/(3x)
+  weg:
+  - 10x/(15x²) = 2/(3x)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-007
+  typ: term
+  stufe: 1
+  term: 9xy/(6y)
+  form: gekuerzt
+  loesung: 3x/2
+  weg:
+  - 9xy/(6y) = 3x/2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-008
+  typ: term
+  stufe: 1
+  term: 7x²y/(14xy)
+  form: gekuerzt
+  loesung: x/2
+  weg:
+  - 7x²y/(14xy) = x/2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Kürze die Zahlen und die Variablen getrennt: `x² : x = x`.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-009
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Term ist gleich `(x + 4)/(x + 2)`?
+  mathe: true
+  optionen:
+  - '2'
+  - (x + 4)/(x + 2)
+  - 4/2
+  richtig:
+  - 1
+  pruefung:
+    art: termgleich
+    ziel: (x + 4)/(x + 2)
+  erklaerung: Richtig ist `(x + 4)/(x + 2)`. Kürzen darf man nur **Faktoren**, nie einzelne Summanden. Steht oben eine Summe, musst du entweder **jedes** Glied dividieren oder zuerst herausheben.
+  tipps:
+  - Setz zur Probe eine Zahl für x ein, z. B. x = 1, und vergleiche.
+- id: A4.7-010
+  typ: term
+  stufe: 2
+  term: (3x + 6)/3
+  form: gekuerzt
+  loesung: x + 2
+  weg:
+  - (3x + 6)/3 = x + 2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler:
+  - antwort: x + 6
+    hinweis: Du musst **jedes** Glied oben durch 3 dividieren – oder zuerst herausheben.
+- id: A4.7-011
+  typ: term
+  stufe: 2
+  term: (10x - 15)/5
+  form: gekuerzt
+  loesung: 2x - 3
+  weg:
+  - (10x - 15)/5 = 2x - 3
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler:
+  - antwort: 2x - 15
+    hinweis: Du musst **jedes** Glied oben durch 5 dividieren – oder zuerst herausheben.
+- id: A4.7-012
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Term ist gleich `(3x + 9)/3`?
+  mathe: true
+  optionen:
+  - x + 3
+  - x + 9
+  - 3x + 3
+  richtig:
+  - 0
+  pruefung:
+    art: termgleich
+    ziel: (3x + 9)/3
+  erklaerung: Richtig ist `x + 3`. Kürzen darf man nur **Faktoren**, nie einzelne Summanden. Steht oben eine Summe, musst du entweder **jedes** Glied dividieren oder zuerst herausheben.
+  tipps:
+  - Setz zur Probe eine Zahl für x ein, z. B. x = 1, und vergleiche.
+- id: A4.7-013
+  typ: term
+  stufe: 2
+  term: (6x + 9)/3
+  form: gekuerzt
+  loesung: 2x + 3
+  weg:
+  - (6x + 9)/3 = 2x + 3
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler:
+  - antwort: 2x + 9
+    hinweis: Du musst **jedes** Glied oben durch 3 dividieren – oder zuerst herausheben.
+- id: A4.7-014
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Term ist gleich `(x² + x)/x`?
+  mathe: true
+  optionen:
+  - x²
+  - x + 1
+  - x + x
+  richtig:
+  - 1
+  pruefung:
+    art: termgleich
+    ziel: (x² + x)/x
+  erklaerung: Richtig ist `x + 1`. Kürzen darf man nur **Faktoren**, nie einzelne Summanden. Steht oben eine Summe, musst du entweder **jedes** Glied dividieren oder zuerst herausheben.
+  tipps:
+  - Setz zur Probe eine Zahl für x ein, z. B. x = 1, und vergleiche.
+- id: A4.7-015
+  typ: term
+  stufe: 2
+  term: (x² - 3x)/x
+  form: gekuerzt
+  loesung: x - 3
+  weg:
+  - (x² - 3x)/x = x - 3
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-016
+  typ: auswahl
+  stufe: 2
+  frage: Welcher Term ist gleich `(4x + 2)/2`?
+  mathe: true
+  optionen:
+  - 2x + 1
+  - 4x + 1
+  - 2x + 2
+  richtig:
+  - 0
+  pruefung:
+    art: termgleich
+    ziel: (4x + 2)/2
+  erklaerung: Richtig ist `2x + 1`. Kürzen darf man nur **Faktoren**, nie einzelne Summanden. Steht oben eine Summe, musst du entweder **jedes** Glied dividieren oder zuerst herausheben.
+  tipps:
+  - Setz zur Probe eine Zahl für x ein, z. B. x = 1, und vergleiche.
+- id: A4.7-017
+  typ: term
+  stufe: 3
+  term: (x² - 25)/(2x + 10)
+  form: gekuerzt
+  loesung: (x - 5)/2
+  weg:
+  - (x² - 25)/(2x + 10) = (x - 5)/2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-018
+  typ: term
+  stufe: 3
+  term: (x² + 2x + 1)/(x + 1)
+  form: gekuerzt
+  loesung: x + 1
+  weg:
+  - (x² + 2x + 1)/(x + 1) = x + 1
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-019
+  typ: term
+  stufe: 3
+  term: (x² - 4)/(x - 2)
+  form: gekuerzt
+  loesung: x + 2
+  weg:
+  - (x² - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `(x + 2)(x - 2)/(x - 2)`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []
+- id: A4.7-020
+  typ: auswahl
+  stufe: 3
+  frage: Welcher Term ist gleich `(x + 6)/3`?
+  mathe: true
+  optionen:
+  - x/3 + 2
+  - x + 2
+  - x/3 + 6
+  richtig:
+  - 0
+  pruefung:
+    art: termgleich
+    ziel: (x + 6)/3
+  erklaerung: Richtig ist `x/3 + 2`. Kürzen darf man nur **Faktoren**, nie einzelne Summanden. Steht oben eine Summe, musst du entweder **jedes** Glied dividieren oder zuerst herausheben.
+  tipps:
+  - Setz zur Probe eine Zahl für x ein, z. B. x = 1, und vergleiche.
+- id: A4.7-021
+  typ: term
+  stufe: 3
+  term: (a² - b²)/(a - b)
+  form: gekuerzt
+  loesung: a + b
+  weg:
+  - (a² - b²)/(a - b) = (a + b)(a - b)/(a - b) = a + b
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `(a + b)(a - b)/(a - b)`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []
+- id: A4.7-022
+  typ: term
+  stufe: 3
+  term: (4x² - 1)/(2x + 1)
+  form: gekuerzt
+  loesung: 2x - 1
+  weg:
+  - (4x² - 1)/(2x + 1) = (2x + 1)(2x - 1)/(2x + 1) = 2x - 1
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `(2x + 1)(2x - 1)/(2x + 1)`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []
+- id: A4.7-023
+  typ: term
+  stufe: 3
+  term: (5x² + 10x)/(5x)
+  form: gekuerzt
+  loesung: x + 2
+  weg:
+  - (5x² + 10x)/(5x) = x + 2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-024
+  typ: auswahl
+  stufe: 3
+  frage: Welcher Term ist gleich `(x + 10)/(x + 5)`?
+  mathe: true
+  optionen:
+  - (x + 10)/(x + 5)
+  - '2'
+  - 10/5 + 1
+  richtig:
+  - 0
+  pruefung:
+    art: termgleich
+    ziel: (x + 10)/(x + 5)
+  erklaerung: Richtig ist `(x + 10)/(x + 5)`. Kürzen darf man nur **Faktoren**, nie einzelne Summanden. Steht oben eine Summe, musst du entweder **jedes** Glied dividieren oder zuerst herausheben.
+  tipps:
+  - Setz zur Probe eine Zahl für x ein, z. B. x = 1, und vergleiche.
+- id: A4.7-025
+  typ: term
+  stufe: 4
+  term: (a² - 2ab + b²)/(a² - b²)
+  form: gekuerzt
+  loesung: (a - b)/(a + b)
+  weg:
+  - (a² - 2ab + b²)/(a² - b²) = (a - b)^2/((a + b)(a - b)) = (a - b)/(a + b)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `(a - b)^2/((a + b)(a - b))`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []
+- id: A4.7-026
+  typ: term
+  stufe: 4
+  term: (x² + 6x + 9)/(2x + 6)
+  form: gekuerzt
+  loesung: (x + 3)/2
+  weg:
+  - (x² + 6x + 9)/(2x + 6) = (x + 3)/2
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-027
+  typ: term
+  stufe: 4
+  term: (6x - 3)/(4x² - 1)
+  form: gekuerzt
+  loesung: 3/(2x + 1)
+  weg:
+  - (6x - 3)/(4x² - 1) = 3/(2x + 1)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-028
+  typ: term
+  stufe: 4
+  term: (x³ - x)/(x² - x)
+  form: gekuerzt
+  loesung: x + 1
+  weg:
+  - (x³ - x)/(x² - x) = x(x + 1)(x - 1)/(x(x - 1)) = x + 1
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `x(x + 1)(x - 1)/(x(x - 1))`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []
+- id: A4.7-029
+  typ: term
+  stufe: 4
+  term: (2x² - 8)/(x² + 4x + 4)
+  form: gekuerzt
+  loesung: (2x - 4)/(x + 2)
+  weg:
+  - (2x² - 8)/(x² + 4x + 4) = (2x - 4)/(x + 2)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-030
+  typ: term
+  stufe: 4
+  term: (4a² + 4ab + b²)/(4a² - b²)
+  form: gekuerzt
+  loesung: (2a + b)/(2a - b)
+  weg:
+  - (4a² + 4ab + b²)/(4a² - b²) = (2a + b)/(2a - b)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zum Schluss: Steht oben und unten noch derselbe Faktor?'
+  fehler: []
+- id: A4.7-031
+  typ: term
+  stufe: 4
+  term: (x² - 1)/(x² + 2x + 1)
+  form: gekuerzt
+  loesung: (x - 1)/(x + 1)
+  weg:
+  - (x² - 1)/(x² + 2x + 1) = (x + 1)(x - 1)/(x + 1)^2 = (x - 1)/(x + 1)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `(x + 1)(x - 1)/(x + 1)^2`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []
+- id: A4.7-032
+  typ: term
+  stufe: 4
+  term: (x² - 4x + 4)/(x² - 4)
+  form: gekuerzt
+  loesung: (x - 2)/(x + 2)
+  weg:
+  - (x² - 4x + 4)/(x² - 4) = (x - 2)^2/((x + 2)(x - 2)) = (x - 2)/(x + 2)
+  tipps:
+  - Kürzen darf man nur **Faktoren** – nie einzelne Summanden!
+  - 'Steht oben oder unten eine Summe: zuerst herausheben oder eine binomische Formel erkennen.'
+  - 'Zerlegt: `(x - 2)^2/((x + 2)(x - 2))`. Jetzt gleiche Faktoren kürzen.'
+  fehler: []

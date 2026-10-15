@@ -1,0 +1,298 @@
+# ERZEUGT von tools/generatoren/a4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A4.9-001
+  typ: term
+  stufe: 1
+  frage: Die Hälfte von x. Schreib den passenden Term.
+  form: frei
+  loesung: x/2
+  tipps:
+  - '„Das Fünffache“ heißt: mal 5.'
+  - „vermehrt um“ = plus, „vermindert um“ = minus.
+  fehler:
+  - antwort: 2x
+    hinweis: 'Ein Teil heißt dividieren: x : 2.'
+- id: A4.9-002
+  typ: term
+  stufe: 1
+  frage: x vermindert um 2. Schreib den passenden Term.
+  form: frei
+  loesung: x - 2
+  tipps:
+  - '„Das Siebenfache“ heißt: mal 7.'
+  - „vermehrt um“ = plus, „vermindert um“ = minus.
+  fehler:
+  - antwort: 2 - x
+    hinweis: '„x vermindert um …“: x steht vorne, dann wird abgezogen.'
+- id: A4.9-003
+  typ: term
+  stufe: 1
+  frage: x vermindert um 4. Schreib den passenden Term.
+  form: frei
+  loesung: x - 4
+  tipps:
+  - '„Das Achtfache“ heißt: mal 8.'
+  - „vermehrt um“ = plus, „vermindert um“ = minus.
+  fehler:
+  - antwort: 4 - x
+    hinweis: '„x vermindert um …“: x steht vorne, dann wird abgezogen.'
+- id: A4.9-004
+  typ: term
+  stufe: 1
+  frage: Um 3 größer als das Doppelte von x. Schreib den passenden Term.
+  form: frei
+  loesung: 2x + 3
+  tipps:
+  - '„Das Doppelte“ heißt: mal 2.'
+  - „vermehrt um“ = plus, „vermindert um“ = minus.
+  fehler: []
+- id: A4.9-005
+  typ: term
+  stufe: 1
+  frage: Um 8 größer als das Sechsfache von x. Schreib den passenden Term.
+  form: frei
+  loesung: 6x + 8
+  tipps:
+  - '„Das Sechsfache“ heißt: mal 6.'
+  - „vermehrt um“ = plus, „vermindert um“ = minus.
+  fehler: []
+- id: A4.9-006
+  typ: term
+  stufe: 1
+  frage: Das Doppelte von x, vermindert um 3. Schreib den passenden Term.
+  form: frei
+  loesung: 2x - 3
+  tipps:
+  - '„Das Doppelte“ heißt: mal 2.'
+  - „vermehrt um“ = plus, „vermindert um“ = minus.
+  fehler:
+  - antwort: 2(x - 3)
+    hinweis: Zuerst das Vielfache, dann abziehen – ohne Klammer.
+- id: A4.9-007
+  typ: term
+  stufe: 2
+  frage: Die Differenz aus dem Fünffachen von x und 7. Schreib den passenden Term.
+  form: frei
+  loesung: 5x - 7
+  tipps:
+  - „Summe“ = plus, „Differenz“ = minus, „Produkt“ = mal, „Quotient“ = durch.
+  - Bezieht sich etwas auf eine **Summe** oder **Differenz**, braucht diese eine Klammer.
+  fehler: []
+- id: A4.9-008
+  typ: term
+  stufe: 2
+  frage: Der dritte Teil von x, vermehrt um 3. Schreib den passenden Term.
+  form: frei
+  loesung: x/3 + 3
+  tipps:
+  - „Summe“ = plus, „Differenz“ = minus, „Produkt“ = mal, „Quotient“ = durch.
+  - Bezieht sich etwas auf eine **Summe** oder **Differenz**, braucht diese eine Klammer.
+  fehler:
+  - antwort: (x + 3)/3
+    hinweis: Nur x wird durch 3 dividiert.
+- id: A4.9-009
+  typ: term
+  stufe: 2
+  frage: Das Quadrat von x, vermindert um 4. Schreib den passenden Term.
+  form: frei
+  loesung: x² - 4
+  tipps:
+  - „Summe“ = plus, „Differenz“ = minus, „Produkt“ = mal, „Quotient“ = durch.
+  - Bezieht sich etwas auf eine **Summe** oder **Differenz**, braucht diese eine Klammer.
+  fehler:
+  - antwort: (x - 4)²
+    hinweis: Nur x wird quadriert, danach wird abgezogen.
+- id: A4.9-010
+  typ: term
+  stufe: 2
+  frage: Das Quadrat von x, vermindert um 6. Schreib den passenden Term.
+  form: frei
+  loesung: x² - 6
+  tipps:
+  - „Summe“ = plus, „Differenz“ = minus, „Produkt“ = mal, „Quotient“ = durch.
+  - Bezieht sich etwas auf eine **Summe** oder **Differenz**, braucht diese eine Klammer.
+  fehler:
+  - antwort: (x - 6)²
+    hinweis: Nur x wird quadriert, danach wird abgezogen.
+- id: A4.9-011
+  typ: term
+  stufe: 2
+  frage: Das Quadrat von x, vermindert um 7. Schreib den passenden Term.
+  form: frei
+  loesung: x² - 7
+  tipps:
+  - „Summe“ = plus, „Differenz“ = minus, „Produkt“ = mal, „Quotient“ = durch.
+  - Bezieht sich etwas auf eine **Summe** oder **Differenz**, braucht diese eine Klammer.
+  fehler:
+  - antwort: (x - 7)²
+    hinweis: Nur x wird quadriert, danach wird abgezogen.
+- id: A4.9-012
+  typ: term
+  stufe: 2
+  frage: Der Quotient aus x und 4, vermindert um 1. Schreib den passenden Term.
+  form: frei
+  loesung: x/4 - 1
+  tipps:
+  - „Summe“ = plus, „Differenz“ = minus, „Produkt“ = mal, „Quotient“ = durch.
+  - Bezieht sich etwas auf eine **Summe** oder **Differenz**, braucht diese eine Klammer.
+  fehler: []
+- id: A4.9-013
+  typ: term
+  stufe: 3
+  frage: Ein Quadrat hat die Seitenlänge s. Jede Seite wird um 3 cm verlängert. Gib einen Term für den neuen Umfang an.
+  form: frei
+  loesung: 4(s + 3)
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - Schreib Zwischengrößen mit Klammern, z. B. die Länge `(b + 3)`.
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: 4s + 3
+    hinweis: '**Jede** der vier Seiten wird länger.'
+- id: A4.9-014
+  typ: term
+  stufe: 3
+  frage: Eine Eintrittskarte kostet 9 € für Erwachsene und 7 € für Kinder. Gib einen Term für den Preis bei a Erwachsenen und k Kindern an.
+  form: frei
+  loesung: 9a + 7k
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - Schreib Zwischengrößen mit Klammern, z. B. die Länge `(b + 3)`.
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: 16(a + k)
+    hinweis: Erwachsene und Kinder zahlen verschieden viel – jede Gruppe extra.
+- id: A4.9-015
+  typ: term
+  stufe: 3
+  frage: Ein Rechteck ist um 7 cm länger als breit. Die Breite ist b. Gib einen Term für den **Umfang** an.
+  form: frei
+  loesung: 2b + 2(b + 7)
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - Schreib Zwischengrößen mit Klammern, z. B. die Länge `(b + 3)`.
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: b + (b + 7)
+    hinweis: Der Umfang hat **zwei** Längen und **zwei** Breiten.
+  - antwort: 2b + 2·7
+    hinweis: Die Länge ist `b + 7`, nicht nur 7.
+- id: A4.9-016
+  typ: term
+  stufe: 3
+  frage: Ein Quadrat hat die Seitenlänge s. Jede Seite wird um 6 cm verlängert. Gib einen Term für den neuen Umfang an.
+  form: frei
+  loesung: 4(s + 6)
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - Schreib Zwischengrößen mit Klammern, z. B. die Länge `(b + 3)`.
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: 4s + 6
+    hinweis: '**Jede** der vier Seiten wird länger.'
+- id: A4.9-017
+  typ: term
+  stufe: 3
+  frage: Eine Eintrittskarte kostet 4 € für Erwachsene und 5 € für Kinder. Gib einen Term für den Preis bei a Erwachsenen und k Kindern an.
+  form: frei
+  loesung: 4a + 5k
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - Schreib Zwischengrößen mit Klammern, z. B. die Länge `(b + 3)`.
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: 9(a + k)
+    hinweis: Erwachsene und Kinder zahlen verschieden viel – jede Gruppe extra.
+- id: A4.9-018
+  typ: term
+  stufe: 3
+  frage: Gib einen Term für die Summe dreier aufeinanderfolgender ganzer Zahlen an. Die kleinste ist n.
+  form: frei
+  loesung: n + (n + 1) + (n + 2)
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - Schreib Zwischengrößen mit Klammern, z. B. die Länge `(b + 3)`.
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: 3n
+    hinweis: Die Zahlen sind n, n + 1 und n + 2 – nicht dreimal dieselbe.
+- id: A4.9-019
+  typ: term
+  stufe: 4
+  frage: Ein Preis p wird zuerst um 10 % erhöht und danach um 10 % gesenkt. Gib einen Term für den Endpreis an.
+  form: frei
+  loesung: 1,1·0,9p
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - 'Prozent: „um 20 % erhöhen“ heißt mal 1,2; „um 20 % senken“ heißt mal 0,8.'
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: p
+    hinweis: Die 10 % beziehen sich das zweite Mal auf einen **größeren** Preis – es bleibt nicht gleich.
+- id: A4.9-020
+  typ: term
+  stufe: 4
+  frage: Ein Rechteck ist doppelt so lang wie breit. Die Breite ist x. Gib einen Term für den Flächeninhalt an.
+  form: frei
+  loesung: 2x·x
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - 'Prozent: „um 20 % erhöhen“ heißt mal 1,2; „um 20 % senken“ heißt mal 0,8.'
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: 2x
+    hinweis: 'Fläche = Länge mal Breite: `2x · x`.'
+- id: A4.9-021
+  typ: term
+  stufe: 4
+  frage: Gib einen Term für den Durchschnitt (Mittelwert) der Zahlen a, b und c an.
+  form: frei
+  loesung: (a + b + c)/3
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - 'Prozent: „um 20 % erhöhen“ heißt mal 1,2; „um 20 % senken“ heißt mal 0,8.'
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: a + b + c/3
+    hinweis: Die **ganze** Summe wird durch 3 dividiert – sie braucht eine Klammer.
+- id: A4.9-022
+  typ: term
+  stufe: 4
+  frage: Ein Kapital K wird zwei Jahre mit 4 % verzinst (Zinseszins). Gib einen Term für das Endkapital an.
+  form: frei
+  loesung: K·1,04²
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - 'Prozent: „um 20 % erhöhen“ heißt mal 1,2; „um 20 % senken“ heißt mal 0,8.'
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: K + 2·0,04K
+    hinweis: 'Beim Zinseszins werden im zweiten Jahr auch die Zinsen verzinst: zweimal mal 1,04.'
+- id: A4.9-023
+  typ: term
+  stufe: 4
+  frage: Ein Quadrat hat die Seitenlänge a. Eine Seite wird um 3 cm verlängert, die andere um 3 cm verkürzt. Gib einen Term für den Flächeninhalt des neuen Rechtecks an.
+  form: frei
+  loesung: (a + 3)(a - 3)
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - 'Prozent: „um 20 % erhöhen“ heißt mal 1,2; „um 20 % senken“ heißt mal 0,8.'
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: a²
+    hinweis: 'Probier es aus: Die Fläche ändert sich!'
+  - antwort: a² + 9
+    hinweis: 'Länge mal Breite: `(a + 3)(a - 3)`.'
+- id: A4.9-024
+  typ: term
+  stufe: 4
+  frage: Ein Preis p wird zuerst um 25 % erhöht und danach um 25 % gesenkt. Gib einen Term für den Endpreis an.
+  form: frei
+  loesung: 1,25·0,75p
+  tipps:
+  - 'Überleg zuerst: Wofür steht die Variable? Was hängt davon ab?'
+  - 'Prozent: „um 20 % erhöhen“ heißt mal 1,2; „um 20 % senken“ heißt mal 0,8.'
+  - Du musst den Term nicht vereinfachen – jede richtige Form zählt.
+  fehler:
+  - antwort: p
+    hinweis: Die 25 % beziehen sich das zweite Mal auf einen **größeren** Preis – es bleibt nicht gleich.
