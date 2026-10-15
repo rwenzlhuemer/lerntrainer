@@ -187,7 +187,7 @@
 - id: B4.4-008
   typ: lgs
   stufe: 2
-  frage: Eine Mutter ist heute 3-mal so alt wie ihre Tochter. In 12 Jahren ist sie 2-mal so alt. Wie alt sind Mutter (x) und Tochter (y) heute?
+  frage: Ein Großvater ist heute 3-mal so alt wie sein Enkel. In 12 Jahren ist er 2-mal so alt. Wie alt sind Großvater (x) und Enkel (y) heute?
   gleichungen:
   - x = 3y
   - x + 12 = 2(y + 12)

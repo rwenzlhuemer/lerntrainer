@@ -263,8 +263,8 @@ def b4_4(r, s):
         m = (x0 + j) // (y0 + j)
         if m in (1, n):
             return None
-        frage = (f"Eine Mutter ist heute {n}-mal so alt wie ihre Tochter. In {j} Jahren ist sie {m}-mal so alt. "
-                 "Wie alt sind Mutter (x) und Tochter (y) heute?")
+        frage = (f"Ein Großvater ist heute {n}-mal so alt wie sein Enkel. In {j} Jahren ist er {m}-mal so alt. "
+                 "Wie alt sind Großvater (x) und Enkel (y) heute?")
         gleichungen = [f"x = {n}y", f"x + {j} = {m}(y + {j})"]
         weg = [f"{n}y + {j} = {m}(y + {j}) | I in II einsetzen", f"{n}y + {j} = {m}y + {m * j}",
                f"{n - m}y = {m * j - j}", f"y = {y0}", f"x = {x0} | in I einsetzen"]
