@@ -82,3 +82,27 @@ export function graphSVG(spec) {
       <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
     ${teile.join("\n")}</svg>`;
 }
+
+// Säulendiagramm: { kategorien: ["Jan", …], werte: [12, …], achse: "Besucher", schritt?: 5 }
+export function saeulenSVG(spec) {
+  const B = 360, H = 240, links = 40, unten = 34, oben = 14;
+  const max = Math.max(...spec.werte);
+  const schritt = spec.schritt || [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000].find((s) => max / s <= 8) || 1000;
+  const yMax = Math.ceil(max / schritt) * schritt;
+  const py = (v) => H - unten - (v / yMax) * (H - unten - oben);
+  const n = spec.werte.length, breite = (B - links - 10) / n;
+  const teile = [];
+  for (let v = 0; v <= yMax + 1e-9; v += schritt) {
+    teile.push(`<line class="g-raster" x1="${links}" y1="${py(v)}" x2="${B - 6}" y2="${py(v)}"/>`);
+    teile.push(`<text class="g-zahl" x="${links - 5}" y="${py(v) + 4}" text-anchor="end">${zahl(v)}</text>`);
+  }
+  spec.werte.forEach((w, i) => {
+    const x = links + i * breite + breite * 0.18;
+    teile.push(`<rect x="${x}" y="${py(w)}" width="${breite * 0.64}" height="${py(0) - py(w)}" fill="#2f6f7e" rx="2"/>`);
+    teile.push(`<text class="g-zahl" x="${x + breite * 0.32}" y="${H - unten + 14}" text-anchor="middle">${esc(spec.kategorien[i])}</text>`);
+  });
+  teile.push(`<line class="g-achse" x1="${links}" y1="${py(0)}" x2="${B - 6}" y2="${py(0)}"/>`);
+  teile.push(`<line class="g-achse" x1="${links}" y1="${py(0)}" x2="${links}" y2="${oben - 4}"/>`);
+  if (spec.achse) teile.push(`<text class="g-achsname" x="${links + 4}" y="${oben - 2}">${esc(spec.achse)}</text>`);
+  return `<svg class="graph" viewBox="0 0 ${B} ${H}" role="img" aria-label="Säulendiagramm">${teile.join("\n")}</svg>`;
+}

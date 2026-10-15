@@ -1,0 +1,278 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F4.1-001
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '-2'
+  aus_term:
+    term: e^(-(x - (-2))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -6
+    - 2
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (-2))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-002
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '-1'
+  aus_term:
+    term: e^(-(x - (-1))^2/(2·2^2))/(2·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -9
+    - 7
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (-1))^2/(2·2^2))/(2·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-003
+  typ: zahl
+  stufe: 1
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '-2'
+  aus_term:
+    term: e^(-(x - (-2))^2/(2·2^2))/(2·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -10
+    - 6
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (-2))^2/(2·2^2))/(2·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-004
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '1'
+  aus_term:
+    term: e^(-(x - (1))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -3
+    - 5
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (1))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-005
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '3'
+  aus_term:
+    term: e^(-(x - (3))^2/(2·2^2))/(2·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -5
+    - 11
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (3))^2/(2·2^2))/(2·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-006
+  typ: zahl
+  stufe: 2
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '-1'
+  aus_term:
+    term: e^(-(x - (-1))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -5
+    - 3
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (-1))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-007
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '4'
+  aus_term:
+    term: e^(-(x - (4))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - 0
+    - 8
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (4))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-008
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '0'
+  aus_term:
+    term: e^(-(x - (0))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (0))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-009
+  typ: zahl
+  stufe: 3
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '3'
+  aus_term:
+    term: e^(-(x - (3))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -1
+    - 7
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (3))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-010
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '1'
+  aus_term:
+    term: e^(-(x - (1))^2/(2·2^2))/(2·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -7
+    - 9
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (1))^2/(2·2^2))/(2·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-011
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '0'
+  aus_term:
+    term: e^(-(x - (0))^2/(2·2^2))/(2·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -8
+    - 8
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (0))^2/(2·2^2))/(2·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []
+- id: F4.1-012
+  typ: zahl
+  stufe: 4
+  frage: Abgebildet ist die Dichtefunktion (Glockenkurve) einer Normalverteilung. Lies den Erwartungswert μ ab.
+  loesung: '2'
+  aus_term:
+    term: e^(-(x - (2))^2/(2·1^2))/(1·√(2π))
+    groesse: hochpunkt_x
+  graph:
+    x:
+    - -2
+    - 6
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - (2))^2/(2·1^2))/(1·√(2π))
+    schritt:
+    - 1
+    - 0.1
+  tipps:
+  - μ liegt dort, wo die Glockenkurve am höchsten ist (Symmetrieachse).
+  fehler: []

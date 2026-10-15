@@ -1,0 +1,15 @@
+id: F4.3
+titel: σ-Regeln
+ziel: Du schätzt mit den σ-Regeln ab, wie viele Werte in einem Bereich liegen.
+erklaerung: 'Bei jeder Normalverteilung gilt ungefähr:
+
+  - zwischen **μ − σ** und **μ + σ**: rund **68,3 %**
+
+  - zwischen **μ − 2σ** und **μ + 2σ**: rund **95,4 %**
+
+  - zwischen **μ − 3σ** und **μ + 3σ**: rund **99,7 %**'
+beispiel:
+  text: 'IQ-Werte mit μ = 100, σ = 15: Zwischen 70 und 130 (μ ± 2σ) liegen rund 95,4 %.'
+  wert: '30'
+  weg:
+  - 130 - 100 = 2·15 = 30

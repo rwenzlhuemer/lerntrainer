@@ -2,7 +2,7 @@
 import * as M from "./mathe.js";
 import * as S from "./speicher.js";
 import { schmierzettel } from "./schmierzettel.js";
-import { graphSVG } from "./graph.js";
+import { graphSVG, saeulenSVG } from "./graph.js";
 import "./handablage.js";
 
 const FACH = "mathe";
@@ -29,7 +29,7 @@ function tabelleHTML(t) {
     `<tr><th>${M.matheHTML(k)}</th>${spalten.map((s) => s[i]).join("")}</tr>`).join("")}</table></div>`;
 }
 
-const anschauung = (a) => (a.graph ? graphSVG(a.graph) : "") + (a.tabelle ? tabelleHTML(a.tabelle) : "");
+const anschauung = (a) => (a.graph ? graphSVG(a.graph) : "") + (a.diagramm ? saeulenSVG(a.diagramm) : "") + (a.tabelle ? tabelleHTML(a.tabelle) : "");
 const zufall = (liste) => liste[Math.floor(Math.random() * liste.length)];
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -707,7 +707,7 @@ async function seiteUeben(lid, testModus) {
     }
 
     function pruefeAntwort(roh) {
-      const r = M.pruefeZahl(roh, a.gerundet !== undefined ? a.rechnung : a.loesung, a.form, a.nenner, a.gerundet ?? null);
+      const r = M.pruefeZahl(roh, a.gerundet !== undefined && a.rechnung ? a.rechnung : a.loesung, a.form, a.nenner, a.gerundet ?? null);
       const einheitText = a.einheit ? " " + esc(a.einheit) : "";
       if (r.art === "form") return melde("neutral", `<p>${esc(r.hinweis)}</p>`);
       if (r.art === "gemischt") return melde("neutral", `<p>Schreib gemischte Zahlen bitte als Bruch: statt 2 1/2 schreibst du 5/2.</p>`);

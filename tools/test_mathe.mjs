@@ -49,10 +49,10 @@ for (const datei of readdirSync(DATEN)) {
         erwarte(M.findeFehler(r.menge?.x, a.fehler) === f, `${a.id}: Fehler-Hinweis ${f.antwort} nicht gefunden`);
       }
     } else if (a.typ === "zahl") {
-      const soll = a.gerundet !== undefined ? a.rechnung : a.loesung;
-      const rl = M.pruefeZahl(a.loesung, soll, a.form, a.nenner).art;
+      const soll = a.gerundet !== undefined && a.rechnung ? a.rechnung : a.loesung;
+      const rl = M.pruefeZahl(a.loesung, soll, a.form, a.nenner, a.gerundet ?? null).art;
       erwarte(rl === "richtig" || (a.gerundet !== undefined && rl === "gerundet"), `${a.id}: Lösung nicht erkannt (${rl})`);
-      if (a.gerundet !== undefined) erwarte(M.pruefeZahl(a.rechnung, soll).art === "richtig", `${a.id}: exakte Rechnung nicht erkannt`);
+      if (a.gerundet !== undefined && a.rechnung) erwarte(M.pruefeZahl(a.rechnung, soll).art === "richtig", `${a.id}: exakte Rechnung nicht erkannt`);
       if (a.einheit) erwarte(M.pruefeZahl(`${a.loesung} ${a.einheit}`, a.loesung).art === "richtig", `${a.id}: mit Einheit`);
       for (const f of a.fehler || []) {
         const r = M.pruefeZahl(f.antwort, soll, a.form, a.nenner);

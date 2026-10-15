@@ -1,0 +1,15 @@
+id: F3.2
+titel: Erwartungswert
+ziel: Du berechnest den Erwartungswert und deutest ihn.
+erklaerung: 'Der **Erwartungswert** ist der Wert, der sich auf lange Sicht im Durchschnitt ergibt:
+
+
+  **E(X) = x₁ · P(X = x₁) + x₂ · P(X = x₂) + …**
+
+
+  Bei einem Glücksspiel heißt ein negativer Erwartungswert: Auf Dauer verliert man im Schnitt so viel pro Spiel.'
+beispiel:
+  text: 'Gewinn 10 € mit Wahrscheinlichkeit 0,1, sonst −2 € (Einsatz verloren): E = 1 − 1,8 = −0,8 €.'
+  wert: -0,8
+  weg:
+  - 10·0,1 + (-2)·0,9 = -0,8

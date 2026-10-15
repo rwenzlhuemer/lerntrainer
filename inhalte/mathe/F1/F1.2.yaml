@@ -1,0 +1,13 @@
+id: F1.2
+titel: Mittelwert, Median, Modus
+ziel: Du berechnest die drei wichtigsten Mittelwerte einer Datenliste.
+erklaerung: '- **Mittelwert** (arithmetisches Mittel): alle Werte addieren, durch die Anzahl dividieren.
+
+  - **Median**: die Daten der Größe nach **ordnen**; der Wert in der Mitte. Bei gerader Anzahl: Mittelwert der beiden mittleren.
+
+  - **Modus**: der Wert, der am häufigsten vorkommt.'
+beispiel:
+  text: 'Daten 2; 9; 4; 4; 6. Geordnet: 2; 4; 4; 6; 9. Median 4, Modus 4, Mittelwert 25 : 5 = 5.'
+  wert: '5'
+  weg:
+  - (2 + 9 + 4 + 4 + 6)/5 = 5

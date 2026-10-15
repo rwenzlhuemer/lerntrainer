@@ -1,0 +1,327 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F4.2-001
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 1000 und σ = 50. Wie groß ist P(X ≤ 1000)?
+  loesung: 0,5
+  normal_p:
+    mu: 1000
+    sigma: 50
+    von: null
+    bis: 1000
+  tipps:
+  - Die Glockenkurve ist symmetrisch um μ.
+  - Die Fläche links von μ ist genau die Hälfte.
+  fehler: []
+- id: F4.2-002
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 35 und σ = 3. Wie groß ist P(X ≤ 35)?
+  loesung: 0,5
+  normal_p:
+    mu: 35
+    sigma: 3
+    von: null
+    bis: 35
+  tipps:
+  - Die Glockenkurve ist symmetrisch um μ.
+  - Die Fläche links von μ ist genau die Hälfte.
+  fehler: []
+- id: F4.2-003
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 100 und σ = 15. Wie groß ist P(X ≤ 100)?
+  loesung: 0,5
+  normal_p:
+    mu: 100
+    sigma: 15
+    von: null
+    bis: 100
+  tipps:
+  - Die Glockenkurve ist symmetrisch um μ.
+  - Die Fläche links von μ ist genau die Hälfte.
+  fehler: []
+- id: F4.2-004
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 500 und σ = 20. Wie groß ist P(X ≤ 500)?
+  loesung: 0,5
+  normal_p:
+    mu: 500
+    sigma: 20
+    von: null
+    bis: 500
+  tipps:
+  - Die Glockenkurve ist symmetrisch um μ.
+  - Die Fläche links von μ ist genau die Hälfte.
+  fehler: []
+- id: F4.2-005
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 170 und σ = 8. Wie groß ist P(X ≤ 170)?
+  loesung: 0,5
+  normal_p:
+    mu: 170
+    sigma: 8
+    von: null
+    bis: 170
+  tipps:
+  - Die Glockenkurve ist symmetrisch um μ.
+  - Die Fläche links von μ ist genau die Hälfte.
+  fehler: []
+- id: F4.2-006
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 250 und σ = 10. Ungefähr 68,3 % der Werte liegen zwischen 240 und 260. Wie groß ist (ungefähr) P(X > 260)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 250
+    sigma: 10
+    von: 260
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-007
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 1000 und σ = 50. Ungefähr 68,3 % der Werte liegen zwischen 950 und 1050. Wie groß ist (ungefähr) P(X > 1050)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 1000
+    sigma: 50
+    von: 1050
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-008
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 500 und σ = 20. Ungefähr 95,4 % der Werte liegen zwischen 460 und 540. Wie groß ist (ungefähr) P(X > 540)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 500
+    sigma: 20
+    von: 540
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-009
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 20 und σ = 2. Ungefähr 68,3 % der Werte liegen zwischen 18 und 22. Wie groß ist (ungefähr) P(X > 22)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 20
+    sigma: 2
+    von: 22
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-010
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 100 und σ = 15. Ungefähr 68,3 % der Werte liegen zwischen 85 und 115. Wie groß ist (ungefähr) P(X > 115)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 100
+    sigma: 15
+    von: 115
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-011
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 20 und σ = 2. Ungefähr 95,4 % der Werte liegen zwischen 16 und 24. Wie groß ist (ungefähr) P(X > 24)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 20
+    sigma: 2
+    von: 24
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-012
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 50 und σ = 5. Ungefähr 95,4 % der Werte liegen zwischen 40 und 60. Wie groß ist (ungefähr) P(X > 60)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 50
+    sigma: 5
+    von: 60
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-013
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 80 und σ = 6. Ungefähr 95,4 % der Werte liegen zwischen 68 und 92. Wie groß ist (ungefähr) P(X > 92)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 80
+    sigma: 6
+    von: 92
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-014
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 50 und σ = 5. Ungefähr 68,3 % der Werte liegen zwischen 45 und 55. Wie groß ist (ungefähr) P(X > 55)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 50
+    sigma: 5
+    von: 55
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-015
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 35 und σ = 3. Ungefähr 95,4 % der Werte liegen zwischen 29 und 41. Wie groß ist (ungefähr) P(X > 41)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 35
+    sigma: 3
+    von: 41
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-016
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 100 und σ = 15. Ungefähr 95,4 % der Werte liegen zwischen 70 und 130. Wie groß ist (ungefähr) P(X > 130)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 100
+    sigma: 15
+    von: 130
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-017
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 1000 und σ = 50. Ungefähr 95,4 % der Werte liegen zwischen 900 und 1100. Wie groß ist (ungefähr) P(X > 1100)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 1000
+    sigma: 50
+    von: 1100
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-018
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 35 und σ = 3. Ungefähr 68,3 % der Werte liegen zwischen 32 und 38. Wie groß ist (ungefähr) P(X > 38)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 35
+    sigma: 3
+    von: 38
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-019
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 170 und σ = 8. Ungefähr 95,4 % der Werte liegen zwischen 154 und 186. Wie groß ist (ungefähr) P(X > 186)? (auf drei Nachkommastellen)
+  loesung: 0,023
+  gerundet: 3
+  normal_p:
+    mu: 170
+    sigma: 8
+    von: 186
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,954.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 23/500
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.
+- id: F4.2-020
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 500 und σ = 20. Ungefähr 68,3 % der Werte liegen zwischen 480 und 520. Wie groß ist (ungefähr) P(X > 520)? (auf drei Nachkommastellen)
+  loesung: 0,159
+  gerundet: 3
+  normal_p:
+    mu: 500
+    sigma: 20
+    von: 520
+    bis: null
+  tipps:
+  - Außerhalb liegen 1 − 0,683.
+  - 'Die Kurve ist symmetrisch: Die Hälfte davon liegt rechts.'
+  fehler:
+  - antwort: 317/1000
+    hinweis: Das ist links **und** rechts zusammen. Rechts allein ist die Hälfte.

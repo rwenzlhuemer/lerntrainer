@@ -1,0 +1,578 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F3.1-001
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,42
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,02
+    - - '1'
+      - 0,04
+    - - '2'
+      - 0,52
+    - - '3'
+      - '?'
+  rechnung: 1 - (0,02 + 0,04 + 0,52)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-002
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,57
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - '?'
+    - - '1'
+      - 0,26
+    - - '2'
+      - 0,1
+    - - '3'
+      - 0,07
+  rechnung: 1 - (0,26 + 0,1 + 0,07)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-003
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,24
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,06
+    - - '1'
+      - 0,61
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,09
+  rechnung: 1 - (0,06 + 0,61 + 0,09)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-004
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,2
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - '?'
+    - - '1'
+      - 0,3
+    - - '2'
+      - 0,3
+    - - '3'
+      - 0,2
+  rechnung: 1 - (0,3 + 0,3 + 0,2)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-005
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,3
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - '?'
+    - - '1'
+      - 0,4
+    - - '2'
+      - 0,1
+    - - '3'
+      - 0,2
+  rechnung: 1 - (0,4 + 0,1 + 0,2)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-006
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,2
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,6
+    - - '1'
+      - 0,1
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,1
+  rechnung: 1 - (0,6 + 0,1 + 0,1)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-007
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,8
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,1
+    - - '1'
+      - 0,05
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,05
+  rechnung: 1 - (0,1 + 0,05 + 0,05)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-008
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,1
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,15
+    - - '1'
+      - 0,55
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,2
+  rechnung: 1 - (0,15 + 0,55 + 0,2)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-009
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,6
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,1
+    - - '1'
+      - 0,2
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,1
+  rechnung: 1 - (0,1 + 0,2 + 0,1)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-010
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,2
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,2
+    - - '1'
+      - 0,5
+    - - '2'
+      - 0,1
+    - - '3'
+      - '?'
+  rechnung: 1 - (0,2 + 0,5 + 0,1)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-011
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,4
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,1
+    - - '1'
+      - '?'
+    - - '2'
+      - 0,2
+    - - '3'
+      - 0,3
+  rechnung: 1 - (0,1 + 0,2 + 0,3)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-012
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,18
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,08
+    - - '1'
+      - 0,07
+    - - '2'
+      - 0,67
+    - - '3'
+      - '?'
+  rechnung: 1 - (0,08 + 0,07 + 0,67)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-013
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,1
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,1
+    - - '1'
+      - '?'
+    - - '2'
+      - 0,3
+    - - '3'
+      - 0,1
+    - - '4'
+      - 0,4
+  rechnung: 1 - (0,1 + 0,3 + 0,1 + 0,4)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-014
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,2
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,1
+    - - '1'
+      - 0,2
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,1
+    - - '4'
+      - 0,4
+  rechnung: 1 - (0,1 + 0,2 + 0,1 + 0,4)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-015
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,21
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,35
+    - - '1'
+      - 0,06
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,33
+    - - '4'
+      - 0,05
+  rechnung: 1 - (0,35 + 0,06 + 0,33 + 0,05)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-016
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,14
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,3
+    - - '1'
+      - 0,03
+    - - '2'
+      - 0,09
+    - - '3'
+      - 0,44
+    - - '4'
+      - '?'
+  rechnung: 1 - (0,3 + 0,03 + 0,09 + 0,44)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-017
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,05
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,25
+    - - '1'
+      - 0,1
+    - - '2'
+      - 0,4
+    - - '3'
+      - 0,2
+    - - '4'
+      - '?'
+  rechnung: 1 - (0,25 + 0,1 + 0,4 + 0,2)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-018
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,35
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,07
+    - - '1'
+      - 0,13
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,18
+    - - '4'
+      - 0,27
+  rechnung: 1 - (0,07 + 0,13 + 0,18 + 0,27)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-019
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,03
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,51
+    - - '1'
+      - '?'
+    - - '2'
+      - 0,02
+    - - '3'
+      - 0,2
+    - - '4'
+      - 0,24
+  rechnung: 1 - (0,51 + 0,02 + 0,2 + 0,24)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-020
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,02
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,45
+    - - '1'
+      - '?'
+    - - '2'
+      - 0,19
+    - - '3'
+      - 0,05
+    - - '4'
+      - 0,29
+  rechnung: 1 - (0,45 + 0,19 + 0,05 + 0,29)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-021
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,1
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,4
+    - - '1'
+      - 0,2
+    - - '2'
+      - 0,1
+    - - '3'
+      - '?'
+    - - '4'
+      - 0,2
+  rechnung: 1 - (0,4 + 0,2 + 0,1 + 0,2)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-022
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,01
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,51
+    - - '1'
+      - '?'
+    - - '2'
+      - 0,09
+    - - '3'
+      - 0,26
+    - - '4'
+      - 0,13
+  rechnung: 1 - (0,51 + 0,09 + 0,26 + 0,13)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-023
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,1
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,05
+    - - '1'
+      - 0,35
+    - - '2'
+      - 0,4
+    - - '3'
+      - '?'
+    - - '4'
+      - 0,1
+  rechnung: 1 - (0,05 + 0,35 + 0,4 + 0,1)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []
+- id: F3.1-024
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Welche Wahrscheinlichkeit fehlt?
+  loesung: 0,04
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,1
+    - - '1'
+      - 0,17
+    - - '2'
+      - '?'
+    - - '3'
+      - 0,29
+    - - '4'
+      - 0,4
+  rechnung: 1 - (0,1 + 0,17 + 0,29 + 0,4)
+  tipps:
+  - Alle Wahrscheinlichkeiten zusammen ergeben 1.
+  - Fehlender Wert = 1 − Summe der anderen.
+  fehler: []

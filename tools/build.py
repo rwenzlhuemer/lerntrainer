@@ -118,6 +118,15 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
                     fehler.melde(wo, f"{schluessel} ergibt {wert_}, nicht {a['loesung']!r}")
             except Exception as e:  # noqa: BLE001
                 fehler.melde(wo, f"{schluessel} nicht prüfbar ({e})")
+    if any(k in a for k in STOCHASTIK):
+        try:
+            wert_ = sympy.nsimplify(stochastik_wert(a)) if not isinstance(stochastik_wert(a), sympy.Basic) else stochastik_wert(a)
+            erlaubt = sympy.Rational(1, 2 * 10 ** a["gerundet"]) if "gerundet" in a else 0
+            d = abs(sympy.N(wert_ - soll, 30))
+            if (erlaubt and d > erlaubt) or (not erlaubt and sympy.simplify(wert_ - soll) != 0):
+                fehler.melde(wo, f"Stochastik: richtig wäre {wert_} ({float(wert_):.6g}), nicht {a['loesung']!r}")
+        except Exception as e:  # noqa: BLE001
+            fehler.melde(wo, f"Stochastik nicht prüfbar ({e})")
     if "grad_regel" in a:
         # Polynom vom Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen
         n, art = a["grad_regel"]["grad"], a["grad_regel"]["art"]
@@ -153,7 +162,7 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
         except Exception as e:  # noqa: BLE001
             fehler.melde(wo, f"Gleichung nicht lesbar ({e})")
     if "gleichung" not in a:
-        exakt = notation.zahl(a["rechnung"]) if "gerundet" in a else soll
+        exakt = notation.zahl(a["rechnung"]) if "gerundet" in a and "rechnung" in a else soll
         # Rechenweg als Kette: „1/2 + 1/3 = 3/6 + 2/6 = 5/6“ – jedes Glied muss den Wert der Lösung haben
         for zeile in a.get("weg", []):
             for teil in zeile.split("|")[0].split("="):
@@ -450,6 +459,121 @@ def pruefe_graph(a: dict, wo: str, fehler: Fehlerliste):
     t = a.get("tabelle")
     if t and any(len(z) != len(t["kopf"]) for z in t["zeilen"]):
         fehler.melde(wo, "Tabelle: Zeilen passen nicht zum Kopf")
+
+
+def stochastik_wert(a: dict):
+    """Unabhängige Berechnung für Statistik- und Wahrscheinlichkeitsaufgaben (exakt, mit Brüchen)."""
+    from fractions import Fraction
+    from itertools import product
+
+    if "statistik" in a:
+        p = a["statistik"]
+        d = sorted(Fraction(str(notation.zahl(str(v)))) for v in p["daten"])
+        n = len(d)
+
+        def median(liste):
+            m = len(liste)
+            return liste[m // 2] if m % 2 else (liste[m // 2 - 1] + liste[m // 2]) / 2
+
+        g = p["groesse"]
+        if g == "mittelwert":
+            return sum(d) / n
+        if g == "median":
+            return median(d)
+        if g == "modus":
+            (m,) = [v for v in set(d) if d.count(v) == max(d.count(w) for w in d)]
+            return m
+        if g == "spannweite":
+            return d[-1] - d[0]
+        # Quartile wie im Schulbuch: Median der unteren bzw. oberen Hälfte (ohne den Median bei ungeradem n)
+        unten, oben = d[: n // 2], d[(n + 1) // 2:]
+        if g == "q1":
+            return median(unten)
+        if g == "q3":
+            return median(oben)
+        if g == "iqr":
+            return median(oben) - median(unten)
+        if g == "varianz":
+            mw = sum(d) / n
+            return sum((v - mw) ** 2 for v in d) / n
+        raise ValueError(g)
+    if "gewogen" in a:
+        w = [Fraction(str(notation.zahl(str(v)))) for v in a["gewogen"]["werte"]]
+        g = [Fraction(str(notation.zahl(str(v)))) for v in a["gewogen"]["gewichte"]]
+        return sum(x * y for x, y in zip(w, g)) / sum(g)
+    if "aus_daten" in a:
+        p = a["aus_daten"]
+        w = [Fraction(str(notation.zahl(str(v)))) for v in p["werte"]]
+        art = p["art"]
+        if art == "wert":
+            return w[p["i"]]
+        if art == "differenz":
+            return w[p["i"]] - w[p["j"]]
+        if art == "summe":
+            return sum(w)
+        if art == "anteil_prozent":
+            return w[p["i"]] / sum(w) * 100
+        raise ValueError(art)
+    if "laplace" in a:
+        p = a["laplace"]
+        namen = "abcd"[: len(p["raum"])]
+        ergebnisse = list(product(*p["raum"]))
+        guenstig = sum(1 for e in ergebnisse if eval(p["bedingung"], {"__builtins__": {}, "abs": abs}, dict(zip(namen, e))))  # noqa: S307 – eigene Daten
+        return Fraction(guenstig, len(ergebnisse))
+    if "urne" in a:
+        p = a["urne"]
+        kugeln = p["kugeln"]  # {"r": 3, "b": 2}
+        gesamt = 0
+        for folge in product(kugeln.keys(), repeat=p["zuege"]):
+            rest = dict(kugeln)
+            prob = Fraction(1)
+            for k in folge:
+                n = sum(rest.values())
+                if rest[k] == 0:
+                    prob = Fraction(0)
+                    break
+                prob *= Fraction(rest[k], n)
+                if not p["zuruecklegen"]:
+                    rest[k] -= 1
+            zug = "".join(folge)
+            if prob and eval(p["bedingung"], {"__builtins__": {}}, {"zug": zug}):  # noqa: S307 – eigene Daten
+                gesamt += prob
+        return gesamt
+    if "binom" in a:
+        p = a["binom"]
+        n, k = p["n"], p.get("k", 0)
+        q = Fraction(str(notation.zahl(str(p["p"]))))
+        pk = lambda i: Fraction(math.comb(n, i)) * q ** i * (1 - q) ** (n - i)  # noqa: E731
+        art = p["art"]
+        if art == "gleich":
+            return pk(k)
+        if art == "hoechstens":
+            return sum(pk(i) for i in range(k + 1))
+        if art == "mindestens":
+            return sum(pk(i) for i in range(k, n + 1))
+        if art == "mu":
+            return n * q
+        if art == "sigma":
+            return sympy.sqrt(sympy.Rational(n) * sympy.Rational(q.numerator, q.denominator) * (1 - sympy.Rational(q.numerator, q.denominator)))
+        raise ValueError(art)
+    if "erwartungswert" in a:
+        p = a["erwartungswert"]
+        w = [Fraction(str(notation.zahl(str(v)))) for v in p["werte"]]
+        q = [Fraction(str(notation.zahl(str(v)))) for v in p["wahrscheinlichkeiten"]]
+        if sum(q) != 1:
+            raise ValueError("Wahrscheinlichkeiten ergeben nicht 1")
+        return sum(x * y for x, y in zip(w, q))
+    if "normal_p" in a:
+        p = a["normal_p"]
+        mu, s = notation.zahl(str(p["mu"])), notation.zahl(str(p["sigma"]))
+        cdf = lambda v: (1 + sympy.erf((v - mu) / (s * sympy.sqrt(2)))) / 2  # noqa: E731
+        lo = cdf(notation.zahl(str(p["von"]))) if p.get("von") is not None else 0
+        hi = cdf(notation.zahl(str(p["bis"]))) if p.get("bis") is not None else 1
+        return (hi - lo) * (100 if p.get("prozent") else 1)
+    return None
+
+
+STOCHASTIK = ("statistik", "gewogen", "aus_daten", "laplace", "urne", "binom", "erwartungswert", "normal_p")
 
 
 def pruefe_zahlform(a: dict, wo: str, fehler: Fehlerliste):

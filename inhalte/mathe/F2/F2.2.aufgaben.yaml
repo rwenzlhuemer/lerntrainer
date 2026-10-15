@@ -1,0 +1,232 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F2.2-001
+  typ: zahl
+  stufe: 1
+  frage: Bei 50 Würfen mit einem Reißnagel landete er 1-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,02
+  gerundet: 3
+  rechnung: 1/50
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: '50'
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-002
+  typ: zahl
+  stufe: 1
+  frage: Bei 120 Würfen mit einem Reißnagel landete er 2-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,017
+  gerundet: 3
+  rechnung: 2/120
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: '60'
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-003
+  typ: zahl
+  stufe: 1
+  frage: Bei 200 Würfen mit einem Reißnagel landete er 5-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,025
+  gerundet: 3
+  rechnung: 5/200
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: '40'
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-004
+  typ: zahl
+  stufe: 1
+  frage: Bei 120 Würfen mit einem Reißnagel landete er 37-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,308
+  gerundet: 3
+  rechnung: 37/120
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 120/37
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-005
+  typ: zahl
+  stufe: 1
+  frage: Bei 80 Würfen mit einem Reißnagel landete er 14-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,175
+  gerundet: 3
+  rechnung: 14/80
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 40/7
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-006
+  typ: zahl
+  stufe: 2
+  frage: Bei 120 Würfen mit einem Reißnagel landete er 9-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,075
+  gerundet: 3
+  rechnung: 9/120
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 40/3
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-007
+  typ: zahl
+  stufe: 2
+  frage: Bei 80 Würfen mit einem Reißnagel landete er 7-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,087
+  gerundet: 3
+  rechnung: 7/80
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 80/7
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-008
+  typ: zahl
+  stufe: 2
+  frage: Bei 400 Würfen mit einem Reißnagel landete er 95-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,237
+  gerundet: 3
+  rechnung: 95/400
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 80/19
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-009
+  typ: zahl
+  stufe: 2
+  frage: Bei 250 Würfen mit einem Reißnagel landete er 96-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,384
+  gerundet: 3
+  rechnung: 96/250
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 125/48
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-010
+  typ: zahl
+  stufe: 2
+  frage: Bei 400 Würfen mit einem Reißnagel landete er 171-mal auf der Spitze. Wie groß ist die **relative Häufigkeit** (als Dezimalzahl)?
+  loesung: 0,427
+  gerundet: 3
+  rechnung: 171/400
+  tipps:
+  - 'Relative Häufigkeit = Anzahl : Gesamtzahl.'
+  fehler:
+  - antwort: 400/171
+    hinweis: 'Umgekehrt: Anzahl **durch** Gesamtzahl.'
+- id: F2.2-011
+  typ: zahl
+  stufe: 3
+  frage: Bei 500 Versuchen trat ein Ereignis 19-mal auf. Wie oft ist es bei 5000 Versuchen ungefähr zu erwarten?
+  loesung: '190'
+  gerundet: 0
+  rechnung: 19/500·5000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 5000.
+  fehler: []
+- id: F2.2-012
+  typ: zahl
+  stufe: 3
+  frage: Bei 400 Versuchen trat ein Ereignis 83-mal auf. Wie oft ist es bei 1000 Versuchen ungefähr zu erwarten?
+  loesung: '208'
+  gerundet: 0
+  rechnung: 83/400·1000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 1000.
+  fehler: []
+- id: F2.2-013
+  typ: zahl
+  stufe: 3
+  frage: Bei 200 Versuchen trat ein Ereignis 83-mal auf. Wie oft ist es bei 2000 Versuchen ungefähr zu erwarten?
+  loesung: '830'
+  gerundet: 0
+  rechnung: 83/200·2000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 2000.
+  fehler: []
+- id: F2.2-014
+  typ: zahl
+  stufe: 3
+  frage: Bei 400 Versuchen trat ein Ereignis 45-mal auf. Wie oft ist es bei 1000 Versuchen ungefähr zu erwarten?
+  loesung: '112'
+  gerundet: 0
+  rechnung: 45/400·1000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 1000.
+  fehler: []
+- id: F2.2-015
+  typ: zahl
+  stufe: 3
+  frage: Bei 200 Versuchen trat ein Ereignis 82-mal auf. Wie oft ist es bei 1000 Versuchen ungefähr zu erwarten?
+  loesung: '410'
+  gerundet: 0
+  rechnung: 82/200·1000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 1000.
+  fehler: []
+- id: F2.2-016
+  typ: zahl
+  stufe: 4
+  frage: Bei 200 Versuchen trat ein Ereignis 72-mal auf. Wie oft ist es bei 5000 Versuchen ungefähr zu erwarten?
+  loesung: '1800'
+  gerundet: 0
+  rechnung: 72/200·5000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 5000.
+  fehler: []
+- id: F2.2-017
+  typ: zahl
+  stufe: 4
+  frage: Bei 400 Versuchen trat ein Ereignis 128-mal auf. Wie oft ist es bei 5000 Versuchen ungefähr zu erwarten?
+  loesung: '1600'
+  gerundet: 0
+  rechnung: 128/400·5000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 5000.
+  fehler: []
+- id: F2.2-018
+  typ: zahl
+  stufe: 4
+  frage: Bei 120 Versuchen trat ein Ereignis 13-mal auf. Wie oft ist es bei 5000 Versuchen ungefähr zu erwarten?
+  loesung: '542'
+  gerundet: 0
+  rechnung: 13/120·5000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 5000.
+  fehler: []
+- id: F2.2-019
+  typ: zahl
+  stufe: 4
+  frage: Bei 50 Versuchen trat ein Ereignis 6-mal auf. Wie oft ist es bei 1000 Versuchen ungefähr zu erwarten?
+  loesung: '120'
+  gerundet: 0
+  rechnung: 6/50·1000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 1000.
+  fehler: []
+- id: F2.2-020
+  typ: zahl
+  stufe: 4
+  frage: Bei 400 Versuchen trat ein Ereignis 96-mal auf. Wie oft ist es bei 1000 Versuchen ungefähr zu erwarten?
+  loesung: '240'
+  gerundet: 0
+  rechnung: 96/400·1000
+  tipps:
+  - 'Relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit: k : n.'
+  - Dann mal 1000.
+  fehler: []

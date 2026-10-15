@@ -1,0 +1,784 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F3.2-001
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: '9'
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '4'
+      - 0,15
+    - - '9'
+      - 0,1
+    - - '10'
+      - 0,75
+  erwartungswert:
+    werte:
+    - 4
+    - 9
+    - 10
+    wahrscheinlichkeiten:
+    - 0,15
+    - 0,1
+    - 0,75
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 4·0,15 + 9·0,1 + 10·0,75
+  fehler:
+  - antwort: 23/3
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-002
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 6,7
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '6'
+      - 0,45
+    - - '7'
+      - 0,4
+    - - '8'
+      - 0,15
+  erwartungswert:
+    werte:
+    - 6
+    - 7
+    - 8
+    wahrscheinlichkeiten:
+    - 0,45
+    - 0,4
+    - 0,15
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 6·0,45 + 7·0,4 + 8·0,15
+  fehler:
+  - antwort: '7'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-003
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 3,7
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,45
+    - - '1'
+      - 0,1
+    - - '8'
+      - 0,45
+  erwartungswert:
+    werte:
+    - 0
+    - 1
+    - 8
+    wahrscheinlichkeiten:
+    - 0,45
+    - 0,1
+    - 0,45
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 0·0,45 + 1·0,1 + 8·0,45
+  fehler:
+  - antwort: '3'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-004
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 3,75
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '3'
+      - 0,5
+    - - '4'
+      - 0,25
+    - - '5'
+      - 0,25
+  erwartungswert:
+    werte:
+    - 3
+    - 4
+    - 5
+    wahrscheinlichkeiten:
+    - 0,5
+    - 0,25
+    - 0,25
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 3·0,5 + 4·0,25 + 5·0,25
+  fehler:
+  - antwort: '4'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-005
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 3,4
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,2
+    - - '3'
+      - 0,6
+    - - '8'
+      - 0,2
+  erwartungswert:
+    werte:
+    - 0
+    - 3
+    - 8
+    wahrscheinlichkeiten:
+    - 0,2
+    - 0,6
+    - 0,2
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 0·0,2 + 3·0,6 + 8·0,2
+  fehler:
+  - antwort: 11/3
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-006
+  typ: zahl
+  stufe: 1
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 4,5
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,5
+    - - '8'
+      - 0,25
+    - - '10'
+      - 0,25
+  erwartungswert:
+    werte:
+    - 0
+    - 8
+    - 10
+    wahrscheinlichkeiten:
+    - 0,5
+    - 0,25
+    - 0,25
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 0·0,5 + 8·0,25 + 10·0,25
+  fehler:
+  - antwort: '6'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-007
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 3,75
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '2'
+      - 0,25
+    - - '3'
+      - 0,25
+    - - '5'
+      - 0,5
+  erwartungswert:
+    werte:
+    - 2
+    - 3
+    - 5
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,5
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 2·0,25 + 3·0,25 + 5·0,5
+  fehler:
+  - antwort: 10/3
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-008
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 3,7
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '1'
+      - 0,4
+    - - '3'
+      - 0,3
+    - - '8'
+      - 0,3
+  erwartungswert:
+    werte:
+    - 1
+    - 3
+    - 8
+    wahrscheinlichkeiten:
+    - 0,4
+    - 0,3
+    - 0,3
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 1·0,4 + 3·0,3 + 8·0,3
+  fehler:
+  - antwort: '4'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-009
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 4,2
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '3'
+      - 0,75
+    - - '6'
+      - 0,1
+    - - '9'
+      - 0,15
+  erwartungswert:
+    werte:
+    - 3
+    - 6
+    - 9
+    wahrscheinlichkeiten:
+    - 0,75
+    - 0,1
+    - 0,15
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 3·0,75 + 6·0,1 + 9·0,15
+  fehler:
+  - antwort: '6'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-010
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 5,25
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '2'
+      - 0,25
+    - - '5'
+      - 0,25
+    - - '7'
+      - 0,5
+  erwartungswert:
+    werte:
+    - 2
+    - 5
+    - 7
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,5
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 2·0,25 + 5·0,25 + 7·0,5
+  fehler:
+  - antwort: 14/3
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-011
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: '3'
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,5
+    - - '2'
+      - 0,1
+    - - '7'
+      - 0,4
+  erwartungswert:
+    werte:
+    - 0
+    - 2
+    - 7
+    wahrscheinlichkeiten:
+    - 0,5
+    - 0,1
+    - 0,4
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 0·0,5 + 2·0,1 + 7·0,4
+  fehler: []
+- id: F3.2-012
+  typ: zahl
+  stufe: 2
+  frage: Die Tabelle zeigt die Verteilung (Zufallsvariable X). Berechne den **Erwartungswert** E(X).
+  loesung: 3,75
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '1'
+      - 0,25
+    - - '2'
+      - 0,25
+    - - '6'
+      - 0,5
+  erwartungswert:
+    werte:
+    - 1
+    - 2
+    - 6
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,5
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 1·0,25 + 2·0,25 + 6·0,5
+  fehler:
+  - antwort: '3'
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-013
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 1,8
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-4'
+      - 0,1
+    - - '1'
+      - 0,6
+    - - '2'
+      - 0,1
+    - - '7'
+      - 0,2
+  erwartungswert:
+    werte:
+    - -4
+    - 1
+    - 2
+    - 7
+    wahrscheinlichkeiten:
+    - 0,1
+    - 0,6
+    - 0,1
+    - 0,2
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -4·0,1 + 1·0,6 + 2·0,1 + 7·0,2
+  fehler:
+  - antwort: 3/2
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-014
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 1,8
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-2'
+      - 0,2
+    - - '-1'
+      - 0,4
+    - - '3'
+      - 0,2
+    - - '10'
+      - 0,2
+  erwartungswert:
+    werte:
+    - -2
+    - -1
+    - 3
+    - 10
+    wahrscheinlichkeiten:
+    - 0,2
+    - 0,4
+    - 0,2
+    - 0,2
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -2·0,2 + -1·0,4 + 3·0,2 + 10·0,2
+  fehler:
+  - antwort: 5/2
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-015
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 5,8
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-1'
+      - 0,2
+    - - '2'
+      - 0,2
+    - - '8'
+      - 0,2
+    - - '10'
+      - 0,4
+  erwartungswert:
+    werte:
+    - -1
+    - 2
+    - 8
+    - 10
+    wahrscheinlichkeiten:
+    - 0,2
+    - 0,2
+    - 0,2
+    - 0,4
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -1·0,2 + 2·0,2 + 8·0,2 + 10·0,4
+  fehler:
+  - antwort: 19/4
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-016
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: -0,25
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-3'
+      - 0,25
+    - - '-2'
+      - 0,25
+    - - '0'
+      - 0,25
+    - - '4'
+      - 0,25
+  erwartungswert:
+    werte:
+    - -3
+    - -2
+    - 0
+    - 4
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,25
+    - 0,25
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -3·0,25 + -2·0,25 + 0·0,25 + 4·0,25
+  fehler: []
+- id: F3.2-017
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 0,25
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-5'
+      - 0,25
+    - - '-2'
+      - 0,25
+    - - '3'
+      - 0,25
+    - - '5'
+      - 0,25
+  erwartungswert:
+    werte:
+    - -5
+    - -2
+    - 3
+    - 5
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,25
+    - 0,25
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -5·0,25 + -2·0,25 + 3·0,25 + 5·0,25
+  fehler: []
+- id: F3.2-018
+  typ: zahl
+  stufe: 3
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: -1,6
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-4'
+      - 0,65
+    - - '1'
+      - 0,15
+    - - '4'
+      - 0,15
+    - - '5'
+      - 0,05
+  erwartungswert:
+    werte:
+    - -4
+    - 1
+    - 4
+    - 5
+    wahrscheinlichkeiten:
+    - 0,65
+    - 0,15
+    - 0,15
+    - 0,05
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -4·0,65 + 1·0,15 + 4·0,15 + 5·0,05
+  fehler:
+  - antwort: 3/2
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-019
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: '2'
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-5'
+      - 0,25
+    - - '-2'
+      - 0,25
+    - - '7'
+      - 0,25
+    - - '8'
+      - 0,25
+  erwartungswert:
+    werte:
+    - -5
+    - -2
+    - 7
+    - 8
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,25
+    - 0,25
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -5·0,25 + -2·0,25 + 7·0,25 + 8·0,25
+  fehler: []
+- id: F3.2-020
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 0,5
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-2'
+      - 0,25
+    - - '0'
+      - 0,25
+    - - '1'
+      - 0,25
+    - - '3'
+      - 0,25
+  erwartungswert:
+    werte:
+    - -2
+    - 0
+    - 1
+    - 3
+    wahrscheinlichkeiten:
+    - 0,25
+    - 0,25
+    - 0,25
+    - 0,25
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -2·0,25 + 0·0,25 + 1·0,25 + 3·0,25
+  fehler: []
+- id: F3.2-021
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 2,1
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-3'
+      - 0,4
+    - - '0'
+      - 0,15
+    - - '6'
+      - 0,3
+    - - '10'
+      - 0,15
+  erwartungswert:
+    werte:
+    - -3
+    - 0
+    - 6
+    - 10
+    wahrscheinlichkeiten:
+    - 0,4
+    - 0,15
+    - 0,3
+    - 0,15
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -3·0,4 + 0·0,15 + 6·0,3 + 10·0,15
+  fehler:
+  - antwort: 13/4
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-022
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 3,4
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '-3'
+      - 0,2
+    - - '3'
+      - 0,2
+    - - '5'
+      - 0,2
+    - - '6'
+      - 0,4
+  erwartungswert:
+    werte:
+    - -3
+    - 3
+    - 5
+    - 6
+    wahrscheinlichkeiten:
+    - 0,2
+    - 0,2
+    - 0,2
+    - 0,4
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - -3·0,2 + 3·0,2 + 5·0,2 + 6·0,4
+  fehler:
+  - antwort: 11/4
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-023
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 7,9
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '2'
+      - 0,1
+    - - '5'
+      - 0,1
+    - - '8'
+      - 0,4
+    - - '10'
+      - 0,4
+  erwartungswert:
+    werte:
+    - 2
+    - 5
+    - 8
+    - 10
+    wahrscheinlichkeiten:
+    - 0,1
+    - 0,1
+    - 0,4
+    - 0,4
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 2·0,1 + 5·0,1 + 8·0,4 + 10·0,4
+  fehler:
+  - antwort: 25/4
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.
+- id: F3.2-024
+  typ: zahl
+  stufe: 4
+  frage: Die Tabelle zeigt die Verteilung (Gewinn in Euro bei einem Glücksspiel). Berechne den **Erwartungswert** E(X).
+  loesung: 5,8
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,2
+    - - '6'
+      - 0,25
+    - - '7'
+      - 0,4
+    - - '10'
+      - 0,15
+  erwartungswert:
+    werte:
+    - 0
+    - 6
+    - 7
+    - 10
+    wahrscheinlichkeiten:
+    - 0,2
+    - 0,25
+    - 0,4
+    - 0,15
+  tipps:
+  - E(X) = Summe aus Wert mal Wahrscheinlichkeit.
+  - 0·0,2 + 6·0,25 + 7·0,4 + 10·0,15
+  fehler:
+  - antwort: 23/4
+    hinweis: Nicht einfach der Mittelwert der Werte – jeder Wert wird mit seiner Wahrscheinlichkeit gewichtet.

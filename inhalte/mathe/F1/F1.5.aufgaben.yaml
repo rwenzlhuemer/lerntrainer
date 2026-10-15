@@ -1,0 +1,342 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F1.5-001
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 20; 16; 4; 17; 13. Wie groß ist die **Spannweite**?'
+  loesung: '16'
+  statistik:
+    daten:
+    - '20'
+    - '16'
+    - '4'
+    - '17'
+    - '13'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-002
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 17; 2; 9; 17; 8. Wie groß ist die **Spannweite**?'
+  loesung: '15'
+  statistik:
+    daten:
+    - '17'
+    - '2'
+    - '9'
+    - '17'
+    - '8'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-003
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 5; 6; 9; 15; 18. Wie groß ist die **Spannweite**?'
+  loesung: '13'
+  statistik:
+    daten:
+    - '5'
+    - '6'
+    - '9'
+    - '15'
+    - '18'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-004
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 2; 5; 17; 4; 5. Wie groß ist die **Spannweite**?'
+  loesung: '15'
+  statistik:
+    daten:
+    - '2'
+    - '5'
+    - '17'
+    - '4'
+    - '5'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-005
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 17; 19; 15; 13; 13. Wie groß ist die **Spannweite**?'
+  loesung: '6'
+  statistik:
+    daten:
+    - '17'
+    - '19'
+    - '15'
+    - '13'
+    - '13'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-006
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 15; 3; 17; 18; 15. Wie groß ist die **Spannweite**?'
+  loesung: '15'
+  statistik:
+    daten:
+    - '15'
+    - '3'
+    - '17'
+    - '18'
+    - '15'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-007
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 18; 6; 12; 9; 2. Wie groß ist die **Spannweite**?'
+  loesung: '16'
+  statistik:
+    daten:
+    - '18'
+    - '6'
+    - '12'
+    - '9'
+    - '2'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-008
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 9; 11; 5; 18; 17. Wie groß ist die **Spannweite**?'
+  loesung: '13'
+  statistik:
+    daten:
+    - '9'
+    - '11'
+    - '5'
+    - '18'
+    - '17'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-009
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 8; 15; 7; 17; 9. Wie groß ist die **Spannweite**?'
+  loesung: '10'
+  statistik:
+    daten:
+    - '8'
+    - '15'
+    - '7'
+    - '17'
+    - '9'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-010
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 14; 16; 15; 12; 11. Wie groß ist die **Spannweite**?'
+  loesung: '5'
+  statistik:
+    daten:
+    - '14'
+    - '16'
+    - '15'
+    - '12'
+    - '11'
+    groesse: spannweite
+  tipps:
+  - Spannweite = größter Wert − kleinster Wert.
+  fehler: []
+- id: F1.5-011
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 14; 21; 16; 23; 14. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 13,84
+  gerundet: 2
+  statistik:
+    daten:
+    - '14'
+    - '21'
+    - '16'
+    - '23'
+    - '14'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 17,6.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-012
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 45; 41; 20; 60; 11. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 312,24
+  gerundet: 2
+  statistik:
+    daten:
+    - '45'
+    - '41'
+    - '20'
+    - '60'
+    - '11'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 35,4.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-013
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 18; 26; 50; 36; 12. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 181,44
+  gerundet: 2
+  statistik:
+    daten:
+    - '18'
+    - '26'
+    - '50'
+    - '36'
+    - '12'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 28,4.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-014
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 49; 34; 48; 43; 59. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 66,64
+  gerundet: 2
+  statistik:
+    daten:
+    - '49'
+    - '34'
+    - '48'
+    - '43'
+    - '59'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 46,6.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-015
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 54; 42; 41; 53; 23. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 125,04
+  gerundet: 2
+  statistik:
+    daten:
+    - '54'
+    - '42'
+    - '41'
+    - '53'
+    - '23'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 42,6.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-016
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 58; 53; 24; 56; 52. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 155,84
+  gerundet: 2
+  statistik:
+    daten:
+    - '58'
+    - '53'
+    - '24'
+    - '56'
+    - '52'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 48,6.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-017
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 55; 44; 12; 27; 26. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 226,16
+  gerundet: 2
+  statistik:
+    daten:
+    - '55'
+    - '44'
+    - '12'
+    - '27'
+    - '26'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 32,8.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-018
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 23; 55; 58; 51; 57. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 172,16
+  gerundet: 2
+  statistik:
+    daten:
+    - '23'
+    - '55'
+    - '58'
+    - '51'
+    - '57'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 48,8.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-019
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 48; 14; 40; 19; 41. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 178,64
+  gerundet: 2
+  statistik:
+    daten:
+    - '48'
+    - '14'
+    - '40'
+    - '19'
+    - '41'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 32,4.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []
+- id: F1.5-020
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 14; 14; 54; 21; 48. Berechne die **Varianz** (mittlere quadratische Abweichung vom Mittelwert; durch n dividieren).'
+  loesung: 298,56
+  gerundet: 2
+  statistik:
+    daten:
+    - '14'
+    - '14'
+    - '54'
+    - '21'
+    - '48'
+    groesse: varianz
+  tipps:
+  - 'Mittelwert: 30,2.'
+  - Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n.
+  fehler: []

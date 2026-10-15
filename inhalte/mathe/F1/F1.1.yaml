@@ -1,0 +1,29 @@
+id: F1.1
+titel: Diagramme ablesen
+ziel: Du liest Werte aus Säulendiagrammen ab und rechnest damit.
+erklaerung: 'Bei einem Säulendiagramm zeigt die **Höhe** jeder Säule den Wert.
+
+
+  1. Achsenbeschriftung lesen: Was wird gezählt, in welcher Einheit?
+
+  2. Skalierung prüfen: Wie viel ist ein Kästchen wert?
+
+  3. Von der Säulenspitze waagrecht zur Achse und ablesen.
+
+
+  Anteile in Prozent: Teil durch Summe aller Werte, mal 100.'
+beispiel:
+  text: 'Mo 3, Di 5, Mi 2: zusammen 10 Besucher; Dienstag ist der Anteil 5 : 10 = 50 %.'
+  diagramm:
+    kategorien:
+    - Mo
+    - Di
+    - Mi
+    werte:
+    - 3
+    - 5
+    - 2
+    achse: Besucher
+  wert: '50'
+  weg:
+  - 5/10·100 = 50

@@ -1,0 +1,236 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F2.1-001
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Ergebnisse hat der Grundraum, wenn eine Münze 2-mal geworfen wird?
+  loesung: '4'
+  rechnung: 2^2
+  tipps:
+  - Jeder Wurf hat gleich viele Möglichkeiten. Die Anzahlen werden multipliziert.
+  - 2 hoch 2.
+  fehler: []
+- id: F2.1-002
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Ergebnisse hat der Grundraum, wenn ein Würfel 3-mal geworfen wird?
+  loesung: '216'
+  rechnung: 6^3
+  tipps:
+  - Jeder Wurf hat gleich viele Möglichkeiten. Die Anzahlen werden multipliziert.
+  - 6 hoch 3.
+  fehler:
+  - antwort: '18'
+    hinweis: 'Multiplizieren, nicht addieren: jede Möglichkeit des ersten Wurfs mit jeder des zweiten.'
+- id: F2.1-003
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Ergebnisse hat der Grundraum, wenn ein Würfel 2-mal geworfen wird?
+  loesung: '36'
+  rechnung: 6^2
+  tipps:
+  - Jeder Wurf hat gleich viele Möglichkeiten. Die Anzahlen werden multipliziert.
+  - 6 hoch 2.
+  fehler:
+  - antwort: '12'
+    hinweis: 'Multiplizieren, nicht addieren: jede Möglichkeit des ersten Wurfs mit jeder des zweiten.'
+- id: F2.1-004
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Ergebnisse hat der Grundraum, wenn ein Würfel 1-mal geworfen wird?
+  loesung: '6'
+  rechnung: 6^1
+  tipps:
+  - Jeder Wurf hat gleich viele Möglichkeiten. Die Anzahlen werden multipliziert.
+  - 6 hoch 1.
+  fehler: []
+- id: F2.1-005
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Ergebnisse hat der Grundraum, wenn eine Münze 1-mal geworfen wird?
+  loesung: '2'
+  rechnung: 2^1
+  tipps:
+  - Jeder Wurf hat gleich viele Möglichkeiten. Die Anzahlen werden multipliziert.
+  - 2 hoch 1.
+  fehler: []
+- id: F2.1-006
+  typ: zahl
+  stufe: 2
+  frage: Es werden 3 Würfel und 2 Münzen gleichzeitig geworfen. Wie viele Ergebnisse hat der Grundraum?
+  loesung: '864'
+  rechnung: 6^3·2^2
+  tipps:
+  - Jeder Würfel hat 6, jede Münze 2 Möglichkeiten.
+  - Alle Anzahlen werden miteinander multipliziert.
+  fehler:
+  - antwort: '22'
+    hinweis: 'Multiplizieren, nicht addieren: Jede Möglichkeit kombiniert sich mit jeder anderen.'
+- id: F2.1-007
+  typ: zahl
+  stufe: 2
+  frage: Es werden 2 Würfel und 3 Münzen gleichzeitig geworfen. Wie viele Ergebnisse hat der Grundraum?
+  loesung: '288'
+  rechnung: 6^2·2^3
+  tipps:
+  - Jeder Würfel hat 6, jede Münze 2 Möglichkeiten.
+  - Alle Anzahlen werden miteinander multipliziert.
+  fehler:
+  - antwort: '18'
+    hinweis: 'Multiplizieren, nicht addieren: Jede Möglichkeit kombiniert sich mit jeder anderen.'
+- id: F2.1-008
+  typ: zahl
+  stufe: 2
+  frage: Es werden 2 Würfel und 2 Münzen gleichzeitig geworfen. Wie viele Ergebnisse hat der Grundraum?
+  loesung: '144'
+  rechnung: 6^2·2^2
+  tipps:
+  - Jeder Würfel hat 6, jede Münze 2 Möglichkeiten.
+  - Alle Anzahlen werden miteinander multipliziert.
+  fehler:
+  - antwort: '16'
+    hinweis: 'Multiplizieren, nicht addieren: Jede Möglichkeit kombiniert sich mit jeder anderen.'
+- id: F2.1-009
+  typ: zahl
+  stufe: 2
+  frage: Es werden 1 Würfel und 1 Münzen gleichzeitig geworfen. Wie viele Ergebnisse hat der Grundraum?
+  loesung: '12'
+  rechnung: 6^1·2^1
+  tipps:
+  - Jeder Würfel hat 6, jede Münze 2 Möglichkeiten.
+  - Alle Anzahlen werden miteinander multipliziert.
+  fehler:
+  - antwort: '8'
+    hinweis: 'Multiplizieren, nicht addieren: Jede Möglichkeit kombiniert sich mit jeder anderen.'
+- id: F2.1-010
+  typ: zahl
+  stufe: 2
+  frage: Es werden 1 Würfel und 2 Münzen gleichzeitig geworfen. Wie viele Ergebnisse hat der Grundraum?
+  loesung: '24'
+  rechnung: 6^1·2^2
+  tipps:
+  - Jeder Würfel hat 6, jede Münze 2 Möglichkeiten.
+  - Alle Anzahlen werden miteinander multipliziert.
+  fehler:
+  - antwort: '10'
+    hinweis: 'Multiplizieren, nicht addieren: Jede Möglichkeit kombiniert sich mit jeder anderen.'
+- id: F2.1-011
+  typ: zahl
+  stufe: 3
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,7. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,3
+  rechnung: 1 - 0,7
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 7/10
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-012
+  typ: zahl
+  stufe: 3
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,4. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,6
+  rechnung: 1 - 0,4
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 2/5
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-013
+  typ: zahl
+  stufe: 3
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 1/6. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 5/6
+  rechnung: 1 - 1/6
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 1/6
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-014
+  typ: zahl
+  stufe: 3
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,375. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,625
+  rechnung: 1 - 0,375
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 3/8
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-015
+  typ: zahl
+  stufe: 3
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,05. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,95
+  rechnung: 1 - 0,05
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 1/20
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-016
+  typ: zahl
+  stufe: 4
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 5/6. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 1/6
+  rechnung: 1 - 5/6
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 5/6
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-017
+  typ: zahl
+  stufe: 4
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,25. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,75
+  rechnung: 1 - 0,25
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 1/4
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-018
+  typ: zahl
+  stufe: 4
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,3. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,7
+  rechnung: 1 - 0,3
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 3/10
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-019
+  typ: zahl
+  stufe: 4
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 2/3. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 1/3
+  rechnung: 1 - 2/3
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 2/3
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).
+- id: F2.1-020
+  typ: zahl
+  stufe: 4
+  frage: Die Wahrscheinlichkeit für ein Ereignis E ist P(E) = 0,35. Wie groß ist die Wahrscheinlichkeit des **Gegenereignisses** ¬E?
+  loesung: 0,65
+  rechnung: 1 - 0,35
+  tipps:
+  - Ereignis und Gegenereignis ergeben zusammen 1.
+  - P(¬E) = 1 − P(E).
+  fehler:
+  - antwort: 7/20
+    hinweis: Das ist P(E). Gesucht ist 1 − P(E).

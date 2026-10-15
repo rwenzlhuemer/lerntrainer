@@ -1,0 +1,13 @@
+id: F1.5
+titel: Streuung
+ziel: Du beschreibst, wie stark Daten streuen.
+erklaerung: '- **Spannweite** = größter − kleinster Wert.
+
+  - **Varianz**: mittlere quadratische Abweichung vom Mittelwert. Von jedem Wert den Mittelwert abziehen, quadrieren, alles addieren, durch n dividieren.
+
+  - **Standardabweichung** = Wurzel aus der Varianz – sie hat dieselbe Einheit wie die Daten.'
+beispiel:
+  text: 'Daten 2; 4; 6: Mittelwert 4, Abweichungen −2, 0, 2. Varianz (4 + 0 + 4) : 3 = 8/3.'
+  wert: 8/3
+  weg:
+  - ((-2)^2 + 0^2 + 2^2)/3 = 8/3

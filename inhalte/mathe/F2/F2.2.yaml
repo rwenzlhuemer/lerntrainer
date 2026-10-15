@@ -1,0 +1,14 @@
+id: F2.2
+titel: Relative Häufigkeit
+ziel: Du schätzt Wahrscheinlichkeiten über relative Häufigkeiten.
+erklaerung: 'Die **relative Häufigkeit** ist Anzahl : Gesamtzahl der Versuche.
+
+
+  Bei vielen Versuchen ist sie ein guter **Schätzwert** für die Wahrscheinlichkeit (Gesetz der großen Zahlen).
+
+  Mit ihr kann man vorhersagen, wie oft etwas bei vielen weiteren Versuchen ungefähr eintritt.'
+beispiel:
+  text: 'Ein Reißnagel landet bei 200 Würfen 70-mal auf der Spitze: relative Häufigkeit 0,35.'
+  wert: 0,35
+  weg:
+  - 70/200 = 0,35

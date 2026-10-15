@@ -1,0 +1,24 @@
+id: F4.1
+titel: Die Glockenkurve
+ziel: Du kennst die Bedeutung von μ und σ bei der Normalverteilung.
+erklaerung: 'Die Dichtefunktion der **Normalverteilung** ist die **Glockenkurve**:
+
+  - **μ** (Erwartungswert) liegt beim Maximum – die Kurve ist symmetrisch dazu.
+
+  - **σ** (Standardabweichung) bestimmt die Breite: großes σ → flach und breit, kleines σ → schmal und hoch.
+
+  - Die gesamte Fläche unter der Kurve ist 1.'
+beispiel:
+  text: Diese Glockenkurve hat ihr Maximum bei μ = 1.
+  graph:
+    x:
+    - -3
+    - 5
+    y:
+    - 0
+    - 1
+    kurven:
+    - term: e^(-(x - 1)^2/2)/√(2π)
+    schritt:
+    - 1
+    - 0.1

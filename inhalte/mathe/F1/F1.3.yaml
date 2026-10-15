@@ -1,0 +1,16 @@
+id: F1.3
+titel: Mittelwert oder Median? Gewogenes Mittel
+ziel: Du weißt, wann der Median besser passt, und berechnest gewogene Mittelwerte.
+erklaerung: 'Ein **Ausreißer** (ein extrem großer oder kleiner Wert) verändert den Mittelwert stark, den Median kaum.
+
+  Bei Einkommen oder Wohnungspreisen ist deshalb oft der Median aussagekräftiger.
+
+
+  **Gewogenes Mittel:** Kommen Werte verschieden oft vor, wird jeder mit seiner Häufigkeit multipliziert:
+
+  Summe (Wert · Anzahl) : Gesamtanzahl.'
+beispiel:
+  text: 'Noten: 3 × Note 1, 5 × Note 2, 2 × Note 4. Durchschnitt: (3 + 10 + 8) : 10 = 2,1.'
+  wert: 2,1
+  weg:
+  - (3·1 + 5·2 + 2·4)/10 = 2,1

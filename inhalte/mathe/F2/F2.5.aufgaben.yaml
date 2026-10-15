@@ -1,0 +1,462 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F2.5-001
+  typ: zahl
+  stufe: 1
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 1/6 wird 2-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** eine Sechs? (auf vier Nachkommastellen)
+  loesung: 0,3056
+  gerundet: 4
+  binom:
+    n: 2
+    p: 1/6
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 5/6^2.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/3
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 25/36
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-002
+  typ: zahl
+  stufe: 1
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,25 wird 3-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Gewinn? (auf vier Nachkommastellen)
+  loesung: 0,5781
+  gerundet: 4
+  binom:
+    n: 3
+    p: 0,25
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,75^3.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 3/4
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 27/64
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-003
+  typ: zahl
+  stufe: 1
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,1 wird 4-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Treffer? (auf vier Nachkommastellen)
+  loesung: 3439/10000
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,1
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,9^4.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 2/5
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 6561/10000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-004
+  typ: zahl
+  stufe: 1
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,5 wird 4-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** Kopf? (auf vier Nachkommastellen)
+  loesung: 0,9375
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,5
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,5^4.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/16
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-005
+  typ: zahl
+  stufe: 1
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,1 wird 2-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Treffer? (auf vier Nachkommastellen)
+  loesung: 0,19
+  gerundet: 4
+  binom:
+    n: 2
+    p: 0,1
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,9^2.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 81/100
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-006
+  typ: zahl
+  stufe: 1
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 1/6 wird 3-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** eine Sechs? (auf vier Nachkommastellen)
+  loesung: 0,4213
+  gerundet: 4
+  binom:
+    n: 3
+    p: 1/6
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 5/6^3.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/2
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 125/216
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-007
+  typ: zahl
+  stufe: 2
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 1/6 wird 4-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** eine Sechs? (auf vier Nachkommastellen)
+  loesung: 0,5177
+  gerundet: 4
+  binom:
+    n: 4
+    p: 1/6
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 5/6^4.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 2/3
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 625/1296
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-008
+  typ: zahl
+  stufe: 2
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,25 wird 4-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Gewinn? (auf vier Nachkommastellen)
+  loesung: 0,6836
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,25
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,75^4.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 81/256
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-009
+  typ: zahl
+  stufe: 2
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,25 wird 2-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Gewinn? (auf vier Nachkommastellen)
+  loesung: 0,4375
+  gerundet: 4
+  binom:
+    n: 2
+    p: 0,25
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,75^2.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/2
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 9/16
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-010
+  typ: zahl
+  stufe: 2
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,1 wird 3-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Treffer? (auf vier Nachkommastellen)
+  loesung: 0,271
+  gerundet: 4
+  binom:
+    n: 3
+    p: 0,1
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,9^3.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 3/10
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 729/1000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-011
+  typ: zahl
+  stufe: 2
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,5 wird 2-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** Kopf? (auf vier Nachkommastellen)
+  loesung: 0,75
+  gerundet: 4
+  binom:
+    n: 2
+    p: 0,5
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,5^2.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/4
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-012
+  typ: zahl
+  stufe: 2
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,5 wird 3-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** Kopf? (auf vier Nachkommastellen)
+  loesung: 0,875
+  gerundet: 4
+  binom:
+    n: 3
+    p: 0,5
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,5^3.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/8
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-013
+  typ: zahl
+  stufe: 3
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,1 wird 5-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Treffer? (auf vier Nachkommastellen)
+  loesung: 0,4095
+  gerundet: 4
+  binom:
+    n: 5
+    p: 0,1
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,9^5.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/2
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 59049/100000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-014
+  typ: zahl
+  stufe: 3
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,5 wird 5-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** Kopf? (auf vier Nachkommastellen)
+  loesung: 0,9688
+  gerundet: 4
+  binom:
+    n: 5
+    p: 0,5
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,5^5.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/32
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-015
+  typ: zahl
+  stufe: 3
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,5 wird 10-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** Kopf? (auf vier Nachkommastellen)
+  loesung: 0,9990
+  gerundet: 4
+  binom:
+    n: 10
+    p: 0,5
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,5^10.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/1024
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-016
+  typ: zahl
+  stufe: 3
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 1/6 wird 7-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** eine Sechs? (auf vier Nachkommastellen)
+  loesung: 0,7209
+  gerundet: 4
+  binom:
+    n: 7
+    p: 1/6
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 5/6^7.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 78125/279936
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-017
+  typ: zahl
+  stufe: 3
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,25 wird 10-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Gewinn? (auf vier Nachkommastellen)
+  loesung: 0,9437
+  gerundet: 4
+  binom:
+    n: 10
+    p: 0,25
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,75^10.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 59049/1048576
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-018
+  typ: zahl
+  stufe: 3
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,1 wird 6-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Treffer? (auf vier Nachkommastellen)
+  loesung: 0,4686
+  gerundet: 4
+  binom:
+    n: 6
+    p: 0,1
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,9^6.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 3/5
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 531441/1000000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-019
+  typ: zahl
+  stufe: 4
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,03 wird 4-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Defekt? (auf vier Nachkommastellen)
+  loesung: 0,1147
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,03
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,97^4.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 88529281/100000000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-020
+  typ: zahl
+  stufe: 4
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,03 wird 6-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Defekt? (auf vier Nachkommastellen)
+  loesung: 0,1670
+  gerundet: 4
+  binom:
+    n: 6
+    p: 0,03
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,97^6.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 9/50
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 832972004929/1000000000000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-021
+  typ: zahl
+  stufe: 4
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,03 wird 7-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Defekt? (auf vier Nachkommastellen)
+  loesung: 0,1920
+  gerundet: 4
+  binom:
+    n: 7
+    p: 0,03
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,97^7.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 21/100
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 80798284478113/100000000000000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-022
+  typ: zahl
+  stufe: 4
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,03 wird 10-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Defekt? (auf vier Nachkommastellen)
+  loesung: 0,2626
+  gerundet: 4
+  binom:
+    n: 10
+    p: 0,03
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,97^10.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 3/10
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 73742412689492826049/100000000000000000000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-023
+  typ: zahl
+  stufe: 4
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,2 wird 4-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Defekt? (auf vier Nachkommastellen)
+  loesung: 0,5904
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,2
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,8^4.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 4/5
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 256/625
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).
+- id: F2.5-024
+  typ: zahl
+  stufe: 4
+  frage: Ein Versuch mit der Erfolgswahrscheinlichkeit 0,05 wird 5-mal unabhängig wiederholt. Wie groß ist die Wahrscheinlichkeit für **mindestens** einen Defekt? (auf vier Nachkommastellen)
+  loesung: 0,2262
+  gerundet: 4
+  binom:
+    n: 5
+    p: 0,05
+    k: 1
+    art: mindestens
+  tipps:
+  - „Mindestens einmal“ rechnet man am besten über das Gegenereignis „kein einziges Mal“.
+  - P(nie) = 0,95^5.
+  - P(mindestens einmal) = 1 − P(nie).
+  fehler:
+  - antwort: 1/4
+    hinweis: Wahrscheinlichkeiten darf man hier nicht einfach addieren – über das Gegenereignis rechnen.
+  - antwort: 2476099/3200000
+    hinweis: Das ist P(nie). Gesucht ist 1 − P(nie).

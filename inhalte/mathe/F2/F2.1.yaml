@@ -1,0 +1,16 @@
+id: F2.1
+titel: Grundraum, Ereignis, Gegenereignis
+ziel: Du beschreibst Zufallsversuche mit Grundraum und Ereignissen.
+erklaerung: '- Der **Grundraum** Ω enthält alle möglichen Ergebnisse. Würfel: {1, 2, 3, 4, 5, 6}.
+
+  - Ein **Ereignis** ist eine Teilmenge, z. B. „gerade Zahl“ = {2, 4, 6}.
+
+  - Das **Gegenereignis** ¬E tritt ein, wenn E nicht eintritt: P(¬E) = 1 − P(E).
+
+
+  Bei mehreren Würfen werden die Anzahlen multipliziert: 2 Würfel → 6 · 6 = 36 Ergebnisse.'
+beispiel:
+  text: 'Zwei Würfel: 36 Ergebnisse, nämlich alle Paare von (1|1) bis (6|6).'
+  wert: '36'
+  weg:
+  - 6·6 = 36

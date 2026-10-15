@@ -1,0 +1,450 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F2.4-001
+  typ: zahl
+  stufe: 1
+  frage: In einer Urne sind 3 rote und 3 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,5
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 3
+      b: 3
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-002
+  typ: zahl
+  stufe: 1
+  frage: In einer Urne sind 6 rote und 2 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau eine rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,375
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 6
+      b: 2
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug.count('r') == 1
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-003
+  typ: zahl
+  stufe: 1
+  frage: In einer Urne sind 4 rote und 2 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau eine rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,4444
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 4
+      b: 2
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug.count('r') == 1
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-004
+  typ: zahl
+  stufe: 1
+  frage: In einer Urne sind 3 rote und 6 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,1111
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 3
+      b: 6
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug == 'rr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-005
+  typ: zahl
+  stufe: 1
+  frage: In einer Urne sind 3 rote und 3 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau eine rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,5
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 3
+      b: 3
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug.count('r') == 1
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-006
+  typ: zahl
+  stufe: 1
+  frage: In einer Urne sind 3 rote und 6 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,5556
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 3
+      b: 6
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-007
+  typ: zahl
+  stufe: 2
+  frage: In einer Urne sind 2 rote und 2 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,5
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 2
+      b: 2
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-008
+  typ: zahl
+  stufe: 2
+  frage: In einer Urne sind 5 rote und 6 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau eine rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,5455
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 5
+      b: 6
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug.count('r') == 1
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-009
+  typ: zahl
+  stufe: 2
+  frage: In einer Urne sind 3 rote und 5 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,5312
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 3
+      b: 5
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-010
+  typ: zahl
+  stufe: 2
+  frage: In einer Urne sind 5 rote und 6 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,1818
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 5
+      b: 6
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug == 'rr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 25/121
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-011
+  typ: zahl
+  stufe: 2
+  frage: In einer Urne sind 2 rote und 3 blaue Kugeln. Es werden 2 Kugeln mit Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,52
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 2
+      b: 3
+    zuege: 2
+    zuruecklegen: true
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - Mit Zurücklegen bleiben die Wahrscheinlichkeiten gleich.
+  fehler: []
+- id: F2.4-012
+  typ: zahl
+  stufe: 2
+  frage: In einer Urne sind 6 rote und 5 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,2727
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 6
+      b: 5
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug == 'rr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 36/121
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-013
+  typ: zahl
+  stufe: 3
+  frage: In einer Urne sind 5 rote und 2 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,5238
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 5
+      b: 2
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-014
+  typ: zahl
+  stufe: 3
+  frage: In einer Urne sind 4 rote und 6 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei gleiche Farben**? (Bruch oder Dezimalzahl)
+  loesung: 0,4667
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 4
+      b: 6
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug in ('rr', 'bb')
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-015
+  typ: zahl
+  stufe: 3
+  frage: In einer Urne sind 4 rote und 2 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau eine rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,5333
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 4
+      b: 2
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug.count('r') == 1
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-016
+  typ: zahl
+  stufe: 3
+  frage: In einer Urne sind 6 rote und 6 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,2273
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 6
+      b: 6
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug == 'rr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 1/4
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-017
+  typ: zahl
+  stufe: 3
+  frage: In einer Urne sind 4 rote und 5 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau eine rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,5556
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 4
+      b: 5
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug.count('r') == 1
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-018
+  typ: zahl
+  stufe: 3
+  frage: In einer Urne sind 2 rote und 2 blaue Kugeln. Es werden 2 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,1667
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 2
+      b: 2
+    zuege: 2
+    zuruecklegen: false
+    bedingung: zug == 'rr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 1/4
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-019
+  typ: zahl
+  stufe: 4
+  frage: In einer Urne sind 5 rote und 4 blaue Kugeln. Es werden 3 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,4762
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 5
+      b: 4
+    zuege: 3
+    zuruecklegen: false
+    bedingung: zug.count('r') == 2
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-020
+  typ: zahl
+  stufe: 4
+  frage: In einer Urne sind 2 rote und 6 blaue Kugeln. Es werden 3 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **drei rote**? (Bruch oder Dezimalzahl)
+  loesung: '0'
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 2
+      b: 6
+    zuege: 3
+    zuruecklegen: false
+    bedingung: zug == 'rrr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 1/64
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-021
+  typ: zahl
+  stufe: 4
+  frage: In einer Urne sind 4 rote und 5 blaue Kugeln. Es werden 3 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **drei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,0476
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 4
+      b: 5
+    zuege: 3
+    zuruecklegen: false
+    bedingung: zug == 'rrr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 64/729
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-022
+  typ: zahl
+  stufe: 4
+  frage: In einer Urne sind 2 rote und 3 blaue Kugeln. Es werden 3 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **drei rote**? (Bruch oder Dezimalzahl)
+  loesung: '0'
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 2
+      b: 3
+    zuege: 3
+    zuruecklegen: false
+    bedingung: zug == 'rrr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 8/125
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'
+- id: F2.4-023
+  typ: zahl
+  stufe: 4
+  frage: In einer Urne sind 2 rote und 4 blaue Kugeln. Es werden 3 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **genau zwei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,2
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 2
+      b: 4
+    zuege: 3
+    zuruecklegen: false
+    bedingung: zug.count('r') == 2
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler: []
+- id: F2.4-024
+  typ: zahl
+  stufe: 4
+  frage: In einer Urne sind 3 rote und 6 blaue Kugeln. Es werden 3 Kugeln ohne Zurücklegen gezogen. Wie groß ist die Wahrscheinlichkeit für **drei rote**? (Bruch oder Dezimalzahl)
+  loesung: 0,0119
+  gerundet: 4
+  urne:
+    kugeln:
+      r: 3
+      b: 6
+    zuege: 3
+    zuruecklegen: false
+    bedingung: zug == 'rrr'
+  tipps:
+  - Zeichne ein Baumdiagramm.
+  - Entlang eines Pfades wird **multipliziert** (Pfadregel), passende Pfade werden **addiert**.
+  - 'Ohne Zurücklegen: Beim zweiten Zug ist eine Kugel weniger in der Urne.'
+  fehler:
+  - antwort: 1/27
+    hinweis: 'Ohne Zurücklegen ändert sich die Wahrscheinlichkeit beim zweiten Zug: eine Kugel weniger!'

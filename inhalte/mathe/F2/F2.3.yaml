@@ -1,0 +1,15 @@
+id: F2.3
+titel: Laplace-Wahrscheinlichkeit
+ziel: Du berechnest Wahrscheinlichkeiten bei gleich wahrscheinlichen Ergebnissen.
+erklaerung: 'Sind alle Ergebnisse gleich wahrscheinlich (fairer Würfel, faire Münze), gilt:
+
+
+  **P(E) = günstige Fälle : mögliche Fälle**
+
+
+  Bei zwei Würfeln gibt es 36 mögliche Fälle. Schreib die günstigen Paare auf und zähle sie – nicht schätzen!'
+beispiel:
+  text: 'Augensumme 7 bei zwei Würfeln: (1|6), (2|5), (3|4), (4|3), (5|2), (6|1) – 6 günstige von 36.'
+  wert: 1/6
+  weg:
+  - 6/36 = 1/6

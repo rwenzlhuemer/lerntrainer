@@ -1,0 +1,19 @@
+id: F3.5
+titel: Binomialverteilung
+ziel: Du berechnest Wahrscheinlichkeiten, Erwartungswert und Standardabweichung der Binomialverteilung.
+erklaerung: 'Ein Versuch mit Erfolgswahrscheinlichkeit p wird n-mal **unabhängig** wiederholt. X = Anzahl der Erfolge.
+
+
+  - **P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ**
+
+  - **Erwartungswert μ = n · p**
+
+  - **Standardabweichung σ = √(n · p · (1 − p))**
+
+
+  (n über k) zählt, auf wie viele Arten die k Erfolge verteilt sein können.'
+beispiel:
+  text: 'n = 4, p = 0,5, P(X = 2): (4 über 2) = 6, also 6 · 0,5² · 0,5² = 0,375.'
+  wert: 0,375
+  weg:
+  - 6·0,5^2·0,5^2 = 0,375

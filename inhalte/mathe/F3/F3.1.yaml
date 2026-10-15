@@ -1,0 +1,25 @@
+id: F3.1
+titel: Zufallsvariable und Verteilung
+ziel: Du liest und ergänzt Wahrscheinlichkeitsverteilungen.
+erklaerung: 'Eine **Zufallsvariable** X ordnet jedem Ergebnis eine Zahl zu, z. B. die Anzahl der Sechsen oder einen Gewinn.
+
+
+  Die **Wahrscheinlichkeitsverteilung** ist eine Tabelle: zu jedem Wert x die Wahrscheinlichkeit P(X = x).
+
+  Alle Wahrscheinlichkeiten zusammen ergeben immer **1**.'
+beispiel:
+  text: Fehlt in der Tabelle ein Wert und die anderen ergeben 0,8, dann ist er 0,2.
+  tabelle:
+    kopf:
+    - x
+    - P(X = x)
+    zeilen:
+    - - '0'
+      - 0,3
+    - - '1'
+      - 0,5
+    - - '2'
+      - '?'
+  wert: 0,2
+  weg:
+  - 1 - (0,3 + 0,5) = 0,2

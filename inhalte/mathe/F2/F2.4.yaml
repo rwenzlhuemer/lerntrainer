@@ -1,0 +1,17 @@
+id: F2.4
+titel: Baumdiagramm
+ziel: Du berechnest mehrstufige Wahrscheinlichkeiten mit dem Baumdiagramm.
+erklaerung: 'Im **Baumdiagramm** steht an jedem Ast die Wahrscheinlichkeit für diesen Schritt.
+
+
+  - **Pfadregel (Multiplikation):** Entlang eines Pfades werden die Wahrscheinlichkeiten multipliziert.
+
+  - **Summenregel (Addition):** Gehören mehrere Pfade zum Ereignis, werden ihre Wahrscheinlichkeiten addiert.
+
+
+  **Ohne Zurücklegen** ändert sich die Wahrscheinlichkeit beim nächsten Zug: Es ist eine Kugel weniger in der Urne.'
+beispiel:
+  text: '3 rote, 2 blaue Kugeln, zwei Züge ohne Zurücklegen, zwei rote: 3/5 · 2/4 = 3/10.'
+  wert: 3/10
+  weg:
+  - 3/5·2/4 = 6/20 = 3/10

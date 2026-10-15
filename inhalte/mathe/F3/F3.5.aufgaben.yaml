@@ -1,0 +1,365 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F3.5-001
+  typ: zahl
+  stufe: 1
+  frage: X ist binomialverteilt mit n = 4 und p = 0,4. Berechne P(X = 0) (auf vier Nachkommastellen).
+  loesung: 0,1296
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,4
+    k: 0
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (4 über 0) · 0,4^0 · 0,6^4.'
+  fehler: []
+- id: F3.5-002
+  typ: zahl
+  stufe: 1
+  frage: X ist binomialverteilt mit n = 3 und p = 0,25. Berechne den Erwartungswert μ.
+  loesung: 0,75
+  binom:
+    n: 3
+    p: 0,25
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: 9/4
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-003
+  typ: zahl
+  stufe: 1
+  frage: X ist binomialverteilt mit n = 5 und p = 0,4. Berechne den Erwartungswert μ.
+  loesung: '2'
+  binom:
+    n: 5
+    p: 0,4
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: '3'
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-004
+  typ: zahl
+  stufe: 1
+  frage: X ist binomialverteilt mit n = 3 und p = 0,3. Berechne den Erwartungswert μ.
+  loesung: 0,9
+  binom:
+    n: 3
+    p: 0,3
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: 21/10
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-005
+  typ: zahl
+  stufe: 1
+  frage: X ist binomialverteilt mit n = 5 und p = 0,2. Berechne den Erwartungswert μ.
+  loesung: '1'
+  binom:
+    n: 5
+    p: 0,2
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: '4'
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-006
+  typ: zahl
+  stufe: 1
+  frage: X ist binomialverteilt mit n = 4 und p = 0,4. Berechne P(X = 2) (auf vier Nachkommastellen).
+  loesung: 0,3456
+  gerundet: 4
+  binom:
+    n: 4
+    p: 0,4
+    k: 2
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (4 über 2) · 0,4^2 · 0,6^2.'
+  fehler:
+  - antwort: 36/625
+    hinweis: Der Binomialkoeffizient (4 über 2) = 6 fehlt.
+- id: F3.5-007
+  typ: zahl
+  stufe: 2
+  frage: X ist binomialverteilt mit n = 5 und p = 0,25. Berechne P(X = 5) (auf vier Nachkommastellen).
+  loesung: 0,0010
+  gerundet: 4
+  binom:
+    n: 5
+    p: 0,25
+    k: 5
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (5 über 5) · 0,25^5 · 0,75^0.'
+  fehler: []
+- id: F3.5-008
+  typ: zahl
+  stufe: 2
+  frage: X ist binomialverteilt mit n = 8 und p = 0,5. Berechne P(X = 2) (auf vier Nachkommastellen).
+  loesung: 0,1094
+  gerundet: 4
+  binom:
+    n: 8
+    p: 0,5
+    k: 2
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (8 über 2) · 0,5^2 · 0,5^6.'
+  fehler:
+  - antwort: 1/256
+    hinweis: Der Binomialkoeffizient (8 über 2) = 28 fehlt.
+- id: F3.5-009
+  typ: zahl
+  stufe: 2
+  frage: X ist binomialverteilt mit n = 7 und p = 0,4. Berechne den Erwartungswert μ.
+  loesung: 2,8
+  binom:
+    n: 7
+    p: 0,4
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: 21/5
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-010
+  typ: zahl
+  stufe: 2
+  frage: X ist binomialverteilt mit n = 9 und p = 1/6. Berechne P(X = 1) (auf vier Nachkommastellen).
+  loesung: 0,3489
+  gerundet: 4
+  binom:
+    n: 9
+    p: 1/6
+    k: 1
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (9 über 1) · 1/6^1 · 5/6^8.'
+  fehler:
+  - antwort: 390625/10077696
+    hinweis: Der Binomialkoeffizient (9 über 1) = 9 fehlt.
+- id: F3.5-011
+  typ: zahl
+  stufe: 2
+  frage: X ist binomialverteilt mit n = 5 und p = 0,5. Berechne P(X = 4) (auf vier Nachkommastellen).
+  loesung: 0,1562
+  gerundet: 4
+  binom:
+    n: 5
+    p: 0,5
+    k: 4
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (5 über 4) · 0,5^4 · 0,5^1.'
+  fehler:
+  - antwort: 1/32
+    hinweis: Der Binomialkoeffizient (5 über 4) = 5 fehlt.
+- id: F3.5-012
+  typ: zahl
+  stufe: 2
+  frage: X ist binomialverteilt mit n = 5 und p = 0,2. Berechne P(X = 2) (auf vier Nachkommastellen).
+  loesung: 0,2048
+  gerundet: 4
+  binom:
+    n: 5
+    p: 0,2
+    k: 2
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (5 über 2) · 0,2^2 · 0,8^3.'
+  fehler:
+  - antwort: 64/3125
+    hinweis: Der Binomialkoeffizient (5 über 2) = 10 fehlt.
+- id: F3.5-013
+  typ: zahl
+  stufe: 3
+  frage: X ist binomialverteilt mit n = 10 und p = 0,4. Berechne P(X = 2) (auf vier Nachkommastellen).
+  loesung: 0,1209
+  gerundet: 4
+  binom:
+    n: 10
+    p: 0,4
+    k: 2
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (10 über 2) · 0,4^2 · 0,6^8.'
+  fehler:
+  - antwort: 26244/9765625
+    hinweis: Der Binomialkoeffizient (10 über 2) = 45 fehlt.
+- id: F3.5-014
+  typ: zahl
+  stufe: 3
+  frage: X ist binomialverteilt mit n = 12 und p = 0,2. Berechne P(X = 5) (auf vier Nachkommastellen).
+  loesung: 0,0532
+  gerundet: 4
+  binom:
+    n: 12
+    p: 0,2
+    k: 5
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (12 über 5) · 0,2^5 · 0,8^7.'
+  fehler:
+  - antwort: 16384/244140625
+    hinweis: Der Binomialkoeffizient (12 über 5) = 792 fehlt.
+- id: F3.5-015
+  typ: zahl
+  stufe: 3
+  frage: X ist binomialverteilt mit n = 8 und p = 0,5. Berechne P(X = 8) (auf vier Nachkommastellen).
+  loesung: 0,0039
+  gerundet: 4
+  binom:
+    n: 8
+    p: 0,5
+    k: 8
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (8 über 8) · 0,5^8 · 0,5^0.'
+  fehler: []
+- id: F3.5-016
+  typ: zahl
+  stufe: 3
+  frage: X ist binomialverteilt mit n = 8 und p = 0,3. Berechne P(X ≤ 2) (auf vier Nachkommastellen).
+  loesung: 0,5518
+  gerundet: 4
+  binom:
+    n: 8
+    p: 0,3
+    k: 2
+    art: hoechstens
+  tipps:
+  - '`P(X ≤ 2) = P(X = 0) + … + P(X = 2)`.'
+  - Jede einzelne Wahrscheinlichkeit mit der Formel berechnen (oder Technologie).
+  fehler: []
+- id: F3.5-017
+  typ: zahl
+  stufe: 3
+  frage: X ist binomialverteilt mit n = 8 und p = 0,3. Berechne die Standardabweichung σ (auf zwei Nachkommastellen).
+  loesung: 1,30
+  gerundet: 2
+  binom:
+    n: 8
+    p: 0,3
+    art: sigma
+  tipps:
+  - '`σ = √(n · p · (1 − p))`.'
+  fehler:
+  - antwort: 42/25
+    hinweis: Das ist die Varianz. σ ist die Wurzel daraus.
+- id: F3.5-018
+  typ: zahl
+  stufe: 3
+  frage: X ist binomialverteilt mit n = 9 und p = 0,4. Berechne den Erwartungswert μ.
+  loesung: 3,6
+  binom:
+    n: 9
+    p: 0,4
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: 27/5
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-019
+  typ: zahl
+  stufe: 4
+  frage: X ist binomialverteilt mit n = 12 und p = 0,5. Berechne den Erwartungswert μ.
+  loesung: '6'
+  binom:
+    n: 12
+    p: 0,5
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler: []
+- id: F3.5-020
+  typ: zahl
+  stufe: 4
+  frage: X ist binomialverteilt mit n = 17 und p = 0,2. Berechne P(X ≤ 5) (auf vier Nachkommastellen).
+  loesung: 0,8943
+  gerundet: 4
+  binom:
+    n: 17
+    p: 0,2
+    k: 5
+    art: hoechstens
+  tipps:
+  - '`P(X ≤ 5) = P(X = 0) + … + P(X = 5)`.'
+  - Jede einzelne Wahrscheinlichkeit mit der Formel berechnen (oder Technologie).
+  fehler: []
+- id: F3.5-021
+  typ: zahl
+  stufe: 4
+  frage: X ist binomialverteilt mit n = 20 und p = 0,4. Berechne P(X = 1) (auf vier Nachkommastellen).
+  loesung: 0,0005
+  gerundet: 4
+  binom:
+    n: 20
+    p: 0,4
+    k: 1
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (20 über 1) · 0,4^1 · 0,6^19.'
+  fehler: []
+- id: F3.5-022
+  typ: zahl
+  stufe: 4
+  frage: X ist binomialverteilt mit n = 20 und p = 0,3. Berechne den Erwartungswert μ.
+  loesung: '6'
+  binom:
+    n: 20
+    p: 0,3
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: '14'
+    hinweis: μ = n · p, nicht n · (1 − p).
+- id: F3.5-023
+  typ: zahl
+  stufe: 4
+  frage: X ist binomialverteilt mit n = 19 und p = 1/6. Berechne P(X = 9) (auf vier Nachkommastellen).
+  loesung: 0,0015
+  gerundet: 4
+  binom:
+    n: 19
+    p: 1/6
+    k: 9
+    art: gleich
+  tipps:
+  - '`P(X = k) = (n über k) · pᵏ · (1 − p)ⁿ⁻ᵏ`.'
+  - 'Hier: (19 über 9) · 1/6^9 · 5/6^10.'
+  fehler: []
+- id: F3.5-024
+  typ: zahl
+  stufe: 4
+  frage: X ist binomialverteilt mit n = 20 und p = 1/6. Berechne den Erwartungswert μ.
+  loesung: 10/3
+  binom:
+    n: 20
+    p: 1/6
+    art: mu
+  tipps:
+  - '`μ = n · p`.'
+  fehler:
+  - antwort: 50/3
+    hinweis: μ = n · p, nicht n · (1 − p).

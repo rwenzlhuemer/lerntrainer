@@ -1,0 +1,17 @@
+id: F4.2
+titel: Wahrscheinlichkeit als Fläche
+ziel: Du verstehst Wahrscheinlichkeiten als Flächen unter der Glockenkurve.
+erklaerung: 'Bei der Normalverteilung ist eine Wahrscheinlichkeit die **Fläche** unter der Glockenkurve.
+
+
+  - P(X ≤ μ) = 0,5, weil die Kurve symmetrisch ist.
+
+  - Liegen 68,3 % zwischen μ − σ und μ + σ, liegen außerhalb 31,7 % – rechts davon die Hälfte, also etwa 15,9 %.
+
+
+  Genaue Werte bestimmt man mit Technologie (GeoGebra).'
+beispiel:
+  text: 'Rechts von μ + σ liegt (1 − 0,683) : 2 ≈ 0,159 der Fläche.'
+  wert: 0,1585
+  weg:
+  - (1 - 0,683)/2 = 0,1585

@@ -1,0 +1,524 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F1.4-001
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 8; 20; 19; 9; 16; 15; 5. Bestimme das **untere Quartil** q₁.'
+  loesung: '8'
+  statistik:
+    daten:
+    - '8'
+    - '20'
+    - '19'
+    - '9'
+    - '16'
+    - '15'
+    - '5'
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-002
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 10; 7; 19; 2; 17; 1; 14. Bestimme das **untere Quartil** q₁.'
+  loesung: '2'
+  statistik:
+    daten:
+    - '10'
+    - '7'
+    - '19'
+    - '2'
+    - '17'
+    - '1'
+    - '14'
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-003
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 1; 2; 5; 1; 6; 19; 20. Bestimme das **obere Quartil** q₃.'
+  loesung: '19'
+  statistik:
+    daten:
+    - '1'
+    - '2'
+    - '5'
+    - '1'
+    - '6'
+    - '19'
+    - '20'
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-004
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 6; 6; 3; 4; 12; 9; 16. Bestimme das **obere Quartil** q₃.'
+  loesung: '12'
+  statistik:
+    daten:
+    - '6'
+    - '6'
+    - '3'
+    - '4'
+    - '12'
+    - '9'
+    - '16'
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-005
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 5; 5; 18; 5; 14; 13; 9. Bestimme das **obere Quartil** q₃.'
+  loesung: '14'
+  statistik:
+    daten:
+    - '5'
+    - '5'
+    - '18'
+    - '5'
+    - '14'
+    - '13'
+    - '9'
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-006
+  typ: zahl
+  stufe: 1
+  frage: 'Daten: 11; 20; 10; 19; 4; 16; 2. Bestimme das **obere Quartil** q₃.'
+  loesung: '19'
+  statistik:
+    daten:
+    - '11'
+    - '20'
+    - '10'
+    - '19'
+    - '4'
+    - '16'
+    - '2'
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-007
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 2; 1; 13; 10; 2; 13; 18; 11. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: '11'
+  statistik:
+    daten:
+    - '2'
+    - '1'
+    - '13'
+    - '10'
+    - '2'
+    - '13'
+    - '18'
+    - '11'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-008
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 15; 2; 2; 9; 5; 7; 9; 4. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: '6'
+  statistik:
+    daten:
+    - '15'
+    - '2'
+    - '2'
+    - '9'
+    - '5'
+    - '7'
+    - '9'
+    - '4'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-009
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 3; 4; 5; 17; 7; 11; 12; 10. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: '7'
+  statistik:
+    daten:
+    - '3'
+    - '4'
+    - '5'
+    - '17'
+    - '7'
+    - '11'
+    - '12'
+    - '10'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-010
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 8; 20; 11; 4; 15; 3; 12; 4. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: 9,5
+  statistik:
+    daten:
+    - '8'
+    - '20'
+    - '11'
+    - '4'
+    - '15'
+    - '3'
+    - '12'
+    - '4'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-011
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 19; 1; 5; 12; 14; 18; 19; 1. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: 15,5
+  statistik:
+    daten:
+    - '19'
+    - '1'
+    - '5'
+    - '12'
+    - '14'
+    - '18'
+    - '19'
+    - '1'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-012
+  typ: zahl
+  stufe: 2
+  frage: 'Daten: 3; 14; 6; 4; 9; 14; 3; 9. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: '8'
+  statistik:
+    daten:
+    - '3'
+    - '14'
+    - '6'
+    - '4'
+    - '9'
+    - '14'
+    - '3'
+    - '9'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-013
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 16; 33; 18; 11; 44; 22; 19; 42; 44. Bestimme das **untere Quartil** q₁.'
+  loesung: '17'
+  statistik:
+    daten:
+    - '16'
+    - '33'
+    - '18'
+    - '11'
+    - '44'
+    - '22'
+    - '19'
+    - '42'
+    - '44'
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-014
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 18; 46; 44; 31; 54; 26; 23; 58; 52. Bestimme den **Interquartilsabstand** q₃ − q₁.'
+  loesung: 28,5
+  statistik:
+    daten:
+    - '18'
+    - '46'
+    - '44'
+    - '31'
+    - '54'
+    - '26'
+    - '23'
+    - '58'
+    - '52'
+    groesse: iqr
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-015
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 57; 20; 58; 33; 38; 45; 39; 60; 29. Bestimme das **untere Quartil** q₁.'
+  loesung: '31'
+  statistik:
+    daten:
+    - '57'
+    - '20'
+    - '58'
+    - '33'
+    - '38'
+    - '45'
+    - '39'
+    - '60'
+    - '29'
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-016
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 34; 49; 56; 15; 11; 45; 29; 33; 56. Bestimme das **obere Quartil** q₃.'
+  loesung: 52,5
+  statistik:
+    daten:
+    - '34'
+    - '49'
+    - '56'
+    - '15'
+    - '11'
+    - '45'
+    - '29'
+    - '33'
+    - '56'
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-017
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 53; 17; 15; 41; 45; 40; 47; 25; 30. Bestimme das **obere Quartil** q₃.'
+  loesung: '46'
+  statistik:
+    daten:
+    - '53'
+    - '17'
+    - '15'
+    - '41'
+    - '45'
+    - '40'
+    - '47'
+    - '25'
+    - '30'
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-018
+  typ: zahl
+  stufe: 3
+  frage: 'Daten: 40; 41; 33; 12; 60; 41; 29; 53; 21. Bestimme das **untere Quartil** q₁.'
+  loesung: '25'
+  statistik:
+    daten:
+    - '40'
+    - '41'
+    - '33'
+    - '12'
+    - '60'
+    - '41'
+    - '29'
+    - '53'
+    - '21'
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-019
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 3; 9,2; 4,8; 7; 4,6; 7,8; 3,9; 2; 6,9; 5,1; 2,6. Bestimme das **obere Quartil** q₃.'
+  loesung: '7'
+  statistik:
+    daten:
+    - '3'
+    - 9,2
+    - 4,8
+    - '7'
+    - 4,6
+    - 7,8
+    - 3,9
+    - '2'
+    - 6,9
+    - 5,1
+    - 2,6
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-020
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 5,9; 2,5; 3,9; 1,2; 2,6; 2,7; 4,2; 9,6; 1; 6,1; 7,5. Bestimme das **obere Quartil** q₃.'
+  loesung: 6,1
+  statistik:
+    daten:
+    - 5,9
+    - 2,5
+    - 3,9
+    - 1,2
+    - 2,6
+    - 2,7
+    - 4,2
+    - 9,6
+    - '1'
+    - 6,1
+    - 7,5
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-021
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 4,9; 6,4; 4,9; 1,4; 1,8; 3,1; 1,2; 7,6; 1,1; 6,3; 2. Bestimme das **untere Quartil** q₁.'
+  loesung: 1,4
+  statistik:
+    daten:
+    - 4,9
+    - 6,4
+    - 4,9
+    - 1,4
+    - 1,8
+    - 3,1
+    - 1,2
+    - 7,6
+    - 1,1
+    - 6,3
+    - '2'
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-022
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 6,2; 5,3; 7,7; 7,8; 2,5; 7,9; 3; 4,8; 3,9; 9,2; 5,9. Bestimme das **untere Quartil** q₁.'
+  loesung: 3,9
+  statistik:
+    daten:
+    - 6,2
+    - 5,3
+    - 7,7
+    - 7,8
+    - 2,5
+    - 7,9
+    - '3'
+    - 4,8
+    - 3,9
+    - 9,2
+    - 5,9
+    groesse: q1
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-023
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 3,8; 7; 8,9; 6,3; 3,1; 7,6; 5,9; 9,4; 8,5; 8,8; 1,5. Bestimme das **obere Quartil** q₃.'
+  loesung: 8,8
+  statistik:
+    daten:
+    - 3,8
+    - '7'
+    - 8,9
+    - 6,3
+    - 3,1
+    - 7,6
+    - 5,9
+    - 9,4
+    - 8,5
+    - 8,8
+    - 1,5
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []
+- id: F1.4-024
+  typ: zahl
+  stufe: 4
+  frage: 'Daten: 4,2; 4,8; 2,8; 1; 2; 7,4; 2,5; 1,6; 5,5; 5,4; 7,4. Bestimme das **obere Quartil** q₃.'
+  loesung: 5,5
+  statistik:
+    daten:
+    - 4,2
+    - 4,8
+    - 2,8
+    - '1'
+    - '2'
+    - 7,4
+    - 2,5
+    - 1,6
+    - 5,5
+    - 5,4
+    - 7,4
+    groesse: q3
+  tipps:
+  - Ordne die Daten und bestimme den Median.
+  - q₁ ist der Median der unteren Hälfte, q₃ der Median der oberen Hälfte (bei ungerader Anzahl ohne den mittleren Wert).
+  - Interquartilsabstand = q₃ − q₁.
+  fehler: []

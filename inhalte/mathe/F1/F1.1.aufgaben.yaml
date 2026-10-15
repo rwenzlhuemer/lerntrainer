@@ -1,0 +1,592 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F1.1-001
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Besucher waren es insgesamt?
+  loesung: '26'
+  diagramm:
+    kategorien: &id009
+    - Mo
+    - Di
+    - Mi
+    - Do
+    - Fr
+    werte: &id001
+    - 4
+    - 6
+    - 8
+    - 5
+    - 3
+    achse: Besucher
+  aus_daten:
+    werte: *id001
+    art: summe
+  tipps:
+  - Alle Säulen ablesen und addieren.
+  fehler: []
+- id: F1.1-002
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Besucher waren es im Mär?
+  loesung: '3'
+  diagramm:
+    kategorien: &id003
+    - Jän
+    - Feb
+    - Mär
+    - Apr
+    - Mai
+    - Jun
+    werte: &id002
+    - 5
+    - 5
+    - 3
+    - 7
+    - 4
+    - 9
+    achse: Besucher
+  aus_daten:
+    werte: *id002
+    art: wert
+    i: 2
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-003
+  typ: zahl
+  stufe: 1
+  frage: 'Um wie viele Besucher waren es im Feb mehr als im Jun? (weniger: mit Minus)'
+  loesung: '-6'
+  diagramm:
+    kategorien: *id003
+    werte: &id004
+    - 4
+    - 2
+    - 6
+    - 5
+    - 4
+    - 8
+    achse: Besucher
+  aus_daten:
+    werte: *id004
+    art: differenz
+    i: 1
+    j: 5
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '6'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-004
+  typ: zahl
+  stufe: 1
+  frage: 'Um wie viele Besucher waren es im Apr mehr als im Feb? (weniger: mit Minus)'
+  loesung: '-1'
+  diagramm:
+    kategorien: *id003
+    werte: &id005
+    - 2
+    - 3
+    - 5
+    - 2
+    - 4
+    - 8
+    achse: Besucher
+  aus_daten:
+    werte: *id005
+    art: differenz
+    i: 3
+    j: 1
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-005
+  typ: zahl
+  stufe: 1
+  frage: Wie viele Besucher waren es im Apr?
+  loesung: '8'
+  diagramm:
+    kategorien: *id003
+    werte: &id006
+    - 9
+    - 7
+    - 8
+    - 8
+    - 7
+    - 7
+    achse: Besucher
+  aus_daten:
+    werte: *id006
+    art: wert
+    i: 3
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-006
+  typ: zahl
+  stufe: 1
+  frage: 'Um wie viele Besucher waren es im Apr mehr als im Mär? (weniger: mit Minus)'
+  loesung: '1'
+  diagramm:
+    kategorien: *id003
+    werte: &id007
+    - 9
+    - 5
+    - 7
+    - 8
+    - 6
+    - 3
+    achse: Besucher
+  aus_daten:
+    werte: *id007
+    art: differenz
+    i: 3
+    j: 2
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-007
+  typ: zahl
+  stufe: 2
+  frage: 'Um wie viele Besucher waren es im Apr mehr als im Jun? (weniger: mit Minus)'
+  loesung: '5'
+  diagramm:
+    kategorien: *id003
+    werte: &id008
+    - 30
+    - 45
+    - 10
+    - 30
+    - 30
+    - 25
+    achse: Besucher
+  aus_daten:
+    werte: *id008
+    art: differenz
+    i: 3
+    j: 5
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '-5'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-008
+  typ: zahl
+  stufe: 2
+  frage: Wie viele Besucher waren es laut Diagramm am Do?
+  loesung: '25'
+  diagramm:
+    kategorien: *id009
+    werte: &id010
+    - 25
+    - 40
+    - 45
+    - 25
+    - 15
+    achse: Besucher
+  aus_daten:
+    werte: *id010
+    art: wert
+    i: 3
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-009
+  typ: zahl
+  stufe: 2
+  frage: Wie viele Besucher waren es laut Diagramm am Fr?
+  loesung: '30'
+  diagramm:
+    kategorien: *id009
+    werte: &id011
+    - 45
+    - 15
+    - 20
+    - 40
+    - 30
+    achse: Besucher
+  aus_daten:
+    werte: *id011
+    art: wert
+    i: 4
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-010
+  typ: zahl
+  stufe: 2
+  frage: Wie viele Besucher waren es im Feb?
+  loesung: '45'
+  diagramm:
+    kategorien: *id003
+    werte: &id012
+    - 30
+    - 45
+    - 35
+    - 40
+    - 10
+    - 25
+    achse: Besucher
+  aus_daten:
+    werte: *id012
+    art: wert
+    i: 1
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-011
+  typ: zahl
+  stufe: 2
+  frage: Wie viele Besucher waren es im Mai?
+  loesung: '5'
+  diagramm:
+    kategorien: *id003
+    werte: &id013
+    - 25
+    - 40
+    - 10
+    - 20
+    - 5
+    - 40
+    achse: Besucher
+  aus_daten:
+    werte: *id013
+    art: wert
+    i: 4
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-012
+  typ: zahl
+  stufe: 2
+  frage: Wie viele Besucher waren es im Jän?
+  loesung: '40'
+  diagramm:
+    kategorien: *id003
+    werte: &id014
+    - 40
+    - 45
+    - 10
+    - 30
+    - 45
+    - 45
+    achse: Besucher
+  aus_daten:
+    werte: *id014
+    art: wert
+    i: 0
+  tipps:
+  - Geh zur Säule und lies an der senkrechten Achse ab.
+  fehler: []
+- id: F1.1-013
+  typ: zahl
+  stufe: 3
+  frage: 'Um wie viele Besucher waren es im Feb mehr als im Mai? (weniger: mit Minus)'
+  loesung: '20'
+  diagramm:
+    kategorien: *id003
+    werte: &id015
+    - 10
+    - 70
+    - 80
+    - 30
+    - 50
+    - 80
+    achse: Besucher
+  aus_daten:
+    werte: *id015
+    art: differenz
+    i: 1
+    j: 4
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '-20'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-014
+  typ: zahl
+  stufe: 3
+  frage: 'Um wie viele Besucher waren es im Jän mehr als im Mär? (weniger: mit Minus)'
+  loesung: '20'
+  diagramm:
+    kategorien: *id003
+    werte: &id016
+    - 50
+    - 50
+    - 30
+    - 70
+    - 40
+    - 30
+    achse: Besucher
+  aus_daten:
+    werte: *id016
+    art: differenz
+    i: 0
+    j: 2
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '-20'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-015
+  typ: zahl
+  stufe: 3
+  frage: 'Um wie viele Besucher waren es am Di mehr als am Mo? (weniger: mit Minus)'
+  loesung: '50'
+  diagramm:
+    kategorien: *id009
+    werte: &id017
+    - 10
+    - 60
+    - 50
+    - 10
+    - 90
+    achse: Besucher
+  aus_daten:
+    werte: *id017
+    art: differenz
+    i: 1
+    j: 0
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '-50'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-016
+  typ: zahl
+  stufe: 3
+  frage: 'Um wie viele Besucher waren es im Mär mehr als im Feb? (weniger: mit Minus)'
+  loesung: '40'
+  diagramm:
+    kategorien: *id003
+    werte: &id018
+    - 10
+    - 10
+    - 50
+    - 30
+    - 70
+    - 50
+    achse: Besucher
+  aus_daten:
+    werte: *id018
+    art: differenz
+    i: 2
+    j: 1
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '-40'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-017
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent aller Besucher kamen im Apr? (auf eine Nachkommastelle)
+  loesung: 29,6
+  gerundet: 1
+  diagramm:
+    kategorien: *id003
+    werte: &id019
+    - 20
+    - 30
+    - 10
+    - 80
+    - 60
+    - 70
+    achse: Besucher
+  aus_daten:
+    werte: *id019
+    art: anteil_prozent
+    i: 3
+  einheit: '%'
+  tipps:
+  - 'Anteil = Teil : Ganzes.'
+  - 'Teil: 80, Ganzes: Summe aller Säulen. Dann mal 100.'
+  fehler:
+  - antwort: 8/27
+    hinweis: Noch mal 100 für Prozent.
+- id: F1.1-018
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent aller Besucher kamen im Jun? (auf eine Nachkommastelle)
+  loesung: '36'
+  gerundet: 1
+  diagramm:
+    kategorien: *id003
+    werte: &id020
+    - 20
+    - 20
+    - 50
+    - 50
+    - 20
+    - 90
+    achse: Besucher
+  aus_daten:
+    werte: *id020
+    art: anteil_prozent
+    i: 5
+  einheit: '%'
+  tipps:
+  - 'Anteil = Teil : Ganzes.'
+  - 'Teil: 90, Ganzes: Summe aller Säulen. Dann mal 100.'
+  fehler:
+  - antwort: 9/25
+    hinweis: Noch mal 100 für Prozent.
+- id: F1.1-019
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent aller Besucher kamen am Do? (auf eine Nachkommastelle)
+  loesung: 3,4
+  gerundet: 1
+  diagramm:
+    kategorien: *id009
+    werte: &id021
+    - 100
+    - 200
+    - 225
+    - 25
+    - 175
+    achse: Besucher
+  aus_daten:
+    werte: *id021
+    art: anteil_prozent
+    i: 3
+  einheit: '%'
+  tipps:
+  - 'Anteil = Teil : Ganzes.'
+  - 'Teil: 25, Ganzes: Summe aller Säulen. Dann mal 100.'
+  fehler:
+  - antwort: 1/29
+    hinweis: Noch mal 100 für Prozent.
+- id: F1.1-020
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent aller Besucher kamen am Di? (auf eine Nachkommastelle)
+  loesung: 18,8
+  gerundet: 1
+  diagramm:
+    kategorien: *id009
+    werte: &id022
+    - 175
+    - 150
+    - 225
+    - 200
+    - 50
+    achse: Besucher
+  aus_daten:
+    werte: *id022
+    art: anteil_prozent
+    i: 1
+  einheit: '%'
+  tipps:
+  - 'Anteil = Teil : Ganzes.'
+  - 'Teil: 150, Ganzes: Summe aller Säulen. Dann mal 100.'
+  fehler:
+  - antwort: 3/16
+    hinweis: Noch mal 100 für Prozent.
+- id: F1.1-021
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent aller Besucher kamen am Mi? (auf eine Nachkommastelle)
+  loesung: 11,4
+  gerundet: 1
+  diagramm:
+    kategorien: *id009
+    werte: &id023
+    - 150
+    - 175
+    - 100
+    - 225
+    - 225
+    achse: Besucher
+  aus_daten:
+    werte: *id023
+    art: anteil_prozent
+    i: 2
+  einheit: '%'
+  tipps:
+  - 'Anteil = Teil : Ganzes.'
+  - 'Teil: 100, Ganzes: Summe aller Säulen. Dann mal 100.'
+  fehler:
+  - antwort: 4/35
+    hinweis: Noch mal 100 für Prozent.
+- id: F1.1-022
+  typ: zahl
+  stufe: 4
+  frage: Wie viel Prozent aller Besucher kamen im Jän? (auf eine Nachkommastelle)
+  loesung: '25'
+  gerundet: 1
+  diagramm:
+    kategorien: *id003
+    werte: &id024
+    - 200
+    - 100
+    - 175
+    - 75
+    - 150
+    - 100
+    achse: Besucher
+  aus_daten:
+    werte: *id024
+    art: anteil_prozent
+    i: 0
+  einheit: '%'
+  tipps:
+  - 'Anteil = Teil : Ganzes.'
+  - 'Teil: 200, Ganzes: Summe aller Säulen. Dann mal 100.'
+  fehler:
+  - antwort: 1/4
+    hinweis: Noch mal 100 für Prozent.
+- id: F1.1-023
+  typ: zahl
+  stufe: 4
+  frage: 'Um wie viele Besucher waren es am Di mehr als am Mi? (weniger: mit Minus)'
+  loesung: '-75'
+  diagramm:
+    kategorien: *id009
+    werte: &id025
+    - 50
+    - 100
+    - 175
+    - 200
+    - 200
+    achse: Besucher
+  aus_daten:
+    werte: *id025
+    art: differenz
+    i: 1
+    j: 2
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '75'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'
+- id: F1.1-024
+  typ: zahl
+  stufe: 4
+  frage: 'Um wie viele Besucher waren es im Feb mehr als im Apr? (weniger: mit Minus)'
+  loesung: '-75'
+  diagramm:
+    kategorien: *id003
+    werte: &id026
+    - 75
+    - 125
+    - 25
+    - 200
+    - 225
+    - 150
+    achse: Besucher
+  aus_daten:
+    werte: *id026
+    art: differenz
+    i: 1
+    j: 3
+  tipps:
+  - Beide Werte ablesen, dann subtrahieren.
+  fehler:
+  - antwort: '75'
+    hinweis: 'Reihenfolge: erster Wert minus zweiter.'

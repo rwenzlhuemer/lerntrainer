@@ -354,6 +354,14 @@ async function main() {
   await bild("09q-stammfunktion");
   await geh("#/ls/E3.3");
   await bild("09r-erklaerung-E");
+  const sd = await naechsteBis("F1.1", () => true);
+  pruefe(await js("document.querySelectorAll('svg.graph rect').length >= 5"), "F1.1: Säulendiagramm gezeichnet");
+  await tippe(sd.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `F1.1: ${sd.frage.slice(0, 40)} = ${sd.loesung}`);
+  await bild("09s-saeulen");
+  const ur = await naechsteBis("F2.4", () => true);
+  await tippe(ur.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `F2.4: Urne ${ur.loesung}`);
   const tb = await naechsteBis("C1.1", () => true);
   pruefe(await js("!!document.querySelector('table.tabelle')"), "C1.1: Wertetabelle gezeigt");
   await bild("09m-tabelle");

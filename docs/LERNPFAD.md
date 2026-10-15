@@ -322,11 +322,11 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| F1.1 ★ | Diagramme ablesen (Säulen, Balken, Linien, Prozentstreifen) | WS 1.1 |  |
-| F1.2 ★ | Mittelwert, Median, Modus | WS 1.3 |  |
-| F1.3 ★ | Mittelwert oder Median? Ausreißer; gewogenes Mittel | WS 1.4 |  |
-| F1.4 ★ | Quartile und Boxplot (Kastenschaubild) | WS 1.3, WS 1.4 |  |
-| F1.5 | Spannweite, Varianz, Standardabweichung | WS 1.3 |  |
+| F1.1 ★ | Diagramme ablesen | WS 1.1 | ✓ 24 |
+| F1.2 ★ | Mittelwert, Median, Modus | WS 1.3 | ✓ 24 |
+| F1.3 ★ | Mittelwert oder Median? Gewogenes Mittel | WS 1.4 | ✓ 24 |
+| F1.4 ★ | Quartile und Boxplot | WS 1.3, WS 1.4 | ✓ 24 |
+| F1.5 | Streuung | WS 1.3 | ✓ 20 |
 | F1.6 | Histogramm, Stängel-Blatt-Diagramm; Diagramme selbst erstellen | WS 1.1, WS 1.2 |  |
 | F1.7 | Irreführende Grafiken erkennen | WS 1.1 |  |
 
@@ -334,30 +334,30 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| F2.1 ★ | Grundraum, Ereignis, Gegenereignis | WS 2.1 |  |
-| F2.2 ★ | Relative Häufigkeit als Schätzwert | WS 2.2 |  |
-| F2.3 ★ | Laplace-Wahrscheinlichkeit: günstige / mögliche Fälle | WS 2.3 |  |
-| F2.4 ★ | Baumdiagramm: Multiplikationsregel und Additionsregel | WS 2.3 |  |
-| F2.5 ★ | „Mindestens einmal“ über das Gegenereignis | WS 2.3 |  |
+| F2.1 ★ | Grundraum, Ereignis, Gegenereignis | WS 2.1 | ✓ 20 |
+| F2.2 ★ | Relative Häufigkeit | WS 2.2 | ✓ 20 |
+| F2.3 ★ | Laplace-Wahrscheinlichkeit | WS 2.3 | ✓ 16 |
+| F2.4 ★ | Baumdiagramm | WS 2.3 | ✓ 24 |
+| F2.5 ★ | Mindestens einmal | WS 2.3 | ✓ 24 |
 | F2.6 | Binomialkoeffizient | WS 2.4 |  |
 
 ### F3 Zufallsvariable und Binomialverteilung
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| F3.1 ★ | Zufallsvariable und Wahrscheinlichkeitsverteilung (Tabelle) | WS 3.1 |  |
-| F3.2 ★ | Erwartungswert berechnen und deuten | WS 3.1 |  |
+| F3.1 ★ | Zufallsvariable und Verteilung | WS 3.1 | ✓ 24 |
+| F3.2 ★ | Erwartungswert | WS 3.1 | ✓ 24 |
 | F3.3 | Standardabweichung deuten | WS 3.1 |  |
 | F3.4 ★ | Wann ist etwas binomialverteilt? | WS 3.3 |  |
-| F3.5 ★ | Binomialverteilung: P(X = k), μ = n · p, σ | WS 3.2 |  |
+| F3.5 ★ | Binomialverteilung | WS 3.2 | ✓ 24 |
 
 ### F4 Normalverteilung (Matura-Stoff ab Mai 2027)
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| F4.1 ★ | Glockenkurve; Bedeutung von μ und σ für den Graphen | WS 3.4 |  |
-| F4.2 ★ | Wahrscheinlichkeit = Fläche unter der Kurve | WS 3.4 |  |
-| F4.3 ★ | σ-Regeln (σ, 2σ, 3σ) | WS 3.5 |  |
+| F4.1 ★ | Die Glockenkurve | WS 3.4 | ✓ 12 |
+| F4.2 ★ | Wahrscheinlichkeit als Fläche | WS 3.4 | ✓ 20 |
+| F4.3 ★ | σ-Regeln | WS 3.5 | ✓ 20 |
 | F4.4 | Wahrscheinlichkeiten und Quantile mit Technologie | WS 3.5 |  |
 
 ---
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 111.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 127.

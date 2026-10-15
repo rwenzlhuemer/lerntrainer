@@ -1,0 +1,277 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F2.3-001
+  typ: zahl
+  stufe: 1
+  frage: Ein Würfel wird geworfen. Wie groß ist die Wahrscheinlichkeit für eine **Sechs**? (als Bruch oder Dezimalzahl)
+  loesung: 1/6
+  laplace:
+    raum:
+    - &id001
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+    bedingung: a == 6
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 6.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler: []
+- id: F2.3-002
+  typ: zahl
+  stufe: 1
+  frage: Ein Würfel wird geworfen. Wie groß ist die Wahrscheinlichkeit für eine **gerade** Zahl? (als Bruch oder Dezimalzahl)
+  loesung: 0,5
+  laplace:
+    raum:
+    - *id001
+    bedingung: a % 2 == 0
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 6.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler: []
+- id: F2.3-003
+  typ: zahl
+  stufe: 1
+  frage: Ein Würfel wird geworfen. Wie groß ist die Wahrscheinlichkeit für eine Zahl **größer als 4**? (als Bruch oder Dezimalzahl)
+  loesung: 1/3
+  laplace:
+    raum:
+    - *id001
+    bedingung: a > 4
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 6.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler: []
+- id: F2.3-004
+  typ: zahl
+  stufe: 1
+  frage: Ein Würfel wird geworfen. Wie groß ist die Wahrscheinlichkeit für **keine** Sechs? (als Bruch oder Dezimalzahl)
+  loesung: 5/6
+  laplace:
+    raum:
+    - *id001
+    bedingung: a != 6
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 6.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler: []
+- id: F2.3-005
+  typ: zahl
+  stufe: 2
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit für einen **Pasch** (zwei gleiche Zahlen)? (als Bruch oder Dezimalzahl)
+  loesung: 1/6
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a == b
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/2
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-006
+  typ: zahl
+  stufe: 2
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit für die **Augensumme 7**? (als Bruch oder Dezimalzahl)
+  loesung: 1/6
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a + b == 7
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/2
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-007
+  typ: zahl
+  stufe: 2
+  frage: Zwei Münzen werden geworfen. Wie groß ist die Wahrscheinlichkeit für **genau einmal Kopf**? (als Bruch oder Dezimalzahl)
+  loesung: 0,5
+  laplace:
+    raum:
+    - &id002
+      - K
+      - Z
+    - *id002
+    bedingung: (a == 'K') + (b == 'K') == 1
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 4. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/6
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-008
+  typ: zahl
+  stufe: 2
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit für **zwei Sechsen**? (als Bruch oder Dezimalzahl)
+  loesung: 1/36
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a == 6 and b == 6
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/12
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-009
+  typ: zahl
+  stufe: 3
+  frage: Drei Münzen werden geworfen. Wie groß ist die Wahrscheinlichkeit für **genau zweimal Kopf**? (als Bruch oder Dezimalzahl)
+  loesung: 0,375
+  laplace:
+    raum:
+    - &id003
+      - K
+      - Z
+    - *id003
+    - *id003
+    bedingung: (a == 'K') + (b == 'K') + (c == 'K') == 2
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 8. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/6
+    hinweis: 'Bei 3 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-010
+  typ: zahl
+  stufe: 3
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit für eine **Augensumme von mindestens 10**? (als Bruch oder Dezimalzahl)
+  loesung: 1/6
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a + b >= 10
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/2
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-011
+  typ: zahl
+  stufe: 3
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit, dass das **Produkt** der Augenzahlen **12** ist? (als Bruch oder Dezimalzahl)
+  loesung: 1/9
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a * b == 12
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-012
+  typ: zahl
+  stufe: 3
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit für eine **Augensumme kleiner als 5**? (als Bruch oder Dezimalzahl)
+  loesung: 1/6
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a + b < 5
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/2
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-013
+  typ: zahl
+  stufe: 4
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit, dass die **Differenz** der Augenzahlen **2** beträgt? (als Bruch oder Dezimalzahl)
+  loesung: 2/9
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: abs(a - b) == 2
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 2/3
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-014
+  typ: zahl
+  stufe: 4
+  frage: Zwei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit, dass **beide Zahlen gerade** sind? (als Bruch oder Dezimalzahl)
+  loesung: 0,25
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    bedingung: a % 2 == 0 and b % 2 == 0
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 36. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 3/4
+    hinweis: 'Bei 2 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-015
+  typ: zahl
+  stufe: 4
+  frage: Drei Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit für **drei gleiche** Zahlen? (als Bruch oder Dezimalzahl)
+  loesung: 1/36
+  laplace:
+    raum:
+    - *id001
+    - *id001
+    - *id001
+    bedingung: a == b == c
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 216. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Bei 3 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'
+- id: F2.3-016
+  typ: zahl
+  stufe: 4
+  frage: Drei Münzen werden geworfen. Wie groß ist die Wahrscheinlichkeit für **mindestens einmal Zahl**? (als Bruch oder Dezimalzahl)
+  loesung: 0,875
+  laplace:
+    raum:
+    - &id004
+      - K
+      - Z
+    - *id004
+    - *id004
+    bedingung: '''Z'' in (a, b, c)'
+  tipps:
+  - 'Laplace: P = günstige Fälle : mögliche Fälle.'
+  - 'Mögliche Fälle: 8. Schreib sie als Paare (1|1), (1|2), … auf.'
+  - Zähle die günstigen Fälle sorgfältig.
+  fehler:
+  - antwort: 7/18
+    hinweis: 'Bei 3 Würfen/Würfeln gibt es mehr mögliche Fälle: alle Kombinationen.'

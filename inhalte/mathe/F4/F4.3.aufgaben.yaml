@@ -1,0 +1,342 @@
+# ERZEUGT von tools/generatoren/f.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: F4.3-001
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 250 und σ = 10. Wie viel Prozent der Werte liegen ungefähr zwischen 230 und 270? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 250
+    sigma: 10
+    von: 230
+    bis: 270
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []
+- id: F4.3-002
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 35 und σ = 3. Wie viel Prozent der Werte liegen ungefähr zwischen 29 und 41? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 35
+    sigma: 3
+    von: 29
+    bis: 41
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []
+- id: F4.3-003
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 50 und σ = 5. Wie viel Prozent der Werte liegen ungefähr zwischen 35 und 65? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 50
+    sigma: 5
+    von: 35
+    bis: 65
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-004
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 170 und σ = 8. Wie viel Prozent der Werte liegen ungefähr zwischen 154 und 186? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 170
+    sigma: 8
+    von: 154
+    bis: 186
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []
+- id: F4.3-005
+  typ: zahl
+  stufe: 1
+  frage: X ist normalverteilt mit μ = 12 und σ = 2. Wie viel Prozent der Werte liegen ungefähr zwischen 10 und 14? (auf eine Nachkommastelle)
+  loesung: 68,3
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 12
+    sigma: 2
+    von: 10
+    bis: 14
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 1σ.
+  fehler: []
+- id: F4.3-006
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 500 und σ = 20. Wie viel Prozent der Werte liegen ungefähr zwischen 440 und 560? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 500
+    sigma: 20
+    von: 440
+    bis: 560
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-007
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 500 und σ = 20. Wie viel Prozent der Werte liegen ungefähr zwischen 480 und 520? (auf eine Nachkommastelle)
+  loesung: 68,3
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 500
+    sigma: 20
+    von: 480
+    bis: 520
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 1σ.
+  fehler: []
+- id: F4.3-008
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 1000 und σ = 50. Wie viel Prozent der Werte liegen ungefähr zwischen 900 und 1100? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 1000
+    sigma: 50
+    von: 900
+    bis: 1100
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []
+- id: F4.3-009
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 12 und σ = 2. Wie viel Prozent der Werte liegen ungefähr zwischen 6 und 18? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 12
+    sigma: 2
+    von: 6
+    bis: 18
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-010
+  typ: zahl
+  stufe: 2
+  frage: X ist normalverteilt mit μ = 1000 und σ = 50. Wie viel Prozent der Werte liegen ungefähr zwischen 950 und 1050? (auf eine Nachkommastelle)
+  loesung: 68,3
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 1000
+    sigma: 50
+    von: 950
+    bis: 1050
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 1σ.
+  fehler: []
+- id: F4.3-011
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 170 und σ = 8. Wie viel Prozent der Werte liegen ungefähr zwischen 162 und 178? (auf eine Nachkommastelle)
+  loesung: 68,3
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 170
+    sigma: 8
+    von: 162
+    bis: 178
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 1σ.
+  fehler: []
+- id: F4.3-012
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 35 und σ = 3. Wie viel Prozent der Werte liegen ungefähr zwischen 32 und 38? (auf eine Nachkommastelle)
+  loesung: 68,3
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 35
+    sigma: 3
+    von: 32
+    bis: 38
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 1σ.
+  fehler: []
+- id: F4.3-013
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 60 und σ = 4. Wie viel Prozent der Werte liegen ungefähr zwischen 56 und 64? (auf eine Nachkommastelle)
+  loesung: 68,3
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 60
+    sigma: 4
+    von: 56
+    bis: 64
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 1σ.
+  fehler: []
+- id: F4.3-014
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 170 und σ = 8. Wie viel Prozent der Werte liegen ungefähr zwischen 146 und 194? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 170
+    sigma: 8
+    von: 146
+    bis: 194
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-015
+  typ: zahl
+  stufe: 3
+  frage: X ist normalverteilt mit μ = 35 und σ = 3. Wie viel Prozent der Werte liegen ungefähr zwischen 26 und 44? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 35
+    sigma: 3
+    von: 26
+    bis: 44
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-016
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 60 und σ = 4. Wie viel Prozent der Werte liegen ungefähr zwischen 48 und 72? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 60
+    sigma: 4
+    von: 48
+    bis: 72
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-017
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 500 und σ = 20. Wie viel Prozent der Werte liegen ungefähr zwischen 460 und 540? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 500
+    sigma: 20
+    von: 460
+    bis: 540
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []
+- id: F4.3-018
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 50 und σ = 5. Wie viel Prozent der Werte liegen ungefähr zwischen 40 und 60? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 50
+    sigma: 5
+    von: 40
+    bis: 60
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []
+- id: F4.3-019
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 100 und σ = 15. Wie viel Prozent der Werte liegen ungefähr zwischen 55 und 145? (auf eine Nachkommastelle)
+  loesung: 99,7
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 100
+    sigma: 15
+    von: 55
+    bis: 145
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 3σ.
+  fehler: []
+- id: F4.3-020
+  typ: zahl
+  stufe: 4
+  frage: X ist normalverteilt mit μ = 60 und σ = 4. Wie viel Prozent der Werte liegen ungefähr zwischen 52 und 68? (auf eine Nachkommastelle)
+  loesung: 95,4
+  gerundet: 1
+  einheit: '%'
+  normal_p:
+    mu: 60
+    sigma: 4
+    von: 52
+    bis: 68
+    prozent: true
+  tipps:
+  - 'σ-Regeln: zwischen μ ± σ rund 68,3 %, μ ± 2σ rund 95,4 %, μ ± 3σ rund 99,7 %.'
+  - Hier ist der Abstand 2σ.
+  fehler: []

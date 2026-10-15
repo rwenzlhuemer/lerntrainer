@@ -1,0 +1,12 @@
+id: F2.5
+titel: Mindestens einmal
+ziel: Du berechnest „mindestens einmal“ über das Gegenereignis.
+erklaerung: '„Mindestens einmal“ hat sehr viele Möglichkeiten. Viel einfacher ist das **Gegenereignis**: „kein einziges Mal“.
+
+
+  **P(mindestens einmal) = 1 − P(kein Mal) = 1 − (1 − p)ⁿ**'
+beispiel:
+  text: 'Viermal würfeln, mindestens eine Sechs: P(keine Sechs) = (5/6)⁴ ≈ 0,4823, also 1 − 0,4823 ≈ 0,5177.'
+  wert: 671/1296
+  weg:
+  - 1 - (5/6)^4 = 671/1296

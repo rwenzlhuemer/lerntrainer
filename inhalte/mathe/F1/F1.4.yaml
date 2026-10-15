@@ -1,0 +1,21 @@
+id: F1.4
+titel: Quartile und Boxplot
+ziel: Du bestimmst Quartile und verstehst den Boxplot.
+erklaerung: 'Die Quartile teilen die geordneten Daten in vier gleich große Teile:
+
+  - **q₁** (unteres Quartil): Median der unteren Hälfte
+
+  - **Median** (q₂)
+
+  - **q₃** (oberes Quartil): Median der oberen Hälfte
+
+
+  Bei ungerader Anzahl gehört der Median selbst zu keiner Hälfte.
+
+
+  Der **Boxplot** zeigt Minimum, q₁, Median, q₃ und Maximum. In der Box liegt die mittlere Hälfte der Daten; ihre Breite ist der **Interquartilsabstand** q₃ − q₁.'
+beispiel:
+  text: 'Geordnet: 1; 3; 4; 4; 7; 8; 9. Median 4. Untere Hälfte 1; 3; 4 → q₁ = 3. Obere Hälfte 7; 8; 9 → q₃ = 8.'
+  wert: '5'
+  weg:
+  - 8 - 3 = 5 | Interquartilsabstand
