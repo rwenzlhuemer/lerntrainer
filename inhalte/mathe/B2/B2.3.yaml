@@ -1,0 +1,18 @@
+id: B2.3
+titel: Formeln deuten
+ziel: Du überlegst, wie sich eine Größe ändert, wenn sich eine andere ändert.
+erklaerung: |
+  Oft fragt die Matura nicht nach Zahlen, sondern: „Was passiert mit A, wenn r verdoppelt wird?“
+
+  So gehst du vor: Setz für die geänderte Größe das Vielfache ein und vergleiche.
+  - Steht die Größe im **Zähler** (oder als Faktor), wirkt die Änderung **direkt**: doppelt → doppelt.
+  - Steht sie im **Nenner**, wirkt sie **umgekehrt**: doppelt → halb.
+  - Steht sie im **Quadrat**, wird auch der Faktor quadriert: doppelt → viermal.
+
+  Ändern sich zwei Größen, multiplizierst du die Wirkungen.
+beispiel:
+  wert: "4"
+  text: |
+    In `A = r²·π` wird r verdoppelt: Statt r steht jetzt 2r. `(2r)²·π = 4r²·π` – also viermal so groß.
+  weg:
+    - "2^2 = 4"

@@ -1,0 +1,329 @@
+# ERZEUGT von tools/generatoren/b2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B2.3-001
+  typ: zahl
+  stufe: 1
+  frage: In der Formel `U = 4a` wird a verdreifacht. Mit welchem Faktor ändert sich U? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '3'
+  formel_faktor:
+    formel: U = 4a
+    ziel: U
+    aenderung:
+      a: 3
+  erklaerung: U ist direkt proportional zu a.
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-002
+  typ: zahl
+  stufe: 1
+  frage: In der Formel `A = r²·π` wird r verdoppelt. Mit welchem Faktor ändert sich A? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '4'
+  formel_faktor:
+    formel: A = r²·π
+    ziel: A
+    aenderung:
+      r: 2
+  erklaerung: 'r steht im Quadrat: `(2r)² = 4r²` – die Fläche wird viermal so groß.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-003
+  typ: zahl
+  stufe: 1
+  frage: In der Formel `v = s/t` wird s verdoppelt (t bleibt gleich). Mit welchem Faktor ändert sich v? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '2'
+  formel_faktor:
+    formel: v = s/t
+    ziel: v
+    aenderung:
+      s: 2
+  erklaerung: 's steht im Zähler: doppelt so viel Weg in derselben Zeit → doppelt so schnell.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-004
+  typ: zahl
+  stufe: 1
+  frage: In der Formel `G = m·g` wird m halbiert. Mit welchem Faktor ändert sich G? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1/2
+  formel_faktor:
+    formel: G = m·g
+    ziel: G
+    aenderung:
+      m: 1/2
+  erklaerung: 'G ist direkt proportional zu m: halbe Masse → halbe Gewichtskraft.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-005
+  typ: zahl
+  stufe: 1
+  frage: In der Formel `A = a·b` wird a verdoppelt. Mit welchem Faktor ändert sich A? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '2'
+  formel_faktor:
+    formel: A = a·b
+    ziel: A
+    aenderung:
+      a: 2
+  erklaerung: 'A ist direkt proportional zu a: doppelt so lang → doppelt so groß.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-006
+  typ: zahl
+  stufe: 2
+  frage: In der Formel `V = a^3` wird a verdoppelt. Mit welchem Faktor ändert sich V? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '8'
+  formel_faktor:
+    formel: V = a^3
+    ziel: V
+    aenderung:
+      a: 2
+  erklaerung: '`(2a)³ = 8a³` – achtmal so groß.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-007
+  typ: zahl
+  stufe: 2
+  frage: In der Formel `I = U/R` wird R verdreifacht. Mit welchem Faktor ändert sich I? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1/3
+  formel_faktor:
+    formel: I = U/R
+    ziel: I
+    aenderung:
+      R: 3
+  erklaerung: 'R steht im Nenner: dreifacher Widerstand → ein Drittel des Stroms.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-008
+  typ: zahl
+  stufe: 2
+  frage: In der Formel `p = F/A` wird A verdoppelt. Mit welchem Faktor ändert sich p? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1/2
+  formel_faktor:
+    formel: p = F/A
+    ziel: p
+    aenderung:
+      A: 2
+  erklaerung: 'A steht im Nenner: doppelte Fläche → halber Druck.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-009
+  typ: zahl
+  stufe: 2
+  frage: In der Formel `A = r²·π` wird r halbiert. Mit welchem Faktor ändert sich A? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1/4
+  formel_faktor:
+    formel: A = r²·π
+    ziel: A
+    aenderung:
+      r: 1/2
+  erklaerung: '`(r/2)² = r²/4` – die Fläche wird ein Viertel so groß.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-010
+  typ: zahl
+  stufe: 2
+  frage: In der Formel `v = s/t` wird t verdoppelt (s bleibt gleich). Mit welchem Faktor ändert sich v? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1/2
+  formel_faktor:
+    formel: v = s/t
+    ziel: v
+    aenderung:
+      t: 2
+  erklaerung: 't steht im Nenner: doppelte Zeit für denselben Weg → halb so schnell.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-011
+  typ: zahl
+  stufe: 3
+  frage: In der Formel `W = m·v²/2` wird v verdreifacht. Mit welchem Faktor ändert sich W? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '9'
+  formel_faktor:
+    formel: W = m·v²/2
+    ziel: W
+    aenderung:
+      v: 3
+  erklaerung: 'v steht im Quadrat: `3² = 9`.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-012
+  typ: zahl
+  stufe: 3
+  frage: In der Formel `A = a·b` wird a verdoppelt und b halbiert. Mit welchem Faktor ändert sich A? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '1'
+  formel_faktor:
+    formel: A = a·b
+    ziel: A
+    aenderung:
+      a: 2
+      b: 1/2
+  erklaerung: '`2 · 1/2 = 1` – die Fläche bleibt gleich.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-013
+  typ: zahl
+  stufe: 3
+  frage: In der Formel `F = m·a` wird m halbiert und a verdreifacht. Mit welchem Faktor ändert sich F? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 3/2
+  formel_faktor:
+    formel: F = m·a
+    ziel: F
+    aenderung:
+      m: 1/2
+      a: 3
+  erklaerung: '`1/2 · 3 = 3/2` – eineinhalbmal so groß.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-014
+  typ: zahl
+  stufe: 3
+  frage: In der Formel `v = s/t` wird s verdoppelt und t verdoppelt. Mit welchem Faktor ändert sich v? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '1'
+  formel_faktor:
+    formel: v = s/t
+    ziel: v
+    aenderung:
+      s: 2
+      t: 2
+  erklaerung: '`2 : 2 = 1` – die Geschwindigkeit bleibt gleich.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-015
+  typ: zahl
+  stufe: 3
+  frage: In der Formel `V = r²·π·h` wird r verdoppelt und h halbiert. Mit welchem Faktor ändert sich V? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '2'
+  formel_faktor:
+    formel: V = r²·π·h
+    ziel: V
+    aenderung:
+      r: 2
+      h: 1/2
+  erklaerung: '`2² · 1/2 = 2` – doppelt so groß.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-016
+  typ: zahl
+  stufe: 4
+  frage: In der Formel `I = U/R` wird U verdoppelt und R halbiert. Mit welchem Faktor ändert sich I? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '4'
+  formel_faktor:
+    formel: I = U/R
+    ziel: I
+    aenderung:
+      U: 2
+      R: 1/2
+  erklaerung: '`2 : 1/2 = 4`.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-017
+  typ: zahl
+  stufe: 4
+  frage: In der Formel `A = r²·π` wird r um 10 % vergrößert. Mit welchem Faktor ändert sich A? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1,21
+  formel_faktor:
+    formel: A = r²·π
+    ziel: A
+    aenderung:
+      r: 1,1
+  erklaerung: '`1,1² = 1,21` – die Fläche wächst um 21 %, nicht um 10 %.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-018
+  typ: zahl
+  stufe: 4
+  frage: In der Formel `v = s/t` wird s verdoppelt und t verdreifacht. Mit welchem Faktor ändert sich v? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 2/3
+  formel_faktor:
+    formel: v = s/t
+    ziel: v
+    aenderung:
+      s: 2
+      t: 3
+  erklaerung: '`2 : 3 = 2/3`.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-019
+  typ: zahl
+  stufe: 4
+  frage: In der Formel `V = 4/3·r³·π` wird r halbiert. Mit welchem Faktor ändert sich V? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: 1/8
+  formel_faktor:
+    formel: V = 4/3·r³·π
+    ziel: V
+    aenderung:
+      r: 1/2
+  erklaerung: '`(1/2)³ = 1/8`.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []
+- id: B2.3-020
+  typ: zahl
+  stufe: 4
+  frage: In der Formel `F = m·v²/r` wird v verdoppelt und r verdoppelt. Mit welchem Faktor ändert sich F? (Zum Beispiel 2 für „doppelt so groß“, 1/2 für „halb so groß“.)
+  loesung: '2'
+  formel_faktor:
+    formel: F = m·v²/r
+    ziel: F
+    aenderung:
+      v: 2
+      r: 2
+  erklaerung: '`2² : 2 = 2`.'
+  tipps:
+  - Setz für die geänderte Größe das Vielfache ein, z. B. statt r jetzt 2r.
+  - Steht die Größe im Zähler, wirkt die Änderung direkt. Steht sie im Nenner, wirkt sie umgekehrt.
+  - Steht die Größe im Quadrat, wird auch der Faktor quadriert.
+  fehler: []

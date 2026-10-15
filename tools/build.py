@@ -35,7 +35,7 @@ DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
 STUFEN = {1, 2, 3, 4}
-TYPEN = {"gleichung", "zahl", "auswahl", "term"}
+TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel"}
 
 
 class Fehlerliste(list):
@@ -93,6 +93,8 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
         fehler.melde(wo, f"Lösung nicht lesbar ({e})")
         return
     pruefe_zahlform(a, wo, fehler)
+    if "formel_faktor" in a:
+        pruefe_faktor(a, wo, fehler, soll)
     if "term" in a:
         # Einsetzen: term mit werte {x: -2} muss die Lösung ergeben
         try:
@@ -170,6 +172,51 @@ def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
         fehler.melde(wo, f"Term nicht lesbar ({e})")
 
 
+def positiv(expr):
+    """Formelgrößen (Längen, Flächen, Zeiten …) sind positiv – sonst wäre √(d²) nicht d."""
+    return expr.subs({s: sympy.Symbol(s.name, positive=True) for s in expr.free_symbols})
+
+
+def formel_seiten(text: str):
+    links, rechts = text.split("=")
+    return positiv(notation.ausdruck(links)), positiv(notation.ausdruck(rechts))
+
+
+def pruefe_formel(a: dict, wo: str, fehler: Fehlerliste):
+    """Formel nach einer Variablen umformen: loesung ist die rechte Seite von „nach = …“."""
+    try:
+        nach = sympy.Symbol(a["nach"], positive=True)
+        links, rechts = formel_seiten(a["formel"])
+        soll = positiv(notation.ausdruck(a["loesung"]))
+        if nach in soll.free_symbols:
+            fehler.melde(wo, f"Lösung enthält noch {a['nach']}")
+        kandidaten = sympy.solve(sympy.Eq(links, rechts), nach)
+        if not any(sympy.simplify(k - soll) == 0 for k in kandidaten):
+            fehler.melde(wo, f"Lösung {a['loesung']!r} stimmt nicht – sympy: {kandidaten}")
+        for zeile in a.get("weg", []):
+            l, r = formel_seiten(zeile.split("|")[0])
+            if sympy.simplify((l - r).subs(nach, soll)) != 0:
+                fehler.melde(wo, f"Lösungsweg-Zeile {zeile!r} folgt nicht aus der Formel")
+        for f in a.get("fehler", []):
+            if sympy.simplify(positiv(notation.ausdruck(f["antwort"])) - soll) == 0:
+                fehler.melde(wo, f"Fehler-Antwort {f['antwort']!r} ist in Wahrheit richtig")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Formel nicht lesbar ({e})")
+
+
+def pruefe_faktor(a: dict, wo: str, fehler: Fehlerliste, soll):
+    """„r wird verdoppelt – mit welchem Faktor ändert sich A?“: Verhältnis neu/alt der rechten Seite."""
+    try:
+        p = a["formel_faktor"]
+        _, rechts = formel_seiten(p["formel"])
+        neu = rechts.subs({sympy.Symbol(k, positive=True): sympy.Symbol(k, positive=True) * notation.zahl(str(v)) for k, v in p["aenderung"].items()},
+                          simultaneous=True)
+        if sympy.simplify(neu / rechts - soll) != 0:
+            fehler.melde(wo, f"Faktor stimmt nicht: sympy {sympy.simplify(neu / rechts)}")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Faktor nicht prüfbar ({e})")
+
+
 def pruefe_zahlform(a: dict, wo: str, fehler: Fehlerliste):
     """form: gekuerzt | nenner | dezimal – die Lösung selbst muss die verlangte Form haben."""
     form, l = a.get("form"), str(a["loesung"]).replace(" ", "")
@@ -241,7 +288,8 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
         fehler.melde(wo, f"Prüfung nicht lesbar ({e})")
 
 
-PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term}
+PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term,
+           "formel": pruefe_formel}
 
 
 def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
@@ -291,7 +339,8 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 texte: set[str] = set()
                 for a in aufgaben:
                     aid = a.get("id", "?")
-                    text = a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage") or a.get("term")
+                    text = (a.get("gleichung") if a.get("typ") == "gleichung" else
+                            f"{a.get('formel')} nach {a.get('nach')}" if a.get("typ") == "formel" else a.get("frage") or a.get("term"))
                     if text in texte:
                         fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
                     texte.add(text)
@@ -309,6 +358,8 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                         except Exception as e:  # noqa: BLE001
                             fehler.melde(lid, f"Beispiel-Zeile {zeile!r} nicht lesbar ({e})")
                 bsp = inhalt.get("beispiel") or {}
+                if bsp.get("formel"):
+                    pruefe_formel({**bsp, "fehler": []}, f"{lid}/Beispiel", fehler)
                 if bsp.get("term") or bsp.get("wert"):
                     # Beispiel als Kette: jedes Glied gleich dem Term bzw. Wert
                     for zeile in bsp.get("weg", []):

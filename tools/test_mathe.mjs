@@ -78,6 +78,17 @@ for (const datei of readdirSync(DATEN)) {
         const rf = M.pruefeTermZeile(f.antwort, a);
         erwarte(rf.art === "falsch" && rf.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${rf.art}`);
       }
+    } else if (a.typ === "formel") {
+      erwarte(M.pruefeFormelZeile(`${a.nach} = ${a.loesung}`, a).art === "geloest", `${a.id}: Lösung nicht erkannt`);
+      erwarte(M.pruefeFormelZeile(a.formel, a).art !== "geloest" || M.lies(a.formel).links.n === a.nach, `${a.id}: Ausgangsformel gilt schon als gelöst`);
+      for (const zeile of a.weg || []) {
+        const r = M.pruefeFormelZeile(zeile.split("|")[0], a);
+        erwarte(["schritt", "geloest"].includes(r.art), `${a.id}: Weg-Zeile "${zeile}" → ${r.art}`);
+      }
+      for (const f of a.fehler || []) {
+        const r = M.pruefeFormelZeile(`${a.nach} = ${f.antwort}`, a);
+        erwarte(r.art === "falsch" && r.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
+      }
     } else if (a.typ === "auswahl" && a.mathe) {
       for (const o of a.optionen) erwarte(M.versuche(o), `${a.id}: Option ${o} nicht lesbar`);
     }

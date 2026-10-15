@@ -99,9 +99,9 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| B2.1 ★ | Formel nach einer Variablen auflösen (einfach: v = s / t) | AG 2.1 |  |
-| B2.2 ★ | Formel nach einer Variablen auflösen (mehrere Schritte, Flächenformeln) | AG 2.1 |  |
-| B2.3 | Formeln im Kontext deuten („Was passiert mit A, wenn r verdoppelt wird?“) | AG 2.1, FA 1.8 |  |
+| B2.1 ★ | Formel nach einer Variablen auflösen | AG 2.1 | ✓ 28 |
+| B2.2 ★ | Flächen- und Körperformeln umformen | AG 2.1 | ✓ 24 |
+| B2.3 | Formeln deuten | AG 2.1, FA 1.8 | ✓ 20 |
 
 ### B3 Lineare Ungleichungen
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 38.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 41.

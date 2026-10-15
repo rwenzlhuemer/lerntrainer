@@ -280,6 +280,15 @@ async function main() {
   pruefe((await rm()).includes("gerundet"), `A5.5: ${zi.loesung} € als sinnvoll gerundet erkannt`);
   await bild("09f-zinseszins");
 
+  // B2.2 Formel umformen: Zwischenzeile, dann Lösung
+  const fo = await naechsteBis("B2.2", (x) => x.weg.length >= 3);
+  await tippe(fo.weg[1].split("|")[0]);
+  const rf = await rm();
+  pruefe(rf.startsWith("rueckmeldung gut") && rf.includes("umgeformt"), `B2.2: Zwischenzeile ${fo.weg[1].split("|")[0]} angenommen`);
+  await tippe(`${fo.nach} = ${fo.loesung}`);
+  pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `B2.2: ${fo.formel} nach ${fo.nach} gelöst`);
+  await bild("09g-formel");
+
   // Lösung zeigen
   await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");

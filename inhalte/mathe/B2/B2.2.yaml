@@ -1,0 +1,23 @@
+id: B2.2
+titel: Flächen- und Körperformeln umformen
+ziel: Du formst Formeln mit mehreren Schritten, Klammern und Quadraten um.
+erklaerung: |
+  Bei längeren Formeln arbeitest du Schritt für Schritt von außen nach innen:
+  zuerst, was „am weitesten weg“ von der gesuchten Größe ist.
+
+  **Klammern** bleiben zusammen: In `A = (a + c)/2 · h` ist `(a + c)` ein Block. Durch ihn dividierst du als Ganzes.
+
+  **Quadrate** machst du mit der **Wurzel** rückgängig: aus `A = r²·π` wird `r = √(A/π)`.
+  Achtung: Die Wurzel aus einer Summe oder Differenz bleibt als Ganzes stehen – `√(c² − b²)` ist **nicht** `c − b`.
+
+  Steht die gesuchte Größe zweimal da, hebst du sie zuerst heraus.
+beispiel:
+  formel: "A = (a + c)/2 · h"
+  nach: "h"
+  loesung: "2A/(a + c)"
+  text: |
+    Trapezfläche nach der Höhe h umformen: zuerst das „durch 2“ wegbringen, dann durch die ganze Klammer.
+  weg:
+    - "A = (a + c)/2 · h"
+    - "2A = (a + c)·h | ·2"
+    - "2A/(a + c) = h | :(a + c)"

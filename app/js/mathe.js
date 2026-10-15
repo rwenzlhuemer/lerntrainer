@@ -544,6 +544,62 @@ export function pruefeTermZeile(eingabe, aufgabe) {
   return hinweis ? { art: "schritt", hinweis } : { art: "geloest" };
 }
 
+// ── Formeln umformen ─────────────────────────────────────
+// Eine Zeile ist richtig umgeformt, wenn sie stimmt, sobald man für die gesuchte Variable die Lösung einsetzt.
+
+// Positive Probestellen, gut gestreut – damit auch √(c² − b²) genug gültige Stellen hat
+const POSITIV_PROBEN = 24;
+const positivProbe = (i, j) => 0.4 + ((i * 7 + j * 11) % 19) * 0.37 + 0.013 * j;
+
+function stimmtMitLoesung(g, nach, soll) {
+  const vars = [...new Set([...variablen(g.links), ...variablen(g.rechts), ...variablen(soll)])].filter((v) => v !== nach).sort();
+  let gueltig = 0;
+  for (let i = 0; i < POSITIV_PROBEN; i++) {
+    const env = {};
+    vars.forEach((v, j) => { env[v] = positivProbe(i, j); });
+    let l, r;
+    try { env[nach] = werte(soll, env); l = werte(g.links, env); r = werte(g.rechts, env); } catch { return false; }
+    if (!Number.isFinite(env[nach])) continue;
+    if (!Number.isFinite(l) || !Number.isFinite(r) || !nahe(l, r, 1e-8)) return false;
+    gueltig++;
+  }
+  return gueltig >= 3;
+}
+
+// Ergebnis: {art: "geloest"|"schritt"|"falsch"|"unklar", fehler?}
+export function pruefeFormelZeile(eingabe, aufgabe) {
+  const nach = aufgabe.nach;
+  let t = String(eingabe).trim();
+  if (!t.includes("=")) t = `${nach} = ${t}`;
+  const g = versuche(t);
+  if (!g || !g.gleichung) return { art: "unklar" };
+  const soll = lies(aufgabe.loesung).term;
+  const allein = (s) => s.t === "var" && s.n === nach;
+  const andere = allein(g.links) ? g.rechts : allein(g.rechts) ? g.links : null;
+  if (andere && !variablen(andere).has(nach)) {
+    if (termGleichPositiv(andere, soll)) return { art: "geloest" };
+    const f = (aufgabe.fehler || []).find((x) => { const h = versuche(x.antwort); return h && termGleichPositiv(andere, h.term); });
+    return { art: "falsch", fehler: f || null };
+  }
+  return stimmtMitLoesung(g, nach, soll) ? { art: "schritt" } : { art: "falsch", fehler: null };
+}
+
+// Wie termGleich, aber nur an positiven Stellen (Formeln mit Wurzeln: Längen, Flächen sind positiv)
+function termGleichPositiv(t1, t2) {
+  const vars = [...new Set([...variablen(t1), ...variablen(t2)])].sort();
+  let gueltig = 0;
+  for (let i = 0; i < POSITIV_PROBEN; i++) {
+    const env = {};
+    vars.forEach((v, j) => { env[v] = positivProbe(i, j); });
+    let a, b;
+    try { a = werte(t1, env); b = werte(t2, env); } catch { return false; }
+    if (!Number.isFinite(b)) continue;
+    if (!Number.isFinite(a) || !nahe(a, b, 1e-8)) return false;
+    gueltig++;
+  }
+  return gueltig >= 3;
+}
+
 // Passt ein Wert zu einer vorbereiteten Fehler-Antwort?
 export function findeFehler(wert, fehlerListe) {
   if (wert === null || wert === undefined || !fehlerListe) return null;

@@ -1,0 +1,490 @@
+# ERZEUGT von tools/generatoren/b2.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B2.1-001
+  typ: formel
+  stufe: 1
+  formel: P = W/t
+  nach: W
+  loesung: P·t
+  weg:
+  - P = W/t
+  - P·t = W | ·t
+  tipps:
+  - 'Ziel: W soll allein auf einer Seite stehen. Was passiert mit W in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: P/t
+    hinweis: 'W wird durch t dividiert – rückgängig: mal t.'
+- id: B2.1-002
+  typ: formel
+  stufe: 1
+  formel: G = m·g
+  nach: m
+  loesung: G/g
+  weg:
+  - G = m·g
+  - G/g = m | :g
+  tipps:
+  - 'Ziel: m soll allein auf einer Seite stehen. Was passiert mit m in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: G·g
+    hinweis: 'Rückgängig machen: durch g, nicht mal g.'
+- id: B2.1-003
+  typ: formel
+  stufe: 1
+  formel: c = a - b
+  nach: a
+  loesung: c + b
+  weg:
+  - c = a - b
+  - c + b = a | +b
+  tipps:
+  - 'Ziel: a soll allein auf einer Seite stehen. Was passiert mit a in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: c - b
+    hinweis: 'Aus minus wird plus: Bring −b mit +b auf die andere Seite.'
+- id: B2.1-004
+  typ: formel
+  stufe: 1
+  formel: A = a·b
+  nach: a
+  loesung: A/b
+  weg:
+  - A = a·b
+  - A/b = a | :b
+  tipps:
+  - 'Ziel: a soll allein auf einer Seite stehen. Was passiert mit a in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: A·b
+    hinweis: a wird mit b multipliziert – rückgängig machst du das mit **durch** b.
+- id: B2.1-005
+  typ: formel
+  stufe: 1
+  formel: y = x + d
+  nach: d
+  loesung: y - x
+  weg:
+  - y = x + d
+  - y - x = d | −x
+  tipps:
+  - 'Ziel: d soll allein auf einer Seite stehen. Was passiert mit d in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: y + x
+    hinweis: 'Aus plus wird minus: Bring x mit −x auf die andere Seite.'
+- id: B2.1-006
+  typ: formel
+  stufe: 1
+  formel: d = 2r
+  nach: r
+  loesung: d/2
+  weg:
+  - d = 2r
+  - d/2 = r | :2
+  tipps:
+  - 'Ziel: r soll allein auf einer Seite stehen. Was passiert mit r in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: 2d
+    hinweis: 'Rückgängig machen: durch 2, nicht mal 2.'
+- id: B2.1-007
+  typ: formel
+  stufe: 1
+  formel: W = F·s
+  nach: F
+  loesung: W/s
+  weg:
+  - W = F·s
+  - W/s = F | :s
+  tipps:
+  - 'Ziel: F soll allein auf einer Seite stehen. Was passiert mit F in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: W - s
+    hinweis: 'F und s werden multipliziert – rückgängig: durch s.'
+- id: B2.1-008
+  typ: formel
+  stufe: 2
+  formel: A = a·b/2
+  nach: a
+  loesung: 2A/b
+  weg:
+  - A = a·b/2
+  - 2A = a·b | ·2
+  - 2A/b = a | :b
+  tipps:
+  - 'Ziel: a soll allein auf einer Seite stehen. Was passiert mit a in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: A/(2b)
+    hinweis: Das „durch 2“ machst du mit „mal 2“ rückgängig.
+  - antwort: 2A·b
+    hinweis: Zum Schluss durch b, nicht mal b.
+- id: B2.1-009
+  typ: formel
+  stufe: 2
+  formel: v = s/t
+  nach: t
+  loesung: s/v
+  weg:
+  - v = s/t
+  - v·t = s | ·t
+  - t = s/v | :v
+  tipps:
+  - 'Ziel: t soll allein auf einer Seite stehen. Was passiert mit t in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: v·s
+    hinweis: t steht im Nenner. Zuerst mal t, dann durch v.
+  - antwort: v/s
+    hinweis: 'Fast – prüf mit Zahlen: s = 100, t = 2 ergibt v = 50. Dann muss t = 100 : 50 sein.'
+- id: B2.1-010
+  typ: formel
+  stufe: 2
+  formel: c = a - b
+  nach: b
+  loesung: a - c
+  weg:
+  - c = a - b
+  - c + b = a | +b
+  - b = a - c | −c
+  tipps:
+  - 'Ziel: b soll allein auf einer Seite stehen. Was passiert mit b in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: c - a
+    hinweis: 'Vorsicht mit dem Minus vor b: Bring b zuerst mit +b auf die andere Seite.'
+- id: B2.1-011
+  typ: formel
+  stufe: 2
+  formel: I = U/R
+  nach: R
+  loesung: U/I
+  weg:
+  - I = U/R
+  - I·R = U | ·R
+  - R = U/I | :I
+  tipps:
+  - 'Ziel: R soll allein auf einer Seite stehen. Was passiert mit R in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: I·U
+    hinweis: 'R steht im Nenner: zuerst mal R, dann durch I.'
+  - antwort: I/U
+    hinweis: 'Umgekehrt: R = U : I.'
+- id: B2.1-012
+  typ: formel
+  stufe: 2
+  formel: m = d·V
+  nach: V
+  loesung: m/d
+  weg:
+  - m = d·V
+  - m/d = V | :d
+  tipps:
+  - 'Ziel: V soll allein auf einer Seite stehen. Was passiert mit V in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: m·d
+    hinweis: 'Rückgängig machen: durch d.'
+- id: B2.1-013
+  typ: formel
+  stufe: 2
+  formel: y = k·x
+  nach: x
+  loesung: y/k
+  weg:
+  - y = k·x
+  - y/k = x | :k
+  tipps:
+  - 'Ziel: x soll allein auf einer Seite stehen. Was passiert mit x in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: y - k
+    hinweis: 'k·x heißt k mal x – rückgängig: durch k.'
+- id: B2.1-014
+  typ: formel
+  stufe: 2
+  formel: p = F/A
+  nach: A
+  loesung: F/p
+  weg:
+  - p = F/A
+  - p·A = F | ·A
+  - A = F/p | :p
+  tipps:
+  - 'Ziel: A soll allein auf einer Seite stehen. Was passiert mit A in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: p·F
+    hinweis: 'A steht im Nenner: zuerst mal A, dann durch p.'
+- id: B2.1-015
+  typ: formel
+  stufe: 3
+  formel: y = k·x + d
+  nach: k
+  loesung: (y - d)/x
+  weg:
+  - y = k·x + d
+  - y - d = k·x | −d
+  - (y - d)/x = k | :x
+  tipps:
+  - 'Ziel: k soll allein auf einer Seite stehen. Was passiert mit k in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: y/x - d
+    hinweis: Zuerst −d, dann die ganze Seite durch x.
+- id: B2.1-016
+  typ: formel
+  stufe: 3
+  formel: y = k·x + d
+  nach: x
+  loesung: (y - d)/k
+  weg:
+  - y = k·x + d
+  - y - d = k·x | −d
+  - (y - d)/k = x | :k
+  tipps:
+  - 'Ziel: x soll allein auf einer Seite stehen. Was passiert mit x in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: y/k - d
+    hinweis: Zuerst −d, dann durch k – und zwar die ganze Seite.
+  - antwort: (y + d)/k
+    hinweis: +d machst du mit −d rückgängig.
+- id: B2.1-017
+  typ: formel
+  stufe: 3
+  formel: U = 2a + 2b
+  nach: a
+  loesung: (U - 2b)/2
+  weg:
+  - U = 2a + 2b
+  - U - 2b = 2a | −2b
+  - (U - 2b)/2 = a | :2
+  tipps:
+  - 'Ziel: a soll allein auf einer Seite stehen. Was passiert mit a in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: U/2 - 2b
+    hinweis: 'Wenn du durch 2 dividierst, dann die **ganze** Seite: `(U - 2b)/2`.'
+  - antwort: (U + 2b)/2
+    hinweis: +2b wird mit −2b rückgängig gemacht.
+- id: B2.1-018
+  typ: formel
+  stufe: 3
+  formel: K = 50 + 0,2·x
+  nach: x
+  loesung: (K - 50)/0,2
+  weg:
+  - K = 50 + 0,2·x
+  - K - 50 = 0,2·x | −50
+  - (K - 50)/0,2 = x | :0,2
+  tipps:
+  - 'Ziel: x soll allein auf einer Seite stehen. Was passiert mit x in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: K/0,2 - 50
+    hinweis: Zuerst −50, dann die ganze Seite durch 0,2.
+- id: B2.1-019
+  typ: formel
+  stufe: 3
+  formel: s = v·t + a
+  nach: t
+  loesung: (s - a)/v
+  weg:
+  - s = v·t + a
+  - s - a = v·t | −a
+  - (s - a)/v = t | :v
+  tipps:
+  - 'Ziel: t soll allein auf einer Seite stehen. Was passiert mit t in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: s/v - a
+    hinweis: Zuerst −a, dann die ganze Seite durch v.
+- id: B2.1-020
+  typ: formel
+  stufe: 3
+  formel: A = a·h/2
+  nach: h
+  loesung: 2A/a
+  weg:
+  - A = a·h/2
+  - 2A = a·h | ·2
+  - 2A/a = h | :a
+  tipps:
+  - 'Ziel: h soll allein auf einer Seite stehen. Was passiert mit h in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: A/(2a)
+    hinweis: Das „durch 2“ machst du mit „mal 2“ rückgängig.
+- id: B2.1-021
+  typ: formel
+  stufe: 3
+  formel: F = 1,8·C + 32
+  nach: C
+  loesung: (F - 32)/1,8
+  weg:
+  - F = 1,8·C + 32
+  - F - 32 = 1,8·C | −32
+  - (F - 32)/1,8 = C | :1,8
+  tipps:
+  - 'Ziel: C soll allein auf einer Seite stehen. Was passiert mit C in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: F/1,8 - 32
+    hinweis: Zuerst −32, dann die ganze Seite durch 1,8.
+  - antwort: (F + 32)/1,8
+    hinweis: +32 machst du mit −32 rückgängig.
+- id: B2.1-022
+  typ: formel
+  stufe: 4
+  formel: k = (y - d)/x
+  nach: d
+  loesung: y - k·x
+  weg:
+  - k = (y - d)/x
+  - k·x = y - d | ·x
+  - k·x + d = y | +d
+  - d = y - k·x | −k·x
+  tipps:
+  - 'Ziel: d soll allein auf einer Seite stehen. Was passiert mit d in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: k·x - y
+    hinweis: Vorsicht mit dem Minus vor d.
+- id: B2.1-023
+  typ: formel
+  stufe: 4
+  formel: y = (x - 3)/2
+  nach: x
+  loesung: 2y + 3
+  weg:
+  - y = (x - 3)/2
+  - 2y = x - 3 | ·2
+  - 2y + 3 = x | +3
+  tipps:
+  - 'Ziel: x soll allein auf einer Seite stehen. Was passiert mit x in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: 2y - 3
+    hinweis: −3 machst du mit +3 rückgängig.
+  - antwort: y/2 + 3
+    hinweis: Das „durch 2“ machst du mit „mal 2“ rückgängig.
+- id: B2.1-024
+  typ: formel
+  stufe: 4
+  formel: a = (v - u)/t
+  nach: t
+  loesung: (v - u)/a
+  weg:
+  - a = (v - u)/t
+  - a·t = v - u | ·t
+  - t = (v - u)/a | :a
+  tipps:
+  - 'Ziel: t soll allein auf einer Seite stehen. Was passiert mit t in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: a·(v - u)
+    hinweis: 't steht im Nenner: zuerst mal t, dann durch a.'
+- id: B2.1-025
+  typ: formel
+  stufe: 4
+  formel: U = 2(a + b)
+  nach: a
+  loesung: U/2 - b
+  weg:
+  - U = 2(a + b)
+  - U/2 = a + b | :2
+  - U/2 - b = a | −b
+  tipps:
+  - 'Ziel: a soll allein auf einer Seite stehen. Was passiert mit a in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: U - 2b
+    hinweis: Zuerst durch 2 (die ganze Seite), dann −b.
+  - antwort: (U - b)/2
+    hinweis: 'Die 2 gilt für die ganze Klammer: zuerst durch 2, dann −b.'
+- id: B2.1-026
+  typ: formel
+  stufe: 4
+  formel: a = (v - u)/t
+  nach: v
+  loesung: a·t + u
+  weg:
+  - a = (v - u)/t
+  - a·t = v - u | ·t
+  - a·t + u = v | +u
+  tipps:
+  - 'Ziel: v soll allein auf einer Seite stehen. Was passiert mit v in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: a·t - u
+    hinweis: −u machst du mit +u rückgängig.
+  - antwort: (a + u)·t
+    hinweis: Zuerst mal t, dann +u.
+- id: B2.1-027
+  typ: formel
+  stufe: 4
+  formel: p = 100·W/G
+  nach: G
+  loesung: 100W/p
+  weg:
+  - p = 100·W/G
+  - p·G = 100W | ·G
+  - G = 100W/p | :p
+  tipps:
+  - 'Ziel: G soll allein auf einer Seite stehen. Was passiert mit G in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: p·W/100
+    hinweis: 'G steht im Nenner: zuerst mal G, dann durch p.'
+- id: B2.1-028
+  typ: formel
+  stufe: 4
+  formel: m = (a + b)/2
+  nach: a
+  loesung: 2m - b
+  weg:
+  - m = (a + b)/2
+  - 2m = a + b | ·2
+  - 2m - b = a | −b
+  tipps:
+  - 'Ziel: a soll allein auf einer Seite stehen. Was passiert mit a in der Formel?'
+  - 'Mach die Rechnung rückgängig: Aus „mal“ wird „durch“, aus „plus“ wird „minus“ – und umgekehrt.'
+  - Was du auf einer Seite machst, machst du auch auf der anderen – immer mit der **ganzen** Seite.
+  fehler:
+  - antwort: m/2 - b
+    hinweis: Das „durch 2“ machst du mit „mal 2“ rückgängig.
+  - antwort: 2(m - b)
+    hinweis: Zuerst mal 2, dann −b.

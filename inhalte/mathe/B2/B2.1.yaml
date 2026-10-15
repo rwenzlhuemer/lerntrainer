@@ -1,0 +1,24 @@
+id: B2.1
+titel: Formel nach einer Variablen auflösen
+ziel: Du formst einfache Formeln so um, dass die gesuchte Größe allein steht.
+erklaerung: |
+  Eine Formel ist eine Gleichung mit mehreren Buchstaben. Du formst sie genauso um wie eine Gleichung
+  mit x – nur dass am Ende keine Zahl herauskommt, sondern ein Term.
+
+  So gehst du vor:
+  1. Welche Größe ist gesucht? Die soll **allein** auf einer Seite stehen.
+  2. Was passiert mit ihr in der Formel? Mach es **rückgängig**: aus „mal“ wird „durch“, aus „plus“ wird „minus“.
+  3. Immer auf **beiden** Seiten – und immer mit der **ganzen** Seite.
+
+  Steht die gesuchte Größe im **Nenner** (wie t in `v = s/t`), multiplizierst du zuerst mit ihr.
+  Tipp zur Kontrolle: Setz einfache Zahlen ein und prüfe, ob es stimmt.
+beispiel:
+  formel: "v = s/t"
+  nach: "t"
+  loesung: "s/v"
+  text: |
+    t steht im Nenner. Zuerst mal t, dann durch v. Probe: s = 100 m, t = 20 s ergibt v = 5 m/s, und 100 : 5 = 20 ✓
+  weg:
+    - "v = s/t"
+    - "v·t = s | ·t"
+    - "t = s/v | :v"

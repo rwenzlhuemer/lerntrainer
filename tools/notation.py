@@ -22,7 +22,7 @@ _TRANSFORM = standard_transformations + (implicit_multiplication_application, co
 
 _HOCH = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁻", "0123456789-")
 _ERSETZUNGEN = [
-    ("−", "-"), ("–", "-"), ("·", "*"), ("×", "*"), (":", "/"), ("÷", "/"), ("√", "sqrt"), ("π", "pi"),
+    ("−", "-"), ("–", "-"), ("·", "*"), ("×", "*"), (":", "/"), ("÷", "/"), ("√", "sqrt"), ("π", "(pi)"),
 ]
 
 
@@ -43,7 +43,9 @@ def zu_sympy_text(text: str) -> str:
 
 
 def ausdruck(text: str) -> sympy.Expr:
-    lokal = {"x": sympy.Symbol("x"), "e": sympy.E, "pi": sympy.pi}
+    # Jeder Buchstabe ist eine Variable (sympy kennt sonst E, I, S, N, Q … als eigene Objekte); e ist die Eulersche Zahl
+    lokal = {b: sympy.Symbol(b) for b in "abcdfghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    lokal.update({"e": sympy.E, "pi": sympy.pi})
     return parse_expr(zu_sympy_text(text), local_dict=lokal, transformations=_TRANSFORM)
 
 
