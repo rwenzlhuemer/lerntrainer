@@ -225,12 +225,14 @@ async function main() {
   pruefe((await rm()).startsWith("rueckmeldung gut"), `A4.5: ${t5.term} = ${t5.loesung} erkannt`);
 
   // A2.1 Kürzen: ungekürzt → freundlicher Hinweis (neutral), gekürzt → richtig
+  // Blättert bis zu einer passenden Aufgabe. Zahl-Aufgaben werden richtig beantwortet (sonst sinkt die Stufe).
   const naechsteBis = async (lid, bed) => {
     await geh(`#/ueben/${lid}`);
     for (let i = 0; i < 25; i++) {
       const kand = await js("window.__aufgabe");
       if (bed(kand)) return kand;
-      await js("document.querySelector('#zeigen').click()");
+      if (kand.typ === "zahl") await tippe(kand.loesung);
+      else await js("document.querySelector('#zeigen').click()");
       await warte(150);
       await js("document.querySelector('#next').click()");
       await warte(250);
