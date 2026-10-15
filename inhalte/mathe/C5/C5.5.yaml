@@ -1,0 +1,17 @@
+id: C5.5
+titel: "Logarithmus: bˣ = c lösen"
+ziel: Du löst Exponentialgleichungen mit dem Logarithmus.
+erklaerung: |
+  Wenn x in der Hochzahl steht, hilft der **Logarithmus**. Er beantwortet die Frage:
+  „Mit welcher Hochzahl muss ich b potenzieren, um c zu bekommen?“
+
+  `bˣ = c` → `x = ln(c) / ln(b)` (ln = natürlicher Logarithmus, Taschenrechner-Taste „ln“)
+
+  Steht noch ein Faktor davor, zuerst dividieren: `500 · 1,04ˣ = 800` → `1,04ˣ = 1,6`.
+  Bei `e^(k·x) = c` reicht: `k·x = ln(c)`.
+beispiel:
+  wert: "32"
+  text: |
+    `2ˣ = 32`: 2⁵ = 32, also x = 5. Mit dem Logarithmus: `ln(32)/ln(2) = 5`.
+  weg:
+    - "2^5 = 2·2·2·2·2 = 32 | Probe: x = 5 stimmt"

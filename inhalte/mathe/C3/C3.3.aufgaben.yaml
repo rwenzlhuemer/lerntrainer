@@ -1,0 +1,450 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C3.3-001
+  typ: auswahl
+  stufe: 1
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 2
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x³/4 - 3
+      name: f
+  pruefung:
+    art: grad
+    term: x³/4 - 3
+  erklaerung: Zwei „Buckel“ (Hoch- und Tiefpunkt), die Enden zeigen in entgegengesetzte Richtungen – typisch für Grad 3.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-002
+  typ: auswahl
+  stufe: 1
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 0
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -2x + 3
+      name: f
+  pruefung:
+    art: grad
+    term: -2x + 3
+  erklaerung: Eine **Gerade** – Grad 1.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-003
+  typ: auswahl
+  stufe: 1
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 2
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x³/2 - 2x
+      name: f
+  pruefung:
+    art: grad
+    term: x³/2 - 2x
+  erklaerung: Zwei „Buckel“ (Hoch- und Tiefpunkt), die Enden zeigen in entgegengesetzte Richtungen – typisch für Grad 3.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-004
+  typ: auswahl
+  stufe: 1
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 0
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x - 1
+      name: f
+  pruefung:
+    art: grad
+    term: x - 1
+  erklaerung: Eine **Gerade** – Grad 1.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-005
+  typ: auswahl
+  stufe: 2
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -(x² - 4)(x² - 1)/3
+      name: f
+  pruefung:
+    art: grad
+    term: -(x² - 4)(x² - 1)/3
+  erklaerung: Ein „W“ oder „M“ mit bis zu drei Extrempunkten, beide Enden zeigen in dieselbe Richtung – typisch für Grad 4.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-006
+  typ: auswahl
+  stufe: 2
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: (x² - 1)(x² - 4)/4
+      name: f
+  pruefung:
+    art: grad
+    term: (x² - 1)(x² - 4)/4
+  erklaerung: Ein „W“ oder „M“ mit bis zu drei Extrempunkten, beide Enden zeigen in dieselbe Richtung – typisch für Grad 4.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-007
+  typ: auswahl
+  stufe: 2
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 1
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: (x - 1)² - 4
+      name: f
+  pruefung:
+    art: grad
+    term: (x - 1)² - 4
+  erklaerung: Eine **Parabel** mit einem Scheitel – Grad 2.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-008
+  typ: auswahl
+  stufe: 2
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 0
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x - 2
+      name: f
+  pruefung:
+    art: grad
+    term: -x - 2
+  erklaerung: Eine **Gerade** – Grad 1.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-009
+  typ: auswahl
+  stufe: 3
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 2
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x³/3 + 3x
+      name: f
+  pruefung:
+    art: grad
+    term: -x³/3 + 3x
+  erklaerung: Zwei „Buckel“ (Hoch- und Tiefpunkt), die Enden zeigen in entgegengesetzte Richtungen – typisch für Grad 3.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-010
+  typ: auswahl
+  stufe: 3
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x⁴/8 - 2x²
+      name: f
+  pruefung:
+    art: grad
+    term: x⁴/8 - 2x²
+  erklaerung: Ein „W“ oder „M“ mit bis zu drei Extrempunkten, beide Enden zeigen in dieselbe Richtung – typisch für Grad 4.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-011
+  typ: auswahl
+  stufe: 3
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 3
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x⁴/10 + x² + 2
+      name: f
+  pruefung:
+    art: grad
+    term: -x⁴/10 + x² + 2
+  erklaerung: Ein „W“ oder „M“ mit bis zu drei Extrempunkten, beide Enden zeigen in dieselbe Richtung – typisch für Grad 4.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-012
+  typ: auswahl
+  stufe: 3
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 1
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -x² + 4
+      name: f
+  pruefung:
+    art: grad
+    term: -x² + 4
+  erklaerung: Eine **Parabel** mit einem Scheitel – Grad 2.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-013
+  typ: auswahl
+  stufe: 4
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 0
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x/2 + 2
+      name: f
+  pruefung:
+    art: grad
+    term: x/2 + 2
+  erklaerung: Eine **Gerade** – Grad 1.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-014
+  typ: auswahl
+  stufe: 4
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 1
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: x² - 3
+      name: f
+  pruefung:
+    art: grad
+    term: x² - 3
+  erklaerung: Eine **Parabel** mit einem Scheitel – Grad 2.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-015
+  typ: auswahl
+  stufe: 4
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 1
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: -(x + 1)²/2 + 3
+      name: f
+  pruefung:
+    art: grad
+    term: -(x + 1)²/2 + 3
+  erklaerung: Eine **Parabel** mit einem Scheitel – Grad 2.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'
+- id: C3.3-016
+  typ: auswahl
+  stufe: 4
+  frage: Welchen Grad hat diese Polynomfunktion (wahrscheinlich)?
+  optionen:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  richtig:
+  - 2
+  graph:
+    x:
+    - -4
+    - 4
+    y:
+    - -6
+    - 6
+    kurven:
+    - term: (x + 2)(x - 1)(x - 3)/3
+      name: f
+  pruefung:
+    art: grad
+    term: (x + 2)(x - 1)(x - 3)/3
+  erklaerung: Zwei „Buckel“ (Hoch- und Tiefpunkt), die Enden zeigen in entgegengesetzte Richtungen – typisch für Grad 3.
+  tipps:
+  - 'Zähl die „Buckel“ (Hoch- und Tiefpunkte): Grad n hat höchstens n − 1 davon.'
+  - 'Schau auf die Enden: Zeigen beide in dieselbe Richtung → gerader Grad; entgegengesetzt → ungerader Grad.'

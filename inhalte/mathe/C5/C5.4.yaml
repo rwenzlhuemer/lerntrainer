@@ -1,0 +1,17 @@
+id: C5.4
+titel: Die e-Funktion
+ziel: Du rechnest mit Funktionen der Form f(t) = a · e^(λ·t).
+erklaerung: |
+  In Naturwissenschaften schreibt man Exponentialfunktionen oft mit der **Eulerschen Zahl e ≈ 2,718**:
+  `f(t) = a · e^(λ·t)`.
+
+  - λ > 0: Wachstum, λ < 0: Abnahme (Zerfall).
+  - Den Wert berechnest du mit der eˣ-Taste: zuerst λ·t ausrechnen, dann e hoch das, dann mal a.
+
+  Jede Funktion a·bᵗ lässt sich so schreiben: `b = e^λ`.
+beispiel:
+  wert: "134,99"
+  text: |
+    `f(t) = 100 · e^(0,03t)`, f(10): `e^0,3 ≈ 1,3499`, mal 100 ≈ 134,99.
+  weg:
+    - "134,99 | gerundet"

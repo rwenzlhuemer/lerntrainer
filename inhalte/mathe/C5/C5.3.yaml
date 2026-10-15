@@ -1,0 +1,16 @@
+id: C5.3
+titel: Linear oder exponentiell?
+ziel: Du erkennst an Tabellen und Texten, ob ein Zusammenhang linear oder exponentiell ist.
+erklaerung: |
+  Bei gleichen x-Schritten:
+  - **linear:** Die **Differenzen** der y-Werte sind gleich (immer +3 oder immer −5).
+  - **exponentiell:** Die **Quotienten** der y-Werte sind gleich (immer ·2 oder immer ·0,9).
+
+  In Texten: „um 50 € pro Monat“ → linear. „um 5 % pro Jahr“ → exponentiell.
+beispiel:
+  wert: "2"
+  text: |
+    y: 3, 6, 12, 24 – Differenzen 3, 6, 12 (nicht gleich), Quotienten immer 2 → exponentiell.
+  tabelle: {kopf: ["x", "y"], zeilen: [["0", "3"], ["1", "6"], ["2", "12"], ["3", "24"]]}
+  weg:
+    - "24 : 12 = 2"

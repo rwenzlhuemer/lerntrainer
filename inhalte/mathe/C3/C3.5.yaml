@@ -1,0 +1,14 @@
+id: C3.5
+titel: Tabelle und Graph bei Polynomen
+ziel: Du ergänzt Wertetabellen von Polynomfunktionen.
+erklaerung: |
+  Wie bei jeder Funktion: x einsetzen, ausrechnen. Bei Hochzahlen besonders auf negative x achten:
+  `(-2)³ = -8`, aber `(-2)⁴ = 16`.
+
+  Die Tabelle hilft beim Skizzieren: Punkte eintragen, glatt verbinden.
+beispiel:
+  wert: "-4"
+  text: |
+    `f(x) = x³ − 2x` bei x = −2: `(-2)³ - 2·(-2) = -8 + 4 = -4`.
+  weg:
+    - "(-2)^3 - 2·(-2) = -8 + 4 = -4"

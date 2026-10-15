@@ -1,0 +1,17 @@
+id: C3.4
+titel: Grad und besondere Stellen
+ziel: Du weißt, wie viele Null-, Extrem- und Wendestellen eine Polynomfunktion höchstens hat.
+erklaerung: |
+  Für eine Polynomfunktion vom **Grad n** gilt:
+  - höchstens **n** Nullstellen
+  - höchstens **n − 1** Extremstellen (Hoch- und Tiefpunkte)
+  - höchstens **n − 2** Wendestellen
+
+  „Höchstens“ heißt: Es können auch weniger sein. Eine Parabel (n = 2) kann 2, 1 oder 0 Nullstellen haben,
+  aber nie 3.
+beispiel:
+  wert: "3"
+  text: |
+    Grad 4: höchstens 4 Nullstellen, 3 Extremstellen, 2 Wendestellen.
+  weg:
+    - "4 - 1 = 3 | Extremstellen"

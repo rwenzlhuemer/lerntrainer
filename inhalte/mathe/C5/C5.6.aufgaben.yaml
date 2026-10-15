@@ -1,0 +1,237 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C5.6-001
+  typ: zahl
+  stufe: 1
+  frage: Ein Kapital wächst um 5 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 14,21
+  gerundet: 2
+  rechnung: ln(2)/ln(1,05)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,05^t = 2`.'
+  - '`t = ln(2)/ln(1,05)`'
+  fehler: []
+- id: C5.6-002
+  typ: zahl
+  stufe: 1
+  frage: Ein Kapital wächst um 4 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 17,67
+  gerundet: 2
+  rechnung: ln(2)/ln(1,04)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,04^t = 2`.'
+  - '`t = ln(2)/ln(1,04)`'
+  fehler: []
+- id: C5.6-003
+  typ: zahl
+  stufe: 1
+  frage: Ein Kapital wächst um 12 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 6,12
+  gerundet: 2
+  rechnung: ln(2)/ln(1,12)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,12^t = 2`.'
+  - '`t = ln(2)/ln(1,12)`'
+  fehler: []
+- id: C5.6-004
+  typ: zahl
+  stufe: 1
+  frage: Ein Kapital wächst um 10 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 7,27
+  gerundet: 2
+  rechnung: ln(2)/ln(1,1)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,1^t = 2`.'
+  - '`t = ln(2)/ln(1,1)`'
+  fehler: []
+- id: C5.6-005
+  typ: zahl
+  stufe: 1
+  frage: Ein Kapital wächst um 6 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 11,90
+  gerundet: 2
+  rechnung: ln(2)/ln(1,06)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,06^t = 2`.'
+  - '`t = ln(2)/ln(1,06)`'
+  fehler: []
+- id: C5.6-006
+  typ: zahl
+  stufe: 2
+  frage: Die Einwohnerzahl einer Stadt wächst um 4 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 17,67
+  gerundet: 2
+  rechnung: ln(2)/ln(1,04)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,04^t = 2`.'
+  - '`t = ln(2)/ln(1,04)`'
+  fehler: []
+- id: C5.6-007
+  typ: zahl
+  stufe: 2
+  frage: Der Umsatz einer Firma wächst um 3 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 23,45
+  gerundet: 2
+  rechnung: ln(2)/ln(1,03)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,03^t = 2`.'
+  - '`t = ln(2)/ln(1,03)`'
+  fehler: []
+- id: C5.6-008
+  typ: zahl
+  stufe: 2
+  frage: Der Umsatz einer Firma wächst um 2 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 35,00
+  gerundet: 2
+  rechnung: ln(2)/ln(1,02)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,02^t = 2`.'
+  - '`t = ln(2)/ln(1,02)`'
+  fehler: []
+- id: C5.6-009
+  typ: zahl
+  stufe: 2
+  frage: Der Umsatz einer Firma wächst um 10 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 7,27
+  gerundet: 2
+  rechnung: ln(2)/ln(1,1)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,1^t = 2`.'
+  - '`t = ln(2)/ln(1,1)`'
+  fehler: []
+- id: C5.6-010
+  typ: zahl
+  stufe: 2
+  frage: Der Umsatz einer Firma wächst um 12 % pro Jahr. Nach wie vielen Jahren hat sich der Wert **verdoppelt**? (auf zwei Nachkommastellen)
+  loesung: 6,12
+  gerundet: 2
+  rechnung: ln(2)/ln(1,12)
+  einheit: Jahre
+  tipps:
+  - 'Verdoppelt heißt: `1,12^t = 2`.'
+  - '`t = ln(2)/ln(1,12)`'
+  fehler: []
+- id: C5.6-011
+  typ: zahl
+  stufe: 3
+  frage: Ein Stoff hat eine Halbwertszeit von 5 Tagen. Wie viel Prozent sind nach 15 Tagen noch übrig?
+  loesung: 12,5
+  rechnung: 100·0,5^(15/5)
+  einheit: '%'
+  tipps:
+  - 15 Tage sind 3 Halbwertszeiten.
+  - 'Jedes Mal halbiert: `100 · 0,5^3`.'
+  fehler: []
+- id: C5.6-012
+  typ: zahl
+  stufe: 3
+  frage: Ein Stoff hat eine Halbwertszeit von 2 Tagen. Wie viel Prozent sind nach 4 Tagen noch übrig?
+  loesung: '25'
+  rechnung: 100·0,5^(4/2)
+  einheit: '%'
+  tipps:
+  - 4 Tage sind 2 Halbwertszeiten.
+  - 'Jedes Mal halbiert: `100 · 0,5^2`.'
+  fehler: []
+- id: C5.6-013
+  typ: zahl
+  stufe: 3
+  frage: Ein Stoff hat eine Halbwertszeit von 5 Tagen. Wie viel Prozent sind nach 25 Tagen noch übrig?
+  loesung: 3,125
+  rechnung: 100·0,5^(25/5)
+  einheit: '%'
+  tipps:
+  - 25 Tage sind 5 Halbwertszeiten.
+  - 'Jedes Mal halbiert: `100 · 0,5^5`.'
+  fehler: []
+- id: C5.6-014
+  typ: zahl
+  stufe: 3
+  frage: Ein Stoff hat eine Halbwertszeit von 10 Tagen. Wie viel Prozent sind nach 30 Tagen noch übrig?
+  loesung: 12,5
+  rechnung: 100·0,5^(30/10)
+  einheit: '%'
+  tipps:
+  - 30 Tage sind 3 Halbwertszeiten.
+  - 'Jedes Mal halbiert: `100 · 0,5^3`.'
+  fehler: []
+- id: C5.6-015
+  typ: zahl
+  stufe: 3
+  frage: Ein Stoff hat eine Halbwertszeit von 2 Tagen. Wie viel Prozent sind nach 8 Tagen noch übrig?
+  loesung: 6,25
+  rechnung: 100·0,5^(8/2)
+  einheit: '%'
+  tipps:
+  - 8 Tage sind 4 Halbwertszeiten.
+  - 'Jedes Mal halbiert: `100 · 0,5^4`.'
+  fehler: []
+- id: C5.6-016
+  typ: zahl
+  stufe: 4
+  frage: Ein Medikament wird im Körper pro Stunde um 10 % abgebaut. Wie groß ist die Halbwertszeit? (in Stunden, auf zwei Nachkommastellen)
+  loesung: 6,58
+  gerundet: 2
+  rechnung: ln(0,5)/ln(0,9)
+  einheit: h
+  tipps:
+  - Pro Stunde bleibt der Faktor `0,9`.
+  - 'Halbwertszeit: `0,9^t = 0,5`, also `t = ln(0,5)/ln(0,9)`.'
+  fehler: []
+- id: C5.6-017
+  typ: zahl
+  stufe: 4
+  frage: Ein Medikament wird im Körper pro Stunde um 12 % abgebaut. Wie groß ist die Halbwertszeit? (in Stunden, auf zwei Nachkommastellen)
+  loesung: 5,42
+  gerundet: 2
+  rechnung: ln(0,5)/ln(0,88)
+  einheit: h
+  tipps:
+  - Pro Stunde bleibt der Faktor `0,88`.
+  - 'Halbwertszeit: `0,88^t = 0,5`, also `t = ln(0,5)/ln(0,88)`.'
+  fehler: []
+- id: C5.6-018
+  typ: zahl
+  stufe: 4
+  frage: Ein Medikament wird im Körper pro Stunde um 40 % abgebaut. Wie groß ist die Halbwertszeit? (in Stunden, auf zwei Nachkommastellen)
+  loesung: 1,36
+  gerundet: 2
+  rechnung: ln(0,5)/ln(0,6)
+  einheit: h
+  tipps:
+  - Pro Stunde bleibt der Faktor `0,6`.
+  - 'Halbwertszeit: `0,6^t = 0,5`, also `t = ln(0,5)/ln(0,6)`.'
+  fehler: []
+- id: C5.6-019
+  typ: zahl
+  stufe: 4
+  frage: Ein Medikament wird im Körper pro Stunde um 25 % abgebaut. Wie groß ist die Halbwertszeit? (in Stunden, auf zwei Nachkommastellen)
+  loesung: 2,41
+  gerundet: 2
+  rechnung: ln(0,5)/ln(0,75)
+  einheit: h
+  tipps:
+  - Pro Stunde bleibt der Faktor `0,75`.
+  - 'Halbwertszeit: `0,75^t = 0,5`, also `t = ln(0,5)/ln(0,75)`.'
+  fehler: []
+- id: C5.6-020
+  typ: zahl
+  stufe: 4
+  frage: Ein Medikament wird im Körper pro Stunde um 20 % abgebaut. Wie groß ist die Halbwertszeit? (in Stunden, auf zwei Nachkommastellen)
+  loesung: 3,11
+  gerundet: 2
+  rechnung: ln(0,5)/ln(0,8)
+  einheit: h
+  tipps:
+  - Pro Stunde bleibt der Faktor `0,8`.
+  - 'Halbwertszeit: `0,8^t = 0,5`, also `t = ln(0,5)/ln(0,8)`.'
+  fehler: []

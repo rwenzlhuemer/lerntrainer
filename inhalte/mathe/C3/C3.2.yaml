@@ -1,0 +1,22 @@
+id: C3.2
+titel: Argumentwerte bei Parabeln
+ziel: Du findest alle x, für die eine quadratische Funktion einen bestimmten Wert annimmt.
+erklaerung: |
+  Gesucht ist x, gegeben ist der Funktionswert: `f(x) = 3`. Das ist eine **quadratische Gleichung**.
+
+  1. Gleichung aufschreiben: Funktionsterm = gegebener Wert.
+  2. Alles auf eine Seite, sodass rechts 0 steht.
+  3. Lösen – mit der Lösungsformel oder durch Wurzelziehen.
+
+  Meist gibt es **zwei** Lösungen: Eine waagrechte Linie schneidet die Parabel zweimal.
+  Liegt der Wert über dem Hochpunkt (oder unter dem Tiefpunkt), gibt es keine Lösung.
+beispiel:
+  gleichung: "x² - 2x - 3 = 5"
+  loesung: "4; -2"
+  text: |
+    `f(x) = x² − 2x − 3`, gesucht: alle x mit `f(x) = 5`.
+  weg:
+    - "x² - 2x - 3 = 5"
+    - "x² - 2x - 8 = 0 | −5"
+    - "x = 1 ± √(1 + 8) | kleine Lösungsformel"
+    - "x = 4 oder x = -2"

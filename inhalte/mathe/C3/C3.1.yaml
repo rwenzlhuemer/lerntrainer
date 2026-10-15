@@ -1,0 +1,20 @@
+id: C3.1
+titel: Die Parabel
+ziel: Du liest Scheitelpunkt und Öffnung einer Parabel ab und berechnest sie.
+erklaerung: |
+  Der Graph einer quadratischen Funktion `f(x) = ax² + bx + c` ist eine **Parabel**.
+
+  - **Öffnung:** Ist a positiv, ist sie nach **oben** geöffnet (wie ein U). Ist a negativ, nach **unten**.
+  - **Scheitelpunkt S:** der tiefste (bzw. höchste) Punkt.
+
+  In der **Scheitelform** `f(x) = a(x − m)² + n` liest du ihn direkt ab: **S(m|n)**.
+  Achtung Vorzeichen: `(x + 3)²` heißt m = −3.
+
+  In der allgemeinen Form: `x_S = -b/(2a)`, und `y_S = f(x_S)`.
+beispiel:
+  wert: "2"
+  text: |
+    `f(x) = (x − 2)² − 3`: Scheitel S(2|−3), nach oben geöffnet.
+  graph: {x: [-3, 7], y: [-5, 8], kurven: [{term: "(x - 2)² - 3", name: "f"}], punkte: [{x: 2, y: -3, name: "S"}]}
+  weg:
+    - "-(-4)/(2·1) = 2 | gleiche Parabel als x² − 4x + 1"

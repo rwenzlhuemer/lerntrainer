@@ -1,0 +1,365 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C4.3-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 12/x`. Berechne `f(2)`.'
+  loesung: '6'
+  aus_term:
+    term: 12/x
+    groesse: wert
+    x: 2
+  tipps:
+  - Setz den Wert für x ein und dividiere.
+  fehler:
+  - antwort: '24'
+    hinweis: Durch x dividieren, nicht mal.
+- id: C4.3-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 24/x`. Berechne `f(3)`.'
+  loesung: '8'
+  aus_term:
+    term: 24/x
+    groesse: wert
+    x: 3
+  tipps:
+  - Setz den Wert für x ein und dividiere.
+  fehler:
+  - antwort: '72'
+    hinweis: Durch x dividieren, nicht mal.
+- id: C4.3-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 6/x`. Berechne `f(3)`.'
+  loesung: '2'
+  aus_term:
+    term: 6/x
+    groesse: wert
+    x: 3
+  tipps:
+  - Setz den Wert für x ein und dividiere.
+  fehler:
+  - antwort: '18'
+    hinweis: Durch x dividieren, nicht mal.
+- id: C4.3-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 120/x`. Berechne `f(12)`.'
+  loesung: '10'
+  aus_term:
+    term: 120/x
+    groesse: wert
+    x: 12
+  tipps:
+  - Setz den Wert für x ein und dividiere.
+  fehler:
+  - antwort: '1440'
+    hinweis: Durch x dividieren, nicht mal.
+- id: C4.3-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 36/x`. Berechne `f(1)`.'
+  loesung: '36'
+  aus_term:
+    term: 36/x
+    groesse: wert
+    x: 1
+  tipps:
+  - Setz den Wert für x ein und dividiere.
+  fehler: []
+- id: C4.3-006
+  typ: zahl
+  stufe: 2
+  frage: Die Funktion `f(x) = a/x` geht durch den Punkt P(3|12). Wie groß ist a?
+  loesung: '36'
+  rechnung: 3·12
+  tipps:
+  - '`yw = a/x`, also `a = x · y`.'
+  - '`a = 3 · 12`'
+  fehler:
+  - antwort: '4'
+    hinweis: a = x **mal** y.
+- id: C4.3-007
+  typ: zahl
+  stufe: 2
+  frage: Die Funktion `f(x) = a/x` geht durch den Punkt P(6|1). Wie groß ist a?
+  loesung: '6'
+  rechnung: 6·1
+  tipps:
+  - '`yw = a/x`, also `a = x · y`.'
+  - '`a = 6 · 1`'
+  fehler:
+  - antwort: 1/6
+    hinweis: a = x **mal** y.
+- id: C4.3-008
+  typ: zahl
+  stufe: 2
+  frage: Die Funktion `f(x) = a/x` geht durch den Punkt P(4|6). Wie groß ist a?
+  loesung: '24'
+  rechnung: 4·6
+  tipps:
+  - '`yw = a/x`, also `a = x · y`.'
+  - '`a = 4 · 6`'
+  fehler:
+  - antwort: 3/2
+    hinweis: a = x **mal** y.
+- id: C4.3-009
+  typ: zahl
+  stufe: 2
+  frage: Die Funktion `f(x) = a/x` geht durch den Punkt P(5|1,2). Wie groß ist a?
+  loesung: '6'
+  rechnung: 5·1,2
+  tipps:
+  - '`yw = a/x`, also `a = x · y`.'
+  - '`a = 5 · 1,2`'
+  fehler:
+  - antwort: 6/25
+    hinweis: a = x **mal** y.
+- id: C4.3-010
+  typ: zahl
+  stufe: 2
+  frage: Die Funktion `f(x) = a/x` geht durch den Punkt P(5|4,8). Wie groß ist a?
+  loesung: '24'
+  rechnung: 5·4,8
+  tipps:
+  - '`yw = a/x`, also `a = x · y`.'
+  - '`a = 5 · 4,8`'
+  fehler:
+  - antwort: 24/25
+    hinweis: a = x **mal** y.
+- id: C4.3-011
+  typ: zahl
+  stufe: 3
+  frage: Für eine Strecke von 60 km gilt für die Fahrzeit `t(v) = 60/v` (v in km/h, t in h). Wie lange dauert die Fahrt mit 40 km/h?
+  loesung: 1,5
+  aus_term:
+    term: 60/x
+    groesse: wert
+    x: 40
+  graph:
+    x:
+    - 0
+    - 150
+    y:
+    - 0
+    - 8
+    kurven:
+    - term: 60/x
+    achsen:
+      x: v in km/h
+      y: t in h
+    schritt:
+    - 10
+    - 1
+  einheit: h
+  tipps:
+  - Setz v ein.
+  - '`t = 60 : 40`'
+  fehler:
+  - antwort: 2/3
+    hinweis: 't = Strecke **durch** Geschwindigkeit: 60 : 40.'
+- id: C4.3-012
+  typ: zahl
+  stufe: 3
+  frage: Für eine Strecke von 180 km gilt für die Fahrzeit `t(v) = 180/v` (v in km/h, t in h). Wie lange dauert die Fahrt mit 60 km/h?
+  loesung: '3'
+  aus_term:
+    term: 180/x
+    groesse: wert
+    x: 60
+  graph:
+    x:
+    - 0
+    - 150
+    y:
+    - 0
+    - 8
+    kurven:
+    - term: 180/x
+    achsen:
+      x: v in km/h
+      y: t in h
+    schritt:
+    - 10
+    - 1
+  einheit: h
+  tipps:
+  - Setz v ein.
+  - '`t = 180 : 60`'
+  fehler:
+  - antwort: 1/3
+    hinweis: 't = Strecke **durch** Geschwindigkeit: 180 : 60.'
+- id: C4.3-013
+  typ: zahl
+  stufe: 3
+  frage: Für eine Strecke von 180 km gilt für die Fahrzeit `t(v) = 180/v` (v in km/h, t in h). Wie lange dauert die Fahrt mit 90 km/h?
+  loesung: '2'
+  aus_term:
+    term: 180/x
+    groesse: wert
+    x: 90
+  graph:
+    x:
+    - 0
+    - 150
+    y:
+    - 0
+    - 8
+    kurven:
+    - term: 180/x
+    achsen:
+      x: v in km/h
+      y: t in h
+    schritt:
+    - 10
+    - 1
+  einheit: h
+  tipps:
+  - Setz v ein.
+  - '`t = 180 : 90`'
+  fehler:
+  - antwort: 1/2
+    hinweis: 't = Strecke **durch** Geschwindigkeit: 180 : 90.'
+- id: C4.3-014
+  typ: zahl
+  stufe: 3
+  frage: Für eine Strecke von 60 km gilt für die Fahrzeit `t(v) = 60/v` (v in km/h, t in h). Wie lange dauert die Fahrt mit 80 km/h?
+  loesung: 0,75
+  aus_term:
+    term: 60/x
+    groesse: wert
+    x: 80
+  graph:
+    x:
+    - 0
+    - 150
+    y:
+    - 0
+    - 8
+    kurven:
+    - term: 60/x
+    achsen:
+      x: v in km/h
+      y: t in h
+    schritt:
+    - 10
+    - 1
+  einheit: h
+  tipps:
+  - Setz v ein.
+  - '`t = 60 : 80`'
+  fehler:
+  - antwort: 4/3
+    hinweis: 't = Strecke **durch** Geschwindigkeit: 60 : 80.'
+- id: C4.3-015
+  typ: zahl
+  stufe: 3
+  frage: Für eine Strecke von 240 km gilt für die Fahrzeit `t(v) = 240/v` (v in km/h, t in h). Wie lange dauert die Fahrt mit 80 km/h?
+  loesung: '3'
+  aus_term:
+    term: 240/x
+    groesse: wert
+    x: 80
+  graph:
+    x:
+    - 0
+    - 150
+    y:
+    - 0
+    - 8
+    kurven:
+    - term: 240/x
+    achsen:
+      x: v in km/h
+      y: t in h
+    schritt:
+    - 10
+    - 1
+  einheit: h
+  tipps:
+  - Setz v ein.
+  - '`t = 240 : 80`'
+  fehler:
+  - antwort: 1/3
+    hinweis: 't = Strecke **durch** Geschwindigkeit: 240 : 80.'
+- id: C4.3-016
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = a/x`. Mit welchem Faktor ändert sich f(x), wenn x gedrittelt wird?'
+  loesung: '3'
+  formel_faktor:
+    formel: y = a/x
+    ziel: y
+    aenderung:
+      x: 1/3
+  tipps:
+  - Setz statt x jetzt 1/3·x ein.
+  - 'Indirekt proportional: doppelt so viel → halb so viel, halb so viel → doppelt so viel.'
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Indirekt proportional: Wird x größer, wird f(x) **kleiner** – und umgekehrt.'
+- id: C4.3-017
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = a/x`. Mit welchem Faktor ändert sich f(x), wenn x vervierfacht wird?'
+  loesung: 0,25
+  formel_faktor:
+    formel: y = a/x
+    ziel: y
+    aenderung:
+      x: '4'
+  tipps:
+  - Setz statt x jetzt 4·x ein.
+  - 'Indirekt proportional: doppelt so viel → halb so viel, halb so viel → doppelt so viel.'
+  fehler:
+  - antwort: '4'
+    hinweis: 'Indirekt proportional: Wird x größer, wird f(x) **kleiner** – und umgekehrt.'
+- id: C4.3-018
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = a/x`. Mit welchem Faktor ändert sich f(x), wenn x geviertelt wird?'
+  loesung: '4'
+  formel_faktor:
+    formel: y = a/x
+    ziel: y
+    aenderung:
+      x: 0,25
+  tipps:
+  - Setz statt x jetzt 0,25·x ein.
+  - 'Indirekt proportional: doppelt so viel → halb so viel, halb so viel → doppelt so viel.'
+  fehler:
+  - antwort: 1/4
+    hinweis: 'Indirekt proportional: Wird x größer, wird f(x) **kleiner** – und umgekehrt.'
+- id: C4.3-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = a/x`. Mit welchem Faktor ändert sich f(x), wenn x verdoppelt wird?'
+  loesung: 0,5
+  formel_faktor:
+    formel: y = a/x
+    ziel: y
+    aenderung:
+      x: '2'
+  tipps:
+  - Setz statt x jetzt 2·x ein.
+  - 'Indirekt proportional: doppelt so viel → halb so viel, halb so viel → doppelt so viel.'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Indirekt proportional: Wird x größer, wird f(x) **kleiner** – und umgekehrt.'
+- id: C4.3-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = a/x`. Mit welchem Faktor ändert sich f(x), wenn x verdreifacht wird?'
+  loesung: 1/3
+  formel_faktor:
+    formel: y = a/x
+    ziel: y
+    aenderung:
+      x: '3'
+  tipps:
+  - Setz statt x jetzt 3·x ein.
+  - 'Indirekt proportional: doppelt so viel → halb so viel, halb so viel → doppelt so viel.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Indirekt proportional: Wird x größer, wird f(x) **kleiner** – und umgekehrt.'

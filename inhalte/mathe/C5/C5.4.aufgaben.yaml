@@ -1,0 +1,222 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C5.4-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(t) = 1000·e^(0,2·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 7389,06
+  gerundet: 2
+  rechnung: 1000·e^(0,2·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,2 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 1000.'
+  fehler: []
+- id: C5.4-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(t) = 200·e^(0,03·t)`. Berechne `f(5)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 232,37
+  gerundet: 2
+  rechnung: 200·e^(0,03·5)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 5`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 200.'
+  fehler: []
+- id: C5.4-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(t) = 1000·e^(0,03·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 1822,12
+  gerundet: 2
+  rechnung: 1000·e^(0,03·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 1000.'
+  fehler: []
+- id: C5.4-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(t) = 100·e^(0,05·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 271,83
+  gerundet: 2
+  rechnung: 100·e^(0,05·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,05 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 100.'
+  fehler: []
+- id: C5.4-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(t) = 50·e^(0,2·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 2729,91
+  gerundet: 2
+  rechnung: 50·e^(0,2·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,2 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 50.'
+  fehler: []
+- id: C5.4-006
+  typ: zahl
+  stufe: 2
+  frage: '`f(t) = 100·e^(0,2·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 738,91
+  gerundet: 2
+  rechnung: 100·e^(0,2·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,2 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 100.'
+  fehler: []
+- id: C5.4-007
+  typ: zahl
+  stufe: 2
+  frage: '`f(t) = 50·e^(-0,05·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 30,33
+  gerundet: 2
+  rechnung: 50·e^(-0,05·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `-0,05 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 50.'
+  fehler: []
+- id: C5.4-008
+  typ: zahl
+  stufe: 2
+  frage: '`f(t) = 50·e^(0,03·t)`. Berechne `f(5)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 58,09
+  gerundet: 2
+  rechnung: 50·e^(0,03·5)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 5`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 50.'
+  fehler: []
+- id: C5.4-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(t) = 1000·e^(0,03·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 1349,86
+  gerundet: 2
+  rechnung: 1000·e^(0,03·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 1000.'
+  fehler: []
+- id: C5.4-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(t) = 50·e^(0,05·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 135,91
+  gerundet: 2
+  rechnung: 50·e^(0,05·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,05 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 50.'
+  fehler: []
+- id: C5.4-011
+  typ: zahl
+  stufe: 3
+  frage: '`f(t) = 100·e^(0,03·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 182,21
+  gerundet: 2
+  rechnung: 100·e^(0,03·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 100.'
+  fehler: []
+- id: C5.4-012
+  typ: zahl
+  stufe: 3
+  frage: '`f(t) = 100·e^(0,03·t)`. Berechne `f(5)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 116,18
+  gerundet: 2
+  rechnung: 100·e^(0,03·5)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 5`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 100.'
+  fehler: []
+- id: C5.4-013
+  typ: zahl
+  stufe: 3
+  frage: '`f(t) = 50·e^(-0,2·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 6,77
+  gerundet: 2
+  rechnung: 50·e^(-0,2·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `-0,2 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 50.'
+  fehler: []
+- id: C5.4-014
+  typ: zahl
+  stufe: 3
+  frage: '`f(t) = 1000·e^(-0,05·t)`. Berechne `f(5)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 778,80
+  gerundet: 2
+  rechnung: 1000·e^(-0,05·5)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `-0,05 · 5`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 1000.'
+  fehler: []
+- id: C5.4-015
+  typ: zahl
+  stufe: 3
+  frage: '`f(t) = 1000·e^(-0,05·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 606,53
+  gerundet: 2
+  rechnung: 1000·e^(-0,05·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `-0,05 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 1000.'
+  fehler: []
+- id: C5.4-016
+  typ: zahl
+  stufe: 4
+  frage: '`f(t) = 1000·e^(0,2·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 54598,15
+  gerundet: 2
+  rechnung: 1000·e^(0,2·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,2 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 1000.'
+  fehler: []
+- id: C5.4-017
+  typ: zahl
+  stufe: 4
+  frage: '`f(t) = 200·e^(0,05·t)`. Berechne `f(20)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 543,66
+  gerundet: 2
+  rechnung: 200·e^(0,05·20)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,05 · 20`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 200.'
+  fehler: []
+- id: C5.4-018
+  typ: zahl
+  stufe: 4
+  frage: '`f(t) = 200·e^(0,03·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 269,97
+  gerundet: 2
+  rechnung: 200·e^(0,03·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,03 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 200.'
+  fehler: []
+- id: C5.4-019
+  typ: zahl
+  stufe: 4
+  frage: '`f(t) = 50·e^(0,2·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 369,45
+  gerundet: 2
+  rechnung: 50·e^(0,2·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,2 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 50.'
+  fehler: []
+- id: C5.4-020
+  typ: zahl
+  stufe: 4
+  frage: '`f(t) = 100·e^(0,1·t)`. Berechne `f(10)` (auf zwei Nachkommastellen gerundet).'
+  loesung: 271,83
+  gerundet: 2
+  rechnung: 100·e^(0,1·10)
+  tipps:
+  - 'Rechne zuerst die Hochzahl aus: `0,1 · 10`.'
+  - 'Dann e hoch diese Zahl (Taschenrechner: eˣ), dann mal 100.'
+  fehler: []

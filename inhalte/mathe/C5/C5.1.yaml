@@ -1,0 +1,18 @@
+id: C5.1
+titel: Exponentielles Wachstum
+ziel: Du berechnest Werte von Exponentialfunktionen f(x) = a · bˣ.
+erklaerung: |
+  Bei **exponentiellem Wachstum** wird pro Schritt mit **demselben Faktor** multipliziert
+  (bei linearem Wachstum wird dieselbe Zahl addiert).
+
+  `f(x) = a · bˣ`
+  - a ist der **Anfangswert** (bei x = 0)
+  - b ist der **Wachstumsfaktor** pro Schritt: b > 1 Wachstum, 0 < b < 1 Abnahme
+
+  Beim Ausrechnen: zuerst die Potenz, dann mal a.
+beispiel:
+  wert: "231,525"
+  text: |
+    `f(x) = 200 · 1,05ˣ`, f(3): `1,05³ = 1,157625`, mal 200.
+  weg:
+    - "200·1,05^3 = 200·1,157625 = 231,525"

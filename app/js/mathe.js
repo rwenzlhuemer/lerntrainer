@@ -416,10 +416,11 @@ function zahlFormHinweis(t, form, nenner) {
 
 // Zahl-Antwort: Einheiten und „x =“ werden toleriert.
 // Ergebnis: {art: "richtig"|"gerundet"|"form"|"gemischt"|"falsch"|"unklar", wert?, hinweis?}
-export function pruefeZahl(eingabe, loesung, form = null, nenner = null) {
+export function pruefeZahl(eingabe, loesung, form = null, nenner = null, gerundetAuf = null) {
   let t = String(eingabe).trim();
   if (t.includes("=")) t = t.slice(t.lastIndexOf("=") + 1);
-  t = t.replace(/[a-zA-ZäöüÄÖÜßµ€%°]+[²³]?(\s*\/\s*[a-zA-Z]+[²³]?)?\.?/g, " ").replace(/\s+/g, " ").trim();
+  // Ganze Rechnung lesbar (z. B. „ln(20)/ln(2)“, „e^0,3“)? Dann nichts wegstreichen – sonst Einheiten entfernen.
+  if (zahlwert(t) === null) t = t.replace(/[a-zA-ZäöüÄÖÜßµ€%°]+[²³]?(\s*\/\s*[a-zA-Z]+[²³]?)?\.?/g, " ").replace(/\s+/g, " ").trim();
   // Gemischte Zahl „2 1/2“ würde sonst als 2 · 1/2 gelesen
   if (/^[+-−]?\d+ \d+\s*\/\s*\d+$/.test(t)) return { art: "gemischt" };
   // Tausender-Leerzeichen: „3 500“ → 3500
@@ -433,6 +434,9 @@ export function pruefeZahl(eingabe, loesung, form = null, nenner = null) {
   }
   if (form === "gekuerzt" || form === "nenner") return { art: "falsch", wert: ist }; // exakt gefragt, nicht gerundet
   // Gerundet gilt nur, wenn die eingegebenen Nachkommastellen passen: 4,47 für 4,4666…, nicht 4
+  // Aufgabe verlangt Rundung auf n Stellen: alles, was gerundet passt, zählt (auch „35“ für 35,0028)
+  // Kleine Abweichungen durch gerundete Zwischenergebnisse (bis 0,05 %) sind auch in Ordnung
+  if (gerundetAuf !== null && Math.abs(ist - soll) <= Math.max(0.5 * 10 ** -gerundetAuf, Math.abs(soll) * 5e-4) + EPS) return { art: "gerundet", wert: ist };
   const stellen = (normalisiere(t).match(/\.(\d+)/) || [, ""])[1].length;
   if (stellen > 0 && Math.abs(ist - soll) <= 0.5 * 10 ** -stellen + EPS) return { art: "gerundet", wert: ist };
   return { art: "falsch", wert: ist };

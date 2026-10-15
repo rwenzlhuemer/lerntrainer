@@ -707,7 +707,7 @@ async function seiteUeben(lid, testModus) {
     }
 
     function pruefeAntwort(roh) {
-      const r = M.pruefeZahl(roh, a.gerundet !== undefined ? a.rechnung : a.loesung, a.form, a.nenner);
+      const r = M.pruefeZahl(roh, a.gerundet !== undefined ? a.rechnung : a.loesung, a.form, a.nenner, a.gerundet ?? null);
       const einheitText = a.einheit ? " " + esc(a.einheit) : "";
       if (r.art === "form") return melde("neutral", `<p>${esc(r.hinweis)}</p>`);
       if (r.art === "gemischt") return melde("neutral", `<p>Schreib gemischte Zahlen bitte als Bruch: statt 2 1/2 schreibst du 5/2.</p>`);

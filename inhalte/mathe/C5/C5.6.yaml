@@ -1,0 +1,17 @@
+id: C5.6
+titel: Halbwertszeit und Verdoppelungszeit
+ziel: Du berechnest, wann sich ein Wert verdoppelt oder halbiert.
+erklaerung: |
+  Bei exponentiellem Wachstum braucht es immer **gleich lang**, bis sich der Wert verdoppelt –
+  egal, wo man startet. Das ist die **Verdoppelungszeit**. Beim Zerfall heißt das **Halbwertszeit**.
+
+  - Verdoppelungszeit: `bᵗ = 2` → `t = ln(2)/ln(b)`
+  - Halbwertszeit: `bᵗ = 0,5` → `t = ln(0,5)/ln(b)`
+
+  Nach n Halbwertszeiten ist noch `0,5ⁿ` übrig: nach 3 Halbwertszeiten 12,5 %.
+beispiel:
+  wert: "12,5"
+  text: |
+    Halbwertszeit 8 Tage, nach 24 Tagen: 3 Halbwertszeiten → 100 % · 0,5³ = 12,5 %.
+  weg:
+    - "100·0,5^3 = 12,5"

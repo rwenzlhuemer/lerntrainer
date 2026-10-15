@@ -361,10 +361,10 @@
   typ: zahl
   stufe: 3
   frage: 500 € werden 8 Jahre lang mit 3,5 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
-  loesung: 658,4
+  loesung: 658,40
   gerundet: 2
   weg:
-  - 500 · 1,035^8 | ergibt gerundet 658,4
+  - 500 · 1,035^8 | ergibt gerundet 658,40
   einheit: €
   rechnung: 500 · 1,035^8
   tipps:
@@ -544,10 +544,10 @@
   typ: zahl
   stufe: 4
   frage: Welches Anfangskapital braucht man, damit bei 2 % Zinsen pro Jahr nach 8 Jahren 10000 € am Konto sind? Runde auf Cent.
-  loesung: 8534,9
+  loesung: 8534,90
   gerundet: 2
   weg:
-  - '10000 : 1,02^8 | ergibt gerundet 8534,9'
+  - '10000 : 1,02^8 | ergibt gerundet 8534,90'
   einheit: €
   rechnung: '10000 : 1,02^8'
   tipps:

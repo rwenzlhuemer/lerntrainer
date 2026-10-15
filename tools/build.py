@@ -101,6 +101,12 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
             fehler.melde(wo, f"aus_term nicht prüfbar ({e})")
     if "formel_faktor" in a:
         pruefe_faktor(a, wo, fehler, soll)
+    if "grad_regel" in a:
+        # Polynom vom Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen
+        n, art = a["grad_regel"]["grad"], a["grad_regel"]["art"]
+        erwartet = {"nullstellen": n, "extremstellen": n - 1, "wendestellen": n - 2}[art]
+        if erwartet != soll:
+            fehler.melde(wo, f"Grad {n}, {art}: höchstens {erwartet}, nicht {a['loesung']}")
     if "term" in a:
         # Einsetzen: term mit werte {x: -2} muss die Lösung ergeben
         try:
@@ -356,6 +362,11 @@ def aus_term(p: dict):
     if g == "nullstelle":
         (n,) = sympy.solve(t, x)
         return n
+    if g in ("scheitel_x", "scheitel_y"):
+        xs = sympy.solve(sympy.diff(t, x), x)[0]
+        return xs if g == "scheitel_x" else t.subs(x, xs)
+    if g == "grad":
+        return sympy.degree(t, x)
     if g == "differenz":
         a, b = notation.zahl(str(p["von"])), notation.zahl(str(p["bis"]))
         return t.subs(x, b) - t.subs(x, a)
@@ -426,6 +437,32 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
                 erwartet = [i for i, o in enumerate(optionen) if sympy.simplify(notation.zahl(o) - ziel) == 0]
             else:
                 erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] == "oeffnung":
+            # Optionen 0 = nach oben, 1 = nach unten
+            a2 = sympy.Poly(notation.ausdruck(p["term"]), sympy.Symbol("x")).coeff_monomial(sympy.Symbol("x") ** 2)
+            if sorted(richtig) != [0 if a2 > 0 else 1]:
+                fehler.melde(wo, f"'richtig' = {richtig}, a = {a2}")
+            return
+        if p["art"] == "grad":
+            # Optionen sind Gradzahlen als Text
+            n = sympy.degree(notation.ausdruck(p["term"]), sympy.Symbol("x"))
+            if [optionen[i] for i in richtig] != [str(n)]:
+                fehler.melde(wo, f"'richtig' = {richtig}, Grad ist {n}")
+            return
+        if p["art"] == "lin_exp":
+            # Optionen 0 = linear, 1 = exponentiell, 2 = weder noch (gleiche x-Schritte vorausgesetzt)
+            zeilen = a["tabelle"]["zeilen"]
+            xs = [notation.zahl(str(z[0])) for z in zeilen]
+            ys = [notation.zahl(str(z[1])) for z in zeilen]
+            if len({xs[i + 1] - xs[i] for i in range(len(xs) - 1)}) != 1:
+                fehler.melde(wo, "lin_exp braucht gleiche x-Schritte")
+                return
+            diffs = {sympy.simplify(ys[i + 1] - ys[i]) for i in range(len(ys) - 1)}
+            quot = {sympy.simplify(ys[i + 1] / ys[i]) for i in range(len(ys) - 1)} if all(y != 0 for y in ys) else {None, 0}
+            erwartet = [0] if len(diffs) == 1 else [1] if len(quot) == 1 else [2]
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
             return

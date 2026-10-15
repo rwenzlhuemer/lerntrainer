@@ -1,0 +1,272 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C5.5-001
+  typ: zahl
+  stufe: 1
+  frage: Löse `3^x = 243`.
+  loesung: '5'
+  rechnung: ln(243)/ln(3)
+  gerundet: 2
+  tipps:
+  - Welche Hochzahl macht aus 3 die Zahl 243? Probier es aus.
+  - 'Oder: `x = ln(c)/ln(b)`.'
+  fehler:
+  - antwort: '81'
+    hinweis: Gesucht ist die Hochzahl, nicht ein Quotient.
+- id: C5.5-002
+  typ: zahl
+  stufe: 1
+  frage: Löse `5^x = 25`.
+  loesung: '2'
+  rechnung: ln(25)/ln(5)
+  gerundet: 2
+  tipps:
+  - Welche Hochzahl macht aus 5 die Zahl 25? Probier es aus.
+  - 'Oder: `x = ln(c)/ln(b)`.'
+  fehler:
+  - antwort: '5'
+    hinweis: Gesucht ist die Hochzahl, nicht ein Quotient.
+- id: C5.5-003
+  typ: zahl
+  stufe: 1
+  frage: Löse `3^x = 81`.
+  loesung: '4'
+  rechnung: ln(81)/ln(3)
+  gerundet: 2
+  tipps:
+  - Welche Hochzahl macht aus 3 die Zahl 81? Probier es aus.
+  - 'Oder: `x = ln(c)/ln(b)`.'
+  fehler:
+  - antwort: '27'
+    hinweis: Gesucht ist die Hochzahl, nicht ein Quotient.
+- id: C5.5-004
+  typ: zahl
+  stufe: 1
+  frage: Löse `10^x = 10000`.
+  loesung: '4'
+  rechnung: ln(10000)/ln(10)
+  gerundet: 2
+  tipps:
+  - Welche Hochzahl macht aus 10 die Zahl 10000? Probier es aus.
+  - 'Oder: `x = ln(c)/ln(b)`.'
+  fehler:
+  - antwort: '1000'
+    hinweis: Gesucht ist die Hochzahl, nicht ein Quotient.
+- id: C5.5-005
+  typ: zahl
+  stufe: 1
+  frage: Löse `10^x = 1000`.
+  loesung: '3'
+  rechnung: ln(1000)/ln(10)
+  gerundet: 2
+  tipps:
+  - Welche Hochzahl macht aus 10 die Zahl 1000? Probier es aus.
+  - 'Oder: `x = ln(c)/ln(b)`.'
+  fehler:
+  - antwort: '100'
+    hinweis: Gesucht ist die Hochzahl, nicht ein Quotient.
+- id: C5.5-006
+  typ: zahl
+  stufe: 1
+  frage: Löse `2^x = 32`.
+  loesung: '5'
+  rechnung: ln(32)/ln(2)
+  gerundet: 2
+  tipps:
+  - Welche Hochzahl macht aus 2 die Zahl 32? Probier es aus.
+  - 'Oder: `x = ln(c)/ln(b)`.'
+  fehler:
+  - antwort: '16'
+    hinweis: Gesucht ist die Hochzahl, nicht ein Quotient.
+- id: C5.5-007
+  typ: zahl
+  stufe: 2
+  frage: Löse `2^x = 50` (auf zwei Nachkommastellen).
+  loesung: 5,64
+  gerundet: 2
+  rechnung: ln(50)/ln(2)
+  tipps:
+  - 'Logarithmieren: `x = ln(50)/ln(2)`.'
+  fehler: []
+- id: C5.5-008
+  typ: zahl
+  stufe: 2
+  frage: Löse `5^x = 50` (auf zwei Nachkommastellen).
+  loesung: 2,43
+  gerundet: 2
+  rechnung: ln(50)/ln(5)
+  tipps:
+  - 'Logarithmieren: `x = ln(50)/ln(5)`.'
+  fehler: []
+- id: C5.5-009
+  typ: zahl
+  stufe: 2
+  frage: Löse `2^x = 20` (auf zwei Nachkommastellen).
+  loesung: 4,32
+  gerundet: 2
+  rechnung: ln(20)/ln(2)
+  tipps:
+  - 'Logarithmieren: `x = ln(20)/ln(2)`.'
+  fehler: []
+- id: C5.5-010
+  typ: zahl
+  stufe: 2
+  frage: Löse `5^x = 10` (auf zwei Nachkommastellen).
+  loesung: 1,43
+  gerundet: 2
+  rechnung: ln(10)/ln(5)
+  tipps:
+  - 'Logarithmieren: `x = ln(10)/ln(5)`.'
+  fehler: []
+- id: C5.5-011
+  typ: zahl
+  stufe: 2
+  frage: Löse `3^x = 10` (auf zwei Nachkommastellen).
+  loesung: 2,10
+  gerundet: 2
+  rechnung: ln(10)/ln(3)
+  tipps:
+  - 'Logarithmieren: `x = ln(10)/ln(3)`.'
+  fehler: []
+- id: C5.5-012
+  typ: zahl
+  stufe: 2
+  frage: Löse `3^x = 50` (auf zwei Nachkommastellen).
+  loesung: 3,56
+  gerundet: 2
+  rechnung: ln(50)/ln(3)
+  tipps:
+  - 'Logarithmieren: `x = ln(50)/ln(3)`.'
+  fehler: []
+- id: C5.5-013
+  typ: zahl
+  stufe: 3
+  frage: Löse `1000·1,04^x = 2000` (auf zwei Nachkommastellen).
+  loesung: 17,67
+  gerundet: 2
+  rechnung: ln(2000/1000)/ln(1,04)
+  tipps:
+  - 'Zuerst durch 1000 dividieren: `1,04^x = 2`.'
+  - Dann `x = ln(…)/ln(1,04)`.
+  fehler: []
+- id: C5.5-014
+  typ: zahl
+  stufe: 3
+  frage: Löse `500·0,9^x = 250` (auf zwei Nachkommastellen).
+  loesung: 6,58
+  gerundet: 2
+  rechnung: ln(250/500)/ln(0,9)
+  tipps:
+  - 'Zuerst durch 500 dividieren: `0,9^x = 0,5`.'
+  - Dann `x = ln(…)/ln(0,9)`.
+  fehler: []
+- id: C5.5-015
+  typ: zahl
+  stufe: 3
+  frage: Löse `1000·1,05^x = 2000` (auf zwei Nachkommastellen).
+  loesung: 14,21
+  gerundet: 2
+  rechnung: ln(2000/1000)/ln(1,05)
+  tipps:
+  - 'Zuerst durch 1000 dividieren: `1,05^x = 2`.'
+  - Dann `x = ln(…)/ln(1,05)`.
+  fehler: []
+- id: C5.5-016
+  typ: zahl
+  stufe: 3
+  frage: Löse `1000·1,08^x = 2000` (auf zwei Nachkommastellen).
+  loesung: 9,01
+  gerundet: 2
+  rechnung: ln(2000/1000)/ln(1,08)
+  tipps:
+  - 'Zuerst durch 1000 dividieren: `1,08^x = 2`.'
+  - Dann `x = ln(…)/ln(1,08)`.
+  fehler: []
+- id: C5.5-017
+  typ: zahl
+  stufe: 3
+  frage: Löse `1000·0,9^x = 500` (auf zwei Nachkommastellen).
+  loesung: 6,58
+  gerundet: 2
+  rechnung: ln(500/1000)/ln(0,9)
+  tipps:
+  - 'Zuerst durch 1000 dividieren: `0,9^x = 0,5`.'
+  - Dann `x = ln(…)/ln(0,9)`.
+  fehler: []
+- id: C5.5-018
+  typ: zahl
+  stufe: 3
+  frage: Löse `500·1,08^x = 1000` (auf zwei Nachkommastellen).
+  loesung: 9,01
+  gerundet: 2
+  rechnung: ln(1000/500)/ln(1,08)
+  tipps:
+  - 'Zuerst durch 500 dividieren: `1,08^x = 2`.'
+  - Dann `x = ln(…)/ln(1,08)`.
+  fehler: []
+- id: C5.5-019
+  typ: zahl
+  stufe: 4
+  frage: Löse `e^(0,5·x) = 5` (auf zwei Nachkommastellen).
+  loesung: 3,22
+  gerundet: 2
+  rechnung: ln(5)/(0,5)
+  tipps:
+  - 'Logarithmieren mit ln: `ln(e^(k·x)) = k·x`.'
+  - '`0,5·x = ln(5)`, dann durch 0,5.'
+  fehler: []
+- id: C5.5-020
+  typ: zahl
+  stufe: 4
+  frage: Löse `e^(0,1·x) = 5` (auf zwei Nachkommastellen).
+  loesung: 16,09
+  gerundet: 2
+  rechnung: ln(5)/(0,1)
+  tipps:
+  - 'Logarithmieren mit ln: `ln(e^(k·x)) = k·x`.'
+  - '`0,1·x = ln(5)`, dann durch 0,1.'
+  fehler: []
+- id: C5.5-021
+  typ: zahl
+  stufe: 4
+  frage: Löse `e^(0,1·x) = 0,5` (auf zwei Nachkommastellen).
+  loesung: -6,93
+  gerundet: 2
+  rechnung: ln(0,5)/(0,1)
+  tipps:
+  - 'Logarithmieren mit ln: `ln(e^(k·x)) = k·x`.'
+  - '`0,1·x = ln(0,5)`, dann durch 0,1.'
+  fehler: []
+- id: C5.5-022
+  typ: zahl
+  stufe: 4
+  frage: Löse `e^(0,2·x) = 10` (auf zwei Nachkommastellen).
+  loesung: 11,51
+  gerundet: 2
+  rechnung: ln(10)/(0,2)
+  tipps:
+  - 'Logarithmieren mit ln: `ln(e^(k·x)) = k·x`.'
+  - '`0,2·x = ln(10)`, dann durch 0,2.'
+  fehler: []
+- id: C5.5-023
+  typ: zahl
+  stufe: 4
+  frage: Löse `e^(-0,3·x) = 10` (auf zwei Nachkommastellen).
+  loesung: -7,68
+  gerundet: 2
+  rechnung: ln(10)/(-0,3)
+  tipps:
+  - 'Logarithmieren mit ln: `ln(e^(k·x)) = k·x`.'
+  - '`-0,3·x = ln(10)`, dann durch -0,3.'
+  fehler: []
+- id: C5.5-024
+  typ: zahl
+  stufe: 4
+  frage: Löse `e^(-0,3·x) = 0,5` (auf zwei Nachkommastellen).
+  loesung: 2,31
+  gerundet: 2
+  rechnung: ln(0,5)/(-0,3)
+  tipps:
+  - 'Logarithmieren mit ln: `ln(e^(k·x)) = k·x`.'
+  - '`-0,3·x = ln(0,5)`, dann durch -0,3.'
+  fehler: []

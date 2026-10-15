@@ -1,0 +1,19 @@
+id: C5.2
+titel: Anfangswert und Wachstumsfaktor deuten
+ziel: Du liest a und b als Anfangswert und prozentuelle Änderung pro Schritt.
+erklaerung: |
+  In `f(x) = a · bˣ`:
+  - **a = f(0)** ist der Anfangswert.
+  - **b** ist der Faktor pro Schritt: `f(x + 1) = b · f(x)`.
+
+  Den Faktor übersetzt du in Prozent:
+  - b = 1,05 → **+5 %** pro Schritt
+  - b = 0,8 → **−20 %** pro Schritt
+
+  Umgekehrt: Zunahme um p % → b = 1 + p/100; Abnahme um p % → b = 1 − p/100.
+beispiel:
+  wert: "20"
+  text: |
+    `f(x) = 500 · 0,8ˣ`: Anfangswert 500, pro Schritt bleiben 80 % – also 20 % Abnahme.
+  weg:
+    - "(1 - 0,8)·100 = 20"

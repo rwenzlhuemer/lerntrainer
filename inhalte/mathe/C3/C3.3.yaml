@@ -1,0 +1,15 @@
+id: C3.3
+titel: Graphen nach Grad erkennen
+ziel: Du erkennst am Verlauf, welchen Grad eine Polynomfunktion (wahrscheinlich) hat.
+erklaerung: |
+  Typische Formen:
+  - **Grad 1:** Gerade.
+  - **Grad 2:** Parabel – ein Scheitel, beide Enden zeigen in dieselbe Richtung.
+  - **Grad 3:** bis zu zwei „Buckel“ (Hoch- und Tiefpunkt); ein Ende zeigt nach oben, eines nach unten.
+  - **Grad 4:** bis zu drei Extrempunkte („W“ oder „M“); beide Enden zeigen in dieselbe Richtung.
+
+  Faustregel: **gerader** Grad → beide Enden gleich, **ungerader** Grad → Enden entgegengesetzt.
+beispiel:
+  text: |
+    Ein Hochpunkt, ein Tiefpunkt, links unten und rechts oben: typisch für Grad 3.
+  graph: {x: [-4, 4], y: [-6, 6], kurven: [{term: "x³/2 - 2x", name: "f"}]}

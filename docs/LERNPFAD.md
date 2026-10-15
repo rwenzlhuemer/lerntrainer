@@ -163,11 +163,11 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| C3.1 ★ | Die Parabel: Scheitelpunkt, Öffnung, Nullstellen | FA 4.1, FA 4.3 |  |
-| C3.2 ★ | Argumentwerte aus einer quadratischen Gleichung (f(x) = 3 → x = ?) | FA 4.3 |  |
-| C3.3 ★ | Typische Graphen nach Grad (1 bis 4) erkennen | FA 4.1 |  |
-| C3.4 ★ | Grad ↔ höchstens wie viele Null-, Extrem- und Wendestellen | FA 4.4 |  |
-| C3.5 | Tabelle ↔ Graph bei Polynomfunktionen | FA 4.2 |  |
+| C3.1 ★ | Die Parabel | FA 4.1, FA 4.3 | ✓ 32 |
+| C3.2 ★ | Argumentwerte bei Parabeln | FA 4.3 | ✓ 32 |
+| C3.3 ★ | Graphen nach Grad erkennen | FA 4.1 | ✓ 16 |
+| C3.4 ★ | Grad und besondere Stellen | FA 4.4 | ✓ 20 |
+| C3.5 | Tabelle und Graph bei Polynomen | FA 4.2 | ✓ 20 |
 
 ### C4 Potenzfunktionen
 
@@ -175,18 +175,18 @@ Grundkompetenzkatalog, Stand November 2024.
 |----|-------------|----|-----|
 | C4.1 | f(x) = a · xᶻ: Graphen für z = 2, 3, −1, −2, ½ | FA 3.1 |  |
 | C4.2 | Parameter a und b ablesen und deuten (a · xᶻ + b) | FA 3.2, FA 3.3 |  |
-| C4.3 ★ | Indirekte Proportionalität: f(x) = a / x | FA 3.4 |  |
+| C4.3 ★ | Indirekte Proportionalität: f(x) = a/x | FA 3.4 | ✓ 20 |
 
 ### C5 Exponentialfunktionen
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| C5.1 ★ | Wachstum um denselben Faktor: f(x) = a · bˣ | FA 5.1 |  |
-| C5.2 ★ | Bedeutung von a und b; f(x + 1) = b · f(x) | FA 5.3, FA 5.4 |  |
-| C5.3 ★ | Linear oder exponentiell? Tabellen und Texte erkennen | FA 5.1, FA 2.1 |  |
-| C5.4 | Die e-Funktion: f(x) = a · e^(λ·x), Bedeutung von λ | FA 5.3 |  |
-| C5.5 ★ | Logarithmus als Werkzeug: bˣ = c lösen | FA 5.5, AG 2.1 |  |
-| C5.6 ★ | Halbwertszeit und Verdoppelungszeit | FA 5.5 |  |
+| C5.1 ★ | Exponentielles Wachstum | FA 5.1 | ✓ 24 |
+| C5.2 ★ | Anfangswert und Wachstumsfaktor deuten | FA 5.3, FA 5.4 | ✓ 24 |
+| C5.3 ★ | Linear oder exponentiell? | FA 5.1, FA 2.1 | ✓ 32 |
+| C5.4 | Die e-Funktion | FA 5.3 | ✓ 20 |
+| C5.5 ★ | Logarithmus: bˣ = c lösen | FA 5.5, AG 2.1 | ✓ 24 |
+| C5.6 ★ | Halbwertszeit und Verdoppelungszeit | FA 5.5 | ✓ 20 |
 | C5.7 | Ist ein exponentielles Modell angemessen? | FA 5.6 |  |
 
 ### C6 Eigenschaften von Funktionen
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 67.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 79.

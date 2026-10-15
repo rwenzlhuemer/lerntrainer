@@ -1,0 +1,497 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C3.1-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = (x + 3)² - 2`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '-3'
+  aus_term:
+    term: (x + 3)² - 2
+    groesse: scheitel_x
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-002
+  typ: zahl
+  stufe: 1
+  frage: Das ist der Graph von `f(x) = (x - 2)² + 3`. Gib die **x-Koordinate** des Scheitelpunkts an.
+  loesung: '2'
+  aus_term:
+    term: (x - 2)² + 3
+    groesse: scheitel_x
+  graph:
+    x:
+    - -3
+    - 7
+    y:
+    - -2
+    - 11
+    kurven:
+    - term: (x - 2)² + 3
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-003
+  typ: zahl
+  stufe: 1
+  frage: Das ist der Graph von `f(x) = (x - 2)² + 4`. Gib die **y-Koordinate** des Scheitelpunkts an.
+  loesung: '4'
+  aus_term:
+    term: (x - 2)² + 4
+    groesse: scheitel_y
+  graph:
+    x:
+    - -3
+    - 7
+    y:
+    - -2
+    - 12
+    kurven:
+    - term: (x - 2)² + 4
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler: []
+- id: C3.1-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = (x + 1)² + 5`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '5'
+  aus_term:
+    term: (x + 1)² + 5
+    groesse: scheitel_y
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler: []
+- id: C3.1-005
+  typ: zahl
+  stufe: 1
+  frage: Das ist der Graph von `f(x) = (x - 1)² + 5`. Gib die **y-Koordinate** des Scheitelpunkts an.
+  loesung: '5'
+  aus_term:
+    term: (x - 1)² + 5
+    groesse: scheitel_y
+  graph:
+    x:
+    - -4
+    - 6
+    y:
+    - -2
+    - 13
+    kurven:
+    - term: (x - 1)² + 5
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler: []
+- id: C3.1-006
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = (x + 1)²`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '0'
+  aus_term:
+    term: (x + 1)²
+    groesse: scheitel_y
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler: []
+- id: C3.1-007
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = (x + 1)² + 2`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '-1'
+  aus_term:
+    term: (x + 1)² + 2
+    groesse: scheitel_x
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler:
+  - antwort: '1'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-008
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = (x - 2)² - 1`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '2'
+  aus_term:
+    term: (x - 2)² - 1
+    groesse: scheitel_x
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 0,5(x - 2)²`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '0'
+  aus_term:
+    term: 0,5(x - 2)²
+    groesse: scheitel_y
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler: []
+- id: C3.1-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -(x - 1)²`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '1'
+  aus_term:
+    term: -(x - 1)²
+    groesse: scheitel_x
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-011
+  typ: auswahl
+  stufe: 2
+  frage: Ist die Parabel `f(x) = 0,5(x - 1)² - 1` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 0
+  pruefung:
+    art: oeffnung
+    term: 0,5(x - 1)² - 1
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-012
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 0,5(x - 1)² + 2`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '2'
+  aus_term:
+    term: 0,5(x - 1)² + 2
+    groesse: scheitel_y
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler: []
+- id: C3.1-013
+  typ: auswahl
+  stufe: 2
+  frage: Ist die Parabel `f(x) = 2(x + 4)² - 3` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 0
+  pruefung:
+    art: oeffnung
+    term: 2(x + 4)² - 3
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-014
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 2(x + 2)² - 2`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '-2'
+  aus_term:
+    term: 2(x + 2)² - 2
+    groesse: scheitel_y
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler: []
+- id: C3.1-015
+  typ: auswahl
+  stufe: 2
+  frage: Ist die Parabel `f(x) = 2(x + 4)² + 1` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 0
+  pruefung:
+    art: oeffnung
+    term: 2(x + 4)² + 1
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-016
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 0,5(x + 3)² + 1`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '1'
+  aus_term:
+    term: 0,5(x + 3)² + 1
+    groesse: scheitel_y
+  tipps:
+  - In der Scheitelform `a(x − m)² + n` ist der Scheitel S(m|n).
+  - 'Achtung: In der Klammer steht x **minus** m. `(x + 3)²` heißt also m = −3.'
+  fehler: []
+- id: C3.1-017
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x² - 4x + 6`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '2'
+  aus_term:
+    term: x² - 4x + 6
+    groesse: scheitel_x
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-018
+  typ: zahl
+  stufe: 3
+  frage: Das ist der Graph von `f(x) = x² - 6x + 6`. Gib die **x-Koordinate** des Scheitelpunkts an.
+  loesung: '3'
+  aus_term:
+    term: x² - 6x + 6
+    groesse: scheitel_x
+  graph:
+    x:
+    - -2
+    - 8
+    y:
+    - -4
+    - 5
+    kurven:
+    - term: x² - 6x + 6
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-019
+  typ: zahl
+  stufe: 3
+  frage: Das ist der Graph von `f(x) = x² + 4x + 4`. Gib die **x-Koordinate** des Scheitelpunkts an.
+  loesung: '-2'
+  aus_term:
+    term: x² + 4x + 4
+    groesse: scheitel_x
+  graph:
+    x:
+    - -7
+    - 3
+    y:
+    - -2
+    - 8
+    kurven:
+    - term: x² + 4x + 4
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-020
+  typ: auswahl
+  stufe: 3
+  frage: Ist die Parabel `f(x) = x² - 4x + 2` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 0
+  pruefung:
+    art: oeffnung
+    term: x² - 4x + 2
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-021
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x² + 2x + 6`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '-1'
+  aus_term:
+    term: x² + 2x + 6
+    groesse: scheitel_x
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-022
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x² - 4x + 2`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '-2'
+  aus_term:
+    term: x² - 4x + 2
+    groesse: scheitel_y
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler: []
+- id: C3.1-023
+  typ: zahl
+  stufe: 3
+  frage: Das ist der Graph von `f(x) = x² + 4`. Gib die **x-Koordinate** des Scheitelpunkts an.
+  loesung: '0'
+  aus_term:
+    term: x² + 4
+    groesse: scheitel_x
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -2
+    - 12
+    kurven:
+    - term: x² + 4
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler: []
+- id: C3.1-024
+  typ: zahl
+  stufe: 3
+  frage: Das ist der Graph von `f(x) = x² + 2x - 5`. Gib die **y-Koordinate** des Scheitelpunkts an.
+  loesung: '-6'
+  aus_term:
+    term: x² + 2x - 5
+    groesse: scheitel_y
+  graph:
+    x:
+    - -6
+    - 4
+    y:
+    - -7
+    - 2
+    kurven:
+    - term: x² + 2x - 5
+      name: f
+  tipps:
+  - Der Scheitel ist der tiefste (oder höchste) Punkt der Parabel.
+  - Lies seine Koordinaten am Graphen ab.
+  fehler: []
+- id: C3.1-025
+  typ: auswahl
+  stufe: 4
+  frage: Ist die Parabel `f(x) = -x² + 2x - 3` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 1
+  pruefung:
+    art: oeffnung
+    term: -x² + 2x - 3
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-026
+  typ: auswahl
+  stufe: 4
+  frage: Ist die Parabel `f(x) = -2x² - 12x - 24` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 1
+  pruefung:
+    art: oeffnung
+    term: -2x² - 12x - 24
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-027
+  typ: auswahl
+  stufe: 4
+  frage: Ist die Parabel `f(x) = -x² - 6x - 10` nach oben oder nach unten geöffnet?
+  optionen:
+  - nach oben
+  - nach unten
+  richtig:
+  - 1
+  pruefung:
+    art: oeffnung
+    term: -x² - 6x - 10
+  erklaerung: 'Entscheidend ist die Zahl vor x²: positiv → nach oben geöffnet, negativ → nach unten.'
+  tipps:
+  - Schau auf das Vorzeichen vor x².
+- id: C3.1-028
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -x² - 1`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '-1'
+  aus_term:
+    term: -x² - 1
+    groesse: scheitel_y
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler: []
+- id: C3.1-029
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x² + 12x + 15`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '-3'
+  aus_term:
+    term: 2x² + 12x + 15
+    groesse: scheitel_x
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Vorzeichen! In `(x − m)²` steht das Minus schon in der Formel: Bei `(x + 3)²` ist m = −3.'
+- id: C3.1-030
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x² + 4x + 4`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '2'
+  aus_term:
+    term: 2x² + 4x + 4
+    groesse: scheitel_y
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler: []
+- id: C3.1-031
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -2x²`. Gib die **x-Koordinate** des Scheitelpunkts an.'
+  loesung: '0'
+  aus_term:
+    term: -2x²
+    groesse: scheitel_x
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler: []
+- id: C3.1-032
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x² - 8x + 6`. Gib die **y-Koordinate** des Scheitelpunkts an.'
+  loesung: '-2'
+  aus_term:
+    term: 2x² - 8x + 6
+    groesse: scheitel_y
+  tipps:
+  - 'Scheitel: `x = -b/(2a)` – oder zuerst in die Scheitelform umformen.'
+  - Den y-Wert bekommst du durch Einsetzen in f.
+  fehler: []

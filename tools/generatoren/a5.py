@@ -22,7 +22,7 @@ def zahl(frage, ergebnis, rechnung, tipps, fehler, einheit=None, weg=None):
         a["loesung"] = dez(ergebnis)
         a["weg"] = weg or [f"{rechnung} = {dez(ergebnis)}"]
     else:
-        a["loesung"] = dez(F(round(ergebnis * 100), 100))
+        a["loesung"] = f"{float(ergebnis):.2f}".replace(".", ",")
         a["gerundet"] = 2
         a["weg"] = weg or [f"{rechnung} | ergibt gerundet {a['loesung']}"]
     if einheit:

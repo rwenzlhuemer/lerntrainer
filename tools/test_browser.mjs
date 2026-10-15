@@ -333,6 +333,14 @@ async function main() {
   await geh("#/ls/C2.4");
   pruefe((await js("document.querySelectorAll('.beispiel svg.graph path.g-kurve').length")) === 3, "C2.4: Beispiel mit drei Geraden");
   await bild("09n-beispiel-graph");
+  const gr = await naechsteBis("C3.3", () => true);
+  await js(`document.querySelector('.option[data-i="${gr.richtig[0]}"]').click()`);
+  await warte(200);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `C3.3: Grad am Graphen erkannt (${gr.graph.kurven[0].term})`);
+  await bild("09o-grad");
+  const zs = await naechsteBis("C5.6", (x) => x.gerundet !== undefined);
+  await tippe(`${zs.loesung} ${zs.einheit || ""}`);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `C5.6: gerundete Antwort ${zs.loesung} angenommen`);
   const tb = await naechsteBis("C1.1", () => true);
   pruefe(await js("!!document.querySelector('table.tabelle')"), "C1.1: Wertetabelle gezeigt");
   await bild("09m-tabelle");

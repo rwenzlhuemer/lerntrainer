@@ -1,0 +1,18 @@
+id: C4.3
+titel: "Indirekte Proportionalität: f(x) = a/x"
+ziel: Du rechnest mit Funktionen der Form f(x) = a/x und erkennst ihr Verhalten.
+erklaerung: |
+  Bei **indirekter Proportionalität** ist das Produkt x · y immer gleich: `x · y = a`, also `f(x) = a/x`.
+
+  - Doppelt so großes x → halb so großes f(x). Dreifaches x → ein Drittel.
+  - a bekommst du aus einem Punkt: `a = x · y`.
+  - Der Graph (für x > 0) ist eine **Hyperbel**: Er fällt, kommt der x-Achse immer näher, erreicht sie aber nie.
+
+  Beispiele: Fahrzeit und Geschwindigkeit bei gleicher Strecke, Anzahl der Arbeiter und benötigte Zeit.
+beispiel:
+  wert: "1,5"
+  text: |
+    120 km Strecke: `t(v) = 120/v`. Mit 80 km/h dauert es 1,5 h.
+  graph: {x: [0, 150], y: [0, 8], kurven: [{term: "120/x"}], achsen: {x: "v in km/h", y: "t in h"}, schritt: [10, 1], punkte: [{x: 80, y: 1.5}]}
+  weg:
+    - "120 : 80 = 1,5"

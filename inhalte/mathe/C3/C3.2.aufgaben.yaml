@@ -1,0 +1,466 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C3.2-001
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² - 3`. Für welche x gilt `f(x) = 46`?'
+  gleichung: x² - 3 = 46
+  loesung: 7; -7
+  weg:
+  - x² - 3 = 46
+  - x² = 49
+  - x = 7 oder x = -7
+  tipps:
+  - Setz `x² - 3 = 46` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-002
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² - 4`. Für welche x gilt `f(x) = -3`?'
+  gleichung: x² - 4 = -3
+  loesung: 1; -1
+  weg:
+  - x² - 4 = -3
+  - x² = 1
+  - x = 1 oder x = -1
+  tipps:
+  - Setz `x² - 4 = -3` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-003
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² + 6`. Für welche x gilt `f(x) = 42`?'
+  gleichung: x² + 6 = 42
+  loesung: 6; -6
+  weg:
+  - x² + 6 = 42
+  - x² = 36
+  - x = 6 oder x = -6
+  tipps:
+  - Setz `x² + 6 = 42` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-004
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² + 3`. Für welche x gilt `f(x) = 39`?'
+  gleichung: x² + 3 = 39
+  loesung: 6; -6
+  weg:
+  - x² + 3 = 39
+  - x² = 36
+  - x = 6 oder x = -6
+  tipps:
+  - Setz `x² + 3 = 39` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-005
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² + 6`. Für welche x gilt `f(x) = 10`?'
+  gleichung: x² + 6 = 10
+  loesung: 2; -2
+  weg:
+  - x² + 6 = 10
+  - x² = 4
+  - x = 2 oder x = -2
+  tipps:
+  - Setz `x² + 6 = 10` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-006
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² + 8`. Für welche x gilt `f(x) = 33`?'
+  gleichung: x² + 8 = 33
+  loesung: 5; -5
+  weg:
+  - x² + 8 = 33
+  - x² = 25
+  - x = 5 oder x = -5
+  tipps:
+  - Setz `x² + 8 = 33` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-007
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² + 8`. Für welche x gilt `f(x) = 17`?'
+  gleichung: x² + 8 = 17
+  loesung: 3; -3
+  weg:
+  - x² + 8 = 17
+  - x² = 9
+  - x = 3 oder x = -3
+  tipps:
+  - Setz `x² + 8 = 17` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-008
+  typ: quadratisch
+  stufe: 1
+  frage: '`f(x) = x² + 4`. Für welche x gilt `f(x) = 40`?'
+  gleichung: x² + 4 = 40
+  loesung: 6; -6
+  weg:
+  - x² + 4 = 40
+  - x² = 36
+  - x = 6 oder x = -6
+  tipps:
+  - Setz `x² + 4 = 40` und löse nach x.
+  - 'Wurzel: plus und minus!'
+  fehler: []
+- id: C3.2-009
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² + 4x - 7`. Für welche x gilt `f(x) = -2`?'
+  gleichung: x² + 4x - 7 = -2
+  loesung: 1; -5
+  weg:
+  - x² + 4x - 7 = -2
+  - x² + 4x - 5 = 0
+  - x = 1 oder x = -5
+  tipps:
+  - Setz `x² + 4x - 7 = -2`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-010
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² - 9x + 21`. Für welche x gilt `f(x) = 3`?'
+  gleichung: x² - 9x + 21 = 3
+  loesung: 6; 3
+  weg:
+  - x² - 9x + 21 = 3
+  - x² - 9x + 18 = 0
+  - x = 6 oder x = 3
+  tipps:
+  - Setz `x² - 9x + 21 = 3`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-011
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² - 8x + 17`. Für welche x gilt `f(x) = 5`?'
+  gleichung: x² - 8x + 17 = 5
+  loesung: 6; 2
+  weg:
+  - x² - 8x + 17 = 5
+  - x² - 8x + 12 = 0
+  - x = 6 oder x = 2
+  tipps:
+  - Setz `x² - 8x + 17 = 5`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-012
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² + 3x + 2`. Für welche x gilt `f(x) = 6`?'
+  gleichung: x² + 3x + 2 = 6
+  loesung: 1; -4
+  weg:
+  - x² + 3x + 2 = 6
+  - x² + 3x - 4 = 0
+  - x = 1 oder x = -4
+  tipps:
+  - Setz `x² + 3x + 2 = 6`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-013
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² + 4x + 8`. Für welche x gilt `f(x) = 5`?'
+  gleichung: x² + 4x + 8 = 5
+  loesung: -1; -3
+  weg:
+  - x² + 4x + 8 = 5
+  - x² + 4x + 3 = 0
+  - x = -1 oder x = -3
+  tipps:
+  - Setz `x² + 4x + 8 = 5`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-014
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² + 6x + 11`. Für welche x gilt `f(x) = 3`?'
+  gleichung: x² + 6x + 11 = 3
+  loesung: -2; -4
+  weg:
+  - x² + 6x + 11 = 3
+  - x² + 6x + 8 = 0
+  - x = -2 oder x = -4
+  tipps:
+  - Setz `x² + 6x + 11 = 3`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-015
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² - 20`. Für welche x gilt `f(x) = -4`?'
+  gleichung: x² - 20 = -4
+  loesung: 4; -4
+  weg:
+  - x² - 20 = -4
+  - x² - 16 = 0
+  - x = 4 oder x = -4
+  tipps:
+  - Setz `x² - 20 = -4`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-016
+  typ: quadratisch
+  stufe: 2
+  frage: '`f(x) = x² - 11x + 32`. Für welche x gilt `f(x) = 2`?'
+  gleichung: x² - 11x + 32 = 2
+  loesung: 6; 5
+  weg:
+  - x² - 11x + 32 = 2
+  - x² - 11x + 30 = 0
+  - x = 6 oder x = 5
+  tipps:
+  - Setz `x² - 11x + 32 = 2`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-017
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² - 4x + 11`. Für welche x gilt `f(x) = 8`?'
+  gleichung: x² - 4x + 11 = 8
+  loesung: 3; 1
+  weg:
+  - x² - 4x + 11 = 8
+  - x² - 4x + 3 = 0
+  - x = 3 oder x = 1
+  tipps:
+  - Setz `x² - 4x + 11 = 8`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-018
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² - 9x + 19`. Für welche x gilt `f(x) = 1`?'
+  gleichung: x² - 9x + 19 = 1
+  loesung: 6; 3
+  weg:
+  - x² - 9x + 19 = 1
+  - x² - 9x + 18 = 0
+  - x = 6 oder x = 3
+  tipps:
+  - Setz `x² - 9x + 19 = 1`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-019
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² + 2x - 21`. Für welche x gilt `f(x) = -6`?'
+  gleichung: x² + 2x - 21 = -6
+  loesung: 3; -5
+  weg:
+  - x² + 2x - 21 = -6
+  - x² + 2x - 15 = 0
+  - x = 3 oder x = -5
+  tipps:
+  - Setz `x² + 2x - 21 = -6`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-020
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² + 4x + 1`. Für welche x gilt `f(x) = 6`?'
+  gleichung: x² + 4x + 1 = 6
+  loesung: 1; -5
+  weg:
+  - x² + 4x + 1 = 6
+  - x² + 4x - 5 = 0
+  - x = 1 oder x = -5
+  tipps:
+  - Setz `x² + 4x + 1 = 6`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-021
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² + 2x - 11`. Für welche x gilt `f(x) = -3`?'
+  gleichung: x² + 2x - 11 = -3
+  loesung: 2; -4
+  weg:
+  - x² + 2x - 11 = -3
+  - x² + 2x - 8 = 0
+  - x = 2 oder x = -4
+  tipps:
+  - Setz `x² + 2x - 11 = -3`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-022
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² - 9x + 10`. Für welche x gilt `f(x) = -8`?'
+  gleichung: x² - 9x + 10 = -8
+  loesung: 6; 3
+  weg:
+  - x² - 9x + 10 = -8
+  - x² - 9x + 18 = 0
+  - x = 6 oder x = 3
+  tipps:
+  - Setz `x² - 9x + 10 = -8`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-023
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² + x - 27`. Für welche x gilt `f(x) = -7`?'
+  gleichung: x² + x - 27 = -7
+  loesung: 4; -5
+  weg:
+  - x² + x - 27 = -7
+  - x² + x - 20 = 0
+  - x = 4 oder x = -5
+  tipps:
+  - Setz `x² + x - 27 = -7`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-024
+  typ: quadratisch
+  stufe: 3
+  frage: '`f(x) = x² + 3x - 5`. Für welche x gilt `f(x) = -1`?'
+  gleichung: x² + 3x - 5 = -1
+  loesung: 1; -4
+  weg:
+  - x² + 3x - 5 = -1
+  - x² + 3x - 4 = 0
+  - x = 1 oder x = -4
+  tipps:
+  - Setz `x² + 3x - 5 = -1`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-025
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² - 4x - 13`. Für welche x gilt `f(x) = -8`?'
+  gleichung: x² - 4x - 13 = -8
+  loesung: 5; -1
+  weg:
+  - x² - 4x - 13 = -8
+  - x² - 4x - 5 = 0
+  - x = 5 oder x = -1
+  tipps:
+  - Setz `x² - 4x - 13 = -8`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-026
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 6`. Für welche x gilt `f(x) = 0`?'
+  gleichung: x² + 6 = 0
+  loesung: keine
+  weg: []
+  tipps:
+  - Kann x² + eine positive Zahl jemals 0 sein?
+  fehler: []
+  erklaerung: x² ist nie negativ, also ist f(x) immer positiv – keine Lösung.
+- id: C3.2-027
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 4x - 13`. Für welche x gilt `f(x) = -1`?'
+  gleichung: x² + 4x - 13 = -1
+  loesung: 2; -6
+  weg:
+  - x² + 4x - 13 = -1
+  - x² + 4x - 12 = 0
+  - x = 2 oder x = -6
+  tipps:
+  - Setz `x² + 4x - 13 = -1`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-028
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 9x + 12`. Für welche x gilt `f(x) = -6`?'
+  gleichung: x² + 9x + 12 = -6
+  loesung: -3; -6
+  weg:
+  - x² + 9x + 12 = -6
+  - x² + 9x + 18 = 0
+  - x = -3 oder x = -6
+  tipps:
+  - Setz `x² + 9x + 12 = -6`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-029
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 1`. Für welche x gilt `f(x) = 0`?'
+  gleichung: x² + 1 = 0
+  loesung: keine
+  weg: []
+  tipps:
+  - Kann x² + eine positive Zahl jemals 0 sein?
+  fehler: []
+  erklaerung: x² ist nie negativ, also ist f(x) immer positiv – keine Lösung.
+- id: C3.2-030
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 6x + 12`. Für welche x gilt `f(x) = 7`?'
+  gleichung: x² + 6x + 12 = 7
+  loesung: -1; -5
+  weg:
+  - x² + 6x + 12 = 7
+  - x² + 6x + 5 = 0
+  - x = -1 oder x = -5
+  tipps:
+  - Setz `x² + 6x + 12 = 7`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-031
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² - x - 28`. Für welche x gilt `f(x) = 2`?'
+  gleichung: x² - x - 28 = 2
+  loesung: 6; -5
+  weg:
+  - x² - x - 28 = 2
+  - x² - x - 30 = 0
+  - x = 6 oder x = -5
+  tipps:
+  - Setz `x² - x - 28 = 2`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []
+- id: C3.2-032
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 2x + 1`. Für welche x gilt `f(x) = 4`?'
+  gleichung: x² + 2x + 1 = 4
+  loesung: 1; -3
+  weg:
+  - x² + 2x + 1 = 4
+  - x² + 2x - 3 = 0
+  - x = 1 oder x = -3
+  tipps:
+  - Setz `x² + 2x + 1 = 4`.
+  - Bring alles auf eine Seite, sodass rechts 0 steht.
+  - Dann die Lösungsformel.
+  fehler: []

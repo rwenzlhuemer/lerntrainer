@@ -1,0 +1,250 @@
+# ERZEUGT von tools/generatoren/c345.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C3.4-001
+  typ: zahl
+  stufe: 1
+  frage: Eine Polynomfunktion hat den Grad 2. Wie viele **Nullstellen** kann sie **höchstens** haben?
+  loesung: '2'
+  grad_regel:
+    grad: 2
+    art: nullstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler: []
+- id: C3.4-002
+  typ: zahl
+  stufe: 1
+  frage: Eine Polynomfunktion hat den Grad 6. Wie viele **Nullstellen** kann sie **höchstens** haben?
+  loesung: '6'
+  grad_regel:
+    grad: 6
+    art: nullstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler: []
+- id: C3.4-003
+  typ: zahl
+  stufe: 1
+  frage: Eine Polynomfunktion hat den Grad 9. Wie viele **Nullstellen** kann sie **höchstens** haben?
+  loesung: '9'
+  grad_regel:
+    grad: 9
+    art: nullstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler: []
+- id: C3.4-004
+  typ: zahl
+  stufe: 1
+  frage: Eine Polynomfunktion hat den Grad 4. Wie viele **Nullstellen** kann sie **höchstens** haben?
+  loesung: '4'
+  grad_regel:
+    grad: 4
+    art: nullstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler: []
+- id: C3.4-005
+  typ: zahl
+  stufe: 1
+  frage: Eine Polynomfunktion hat den Grad 8. Wie viele **Nullstellen** kann sie **höchstens** haben?
+  loesung: '8'
+  grad_regel:
+    grad: 8
+    art: nullstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler: []
+- id: C3.4-006
+  typ: zahl
+  stufe: 2
+  frage: Eine Polynomfunktion hat den Grad 4. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '3'
+  grad_regel:
+    grad: 4
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '4'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-007
+  typ: zahl
+  stufe: 2
+  frage: Eine Polynomfunktion hat den Grad 6. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '5'
+  grad_regel:
+    grad: 6
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '6'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-008
+  typ: zahl
+  stufe: 2
+  frage: Eine Polynomfunktion hat den Grad 3. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '2'
+  grad_regel:
+    grad: 3
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-009
+  typ: zahl
+  stufe: 2
+  frage: Eine Polynomfunktion hat den Grad 7. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '6'
+  grad_regel:
+    grad: 7
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '7'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-010
+  typ: zahl
+  stufe: 2
+  frage: Eine Polynomfunktion hat den Grad 2. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '1'
+  grad_regel:
+    grad: 2
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-011
+  typ: zahl
+  stufe: 3
+  frage: Eine Polynomfunktion hat den Grad 5. Wie viele **Wendestellen** kann sie **höchstens** haben?
+  loesung: '3'
+  grad_regel:
+    grad: 5
+    art: wendestellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '5'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-012
+  typ: zahl
+  stufe: 3
+  frage: Eine Polynomfunktion hat den Grad 6. Wie viele **Wendestellen** kann sie **höchstens** haben?
+  loesung: '4'
+  grad_regel:
+    grad: 6
+    art: wendestellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '6'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-013
+  typ: zahl
+  stufe: 3
+  frage: Eine Polynomfunktion hat den Grad 3. Wie viele **Wendestellen** kann sie **höchstens** haben?
+  loesung: '1'
+  grad_regel:
+    grad: 3
+    art: wendestellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '3'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-014
+  typ: zahl
+  stufe: 3
+  frage: Eine Polynomfunktion hat den Grad 4. Wie viele **Wendestellen** kann sie **höchstens** haben?
+  loesung: '2'
+  grad_regel:
+    grad: 4
+    art: wendestellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '4'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-015
+  typ: zahl
+  stufe: 3
+  frage: Eine Polynomfunktion hat den Grad 9. Wie viele **Wendestellen** kann sie **höchstens** haben?
+  loesung: '7'
+  grad_regel:
+    grad: 9
+    art: wendestellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '9'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-016
+  typ: zahl
+  stufe: 4
+  frage: Eine Polynomfunktion hat den Grad 5. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '4'
+  grad_regel:
+    grad: 5
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '5'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-017
+  typ: zahl
+  stufe: 4
+  frage: Eine Polynomfunktion hat den Grad 8. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '7'
+  grad_regel:
+    grad: 8
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '8'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-018
+  typ: zahl
+  stufe: 4
+  frage: Eine Polynomfunktion hat den Grad 9. Wie viele **Extremstellen (Hoch- und Tiefpunkte)** kann sie **höchstens** haben?
+  loesung: '8'
+  grad_regel:
+    grad: 9
+    art: extremstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '9'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-019
+  typ: zahl
+  stufe: 4
+  frage: Eine Polynomfunktion hat den Grad 8. Wie viele **Wendestellen** kann sie **höchstens** haben?
+  loesung: '6'
+  grad_regel:
+    grad: 8
+    art: wendestellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler:
+  - antwort: '8'
+    hinweis: 'Das gilt für die Nullstellen. Extremstellen: n − 1, Wendestellen: n − 2.'
+- id: C3.4-020
+  typ: zahl
+  stufe: 4
+  frage: Eine Polynomfunktion hat den Grad 3. Wie viele **Nullstellen** kann sie **höchstens** haben?
+  loesung: '3'
+  grad_regel:
+    grad: 3
+    art: nullstellen
+  tipps:
+  - 'Grad n: höchstens n Nullstellen, n − 1 Extremstellen, n − 2 Wendestellen.'
+  fehler: []
