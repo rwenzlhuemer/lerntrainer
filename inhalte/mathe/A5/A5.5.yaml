@@ -1,0 +1,18 @@
+id: A5.5
+titel: Zinseszins
+ziel: Du berechnest Kapital mit Zinseszins – vorwärts und rückwärts.
+erklaerung: |
+  Bei **Zinseszins** werden die Zinsen am Jahresende zum Kapital geschlagen und im nächsten Jahr mitverzinst.
+  Jedes Jahr wird also mit dem **Zinsfaktor** `q = 1 + i` multipliziert (bei 3 % ist q = 1,03).
+
+  Nach n Jahren: `Kₙ = K₀ · qⁿ`
+
+  Rückwärts (Anfangskapital gesucht): `K₀ = Kₙ : qⁿ`.
+
+  Geldbeträge rundest du auf Cent, also auf zwei Nachkommastellen.
+beispiel:
+  wert: "1092,727"
+  text: |
+    1000 € werden 3 Jahre mit 3 % verzinst. Ergebnis gerundet: 1092,73 €.
+  weg:
+    - "1000 · 1,03^3 = 1000 · 1,092727 = 1092,727"

@@ -1,0 +1,685 @@
+# ERZEUGT von tools/generatoren/a5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A5.3-001
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 200 € auf 220 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '10'
+  weg:
+  - '(220 - 200) : 200 · 100 = 10'
+  einheit: '%'
+  rechnung: '(220 - 200) : 200 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `20`. Teile durch den **alten** Wert 200.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 100/11
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '20'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-002
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 50 € auf 62,5 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '25'
+  weg:
+  - '(62,5 - 50) : 50 · 100 = 25'
+  einheit: '%'
+  rechnung: '(62,5 - 50) : 50 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `12,5`. Teile durch den **alten** Wert 50.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: '20'
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: 25/2
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-003
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 50 € auf 60 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '20'
+  weg:
+  - '(60 - 50) : 50 · 100 = 20'
+  einheit: '%'
+  rechnung: '(60 - 50) : 50 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `10`. Teile durch den **alten** Wert 50.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 50/3
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '10'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-004
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 80 € auf 96 €. Wie groß ist die **absolute** Änderung? (Abnahme mit Minus.)
+  loesung: '16'
+  weg:
+  - 96 - 80 = 16
+  einheit: €
+  rechnung: 96 - 80
+  tipps:
+  - Absolute Änderung = neuer Wert − alter Wert.
+  - Bei einer Abnahme ist sie negativ.
+  fehler:
+  - antwort: '-16'
+    hinweis: Neuer Wert minus alter Wert – nicht umgekehrt.
+- id: A5.3-005
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 200 € auf 250 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '25'
+  weg:
+  - '(250 - 200) : 200 · 100 = 25'
+  einheit: '%'
+  rechnung: '(250 - 200) : 200 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `50`. Teile durch den **alten** Wert 200.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: '20'
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '50'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-006
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 100 € auf 125 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '25'
+  weg:
+  - '(125 - 100) : 100 · 100 = 25'
+  einheit: '%'
+  rechnung: '(125 - 100) : 100 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `25`. Teile durch den **alten** Wert 100.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: '20'
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+- id: A5.3-007
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 100 € auf 110 €. Wie groß ist die **absolute** Änderung? (Abnahme mit Minus.)
+  loesung: '10'
+  weg:
+  - 110 - 100 = 10
+  einheit: €
+  rechnung: 110 - 100
+  tipps:
+  - Absolute Änderung = neuer Wert − alter Wert.
+  - Bei einer Abnahme ist sie negativ.
+  fehler:
+  - antwort: '-10'
+    hinweis: Neuer Wert minus alter Wert – nicht umgekehrt.
+- id: A5.3-008
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 40 € auf 60 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '50'
+  weg:
+  - '(60 - 40) : 40 · 100 = 50'
+  einheit: '%'
+  rechnung: '(60 - 40) : 40 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `20`. Teile durch den **alten** Wert 40.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 100/3
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '20'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-009
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 100 € auf 150 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '50'
+  weg:
+  - '(150 - 100) : 100 · 100 = 50'
+  einheit: '%'
+  rechnung: '(150 - 100) : 100 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `50`. Teile durch den **alten** Wert 100.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 100/3
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+- id: A5.3-010
+  typ: zahl
+  stufe: 1
+  frage: Der Preis ändert sich von 40 € auf 44 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '10'
+  weg:
+  - '(44 - 40) : 40 · 100 = 10'
+  einheit: '%'
+  rechnung: '(44 - 40) : 40 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `4`. Teile durch den **alten** Wert 40.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 100/11
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '4'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-011
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 80 € auf 72 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-10'
+  weg:
+  - '(72 - 80) : 80 · 100 = -10'
+  einheit: '%'
+  rechnung: '(72 - 80) : 80 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-8`. Teile durch den **alten** Wert 80.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -100/9
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-8'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-012
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 60 € auf 78 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '30'
+  weg:
+  - '(78 - 60) : 60 · 100 = 30'
+  einheit: '%'
+  rechnung: '(78 - 60) : 60 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `18`. Teile durch den **alten** Wert 60.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 300/13
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '18'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-013
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 250 € auf 325 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '30'
+  weg:
+  - '(325 - 250) : 250 · 100 = 30'
+  einheit: '%'
+  rechnung: '(325 - 250) : 250 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `75`. Teile durch den **alten** Wert 250.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 300/13
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '75'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-014
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 250 € auf 287,5 €. Wie groß ist die **absolute** Änderung? (Abnahme mit Minus.)
+  loesung: 37,5
+  weg:
+  - 287,5 - 250 = 37,5
+  einheit: €
+  rechnung: 287,5 - 250
+  tipps:
+  - Absolute Änderung = neuer Wert − alter Wert.
+  - Bei einer Abnahme ist sie negativ.
+  fehler:
+  - antwort: -75/2
+    hinweis: Neuer Wert minus alter Wert – nicht umgekehrt.
+- id: A5.3-015
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 400 € auf 300 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-25'
+  weg:
+  - '(300 - 400) : 400 · 100 = -25'
+  einheit: '%'
+  rechnung: '(300 - 400) : 400 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-100`. Teile durch den **alten** Wert 400.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -100/3
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-100'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-016
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 80 € auf 104 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '30'
+  weg:
+  - '(104 - 80) : 80 · 100 = 30'
+  einheit: '%'
+  rechnung: '(104 - 80) : 80 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `24`. Teile durch den **alten** Wert 80.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 300/13
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '24'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-017
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 400 € auf 520 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '30'
+  weg:
+  - '(520 - 400) : 400 · 100 = 30'
+  einheit: '%'
+  rechnung: '(520 - 400) : 400 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `120`. Teile durch den **alten** Wert 400.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 300/13
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '120'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-018
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 400 € auf 360 €. Wie groß ist die **absolute** Änderung? (Abnahme mit Minus.)
+  loesung: '-40'
+  weg:
+  - 360 - 400 = -40
+  einheit: €
+  rechnung: 360 - 400
+  tipps:
+  - Absolute Änderung = neuer Wert − alter Wert.
+  - Bei einer Abnahme ist sie negativ.
+  fehler:
+  - antwort: '40'
+    hinweis: Neuer Wert minus alter Wert – nicht umgekehrt.
+- id: A5.3-019
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 400 € auf 320 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-20'
+  weg:
+  - '(320 - 400) : 400 · 100 = -20'
+  einheit: '%'
+  rechnung: '(320 - 400) : 400 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-80`. Teile durch den **alten** Wert 400.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: '-25'
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-80'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-020
+  typ: zahl
+  stufe: 2
+  frage: Der Preis ändert sich von 80 € auf 92 €. Wie groß ist die **absolute** Änderung? (Abnahme mit Minus.)
+  loesung: '12'
+  weg:
+  - 92 - 80 = 12
+  einheit: €
+  rechnung: 92 - 80
+  tipps:
+  - Absolute Änderung = neuer Wert − alter Wert.
+  - Bei einer Abnahme ist sie negativ.
+  fehler:
+  - antwort: '-12'
+    hinweis: Neuer Wert minus alter Wert – nicht umgekehrt.
+- id: A5.3-021
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 1200 € auf 1344 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '12'
+  weg:
+  - '(1344 - 1200) : 1200 · 100 = 12'
+  einheit: '%'
+  rechnung: '(1344 - 1200) : 1200 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `144`. Teile durch den **alten** Wert 1200.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 75/7
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '144'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-022
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 160 € auf 136 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-15'
+  weg:
+  - '(136 - 160) : 160 · 100 = -15'
+  einheit: '%'
+  rechnung: '(136 - 160) : 160 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-24`. Teile durch den **alten** Wert 160.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -300/17
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-24'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-023
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 320 € auf 294,4 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-8'
+  weg:
+  - '(294,4 - 320) : 320 · 100 = -8'
+  einheit: '%'
+  rechnung: '(294,4 - 320) : 320 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-25,6`. Teile durch den **alten** Wert 320.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -200/23
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: -128/5
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-024
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 450 € auf 504 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '12'
+  weg:
+  - '(504 - 450) : 450 · 100 = 12'
+  einheit: '%'
+  rechnung: '(504 - 450) : 450 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `54`. Teile durch den **alten** Wert 450.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 75/7
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '54'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-025
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 320 € auf 208 €. Gib die relative Änderung als Dezimalzahl an.
+  loesung: -0,35
+  weg:
+  - '(208 - 320) : 320 = -0,35'
+  rechnung: '(208 - 320) : 320'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(208 - 320) : 320`'
+  fehler:
+  - antwort: '-35'
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+  - antwort: -7/13
+    hinweis: Geteilt wird durch den **alten** Wert.
+- id: A5.3-026
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 450 € auf 414 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-8'
+  weg:
+  - '(414 - 450) : 450 · 100 = -8'
+  einheit: '%'
+  rechnung: '(414 - 450) : 450 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-36`. Teile durch den **alten** Wert 450.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -200/23
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-36'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-027
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 320 € auf 336 €. Gib die relative Änderung als Dezimalzahl an.
+  loesung: 0,05
+  weg:
+  - '(336 - 320) : 320 = 0,05'
+  rechnung: '(336 - 320) : 320'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(336 - 320) : 320`'
+  fehler:
+  - antwort: '5'
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+- id: A5.3-028
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 450 € auf 292,5 €. Gib die relative Änderung als Dezimalzahl an.
+  loesung: -0,35
+  weg:
+  - '(292,5 - 450) : 450 = -0,35'
+  rechnung: '(292,5 - 450) : 450'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(292,5 - 450) : 450`'
+  fehler:
+  - antwort: '-35'
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+  - antwort: -7/13
+    hinweis: Geteilt wird durch den **alten** Wert.
+- id: A5.3-029
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 320 € auf 272 €. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-15'
+  weg:
+  - '(272 - 320) : 320 · 100 = -15'
+  einheit: '%'
+  rechnung: '(272 - 320) : 320 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-48`. Teile durch den **alten** Wert 320.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -300/17
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-48'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-030
+  typ: zahl
+  stufe: 3
+  frage: Der Preis ändert sich von 160 € auf 104 €. Gib die relative Änderung als Dezimalzahl an.
+  loesung: -0,35
+  weg:
+  - '(104 - 160) : 160 = -0,35'
+  rechnung: '(104 - 160) : 160'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(104 - 160) : 160`'
+  fehler:
+  - antwort: '-35'
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+  - antwort: -7/13
+    hinweis: Geteilt wird durch den **alten** Wert.
+- id: A5.3-031
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 3600 auf 3690. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: 2,5
+  weg:
+  - '(3690 - 3600) : 3600 · 100 = 2,5'
+  einheit: '%'
+  rechnung: '(3690 - 3600) : 3600 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `90`. Teile durch den **alten** Wert 3600.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 100/41
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '90'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-032
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 12500 auf 11750. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-6'
+  weg:
+  - '(11750 - 12500) : 12500 · 100 = -6'
+  einheit: '%'
+  rechnung: '(11750 - 12500) : 12500 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-750`. Teile durch den **alten** Wert 12500.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -300/47
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-750'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-033
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 3600 auf 3150. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: -12,5
+  weg:
+  - '(3150 - 3600) : 3600 · 100 = -12,5'
+  einheit: '%'
+  rechnung: '(3150 - 3600) : 3600 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-450`. Teile durch den **alten** Wert 3600.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -100/7
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-450'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-034
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 12500 auf 12812,5. Gib die relative Änderung als Dezimalzahl an.
+  loesung: 0,025
+  weg:
+  - '(12812,5 - 12500) : 12500 = 0,025'
+  rechnung: '(12812,5 - 12500) : 12500'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(12812,5 - 12500) : 12500`'
+  fehler:
+  - antwort: 5/2
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+- id: A5.3-035
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 2400 auf 2736. Gib die relative Änderung als Dezimalzahl an.
+  loesung: 0,14
+  weg:
+  - '(2736 - 2400) : 2400 = 0,14'
+  rechnung: '(2736 - 2400) : 2400'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(2736 - 2400) : 2400`'
+  fehler:
+  - antwort: '14'
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+  - antwort: 7/57
+    hinweis: Geteilt wird durch den **alten** Wert.
+- id: A5.3-036
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 2400 auf 2736. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '14'
+  weg:
+  - '(2736 - 2400) : 2400 · 100 = 14'
+  einheit: '%'
+  rechnung: '(2736 - 2400) : 2400 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `336`. Teile durch den **alten** Wert 2400.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 700/57
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '336'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-037
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 2400 auf 2100. Gib die relative Änderung als Dezimalzahl an.
+  loesung: -0,125
+  weg:
+  - '(2100 - 2400) : 2400 = -0,125'
+  rechnung: '(2100 - 2400) : 2400'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt – als Dezimalzahl, also ohne mal 100.'
+  - '`(2100 - 2400) : 2400`'
+  fehler:
+  - antwort: -25/2
+    hinweis: 'Das ist die Änderung in Prozent. Als Dezimalzahl: durch 100.'
+  - antwort: -1/7
+    hinweis: Geteilt wird durch den **alten** Wert.
+- id: A5.3-038
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 2400 auf 2256. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: '-6'
+  weg:
+  - '(2256 - 2400) : 2400 · 100 = -6'
+  einheit: '%'
+  rechnung: '(2256 - 2400) : 2400 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-144`. Teile durch den **alten** Wert 2400.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -300/47
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-144'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-039
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 48000 auf 42000. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: -12,5
+  weg:
+  - '(42000 - 48000) : 48000 · 100 = -12,5'
+  einheit: '%'
+  rechnung: '(42000 - 48000) : 48000 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `-6000`. Teile durch den **alten** Wert 48000.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: -100/7
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '-6000'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.
+- id: A5.3-040
+  typ: zahl
+  stufe: 4
+  frage: Die Einwohnerzahl einer Gemeinde ändert sich von 2400 auf 2460. Um wie viel Prozent hat sich der Wert geändert? (Abnahme mit Minus.)
+  loesung: 2,5
+  weg:
+  - '(2460 - 2400) : 2400 · 100 = 2,5'
+  einheit: '%'
+  rechnung: '(2460 - 2400) : 2400 · 100'
+  tipps:
+  - 'Relative Änderung = (neu − alt) : alt.'
+  - Die absolute Änderung ist `60`. Teile durch den **alten** Wert 2400.
+  - Mal 100 ergibt Prozent.
+  fehler:
+  - antwort: 100/41
+    hinweis: Geteilt wird durch den **alten** Wert, nicht durch den neuen.
+  - antwort: '60'
+    hinweis: Das ist die absolute Änderung. Gefragt sind Prozent.

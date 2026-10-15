@@ -1,0 +1,18 @@
+id: A5.3
+titel: Absolute und relative Änderung
+ziel: Du unterscheidest die absolute Änderung (wie viel) und die relative Änderung (wie viel Prozent).
+erklaerung: |
+  - **Absolute Änderung** = neu − alt. Sie hat eine Einheit, z. B. Euro.
+  - **Relative Änderung** = (neu − alt) : alt. Als Dezimalzahl oder mal 100 in Prozent.
+
+  Geteilt wird immer durch den **alten** Wert (den Ausgangswert)!
+
+  Bei einer Abnahme sind beide negativ: von 80 € auf 72 € ist absolut −8 €, relativ −10 %.
+
+  Relative Änderungen machen Vergleiche fair: +5 € sind bei einem Kaugummi viel, bei einem Auto fast nichts.
+beispiel:
+  wert: "25"
+  text: |
+    Von 40 € auf 50 €: absolut +10 €. Relativ: 10 durch den alten Wert 40.
+  weg:
+    - "(50 - 40) : 40 · 100 = 0,25 · 100 = 25 | also +25 %"

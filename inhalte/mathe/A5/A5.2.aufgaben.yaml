@@ -1,0 +1,658 @@
+# ERZEUGT von tools/generatoren/a5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A5.2-001
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Zunahme um 50 %?
+  loesung: 1,5
+  weg:
+  - 1 + 0,5 = 1,5
+  rechnung: 1 + 0,5
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 + 0,5
+  fehler:
+  - antwort: 1/2
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 + 0,5`.
+- id: A5.2-002
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Zunahme um 30 %?
+  loesung: 1,3
+  weg:
+  - 1 + 0,3 = 1,3
+  rechnung: 1 + 0,3
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 + 0,3
+  fehler:
+  - antwort: 3/10
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 + 0,3`.
+  - antwort: 7/10
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-003
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Abnahme um 20 %?
+  loesung: 0,8
+  weg:
+  - 1 - 0,2 = 0,8
+  rechnung: 1 - 0,2
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 - 0,2
+  fehler:
+  - antwort: 1/5
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 - 0,2`.
+  - antwort: 6/5
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-004
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Abnahme um 50 %?
+  loesung: 0,5
+  weg:
+  - 1 - 0,5 = 0,5
+  rechnung: 1 - 0,5
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 - 0,5
+  fehler:
+  - antwort: 3/2
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-005
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Zunahme um 5 %?
+  loesung: 1,05
+  weg:
+  - 1 + 0,05 = 1,05
+  rechnung: 1 + 0,05
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 + 0,05
+  fehler:
+  - antwort: 1/20
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 + 0,05`.
+  - antwort: 19/20
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-006
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Zunahme um 3 %?
+  loesung: 1,03
+  weg:
+  - 1 + 0,03 = 1,03
+  rechnung: 1 + 0,03
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 + 0,03
+  fehler:
+  - antwort: 3/100
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 + 0,03`.
+  - antwort: 97/100
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-007
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Zunahme um 10 %?
+  loesung: 1,1
+  weg:
+  - 1 + 0,1 = 1,1
+  rechnung: 1 + 0,1
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 + 0,1
+  fehler:
+  - antwort: 1/10
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 + 0,1`.
+  - antwort: 9/10
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-008
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Zunahme um 25 %?
+  loesung: 1,25
+  weg:
+  - 1 + 0,25 = 1,25
+  rechnung: 1 + 0,25
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 + 0,25
+  fehler:
+  - antwort: 1/4
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 + 0,25`.
+  - antwort: 3/4
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-009
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Abnahme um 15 %?
+  loesung: 0,85
+  weg:
+  - 1 - 0,15 = 0,85
+  rechnung: 1 - 0,15
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 - 0,15
+  fehler:
+  - antwort: 3/20
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 - 0,15`.
+  - antwort: 23/20
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-010
+  typ: zahl
+  stufe: 1
+  frage: Mit welcher Zahl multiplizierst du bei einer Abnahme um 3 %?
+  loesung: 0,97
+  weg:
+  - 1 - 0,03 = 0,97
+  rechnung: 1 - 0,03
+  tipps:
+  - Der alte Wert ist 100 % = 1. Bei einer Zunahme kommt etwas dazu, bei einer Abnahme fällt etwas weg.
+  - 1 - 0,03
+  fehler:
+  - antwort: 3/100
+    hinweis: Das ist nur die Änderung. Der Faktor ist `1 - 0,03`.
+  - antwort: 103/100
+    hinweis: Zunahme heißt plus, Abnahme heißt minus.
+- id: A5.2-011
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 80 € wird um 40 % erhöht. Wie hoch ist der neue Preis?
+  loesung: '112'
+  weg:
+  - 80 · 1,4 = 112
+  einheit: €
+  rechnung: 80 · 1,4
+  tipps:
+  - 'Änderungsfaktor: `1,4`.'
+  - Neuer Preis = alter Preis · Faktor = `80 · 1,4`.
+  fehler:
+  - antwort: '32'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '48'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-012
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 40 € wird um 25 % gesenkt. Wie hoch ist der neue Preis?
+  loesung: '30'
+  weg:
+  - 40 · 0,75 = 30
+  einheit: €
+  rechnung: 40 · 0,75
+  tipps:
+  - 'Änderungsfaktor: `0,75`.'
+  - Neuer Preis = alter Preis · Faktor = `40 · 0,75`.
+  fehler:
+  - antwort: '10'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '50'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-013
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 400 € wird um 40 % gesenkt. Wie hoch ist der neue Preis?
+  loesung: '240'
+  weg:
+  - 400 · 0,6 = 240
+  einheit: €
+  rechnung: 400 · 0,6
+  tipps:
+  - 'Änderungsfaktor: `0,6`.'
+  - Neuer Preis = alter Preis · Faktor = `400 · 0,6`.
+  fehler:
+  - antwort: '160'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '560'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-014
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 400 € wird um 20 % erhöht. Wie hoch ist der neue Preis?
+  loesung: '480'
+  weg:
+  - 400 · 1,2 = 480
+  einheit: €
+  rechnung: 400 · 1,2
+  tipps:
+  - 'Änderungsfaktor: `1,2`.'
+  - Neuer Preis = alter Preis · Faktor = `400 · 1,2`.
+  fehler:
+  - antwort: '80'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '320'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-015
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 250 € wird um 30 % gesenkt. Wie hoch ist der neue Preis?
+  loesung: '175'
+  weg:
+  - 250 · 0,7 = 175
+  einheit: €
+  rechnung: 250 · 0,7
+  tipps:
+  - 'Änderungsfaktor: `0,7`.'
+  - Neuer Preis = alter Preis · Faktor = `250 · 0,7`.
+  fehler:
+  - antwort: '75'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '325'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-016
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 400 € wird um 12 % erhöht. Wie hoch ist der neue Preis?
+  loesung: '448'
+  weg:
+  - 400 · 1,12 = 448
+  einheit: €
+  rechnung: 400 · 1,12
+  tipps:
+  - 'Änderungsfaktor: `1,12`.'
+  - Neuer Preis = alter Preis · Faktor = `400 · 1,12`.
+  fehler:
+  - antwort: '48'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '352'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-017
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 60 € wird um 8 % erhöht. Wie hoch ist der neue Preis?
+  loesung: 64,8
+  weg:
+  - 60 · 1,08 = 64,8
+  einheit: €
+  rechnung: 60 · 1,08
+  tipps:
+  - 'Änderungsfaktor: `1,08`.'
+  - Neuer Preis = alter Preis · Faktor = `60 · 1,08`.
+  fehler:
+  - antwort: 24/5
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: 276/5
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-018
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 80 € wird um 15 % gesenkt. Wie hoch ist der neue Preis?
+  loesung: '68'
+  weg:
+  - 80 · 0,85 = 68
+  einheit: €
+  rechnung: 80 · 0,85
+  tipps:
+  - 'Änderungsfaktor: `0,85`.'
+  - Neuer Preis = alter Preis · Faktor = `80 · 0,85`.
+  fehler:
+  - antwort: '12'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '92'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-019
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 60 € wird um 25 % gesenkt. Wie hoch ist der neue Preis?
+  loesung: '45'
+  weg:
+  - 60 · 0,75 = 45
+  einheit: €
+  rechnung: 60 · 0,75
+  tipps:
+  - 'Änderungsfaktor: `0,75`.'
+  - Neuer Preis = alter Preis · Faktor = `60 · 0,75`.
+  fehler:
+  - antwort: '15'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '75'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-020
+  typ: zahl
+  stufe: 2
+  frage: Ein Preis von 40 € wird um 20 % erhöht. Wie hoch ist der neue Preis?
+  loesung: '48'
+  weg:
+  - 40 · 1,2 = 48
+  einheit: €
+  rechnung: 40 · 1,2
+  tipps:
+  - 'Änderungsfaktor: `1,2`.'
+  - Neuer Preis = alter Preis · Faktor = `40 · 1,2`.
+  fehler:
+  - antwort: '8'
+    hinweis: Das ist nur die Änderung, nicht der neue Preis.
+  - antwort: '32'
+    hinweis: Erhöhen heißt mehr, senken heißt weniger.
+- id: A5.2-021
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Senkung um 10 % kostet ein Gerät 72 €. Wie viel hat es vorher gekostet?
+  loesung: '80'
+  weg:
+  - '72 : 0,9 = 80'
+  einheit: €
+  rechnung: '72 : 0,9'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `72 : 0,9`.'
+  fehler:
+  - antwort: 396/5
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 10 % dazurechnen – dividiere durch den Faktor.'
+- id: A5.2-022
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 12 % kostet ein Gerät 67,2 €. Wie viel hat es vorher gekostet?
+  loesung: '60'
+  weg:
+  - '67,2 : 1,12 = 60'
+  einheit: €
+  rechnung: '67,2 : 1,12'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `67,2 : 1,12`.'
+  fehler:
+  - antwort: 7392/125
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 12 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-023
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 30 % kostet ein Gerät 650 €. Wie viel hat es vorher gekostet?
+  loesung: '500'
+  weg:
+  - '650 : 1,3 = 500'
+  einheit: €
+  rechnung: '650 : 1,3'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `650 : 1,3`.'
+  fehler:
+  - antwort: '455'
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 30 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-024
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 30 % kostet ein Gerät 468 €. Wie viel hat es vorher gekostet?
+  loesung: '360'
+  weg:
+  - '468 : 1,3 = 360'
+  einheit: €
+  rechnung: '468 : 1,3'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `468 : 1,3`.'
+  fehler:
+  - antwort: 1638/5
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 30 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-025
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 30 % kostet ein Gerät 104 €. Wie viel hat es vorher gekostet?
+  loesung: '80'
+  weg:
+  - '104 : 1,3 = 80'
+  einheit: €
+  rechnung: '104 : 1,3'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `104 : 1,3`.'
+  fehler:
+  - antwort: 364/5
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 30 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-026
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Senkung um 25 % kostet ein Gerät 30 €. Wie viel hat es vorher gekostet?
+  loesung: '40'
+  weg:
+  - '30 : 0,75 = 40'
+  einheit: €
+  rechnung: '30 : 0,75'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `30 : 0,75`.'
+  fehler:
+  - antwort: 75/2
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 25 % dazurechnen – dividiere durch den Faktor.'
+- id: A5.2-027
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 12 % kostet ein Gerät 44,8 €. Wie viel hat es vorher gekostet?
+  loesung: '40'
+  weg:
+  - '44,8 : 1,12 = 40'
+  einheit: €
+  rechnung: '44,8 : 1,12'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `44,8 : 1,12`.'
+  fehler:
+  - antwort: 4928/125
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 12 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-028
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Senkung um 12 % kostet ein Gerät 440 €. Wie viel hat es vorher gekostet?
+  loesung: '500'
+  weg:
+  - '440 : 0,88 = 500'
+  einheit: €
+  rechnung: '440 : 0,88'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `440 : 0,88`.'
+  fehler:
+  - antwort: 2464/5
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 12 % dazurechnen – dividiere durch den Faktor.'
+- id: A5.2-029
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 10 % kostet ein Gerät 66 €. Wie viel hat es vorher gekostet?
+  loesung: '60'
+  weg:
+  - '66 : 1,1 = 60'
+  einheit: €
+  rechnung: '66 : 1,1'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `66 : 1,1`.'
+  fehler:
+  - antwort: 297/5
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 10 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-030
+  typ: zahl
+  stufe: 3
+  frage: Nach einer Erhöhung um 20 % kostet ein Gerät 48 €. Wie viel hat es vorher gekostet?
+  loesung: '40'
+  weg:
+  - '48 : 1,2 = 40'
+  einheit: €
+  rechnung: '48 : 1,2'
+  tipps:
+  - 'Der neue Preis ist der alte Preis mal dem Änderungsfaktor. Rückwärts heißt: **durch** den Faktor.'
+  - 'Alter Preis = `48 : 1,2`.'
+  fehler:
+  - antwort: 192/5
+    hinweis: 'Vorsicht: Die %-Angabe bezieht sich auf den **alten** Preis. Du darfst nicht einfach vom neuen Preis 20 % abziehen – dividiere durch den Faktor.'
+- id: A5.2-031
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 20 % erhöht und danach um 25 % gesenkt. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '-10'
+  weg:
+  - (1,2 · 0,75 - 1) · 100 = -10
+  einheit: '%'
+  rechnung: (1,2 · 0,75 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`1,2 · 0,75 = 0,9`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '-5'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '90'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-032
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 25 % gesenkt und danach um 25 % erhöht. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: -6,25
+  weg:
+  - (0,75 · 1,25 - 1) · 100 = -6,25
+  einheit: '%'
+  rechnung: (0,75 · 1,25 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`0,75 · 1,25 = 0,9375`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '0'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: 375/4
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-033
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 50 % erhöht und danach um 20 % gesenkt. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '20'
+  weg:
+  - (1,5 · 0,8 - 1) · 100 = 20
+  einheit: '%'
+  rechnung: (1,5 · 0,8 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`1,5 · 0,8 = 1,2`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '30'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '120'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-034
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 10 % gesenkt und danach um 25 % erhöht. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: 12,5
+  weg:
+  - (0,9 · 1,25 - 1) · 100 = 12,5
+  einheit: '%'
+  rechnung: (0,9 · 1,25 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`0,9 · 1,25 = 1,125`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '15'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: 225/2
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-035
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 20 % erhöht und danach um 10 % gesenkt. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '8'
+  weg:
+  - (1,2 · 0,9 - 1) · 100 = 8
+  einheit: '%'
+  rechnung: (1,2 · 0,9 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`1,2 · 0,9 = 1,08`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '10'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '108'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-036
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 25 % erhöht und danach um 25 % gesenkt. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: -6,25
+  weg:
+  - (1,25 · 0,75 - 1) · 100 = -6,25
+  einheit: '%'
+  rechnung: (1,25 · 0,75 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`1,25 · 0,75 = 0,9375`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '0'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: 375/4
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-037
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 50 % erhöht und danach um 10 % gesenkt. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '35'
+  weg:
+  - (1,5 · 0,9 - 1) · 100 = 35
+  einheit: '%'
+  rechnung: (1,5 · 0,9 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`1,5 · 0,9 = 1,35`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '40'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '135'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-038
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 50 % gesenkt und danach um 20 % erhöht. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '-40'
+  weg:
+  - (0,5 · 1,2 - 1) · 100 = -40
+  einheit: '%'
+  rechnung: (0,5 · 1,2 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`0,5 · 1,2 = 0,6`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '-30'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '60'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-039
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 25 % gesenkt und danach um 20 % erhöht. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '-10'
+  weg:
+  - (0,75 · 1,2 - 1) · 100 = -10
+  einheit: '%'
+  rechnung: (0,75 · 1,2 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`0,75 · 1,2 = 0,9`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '-5'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '90'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.
+- id: A5.2-040
+  typ: zahl
+  stufe: 4
+  frage: Ein Preis wird zuerst um 50 % gesenkt und danach um 50 % erhöht. Um wie viel Prozent hat er sich insgesamt geändert? (Abnahme mit Minus angeben.)
+  loesung: '-25'
+  weg:
+  - (0,5 · 1,5 - 1) · 100 = -25
+  einheit: '%'
+  rechnung: (0,5 · 1,5 - 1) · 100
+  tipps:
+  - Multipliziere die beiden Änderungsfaktoren.
+  - '`0,5 · 1,5 = 0,75`.'
+  - 'Vergleiche mit 1: Wie viel Prozent mehr oder weniger ist das?'
+  fehler:
+  - antwort: '0'
+    hinweis: Prozente darf man nicht einfach addieren oder abziehen – die zweite Änderung bezieht sich auf den schon geänderten Preis.
+  - antwort: '75'
+    hinweis: Das ist der neue Preis in Prozent des alten. Die **Änderung** ist das minus 100 %.

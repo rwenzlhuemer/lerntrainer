@@ -1,0 +1,669 @@
+# ERZEUGT von tools/generatoren/a5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A5.1-001
+  typ: zahl
+  stufe: 1
+  frage: Wie viel Prozent sind 150 € von 300 €?
+  loesung: '50'
+  weg:
+  - '150 : 300 · 100 = 50'
+  einheit: '%'
+  rechnung: '150 : 300 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`150 : 300` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 1/2
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: '200'
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-002
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 25 % von 60 €?
+  loesung: '15'
+  weg:
+  - 60 · 25/100 = 15
+  einheit: €
+  rechnung: 60 · 25/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`25 %` ist `25/100 = 0,25`. Rechne `60 · 0,25`.'
+  fehler:
+  - antwort: '1500'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '240'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-003
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 10 % von 300 €?
+  loesung: '30'
+  weg:
+  - 300 · 10/100 = 30
+  einheit: €
+  rechnung: 300 · 10/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`10 %` ist `10/100 = 0,1`. Rechne `300 · 0,1`.'
+  fehler:
+  - antwort: '3000'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+- id: A5.1-004
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 10 % von 60 €?
+  loesung: '6'
+  weg:
+  - 60 · 10/100 = 6
+  einheit: €
+  rechnung: 60 · 10/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`10 %` ist `10/100 = 0,1`. Rechne `60 · 0,1`.'
+  fehler:
+  - antwort: '600'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+- id: A5.1-005
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 25 % von 200 €?
+  loesung: '50'
+  weg:
+  - 200 · 25/100 = 50
+  einheit: €
+  rechnung: 200 · 25/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`25 %` ist `25/100 = 0,25`. Rechne `200 · 0,25`.'
+  fehler:
+  - antwort: '5000'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '800'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-006
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 10 % von 200 €?
+  loesung: '20'
+  weg:
+  - 200 · 10/100 = 20
+  einheit: €
+  rechnung: 200 · 10/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`10 %` ist `10/100 = 0,1`. Rechne `200 · 0,1`.'
+  fehler:
+  - antwort: '2000'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+- id: A5.1-007
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 5 % von 60 €?
+  loesung: '3'
+  weg:
+  - 60 · 5/100 = 3
+  einheit: €
+  rechnung: 60 · 5/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`5 %` ist `5/100 = 0,05`. Rechne `60 · 0,05`.'
+  fehler:
+  - antwort: '300'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '1200'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-008
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 10 % von 40 €?
+  loesung: '4'
+  weg:
+  - 40 · 10/100 = 4
+  einheit: €
+  rechnung: 40 · 10/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`10 %` ist `10/100 = 0,1`. Rechne `40 · 0,1`.'
+  fehler:
+  - antwort: '400'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+- id: A5.1-009
+  typ: zahl
+  stufe: 1
+  frage: Wie viel Prozent sind 30 € von 300 €?
+  loesung: '10'
+  weg:
+  - '30 : 300 · 100 = 10'
+  einheit: '%'
+  rechnung: '30 : 300 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`30 : 300` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 1/10
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: '1000'
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-010
+  typ: zahl
+  stufe: 1
+  frage: Wie viel sind 25 % von 120 €?
+  loesung: '30'
+  weg:
+  - 120 · 25/100 = 30
+  einheit: €
+  rechnung: 120 · 25/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`25 %` ist `25/100 = 0,25`. Rechne `120 · 0,25`.'
+  fehler:
+  - antwort: '3000'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '480'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-011
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind 60 € von 80 €?
+  loesung: '75'
+  weg:
+  - '60 : 80 · 100 = 75'
+  einheit: '%'
+  rechnung: '60 : 80 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`60 : 80` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 3/4
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 400/3
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-012
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind 28,8 € von 360 €?
+  loesung: '8'
+  weg:
+  - '28,8 : 360 · 100 = 8'
+  einheit: '%'
+  rechnung: '28,8 : 360 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`28,8 : 360` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 2/25
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: '1250'
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-013
+  typ: zahl
+  stufe: 2
+  frage: Wie viel sind 30 % von 120 €?
+  loesung: '36'
+  weg:
+  - 120 · 30/100 = 36
+  einheit: €
+  rechnung: 120 · 30/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`30 %` ist `30/100 = 0,3`. Rechne `120 · 0,3`.'
+  fehler:
+  - antwort: '3600'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '400'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-014
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind 108 € von 360 €?
+  loesung: '30'
+  weg:
+  - '108 : 360 · 100 = 30'
+  einheit: '%'
+  rechnung: '108 : 360 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`108 : 360` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 3/10
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 1000/3
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-015
+  typ: zahl
+  stufe: 2
+  frage: Wie viel sind 15 % von 240 €?
+  loesung: '36'
+  weg:
+  - 240 · 15/100 = 36
+  einheit: €
+  rechnung: 240 · 15/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`15 %` ist `15/100 = 0,15`. Rechne `240 · 0,15`.'
+  fehler:
+  - antwort: '3600'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '1600'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-016
+  typ: zahl
+  stufe: 2
+  frage: 6,4 € sind 8 % eines Betrags. Wie groß ist der ganze Betrag?
+  loesung: '80'
+  weg:
+  - '6,4 : 8 · 100 = 80'
+  einheit: €
+  rechnung: '6,4 : 8 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `6,4 : 8`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 64/125
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 864/125
+    hinweis: 'Gesucht ist das Ganze: Wenn 8 % = 6,4 sind, wie viel sind dann 100 %?'
+- id: A5.1-017
+  typ: zahl
+  stufe: 2
+  frage: 9,6 € sind 12 % eines Betrags. Wie groß ist der ganze Betrag?
+  loesung: '80'
+  weg:
+  - '9,6 : 12 · 100 = 80'
+  einheit: €
+  rechnung: '9,6 : 12 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `9,6 : 12`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 144/125
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 1344/125
+    hinweis: 'Gesucht ist das Ganze: Wenn 12 % = 9,6 sind, wie viel sind dann 100 %?'
+- id: A5.1-018
+  typ: zahl
+  stufe: 2
+  frage: Wie viel sind 35 % von 60 €?
+  loesung: '21'
+  weg:
+  - 60 · 35/100 = 21
+  einheit: €
+  rechnung: 60 · 35/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`35 %` ist `35/100 = 0,35`. Rechne `60 · 0,35`.'
+  fehler:
+  - antwort: '2100'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: 1200/7
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-019
+  typ: zahl
+  stufe: 2
+  frage: Wie viel sind 12 % von 60 €?
+  loesung: 7,2
+  weg:
+  - 60 · 12/100 = 7,2
+  einheit: €
+  rechnung: 60 · 12/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`12 %` ist `12/100 = 0,12`. Rechne `60 · 0,12`.'
+  fehler:
+  - antwort: '720'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '500'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-020
+  typ: zahl
+  stufe: 2
+  frage: Wie viel Prozent sind 42 € von 140 €?
+  loesung: '30'
+  weg:
+  - '42 : 140 · 100 = 30'
+  einheit: '%'
+  rechnung: '42 : 140 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`42 : 140` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 3/10
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 1000/3
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-021
+  typ: zahl
+  stufe: 3
+  frage: Wie viel sind 72 % von 160 €?
+  loesung: 115,2
+  weg:
+  - 160 · 72/100 = 115,2
+  einheit: €
+  rechnung: 160 · 72/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`72 %` ist `72/100 = 0,72`. Rechne `160 · 0,72`.'
+  fehler:
+  - antwort: '11520'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: 2000/9
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-022
+  typ: zahl
+  stufe: 3
+  frage: 544 € sind 85 % eines Betrags. Wie groß ist der ganze Betrag?
+  loesung: '640'
+  weg:
+  - '544 : 85 · 100 = 640'
+  einheit: €
+  rechnung: '544 : 85 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `544 : 85`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 2312/5
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 5032/5
+    hinweis: 'Gesucht ist das Ganze: Wenn 85 % = 544 sind, wie viel sind dann 100 %?'
+- id: A5.1-023
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent sind 544 € von 640 €?
+  loesung: '85'
+  weg:
+  - '544 : 640 · 100 = 85'
+  einheit: '%'
+  rechnung: '544 : 640 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`544 : 640` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 17/20
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 2000/17
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-024
+  typ: zahl
+  stufe: 3
+  frage: Wie viel sind 16 % von 480 €?
+  loesung: 76,8
+  weg:
+  - 480 · 16/100 = 76,8
+  einheit: €
+  rechnung: 480 · 16/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`16 %` ist `16/100 = 0,16`. Rechne `480 · 0,16`.'
+  fehler:
+  - antwort: '7680'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '3000'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-025
+  typ: zahl
+  stufe: 3
+  frage: 6,4 € sind 4 % eines Betrags. Wie groß ist der ganze Betrag?
+  loesung: '160'
+  weg:
+  - '6,4 : 4 · 100 = 160'
+  einheit: €
+  rechnung: '6,4 : 4 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `6,4 : 4`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 32/125
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 832/125
+    hinweis: 'Gesucht ist das Ganze: Wenn 4 % = 6,4 sind, wie viel sind dann 100 %?'
+- id: A5.1-026
+  typ: zahl
+  stufe: 3
+  frage: Wie viel Prozent sind 25,6 € von 160 €?
+  loesung: '16'
+  weg:
+  - '25,6 : 160 · 100 = 16'
+  einheit: '%'
+  rechnung: '25,6 : 160 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`25,6 : 160` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 4/25
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: '625'
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-027
+  typ: zahl
+  stufe: 3
+  frage: 230,4 € sind 72 % eines Betrags. Wie groß ist der ganze Betrag?
+  loesung: '320'
+  weg:
+  - '230,4 : 72 · 100 = 320'
+  einheit: €
+  rechnung: '230,4 : 72 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `230,4 : 72`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 20736/125
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 49536/125
+    hinweis: 'Gesucht ist das Ganze: Wenn 72 % = 230,4 sind, wie viel sind dann 100 %?'
+- id: A5.1-028
+  typ: zahl
+  stufe: 3
+  frage: 51,2 € sind 16 % eines Betrags. Wie groß ist der ganze Betrag?
+  loesung: '320'
+  weg:
+  - '51,2 : 16 · 100 = 320'
+  einheit: €
+  rechnung: '51,2 : 16 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `51,2 : 16`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 1024/125
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 7424/125
+    hinweis: 'Gesucht ist das Ganze: Wenn 16 % = 51,2 sind, wie viel sind dann 100 %?'
+- id: A5.1-029
+  typ: zahl
+  stufe: 3
+  frage: Wie viel sind 72 % von 320 €?
+  loesung: 230,4
+  weg:
+  - 320 · 72/100 = 230,4
+  einheit: €
+  rechnung: 320 · 72/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`72 %` ist `72/100 = 0,72`. Rechne `320 · 0,72`.'
+  fehler:
+  - antwort: '23040'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: 4000/9
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-030
+  typ: zahl
+  stufe: 3
+  frage: Wie viel sind 2,5 % von 80 €?
+  loesung: '2'
+  weg:
+  - 80 · 2,5/100 = 2
+  einheit: €
+  rechnung: 80 · 2,5/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`2,5 %` ist `2,5/100 = 0,025`. Rechne `80 · 0,025`.'
+  fehler:
+  - antwort: '200'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '3200'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-031
+  typ: zahl
+  stufe: 4
+  frage: Bei einer Wahl bekommt eine Liste 567 von 1260 Stimmen. Wie viel Prozent sind das?
+  loesung: '45'
+  weg:
+  - '567 : 1260 · 100 = 45'
+  einheit: '%'
+  rechnung: '567 : 1260 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`567 : 1260` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 9/20
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 2000/9
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-032
+  typ: zahl
+  stufe: 4
+  frage: Von 720 Jugendlichen einer Schule fahren 64 % mit dem Rad. Wie viele sind das?
+  loesung: 460,8
+  weg:
+  - 720 · 64/100 = 460,8
+  rechnung: 720 · 64/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`64 %` ist `64/100 = 0,64`. Rechne `720 · 0,64`.'
+  fehler:
+  - antwort: '46080'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '1125'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-033
+  typ: zahl
+  stufe: 4
+  frage: Von 2400 Jugendlichen einer Schule fahren 64 % mit dem Rad. Wie viele sind das?
+  loesung: '1536'
+  weg:
+  - 2400 · 64/100 = 1536
+  rechnung: 2400 · 64/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`64 %` ist `64/100 = 0,64`. Rechne `2400 · 0,64`.'
+  fehler:
+  - antwort: '153600'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '3750'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-034
+  typ: zahl
+  stufe: 4
+  frage: Bei einer Wahl bekommt eine Liste 220,5 von 1260 Stimmen. Wie viel Prozent sind das?
+  loesung: 17,5
+  weg:
+  - '220,5 : 1260 · 100 = 17,5'
+  einheit: '%'
+  rechnung: '220,5 : 1260 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`220,5 : 1260` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 7/40
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 4000/7
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-035
+  typ: zahl
+  stufe: 4
+  frage: Von 360 Jugendlichen einer Schule fahren 64 % mit dem Rad. Wie viele sind das?
+  loesung: 230,4
+  weg:
+  - 360 · 64/100 = 230,4
+  rechnung: 360 · 64/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`64 %` ist `64/100 = 0,64`. Rechne `360 · 0,64`.'
+  fehler:
+  - antwort: '23040'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: 1125/2
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'
+- id: A5.1-036
+  typ: zahl
+  stufe: 4
+  frage: Bei einer Wahl bekommt eine Liste 201,6 von 840 Stimmen. Wie viel Prozent sind das?
+  loesung: '24'
+  weg:
+  - '201,6 : 840 · 100 = 24'
+  einheit: '%'
+  rechnung: '201,6 : 840 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`201,6 : 840` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 6/25
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 1250/3
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-037
+  typ: zahl
+  stufe: 4
+  frage: Bei einer Wahl bekommt eine Liste 576 von 2400 Stimmen. Wie viel Prozent sind das?
+  loesung: '24'
+  weg:
+  - '576 : 2400 · 100 = 24'
+  einheit: '%'
+  rechnung: '576 : 2400 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`576 : 2400` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 6/25
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 1250/3
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-038
+  typ: zahl
+  stufe: 4
+  frage: Bei einer Wahl bekommt eine Liste 129,6 von 360 Stimmen. Wie viel Prozent sind das?
+  loesung: '36'
+  weg:
+  - '129,6 : 360 · 100 = 36'
+  einheit: '%'
+  rechnung: '129,6 : 360 · 100'
+  tipps:
+  - 'Prozentsatz = Prozentwert : Grundwert · 100.'
+  - '`129,6 : 360` ergibt den Anteil, mal 100 sind das Prozent.'
+  fehler:
+  - antwort: 9/25
+    hinweis: Das ist der Anteil als Dezimalzahl – noch mal 100 für Prozent.
+  - antwort: 2500/9
+    hinweis: 'Umgekehrt: Der Teil kommt in den Zähler, das Ganze in den Nenner.'
+- id: A5.1-039
+  typ: zahl
+  stufe: 4
+  frage: 10,8 Jugendliche einer Schule fahren mit dem Rad, das sind 3 % aller. Wie viele Jugendliche hat die Schule?
+  loesung: '360'
+  weg:
+  - '10,8 : 3 · 100 = 360'
+  rechnung: '10,8 : 3 · 100'
+  tipps:
+  - Gesucht ist das Ganze (100 %). Rechne zuerst aus, wie viel 1 % ist.
+  - '1 % sind `10,8 : 3`. Das Ganze ist 100-mal so viel.'
+  fehler:
+  - antwort: 81/250
+    hinweis: 'Gesucht ist nicht der Anteil, sondern das Ganze: `Prozentwert : Prozentsatz · 100`.'
+  - antwort: 2781/250
+    hinweis: 'Gesucht ist das Ganze: Wenn 3 % = 10,8 sind, wie viel sind dann 100 %?'
+- id: A5.1-040
+  typ: zahl
+  stufe: 4
+  frage: Von 360 Jugendlichen einer Schule fahren 3 % mit dem Rad. Wie viele sind das?
+  loesung: 10,8
+  weg:
+  - 360 · 3/100 = 10,8
+  rechnung: 360 · 3/100
+  tipps:
+  - Prozentwert = Grundwert · Prozentsatz. „Prozent“ heißt „Hundertstel“.
+  - '`3 %` ist `3/100 = 0,03`. Rechne `360 · 0,03`.'
+  fehler:
+  - antwort: '1080'
+    hinweis: 'Vergiss nicht: Prozent heißt Hundertstel – noch durch 100 dividieren.'
+  - antwort: '12000'
+    hinweis: 'Hier ist der Grundwert gegeben, gesucht ist der Anteil: Grundwert mal Prozentsatz.'

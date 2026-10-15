@@ -1,0 +1,491 @@
+# ERZEUGT von tools/generatoren/a5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A5.4-001
+  typ: zahl
+  stufe: 1
+  frage: 3 m Stoff kosten 6 €. Wie viel kosten 4 m Stoff?
+  loesung: '8'
+  weg:
+  - '6 : 3 · 4 = 8'
+  einheit: €
+  rechnung: '6 : 3 · 4'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `6 : 3`. Dann mal 4.'
+  fehler:
+  - antwort: 9/2
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-002
+  typ: zahl
+  stufe: 1
+  frage: 3 m Stoff kosten 9 €. Wie viel kosten 7 m Stoff?
+  loesung: '21'
+  weg:
+  - '9 : 3 · 7 = 21'
+  einheit: €
+  rechnung: '9 : 3 · 7'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `9 : 3`. Dann mal 7.'
+  fehler:
+  - antwort: 27/7
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-003
+  typ: zahl
+  stufe: 1
+  frage: 3 Pumpen leeren ein Becken in 8 Stunden. Wie lange brauchen 12 Pumpen (gleich schnell)?
+  loesung: '2'
+  weg:
+  - '8 · 3 : 12 = 2'
+  einheit: h
+  rechnung: '8 · 3 : 12'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `8 · 3`. Dann durch 12.
+  fehler:
+  - antwort: '32'
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-004
+  typ: zahl
+  stufe: 1
+  frage: 5 Pumpen leeren ein Becken in 12 Stunden. Wie lange brauchen 2 Pumpen (gleich schnell)?
+  loesung: '30'
+  weg:
+  - '12 · 5 : 2 = 30'
+  einheit: h
+  rechnung: '12 · 5 : 2'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `12 · 5`. Dann durch 2.
+  fehler:
+  - antwort: 24/5
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-005
+  typ: zahl
+  stufe: 1
+  frage: 3 Malerinnen streichen ein Haus in 8 Tagen. Wie lange brauchen 6 Malerinnen (gleich schnell)?
+  loesung: '4'
+  weg:
+  - '8 · 3 : 6 = 4'
+  einheit: Tage
+  rechnung: '8 · 3 : 6'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `8 · 3`. Dann durch 6.
+  fehler:
+  - antwort: '16'
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-006
+  typ: zahl
+  stufe: 1
+  frage: 6 Malerinnen streichen ein Haus in 4 Tagen. Wie lange brauchen 2 Malerinnen (gleich schnell)?
+  loesung: '12'
+  weg:
+  - '4 · 6 : 2 = 12'
+  einheit: Tage
+  rechnung: '4 · 6 : 2'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `4 · 6`. Dann durch 2.
+  fehler:
+  - antwort: 4/3
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-007
+  typ: zahl
+  stufe: 1
+  frage: 2 Malerinnen streichen ein Haus in 9 Tagen. Wie lange brauchen 6 Malerinnen (gleich schnell)?
+  loesung: '3'
+  weg:
+  - '9 · 2 : 6 = 3'
+  einheit: Tage
+  rechnung: '9 · 2 : 6'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `9 · 2`. Dann durch 6.
+  fehler:
+  - antwort: '27'
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-008
+  typ: zahl
+  stufe: 1
+  frage: 6 Hefte kosten 30 €. Wie viel kosten 10 Hefte?
+  loesung: '50'
+  weg:
+  - '30 : 6 · 10 = 50'
+  einheit: €
+  rechnung: '30 : 6 · 10'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `30 : 6`. Dann mal 10.'
+  fehler:
+  - antwort: '18'
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-009
+  typ: zahl
+  stufe: 2
+  frage: 4 Malerinnen streichen ein Haus in 6 Tagen. Wie lange brauchen 12 Malerinnen (gleich schnell)?
+  loesung: '2'
+  weg:
+  - '6 · 4 : 12 = 2'
+  einheit: Tage
+  rechnung: '6 · 4 : 12'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `6 · 4`. Dann durch 12.
+  fehler:
+  - antwort: '18'
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-010
+  typ: zahl
+  stufe: 2
+  frage: 2 m Stoff kosten 6 €. Wie viel kosten 5 m Stoff?
+  loesung: '15'
+  weg:
+  - '6 : 2 · 5 = 15'
+  einheit: €
+  rechnung: '6 : 2 · 5'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `6 : 2`. Dann mal 5.'
+  fehler:
+  - antwort: 12/5
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-011
+  typ: zahl
+  stufe: 2
+  frage: 8 Pumpen leeren ein Becken in 3 Stunden. Wie lange brauchen 3 Pumpen (gleich schnell)?
+  loesung: '8'
+  weg:
+  - '3 · 8 : 3 = 8'
+  einheit: h
+  rechnung: '3 · 8 : 3'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `3 · 8`. Dann durch 3.
+  fehler:
+  - antwort: 9/8
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-012
+  typ: zahl
+  stufe: 2
+  frage: 4 Hefte kosten 6 €. Wie viel kosten 6 Hefte?
+  loesung: '9'
+  weg:
+  - '6 : 4 · 6 = 9'
+  einheit: €
+  rechnung: '6 : 4 · 6'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `6 : 4`. Dann mal 6.'
+  fehler:
+  - antwort: '4'
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-013
+  typ: zahl
+  stufe: 2
+  frage: 6 Hefte kosten 9 €. Wie viel kosten 10 Hefte?
+  loesung: '15'
+  weg:
+  - '9 : 6 · 10 = 15'
+  einheit: €
+  rechnung: '9 : 6 · 10'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `9 : 6`. Dann mal 10.'
+  fehler:
+  - antwort: 27/5
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-014
+  typ: zahl
+  stufe: 2
+  frage: 3 Malerinnen streichen ein Haus in 10 Tagen. Wie lange brauchen 10 Malerinnen (gleich schnell)?
+  loesung: '3'
+  weg:
+  - '10 · 3 : 10 = 3'
+  einheit: Tage
+  rechnung: '10 · 3 : 10'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `10 · 3`. Dann durch 10.
+  fehler:
+  - antwort: 100/3
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-015
+  typ: zahl
+  stufe: 2
+  frage: 2 kg Äpfel kosten 15 €. Wie viel kosten 5 kg Äpfel?
+  loesung: 37,5
+  weg:
+  - '15 : 2 · 5 = 37,5'
+  einheit: €
+  rechnung: '15 : 2 · 5'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `15 : 2`. Dann mal 5.'
+  fehler:
+  - antwort: '6'
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-016
+  typ: zahl
+  stufe: 2
+  frage: 2 Malerinnen streichen ein Haus in 9 Tagen. Wie lange brauchen 3 Malerinnen (gleich schnell)?
+  loesung: '6'
+  weg:
+  - '9 · 2 : 3 = 6'
+  einheit: Tage
+  rechnung: '9 · 2 : 3'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `9 · 2`. Dann durch 3.
+  fehler:
+  - antwort: 27/2
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-017
+  typ: zahl
+  stufe: 3
+  frage: 3 Pumpen leeren ein Becken in 8 Stunden. Wie lange brauchen 6 Pumpen (gleich schnell)?
+  loesung: '4'
+  weg:
+  - '8 · 3 : 6 = 4'
+  einheit: h
+  rechnung: '8 · 3 : 6'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `8 · 3`. Dann durch 6.
+  fehler:
+  - antwort: '16'
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-018
+  typ: zahl
+  stufe: 3
+  frage: 5 Malerinnen streichen ein Haus in 12 Tagen. Wie lange brauchen 4 Malerinnen (gleich schnell)?
+  loesung: '15'
+  weg:
+  - '12 · 5 : 4 = 15'
+  einheit: Tage
+  rechnung: '12 · 5 : 4'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `12 · 5`. Dann durch 4.
+  fehler:
+  - antwort: 48/5
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-019
+  typ: zahl
+  stufe: 3
+  frage: 4 m Stoff kosten 30 €. Wie viel kosten 6 m Stoff?
+  loesung: '45'
+  weg:
+  - '30 : 4 · 6 = 45'
+  einheit: €
+  rechnung: '30 : 4 · 6'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `30 : 4`. Dann mal 6.'
+  fehler:
+  - antwort: '20'
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-020
+  typ: zahl
+  stufe: 3
+  frage: 3 Pumpen leeren ein Becken in 8 Stunden. Wie lange brauchen 2 Pumpen (gleich schnell)?
+  loesung: '12'
+  weg:
+  - '8 · 3 : 2 = 12'
+  einheit: h
+  rechnung: '8 · 3 : 2'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `8 · 3`. Dann durch 2.
+  fehler:
+  - antwort: 16/3
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-021
+  typ: zahl
+  stufe: 3
+  frage: 3 Pumpen leeren ein Becken in 10 Stunden. Wie lange brauchen 10 Pumpen (gleich schnell)?
+  loesung: '3'
+  weg:
+  - '10 · 3 : 10 = 3'
+  einheit: h
+  rechnung: '10 · 3 : 10'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `10 · 3`. Dann durch 10.
+  fehler:
+  - antwort: 100/3
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-022
+  typ: zahl
+  stufe: 3
+  frage: 3 Pumpen leeren ein Becken in 8 Stunden. Wie lange brauchen 8 Pumpen (gleich schnell)?
+  loesung: '3'
+  weg:
+  - '8 · 3 : 8 = 3'
+  einheit: h
+  rechnung: '8 · 3 : 8'
+  tipps:
+  - 'Mehr Helfer – weniger Zeit: indirekte Proportionalität.'
+  - Wie lange bräuchte **eine** allein? `8 · 3`. Dann durch 8.
+  fehler:
+  - antwort: 64/3
+    hinweis: Mehr Helfer brauchen **weniger** Zeit – hier ist es indirekt proportional.
+- id: A5.4-023
+  typ: zahl
+  stufe: 3
+  frage: 3 Hefte kosten 22,5 €. Wie viel kosten 4 Hefte?
+  loesung: '30'
+  weg:
+  - '22,5 : 3 · 4 = 30'
+  einheit: €
+  rechnung: '22,5 : 3 · 4'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `22,5 : 3`. Dann mal 4.'
+  fehler:
+  - antwort: 135/8
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-024
+  typ: zahl
+  stufe: 3
+  frage: 5 kg Äpfel kosten 30 €. Wie viel kosten 8 kg Äpfel?
+  loesung: '48'
+  weg:
+  - '30 : 5 · 8 = 48'
+  einheit: €
+  rechnung: '30 : 5 · 8'
+  tipps:
+  - 'Doppelt so viel kostet doppelt so viel: direkte Proportionalität.'
+  - 'Rechne zuerst den Preis für 1: `30 : 5`. Dann mal 8.'
+  fehler:
+  - antwort: 75/4
+    hinweis: Mehr Ware kostet mehr – hier ist es direkt proportional, nicht indirekt.
+- id: A5.4-025
+  typ: zahl
+  stufe: 4
+  frage: Mit 60 km/h braucht man für eine Strecke 4 Stunden. Wie lange braucht man mit 80 km/h?
+  loesung: '3'
+  weg:
+  - '4 · 60 : 80 = 3'
+  einheit: h
+  rechnung: '4 · 60 : 80'
+  tipps:
+  - 'Schneller fahren – kürzere Zeit: indirekt proportional.'
+  - Die Strecke ist `60 · 4` km. Durch die neue Geschwindigkeit.
+  fehler:
+  - antwort: 16/3
+    hinweis: Schneller heißt weniger Zeit – indirekt proportional.
+- id: A5.4-026
+  typ: zahl
+  stufe: 4
+  frage: Mit 120 km/h braucht man für eine Strecke 2 Stunden. Wie lange braucht man mit 80 km/h?
+  loesung: '3'
+  weg:
+  - '2 · 120 : 80 = 3'
+  einheit: h
+  rechnung: '2 · 120 : 80'
+  tipps:
+  - 'Schneller fahren – kürzere Zeit: indirekt proportional.'
+  - Die Strecke ist `120 · 2` km. Durch die neue Geschwindigkeit.
+  fehler:
+  - antwort: 4/3
+    hinweis: Schneller heißt weniger Zeit – indirekt proportional.
+- id: A5.4-027
+  typ: zahl
+  stufe: 4
+  frage: Mit 100 km/h braucht man für eine Strecke 3 Stunden. Wie lange braucht man mit 40 km/h?
+  loesung: 7,5
+  weg:
+  - '3 · 100 : 40 = 7,5'
+  einheit: h
+  rechnung: '3 · 100 : 40'
+  tipps:
+  - 'Schneller fahren – kürzere Zeit: indirekt proportional.'
+  - Die Strecke ist `100 · 3` km. Durch die neue Geschwindigkeit.
+  fehler:
+  - antwort: 6/5
+    hinweis: Schneller heißt weniger Zeit – indirekt proportional.
+- id: A5.4-028
+  typ: zahl
+  stufe: 4
+  frage: Mit 80 km/h braucht man für eine Strecke 3 Stunden. Wie lange braucht man mit 120 km/h?
+  loesung: '2'
+  weg:
+  - '3 · 80 : 120 = 2'
+  einheit: h
+  rechnung: '3 · 80 : 120'
+  tipps:
+  - 'Schneller fahren – kürzere Zeit: indirekt proportional.'
+  - Die Strecke ist `80 · 3` km. Durch die neue Geschwindigkeit.
+  fehler:
+  - antwort: 9/2
+    hinweis: Schneller heißt weniger Zeit – indirekt proportional.
+- id: A5.4-029
+  typ: zahl
+  stufe: 4
+  frage: Ein Futtervorrat reicht für 6 Tiere 40 Tage. Nach 10 Tagen kommen 4 Tiere dazu. Wie viele Tage reicht der Rest des Vorrats noch?
+  loesung: '18'
+  weg:
+  - '(40 - 10) · 6 : 10 = 18'
+  einheit: Tage
+  rechnung: '(40 - 10) · 6 : 10'
+  tipps:
+  - Nach 10 Tagen reicht der Rest für 6 Tiere noch 30 Tage.
+  - 'Jetzt sind es 10 Tiere – mehr Tiere, weniger Tage: indirekt proportional.'
+  - '`30 · 6 : 10`'
+  fehler:
+  - antwort: '24'
+    hinweis: Die ersten 10 Tage sind schon vorbei – rechne nur mit dem Rest.
+  - antwort: '14'
+    hinweis: Rechne zuerst, wie lange der Rest für 6 Tiere reicht.
+- id: A5.4-030
+  typ: zahl
+  stufe: 4
+  frage: Mit 80 km/h braucht man für eine Strecke 3 Stunden. Wie lange braucht man mit 60 km/h?
+  loesung: '4'
+  weg:
+  - '3 · 80 : 60 = 4'
+  einheit: h
+  rechnung: '3 · 80 : 60'
+  tipps:
+  - 'Schneller fahren – kürzere Zeit: indirekt proportional.'
+  - Die Strecke ist `80 · 3` km. Durch die neue Geschwindigkeit.
+  fehler:
+  - antwort: 9/4
+    hinweis: Schneller heißt weniger Zeit – indirekt proportional.
+- id: A5.4-031
+  typ: zahl
+  stufe: 4
+  frage: Ein Futtervorrat reicht für 8 Tiere 21 Tage. Nach 6 Tagen kommen 4 Tiere dazu. Wie viele Tage reicht der Rest des Vorrats noch?
+  loesung: '10'
+  weg:
+  - '(21 - 6) · 8 : 12 = 10'
+  einheit: Tage
+  rechnung: '(21 - 6) · 8 : 12'
+  tipps:
+  - Nach 6 Tagen reicht der Rest für 8 Tiere noch 15 Tage.
+  - 'Jetzt sind es 12 Tiere – mehr Tiere, weniger Tage: indirekt proportional.'
+  - '`15 · 8 : 12`'
+  fehler:
+  - antwort: '14'
+    hinweis: Die ersten 6 Tage sind schon vorbei – rechne nur mit dem Rest.
+  - antwort: '8'
+    hinweis: Rechne zuerst, wie lange der Rest für 8 Tiere reicht.
+- id: A5.4-032
+  typ: zahl
+  stufe: 4
+  frage: Ein Futtervorrat reicht für 12 Tiere 30 Tage. Nach 10 Tagen kommen 3 Tiere dazu. Wie viele Tage reicht der Rest des Vorrats noch?
+  loesung: '16'
+  weg:
+  - '(30 - 10) · 12 : 15 = 16'
+  einheit: Tage
+  rechnung: '(30 - 10) · 12 : 15'
+  tipps:
+  - Nach 10 Tagen reicht der Rest für 12 Tiere noch 20 Tage.
+  - 'Jetzt sind es 15 Tiere – mehr Tiere, weniger Tage: indirekt proportional.'
+  - '`20 · 12 : 15`'
+  fehler:
+  - antwort: '24'
+    hinweis: Die ersten 10 Tage sind schon vorbei – rechne nur mit dem Rest.
+  - antwort: '14'
+    hinweis: Rechne zuerst, wie lange der Rest für 12 Tiere reicht.

@@ -1,0 +1,18 @@
+id: A5.4
+titel: Direkte und indirekte Proportionalität
+ziel: Du erkennst, ob zwei Größen direkt oder indirekt proportional sind, und rechnest mit der Schlussrechnung.
+erklaerung: |
+  **Direkt proportional:** doppelt so viel → doppelt so viel. Beispiel: Menge und Preis.
+  Rechnung: auf 1 zurückrechnen (dividieren), dann mal die neue Menge.
+
+  **Indirekt proportional:** doppelt so viel → halb so viel. Beispiel: Anzahl der Helfer und benötigte Zeit,
+  Geschwindigkeit und Fahrzeit.
+  Rechnung: auf 1 zurückrechnen (multiplizieren!), dann durch die neue Anzahl.
+
+  Frag dich immer zuerst: Wird das Ergebnis **größer** oder **kleiner**? Das schützt vor dem häufigsten Fehler.
+beispiel:
+  wert: "8"
+  text: |
+    4 Pumpen brauchen 6 Stunden. Mit **einer** Pumpe dauert es 4-mal so lang: 24 Stunden. Mit 3 Pumpen ein Drittel davon.
+  weg:
+    - "6 · 4 : 3 = 24 : 3 = 8 | also 8 Stunden"

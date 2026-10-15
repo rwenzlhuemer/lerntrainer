@@ -269,6 +269,17 @@ async function main() {
   await warte(200);
   pruefe((await rm()).startsWith("rueckmeldung gut"), `A1.5: ${zm.frage.slice(0, 50)} richtig`);
 
+  // A5.5 Zinseszins: auf Cent gerundete Antwort wird angenommen
+  await js(`(() => { const z = JSON.parse(localStorage.getItem('lerntrainer.v1'));
+    z.faecher.mathe.ls['A5.5'] = { stufe: 2, status: 'angefangen', verlauf: [] };
+    localStorage.setItem('lerntrainer.v1', JSON.stringify(z)); })()`);
+  await cdp("Page.reload");
+  await warte(1200);
+  const zi = await naechsteBis("A5.5", (x) => x.gerundet !== undefined);
+  await tippe(`${zi.loesung} €`);
+  pruefe((await rm()).includes("gerundet"), `A5.5: ${zi.loesung} € als sinnvoll gerundet erkannt`);
+  await bild("09f-zinseszins");
+
   // Lösung zeigen
   await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");

@@ -103,7 +103,10 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
             fehler.melde(wo, f"Einsetzen nicht prüfbar ({e})")
     if "rechnung" in a:
         try:
-            if sympy.simplify(notation.zahl(a["rechnung"]) - soll) != 0:
+            diff = abs(notation.zahl(a["rechnung"]) - soll)
+            # gerundet: n → die Lösung ist die auf n Nachkommastellen gerundete Rechnung
+            erlaubt = sympy.Rational(1, 2 * 10 ** a["gerundet"]) if "gerundet" in a else 0
+            if diff > erlaubt or (not erlaubt and sympy.simplify(diff) != 0):
                 fehler.melde(wo, f"Rechnung {a['rechnung']!r} ergibt nicht {a['loesung']!r}")
         except Exception as e:  # noqa: BLE001
             fehler.melde(wo, f"Rechnung nicht lesbar ({e})")
@@ -119,11 +122,12 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
         except Exception as e:  # noqa: BLE001
             fehler.melde(wo, f"Gleichung nicht lesbar ({e})")
     if "gleichung" not in a:
+        exakt = notation.zahl(a["rechnung"]) if "gerundet" in a else soll
         # Rechenweg als Kette: „1/2 + 1/3 = 3/6 + 2/6 = 5/6“ – jedes Glied muss den Wert der Lösung haben
         for zeile in a.get("weg", []):
             for teil in zeile.split("|")[0].split("="):
                 try:
-                    if teil.strip() and sympy.simplify(notation.zahl(teil) - soll) != 0:
+                    if teil.strip() and sympy.simplify(notation.zahl(teil) - exakt) != 0:
                         fehler.melde(wo, f"Rechenweg {zeile!r}: {teil.strip()!r} hat einen anderen Wert")
                 except Exception as e:  # noqa: BLE001
                     fehler.melde(wo, f"Rechenweg {zeile!r} nicht lesbar ({e})")

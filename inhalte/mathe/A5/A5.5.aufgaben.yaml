@@ -1,0 +1,578 @@
+# ERZEUGT von tools/generatoren/a5.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A5.5-001
+  typ: zahl
+  stufe: 1
+  frage: 500 € liegen ein Jahr lang auf einem Sparbuch mit 2 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '510'
+  weg:
+  - 500 · 1,02 = 510
+  einheit: €
+  rechnung: 500 · 1,02
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,02 = 1,02`.'
+  - '`500 · 1,02`'
+  fehler:
+  - antwort: '10'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '1000'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-002
+  typ: zahl
+  stufe: 1
+  frage: 1000 € liegen ein Jahr lang auf einem Sparbuch mit 4 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '1040'
+  weg:
+  - 1000 · 1,04 = 1040
+  einheit: €
+  rechnung: 1000 · 1,04
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,04 = 1,04`.'
+  - '`1000 · 1,04`'
+  fehler:
+  - antwort: '40'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '4000'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-003
+  typ: zahl
+  stufe: 1
+  frage: 500 € liegen ein Jahr lang auf einem Sparbuch mit 3 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '515'
+  weg:
+  - 500 · 1,03 = 515
+  einheit: €
+  rechnung: 500 · 1,03
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,03 = 1,03`.'
+  - '`500 · 1,03`'
+  fehler:
+  - antwort: '15'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '1500'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-004
+  typ: zahl
+  stufe: 1
+  frage: 2000 € liegen ein Jahr lang auf einem Sparbuch mit 5 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '2100'
+  weg:
+  - 2000 · 1,05 = 2100
+  einheit: €
+  rechnung: 2000 · 1,05
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,05 = 1,05`.'
+  - '`2000 · 1,05`'
+  fehler:
+  - antwort: '100'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '10000'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-005
+  typ: zahl
+  stufe: 1
+  frage: 800 € liegen ein Jahr lang auf einem Sparbuch mit 2 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '816'
+  weg:
+  - 800 · 1,02 = 816
+  einheit: €
+  rechnung: 800 · 1,02
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,02 = 1,02`.'
+  - '`800 · 1,02`'
+  fehler:
+  - antwort: '16'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '1600'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-006
+  typ: zahl
+  stufe: 1
+  frage: 5000 € liegen ein Jahr lang auf einem Sparbuch mit 2 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '5100'
+  weg:
+  - 5000 · 1,02 = 5100
+  einheit: €
+  rechnung: 5000 · 1,02
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,02 = 1,02`.'
+  - '`5000 · 1,02`'
+  fehler:
+  - antwort: '100'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '10000'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-007
+  typ: zahl
+  stufe: 1
+  frage: 1200 € liegen ein Jahr lang auf einem Sparbuch mit 4 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '1248'
+  weg:
+  - 1200 · 1,04 = 1248
+  einheit: €
+  rechnung: 1200 · 1,04
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,04 = 1,04`.'
+  - '`1200 · 1,04`'
+  fehler:
+  - antwort: '48'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '4800'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-008
+  typ: zahl
+  stufe: 1
+  frage: 2000 € liegen ein Jahr lang auf einem Sparbuch mit 2 % Zinsen pro Jahr. Wie viel ist es nach einem Jahr?
+  loesung: '2040'
+  weg:
+  - 2000 · 1,02 = 2040
+  einheit: €
+  rechnung: 2000 · 1,02
+  tipps:
+  - 'Nach einem Jahr: Kapital mal Zinsfaktor `1 + 0,02 = 1,02`.'
+  - '`2000 · 1,02`'
+  fehler:
+  - antwort: '40'
+    hinweis: Das sind nur die Zinsen. Gefragt ist das ganze Guthaben.
+  - antwort: '4000'
+    hinweis: Prozent heißt Hundertstel.
+- id: A5.5-009
+  typ: zahl
+  stufe: 2
+  frage: 500 € werden 3 Jahre lang mit 3 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 546,36
+  gerundet: 2
+  weg:
+  - 500 · 1,03^3 | ergibt gerundet 546,36
+  einheit: €
+  rechnung: 500 · 1,03^3
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 500 · 1,03^3`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '545'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '1545'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-010
+  typ: zahl
+  stufe: 2
+  frage: 800 € werden 2 Jahre lang mit 1,5 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 824,18
+  weg:
+  - 800 · 1,015^2 = 824,18
+  einheit: €
+  rechnung: 800 · 1,015^2
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 800 · 1,015^2`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '824'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '1624'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-011
+  typ: zahl
+  stufe: 2
+  frage: 500 € werden 3 Jahre lang mit 1,5 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 522,84
+  gerundet: 2
+  weg:
+  - 500 · 1,015^3 | ergibt gerundet 522,84
+  einheit: €
+  rechnung: 500 · 1,015^3
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 500 · 1,015^3`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: 1045/2
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: 3045/2
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-012
+  typ: zahl
+  stufe: 2
+  frage: Welches Anfangskapital braucht man, damit bei 2 % Zinsen pro Jahr nach 3 Jahren 5000 € am Konto sind? Runde auf Cent.
+  loesung: 4711,61
+  gerundet: 2
+  weg:
+  - '5000 : 1,02^3 | ergibt gerundet 4711,61'
+  einheit: €
+  rechnung: '5000 : 1,02^3'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 5000 : 1,02^3`.'
+  fehler:
+  - antwort: '4700'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 132651/25
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-013
+  typ: zahl
+  stufe: 2
+  frage: Welches Anfangskapital braucht man, damit bei 1,5 % Zinsen pro Jahr nach 3 Jahren 20000 € am Konto sind? Runde auf Cent.
+  loesung: 19126,34
+  gerundet: 2
+  weg:
+  - '20000 : 1,015^3 | ergibt gerundet 19126,34'
+  einheit: €
+  rechnung: '20000 : 1,015^3'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 20000 : 1,015^3`.'
+  fehler:
+  - antwort: '19100'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 8365427/400
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-014
+  typ: zahl
+  stufe: 2
+  frage: Welches Anfangskapital braucht man, damit bei 2,5 % Zinsen pro Jahr nach 3 Jahren 10000 € am Konto sind? Runde auf Cent.
+  loesung: 9285,99
+  gerundet: 2
+  weg:
+  - '10000 : 1,025^3 | ergibt gerundet 9285,99'
+  einheit: €
+  rechnung: '10000 : 1,025^3'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 10000 : 1,025^3`.'
+  fehler:
+  - antwort: '9250'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 344605/32
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-015
+  typ: zahl
+  stufe: 2
+  frage: 500 € werden 2 Jahre lang mit 2 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 520,2
+  weg:
+  - 500 · 1,02^2 = 520,2
+  einheit: €
+  rechnung: 500 · 1,02^2
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 500 · 1,02^2`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '520'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '1020'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-016
+  typ: zahl
+  stufe: 2
+  frage: Welches Anfangskapital braucht man, damit bei 2 % Zinsen pro Jahr nach 2 Jahren 10000 € am Konto sind? Runde auf Cent.
+  loesung: 9611,69
+  gerundet: 2
+  weg:
+  - '10000 : 1,02^2 | ergibt gerundet 9611,69'
+  einheit: €
+  rechnung: '10000 : 1,02^2'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 10000 : 1,02^2`.'
+  fehler:
+  - antwort: '9600'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: '10404'
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-017
+  typ: zahl
+  stufe: 3
+  frage: 1000 € werden 4 Jahre lang mit 2 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 1082,43
+  gerundet: 2
+  weg:
+  - 1000 · 1,02^4 | ergibt gerundet 1082,43
+  einheit: €
+  rechnung: 1000 · 1,02^4
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 1000 · 1,02^4`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '1080'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '4080'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-018
+  typ: zahl
+  stufe: 3
+  frage: 1000 € werden 5 Jahre lang mit 3,5 % pro Jahr verzinst (Zinseszins). Wie viel **Zinsen** bekommt man insgesamt? Runde auf Cent.
+  loesung: 187,69
+  gerundet: 2
+  weg:
+  - 1000 · 1,035^5 - 1000 | ergibt gerundet 187,69
+  einheit: €
+  rechnung: 1000 · 1,035^5 - 1000
+  tipps:
+  - 'Zuerst das Endkapital: `1000 · 1,035^5`.'
+  - Zinsen = Endkapital − Anfangskapital 1000.
+  fehler:
+  - antwort: 380059617807/320000000
+    hinweis: Das ist das Endkapital. Die Zinsen sind das, was dazugekommen ist.
+  - antwort: '175'
+    hinweis: Das wären einfache Zinsen. Bei Zinseszins werden auch die Zinsen verzinst.
+- id: A5.5-019
+  typ: zahl
+  stufe: 3
+  frage: 2500 € werden 4 Jahre lang mit 4 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 2924,65
+  gerundet: 2
+  weg:
+  - 2500 · 1,04^4 | ergibt gerundet 2924,65
+  einheit: €
+  rechnung: 2500 · 1,04^4
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 2500 · 1,04^4`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '2900'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '10400'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-020
+  typ: zahl
+  stufe: 3
+  frage: 1000 € werden 8 Jahre lang mit 3 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 1266,77
+  gerundet: 2
+  weg:
+  - 1000 · 1,03^8 | ergibt gerundet 1266,77
+  einheit: €
+  rechnung: 1000 · 1,03^8
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 1000 · 1,03^8`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '1240'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '8240'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-021
+  typ: zahl
+  stufe: 3
+  frage: 500 € werden 8 Jahre lang mit 3,5 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 658,4
+  gerundet: 2
+  weg:
+  - 500 · 1,035^8 | ergibt gerundet 658,4
+  einheit: €
+  rechnung: 500 · 1,035^8
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 500 · 1,035^8`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '640'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '4140'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-022
+  typ: zahl
+  stufe: 3
+  frage: 1200 € werden 6 Jahre lang mit 3 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 1432,86
+  gerundet: 2
+  weg:
+  - 1200 · 1,03^6 | ergibt gerundet 1432,86
+  einheit: €
+  rechnung: 1200 · 1,03^6
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 1200 · 1,03^6`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '1416'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '7416'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-023
+  typ: zahl
+  stufe: 3
+  frage: 500 € werden 4 Jahre lang mit 2 % pro Jahr verzinst (Zinseszins). Wie hoch ist das Kapital danach? Runde auf Cent.
+  loesung: 541,22
+  gerundet: 2
+  weg:
+  - 500 · 1,02^4 | ergibt gerundet 541,22
+  einheit: €
+  rechnung: 500 · 1,02^4
+  tipps:
+  - 'Zinseszins: Jedes Jahr wird mit dem Zinsfaktor multipliziert, auch die Zinsen werden mitverzinst.'
+  - '`Kₙ = K₀ · (1 + i)ⁿ = 500 · 1,02^4`.'
+  - Auf zwei Nachkommastellen runden.
+  fehler:
+  - antwort: '540'
+    hinweis: 'Das wäre ohne Zinseszins. Bei Zinseszins: hoch n, nicht mal n.'
+  - antwort: '2040'
+    hinweis: Der Zinsfaktor wird hoch n genommen, nicht mal n.
+- id: A5.5-024
+  typ: zahl
+  stufe: 3
+  frage: 800 € werden 5 Jahre lang mit 4 % pro Jahr verzinst (Zinseszins). Wie viel **Zinsen** bekommt man insgesamt? Runde auf Cent.
+  loesung: 173,32
+  gerundet: 2
+  weg:
+  - 800 · 1,04^5 - 800 | ergibt gerundet 173,32
+  einheit: €
+  rechnung: 800 · 1,04^5 - 800
+  tipps:
+  - 'Zuerst das Endkapital: `800 · 1,04^5`.'
+  - Zinsen = Endkapital − Anfangskapital 800.
+  fehler:
+  - antwort: 380204032/390625
+    hinweis: Das ist das Endkapital. Die Zinsen sind das, was dazugekommen ist.
+  - antwort: '160'
+    hinweis: Das wären einfache Zinsen. Bei Zinseszins werden auch die Zinsen verzinst.
+- id: A5.5-025
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 5 % Zinsen pro Jahr nach 8 Jahren 8000 € am Konto sind? Runde auf Cent.
+  loesung: 5414,71
+  gerundet: 2
+  weg:
+  - '8000 : 1,05^8 | ergibt gerundet 5414,71'
+  einheit: €
+  rechnung: '8000 : 1,05^8'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 8000 : 1,05^8`.'
+  fehler:
+  - antwort: '4800'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 37822859361/3200000
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-026
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 3 % Zinsen pro Jahr nach 6 Jahren 5000 € am Konto sind? Runde auf Cent.
+  loesung: 4187,42
+  gerundet: 2
+  weg:
+  - '5000 : 1,03^6 | ergibt gerundet 4187,42'
+  einheit: €
+  rechnung: '5000 : 1,03^6'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 5000 : 1,03^6`.'
+  fehler:
+  - antwort: '4100'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 1194052296529/200000000
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-027
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 4 % Zinsen pro Jahr nach 8 Jahren 8000 € am Konto sind? Runde auf Cent.
+  loesung: 5845,52
+  gerundet: 2
+  weg:
+  - '8000 : 1,04^8 | ergibt gerundet 5845,52'
+  einheit: €
+  rechnung: '8000 : 1,04^8'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 8000 : 1,04^8`.'
+  fehler:
+  - antwort: '5440'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 13364932132864/1220703125
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-028
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 3 % Zinsen pro Jahr nach 10 Jahren 5000 € am Konto sind? Runde auf Cent.
+  loesung: 3720,47
+  gerundet: 2
+  weg:
+  - '5000 : 1,03^10 | ergibt gerundet 3720,47'
+  einheit: €
+  rechnung: '5000 : 1,03^10'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 5000 : 1,03^10`.'
+  fehler:
+  - antwort: '3500'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 134391637934412192049/20000000000000000
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-029
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 5 % Zinsen pro Jahr nach 7 Jahren 8000 € am Konto sind? Runde auf Cent.
+  loesung: 5685,45
+  gerundet: 2
+  weg:
+  - '8000 : 1,05^7 | ergibt gerundet 5685,45'
+  einheit: €
+  rechnung: '8000 : 1,05^7'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 8000 : 1,05^7`.'
+  fehler:
+  - antwort: '5200'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 1801088541/160000
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-030
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 2 % Zinsen pro Jahr nach 6 Jahren 10000 € am Konto sind? Runde auf Cent.
+  loesung: 8879,71
+  gerundet: 2
+  weg:
+  - '10000 : 1,02^6 | ergibt gerundet 8879,71'
+  einheit: €
+  rechnung: '10000 : 1,02^6'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 10000 : 1,02^6`.'
+  fehler:
+  - antwort: '8800'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 17596287801/1562500
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-031
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 2 % Zinsen pro Jahr nach 8 Jahren 10000 € am Konto sind? Runde auf Cent.
+  loesung: 8534,9
+  gerundet: 2
+  weg:
+  - '10000 : 1,02^8 | ergibt gerundet 8534,9'
+  einheit: €
+  rechnung: '10000 : 1,02^8'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 10000 : 1,02^8`.'
+  fehler:
+  - antwort: '8400'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 45767944570401/3906250000
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'
+- id: A5.5-032
+  typ: zahl
+  stufe: 4
+  frage: Welches Anfangskapital braucht man, damit bei 5 % Zinsen pro Jahr nach 9 Jahren 8000 € am Konto sind? Runde auf Cent.
+  loesung: 5156,87
+  gerundet: 2
+  weg:
+  - '8000 : 1,05^9 | ergibt gerundet 5156,87'
+  einheit: €
+  rechnung: '8000 : 1,05^9'
+  tipps:
+  - '`Kₙ = K₀ · qⁿ`. Gesucht ist K₀ – also rückwärts rechnen: durch qⁿ.'
+  - '`K₀ = 8000 : 1,05^9`.'
+  fehler:
+  - antwort: '4400'
+    hinweis: 'Rückwärts heißt: durch den Faktor dividieren, nicht Prozente abziehen.'
+  - antwort: 794280046581/64000000
+    hinweis: 'Gesucht ist das Anfangskapital: durch qⁿ, nicht mal.'

@@ -1,0 +1,19 @@
+id: A5.2
+titel: Prozentuelle Zu- und Abnahme
+ziel: Du rechnest mit dem Änderungsfaktor – vorwärts, rückwärts und bei mehreren Änderungen.
+erklaerung: |
+  Statt Prozent auszurechnen und dazuzuzählen, multiplizierst du mit dem **Änderungsfaktor**:
+  - Zunahme um 5 % → mal **1,05**
+  - Abnahme um 12 % → mal **0,88**
+
+  **Rückwärts** (alter Wert gesucht): durch den Faktor dividieren.
+  Achtung: Nach +10 % kostet etwas 66 €. Vorher waren es `66 : 1,1 = 60` €, **nicht** 66 − 10 %.
+
+  **Mehrere Änderungen:** Faktoren multiplizieren. +20 % und dann −20 % ergibt `1,2 · 0,8 = 0,96`,
+  also insgesamt −4 % – nicht 0 %!
+beispiel:
+  wert: "84"
+  text: |
+    80 € werden um 5 % teurer. Der Faktor ist 1,05.
+  weg:
+    - "80 · 1,05 = 84"

@@ -71,11 +71,11 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| A5.1 ★ | Prozentwert, Grundwert, Prozentsatz | AN 1.1 |  |
-| A5.2 ★ | Prozentuelle Zu- und Abnahme, Änderungsfaktor (z. B. · 1,05) | AN 1.1 |  |
-| A5.3 ★ | Absolute vs. relative Änderung | AN 1.1 |  |
-| A5.4 | Direkte und indirekte Proportionalität (Schlussrechnung) | FA 2.6, FA 3.4 |  |
-| A5.5 | Zinseszins: Kₙ = K₀ · (1 + i)ⁿ | Kontexte |  |
+| A5.1 ★ | Prozentwert, Grundwert, Prozentsatz | AN 1.1 | ✓ 40 |
+| A5.2 ★ | Prozentuelle Zu- und Abnahme | AN 1.1 | ✓ 40 |
+| A5.3 ★ | Absolute und relative Änderung | AN 1.1 | ✓ 40 |
+| A5.4 | Direkte und indirekte Proportionalität | FA 2.6, FA 3.4 | ✓ 32 |
+| A5.5 | Zinseszins | Kontexte | ✓ 32 |
 
 ---
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 33.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 38.

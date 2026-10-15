@@ -1,0 +1,21 @@
+id: A5.1
+titel: Prozentwert, Grundwert, Prozentsatz
+ziel: Du berechnest Anteile in Prozent – egal welche der drei Größen gesucht ist.
+erklaerung: |
+  „Prozent“ heißt „Hundertstel“: `15 % = 15/100 = 0,15`.
+
+  Drei Größen gehören zusammen:
+  - **Grundwert** G: das Ganze (100 %)
+  - **Prozentsatz** p: wie viel Prozent
+  - **Prozentwert** W: der Anteil
+
+  `W = G · p/100` – daraus bekommst du alles:
+  - Anteil gesucht: `G · p/100`
+  - Ganzes gesucht: `W : p · 100` (zuerst 1 % ausrechnen, dann mal 100)
+  - Prozentsatz gesucht: `W : G · 100`
+beispiel:
+  wert: "80"
+  text: |
+    „12 € sind 15 % eines Betrags.“ Gesucht ist das Ganze. 1 % sind `12 : 15 = 0,8` €, also sind 100 % 80 €.
+  weg:
+    - "12 : 15 · 100 = 0,8 · 100 = 80"
