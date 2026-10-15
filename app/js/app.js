@@ -2,6 +2,7 @@
 import * as M from "./mathe.js";
 import * as S from "./speicher.js";
 import { schmierzettel } from "./schmierzettel.js";
+import "./handablage.js";
 
 const FACH = "mathe";
 const STUFE_NAME = { 1: "Einstieg", 2: "Üben", 3: "Vertiefen", 4: "Matura-Niveau" };

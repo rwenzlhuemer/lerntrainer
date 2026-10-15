@@ -1,5 +1,6 @@
 // Schmierzettel: Zeichenfläche für Apple Pencil und Maus. Finger/Handballen zeichnen nur, wenn eingeschaltet.
 // Wird nicht ausgewertet – nur zum Rechnen wie auf Papier.
+import { istHandZeiger } from "./handablage.js";
 
 export function schmierzettel(behaelter) {
   behaelter.innerHTML = `
@@ -59,7 +60,7 @@ export function schmierzettel(behaelter) {
   }
 
   canvas.addEventListener("pointerdown", (e) => {
-    if (e.pointerType === "touch" && !fingerErlaubt) return; // Hand liegt beim Schreiben auf
+    if (e.pointerType === "touch" && (!fingerErlaubt || istHandZeiger(e))) return; // Hand liegt beim Schreiben auf
     e.preventDefault();
     canvas.setPointerCapture(e.pointerId);
     aktuell = { punkte: [punkt(e)], dicke: e.pointerType === "pen" ? 2.2 : 3 };

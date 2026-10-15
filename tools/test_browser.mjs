@@ -153,6 +153,28 @@ async function main() {
   await js("document.querySelector('[data-sz=\"finger\"]').click()");
   pruefe((await js("getComputedStyle(document.body).userSelect")) === "none" &&
     (await js("getComputedStyle(document.querySelector('#feld')).userSelect")) !== "none", "Text nicht markierbar, Eingabefeld schon");
+
+  // Handballen: Während/kurz nach dem Pencil und bei großer Auflagefläche drückt die Hand keinen Knopf
+  const fk = await js(`(() => { const r = document.querySelector('[data-sz="finger"]').getBoundingClientRect(); return {x: r.x + r.width / 2, y: r.y + r.height / 2}; })()`);
+  const fingerText = () => js(`document.querySelector('[data-sz="finger"]').textContent`);
+  const antippen = async (radius) => {
+    const p = [{ x: fk.x, y: fk.y, radiusX: radius, radiusY: radius, force: 0.5, id: 2 }];
+    await cdp("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: p });
+    await cdp("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
+    await warte(150);
+  };
+  await antippen(30);
+  pruefe((await fingerText()).includes("aus"), "Handballen (große Fläche) drückt keinen Knopf");
+  const stift = (type, x, y) => cdp("Input.dispatchMouseEvent", { type, x, y, button: "left", buttons: type === "mouseReleased" ? 0 : 1, clickCount: 1, pointerType: "pen" });
+  await stift("mousePressed", b2.x + 60, b2.y + 120);
+  for (let i = 1; i <= 10; i++) await stift("mouseMoved", b2.x + 60 + i * 12, b2.y + 120);
+  await stift("mouseReleased", b2.x + 180, b2.y + 120);
+  await antippen(5);
+  pruefe((await fingerText()).includes("aus"), "Hand kurz nach dem Pencil drückt keinen Knopf");
+  await warte(1700);
+  await antippen(5);
+  pruefe((await fingerText()).includes("an"), "Finger tippt Knopf, wenn der Pencil ruht");
+  await js("document.querySelector('[data-sz=\"finger\"]').click()");
   await cdp("Emulation.setTouchEmulationEnabled", { enabled: false });
 
   // B1.9: Textaufgabe mit Einheit
