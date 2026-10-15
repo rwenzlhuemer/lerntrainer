@@ -27,11 +27,11 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| A1.1 ★ | Negative Zahlen auf der Zahlengeraden, ordnen, vergleichen | AG 1.1 |  |
-| A1.2 ★ | Plus und Minus mit negativen Zahlen |  |  |
-| A1.3 ★ | Mal und Durch: Vorzeichenregeln |  |  |
-| A1.4 ★ | Vorrangregeln: Klammer vor Hoch vor Punkt vor Strich |  |  |
-| A1.5 | Zahlenmengen ℕ, ℤ, ℚ, ℝ, ℂ: Welche Zahl gehört wohin? | AG 1.1 |  |
+| A1.1 ★ | Negative Zahlen vergleichen | AG 1.1 | ✓ 40 |
+| A1.2 ★ | Plus und Minus mit negativen Zahlen |  | ✓ 40 |
+| A1.3 ★ | Mal und Durch: Vorzeichenregeln |  | ✓ 40 |
+| A1.4 ★ | Vorrangregeln |  | ✓ 40 |
+| A1.5 | Zahlenmengen | AG 1.1 | ✓ 28 |
 
 ### A2 Brüche und Dezimalzahlen
 
@@ -47,11 +47,11 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| A3.1 ★ | Was ist eine Potenz? Quadrat- und Kubikzahlen |  |  |
-| A3.2 ★ | Potenzregeln bei gleicher Basis (multiplizieren, dividieren, potenzieren) | AG 2.1 |  |
-| A3.3 ★ | Negative Hochzahlen, Zehnerpotenzen, Gleitkommadarstellung |  |  |
-| A3.4 ★ | Wurzeln; Wurzel als Potenz mit Hochzahl ½ |  |  |
-| A3.5 | Vorsilben und Einheiten (Kilo, Milli, Mikro …) | Kontexte |  |
+| A3.1 ★ | Was ist eine Potenz? |  | ✓ 40 |
+| A3.2 ★ | Potenzregeln | AG 2.1 | ✓ 40 |
+| A3.3 ★ | Negative Hochzahlen und Gleitkommadarstellung |  | ✓ 40 |
+| A3.4 ★ | Wurzeln und Bruch-Hochzahlen |  | ✓ 40 |
+| A3.5 | Vorsilben und Einheiten | Kontexte | ✓ 32 |
 
 ### A4 Terme
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 23.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 33.

@@ -4,7 +4,7 @@
 
 // ── Lesen ────────────────────────────────────────────────
 
-const HOCH = { "²": "2", "³": "3", "⁴": "4" };
+const HOCH = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-" };
 const FUNKTIONEN = new Set(["sqrt", "sin", "cos", "tan", "ln", "log"]);
 const KONSTANTEN = { pi: Math.PI, "π": Math.PI, e: Math.E };
 
@@ -34,8 +34,15 @@ function tokenisiere(text) {
       i = j; continue;
     }
     if (HOCH[c]) {
-      tokens.push({ art: "op", wert: "^" }, { art: "zahl", wert: parseFloat(HOCH[c]), text: HOCH[c] });
-      i++; continue;
+      // Hochgestellte Ziffern: x¹² → x^12, x⁻² → x^(-2)
+      let j = i, s = "";
+      while (j < t.length && HOCH[t[j]]) s += HOCH[t[j++]];
+      const neg = s.startsWith("-"), ziffern = s.replace(/-/g, "");
+      if (!ziffern) throw new Error("Hochzahl");
+      tokens.push({ art: "op", wert: "^" });
+      if (neg) tokens.push({ art: "op", wert: "-" });
+      tokens.push({ art: "zahl", wert: parseFloat(ziffern), text: ziffern });
+      i = j; continue;
     }
     if (/[a-zA-Zπ]/.test(c)) {
       let j = i;
@@ -380,6 +387,11 @@ function zahlFormHinweis(t, form, nenner) {
     return `Der Wert stimmt – gefragt ist aber ein Bruch mit dem Nenner ${nenner}.`;
   }
   if (form === "dezimal" && /\//.test(t)) return "Das stimmt! Schreib es aber als Dezimalzahl, zum Beispiel 0,75.";
+  if (form === "gleitkomma") {
+    const m = normalisiere(t).replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+/g, (h) => "^" + [...h].map((z) => HOCH[z]).join("")).replace(/\s+/g, "").match(/^-?(\d+(?:\.\d+)?)\*10\^\(?-?\d+\)?$/);
+    if (!m) return "Das stimmt! Schreib es aber in Gleitkommadarstellung, zum Beispiel 4,5 · 10^-3.";
+    if (Number(m[1]) < 1 || Number(m[1]) >= 10) return "Fast: Vor dem Mal muss eine Zahl zwischen 1 und 10 stehen, zum Beispiel 4,5 · 10^-3.";
+  }
   return null;
 }
 
@@ -388,7 +400,7 @@ function zahlFormHinweis(t, form, nenner) {
 export function pruefeZahl(eingabe, loesung, form = null, nenner = null) {
   let t = String(eingabe).trim();
   if (t.includes("=")) t = t.slice(t.lastIndexOf("=") + 1);
-  t = t.replace(/[a-zA-ZäöüÄÖÜß€%]+\.?/g, " ").replace(/\s+/g, " ").trim();
+  t = t.replace(/[a-zA-ZäöüÄÖÜßµ€%°]+[²³]?(\s*\/\s*[a-zA-Z]+[²³]?)?\.?/g, " ").replace(/\s+/g, " ").trim();
   // Gemischte Zahl „2 1/2“ würde sonst als 2 · 1/2 gelesen
   if (/^[+-−]?\d+ \d+\s*\/\s*\d+$/.test(t)) return { art: "gemischt" };
   // Tausender-Leerzeichen: „3 500“ → 3500
@@ -441,6 +453,16 @@ function vorkommen(b) {
   return (b.a ? vorkommen(b.a) : 0) + (b.b ? vorkommen(b.b) : 0);
 }
 
+function zahlAnzahl(b) {
+  if (b.t === "zahl") return 1;
+  if (b.t === "bin" && b.op === "^") return zahlAnzahl(b.a);
+  return (b.a ? zahlAnzahl(b.a) : 0) + (b.b ? zahlAnzahl(b.b) : 0);
+}
+
+function enthaelt(b, pruef) {
+  return pruef(b) || (b.a ? enthaelt(b.a, pruef) : false) || (b.b ? enthaelt(b.b, pruef) : false);
+}
+
 function zahlenSumme(b) {
   if (b.t === "zahl") return Math.abs(b.v);
   if (b.t === "bin" && b.op === "^") return zahlenSumme(b.a); // Hochzahlen zählen nicht
@@ -479,6 +501,17 @@ export function termFormHinweis(ist, soll, form, faktor) {
   if (form === "gekuerzt") {
     if (summanden(ist) > summanden(soll) || vorkommen(ist) > vorkommen(soll) || zahlenSumme(ist) > zahlenSumme(soll) + 1e-9) {
       return "Stimmt! Das lässt sich aber noch weiter vereinfachen oder kürzen.";
+    }
+    return null;
+  }
+  if (form === "potenz") {
+    // Jede Variable nur einmal, keine Klammer, keine Bruchstriche mehr als nötig, Zahlen ausgerechnet
+    const brueche = (x) => (enthaelt(x, (k) => k.t === "bin" && (k.op === "/" || k.op === ":")) ? 1 : 0);
+    const klammer = (x) => enthaelt(x, (k) => k.t === "klammer" && !(k.a.t === "neg" && k.a.a.t === "zahl"));
+    const klammerSoll = klammer(soll);
+    if ((!klammerSoll && klammer(ist)) || vorkommen(ist) > vorkommen(soll) || brueche(ist) > brueche(soll) ||
+        zahlAnzahl(ist) > zahlAnzahl(soll)) {
+      return "Stimmt! Wende die Potenzregeln noch weiter an, bis jede Variable nur einmal vorkommt.";
     }
     return null;
   }

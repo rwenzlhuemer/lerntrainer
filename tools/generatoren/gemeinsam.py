@@ -36,7 +36,11 @@ def dez(q) -> str:
     assert endlich(q), q
     if q.denominator == 1:
         return str(q.numerator)
-    return f"{float(q):.6f}".rstrip("0").rstrip(".").replace(".", ",")
+    stellen = 0
+    while (q * 10 ** stellen).denominator != 1:
+        stellen += 1
+    ziffern = str(abs((q * 10 ** stellen).numerator)).rjust(stellen + 1, "0")
+    return ("-" if q < 0 else "") + ziffern[:-stellen] + "," + ziffern[-stellen:]
 
 
 def kl(q, f=z) -> str:

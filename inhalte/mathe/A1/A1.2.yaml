@@ -1,0 +1,19 @@
+id: A1.2
+titel: Plus und Minus mit negativen Zahlen
+ziel: Du addierst und subtrahierst negative Zahlen sicher – auch mit zwei Vorzeichen hintereinander.
+erklaerung: |
+  **Plus** heißt: auf der Zahlengeraden nach rechts. **Minus** heißt: nach links.
+  `-2 - 5 = -7` (von -2 aus 5 Schritte nach links).
+
+  Stehen **zwei Zeichen** hintereinander, fasst du sie zu einem zusammen:
+  - gleiche Zeichen → plus: `+ (+4) = + 4` und `- (-4) = + 4`
+  - verschiedene Zeichen → minus: `+ (-4) = - 4` und `- (+4) = - 4`
+
+  Danach rechnest du einfach von links nach rechts.
+beispiel:
+  wert: "6"
+  text: |
+    Zuerst die Doppelzeichen vereinfachen: `- (-5)` wird `+ 5`, `+ (-2)` wird `- 2`.
+  weg:
+    - "3 - (-5) + (-2) = 3 + 5 - 2 | Doppelzeichen zusammengefasst"
+    - "3 + 5 - 2 = 6"

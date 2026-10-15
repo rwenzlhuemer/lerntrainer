@@ -1,0 +1,22 @@
+id: A3.2
+titel: Potenzregeln
+ziel: Du vereinfachst Terme mit den Potenzregeln für gleiche Basen.
+erklaerung: |
+  Drei Regeln für **gleiche Basis**:
+
+  1. Multiplizieren → Hochzahlen **addieren**: `a^3 · a^4 = a^7`
+  2. Dividieren → Hochzahlen **subtrahieren**: `a^7 : a^3 = a^4`
+  3. Potenz einer Potenz → Hochzahlen **multiplizieren**: `(a^3)^2 = a^6`
+
+  Warum? Zähl einfach die Faktoren: `a^3 · a^4` sind 3 + 4 = 7 Faktoren a.
+
+  Steht eine **Zahl** davor, rechnest du sie ganz normal: `2a^3 · 5a^2 = 10a^5`.
+  Bei `(2a^3)^2` wird **jeder** Faktor potenziert: `2^2 · a^6 = 4a^6`.
+  Hast du die Hochzahl auf dem iPad nicht hochgestellt, schreib einfach `a^7`.
+beispiel:
+  term: "(2x^3)^2 · x"
+  text: |
+    Zuerst die Klammer: Die 2 wird quadriert, die Hochzahlen werden multipliziert. Dann mal x = x¹.
+  weg:
+    - "(2x^3)^2 · x = 4x^6 · x | Klammer potenziert"
+    - "4x^6 · x = 4x^7 | Hochzahlen addiert"

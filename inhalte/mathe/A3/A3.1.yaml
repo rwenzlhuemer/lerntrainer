@@ -1,0 +1,20 @@
+id: A3.1
+titel: Was ist eine Potenz?
+ziel: Du berechnest Potenzen – auch mit negativen Zahlen, Brüchen und Dezimalzahlen.
+erklaerung: |
+  Eine **Potenz** ist eine Abkürzung für wiederholtes Multiplizieren:
+  `2^5 = 2 · 2 · 2 · 2 · 2 = 32`. Die 2 heißt **Basis**, die 5 heißt **Hochzahl** (Exponent).
+
+  Achtung, häufige Falle: `2^5` ist **nicht** `2 · 5`!
+
+  **Negative Basis:** `(-2)^3 = (-2) · (-2) · (-2) = -8`. Gerade Hochzahl → positiv, ungerade → negativ.
+  **Ohne Klammer** gehört die Hochzahl nur zur Zahl: `-2^2 = -(2 · 2) = -4`.
+
+  Bei Brüchen potenzierst du Zähler und Nenner: `(2/3)^2 = 4/9`.
+  Bei Dezimalzahlen: `0,3^2 = 0,09` – die Kommastellen verdoppeln sich.
+beispiel:
+  wert: "-27"
+  text: |
+    Die Klammer sagt: Die -3 wird dreimal mit sich selbst multipliziert. Drei Minus → minus.
+  weg:
+    - "(-3)^3 = (-3) · (-3) · (-3) = -27"

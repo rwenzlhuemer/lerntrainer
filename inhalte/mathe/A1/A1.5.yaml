@@ -1,0 +1,19 @@
+id: A1.5
+titel: Zahlenmengen
+ziel: Du ordnest Zahlen den Zahlenmengen ℕ, ℤ, ℚ, ℝ und ℂ zu.
+erklaerung: |
+  Die Zahlenmengen bauen aufeinander auf – jede enthält die vorige:
+
+  - **ℕ** natürliche Zahlen: 0, 1, 2, 3, …
+  - **ℤ** ganze Zahlen: dazu die negativen, …, -2, -1, 0, 1, 2, …
+  - **ℚ** rationale Zahlen: alles, was sich als Bruch ganzer Zahlen schreiben lässt, z. B. 3/4, -0,5, 0,333…
+  - **ℝ** reelle Zahlen: dazu Zahlen wie √2 oder π, die sich **nicht** als Bruch schreiben lassen
+  - **ℂ** komplexe Zahlen: dazu Wurzeln aus negativen Zahlen, z. B. √(-4)
+
+  Tipp: Rechne zuerst aus, was geht. `√9 = 3` ist eine natürliche Zahl, `6/3 = 2` auch.
+beispiel:
+  wert: "-4"
+  text: |
+    `-√16` sieht kompliziert aus, ist aber `-4` – eine ganze Zahl. Die kleinste Menge ist also ℤ.
+  weg:
+    - "-√16 = -4"

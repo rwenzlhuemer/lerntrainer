@@ -1,0 +1,585 @@
+# ERZEUGT von tools/generatoren/a3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A3.3-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3^-2`. Gib das Ergebnis als Bruch an.
+  loesung: 1/9
+  form: gekuerzt
+  weg:
+  - 3^-2 = 1/3^2 = 1/9
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`3^-2 = 1/3^2`.'
+  fehler:
+  - antwort: '-9'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  - antwort: '-6'
+    hinweis: Eine negative Hochzahl bedeutet „1 durch …“, nicht mal.
+  rechnung: 3^-2
+- id: A3.3-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^-1`. Gib das Ergebnis als Bruch an.
+  loesung: 1/2
+  form: gekuerzt
+  weg:
+  - 2^-1 = 1/2^1 = 1/2
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`2^-1 = 1/2^1`.'
+  fehler:
+  - antwort: '-2'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 2^-1
+- id: A3.3-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne `10^-1`. Gib das Ergebnis als Bruch an.
+  loesung: 1/10
+  form: gekuerzt
+  weg:
+  - 10^-1 = 1/10^1 = 1/10
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`10^-1 = 1/10^1`.'
+  fehler:
+  - antwort: '-10'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 10^-1
+- id: A3.3-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne `4^-1`. Gib das Ergebnis als Bruch an.
+  loesung: 1/4
+  form: gekuerzt
+  weg:
+  - 4^-1 = 1/4^1 = 1/4
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`4^-1 = 1/4^1`.'
+  fehler:
+  - antwort: '-4'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 4^-1
+- id: A3.3-005
+  typ: zahl
+  stufe: 1
+  frage: Schreib `10^-2` als Dezimalzahl.
+  loesung: 0,01
+  form: dezimal
+  weg:
+  - 10^-2 = 1/10^2 = 0,01
+  tipps:
+  - '`10^-n = 1/10^n`: eine 1 an der n-ten Stelle nach dem Komma.'
+  - '`10^-2 = 1/100`.'
+  fehler:
+  - antwort: '-100'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 10^-2
+- id: A3.3-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^-2`. Gib das Ergebnis als Bruch an.
+  loesung: 1/4
+  form: gekuerzt
+  weg:
+  - 2^-2 = 1/2^2 = 1/4
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`2^-2 = 1/2^2`.'
+  fehler:
+  - antwort: '-4'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 2^-2
+- id: A3.3-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^-3`. Gib das Ergebnis als Bruch an.
+  loesung: 1/8
+  form: gekuerzt
+  weg:
+  - 2^-3 = 1/2^3 = 1/8
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`2^-3 = 1/2^3`.'
+  fehler:
+  - antwort: '-8'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  - antwort: '-6'
+    hinweis: Eine negative Hochzahl bedeutet „1 durch …“, nicht mal.
+  rechnung: 2^-3
+- id: A3.3-008
+  typ: zahl
+  stufe: 1
+  frage: Schreib `10^-1` als Dezimalzahl.
+  loesung: 0,1
+  form: dezimal
+  weg:
+  - 10^-1 = 1/10^1 = 0,1
+  tipps:
+  - '`10^-n = 1/10^n`: eine 1 an der n-ten Stelle nach dem Komma.'
+  - '`10^-1 = 1/10`.'
+  fehler:
+  - antwort: '-10'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 10^-1
+- id: A3.3-009
+  typ: zahl
+  stufe: 1
+  frage: Schreib `10^-4` als Dezimalzahl.
+  loesung: 0,0001
+  form: dezimal
+  weg:
+  - 10^-4 = 1/10^4 = 0,0001
+  tipps:
+  - '`10^-n = 1/10^n`: eine 1 an der n-ten Stelle nach dem Komma.'
+  - '`10^-4 = 1/10000`.'
+  fehler:
+  - antwort: '-10000'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 10^-4
+- id: A3.3-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3^-1`. Gib das Ergebnis als Bruch an.
+  loesung: 1/3
+  form: gekuerzt
+  weg:
+  - 3^-1 = 1/3^1 = 1/3
+  tipps:
+  - 'Eine negative Hochzahl heißt: **Kehrwert**. `a^-n = 1/a^n`.'
+  - '`3^-1 = 1/3^1`.'
+  fehler:
+  - antwort: '-3'
+    hinweis: Eine negative Hochzahl macht die Zahl nicht negativ – sie bedeutet „1 durch …“.
+  rechnung: 3^-1
+- id: A3.3-011
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,000066` in Gleitkommadarstellung.
+  loesung: 6,6·10^-5
+  form: gleitkomma
+  weg:
+  - 0,000066 = 6,6·10^-5
+  tipps:
+  - 'Gleitkommadarstellung: eine Zahl zwischen 1 und 10, mal einer Zehnerpotenz.'
+  - Zähl, um wie viele Stellen das Komma nach rechts rücken muss – das ist die (negative) Hochzahl.
+  fehler: []
+  rechnung: 6,6·10^-5
+- id: A3.3-012
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,00029` in Gleitkommadarstellung.
+  loesung: 2,9·10^-4
+  form: gleitkomma
+  weg:
+  - 0,00029 = 2,9·10^-4
+  tipps:
+  - 'Gleitkommadarstellung: eine Zahl zwischen 1 und 10, mal einer Zehnerpotenz.'
+  - Zähl, um wie viele Stellen das Komma nach rechts rücken muss – das ist die (negative) Hochzahl.
+  fehler: []
+  rechnung: 2,9·10^-4
+- id: A3.3-013
+  typ: zahl
+  stufe: 2
+  frage: Schreib `8,1·10^7` als ganze Zahl.
+  loesung: '81000000'
+  weg:
+  - 8,1·10^7 = 81000000
+  tipps:
+  - 'Mal 10^n heißt: Das Komma rückt n Stellen nach rechts.'
+  - Fehlende Stellen füllst du mit Nullen auf.
+  fehler:
+  - antwort: '8100000'
+    hinweis: Das Komma rückt genau so viele Stellen, wie die Hochzahl sagt.
+  rechnung: 8,1·10^7
+- id: A3.3-014
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,0086` in Gleitkommadarstellung.
+  loesung: 8,6·10^-3
+  form: gleitkomma
+  weg:
+  - 0,0086 = 8,6·10^-3
+  tipps:
+  - 'Gleitkommadarstellung: eine Zahl zwischen 1 und 10, mal einer Zehnerpotenz.'
+  - Zähl, um wie viele Stellen das Komma nach rechts rücken muss – das ist die (negative) Hochzahl.
+  fehler: []
+  rechnung: 8,6·10^-3
+- id: A3.3-015
+  typ: zahl
+  stufe: 2
+  frage: Schreib `8,3·10^7` als ganze Zahl.
+  loesung: '83000000'
+  weg:
+  - 8,3·10^7 = 83000000
+  tipps:
+  - 'Mal 10^n heißt: Das Komma rückt n Stellen nach rechts.'
+  - Fehlende Stellen füllst du mit Nullen auf.
+  fehler:
+  - antwort: '8300000'
+    hinweis: Das Komma rückt genau so viele Stellen, wie die Hochzahl sagt.
+  rechnung: 8,3·10^7
+- id: A3.3-016
+  typ: zahl
+  stufe: 2
+  frage: Schreib `2,4·10^4` als ganze Zahl.
+  loesung: '24000'
+  weg:
+  - 2,4·10^4 = 24000
+  tipps:
+  - 'Mal 10^n heißt: Das Komma rückt n Stellen nach rechts.'
+  - Fehlende Stellen füllst du mit Nullen auf.
+  fehler:
+  - antwort: '2400'
+    hinweis: Das Komma rückt genau so viele Stellen, wie die Hochzahl sagt.
+  rechnung: 2,4·10^4
+- id: A3.3-017
+  typ: zahl
+  stufe: 2
+  frage: Schreib `3,7·10^6` als ganze Zahl.
+  loesung: '3700000'
+  weg:
+  - 3,7·10^6 = 3700000
+  tipps:
+  - 'Mal 10^n heißt: Das Komma rückt n Stellen nach rechts.'
+  - Fehlende Stellen füllst du mit Nullen auf.
+  fehler:
+  - antwort: '370000'
+    hinweis: Das Komma rückt genau so viele Stellen, wie die Hochzahl sagt.
+  rechnung: 3,7·10^6
+- id: A3.3-018
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,0047` in Gleitkommadarstellung.
+  loesung: 4,7·10^-3
+  form: gleitkomma
+  weg:
+  - 0,0047 = 4,7·10^-3
+  tipps:
+  - 'Gleitkommadarstellung: eine Zahl zwischen 1 und 10, mal einer Zehnerpotenz.'
+  - Zähl, um wie viele Stellen das Komma nach rechts rücken muss – das ist die (negative) Hochzahl.
+  fehler: []
+  rechnung: 4,7·10^-3
+- id: A3.3-019
+  typ: zahl
+  stufe: 2
+  frage: Schreib `0,0000048` in Gleitkommadarstellung.
+  loesung: 4,8·10^-6
+  form: gleitkomma
+  weg:
+  - 0,0000048 = 4,8·10^-6
+  tipps:
+  - 'Gleitkommadarstellung: eine Zahl zwischen 1 und 10, mal einer Zehnerpotenz.'
+  - Zähl, um wie viele Stellen das Komma nach rechts rücken muss – das ist die (negative) Hochzahl.
+  fehler: []
+  rechnung: 4,8·10^-6
+- id: A3.3-020
+  typ: zahl
+  stufe: 2
+  frage: Schreib `5,2·10^7` als ganze Zahl.
+  loesung: '52000000'
+  weg:
+  - 5,2·10^7 = 52000000
+  tipps:
+  - 'Mal 10^n heißt: Das Komma rückt n Stellen nach rechts.'
+  - Fehlende Stellen füllst du mit Nullen auf.
+  fehler:
+  - antwort: '5200000'
+    hinweis: Das Komma rückt genau so viele Stellen, wie die Hochzahl sagt.
+  rechnung: 5,2·10^7
+- id: A3.3-021
+  typ: term
+  stufe: 3
+  term: a^-4 · a^8
+  form: potenz
+  loesung: a^4
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - a^-4 · a^8 = a^(8 - 4) = a^4
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-4 + 8 = 4`.'
+  fehler:
+  - antwort: a^-32
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-022
+  typ: term
+  stufe: 3
+  term: a^-5 · a^6
+  form: potenz
+  loesung: a
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - a^-5 · a^6 = a^(6 - 5) = a
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-5 + 6 = 1`.'
+  fehler:
+  - antwort: a^-30
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-023
+  typ: term
+  stufe: 3
+  term: b^-6 · b^5
+  form: potenz
+  loesung: 1/b
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - b^-6 · b^5 = b^(5 - 6) = 1/b
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-6 + 5 = -1`.'
+  fehler:
+  - antwort: b^-30
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-024
+  typ: term
+  stufe: 3
+  term: a^-4 · a^5
+  form: potenz
+  loesung: a
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - a^-4 · a^5 = a^(5 - 4) = a
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-4 + 5 = 1`.'
+  fehler:
+  - antwort: a^-20
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-025
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(2,4·10^6) · (2,1·10^-2)` und gib das Ergebnis in Gleitkommadarstellung an.
+  loesung: 5,04·10^4
+  form: gleitkomma
+  weg:
+  - (2,4·10^6) · (2,1·10^-2) = 5,04·10^4
+  tipps:
+  - Zahlen multiplizieren, Zehnerpotenzen multiplizieren (Hochzahlen addieren).
+  - '`2,4 · 2,1 = 5,04` und `10^6 · 10^-2 = 10^4`.'
+  - Steht vorne eine Zahl ab 10, schiebst du das Komma noch eine Stelle und erhöhst die Hochzahl um 1.
+  fehler: []
+  rechnung: (2,4·10^6) · (2,1·10^-2)
+- id: A3.3-026
+  typ: term
+  stufe: 3
+  term: b^-4 · b^3
+  form: potenz
+  loesung: 1/b
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - b^-4 · b^3 = b^(3 - 4) = 1/b
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-4 + 3 = -1`.'
+  fehler:
+  - antwort: b^-12
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-027
+  typ: term
+  stufe: 3
+  term: x^-4 · x^6
+  form: potenz
+  loesung: x^2
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^-4 · x^6 = x^(6 - 4) = x^2
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-4 + 6 = 2`.'
+  fehler:
+  - antwort: x^-24
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(2,6·10^5) · (2·10^-4)` und gib das Ergebnis in Gleitkommadarstellung an.
+  loesung: 5,2·10^1
+  form: gleitkomma
+  weg:
+  - (2,6·10^5) · (2·10^-4) = 5,2·10^1
+  tipps:
+  - Zahlen multiplizieren, Zehnerpotenzen multiplizieren (Hochzahlen addieren).
+  - '`2,6 · 2 = 5,2` und `10^5 · 10^-4 = 10^1`.'
+  - Steht vorne eine Zahl ab 10, schiebst du das Komma noch eine Stelle und erhöhst die Hochzahl um 1.
+  fehler: []
+  rechnung: (2,6·10^5) · (2·10^-4)
+- id: A3.3-029
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(3·10^4) · (2,6·10^-2)` und gib das Ergebnis in Gleitkommadarstellung an.
+  loesung: 7,8·10^2
+  form: gleitkomma
+  weg:
+  - (3·10^4) · (2,6·10^-2) = 7,8·10^2
+  tipps:
+  - Zahlen multiplizieren, Zehnerpotenzen multiplizieren (Hochzahlen addieren).
+  - '`3 · 2,6 = 7,8` und `10^4 · 10^-2 = 10^2`.'
+  - Steht vorne eine Zahl ab 10, schiebst du das Komma noch eine Stelle und erhöhst die Hochzahl um 1.
+  fehler: []
+  rechnung: (3·10^4) · (2,6·10^-2)
+- id: A3.3-030
+  typ: term
+  stufe: 3
+  term: b^-3 · b^6
+  form: potenz
+  loesung: b^3
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - b^-3 · b^6 = b^(6 - 3) = b^3
+  tipps:
+  - 'Die Regeln gelten auch für negative Hochzahlen: Beim Multiplizieren addieren.'
+  - '`-3 + 6 = 3`.'
+  fehler:
+  - antwort: b^-18
+    hinweis: Beim Multiplizieren werden die Hochzahlen addiert.
+- id: A3.3-031
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `(6·10^-2) : (4·10^8)` und gib das Ergebnis in Gleitkommadarstellung an.'
+  loesung: 1,5·10^-10
+  form: gleitkomma
+  weg:
+  - '(6·10^-2) : (4·10^8) = 1,5·10^-10'
+  tipps:
+  - Zahlen dividieren, Zehnerpotenzen dividieren (Hochzahlen subtrahieren).
+  - '`10^-2 : 10^8 = 10^(-2 - 8) = 10^-10`.'
+  - Steht vorne eine Zahl unter 1, schiebst du das Komma und verringerst die Hochzahl um 1.
+  fehler: []
+  rechnung: '(6·10^-2) : (4·10^8)'
+- id: A3.3-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(2/3)^-1`.
+  loesung: 3/2
+  form: gekuerzt
+  weg:
+  - (2/3)^-1 = (3/2)^1 = 3/2
+  tipps:
+  - 'Negative Hochzahl beim Bruch: Bruch umdrehen, dann mit positiver Hochzahl rechnen.'
+  - '`(2/3)^-1 = (3/2)^1`.'
+  fehler:
+  - antwort: 2/3
+    hinweis: 'Die negative Hochzahl heißt: Kehrwert. Den Bruch erst umdrehen.'
+  rechnung: (2/3)^-1
+- id: A3.3-033
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(3/4)^-3`.
+  loesung: 64/27
+  form: gekuerzt
+  weg:
+  - (3/4)^-3 = (4/3)^3 = 64/27
+  tipps:
+  - 'Negative Hochzahl beim Bruch: Bruch umdrehen, dann mit positiver Hochzahl rechnen.'
+  - '`(3/4)^-3 = (4/3)^3`.'
+  fehler:
+  - antwort: 0,421875
+    hinweis: 'Die negative Hochzahl heißt: Kehrwert. Den Bruch erst umdrehen.'
+  rechnung: (3/4)^-3
+- id: A3.3-034
+  typ: term
+  stufe: 4
+  term: (x^-4)^3 · x^4
+  form: potenz
+  loesung: 1/x^8
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (x^-4)^3 · x^4 = x^-12 · x^4 = 1/x^8
+  tipps:
+  - 'Zuerst die Klammer: Hochzahlen multiplizieren.'
+  - '`(x^-4)^3 = x^-12`. Dann Hochzahlen addieren.'
+  fehler:
+  - antwort: x^3
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'
+- id: A3.3-035
+  typ: term
+  stufe: 4
+  term: (a^-4)^3 · a^3
+  form: potenz
+  loesung: 1/a^9
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (a^-4)^3 · a^3 = a^-12 · a^3 = 1/a^9
+  tipps:
+  - 'Zuerst die Klammer: Hochzahlen multiplizieren.'
+  - '`(a^-4)^3 = a^-12`. Dann Hochzahlen addieren.'
+  fehler:
+  - antwort: a^2
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'
+- id: A3.3-036
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `(9·10^-9) : (4·10^6)` und gib das Ergebnis in Gleitkommadarstellung an.'
+  loesung: 2,25·10^-15
+  form: gleitkomma
+  weg:
+  - '(9·10^-9) : (4·10^6) = 2,25·10^-15'
+  tipps:
+  - Zahlen dividieren, Zehnerpotenzen dividieren (Hochzahlen subtrahieren).
+  - '`10^-9 : 10^6 = 10^(-9 - 6) = 10^-15`.'
+  - Steht vorne eine Zahl unter 1, schiebst du das Komma und verringerst die Hochzahl um 1.
+  fehler: []
+  rechnung: '(9·10^-9) : (4·10^6)'
+- id: A3.3-037
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(4/3)^-3`.
+  loesung: 27/64
+  form: gekuerzt
+  weg:
+  - (4/3)^-3 = (3/4)^3 = 27/64
+  tipps:
+  - 'Negative Hochzahl beim Bruch: Bruch umdrehen, dann mit positiver Hochzahl rechnen.'
+  - '`(4/3)^-3 = (3/4)^3`.'
+  fehler:
+  - antwort: 64/27
+    hinweis: 'Die negative Hochzahl heißt: Kehrwert. Den Bruch erst umdrehen.'
+  rechnung: (4/3)^-3
+- id: A3.3-038
+  typ: term
+  stufe: 4
+  term: (a^-5)^2 · a^6
+  form: potenz
+  loesung: 1/a^4
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (a^-5)^2 · a^6 = a^-10 · a^6 = 1/a^4
+  tipps:
+  - 'Zuerst die Klammer: Hochzahlen multiplizieren.'
+  - '`(a^-5)^2 = a^-10`. Dann Hochzahlen addieren.'
+  fehler:
+  - antwort: a^3
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'
+- id: A3.3-039
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `(2·10^-6) : (4·10^9)` und gib das Ergebnis in Gleitkommadarstellung an.'
+  loesung: 5·10^-16
+  form: gleitkomma
+  weg:
+  - '(2·10^-6) : (4·10^9) = 0,5·10^-15 = 5·10^-16'
+  tipps:
+  - Zahlen dividieren, Zehnerpotenzen dividieren (Hochzahlen subtrahieren).
+  - '`10^-6 : 10^9 = 10^(-6 - 9) = 10^-15`.'
+  - Steht vorne eine Zahl unter 1, schiebst du das Komma und verringerst die Hochzahl um 1.
+  fehler: []
+  rechnung: '(2·10^-6) : (4·10^9)'
+- id: A3.3-040
+  typ: term
+  stufe: 4
+  term: (a^-5)^2 · a^3
+  form: potenz
+  loesung: 1/a^7
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (a^-5)^2 · a^3 = a^-10 · a^3 = 1/a^7
+  tipps:
+  - 'Zuerst die Klammer: Hochzahlen multiplizieren.'
+  - '`(a^-5)^2 = a^-10`. Dann Hochzahlen addieren.'
+  fehler:
+  - antwort: a^0
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'

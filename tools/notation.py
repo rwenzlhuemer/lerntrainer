@@ -20,15 +20,19 @@ from sympy.parsing.sympy_parser import (
 # rationalize: 0,1 wird exakt 1/10 statt Gleitkomma – sonst scheitern Vergleiche wie 0,1·55 = 5,5
 _TRANSFORM = standard_transformations + (implicit_multiplication_application, convert_xor, rationalize)
 
+_HOCH = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁻", "0123456789-")
 _ERSETZUNGEN = [
-    ("−", "-"), ("–", "-"), ("·", "*"), ("×", "*"), (":", "/"), ("÷", "/"),
-    ("²", "^2"), ("³", "^3"), ("⁴", "^4"), ("√", "sqrt"), ("π", "pi"),
+    ("−", "-"), ("–", "-"), ("·", "*"), ("×", "*"), (":", "/"), ("÷", "/"), ("√", "sqrt"), ("π", "pi"),
 ]
 
 
 def zu_sympy_text(text: str) -> str:
     """Normalisiert Schulnotation zu einem Text, den parse_expr versteht."""
     t = text.strip()
+    # Hochgestellte Hochzahlen: x¹² → x^(12), x⁻² → x^(-2)
+    t = re.sub(r"[⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+", lambda m: "^(" + m.group(0).translate(_HOCH) + ")", t)
+    # √16 → sqrt(16), √x → sqrt(x), √(…) → sqrt(…)
+    t = re.sub(r"√\s*(\d+(?:[.,]\d+)?|[a-zA-Z])", r"sqrt(\1)", t).replace("√", "sqrt")
     # „3/4 : 2/5“ – ein Zahlenbruch nach „:“ gehört zusammen (wie in app/js/mathe.js)
     t = re.sub(r"[:÷]\s*(\d+(?:[.,]\d+)?)\s*/\s*(\d+(?:[.,]\d+)?)(?!\s*[\^²³⁴])", r"/(\1/\2)", t)
     for alt, neu in _ERSETZUNGEN:

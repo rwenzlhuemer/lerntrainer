@@ -1,0 +1,20 @@
+id: A3.5
+titel: Vorsilben und Einheiten
+ziel: Du rechnest Einheiten um – auch mit Vorsilben wie Mikro und bei Flächen und Volumen.
+erklaerung: |
+  Vorsilben sind Zehnerpotenzen:
+  - **Kilo** (k) = 1000, **Mega** (M) = 1 000 000, **Giga** (G) = 10⁹
+  - **Milli** (m) = 1/1000, **Mikro** (µ) = 1/1 000 000, **Nano** (n) = 10⁻⁹
+
+  In eine **kleinere** Einheit: mal – die Zahl wird größer. In eine **größere** Einheit: durch.
+
+  Bei **Flächen** zählt der Faktor doppelt: 1 m = 100 cm, also 1 m² = 100 · 100 cm² = 10 000 cm².
+  Bei **Volumen** dreifach. Merke: 1 dm³ = 1 Liter, 1 cm³ = 1 ml.
+
+  Geschwindigkeit: km/h durch 3,6 ergibt m/s.
+beispiel:
+  wert: "0,75"
+  text: |
+    Gramm sind kleiner als Kilogramm, also wird die Zahl kleiner: durch 1000.
+  weg:
+    - "750 : 1000 = 0,75 | 750 g = 0,75 kg"

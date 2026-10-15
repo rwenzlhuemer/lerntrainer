@@ -1,0 +1,641 @@
+# ERZEUGT von tools/generatoren/a1.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A1.1-001
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -9 °C. Bis zu Mittag wird es um 7 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-16'
+  weg:
+  - -9 - 7 = -16
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-9 - 7`.
+  fehler:
+  - antwort: '16'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-2'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -9 - 7
+  einheit: °C
+- id: A1.1-002
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -4 °C. Bis zu Mittag wird es um 10 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-14'
+  weg:
+  - -4 - 10 = -14
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-4 - 10`.
+  fehler:
+  - antwort: '14'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '6'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -4 - 10
+  einheit: °C
+- id: A1.1-003
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -12 °C. Bis zu Mittag wird es um 11 Grad wärmer. Wie viel Grad hat es zu Mittag?
+  loesung: '-1'
+  weg:
+  - -12 + 11 = -1
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-12 + 11`.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-23'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -12 + 11
+  einheit: °C
+- id: A1.1-004
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -10 °C. Bis zu Mittag wird es um 13 Grad wärmer. Wie viel Grad hat es zu Mittag?
+  loesung: '3'
+  weg:
+  - -10 + 13 = 3
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-10 + 13`.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-23'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -10 + 13
+  einheit: °C
+- id: A1.1-005
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -9 °C. Bis zu Mittag wird es um 15 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-24'
+  weg:
+  - -9 - 15 = -24
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-9 - 15`.
+  fehler:
+  - antwort: '24'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '6'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -9 - 15
+  einheit: °C
+- id: A1.1-006
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -11 °C. Bis zu Mittag wird es um 3 Grad wärmer. Wie viel Grad hat es zu Mittag?
+  loesung: '-8'
+  weg:
+  - -11 + 3 = -8
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-11 + 3`.
+  fehler:
+  - antwort: '8'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-14'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -11 + 3
+  einheit: °C
+- id: A1.1-007
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -3 °C. Bis zu Mittag wird es um 14 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-17'
+  weg:
+  - -3 - 14 = -17
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-3 - 14`.
+  fehler:
+  - antwort: '17'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '11'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -3 - 14
+  einheit: °C
+- id: A1.1-008
+  typ: zahl
+  stufe: 1
+  frage: Am Morgen hat es -4 °C. Bis zu Mittag wird es um 3 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-7'
+  weg:
+  - -4 - 3 = -7
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-4 - 3`.
+  fehler:
+  - antwort: '7'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-1'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -4 - 3
+  einheit: °C
+- id: A1.1-009
+  typ: auswahl
+  stufe: 1
+  frage: 'Welche Zahl ist größer: `9` oder `-5`?'
+  mathe: true
+  optionen:
+  - '9'
+  - '-5'
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: '9'
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-010
+  typ: auswahl
+  stufe: 1
+  frage: 'Welche Zahl ist größer: `-10` oder `-4`?'
+  mathe: true
+  optionen:
+  - '-10'
+  - '-4'
+  richtig:
+  - 1
+  pruefung:
+    art: wert
+    ziel: '-4'
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-011
+  typ: auswahl
+  stufe: 2
+  frage: Welche Zahl ist am **kleinsten**?
+  mathe: true
+  optionen:
+  - '10'
+  - '-13'
+  - '5'
+  - '-10'
+  richtig:
+  - 1
+  pruefung:
+    art: wert
+    ziel: '-13'
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3.'
+  tipps:
+  - Die kleinste Zahl liegt auf der Zahlengeraden ganz links.
+- id: A1.1-012
+  typ: zahl
+  stufe: 2
+  frage: Wie weit liegen die Zahlen -15 und 10 auf der Zahlengeraden auseinander?
+  loesung: '25'
+  weg:
+  - 10 - (-15) = 25
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`10 - (-15)` – minus minus ergibt plus.'
+  fehler:
+  - antwort: '5'
+    hinweis: Zähle die Schritte bis 0 und dann weiter – der Weg über die 0 gehört dazu.
+  rechnung: 10 - (-15)
+- id: A1.1-013
+  typ: zahl
+  stufe: 2
+  frage: Am Morgen hat es -7 °C. Bis zu Mittag wird es um 10 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-17'
+  weg:
+  - -7 - 10 = -17
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-7 - 10`.
+  fehler:
+  - antwort: '17'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '3'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -7 - 10
+  einheit: °C
+- id: A1.1-014
+  typ: zahl
+  stufe: 2
+  frage: Am Morgen hat es -1 °C. Bis zu Mittag wird es um 9 Grad wärmer. Wie viel Grad hat es zu Mittag?
+  loesung: '8'
+  weg:
+  - -1 + 9 = 8
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-1 + 9`.
+  fehler:
+  - antwort: '-8'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-10'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -1 + 9
+  einheit: °C
+- id: A1.1-015
+  typ: zahl
+  stufe: 2
+  frage: Am Morgen hat es -6 °C. Bis zu Mittag wird es um 10 Grad wärmer. Wie viel Grad hat es zu Mittag?
+  loesung: '4'
+  weg:
+  - -6 + 10 = 4
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-6 + 10`.
+  fehler:
+  - antwort: '-4'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '-16'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -6 + 10
+  einheit: °C
+- id: A1.1-016
+  typ: zahl
+  stufe: 2
+  frage: Am Morgen hat es -5 °C. Bis zu Mittag wird es um 11 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-16'
+  weg:
+  - -5 - 11 = -16
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-5 - 11`.
+  fehler:
+  - antwort: '16'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '6'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -5 - 11
+  einheit: °C
+- id: A1.1-017
+  typ: zahl
+  stufe: 2
+  frage: Am Morgen hat es -7 °C. Bis zu Mittag wird es um 7 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-14'
+  weg:
+  - -7 - 7 = -14
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-7 - 7`.
+  fehler:
+  - antwort: '14'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '0'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -7 - 7
+  einheit: °C
+- id: A1.1-018
+  typ: zahl
+  stufe: 2
+  frage: Wie weit liegen die Zahlen -12 und 14 auf der Zahlengeraden auseinander?
+  loesung: '26'
+  weg:
+  - 14 - (-12) = 26
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`14 - (-12)` – minus minus ergibt plus.'
+  fehler:
+  - antwort: '2'
+    hinweis: Zähle die Schritte bis 0 und dann weiter – der Weg über die 0 gehört dazu.
+  rechnung: 14 - (-12)
+- id: A1.1-019
+  typ: zahl
+  stufe: 2
+  frage: Am Morgen hat es -7 °C. Bis zu Mittag wird es um 11 Grad kälter. Wie viel Grad hat es zu Mittag?
+  loesung: '-18'
+  weg:
+  - -7 - 11 = -18
+  tipps:
+  - 'Wärmer heißt: auf dem Thermometer nach oben, also plus. Kälter heißt minus.'
+  - Rechne `-7 - 11`.
+  fehler:
+  - antwort: '18'
+    hinweis: 'Achte auf das Vorzeichen des Ergebnisses: Liegt es über oder unter 0?'
+  - antwort: '4'
+    hinweis: Wärmer heißt plus, kälter heißt minus.
+  rechnung: -7 - 11
+  einheit: °C
+- id: A1.1-020
+  typ: zahl
+  stufe: 2
+  frage: Wie weit liegen die Zahlen -9 und 3 auf der Zahlengeraden auseinander?
+  loesung: '12'
+  weg:
+  - 3 - (-9) = 12
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`3 - (-9)` – minus minus ergibt plus.'
+  fehler:
+  - antwort: '6'
+    hinweis: Zähle die Schritte bis 0 und dann weiter – der Weg über die 0 gehört dazu.
+  rechnung: 3 - (-9)
+- id: A1.1-021
+  typ: zahl
+  stufe: 3
+  frage: Wie weit liegen die Zahlen -28 und -12 auf der Zahlengeraden auseinander?
+  loesung: '16'
+  weg:
+  - -12 - (-28) = 16
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`-12 - (-28)` – minus minus ergibt plus.'
+  fehler: []
+  rechnung: -12 - (-28)
+- id: A1.1-022
+  typ: zahl
+  stufe: 3
+  frage: Wie weit liegen die Zahlen -16 und -10 auf der Zahlengeraden auseinander?
+  loesung: '6'
+  weg:
+  - -10 - (-16) = 6
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`-10 - (-16)` – minus minus ergibt plus.'
+  fehler: []
+  rechnung: -10 - (-16)
+- id: A1.1-023
+  typ: zahl
+  stufe: 3
+  frage: Wie weit liegen die Zahlen -39 und -26 auf der Zahlengeraden auseinander?
+  loesung: '13'
+  weg:
+  - -26 - (-39) = 13
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`-26 - (-39)` – minus minus ergibt plus.'
+  fehler: []
+  rechnung: -26 - (-39)
+- id: A1.1-024
+  typ: zahl
+  stufe: 3
+  frage: Wie weit liegen die Zahlen -5 und -4 auf der Zahlengeraden auseinander?
+  loesung: '1'
+  weg:
+  - -4 - (-5) = 1
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`-4 - (-5)` – minus minus ergibt plus.'
+  fehler: []
+  rechnung: -4 - (-5)
+- id: A1.1-025
+  typ: auswahl
+  stufe: 3
+  frage: 'Welche Zahl ist größer: `-0,7` oder `-0,65`?'
+  mathe: true
+  optionen:
+  - -0,7
+  - -0,65
+  richtig:
+  - 1
+  pruefung:
+    art: wert
+    ziel: -13/20
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-026
+  typ: zahl
+  stufe: 3
+  frage: Wie weit liegen die Zahlen -15 und -6 auf der Zahlengeraden auseinander?
+  loesung: '9'
+  weg:
+  - -6 - (-15) = 9
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`-6 - (-15)` – minus minus ergibt plus.'
+  fehler: []
+  rechnung: -6 - (-15)
+- id: A1.1-027
+  typ: zahl
+  stufe: 3
+  frage: Welche Zahl liegt auf der Zahlengeraden genau in der Mitte zwischen -13 und 15?
+  loesung: '1'
+  weg:
+  - (-13 + 15)/2 = 1
+  tipps:
+  - 'Die Mitte ist der Durchschnitt: beide Zahlen addieren, dann durch 2.'
+  - '`(-13 + 15) : 2`'
+  fehler:
+  - antwort: '14'
+    hinweis: 'Das ist der halbe Abstand. Die Mitte bekommst du mit (a + b) : 2.'
+  rechnung: (-13 + 15)/2
+- id: A1.1-028
+  typ: auswahl
+  stufe: 3
+  frage: 'Welche Zahl ist größer: `-0,1` oder `-0,42`?'
+  mathe: true
+  optionen:
+  - -0,1
+  - -0,42
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: -1/10
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-029
+  typ: auswahl
+  stufe: 3
+  frage: 'Welche Zahl ist größer: `-0,7` oder `-0,86`?'
+  mathe: true
+  optionen:
+  - -0,7
+  - -0,86
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: -7/10
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-030
+  typ: zahl
+  stufe: 3
+  frage: Wie weit liegen die Zahlen -38 und 12 auf der Zahlengeraden auseinander?
+  loesung: '50'
+  weg:
+  - 12 - (-38) = 50
+  tipps:
+  - 'Rechne: größere Zahl minus kleinere Zahl.'
+  - '`12 - (-38)` – minus minus ergibt plus.'
+  fehler:
+  - antwort: '26'
+    hinweis: Zähle die Schritte bis 0 und dann weiter – der Weg über die 0 gehört dazu.
+  rechnung: 12 - (-38)
+- id: A1.1-031
+  typ: zahl
+  stufe: 4
+  frage: Ein Konto steht bei -300 €. Es werden 200 € eingezahlt und danach 220 € abgebucht. Wie ist der neue Kontostand?
+  loesung: '-320'
+  weg:
+  - -300 + 200 - 220 = -320
+  tipps:
+  - 'Ein Minus-Kontostand heißt: Schulden. Einzahlen ist plus, abbuchen ist minus.'
+  - Rechne `-300 + 200 - 220`.
+  fehler:
+  - antwort: '320'
+    hinweis: 'Achte auf das Vorzeichen: Ist das Konto am Ende im Plus oder im Minus?'
+  - antwort: '280'
+    hinweis: Der Anfangsstand ist negativ – er steht mit Minus in der Rechnung.
+  rechnung: -300 + 200 - 220
+  einheit: €
+- id: A1.1-032
+  typ: zahl
+  stufe: 4
+  frage: Ein Konto steht bei -210 €. Es werden 490 € eingezahlt und danach 290 € abgebucht. Wie ist der neue Kontostand?
+  loesung: '-10'
+  weg:
+  - -210 + 490 - 290 = -10
+  tipps:
+  - 'Ein Minus-Kontostand heißt: Schulden. Einzahlen ist plus, abbuchen ist minus.'
+  - Rechne `-210 + 490 - 290`.
+  fehler:
+  - antwort: '10'
+    hinweis: 'Achte auf das Vorzeichen: Ist das Konto am Ende im Plus oder im Minus?'
+  - antwort: '410'
+    hinweis: Der Anfangsstand ist negativ – er steht mit Minus in der Rechnung.
+  rechnung: -210 + 490 - 290
+  einheit: €
+- id: A1.1-033
+  typ: auswahl
+  stufe: 4
+  frage: 'Welche Zahl ist größer: `-3/8` oder `-0,1`?'
+  mathe: true
+  optionen:
+  - -3/8
+  - -0,1
+  richtig:
+  - 1
+  pruefung:
+    art: wert
+    ziel: -1/10
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-034
+  typ: auswahl
+  stufe: 4
+  frage: 'Welche Zahl ist größer: `-5/8` oder `-0,7`?'
+  mathe: true
+  optionen:
+  - -5/8
+  - -0,7
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: -5/8
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-035
+  typ: zahl
+  stufe: 4
+  frage: Ein Konto steht bei -250 €. Es werden 490 € eingezahlt und danach 230 € abgebucht. Wie ist der neue Kontostand?
+  loesung: '10'
+  weg:
+  - -250 + 490 - 230 = 10
+  tipps:
+  - 'Ein Minus-Kontostand heißt: Schulden. Einzahlen ist plus, abbuchen ist minus.'
+  - Rechne `-250 + 490 - 230`.
+  fehler:
+  - antwort: '-10'
+    hinweis: 'Achte auf das Vorzeichen: Ist das Konto am Ende im Plus oder im Minus?'
+  - antwort: '510'
+    hinweis: Der Anfangsstand ist negativ – er steht mit Minus in der Rechnung.
+  rechnung: -250 + 490 - 230
+  einheit: €
+- id: A1.1-036
+  typ: auswahl
+  stufe: 4
+  frage: 'Welche Zahl ist größer: `-5/8` oder `-0,4`?'
+  mathe: true
+  optionen:
+  - -5/8
+  - -0,4
+  richtig:
+  - 1
+  pruefung:
+    art: wert
+    ziel: -2/5
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-037
+  typ: zahl
+  stufe: 4
+  frage: Ein Konto steht bei -80 €. Es werden 390 € eingezahlt und danach 170 € abgebucht. Wie ist der neue Kontostand?
+  loesung: '140'
+  weg:
+  - -80 + 390 - 170 = 140
+  tipps:
+  - 'Ein Minus-Kontostand heißt: Schulden. Einzahlen ist plus, abbuchen ist minus.'
+  - Rechne `-80 + 390 - 170`.
+  fehler:
+  - antwort: '-140'
+    hinweis: 'Achte auf das Vorzeichen: Ist das Konto am Ende im Plus oder im Minus?'
+  - antwort: '300'
+    hinweis: Der Anfangsstand ist negativ – er steht mit Minus in der Rechnung.
+  rechnung: -80 + 390 - 170
+  einheit: €
+- id: A1.1-038
+  typ: auswahl
+  stufe: 4
+  frage: 'Welche Zahl ist größer: `-1/4` oder `-0,6`?'
+  mathe: true
+  optionen:
+  - -1/4
+  - -0,6
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: -1/4
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'
+- id: A1.1-039
+  typ: zahl
+  stufe: 4
+  frage: Ein Konto steht bei -270 €. Es werden 510 € eingezahlt und danach 300 € abgebucht. Wie ist der neue Kontostand?
+  loesung: '-60'
+  weg:
+  - -270 + 510 - 300 = -60
+  tipps:
+  - 'Ein Minus-Kontostand heißt: Schulden. Einzahlen ist plus, abbuchen ist minus.'
+  - Rechne `-270 + 510 - 300`.
+  fehler:
+  - antwort: '60'
+    hinweis: 'Achte auf das Vorzeichen: Ist das Konto am Ende im Plus oder im Minus?'
+  - antwort: '480'
+    hinweis: Der Anfangsstand ist negativ – er steht mit Minus in der Rechnung.
+  rechnung: -270 + 510 - 300
+  einheit: €
+- id: A1.1-040
+  typ: auswahl
+  stufe: 4
+  frage: 'Welche Zahl ist größer: `-3/8` oder `-0,5`?'
+  mathe: true
+  optionen:
+  - -3/8
+  - -0,5
+  richtig:
+  - 0
+  pruefung:
+    art: wert
+    ziel: -3/8
+  erklaerung: 'Auf der Zahlengeraden liegt die größere Zahl immer weiter **rechts**. Bei negativen Zahlen heißt das: Je weiter weg von 0, desto **kleiner** – zum Beispiel ist -7 kleiner als -3. Brüche und
+    Dezimalzahlen vergleichst du am besten, wenn du beide als Dezimalzahl schreibst.'
+  tipps:
+  - 'Stell dir die Zahlengerade vor: Welche Zahl liegt weiter rechts?'

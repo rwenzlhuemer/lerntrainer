@@ -1,0 +1,399 @@
+# ERZEUGT von tools/generatoren/a1.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A1.5-001
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `0`?
+  optionen: &id001
+  - ℕ
+  - ℤ
+  - ℚ
+  - ℝ
+  - ℂ
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: '0'
+  erklaerung: Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ.
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-002
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `12`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: '12'
+  erklaerung: Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ.
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-003
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `5`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: '5'
+  erklaerung: Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ.
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-004
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `100`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: '100'
+  erklaerung: Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ.
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-005
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-7`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: zahlenmenge
+    zahl: '-7'
+  erklaerung: Die Zahl ist eine negative ganze Zahl. Sie gehört nicht zu ℕ, aber zu ℤ (…, -2, -1, 0, 1, 2, …).
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-006
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-3`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: zahlenmenge
+    zahl: '-3'
+  erklaerung: Die Zahl ist eine negative ganze Zahl. Sie gehört nicht zu ℕ, aber zu ℤ (…, -2, -1, 0, 1, 2, …).
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-007
+  typ: auswahl
+  stufe: 1
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-1`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: zahlenmenge
+    zahl: '-1'
+  erklaerung: Die Zahl ist eine negative ganze Zahl. Sie gehört nicht zu ℕ, aber zu ℤ (…, -2, -1, 0, 1, 2, …).
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-008
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `7/8`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: 7/8
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-009
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-0,5`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: -0,5
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-010
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√5`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: zahlenmenge
+    zahl: √5
+  erklaerung: 'Die Zahl lässt sich **nicht** als Bruch schreiben (unendlich viele Nachkommastellen ohne Muster, z. B. √2 oder π). Kleinste Menge: ℝ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-011
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-2/3`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: -2/3
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-012
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `2,5`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: 2,5
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-013
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `π`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: zahlenmenge
+    zahl: π
+  erklaerung: 'Die Zahl lässt sich **nicht** als Bruch schreiben (unendlich viele Nachkommastellen ohne Muster, z. B. √2 oder π). Kleinste Menge: ℝ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-014
+  typ: auswahl
+  stufe: 2
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `0,75`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: 0,75
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-015
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√8`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: zahlenmenge
+    zahl: √8
+  erklaerung: 'Die Zahl lässt sich **nicht** als Bruch schreiben (unendlich viele Nachkommastellen ohne Muster, z. B. √2 oder π). Kleinste Menge: ℝ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-016
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-√16`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: zahlenmenge
+    zahl: -√16
+  erklaerung: 'Die Zahl ist eine negative ganze Zahl. Sie gehört nicht zu ℕ, aber zu ℤ (…, -2, -1, 0, 1, 2, …). Hier hilft Ausrechnen: `-√16 = -4`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-017
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√25`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: √25
+  erklaerung: 'Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ. Hier hilft Ausrechnen: `√25 = 5`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-018
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-8/4`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: zahlenmenge
+    zahl: -8/4
+  erklaerung: 'Die Zahl ist eine negative ganze Zahl. Sie gehört nicht zu ℕ, aber zu ℤ (…, -2, -1, 0, 1, 2, …). Hier hilft Ausrechnen: `-8/4 = -2`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-019
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-√2`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: zahlenmenge
+    zahl: -√2
+  erklaerung: 'Die Zahl lässt sich **nicht** als Bruch schreiben (unendlich viele Nachkommastellen ohne Muster, z. B. √2 oder π). Kleinste Menge: ℝ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-020
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√0,09`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: √0,09
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ. Hier hilft Ausrechnen: `√0,09 = 3/10`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-021
+  typ: auswahl
+  stufe: 3
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `10/5`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: 10/5
+  erklaerung: 'Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ. Hier hilft Ausrechnen: `10/5 = 2`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-022
+  typ: auswahl
+  stufe: 4
+  frage: 'Zu welcher **kleinsten** Zahlenmenge gehört `√12 : √3`?'
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: zahlenmenge
+    zahl: '√12 : √3'
+  erklaerung: 'Die Zahl ist eine natürliche Zahl (0, 1, 2, 3, …). Damit gehört sie zu ℕ – und automatisch auch zu ℤ, ℚ, ℝ und ℂ. Hier hilft Ausrechnen: `√12 : √3 = 2`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-023
+  typ: auswahl
+  stufe: 4
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√(-4)`?
+  optionen: *id001
+  richtig:
+  - 4
+  pruefung:
+    art: zahlenmenge
+    zahl: √(-4)
+  erklaerung: Die Wurzel aus einer negativen Zahl gibt es in ℝ nicht. Solche Zahlen gehören zu den komplexen Zahlen ℂ.
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-024
+  typ: auswahl
+  stufe: 4
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `1/√4`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: 1/√4
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ. Hier hilft Ausrechnen: `1/√4 = 1/2`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-025
+  typ: auswahl
+  stufe: 4
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√(-9)`?
+  optionen: *id001
+  richtig:
+  - 4
+  pruefung:
+    art: zahlenmenge
+    zahl: √(-9)
+  erklaerung: Die Wurzel aus einer negativen Zahl gibt es in ℝ nicht. Solche Zahlen gehören zu den komplexen Zahlen ℂ.
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-026
+  typ: auswahl
+  stufe: 4
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `√2 + 1`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: zahlenmenge
+    zahl: √2 + 1
+  erklaerung: 'Die Zahl lässt sich **nicht** als Bruch schreiben (unendlich viele Nachkommastellen ohne Muster, z. B. √2 oder π). Kleinste Menge: ℝ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-027
+  typ: auswahl
+  stufe: 4
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `π - 3`?
+  optionen: *id001
+  richtig:
+  - 3
+  pruefung:
+    art: zahlenmenge
+    zahl: π - 3
+  erklaerung: 'Die Zahl lässt sich **nicht** als Bruch schreiben (unendlich viele Nachkommastellen ohne Muster, z. B. √2 oder π). Kleinste Menge: ℝ.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.
+- id: A1.5-028
+  typ: auswahl
+  stufe: 4
+  frage: Zu welcher **kleinsten** Zahlenmenge gehört `-√(1/9)`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: zahlenmenge
+    zahl: -√(1/9)
+  erklaerung: 'Die Zahl lässt sich als Bruch zweier ganzer Zahlen schreiben, ist aber nicht ganz. Kleinste Menge: ℚ. Hier hilft Ausrechnen: `-√(1/9) = -1/3`.'
+  tipps:
+  - 'ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ: Jede Menge enthält die vorige. Gesucht ist die erste, in der die Zahl vorkommt.'
+  - Rechne die Zahl zuerst aus, wenn es geht – manche Wurzeln oder Brüche sind in Wahrheit ganze Zahlen.

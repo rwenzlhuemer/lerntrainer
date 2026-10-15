@@ -17,6 +17,7 @@ und schreibt nichts.
 import hashlib
 import json
 import math
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -138,7 +139,7 @@ def gleicher_term(t1: str, t2: str) -> bool:
     return sympy.simplify(notation.ausdruck(t1) - notation.ausdruck(t2)) == 0
 
 
-TERM_FORMEN = {"zusammengefasst", "ausmultipliziert", "faktor", "gekuerzt", "frei"}
+TERM_FORMEN = {"zusammengefasst", "ausmultipliziert", "faktor", "gekuerzt", "potenz", "frei"}
 
 
 def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
@@ -178,6 +179,10 @@ def pruefe_zahlform(a: dict, wo: str, fehler: Fehlerliste):
     elif form == "dezimal":
         if "/" in l:
             fehler.melde(wo, f"Lösung {l!r} ist keine Dezimalzahl")
+    elif form == "gleitkomma":
+        m = re.fullmatch(r"-?(\d+(?:[.,]\d+)?)·10\^\(?-?\d+\)?", l)
+        if not m or not (1 <= float(m.group(1).replace(",", ".")) < 10):
+            fehler.melde(wo, f"Lösung {l!r} ist keine Gleitkommadarstellung")
     elif form is not None:
         fehler.melde(wo, f"unbekannte Form {form!r}")
 
@@ -202,6 +207,14 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
                 erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] == "zahlenmenge":
+            # Optionen ℕ, ℤ, ℚ, ℝ, ℂ – richtig ist die kleinste Menge, zu der die Zahl gehört (ℕ mit 0)
+            v = sympy.nsimplify(notation.ausdruck(str(p["zahl"])))
+            stufe = (0 if v.is_integer and v >= 0 else 1 if v.is_integer else 2 if v.is_rational
+                     else 3 if v.is_real else 4)
+            if optionen != ["ℕ", "ℤ", "ℚ", "ℝ", "ℂ"] or richtig != [stufe]:
+                fehler.melde(wo, f"Zahlenmenge von {p['zahl']!r}: richtig wäre {stufe}, angegeben {richtig}")
             return
         menge = notation.loesungsmenge(p["gleichung"])
         if p["art"] == "einsetzen":

@@ -1,0 +1,602 @@
+# ERZEUGT von tools/generatoren/a1.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A1.4-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne `5 - 9 · 6`.
+  loesung: '-49'
+  weg:
+  - 5 - 9 · 6 = -49
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  fehler:
+  - antwort: '-24'
+    hinweis: 'Punkt vor Strich: Zuerst wird multipliziert.'
+  rechnung: 5 - 9 · 6
+- id: A1.4-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne `5 + 3 · 6`.
+  loesung: '23'
+  weg:
+  - 5 + 3 · 6 = 23
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  fehler:
+  - antwort: '48'
+    hinweis: 'Punkt vor Strich: Zuerst wird multipliziert.'
+  rechnung: 5 + 3 · 6
+- id: A1.4-003
+  typ: zahl
+  stufe: 1
+  frage: 'Berechne `72 : 8 + 5`.'
+  loesung: '14'
+  weg:
+  - '72 : 8 + 5 = 14'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst wird dividiert.'
+  fehler:
+  - antwort: 72/13
+    hinweis: 'Punkt vor Strich: Zuerst wird dividiert.'
+  rechnung: '72 : 8 + 5'
+- id: A1.4-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne `(9 + 7) · 6`.
+  loesung: '96'
+  weg:
+  - (9 + 7) · 6 = 96
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Die Klammer kommt zuerst.
+  fehler:
+  - antwort: '51'
+    hinweis: Die Klammer kommt zuerst.
+  rechnung: (9 + 7) · 6
+- id: A1.4-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne `(2 + 5) · 8`.
+  loesung: '56'
+  weg:
+  - (2 + 5) · 8 = 56
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Die Klammer kommt zuerst.
+  fehler:
+  - antwort: '42'
+    hinweis: Die Klammer kommt zuerst.
+  rechnung: (2 + 5) · 8
+- id: A1.4-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne `8 - 4 · 7`.
+  loesung: '-20'
+  weg:
+  - 8 - 4 · 7 = -20
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  fehler:
+  - antwort: '28'
+    hinweis: 'Punkt vor Strich: Zuerst wird multipliziert.'
+  rechnung: 8 - 4 · 7
+- id: A1.4-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne `9 - 8 · 6`.
+  loesung: '-39'
+  weg:
+  - 9 - 8 · 6 = -39
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  fehler:
+  - antwort: '6'
+    hinweis: 'Punkt vor Strich: Zuerst wird multipliziert.'
+  rechnung: 9 - 8 · 6
+- id: A1.4-008
+  typ: zahl
+  stufe: 1
+  frage: Berechne `(5 + 6) · 9`.
+  loesung: '99'
+  weg:
+  - (5 + 6) · 9 = 99
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Die Klammer kommt zuerst.
+  fehler:
+  - antwort: '59'
+    hinweis: Die Klammer kommt zuerst.
+  rechnung: (5 + 6) · 9
+- id: A1.4-009
+  typ: zahl
+  stufe: 1
+  frage: Berechne `8 - 7 · 2`.
+  loesung: '-6'
+  weg:
+  - 8 - 7 · 2 = -6
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst wird multipliziert.'
+  fehler:
+  - antwort: '2'
+    hinweis: 'Punkt vor Strich: Zuerst wird multipliziert.'
+  rechnung: 8 - 7 · 2
+- id: A1.4-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne `(4 + 5) · 7`.
+  loesung: '63'
+  weg:
+  - (4 + 5) · 7 = 63
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Die Klammer kommt zuerst.
+  fehler:
+  - antwort: '39'
+    hinweis: Die Klammer kommt zuerst.
+  rechnung: (4 + 5) · 7
+- id: A1.4-011
+  typ: zahl
+  stufe: 2
+  frage: Berechne `5² + 6 · 7`.
+  loesung: '67'
+  weg:
+  - 5² + 6 · 7 = 67
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Erst Hochzahl, dann Punkt, dann Strich.
+  fehler:
+  - antwort: '217'
+    hinweis: Erst Hochzahl, dann Punkt, dann Strich.
+  rechnung: 5² + 6 · 7
+- id: A1.4-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne `2 - 9 + 8`.
+  loesung: '1'
+  weg:
+  - 2 - 9 + 8 = 1
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Plus und Minus rechnest du von links nach rechts.
+  fehler:
+  - antwort: '-15'
+    hinweis: Plus und Minus rechnest du von links nach rechts.
+  rechnung: 2 - 9 + 8
+- id: A1.4-013
+  typ: zahl
+  stufe: 2
+  frage: Berechne `9² + 2 · 3`.
+  loesung: '87'
+  weg:
+  - 9² + 2 · 3 = 87
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Erst Hochzahl, dann Punkt, dann Strich.
+  fehler:
+  - antwort: '249'
+    hinweis: Erst Hochzahl, dann Punkt, dann Strich.
+  rechnung: 9² + 2 · 3
+- id: A1.4-014
+  typ: zahl
+  stufe: 2
+  frage: Berechne `5 · 8²`.
+  loesung: '320'
+  weg:
+  - 5 · 8² = 320
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  fehler:
+  - antwort: '1600'
+    hinweis: 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  rechnung: 5 · 8²
+- id: A1.4-015
+  typ: zahl
+  stufe: 2
+  frage: 'Berechne `64 : 8 · 9`.'
+  loesung: '72'
+  weg:
+  - '64 : 8 · 9 = 72'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Mal und Durch rechnest du von links nach rechts.
+  fehler:
+  - antwort: 8/9
+    hinweis: Mal und Durch rechnest du von links nach rechts.
+  rechnung: '64 : 8 · 9'
+- id: A1.4-016
+  typ: zahl
+  stufe: 2
+  frage: Berechne `7 - (9 - 8) · 4`.
+  loesung: '3'
+  weg:
+  - 7 - (9 - 8) · 4 = 3
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Zuerst die Klammer, dann Punkt vor Strich.
+  fehler:
+  - antwort: '-40'
+    hinweis: Zuerst die Klammer, dann Punkt vor Strich.
+  rechnung: 7 - (9 - 8) · 4
+- id: A1.4-017
+  typ: zahl
+  stufe: 2
+  frage: Berechne `2 · 9²`.
+  loesung: '162'
+  weg:
+  - 2 · 9² = 162
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  fehler:
+  - antwort: '324'
+    hinweis: 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  rechnung: 2 · 9²
+- id: A1.4-018
+  typ: zahl
+  stufe: 2
+  frage: Berechne `5 · 2²`.
+  loesung: '20'
+  weg:
+  - 5 · 2² = 20
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  fehler:
+  - antwort: '100'
+    hinweis: 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  rechnung: 5 · 2²
+- id: A1.4-019
+  typ: zahl
+  stufe: 2
+  frage: Berechne `9 · 4²`.
+  loesung: '144'
+  weg:
+  - 9 · 4² = 144
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  fehler:
+  - antwort: '1296'
+    hinweis: 'Hochzahl vor Punkt: Zuerst wird quadriert.'
+  rechnung: 9 · 4²
+- id: A1.4-020
+  typ: zahl
+  stufe: 2
+  frage: Berechne `3 - 9 + 6`.
+  loesung: '0'
+  weg:
+  - 3 - 9 + 6 = 0
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Plus und Minus rechnest du von links nach rechts.
+  fehler:
+  - antwort: '-12'
+    hinweis: Plus und Minus rechnest du von links nach rechts.
+  rechnung: 3 - 9 + 6
+- id: A1.4-021
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(-8)² - 3`.
+  loesung: '61'
+  weg:
+  - (-8)² - 3 = 61
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`(-3)² = (-3) · (-3) = +9`.'
+  fehler:
+  - antwort: '-67'
+    hinweis: '`(-3)² = (-3) · (-3) = +9`.'
+  rechnung: (-8)² - 3
+- id: A1.4-022
+  typ: zahl
+  stufe: 3
+  frage: Berechne `2 · (8 - 5)² - 7`.
+  loesung: '11'
+  weg:
+  - 2 · (8 - 5)² - 7 = 11
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst die Klammer, dann quadrieren, dann mal.'
+  fehler:
+  - antwort: '29'
+    hinweis: 'Hochzahl vor Punkt: Zuerst die Klammer, dann quadrieren, dann mal.'
+  rechnung: 2 · (8 - 5)² - 7
+- id: A1.4-023
+  typ: zahl
+  stufe: 3
+  frage: Berechne `2 · (8 - 9)² - 4`.
+  loesung: '-2'
+  weg:
+  - 2 · (8 - 9)² - 4 = -2
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst die Klammer, dann quadrieren, dann mal.'
+  fehler:
+  - antwort: '0'
+    hinweis: 'Hochzahl vor Punkt: Zuerst die Klammer, dann quadrieren, dann mal.'
+  rechnung: 2 · (8 - 9)² - 4
+- id: A1.4-024
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(-8)² - 5`.
+  loesung: '59'
+  weg:
+  - (-8)² - 5 = 59
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`(-3)² = (-3) · (-3) = +9`.'
+  fehler:
+  - antwort: '-69'
+    hinweis: '`(-3)² = (-3) · (-3) = +9`.'
+  rechnung: (-8)² - 5
+- id: A1.4-025
+  typ: zahl
+  stufe: 3
+  frage: Berechne `3 - 4 · (8 - 6)`.
+  loesung: '-5'
+  weg:
+  - 3 - 4 · (8 - 6) = -5
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst `4 · (…)`.'
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Punkt vor Strich: Zuerst `4 · (…)`.'
+  rechnung: 3 - 4 · (8 - 6)
+- id: A1.4-026
+  typ: zahl
+  stufe: 3
+  frage: Berechne `-8² + 3`.
+  loesung: '-61'
+  weg:
+  - -8² + 3 = -61
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`-3²` heißt `-(3²) = -9`. Nur bei `(-3)²` wird die -3 quadriert.'
+  fehler:
+  - antwort: '67'
+    hinweis: '`-3²` heißt `-(3²) = -9`. Nur bei `(-3)²` wird die -3 quadriert.'
+  rechnung: -8² + 3
+- id: A1.4-027
+  typ: zahl
+  stufe: 3
+  frage: Berechne `8 · (2 - 6)² - 5`.
+  loesung: '123'
+  weg:
+  - 8 · (2 - 6)² - 5 = 123
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Hochzahl vor Punkt: Zuerst die Klammer, dann quadrieren, dann mal.'
+  fehler:
+  - antwort: '1019'
+    hinweis: 'Hochzahl vor Punkt: Zuerst die Klammer, dann quadrieren, dann mal.'
+  rechnung: 8 · (2 - 6)² - 5
+- id: A1.4-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne `-6² + 2`.
+  loesung: '-34'
+  weg:
+  - -6² + 2 = -34
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`-3²` heißt `-(3²) = -9`. Nur bei `(-3)²` wird die -3 quadriert.'
+  fehler:
+  - antwort: '38'
+    hinweis: '`-3²` heißt `-(3²) = -9`. Nur bei `(-3)²` wird die -3 quadriert.'
+  rechnung: -6² + 2
+- id: A1.4-029
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(-8)² - 7`.
+  loesung: '57'
+  weg:
+  - (-8)² - 7 = 57
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`(-3)² = (-3) · (-3) = +9`.'
+  fehler:
+  - antwort: '-71'
+    hinweis: '`(-3)² = (-3) · (-3) = +9`.'
+  rechnung: (-8)² - 7
+- id: A1.4-030
+  typ: zahl
+  stufe: 3
+  frage: Berechne `4 - 9 · (2 - 8)`.
+  loesung: '58'
+  weg:
+  - 4 - 9 · (2 - 8) = 58
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: Zuerst `9 · (…)`.'
+  fehler:
+  - antwort: '30'
+    hinweis: 'Punkt vor Strich: Zuerst `9 · (…)`.'
+  rechnung: 4 - 9 · (2 - 8)
+- id: A1.4-031
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `6 - 7 · (4 - 8)² : 8`.'
+  loesung: '-8'
+  weg:
+  - '6 - 7 · (4 - 8)² : 8 = -8'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Punkt vor Strich – und Hochzahl vor Punkt.
+  fehler:
+  - antwort: '-2'
+    hinweis: Punkt vor Strich – und Hochzahl vor Punkt.
+  rechnung: '6 - 7 · (4 - 8)² : 8'
+- id: A1.4-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(-2)³ + 8 · (3 - 2 · 7)`.
+  loesung: '-96'
+  weg:
+  - (-2)³ + 8 · (3 - 2 · 7) = -96
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Erst die Klammer (innen Punkt vor Strich), dann Hochzahl, dann Punkt vor Strich.
+  fehler:
+  - antwort: '146'
+    hinweis: Erst die Klammer (innen Punkt vor Strich), dann Hochzahl, dann Punkt vor Strich.
+  rechnung: (-2)³ + 8 · (3 - 2 · 7)
+- id: A1.4-033
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `(8 - 18) : 2 - 4 · (-6)`.'
+  loesung: '19'
+  weg:
+  - '(8 - 18) : 2 - 4 · (-6) = 19'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: zuerst teilen und multiplizieren.'
+  fehler:
+  - antwort: '-30'
+    hinweis: 'Punkt vor Strich: zuerst teilen und multiplizieren.'
+  rechnung: '(8 - 18) : 2 - 4 · (-6)'
+- id: A1.4-034
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `(6 - 18) : 3 - 2 · (-7)`.'
+  loesung: '10'
+  weg:
+  - '(6 - 18) : 3 - 2 · (-7) = 10'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - 'Punkt vor Strich: zuerst teilen und multiplizieren.'
+  fehler:
+  - antwort: '84'
+    hinweis: 'Punkt vor Strich: zuerst teilen und multiplizieren.'
+  rechnung: '(6 - 18) : 3 - 2 · (-7)'
+- id: A1.4-035
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-3² - (-3)²`.
+  loesung: '-18'
+  weg:
+  - -3² - (-3)² = -18
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`-a²` und `(-a)²` sind verschieden: Das erste ist negativ, das zweite positiv.'
+  fehler:
+  - antwort: '0'
+    hinweis: '`-a²` und `(-a)²` sind verschieden: Das erste ist negativ, das zweite positiv.'
+  rechnung: -3² - (-3)²
+- id: A1.4-036
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `36 : (3 + 6) · 9 - 2³`.'
+  loesung: '28'
+  weg:
+  - '36 : (3 + 6) · 9 - 2³ = 28'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Mal und Durch von links nach rechts – und 2³ = 8.
+  fehler:
+  - antwort: -68/9
+    hinweis: Mal und Durch von links nach rechts – und 2³ = 8.
+  rechnung: '36 : (3 + 6) · 9 - 2³'
+- id: A1.4-037
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(-7)³ + 5 · (3 - 2 · 4)`.
+  loesung: '-368'
+  weg:
+  - (-7)³ + 5 · (3 - 2 · 4) = -368
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Erst die Klammer (innen Punkt vor Strich), dann Hochzahl, dann Punkt vor Strich.
+  fehler:
+  - antwort: '-291'
+    hinweis: Erst die Klammer (innen Punkt vor Strich), dann Hochzahl, dann Punkt vor Strich.
+  rechnung: (-7)³ + 5 · (3 - 2 · 4)
+- id: A1.4-038
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-2² - (-2)²`.
+  loesung: '-8'
+  weg:
+  - -2² - (-2)² = -8
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`-a²` und `(-a)²` sind verschieden: Das erste ist negativ, das zweite positiv.'
+  fehler:
+  - antwort: '0'
+    hinweis: '`-a²` und `(-a)²` sind verschieden: Das erste ist negativ, das zweite positiv.'
+  rechnung: -2² - (-2)²
+- id: A1.4-039
+  typ: zahl
+  stufe: 4
+  frage: 'Berechne `4 - 6 · (9 - 2)² : 2`.'
+  loesung: '-143'
+  weg:
+  - '4 - 6 · (9 - 2)² : 2 = -143'
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - Punkt vor Strich – und Hochzahl vor Punkt.
+  fehler:
+  - antwort: '-49'
+    hinweis: Punkt vor Strich – und Hochzahl vor Punkt.
+  rechnung: '4 - 6 · (9 - 2)² : 2'
+- id: A1.4-040
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-4² - (-4)²`.
+  loesung: '-32'
+  weg:
+  - -4² - (-4)² = -32
+  tipps:
+  - 'Die Reihenfolge: **Klammer** vor **Hochzahl** vor **Punkt** (· :) vor **Strich** (+ −).'
+  - Gleichrangiges rechnest du von links nach rechts.
+  - '`-a²` und `(-a)²` sind verschieden: Das erste ist negativ, das zweite positiv.'
+  fehler:
+  - antwort: '0'
+    hinweis: '`-a²` und `(-a)²` sind verschieden: Das erste ist negativ, das zweite positiv.'
+  rechnung: -4² - (-4)²

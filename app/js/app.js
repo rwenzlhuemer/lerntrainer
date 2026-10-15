@@ -329,8 +329,8 @@ async function seiteUeben(lid, testModus) {
     const feld = ort.querySelector("#feld");
     const symbole = haupt.querySelector("#symbole");
     symbole.hidden = !feld;
-    const zeichen = istTerm ? [...[...M.variablen(M.lies(a.loesung).term)].sort(), "²", "(", ")", "·", "/", "+", "−", ","]
-      : a.typ === "zahl" && a.form ? ["/", "−", ",", "(", ")"] : SYMBOLE;
+    const zeichen = istTerm ? [...[...M.variablen(M.lies(a.loesung).term)].sort(), "²", "^", "(", ")", "·", "/", "+", "−", ","]
+      : a.form === "gleitkomma" ? ["·", "10", "^", "−", ","] : a.typ === "zahl" ? ["/", "−", ",", "(", ")", "^"] : SYMBOLE;
     symbole.innerHTML = zeichen.map((s) => `<button type="button" class="sym" data-s="${s}">${s}</button>`).join("") +
       `<button type="button" class="sym" data-s="⌫" aria-label="Zeichen löschen">⌫</button>`;
     if (feld) {

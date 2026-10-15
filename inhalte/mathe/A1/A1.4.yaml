@@ -1,0 +1,21 @@
+id: A1.4
+titel: Vorrangregeln
+ziel: Du rechnest längere Ausdrücke in der richtigen Reihenfolge.
+erklaerung: |
+  Die Reihenfolge ist immer dieselbe:
+  1. **Klammer**
+  2. **Hochzahl** (Potenz)
+  3. **Punkt**rechnung: mal und durch
+  4. **Strich**rechnung: plus und minus
+
+  Gleichrangiges rechnest du **von links nach rechts**: `8 - 3 + 2 = 7` (nicht 3!).
+
+  Achtung bei Hochzahlen und Minus: `-3² = -(3 · 3) = -9`, aber `(-3)² = (-3) · (-3) = 9`.
+beispiel:
+  wert: "22"
+  text: |
+    Zuerst die Klammer, dann die Hochzahl, dann mal, zuletzt plus.
+  weg:
+    - "4 + 2 · (5 - 2)² = 4 + 2 · 3² | Klammer"
+    - "4 + 2 · 3² = 4 + 2 · 9 | Hochzahl"
+    - "4 + 2 · 9 = 4 + 18 = 22 | Punkt vor Strich"

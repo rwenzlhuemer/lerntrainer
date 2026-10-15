@@ -1,0 +1,19 @@
+id: A3.4
+titel: Wurzeln und Bruch-Hochzahlen
+ziel: Du berechnest Wurzeln und verstehst die Wurzel als Potenz mit Bruch-Hochzahl.
+erklaerung: |
+  Die **Quadratwurzel** `√a` ist die positive Zahl, die mit sich selbst multipliziert a ergibt:
+  `√49 = 7`, weil `7 · 7 = 49`.
+
+  Rechenregeln: `√a · √b = √(a · b)` und `√a : √b = √(a : b)`.
+  So wird aus zwei „krummen“ Wurzeln oft eine glatte Zahl: `√2 · √8 = √16 = 4`.
+  **Aber:** Die Wurzel einer Summe ist nicht die Summe der Wurzeln: `√(9 + 16) = 5`, nicht 7.
+
+  **Wurzel als Potenz:** `√a = a^(1/2)`, die n-te Wurzel ist `a^(1/n)`.
+  `8^(1/3) = 2`, weil `2 · 2 · 2 = 8`. Und `8^(2/3) = 2^2 = 4`.
+beispiel:
+  wert: "9"
+  text: |
+    `27^(1/3)` ist 3 (weil 3 · 3 · 3 = 27). Danach noch hoch 2.
+  weg:
+    - "27^(2/3) = 3^2 = 9"

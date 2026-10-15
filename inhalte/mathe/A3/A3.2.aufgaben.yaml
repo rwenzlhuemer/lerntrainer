@@ -1,0 +1,642 @@
+# ERZEUGT von tools/generatoren/a3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A3.2-001
+  typ: term
+  stufe: 1
+  term: (x^7)^2
+  form: potenz
+  loesung: x^14
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (x^7)^2 = x^14
+  tipps:
+  - 'Potenz einer Potenz: Hochzahlen **multiplizieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 14.'
+  fehler:
+  - antwort: x^9
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-002
+  typ: term
+  stufe: 1
+  term: 'a^7 : a^4'
+  form: potenz
+  loesung: a^3
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 'a^7 : a^4 = a^3'
+  tipps:
+  - 'Gleiche Basis dividieren: Hochzahlen **subtrahieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: a: 3.'
+  fehler:
+  - antwort: a^11
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-003
+  typ: term
+  stufe: 1
+  term: 'b^11 : b^6'
+  form: potenz
+  loesung: b^5
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 'b^11 : b^6 = b^5'
+  tipps:
+  - 'Gleiche Basis dividieren: Hochzahlen **subtrahieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: b: 5.'
+  fehler:
+  - antwort: b^17
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-004
+  typ: term
+  stufe: 1
+  term: 'x^8 : x^5'
+  form: potenz
+  loesung: x^3
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 'x^8 : x^5 = x^3'
+  tipps:
+  - 'Gleiche Basis dividieren: Hochzahlen **subtrahieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 3.'
+  fehler:
+  - antwort: x^13
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-005
+  typ: term
+  stufe: 1
+  term: x^3 · x^2
+  form: potenz
+  loesung: x^5
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^3 · x^2 = x^5
+  tipps:
+  - 'Gleiche Basis multiplizieren: Hochzahlen **addieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 5.'
+  fehler:
+  - antwort: x^6
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-006
+  typ: term
+  stufe: 1
+  term: 'a^8 : a^5'
+  form: potenz
+  loesung: a^3
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 'a^8 : a^5 = a^3'
+  tipps:
+  - 'Gleiche Basis dividieren: Hochzahlen **subtrahieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: a: 3.'
+  fehler:
+  - antwort: a^13
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-007
+  typ: term
+  stufe: 1
+  term: (x^3)^4
+  form: potenz
+  loesung: x^12
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (x^3)^4 = x^12
+  tipps:
+  - 'Potenz einer Potenz: Hochzahlen **multiplizieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 12.'
+  fehler:
+  - antwort: x^7
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-008
+  typ: term
+  stufe: 1
+  term: b^5 · b^2
+  form: potenz
+  loesung: b^7
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - b^5 · b^2 = b^7
+  tipps:
+  - 'Gleiche Basis multiplizieren: Hochzahlen **addieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: b: 7.'
+  fehler:
+  - antwort: b^10
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-009
+  typ: term
+  stufe: 1
+  term: (b^6)^3
+  form: potenz
+  loesung: b^18
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (b^6)^3 = b^18
+  tipps:
+  - 'Potenz einer Potenz: Hochzahlen **multiplizieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: b: 18.'
+  fehler:
+  - antwort: b^9
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-010
+  typ: term
+  stufe: 1
+  term: (b^5)^2
+  form: potenz
+  loesung: b^10
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (b^5)^2 = b^10
+  tipps:
+  - 'Potenz einer Potenz: Hochzahlen **multiplizieren**.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: b: 10.'
+  fehler:
+  - antwort: b^7
+    hinweis: 'Verwechselt: Beim Multiplizieren addierst du, beim Potenzieren multiplizierst du die Hochzahlen.'
+- id: A3.2-011
+  typ: term
+  stufe: 2
+  term: 4a^6 · 2a^4
+  form: potenz
+  loesung: 8a^10
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 4a^6 · 2a^4 = 8a^10
+  tipps:
+  - Zahlen multiplizieren, Hochzahlen addieren.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: a: 10.'
+  fehler:
+  - antwort: 8a^24
+    hinweis: Die Hochzahlen werden addiert, nicht multipliziert.
+- id: A3.2-012
+  typ: term
+  stufe: 2
+  term: (2b^5)^2
+  form: potenz
+  loesung: 4b^10
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (2b^5)^2 = 4b^10
+  tipps:
+  - Jeder Faktor in der Klammer wird potenziert – auch die Zahl.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: b: 10.'
+  fehler:
+  - antwort: 2b^10
+    hinweis: 'Auch die Zahl 2 wird hoch 2 genommen: `2^2 = 4`.'
+- id: A3.2-013
+  typ: term
+  stufe: 2
+  term: 4x^4 · 4x^5
+  form: potenz
+  loesung: 16x^9
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 4x^4 · 4x^5 = 16x^9
+  tipps:
+  - Zahlen multiplizieren, Hochzahlen addieren.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 9.'
+  fehler:
+  - antwort: 16x^20
+    hinweis: Die Hochzahlen werden addiert, nicht multipliziert.
+- id: A3.2-014
+  typ: term
+  stufe: 2
+  term: (3x^4)^2
+  form: potenz
+  loesung: 9x^8
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (3x^4)^2 = 9x^8
+  tipps:
+  - Jeder Faktor in der Klammer wird potenziert – auch die Zahl.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 8.'
+  fehler:
+  - antwort: 3x^8
+    hinweis: 'Auch die Zahl 3 wird hoch 2 genommen: `3^2 = 9`.'
+- id: A3.2-015
+  typ: term
+  stufe: 2
+  term: (2a^4)^2
+  form: potenz
+  loesung: 4a^8
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (2a^4)^2 = 4a^8
+  tipps:
+  - Jeder Faktor in der Klammer wird potenziert – auch die Zahl.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: a: 8.'
+  fehler:
+  - antwort: 2a^8
+    hinweis: 'Auch die Zahl 2 wird hoch 2 genommen: `2^2 = 4`.'
+- id: A3.2-016
+  typ: term
+  stufe: 2
+  term: 5x^5 · 5x^2
+  form: potenz
+  loesung: 25x^7
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 5x^5 · 5x^2 = 25x^7
+  tipps:
+  - Zahlen multiplizieren, Hochzahlen addieren.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 7.'
+  fehler:
+  - antwort: 25x^10
+    hinweis: Die Hochzahlen werden addiert, nicht multipliziert.
+- id: A3.2-017
+  typ: term
+  stufe: 2
+  term: (4a^6)^2
+  form: potenz
+  loesung: 16a^12
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (4a^6)^2 = 16a^12
+  tipps:
+  - Jeder Faktor in der Klammer wird potenziert – auch die Zahl.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: a: 12.'
+  fehler:
+  - antwort: 4a^12
+    hinweis: 'Auch die Zahl 4 wird hoch 2 genommen: `4^2 = 16`.'
+- id: A3.2-018
+  typ: term
+  stufe: 2
+  term: (6b^4)^3
+  form: potenz
+  loesung: 216b^12
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (6b^4)^3 = 216b^12
+  tipps:
+  - Jeder Faktor in der Klammer wird potenziert – auch die Zahl.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: b: 12.'
+  fehler:
+  - antwort: 6b^12
+    hinweis: 'Auch die Zahl 6 wird hoch 3 genommen: `6^3 = 216`.'
+- id: A3.2-019
+  typ: term
+  stufe: 2
+  term: 4a^3 · 2a^2
+  form: potenz
+  loesung: 8a^5
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - 4a^3 · 2a^2 = 8a^5
+  tipps:
+  - Zahlen multiplizieren, Hochzahlen addieren.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: a: 5.'
+  fehler:
+  - antwort: 8a^6
+    hinweis: Die Hochzahlen werden addiert, nicht multipliziert.
+- id: A3.2-020
+  typ: term
+  stufe: 2
+  term: (2x^3)^2
+  form: potenz
+  loesung: 4x^6
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (2x^3)^2 = 4x^6
+  tipps:
+  - Jeder Faktor in der Klammer wird potenziert – auch die Zahl.
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 6.'
+  fehler:
+  - antwort: 2x^6
+    hinweis: 'Auch die Zahl 2 wird hoch 2 genommen: `2^2 = 4`.'
+- id: A3.2-021
+  typ: term
+  stufe: 3
+  term: (a^2b^5)^2
+  form: potenz
+  loesung: a^4b^10
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (a^2b^5)^2 = a^4b^10
+  tipps:
+  - 'Jeder Faktor in der Klammer wird potenziert: Hochzahlen multiplizieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: a: 4, b: 10.'
+  fehler:
+  - antwort: a^4b^7
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'
+- id: A3.2-022
+  typ: term
+  stufe: 3
+  term: x^4y^6/(x^2y^3)
+  form: potenz
+  loesung: x^2y^3
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^4y^6/(x^2y^3) = x^2y^3
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 2, y: 3.'
+  fehler:
+  - antwort: x^6y^9
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-023
+  typ: term
+  stufe: 3
+  term: (a^3b^2)^3
+  form: potenz
+  loesung: a^9b^6
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (a^3b^2)^3 = a^9b^6
+  tipps:
+  - 'Jeder Faktor in der Klammer wird potenziert: Hochzahlen multiplizieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: a: 9, b: 6.'
+  fehler:
+  - antwort: a^6b^5
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'
+- id: A3.2-024
+  typ: term
+  stufe: 3
+  term: (a^5b^2)^2
+  form: potenz
+  loesung: a^10b^4
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (a^5b^2)^2 = a^10b^4
+  tipps:
+  - 'Jeder Faktor in der Klammer wird potenziert: Hochzahlen multiplizieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: a: 10, b: 4.'
+  fehler:
+  - antwort: a^7b^4
+    hinweis: 'Potenz einer Potenz: Hochzahlen multiplizieren, nicht addieren.'
+- id: A3.2-025
+  typ: term
+  stufe: 3
+  term: a^5b^4 · ab^3
+  form: potenz
+  loesung: a^6b^7
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - a^5b^4 · ab^3 = a^6b^7
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen von a addieren, Hochzahlen von b addieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: a: 6, b: 7.'
+  fehler:
+  - antwort: a^5b^12
+    hinweis: Die Hochzahlen werden addiert, nicht multipliziert.
+- id: A3.2-026
+  typ: term
+  stufe: 3
+  term: x^6y^4/(x^2y^3)
+  form: potenz
+  loesung: x^4y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^6y^4/(x^2y^3) = x^4y
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 4, y: 1.'
+  fehler:
+  - antwort: x^8y^7
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-027
+  typ: term
+  stufe: 3
+  term: x^5y^2/(x^4y)
+  form: potenz
+  loesung: xy
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^5y^2/(x^4y) = xy
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 1, y: 1.'
+  fehler:
+  - antwort: x^9y^3
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-028
+  typ: term
+  stufe: 3
+  term: a^2b^3 · a^2b
+  form: potenz
+  loesung: a^4b^4
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - a^2b^3 · a^2b = a^4b^4
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen von a addieren, Hochzahlen von b addieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: a: 4, b: 4.'
+  fehler:
+  - antwort: a^4b^3
+    hinweis: Die Hochzahlen werden addiert, nicht multipliziert.
+- id: A3.2-029
+  typ: term
+  stufe: 3
+  term: x^4y^5/(x^3y^3)
+  form: potenz
+  loesung: xy^2
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^4y^5/(x^3y^3) = xy^2
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 1, y: 2.'
+  fehler:
+  - antwort: x^7y^8
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-030
+  typ: term
+  stufe: 3
+  term: x^5y^4/(xy^3)
+  form: potenz
+  loesung: x^4y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - x^5y^4/(xy^3) = x^4y
+  tipps:
+  - 'Jede Basis für sich: Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 4, y: 1.'
+  fehler:
+  - antwort: x^6y^7
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-031
+  typ: term
+  stufe: 4
+  term: '(3x^4y)^2 : (3x^3y)'
+  form: potenz
+  loesung: 3x^5y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - '(3x^4y)^2 : (3x^3y) = 3x^5y'
+  tipps:
+  - 'Zuerst die Klammer quadrieren, dann dividieren: Zahlen dividieren, Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 5, y: 1.'
+  fehler:
+  - antwort: 3x^11y^2
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-032
+  typ: term
+  stufe: 4
+  term: '(4x^2y)^2 : (4x^2y)'
+  form: potenz
+  loesung: 4x^2y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - '(4x^2y)^2 : (4x^2y) = 4x^2y'
+  tipps:
+  - 'Zuerst die Klammer quadrieren, dann dividieren: Zahlen dividieren, Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 2, y: 1.'
+  fehler:
+  - antwort: 4x^6y^2
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-033
+  typ: term
+  stufe: 4
+  term: (2x^3)^3 · x
+  form: potenz
+  loesung: 8x^10
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (2x^3)^3 · x = 8x^10
+  tipps:
+  - Erst die Klammer potenzieren, dann mit x multiplizieren (x = x¹).
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 10.'
+  fehler:
+  - antwort: 8x^9
+    hinweis: 'Vergiss das x am Schluss nicht: x = x¹, also Hochzahl + 1.'
+- id: A3.2-034
+  typ: term
+  stufe: 4
+  term: (-x^4)^2
+  form: potenz
+  loesung: x^8
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (-x^4)^2 = x^8
+  tipps:
+  - 'Auch das Minus wird potenziert: gerade Hochzahl → plus, ungerade → minus.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 8.'
+  fehler:
+  - antwort: -x^8
+    hinweis: 'Das Vorzeichen: `(-1)` hoch einer geraden Zahl ist +1, hoch einer ungeraden −1.'
+- id: A3.2-035
+  typ: term
+  stufe: 4
+  term: '(4x^3y)^2 : (4x^2y)'
+  form: potenz
+  loesung: 4x^4y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - '(4x^3y)^2 : (4x^2y) = 4x^4y'
+  tipps:
+  - 'Zuerst die Klammer quadrieren, dann dividieren: Zahlen dividieren, Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 4, y: 1.'
+  fehler:
+  - antwort: 4x^8y^2
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-036
+  typ: term
+  stufe: 4
+  term: (3x^2)^3 · x
+  form: potenz
+  loesung: 27x^7
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (3x^2)^3 · x = 27x^7
+  tipps:
+  - Erst die Klammer potenzieren, dann mit x multiplizieren (x = x¹).
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 7.'
+  fehler:
+  - antwort: 27x^6
+    hinweis: 'Vergiss das x am Schluss nicht: x = x¹, also Hochzahl + 1.'
+- id: A3.2-037
+  typ: term
+  stufe: 4
+  term: '(3x^4y)^2 : (3x^1y)'
+  form: potenz
+  loesung: 3x^7y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - '(3x^4y)^2 : (3x^1y) = 3x^7y'
+  tipps:
+  - 'Zuerst die Klammer quadrieren, dann dividieren: Zahlen dividieren, Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 7, y: 1.'
+  fehler:
+  - antwort: 3x^9y^2
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-038
+  typ: term
+  stufe: 4
+  term: '(2x^4y)^2 : (2x^3y)'
+  form: potenz
+  loesung: 2x^5y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - '(2x^4y)^2 : (2x^3y) = 2x^5y'
+  tipps:
+  - 'Zuerst die Klammer quadrieren, dann dividieren: Zahlen dividieren, Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 5, y: 1.'
+  fehler:
+  - antwort: 2x^11y^2
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.
+- id: A3.2-039
+  typ: term
+  stufe: 4
+  term: (-x^3)^5
+  form: potenz
+  loesung: -x^15
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - (-x^3)^5 = -x^15
+  tipps:
+  - 'Auch das Minus wird potenziert: gerade Hochzahl → plus, ungerade → minus.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahl im Ergebnis: x: 15.'
+  fehler:
+  - antwort: x^15
+    hinweis: 'Das Vorzeichen: `(-1)` hoch einer geraden Zahl ist +1, hoch einer ungeraden −1.'
+- id: A3.2-040
+  typ: term
+  stufe: 4
+  term: '(3x^2y)^2 : (3x^2y)'
+  form: potenz
+  loesung: 3x^2y
+  anweisung: Vereinfache mit den Potenzregeln.
+  weg:
+  - '(3x^2y)^2 : (3x^2y) = 3x^2y'
+  tipps:
+  - 'Zuerst die Klammer quadrieren, dann dividieren: Zahlen dividieren, Hochzahlen subtrahieren.'
+  - Zahlen vor den Variablen rechnest du ganz normal aus.
+  - 'Ergebnis zur Kontrolle: Die Hochzahlen im Ergebnis: x: 2, y: 1.'
+  fehler:
+  - antwort: 3x^6y^2
+    hinweis: Beim Dividieren werden die Hochzahlen subtrahiert.

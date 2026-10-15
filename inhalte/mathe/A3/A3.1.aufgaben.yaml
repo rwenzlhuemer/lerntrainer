@@ -1,0 +1,572 @@
+# ERZEUGT von tools/generatoren/a3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A3.1-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne `5^3`.
+  loesung: '125'
+  weg:
+  - 5^3 = 5 · 5 · 5 = 125
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '15'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 5^3
+- id: A3.1-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^4`.
+  loesung: '16'
+  weg:
+  - 2^4 = 2 · 2 · 2 · 2 = 16
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '8'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 2^4
+- id: A3.1-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne `3^2`.
+  loesung: '9'
+  weg:
+  - 3^2 = 3 · 3 = 9
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '6'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 3^2
+- id: A3.1-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^5`.
+  loesung: '32'
+  weg:
+  - 2^5 = 2 · 2 · 2 · 2 · 2 = 32
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '10'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 2^5
+- id: A3.1-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne `4^2`.
+  loesung: '16'
+  weg:
+  - 4^2 = 4 · 4 = 16
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '8'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 4^2
+- id: A3.1-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^2`.
+  loesung: '4'
+  weg:
+  - 2^2 = 2 · 2 = 4
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 2^2
+- id: A3.1-007
+  typ: zahl
+  stufe: 1
+  frage: Berechne `10^3`.
+  loesung: '1000'
+  weg:
+  - 10^3 = 10 · 10 · 10 = 1000
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '30'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 10^3
+- id: A3.1-008
+  typ: zahl
+  stufe: 1
+  frage: Berechne `1^9`.
+  loesung: '1'
+  weg:
+  - 1^9 = 1
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '9'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 1^9
+- id: A3.1-009
+  typ: zahl
+  stufe: 1
+  frage: Berechne `2^3`.
+  loesung: '8'
+  weg:
+  - 2^3 = 2 · 2 · 2 = 8
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '6'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 2^3
+- id: A3.1-010
+  typ: zahl
+  stufe: 1
+  frage: Berechne `10^6`.
+  loesung: '1000000'
+  weg:
+  - 10^6 = 10 · 10 · 10 · 10 · 10 · 10 = 1000000
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '60'
+    hinweis: 'Eine Potenz heißt: die Basis so oft **mit sich selbst** multiplizieren, wie die Hochzahl sagt – nicht Basis mal Hochzahl.'
+  rechnung: 10^6
+- id: A3.1-011
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-2^2`.
+  loesung: '-4'
+  weg:
+  - -2^2 = -(2 · 2) = -4
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '4'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -2^2
+- id: A3.1-012
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-4^4`.
+  loesung: '-256'
+  weg:
+  - -4^4 = -(4 · 4 · 4 · 4) = -256
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '256'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -4^4
+- id: A3.1-013
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-3^2`.
+  loesung: '-9'
+  weg:
+  - -3^2 = -(3 · 3) = -9
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '9'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -3^2
+- id: A3.1-014
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-5^4`.
+  loesung: '-625'
+  weg:
+  - -5^4 = -(5 · 5 · 5 · 5) = -625
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '625'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -5^4
+- id: A3.1-015
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-4^2`.
+  loesung: '-16'
+  weg:
+  - -4^2 = -(4 · 4) = -16
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '16'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -4^2
+- id: A3.1-016
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-2^4`.
+  loesung: '-16'
+  weg:
+  - -2^4 = -(2 · 2 · 2 · 2) = -16
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '16'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -2^4
+- id: A3.1-017
+  typ: zahl
+  stufe: 2
+  frage: Berechne `(-4)^4`.
+  loesung: '256'
+  weg:
+  - (-4)^4 = (-4) · (-4) · (-4) · (-4) = 256
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '-256'
+    hinweis: 'Prüf das Vorzeichen: Gerade Hochzahl → positiv, ungerade Hochzahl → negativ.'
+  rechnung: (-4)^4
+- id: A3.1-018
+  typ: zahl
+  stufe: 2
+  frage: Berechne `(-3)^3`.
+  loesung: '-27'
+  weg:
+  - (-3)^3 = (-3) · (-3) · (-3) = -27
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '27'
+    hinweis: 'Prüf das Vorzeichen: Gerade Hochzahl → positiv, ungerade Hochzahl → negativ.'
+  rechnung: (-3)^3
+- id: A3.1-019
+  typ: zahl
+  stufe: 2
+  frage: Berechne `(-5)^4`.
+  loesung: '625'
+  weg:
+  - (-5)^4 = (-5) · (-5) · (-5) · (-5) = 625
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '-625'
+    hinweis: 'Prüf das Vorzeichen: Gerade Hochzahl → positiv, ungerade Hochzahl → negativ.'
+  rechnung: (-5)^4
+- id: A3.1-020
+  typ: zahl
+  stufe: 2
+  frage: Berechne `-4^3`.
+  loesung: '-64'
+  weg:
+  - -4^3 = -(4 · 4 · 4) = -64
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '64'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -4^3
+- id: A3.1-021
+  typ: zahl
+  stufe: 3
+  frage: Berechne `0,4^2`.
+  loesung: 0,16
+  weg:
+  - 0,4^2 = 0,16
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 0,4^2
+- id: A3.1-022
+  typ: zahl
+  stufe: 3
+  frage: Berechne `0,3^3`.
+  loesung: 0,027
+  weg:
+  - 0,3^3 = 0,027
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 0,3^3
+- id: A3.1-023
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(1/2)^2`.
+  loesung: 0,25
+  weg:
+  - (1/2)^2 = 0,25
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: (1/2)^2
+- id: A3.1-024
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(-2/3)^2`.
+  loesung: 4/9
+  weg:
+  - (-2/3)^2 = 4/9
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: -4/9
+    hinweis: 'Prüf das Vorzeichen: Gerade Hochzahl → positiv, ungerade Hochzahl → negativ.'
+  rechnung: (-2/3)^2
+- id: A3.1-025
+  typ: zahl
+  stufe: 3
+  frage: Berechne `0,4^3`.
+  loesung: 0,064
+  weg:
+  - 0,4^3 = 0,064
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 0,4^3
+- id: A3.1-026
+  typ: zahl
+  stufe: 3
+  frage: Berechne `0,5^3`.
+  loesung: 0,125
+  weg:
+  - 0,5^3 = 0,125
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 0,5^3
+- id: A3.1-027
+  typ: zahl
+  stufe: 3
+  frage: Berechne `0,2^3`.
+  loesung: 0,008
+  weg:
+  - 0,2^3 = 0,008
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 0,2^3
+- id: A3.1-028
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(2/3)^3`.
+  loesung: 8/27
+  weg:
+  - (2/3)^3 = 8/27
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: (2/3)^3
+- id: A3.1-029
+  typ: zahl
+  stufe: 3
+  frage: Berechne `0,1^2`.
+  loesung: 0,01
+  weg:
+  - 0,1^2 = 0,01
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 0,1^2
+- id: A3.1-030
+  typ: zahl
+  stufe: 3
+  frage: Berechne `(2/3)^2`.
+  loesung: 4/9
+  weg:
+  - (2/3)^2 = 4/9
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: (2/3)^2
+- id: A3.1-031
+  typ: zahl
+  stufe: 4
+  frage: Berechne `(-2)^3 - 2^3`.
+  loesung: '-16'
+  weg:
+  - (-2)^3 - 2^3 = -16
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '16'
+    hinweis: 'Prüf das Vorzeichen: Gerade Hochzahl → positiv, ungerade Hochzahl → negativ.'
+  rechnung: (-2)^3 - 2^3
+- id: A3.1-032
+  typ: zahl
+  stufe: 4
+  frage: Berechne `2 · 2^2 - (4 - 6)^2`.
+  loesung: '4'
+  weg:
+  - 2 · 2^2 - (4 - 6)^2 = 4
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 2 · 2^2 - (4 - 6)^2
+- id: A3.1-033
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-3^2 + (-4)^2`.
+  loesung: '7'
+  weg:
+  - -3^2 + (-4)^2 = 7
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '-7'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -3^2 + (-4)^2
+- id: A3.1-034
+  typ: zahl
+  stufe: 4
+  frage: Berechne `2 · 2^4 - (2 - 4)^2`.
+  loesung: '28'
+  weg:
+  - 2 · 2^4 - (2 - 4)^2 = 28
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 2 · 2^4 - (2 - 4)^2
+- id: A3.1-035
+  typ: zahl
+  stufe: 4
+  frage: Berechne `2 · 4^3 - (2 - 6)^3`.
+  loesung: '192'
+  weg:
+  - 2 · 4^3 - (2 - 6)^3 = 192
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 2 · 4^3 - (2 - 6)^3
+- id: A3.1-036
+  typ: zahl
+  stufe: 4
+  frage: Berechne `2 · 3^2 - (4 - 7)^3`.
+  loesung: '45'
+  weg:
+  - 2 · 3^2 - (4 - 7)^3 = 45
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 2 · 3^2 - (4 - 7)^3
+- id: A3.1-037
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-4^2 + (-4)^3`.
+  loesung: '-80'
+  weg:
+  - -4^2 + (-4)^3 = -80
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '80'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -4^2 + (-4)^3
+- id: A3.1-038
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-2^3 + (-3)^3`.
+  loesung: '-35'
+  weg:
+  - -2^3 + (-3)^3 = -35
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '35'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -2^3 + (-3)^3
+- id: A3.1-039
+  typ: zahl
+  stufe: 4
+  frage: Berechne `2 · 4^4 - (3 - 7)^3`.
+  loesung: '576'
+  weg:
+  - 2 · 4^4 - (3 - 7)^3 = 576
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler: []
+  rechnung: 2 · 4^4 - (3 - 7)^3
+- id: A3.1-040
+  typ: zahl
+  stufe: 4
+  frage: Berechne `-4^2 + (-2)^2`.
+  loesung: '-12'
+  weg:
+  - -4^2 + (-2)^2 = -12
+  tipps:
+  - 'Die Hochzahl sagt, wie oft die Basis mit sich selbst multipliziert wird: `2³ = 2 · 2 · 2`.'
+  - 'Achte auf Klammern: `(-2)²` ist die -2 mal sich selbst, `-2²` ist `-(2 · 2)`.'
+  - 'Bei Brüchen und Dezimalzahlen: Zähler und Nenner einzeln potenzieren bzw. Kommastellen zählen.'
+  fehler:
+  - antwort: '12'
+    hinweis: '`-3²` heißt `-(3²)`: Die Hochzahl gehört nur zur 3, das Minus kommt danach.'
+  rechnung: -4^2 + (-2)^2

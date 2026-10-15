@@ -91,8 +91,8 @@ async function main() {
   await bild("01-start");
   await js("document.querySelector('[data-min=\"20\"]').click()");
   await warte(600);
-  pruefe((await js("location.hash")) === "#/ls/A2.1", "Start → empfohlener Lernschritt A2.1 (erster Kernschritt)");
-  await bild("02-lernschritt-A2.1");
+  pruefe((await js("location.hash")) === "#/ls/A1.1", "Start → empfohlener Lernschritt A1.1 (erster Kernschritt)");
+  await bild("02-lernschritt-A1.1");
 
   // B1.4: Gleichung Schritt für Schritt, mit einem Fehler zwischendurch
   await geh("#/ueben/B1.4");
@@ -256,7 +256,21 @@ async function main() {
   pruefe(dv && (await js("document.querySelector('.frage .mathe').innerText")).includes(":"), `A2.4: Division ${dv?.frage} mit „:“ gesetzt`);
   await bild("09d-division");
 
+  // A3.2 Potenzregeln: Hochzahlen werden gesetzt, Zwischenschritt angenommen
+  const p2 = await naechsteBis("A3.2", (x) => x.typ === "term");
+  pruefe(await js("!!document.querySelector('.gleichung-gross sup')"), `A3.2: ${p2.term} mit Hochzahlen gesetzt`);
+  await tippe(p2.loesung.replace(/\^(\d+)/g, (_, d) => [...d].map((c) => "⁰¹²³⁴⁵⁶⁷⁸⁹"[c]).join("")));
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `A3.2: Lösung mit hochgestellten Ziffern erkannt`);
+  await bild("09e-potenzen");
+
+  // A1.5 Zahlenmengen (Auswahl mit fünf Mengen)
+  const zm = await naechsteBis("A1.5", () => true);
+  await js(`document.querySelector('.option[data-i="${zm.richtig[0]}"]').click()`);
+  await warte(200);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `A1.5: ${zm.frage.slice(0, 50)} richtig`);
+
   // Lösung zeigen
+  await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");
   await warte(200);
   pruefe((await rm()).startsWith("rueckmeldung neutral"), "Lösung zeigen: neutral, nicht orange");
@@ -307,7 +321,7 @@ async function main() {
   // Lernpfad und Lernstand
   await geh("#/pfad");
   const nLs = await js("document.querySelectorAll('.ls a').length");
-  pruefe(nLs === 23, `Lernpfad: ${nLs} verfügbare Lernschritte verlinkt (A2, A4, B1)`);
+  pruefe(nLs >= 33, `Lernpfad: ${nLs} verfügbare Lernschritte verlinkt`);
   await bild("11-lernpfad");
   await geh("#/einstellungen");
   await bild("12-einstellungen");

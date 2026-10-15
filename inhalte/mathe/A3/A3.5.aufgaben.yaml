@@ -1,0 +1,514 @@
+# ERZEUGT von tools/generatoren/a3.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: A3.5-001
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 54 h = ? min'
+  loesung: '3240'
+  einheit: min
+  weg:
+  - 54 · 60 = 3240
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von h nach min: mal 60.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,9
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 54 · 60
+- id: A3.5-002
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 7 m = ? mm'
+  loesung: '7000'
+  einheit: mm
+  weg:
+  - 7 · 1000 = 7000
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von m nach mm: mal 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,007
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 7 · 1000
+- id: A3.5-003
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 6,9 h = ? min'
+  loesung: '414'
+  einheit: min
+  weg:
+  - 6,9 · 60 = 414
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von h nach min: mal 60.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,115
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 6,9 · 60
+- id: A3.5-004
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 7,5 m = ? cm'
+  loesung: '750'
+  einheit: cm
+  weg:
+  - 7,5 · 100 = 750
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von m nach cm: mal 100.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,075
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 7,5 · 100
+- id: A3.5-005
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 19 h = ? min'
+  loesung: '1140'
+  einheit: min
+  weg:
+  - 19 · 60 = 1140
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von h nach min: mal 60.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 19/60
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 19 · 60
+- id: A3.5-006
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 5,1 h = ? min'
+  loesung: '306'
+  einheit: min
+  weg:
+  - 5,1 · 60 = 306
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von h nach min: mal 60.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,085
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 5,1 · 60
+- id: A3.5-007
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 9,2 km = ? m'
+  loesung: '9200'
+  einheit: m
+  weg:
+  - 9,2 · 1000 = 9200
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von km nach m: mal 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 23/2500
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 9,2 · 1000
+- id: A3.5-008
+  typ: zahl
+  stufe: 1
+  frage: 'Rechne um: 3,1 m = ? cm'
+  loesung: '310'
+  einheit: cm
+  weg:
+  - 3,1 · 100 = 310
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von m nach cm: mal 100.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,031
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 3,1 · 100
+- id: A3.5-009
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 81 GB = ? MB'
+  loesung: '81000'
+  einheit: MB
+  weg:
+  - 81 · 1000 = 81000
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von GB nach MB: mal 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 0,081
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 81 · 1000
+- id: A3.5-010
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 150 min = ? h'
+  loesung: 2,5
+  einheit: h
+  weg:
+  - '150 : 60 = 2,5'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von min nach h: durch 60.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '9000'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '150 : 60'
+- id: A3.5-011
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 30 min = ? h'
+  loesung: 0,5
+  einheit: h
+  weg:
+  - '30 : 60 = 0,5'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von min nach h: durch 60.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '1800'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '30 : 60'
+- id: A3.5-012
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 3,6 mm = ? m'
+  loesung: 0,0036
+  einheit: m
+  weg:
+  - '3,6 : 1000 = 0,0036'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von mm nach m: durch 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '3600'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '3,6 : 1000'
+- id: A3.5-013
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 3 cm = ? m'
+  loesung: 0,03
+  einheit: m
+  weg:
+  - '3 : 100 = 0,03'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von cm nach m: durch 100.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '300'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '3 : 100'
+- id: A3.5-014
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 18 g = ? kg'
+  loesung: 0,018
+  einheit: kg
+  weg:
+  - '18 : 1000 = 0,018'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von g nach kg: durch 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '18000'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '18 : 1000'
+- id: A3.5-015
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 2,8 GB = ? MB'
+  loesung: '2800'
+  einheit: MB
+  weg:
+  - 2,8 · 1000 = 2800
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von GB nach MB: mal 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 7/2500
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 2,8 · 1000
+- id: A3.5-016
+  typ: zahl
+  stufe: 2
+  frage: 'Rechne um: 1,3 cm = ? m'
+  loesung: 0,013
+  einheit: m
+  weg:
+  - '1,3 : 100 = 0,013'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von cm nach m: durch 100.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '130'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '1,3 : 100'
+- id: A3.5-017
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 1,4 mg = ? g'
+  loesung: 0,0014
+  einheit: g
+  weg:
+  - '1,4 : 1000 = 0,0014'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von mg nach g: durch 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '1400'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '1,4 : 1000'
+- id: A3.5-018
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 0,58 mg = ? g'
+  loesung: 0,00058
+  einheit: g
+  weg:
+  - '0,58 : 1000 = 0,00058'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von mg nach g: durch 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '580'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '0,58 : 1000'
+- id: A3.5-019
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 51 µm = ? m'
+  loesung: 0,000051
+  einheit: m
+  weg:
+  - '51 : 1000000 = 0,000051'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von µm nach m: durch 1000000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '51000000'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '51 : 1000000'
+- id: A3.5-020
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 9,4 nm = ? µm'
+  loesung: 0,0094
+  einheit: µm
+  weg:
+  - '9,4 : 1000 = 0,0094'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von nm nach µm: durch 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '9400'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '9,4 : 1000'
+- id: A3.5-021
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 36 µm = ? m'
+  loesung: 0,000036
+  einheit: m
+  weg:
+  - '36 : 1000000 = 0,000036'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von µm nach m: durch 1000000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '36000000'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '36 : 1000000'
+- id: A3.5-022
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 4,5 MB = ? GB'
+  loesung: 0,0045
+  einheit: GB
+  weg:
+  - '4,5 : 1000 = 0,0045'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von MB nach GB: durch 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '4500'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '4,5 : 1000'
+- id: A3.5-023
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 0,46 t = ? kg'
+  loesung: '460'
+  einheit: kg
+  weg:
+  - 0,46 · 1000 = 460
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von t nach kg: mal 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 23/50000
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 0,46 · 1000
+- id: A3.5-024
+  typ: zahl
+  stufe: 3
+  frage: 'Rechne um: 0,43 t = ? kg'
+  loesung: '430'
+  einheit: kg
+  weg:
+  - 0,43 · 1000 = 430
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von t nach kg: mal 1000.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 43/100000
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 0,43 · 1000
+- id: A3.5-025
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 98 m³ = ? l'
+  loesung: '98000'
+  einheit: l
+  weg:
+  - 98 · 1000 = 98000
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von m³ nach l: mal 1000.'
+  - Bei Flächen zählt der Umrechnungsfaktor doppelt (1 m = 100 cm → 1 m² = 10 000 cm²), bei Volumen dreifach.
+  fehler:
+  - antwort: 0,098
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: 98 · 1000
+- id: A3.5-026
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 90 km/h = ? m/s'
+  loesung: '25'
+  einheit: m/s
+  weg:
+  - '90 : 3,6 = 25'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von km/h nach m/s: durch 3,6.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: '324'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '90 : 3,6'
+- id: A3.5-027
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 54 km/h = ? m/s'
+  loesung: '15'
+  einheit: m/s
+  weg:
+  - '54 : 3,6 = 15'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von km/h nach m/s: durch 3,6.'
+  - 'In die kleinere Einheit: mal (es werden mehr). In die größere Einheit: durch.'
+  fehler:
+  - antwort: 194,4
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '54 : 3,6'
+- id: A3.5-028
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 7 m² = ? cm²'
+  loesung: '70000'
+  einheit: cm²
+  weg:
+  - 7 · 10000 = 70000
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von m² nach cm²: mal 10000.'
+  - Bei Flächen zählt der Umrechnungsfaktor doppelt (1 m = 100 cm → 1 m² = 10 000 cm²), bei Volumen dreifach.
+  fehler:
+  - antwort: 7/10000
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  - antwort: '700'
+    hinweis: 'Bei Flächen: 1 m² = 100 cm · 100 cm = 10 000 cm².'
+  rechnung: 7 · 10000
+- id: A3.5-029
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 0,89 cm² = ? m²'
+  loesung: 0,000089
+  einheit: m²
+  weg:
+  - '0,89 : 10000 = 0,000089'
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von cm² nach m²: durch 10000.'
+  - Bei Flächen zählt der Umrechnungsfaktor doppelt (1 m = 100 cm → 1 m² = 10 000 cm²), bei Volumen dreifach.
+  fehler:
+  - antwort: '8900'
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  rechnung: '0,89 : 10000'
+- id: A3.5-030
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 0,06 dm³ = ? l'
+  loesung: 0,06
+  einheit: l
+  weg:
+  - 0,06 · 1 = 0,06
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von dm³ nach l: durch 1.'
+  - Bei Flächen zählt der Umrechnungsfaktor doppelt (1 m = 100 cm → 1 m² = 10 000 cm²), bei Volumen dreifach.
+  fehler: []
+  rechnung: 0,06 · 1
+- id: A3.5-031
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 0,34 m² = ? cm²'
+  loesung: '3400'
+  einheit: cm²
+  weg:
+  - 0,34 · 10000 = 3400
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von m² nach cm²: mal 10000.'
+  - Bei Flächen zählt der Umrechnungsfaktor doppelt (1 m = 100 cm → 1 m² = 10 000 cm²), bei Volumen dreifach.
+  fehler:
+  - antwort: 17/500000
+    hinweis: Umgekehrt! In eine kleinere Einheit wird die Zahl größer, in eine größere Einheit kleiner.
+  - antwort: '34'
+    hinweis: 'Bei Flächen: 1 m² = 100 cm · 100 cm = 10 000 cm².'
+  rechnung: 0,34 · 10000
+- id: A3.5-032
+  typ: zahl
+  stufe: 4
+  frage: 'Rechne um: 2,5 dm³ = ? l'
+  loesung: 2,5
+  einheit: l
+  weg:
+  - 2,5 · 1 = 2,5
+  tipps:
+  - 'Vorsilben: Kilo = 1000, Mega = 1 000 000, Giga = 10⁹, Milli = 1/1000, Mikro (µ) = 1/1 000 000, Nano = 10⁻⁹.'
+  - 'Von dm³ nach l: durch 1.'
+  - Bei Flächen zählt der Umrechnungsfaktor doppelt (1 m = 100 cm → 1 m² = 10 000 cm²), bei Volumen dreifach.
+  fehler: []
+  rechnung: 2,5 · 1

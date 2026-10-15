@@ -1,0 +1,18 @@
+id: A1.3
+titel: "Mal und Durch: Vorzeichenregeln"
+ziel: Du multiplizierst und dividierst mit negativen Zahlen und findest sicher das Vorzeichen.
+erklaerung: |
+  Beim Multiplizieren und Dividieren bestimmst du **zuerst das Vorzeichen**, dann rechnest du mit den Zahlen:
+
+  - gleiche Vorzeichen → **plus**: `(-3) · (-4) = 12`
+  - verschiedene Vorzeichen → **minus**: `(-3) · 4 = -12`, `12 : (-4) = -3`
+
+  Bei mehreren Faktoren zählst du die Minus: **gerade** Anzahl → plus, **ungerade** Anzahl → minus.
+
+  Mal und Durch rechnest du von links nach rechts.
+beispiel:
+  wert: "-24"
+  text: |
+    Drei Minus – eine ungerade Anzahl, also wird das Ergebnis negativ. Dann `2 · 3 · 4 = 24`.
+  weg:
+    - "(-2) · (-3) · (-4) = -24 | 3 Minus → minus"

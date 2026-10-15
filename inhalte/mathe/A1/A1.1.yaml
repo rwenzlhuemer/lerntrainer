@@ -1,0 +1,20 @@
+id: A1.1
+titel: Negative Zahlen vergleichen
+ziel: Du ordnest negative Zahlen auf der Zahlengeraden und rechnest mit Temperaturen und Kontoständen.
+erklaerung: |
+  Stell dir die **Zahlengerade** vor: In der Mitte liegt 0, rechts die positiven Zahlen, links die negativen.
+
+  **Je weiter rechts, desto größer.** Darum ist `-3` größer als `-7` – obwohl 7 die größere Zahl „aussieht“.
+  Bei negativen Zahlen gilt: Je weiter weg von 0, desto kleiner.
+
+  Negative Zahlen kennst du aus dem Alltag: -5 °C ist kälter als -2 °C, ein Konto mit -300 € hat mehr
+  Schulden als eines mit -100 €.
+
+  Der **Abstand** zweier Zahlen ist: größere minus kleinere. Von -3 bis 5 sind es `5 - (-3) = 8` Schritte.
+beispiel:
+  wert: "-2"
+  text: |
+    Am Morgen hat es -6 °C, bis Mittag wird es um 4 Grad wärmer. Wärmer heißt: auf der Zahlengeraden
+    nach rechts, also plus.
+  weg:
+    - "-6 + 4 = -2"
