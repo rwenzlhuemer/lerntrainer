@@ -1,0 +1,602 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D3.2-001
+  typ: vektor
+  stufe: 1
+  frage: Gegeben sind A(-1 | 7) und B(0 | 0). Berechne den Vektor AB.
+  loesung:
+  - '1'
+  - '-7'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-1'
+    - '7'
+    b:
+    - '0'
+    - '0'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '-1'
+    - '7'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-002
+  typ: vektor
+  stufe: 1
+  frage: Gegeben sind A(4 | -2) und B(0 | 8). Berechne den Vektor AB.
+  loesung:
+  - '-4'
+  - '10'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '4'
+    - '-2'
+    b:
+    - '0'
+    - '8'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '4'
+    - '-10'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-003
+  typ: vektor
+  stufe: 1
+  frage: Gegeben sind A(-1 | 1) und B(-4 | 0). Berechne den Vektor AB.
+  loesung:
+  - '-3'
+  - '-1'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-1'
+    - '1'
+    b:
+    - '-4'
+    - '0'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '3'
+    - '1'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-004
+  typ: vektor
+  stufe: 1
+  frage: Gegeben sind A(-4 | -6) und B(-2 | -2). Berechne den Vektor AB.
+  loesung:
+  - '2'
+  - '4'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-4'
+    - '-6'
+    b:
+    - '-2'
+    - '-2'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '-2'
+    - '-4'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-005
+  typ: vektor
+  stufe: 1
+  frage: Gegeben sind A(8 | 6) und B(-6 | -2). Berechne den Vektor AB.
+  loesung:
+  - '-14'
+  - '-8'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '8'
+    - '6'
+    b:
+    - '-6'
+    - '-2'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '14'
+    - '8'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-006
+  typ: vektor
+  stufe: 1
+  frage: Gegeben sind A(-4 | 8) und B(6 | 2). Berechne den Vektor AB.
+  loesung:
+  - '10'
+  - '-6'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-4'
+    - '8'
+    b:
+    - '6'
+    - '2'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '-10'
+    - '6'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-007
+  typ: vektor
+  stufe: 2
+  frage: Gegeben sind A(1 | -3) und B(-3 | -6). Berechne den Vektor AB.
+  loesung:
+  - '-4'
+  - '-3'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '1'
+    - '-3'
+    b:
+    - '-3'
+    - '-6'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '4'
+    - '3'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-008
+  typ: vektor
+  stufe: 2
+  frage: Gegeben sind A(-3 | 5) und B(2 | 5). Berechne den Vektor AB.
+  loesung:
+  - '5'
+  - '0'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-3'
+    - '5'
+    b:
+    - '2'
+    - '5'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '-5'
+    - '0'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-009
+  typ: vektor
+  stufe: 2
+  frage: Gegeben sind A(2 | 8) und B(1 | 8). Berechne den Vektor AB.
+  loesung:
+  - '-1'
+  - '0'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '2'
+    - '8'
+    b:
+    - '1'
+    - '8'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '1'
+    - '0'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-010
+  typ: vektor
+  stufe: 2
+  frage: Gegeben sind A(1 | -6) und B(0 | 3). Berechne den Vektor AB.
+  loesung:
+  - '-1'
+  - '9'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '1'
+    - '-6'
+    b:
+    - '0'
+    - '3'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '1'
+    - '-9'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-011
+  typ: vektor
+  stufe: 2
+  frage: Gegeben sind A(6 | 8) und B(4 | 3). Berechne den Vektor AB.
+  loesung:
+  - '-2'
+  - '-5'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '6'
+    - '8'
+    b:
+    - '4'
+    - '3'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '2'
+    - '5'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-012
+  typ: vektor
+  stufe: 2
+  frage: Gegeben sind A(4 | 5) und B(-4 | 8). Berechne den Vektor AB.
+  loesung:
+  - '-8'
+  - '3'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '4'
+    - '5'
+    b:
+    - '-4'
+    - '8'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '8'
+    - '-3'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-013
+  typ: vektor
+  stufe: 3
+  frage: Gegeben sind A(-1 | 2 | 2) und B(-5 | 7 | 8). Berechne den Vektor AB.
+  loesung:
+  - '-4'
+  - '5'
+  - '6'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-1'
+    - '2'
+    - '2'
+    b:
+    - '-5'
+    - '7'
+    - '8'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '4'
+    - '-5'
+    - '-6'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-014
+  typ: vektor
+  stufe: 3
+  frage: Gegeben sind A(5 | -1 | -4) und B(1 | 7 | 8). Berechne den Vektor AB.
+  loesung:
+  - '-4'
+  - '8'
+  - '12'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '5'
+    - '-1'
+    - '-4'
+    b:
+    - '1'
+    - '7'
+    - '8'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '4'
+    - '-8'
+    - '-12'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-015
+  typ: vektor
+  stufe: 3
+  frage: Gegeben sind A(6 | 5 | -4) und B(5 | 0 | -4). Berechne den Vektor AB.
+  loesung:
+  - '-1'
+  - '-5'
+  - '0'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '6'
+    - '5'
+    - '-4'
+    b:
+    - '5'
+    - '0'
+    - '-4'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '1'
+    - '5'
+    - '0'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-016
+  typ: vektor
+  stufe: 3
+  frage: Gegeben sind A(0 | 0 | 1) und B(-5 | 2 | -3). Berechne den Vektor AB.
+  loesung:
+  - '-5'
+  - '2'
+  - '-4'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '0'
+    - '0'
+    - '1'
+    b:
+    - '-5'
+    - '2'
+    - '-3'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '5'
+    - '-2'
+    - '4'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-017
+  typ: vektor
+  stufe: 3
+  frage: Gegeben sind A(5 | -4 | 5) und B(-1 | -5 | 2). Berechne den Vektor AB.
+  loesung:
+  - '-6'
+  - '-1'
+  - '-3'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '5'
+    - '-4'
+    - '5'
+    b:
+    - '-1'
+    - '-5'
+    - '2'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '6'
+    - '1'
+    - '3'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-018
+  typ: vektor
+  stufe: 3
+  frage: Gegeben sind A(-2 | -3 | 8) und B(5 | -4 | -4). Berechne den Vektor AB.
+  loesung:
+  - '7'
+  - '-1'
+  - '-12'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-2'
+    - '-3'
+    - '8'
+    b:
+    - '5'
+    - '-4'
+    - '-4'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '-7'
+    - '1'
+    - '12'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-019
+  typ: vektor
+  stufe: 4
+  frage: Gegeben sind A(-1 | -1 | 3) und B(-1 | -2,5 | 2,5). Berechne den Vektor AB.
+  loesung:
+  - '0'
+  - -1,5
+  - -0,5
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-1'
+    - '-1'
+    - '3'
+    b:
+    - '-1'
+    - -2,5
+    - 2,5
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '0'
+    - 1,5
+    - 0,5
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-020
+  typ: vektor
+  stufe: 4
+  frage: Gegeben sind A(-2 | 6 | 4) und B(-2 | -2,5 | 3,5). Berechne den Vektor AB.
+  loesung:
+  - '0'
+  - -8,5
+  - -0,5
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-2'
+    - '6'
+    - '4'
+    b:
+    - '-2'
+    - -2,5
+    - 3,5
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '0'
+    - 8,5
+    - 0,5
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-021
+  typ: vektor
+  stufe: 4
+  frage: Gegeben sind A(1 | -3 | -2) und B(3,5 | 1 | -2). Berechne den Vektor AB.
+  loesung:
+  - 2,5
+  - '4'
+  - '0'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '1'
+    - '-3'
+    - '-2'
+    b:
+    - 3,5
+    - '1'
+    - '-2'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - -2,5
+    - '-4'
+    - '0'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-022
+  typ: vektor
+  stufe: 4
+  frage: Gegeben sind A(-3 | 1 | -3) und B(-3 | 3 | 3). Berechne den Vektor AB.
+  loesung:
+  - '0'
+  - '2'
+  - '6'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-3'
+    - '1'
+    - '-3'
+    b:
+    - '-3'
+    - '3'
+    - '3'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '0'
+    - '-2'
+    - '-6'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-023
+  typ: vektor
+  stufe: 4
+  frage: Gegeben sind A(4 | -4 | -1,5) und B(-2 | 3,5 | 1,5). Berechne den Vektor AB.
+  loesung:
+  - '-6'
+  - 7,5
+  - '3'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '4'
+    - '-4'
+    - -1,5
+    b:
+    - '-2'
+    - 3,5
+    - 1,5
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '6'
+    - -7,5
+    - '-3'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'
+- id: D3.2-024
+  typ: vektor
+  stufe: 4
+  frage: Gegeben sind A(-1 | 6 | -6) und B(-5 | 2 | 2). Berechne den Vektor AB.
+  loesung:
+  - '-4'
+  - '-4'
+  - '8'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-1'
+    - '6'
+    - '-6'
+    b:
+    - '-5'
+    - '2'
+    - '2'
+  tipps:
+  - '`AB = B − A`: Spitze minus Schaft.'
+  - Rechne Koordinate für Koordinate.
+  fehler:
+  - antwort:
+    - '4'
+    - '4'
+    - '-8'
+    hinweis: 'Umgekehrt: B minus A (Spitze minus Schaft), nicht A minus B.'

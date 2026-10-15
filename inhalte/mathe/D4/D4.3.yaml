@@ -1,0 +1,12 @@
+id: D4.3
+titel: Liegt ein Punkt auf der Geraden?
+ziel: Du prüfst, ob ein Punkt auf einer Geraden liegt.
+erklaerung: 'Setz den Punkt P für X ein: `P = A + t · d`.
+
+
+  Das ergibt für jede Koordinate eine Gleichung für t. Kommt in **allen** Gleichungen **dasselbe t** heraus, liegt P auf der Geraden – sonst nicht.'
+beispiel:
+  text: 'g: X = (1 | 2) + t·(2 | 1), P(5 | 4): 1 + 2t = 5 → t = 2 und 2 + t = 4 → t = 2. Gleiches t → P liegt auf g.'
+  wert: '2'
+  weg:
+  - (5 - 1)/2 = 2

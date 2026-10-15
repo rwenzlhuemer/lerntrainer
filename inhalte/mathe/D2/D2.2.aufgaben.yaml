@@ -1,0 +1,196 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D2.2-001
+  typ: zahl
+  stufe: 1
+  frage: Rechne 15° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 0,262
+  gerundet: 3
+  rechnung: 15·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`15 · π/180`'
+  fehler:
+  - antwort: 859,437
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-002
+  typ: zahl
+  stufe: 1
+  frage: Rechne 90° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 1,571
+  gerundet: 3
+  rechnung: 90·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`90 · π/180`'
+  fehler:
+  - antwort: 5156,620
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-003
+  typ: zahl
+  stufe: 1
+  frage: Rechne 30° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 0,524
+  gerundet: 3
+  rechnung: 30·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`30 · π/180`'
+  fehler:
+  - antwort: 1718,873
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-004
+  typ: zahl
+  stufe: 1
+  frage: Rechne 270° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 4,712
+  gerundet: 3
+  rechnung: 270·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`270 · π/180`'
+  fehler:
+  - antwort: 15469,860
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-005
+  typ: zahl
+  stufe: 2
+  frage: Rechne 180° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 3,142
+  gerundet: 3
+  rechnung: 180·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`180 · π/180`'
+  fehler:
+  - antwort: 10313,240
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-006
+  typ: zahl
+  stufe: 2
+  frage: Rechne 60° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 1,047
+  gerundet: 3
+  rechnung: 60·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`60 · π/180`'
+  fehler:
+  - antwort: 3437,747
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-007
+  typ: zahl
+  stufe: 2
+  frage: Rechne 5π/12 ins Gradmaß um.
+  loesung: '75'
+  rechnung: 5π/12·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-008
+  typ: zahl
+  stufe: 2
+  frage: Rechne 45° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 0,785
+  gerundet: 3
+  rechnung: 45·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`45 · π/180`'
+  fehler:
+  - antwort: 2578,310
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-009
+  typ: zahl
+  stufe: 3
+  frage: Rechne 2π/3 ins Gradmaß um.
+  loesung: '120'
+  rechnung: 2π/3·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-010
+  typ: zahl
+  stufe: 3
+  frage: Rechne π/3 ins Gradmaß um.
+  loesung: '60'
+  rechnung: π/3·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-011
+  typ: zahl
+  stufe: 3
+  frage: Rechne π/2 ins Gradmaß um.
+  loesung: '90'
+  rechnung: π/2·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-012
+  typ: zahl
+  stufe: 3
+  frage: Rechne 5π/6 ins Gradmaß um.
+  loesung: '150'
+  rechnung: 5π/6·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-013
+  typ: zahl
+  stufe: 4
+  frage: Rechne 120° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 2,094
+  gerundet: 3
+  rechnung: 120·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`120 · π/180`'
+  fehler:
+  - antwort: 6875,494
+    hinweis: 'Umgekehrt: Grad mal π/180.'
+- id: D2.2-014
+  typ: zahl
+  stufe: 4
+  frage: Rechne π/4 ins Gradmaß um.
+  loesung: '45'
+  rechnung: π/4·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-015
+  typ: zahl
+  stufe: 4
+  frage: Rechne π ins Gradmaß um.
+  loesung: '180'
+  rechnung: π·180/π
+  einheit: °
+  tipps:
+  - π entspricht 180°.
+  - Ersetze π durch 180°.
+  fehler: []
+- id: D2.2-016
+  typ: zahl
+  stufe: 4
+  frage: Rechne 150° ins Bogenmaß um (auf drei Nachkommastellen).
+  loesung: 2,618
+  gerundet: 3
+  rechnung: 150·π/180
+  tipps:
+  - 180° entsprechen π.
+  - '`150 · π/180`'
+  fehler:
+  - antwort: 8594,367
+    hinweis: 'Umgekehrt: Grad mal π/180.'

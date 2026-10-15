@@ -1,0 +1,16 @@
+id: D1.4
+titel: Anwendungen der Trigonometrie
+ziel: Du löst Sachaufgaben mit rechtwinkeligen Dreiecken.
+erklaerung: 'Immer zuerst eine **Skizze** mit dem rechtwinkeligen Dreieck zeichnen!
+
+
+  - **Steigung in Prozent:** p % heißt `tan α = p/100`.
+
+  - **Höhenwinkel:** Entfernung ist die Ankathete, die Höhe die Gegenkathete → tan.
+
+  - Schräge Strecken (Leiter, Seil, Rampe) sind meist die **Hypotenuse**.'
+beispiel:
+  text: 'Eine Straße mit 10 % Steigung: tan α = 0,1, also α ≈ 5,7°.'
+  wert: 0,1
+  weg:
+  - 10/100 = 0,1

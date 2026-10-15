@@ -89,6 +89,9 @@ for (const datei of readdirSync(DATEN)) {
         const r = M.pruefeFormelZeile(`${a.nach} = ${f.antwort}`, a);
         erwarte(r.art === "falsch" && r.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
       }
+    } else if (a.typ === "vektor") {
+      erwarte(M.pruefeVektor(`(${a.loesung.join("|")})`, a).art === "geloest", `${a.id}: Vektor nicht erkannt`);
+      for (const f of a.fehler || []) erwarte(M.pruefeVektor(`(${f.antwort.join("|")})`, a).art === "falsch", `${a.id}: Fehler ${f.antwort} nicht falsch`);
     } else if (a.typ === "quadratisch") {
       const l = String(a.loesung);
       const eingabe = l === "keine" ? "keine" : l.split(";").map((v) => `x = ${v.trim()}`).join(" oder ");

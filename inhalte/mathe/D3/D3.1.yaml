@@ -1,0 +1,12 @@
+id: D3.1
+titel: Vektoren als Zahlenlisten
+ziel: Du verwendest Vektoren, um Listen von Zahlen zu verarbeiten.
+erklaerung: 'Ein **Vektor** kann einfach eine geordnete Liste von Zahlen sein, z. B. Stückzahlen `S = (3 | 5 | 2)` und Preise `P = (2 | 1,5 | 4)`.
+
+
+  Das **Skalarprodukt** `S · P = 3·2 + 5·1,5 + 2·4` ergibt dann den Gesamtpreis. Wichtig ist die **Reihenfolge**: Die erste Zahl gehört immer zum selben Produkt.'
+beispiel:
+  text: 'S = (3 | 5 | 2), P = (2 | 1,5 | 4): 6 + 7,5 + 8 = 21,5 €.'
+  wert: 21,5
+  weg:
+  - 3·2 + 5·1,5 + 2·4 = 21,5

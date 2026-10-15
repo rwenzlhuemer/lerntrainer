@@ -89,7 +89,7 @@ def erzeuge(lid, r, macher, pro_stufe=10, stufen=(1, 2, 3, 4)):
             if not a:
                 continue
             schluessel = a.get("frage") or a.get("term") or a.get("gleichung") or a.get("ungleichung") or " | ".join(a.get("gleichungen", [])) or f"{a.get('formel')} nach {a.get('nach')}"
-            schluessel = f"{schluessel} {a.get('graph')} {a.get('tabelle')} {a.get('optionen')}"
+            schluessel = f"{schluessel} {a.get('graph')} {a.get('tabelle')} {a.get('optionen')} {a.get('dreieck')} {a.get('diagramm')}"
             if schluessel in gesehen:
                 continue
             gesehen.add(schluessel)

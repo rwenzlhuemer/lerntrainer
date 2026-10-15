@@ -106,3 +106,22 @@ export function saeulenSVG(spec) {
   if (spec.achse) teile.push(`<text class="g-achsname" x="${links + 4}" y="${oben - 2}">${esc(spec.achse)}</text>`);
   return `<svg class="graph" viewBox="0 0 ${B} ${H}" role="img" aria-label="Säulendiagramm">${teile.join("\n")}</svg>`;
 }
+
+// Rechtwinkeliges Dreieck ABC mit rechtem Winkel bei C (unten rechts).
+// a = BC (Gegenkathete zu α), b = AC (Ankathete zu α), c = AB (Hypotenuse). spec: { a, b, c, alpha, beta } – Texte
+export function dreieckSVG(spec) {
+  const A = [40, 195], C = [320, 195], B = [320, 45];
+  const t = (x, y, s, extra = "") => (s === undefined || s === null || s === "") ? "" :
+    `<text class="g-name" x="${x}" y="${y}" ${extra} font-size="15">${esc(String(s).replace(".", ","))}</text>`;
+  return `<svg class="graph dreieck" viewBox="0 0 370 230" role="img" aria-label="rechtwinkeliges Dreieck">
+    <polygon points="${A} ${C} ${B}" fill="#e3f0f2" stroke="#2f6f7e" stroke-width="2.4" stroke-linejoin="round"/>
+    <polyline points="${C[0] - 16},${C[1]} ${C[0] - 16},${C[1] - 16} ${C[0]},${C[1] - 16}" fill="none" stroke="#2f6f7e" stroke-width="1.5"/>
+    <path d="M ${A[0] + 48} ${A[1]} A 48 48 0 0 0 ${A[0] + 42} ${A[1] - 23}" fill="none" stroke="#c0622b" stroke-width="2"/>
+    ${t(A[0] - 22, A[1] + 6, "A")}${t(C[0] + 8, C[1] + 6, "C")}${t(B[0] + 8, B[1] - 2, "B")}
+    ${t(A[0] + 56, A[1] - 8, spec.alpha !== undefined ? `α = ${spec.alpha}` : "α", 'fill="#c0622b"')}
+    ${spec.beta !== undefined ? t(B[0] - 64, B[1] + 46, `β = ${spec.beta}`) : ""}
+    ${t(C[0] + 10, (B[1] + C[1]) / 2 + 4, `a = ${spec.a ?? "?"}`)}
+    ${t((A[0] + C[0]) / 2 - 20, C[1] + 24, `b = ${spec.b ?? "?"}`)}
+    ${t((A[0] + B[0]) / 2 - 70, (A[1] + B[1]) / 2 - 10, `c = ${spec.c ?? "?"}`)}
+  </svg>`;
+}

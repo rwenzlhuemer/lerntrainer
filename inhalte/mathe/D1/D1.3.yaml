@@ -1,0 +1,14 @@
+id: D1.3
+titel: Seiten und Winkel berechnen
+ziel: Du berechnest Seiten und Winkel mit sin, cos und tan.
+erklaerung: "1. Welche Größen sind gegeben, welche ist gesucht? Skizze beschriften.\n2. Die Winkelfunktion wählen, in der genau diese drei Größen vorkommen.\n3. **Seite gesucht:** umformen, z. B. `a = c\
+  \ · sin α`.\n   **Winkel gesucht:** Umkehrfunktion, z. B. `α = sin⁻¹(a/c)`. Taschenrechner auf **Grad (DEG)**!\n\nDer dritte Winkel: `β = 90° − α`."
+beispiel:
+  text: 'α = 30°, c = 10: a = 10 · sin 30° = 5.'
+  dreieck:
+    alpha: 30°
+    c: 10
+    a: '?'
+  wert: '5'
+  weg:
+  - 10·0,5 = 5

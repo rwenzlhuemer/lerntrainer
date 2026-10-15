@@ -1,0 +1,369 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D1.1-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Hypotenuse c des rechtwinkeligen Dreiecks.
+  loesung: '17'
+  dreieck:
+    a: 8
+    b: 15
+  dreieck_rechnen:
+    gegeben:
+      a: 8
+      b: 15
+    gesucht: c
+  tipps:
+  - 'Pythagoras: `a² + b² = c²` – die Hypotenuse liegt dem rechten Winkel gegenüber.'
+  - '`c = √(8² + 15²)`'
+  fehler:
+  - antwort: '23'
+    hinweis: Man darf die Seiten nicht einfach addieren – zuerst quadrieren, dann Wurzel ziehen.
+- id: D1.1-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Hypotenuse c des rechtwinkeligen Dreiecks.
+  loesung: '20'
+  dreieck:
+    a: 16
+    b: 12
+  dreieck_rechnen:
+    gegeben:
+      a: 16
+      b: 12
+    gesucht: c
+  tipps:
+  - 'Pythagoras: `a² + b² = c²` – die Hypotenuse liegt dem rechten Winkel gegenüber.'
+  - '`c = √(16² + 12²)`'
+  fehler:
+  - antwort: '28'
+    hinweis: Man darf die Seiten nicht einfach addieren – zuerst quadrieren, dann Wurzel ziehen.
+- id: D1.1-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Hypotenuse c des rechtwinkeligen Dreiecks.
+  loesung: '15'
+  dreieck:
+    a: 9
+    b: 12
+  dreieck_rechnen:
+    gegeben:
+      a: 9
+      b: 12
+    gesucht: c
+  tipps:
+  - 'Pythagoras: `a² + b² = c²` – die Hypotenuse liegt dem rechten Winkel gegenüber.'
+  - '`c = √(9² + 12²)`'
+  fehler:
+  - antwort: '21'
+    hinweis: Man darf die Seiten nicht einfach addieren – zuerst quadrieren, dann Wurzel ziehen.
+- id: D1.1-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Hypotenuse c des rechtwinkeligen Dreiecks.
+  loesung: '10'
+  dreieck:
+    a: 8
+    b: 6
+  dreieck_rechnen:
+    gegeben:
+      a: 8
+      b: 6
+    gesucht: c
+  tipps:
+  - 'Pythagoras: `a² + b² = c²` – die Hypotenuse liegt dem rechten Winkel gegenüber.'
+  - '`c = √(8² + 6²)`'
+  fehler:
+  - antwort: '14'
+    hinweis: Man darf die Seiten nicht einfach addieren – zuerst quadrieren, dann Wurzel ziehen.
+- id: D1.1-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne die Hypotenuse c des rechtwinkeligen Dreiecks.
+  loesung: '13'
+  dreieck:
+    a: 12
+    b: 5
+  dreieck_rechnen:
+    gegeben:
+      a: 12
+      b: 5
+    gesucht: c
+  tipps:
+  - 'Pythagoras: `a² + b² = c²` – die Hypotenuse liegt dem rechten Winkel gegenüber.'
+  - '`c = √(12² + 5²)`'
+  fehler:
+  - antwort: '17'
+    hinweis: Man darf die Seiten nicht einfach addieren – zuerst quadrieren, dann Wurzel ziehen.
+- id: D1.1-006
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Kathete a des rechtwinkeligen Dreiecks.
+  loesung: '4'
+  dreieck:
+    b: 3
+    c: 5
+  dreieck_rechnen:
+    gegeben:
+      b: 3
+      c: 5
+    gesucht: a
+  tipps:
+  - '`a² + b² = c²`, also `a² = c² − b²`.'
+  - '`a = √(5² − 3²)`'
+  fehler:
+  - antwort: 5,83
+    hinweis: 'Gesucht ist eine Kathete: c² **minus** b².'
+- id: D1.1-007
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Kathete a des rechtwinkeligen Dreiecks.
+  loesung: '7'
+  dreieck:
+    b: 24
+    c: 25
+  dreieck_rechnen:
+    gegeben:
+      b: 24
+      c: 25
+    gesucht: a
+  tipps:
+  - '`a² + b² = c²`, also `a² = c² − b²`.'
+  - '`a = √(25² − 24²)`'
+  fehler:
+  - antwort: 34,66
+    hinweis: 'Gesucht ist eine Kathete: c² **minus** b².'
+- id: D1.1-008
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Kathete a des rechtwinkeligen Dreiecks.
+  loesung: '20'
+  dreieck:
+    b: 21
+    c: 29
+  dreieck_rechnen:
+    gegeben:
+      b: 21
+      c: 29
+    gesucht: a
+  tipps:
+  - '`a² + b² = c²`, also `a² = c² − b²`.'
+  - '`a = √(29² − 21²)`'
+  fehler:
+  - antwort: 35,81
+    hinweis: 'Gesucht ist eine Kathete: c² **minus** b².'
+- id: D1.1-009
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Kathete a des rechtwinkeligen Dreiecks.
+  loesung: '24'
+  dreieck:
+    b: 7
+    c: 25
+  dreieck_rechnen:
+    gegeben:
+      b: 7
+      c: 25
+    gesucht: a
+  tipps:
+  - '`a² + b² = c²`, also `a² = c² − b²`.'
+  - '`a = √(25² − 7²)`'
+  fehler:
+  - antwort: 25,96
+    hinweis: 'Gesucht ist eine Kathete: c² **minus** b².'
+- id: D1.1-010
+  typ: zahl
+  stufe: 2
+  frage: Berechne die Kathete a des rechtwinkeligen Dreiecks.
+  loesung: '12'
+  dreieck:
+    b: 16
+    c: 20
+  dreieck_rechnen:
+    gegeben:
+      b: 16
+      c: 20
+    gesucht: a
+  tipps:
+  - '`a² + b² = c²`, also `a² = c² − b²`.'
+  - '`a = √(20² − 16²)`'
+  fehler:
+  - antwort: 25,61
+    hinweis: 'Gesucht ist eine Kathete: c² **minus** b².'
+- id: D1.1-011
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Hypotenuse c (auf zwei Nachkommastellen).
+  loesung: 9,85
+  gerundet: 2
+  dreieck:
+    a: 9
+    b: 4
+  dreieck_rechnen:
+    gegeben:
+      a: 9
+      b: 4
+    gesucht: c
+  tipps:
+  - '`c = √(9² + 4²)`'
+  fehler:
+  - antwort: 13,00
+    hinweis: Zuerst quadrieren.
+- id: D1.1-012
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Hypotenuse c (auf zwei Nachkommastellen).
+  loesung: 12,08
+  gerundet: 2
+  dreieck:
+    a: 11
+    b: 5
+  dreieck_rechnen:
+    gegeben:
+      a: 11
+      b: 5
+    gesucht: c
+  tipps:
+  - '`c = √(11² + 5²)`'
+  fehler:
+  - antwort: 16,00
+    hinweis: Zuerst quadrieren.
+- id: D1.1-013
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Hypotenuse c (auf zwei Nachkommastellen).
+  loesung: 13,42
+  gerundet: 2
+  dreieck:
+    a: 6
+    b: 12
+  dreieck_rechnen:
+    gegeben:
+      a: 6
+      b: 12
+    gesucht: c
+  tipps:
+  - '`c = √(6² + 12²)`'
+  fehler:
+  - antwort: 18,00
+    hinweis: Zuerst quadrieren.
+- id: D1.1-014
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Hypotenuse c (auf zwei Nachkommastellen).
+  loesung: 12,81
+  gerundet: 2
+  dreieck:
+    a: 8
+    b: 10
+  dreieck_rechnen:
+    gegeben:
+      a: 8
+      b: 10
+    gesucht: c
+  tipps:
+  - '`c = √(8² + 10²)`'
+  fehler:
+  - antwort: 18,00
+    hinweis: Zuerst quadrieren.
+- id: D1.1-015
+  typ: zahl
+  stufe: 3
+  frage: Berechne die Hypotenuse c (auf zwei Nachkommastellen).
+  loesung: 16,28
+  gerundet: 2
+  dreieck:
+    a: 11
+    b: 12
+  dreieck_rechnen:
+    gegeben:
+      a: 11
+      b: 12
+    gesucht: c
+  tipps:
+  - '`c = √(11² + 12²)`'
+  fehler:
+  - antwort: 23,00
+    hinweis: Zuerst quadrieren.
+- id: D1.1-016
+  typ: zahl
+  stufe: 4
+  frage: Eine 4 m lange Leiter lehnt an einer Hauswand. Ihr Fuß steht 1,2 m von der Wand entfernt. In welcher Höhe berührt sie die Wand? (auf zwei Nachkommastellen)
+  loesung: 3,82
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      c: '4'
+      b: 1,2
+    gesucht: a
+  tipps:
+  - 'Skizze: Die Leiter ist die Hypotenuse.'
+  - Höhe² = Leiter² − Abstand².
+  fehler:
+  - antwort: 4,18
+    hinweis: 'Die Leiter ist die längste Seite (Hypotenuse): minus, nicht plus.'
+- id: D1.1-017
+  typ: zahl
+  stufe: 4
+  frage: Eine 7 m lange Leiter lehnt an einer Hauswand. Ihr Fuß steht 2,5 m von der Wand entfernt. In welcher Höhe berührt sie die Wand? (auf zwei Nachkommastellen)
+  loesung: 6,54
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      c: '7'
+      b: 2,5
+    gesucht: a
+  tipps:
+  - 'Skizze: Die Leiter ist die Hypotenuse.'
+  - Höhe² = Leiter² − Abstand².
+  fehler:
+  - antwort: 7,43
+    hinweis: 'Die Leiter ist die längste Seite (Hypotenuse): minus, nicht plus.'
+- id: D1.1-018
+  typ: zahl
+  stufe: 4
+  frage: Eine Rampe ist 3 m lang und überwindet 0,25 m Höhe. Wie lang ist sie waagrecht gemessen? (auf zwei Nachkommastellen)
+  loesung: 2,99
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      c: 3
+      a: 0,25
+    gesucht: b
+  tipps:
+  - Die Rampe ist die Hypotenuse, die Höhe eine Kathete.
+  fehler: []
+- id: D1.1-019
+  typ: zahl
+  stufe: 4
+  frage: Ein Bildschirm ist 48 cm breit und 30 cm hoch. Wie lang ist die Diagonale? (auf zwei Nachkommastellen)
+  loesung: 56,60
+  gerundet: 2
+  einheit: cm
+  dreieck_rechnen:
+    gegeben:
+      a: 30
+      b: 48
+    gesucht: c
+  tipps:
+  - Die Diagonale teilt das Rechteck in zwei rechtwinkelige Dreiecke.
+  - Diagonale² = Breite² + Höhe².
+  fehler: []
+- id: D1.1-020
+  typ: zahl
+  stufe: 4
+  frage: Eine Rampe ist 8 m lang und überwindet 0,6 m Höhe. Wie lang ist sie waagrecht gemessen? (auf zwei Nachkommastellen)
+  loesung: 7,98
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      c: 8
+      a: 0,6
+    gesucht: b
+  tipps:
+  - Die Rampe ist die Hypotenuse, die Höhe eine Kathete.
+  fehler: []

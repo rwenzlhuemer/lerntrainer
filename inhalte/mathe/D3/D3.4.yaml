@@ -1,0 +1,15 @@
+id: D3.4
+titel: Betrag eines Vektors
+ziel: Du berechnest die Länge eines Vektors.
+erklaerung: 'Die **Länge (Betrag)** eines Vektors berechnest du mit Pythagoras:
+
+
+  `|(x | y)| = √(x² + y²)` und in 3D `|(x | y | z)| = √(x² + y² + z²)`.
+
+
+  Der Betrag ist nie negativ.'
+beispiel:
+  text: '|(3 | −4)| = √(9 + 16) = 5.'
+  wert: '5'
+  weg:
+  - √(3^2 + (-4)^2) = 5

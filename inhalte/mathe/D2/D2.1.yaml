@@ -1,0 +1,16 @@
+id: D2.1
+titel: Einheitskreis
+ziel: Du bestimmst sin und cos auch für Winkel über 90°.
+erklaerung: 'Am **Einheitskreis** (Radius 1) gehört zu jedem Winkel ein Punkt P:
+
+  - **cos α** ist die **x-Koordinate**,
+
+  - **sin α** ist die **y-Koordinate**.
+
+
+  So sind sin und cos für jeden Winkel definiert. Die Vorzeichen hängen vom Quadranten ab: zwischen 90° und 180° ist sin positiv, cos negativ; zwischen 180° und 270° sind beide negativ.'
+beispiel:
+  text: sin(150°) = sin(30°) = 0,5, aber cos(150°) = −cos(30°) ≈ −0,866.
+  wert: 0,5
+  weg:
+  - sin(150·π/180) = 0,5

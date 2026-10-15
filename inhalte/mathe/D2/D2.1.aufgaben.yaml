@@ -1,0 +1,206 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D2.1-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne cos(120°) (auf drei Nachkommastellen).
+  loesung: -0,500
+  gerundet: 3
+  rechnung: cos(120·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,500
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne sin(120°) (auf drei Nachkommastellen).
+  loesung: 0,866
+  gerundet: 3
+  rechnung: sin(120·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: -0,866
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne sin(180°) (auf drei Nachkommastellen).
+  loesung: 0,000
+  gerundet: 3
+  rechnung: sin(180·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler: []
+- id: D2.1-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne sin(135°) (auf drei Nachkommastellen).
+  loesung: 0,707
+  gerundet: 3
+  rechnung: sin(135·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: -0,707
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-005
+  typ: zahl
+  stufe: 2
+  frage: Berechne cos(225°) (auf drei Nachkommastellen).
+  loesung: -0,707
+  gerundet: 3
+  rechnung: cos(225·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,707
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-006
+  typ: zahl
+  stufe: 2
+  frage: Berechne sin(330°) (auf drei Nachkommastellen).
+  loesung: -0,500
+  gerundet: 3
+  rechnung: sin(330·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,500
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-007
+  typ: zahl
+  stufe: 2
+  frage: Berechne cos(180°) (auf drei Nachkommastellen).
+  loesung: -1,000
+  gerundet: 3
+  rechnung: cos(180·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 1,000
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-008
+  typ: zahl
+  stufe: 2
+  frage: Berechne sin(240°) (auf drei Nachkommastellen).
+  loesung: -0,866
+  gerundet: 3
+  rechnung: sin(240·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,866
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-009
+  typ: zahl
+  stufe: 3
+  frage: Berechne sin(315°) (auf drei Nachkommastellen).
+  loesung: -0,707
+  gerundet: 3
+  rechnung: sin(315·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,707
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-010
+  typ: zahl
+  stufe: 3
+  frage: Berechne sin(300°) (auf drei Nachkommastellen).
+  loesung: -0,866
+  gerundet: 3
+  rechnung: sin(300·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,866
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-011
+  typ: zahl
+  stufe: 3
+  frage: Berechne cos(330°) (auf drei Nachkommastellen).
+  loesung: 0,866
+  gerundet: 3
+  rechnung: cos(330·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: -0,866
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-012
+  typ: zahl
+  stufe: 3
+  frage: Berechne sin(225°) (auf drei Nachkommastellen).
+  loesung: -0,707
+  gerundet: 3
+  rechnung: sin(225·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,707
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-013
+  typ: zahl
+  stufe: 4
+  frage: Berechne cos(270°) (auf drei Nachkommastellen).
+  loesung: -0,000
+  gerundet: 3
+  rechnung: cos(270·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler: []
+- id: D2.1-014
+  typ: zahl
+  stufe: 4
+  frage: Berechne sin(150°) (auf drei Nachkommastellen).
+  loesung: 0,500
+  gerundet: 3
+  rechnung: sin(150·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: -0,500
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-015
+  typ: zahl
+  stufe: 4
+  frage: Berechne cos(240°) (auf drei Nachkommastellen).
+  loesung: -0,500
+  gerundet: 3
+  rechnung: cos(240·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,500
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'
+- id: D2.1-016
+  typ: zahl
+  stufe: 4
+  frage: Berechne sin(210°) (auf drei Nachkommastellen).
+  loesung: -0,500
+  gerundet: 3
+  rechnung: sin(210·π/180)
+  tipps:
+  - 'Am Einheitskreis: cos ist die x-Koordinate, sin die y-Koordinate des Punktes.'
+  - Achte auf das Vorzeichen im jeweiligen Quadranten.
+  fehler:
+  - antwort: 0,500
+    hinweis: 'Vorzeichen: In welchem Quadranten liegt der Winkel?'

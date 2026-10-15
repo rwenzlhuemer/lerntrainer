@@ -2,7 +2,7 @@
 import * as M from "./mathe.js";
 import * as S from "./speicher.js";
 import { schmierzettel } from "./schmierzettel.js";
-import { graphSVG, saeulenSVG } from "./graph.js";
+import { graphSVG, saeulenSVG, dreieckSVG } from "./graph.js";
 import "./handablage.js";
 
 const FACH = "mathe";
@@ -29,7 +29,7 @@ function tabelleHTML(t) {
     `<tr><th>${M.matheHTML(k)}</th>${spalten.map((s) => s[i]).join("")}</tr>`).join("")}</table></div>`;
 }
 
-const anschauung = (a) => (a.graph ? graphSVG(a.graph) : "") + (a.diagramm ? saeulenSVG(a.diagramm) : "") + (a.tabelle ? tabelleHTML(a.tabelle) : "");
+const anschauung = (a) => (a.graph ? graphSVG(a.graph) : "") + (a.diagramm ? saeulenSVG(a.diagramm) : "") + (a.dreieck ? dreieckSVG(a.dreieck) : "") + (a.tabelle ? tabelleHTML(a.tabelle) : "");
 const zufall = (liste) => liste[Math.floor(Math.random() * liste.length)];
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -293,6 +293,7 @@ async function seiteUeben(lid, testModus) {
     const istUngl = a.typ === "ungleichung";
     const istLgs = a.typ === "lgs";
     const istQ = a.typ === "quadratisch";
+    const istVek = a.typ === "vektor";
     const kopf = test ? `Prüfaufgabe ${test.nr} von 3` : `${STUFE_NAME[stufe]} · Stufe ${stufe} von ${S.HOECHSTE_STUFE}`;
     let koerper;
     if (istGl) {
@@ -317,7 +318,7 @@ async function seiteUeben(lid, testModus) {
     } else {
       koerper = `<div class="frage">${M.textHTML(a.frage)}</div>`;
     }
-    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istQ ? "z. B. x = 3 oder x = −2" : istLgs ? "z. B. x = 3, y = 1" : istUngl ? (a.form === "intervall" ? "z. B. ]−∞; 3[" : "z. B. x < 3") : istFormel ? `nächste Zeile, z. B. ${a.nach} = …` : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
+    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istVek ? "z. B. (3|−2)" : istQ ? "z. B. x = 3 oder x = −2" : istLgs ? "z. B. x = 3, y = 1" : istUngl ? (a.form === "intervall" ? "z. B. ]−∞; 3[" : "z. B. x < 3") : istFormel ? `nächste Zeile, z. B. ${a.nach} = …` : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
     const eingabe = a.typ === "auswahl"
       ? `<div class="optionen">${a.optionen.map((o, i) => `<button class="knopf option" data-i="${i}">${a.mathe ? M.matheHTML(o) : esc(o)}</button>`).join("")}</div>`
       : `<form class="eingabe" id="form" autocomplete="off">
@@ -339,7 +340,7 @@ async function seiteUeben(lid, testModus) {
         <p class="stufe">${esc(kopf)}</p>
         ${koerper}
         ${anschauung(a)}
-        ${a.typ === "zahl" || a.typ === "auswahl" ? "" : `<ol class="zeilen" id="zeilen"></ol>`}
+        ${["zahl", "auswahl", "vektor"].includes(a.typ) ? "" : `<ol class="zeilen" id="zeilen"></ol>`}
         ${eingabe}
         <div class="tipps" id="tipps"></div>
         <div class="rueckmeldung" id="rm" aria-live="polite"></div>
@@ -357,7 +358,8 @@ async function seiteUeben(lid, testModus) {
     const feld = ort.querySelector("#feld");
     const symbole = haupt.querySelector("#symbole");
     symbole.hidden = !feld;
-    const zeichen = istQ ? ["x", "²", "√", "±", "(", ")", "=", "+", "−", "/", ";", "oder"]
+    const zeichen = istVek ? ["(", ")", "|", "−", "/", ",", "√"]
+      : istQ ? ["x", "²", "√", "±", "(", ")", "=", "+", "−", "/", ";", "oder"]
       : istLgs ? ["x", "y", "=", "(", ")", "|", "·", "/", "+", "−", ",", ";"]
       : istUngl ? ["x", "<", ">", "≤", "≥", "(", ")", "−", "/", ",", ...(a.form === "intervall" ? ["]", "[", ";", "∞"] : [])]
       : istFormel ? [...[...M.variablen(M.lies(a.formel).links), ...M.variablen(M.lies(a.formel).rechts)]].filter((v, i, l) => l.indexOf(v) === i).sort().concat(["=", "²", "√", "(", ")", "·", "/", "+", "−"])
@@ -447,7 +449,7 @@ async function seiteUeben(lid, testModus) {
       if (zustand.fertig) return;
       zustand.gezeigt = true;
       const loesung = a.typ === "auswahl" ? esc(a.optionen[a.richtig[0]]) :
-        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : istQ ? qLoesung() : istLgs ? lgsLoesung() : istUngl ? ungleichungLoesung() : istFormel ? M.matheHTML(`${a.nach} = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
+        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : istVek ? M.vektorHTML(a.loesung) : istQ ? qLoesung() : istLgs ? lgsLoesung() : istUngl ? ungleichungLoesung() : istFormel ? M.matheHTML(`${a.nach} = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
       abschliessen("gezeigt", `<p><strong>Lösung:</strong> ${loesung}</p>${wegHTML()}
         ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
         <p class="mut">Anschauen ist auch lernen. Geh die Schritte in Ruhe durch – bei der nächsten Aufgabe probierst du es selbst.</p>`);
@@ -487,8 +489,26 @@ async function seiteUeben(lid, testModus) {
       else if (istUngl) pruefeUngleichung(roh);
       else if (istLgs) pruefeLgs(roh);
       else if (istQ) pruefeQ(roh);
+      else if (istVek) pruefeVek(roh);
       else pruefeAntwort(roh);
     });
+
+    function pruefeVek(roh) {
+      const r = M.pruefeVektor(roh, a);
+      if (r.art === "geloest") {
+        abschliessen(ergebnisArt(), `<p><strong>${zufall(LOB)}</strong> ${M.vektorHTML(a.loesung)}</p>
+          ${a.weg?.length ? `<details class="weg-details"><summary>Musterlösung ansehen</summary>${wegHTML()}</details>` : ""}
+          <p class="mut">${zufall(MUT)}</p>`);
+      } else if (r.art === "falsch") {
+        zustand.fehlversuche++;
+        const text = r.fehler ? M.textHTML(r.fehler.hinweis)
+          : r.parallel ? "<p>Fast: Dein Vektor zeigt in die richtige Richtung, ist aber ein Vielfaches des gesuchten. Prüf die Länge.</p>"
+          : "<p>Das passt noch nicht. Rechne Koordinate für Koordinate.</p>";
+        melde("falsch", `${text}<p class="mut">${zufall(TROST)}</p>`);
+      } else {
+        melde("neutral", `<p>Schreib den Vektor so: <span class="mathe">(3 | −2)</span> – die Koordinaten mit senkrechtem Strich trennen.</p>`);
+      }
+    }
 
     function qLoesung() {
       if (String(a.loesung).trim() === "keine") return "keine reelle Lösung, L = { }";

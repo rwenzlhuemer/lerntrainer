@@ -1,0 +1,400 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D1.2-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,6
+  dreieck:
+    a: 6
+    b: 8
+    c: 10
+  dreieck_rechnen:
+    gegeben:
+      a: 6
+      b: 8
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,8
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 20/29
+  dreieck:
+    a: 20
+    b: 21
+    c: 29
+  dreieck_rechnen:
+    gegeben:
+      a: 20
+      b: 21
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler: []
+- id: D1.2-003
+  typ: zahl
+  stufe: 1
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,8
+  dreieck:
+    a: 6
+    b: 8
+    c: 10
+  dreieck_rechnen:
+    gegeben:
+      a: 6
+      b: 8
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,6
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,8
+  dreieck:
+    a: 12
+    b: 16
+    c: 20
+  dreieck_rechnen:
+    gegeben:
+      a: 12
+      b: 16
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,6
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-005
+  typ: zahl
+  stufe: 1
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,6
+  dreieck:
+    a: 3
+    b: 4
+    c: 5
+  dreieck_rechnen:
+    gegeben:
+      a: 3
+      b: 4
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,8
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-006
+  typ: zahl
+  stufe: 2
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 8/17
+  dreieck:
+    a: 8
+    b: 15
+    c: 17
+  dreieck_rechnen:
+    gegeben:
+      a: 8
+      b: 15
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 15/17
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-007
+  typ: zahl
+  stufe: 2
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,28
+  dreieck:
+    a: 7
+    b: 24
+    c: 25
+  dreieck_rechnen:
+    gegeben:
+      a: 7
+      b: 24
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,96
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-008
+  typ: zahl
+  stufe: 2
+  frage: Berechne tan α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,75
+  dreieck:
+    a: 12
+    b: 16
+    c: 20
+  dreieck_rechnen:
+    gegeben:
+      a: 12
+      b: 16
+    gesucht: tan_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 4/3
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-009
+  typ: zahl
+  stufe: 2
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,6
+  dreieck:
+    a: 9
+    b: 12
+    c: 15
+  dreieck_rechnen:
+    gegeben:
+      a: 9
+      b: 12
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,8
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-010
+  typ: zahl
+  stufe: 2
+  frage: Berechne tan α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,75
+  dreieck:
+    a: 9
+    b: 12
+    c: 15
+  dreieck_rechnen:
+    gegeben:
+      a: 9
+      b: 12
+    gesucht: tan_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 4/3
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-011
+  typ: zahl
+  stufe: 3
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,8
+  dreieck:
+    a: 3
+    b: 4
+    c: 5
+  dreieck_rechnen:
+    gegeben:
+      a: 3
+      b: 4
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,6
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-012
+  typ: zahl
+  stufe: 3
+  frage: Berechne tan α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 7/24
+  dreieck:
+    a: 7
+    b: 24
+    c: 25
+  dreieck_rechnen:
+    gegeben:
+      a: 7
+      b: 24
+    gesucht: tan_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 24/7
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-013
+  typ: zahl
+  stufe: 3
+  frage: Berechne tan α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 5/12
+  dreieck:
+    a: 5
+    b: 12
+    c: 13
+  dreieck_rechnen:
+    gegeben:
+      a: 5
+      b: 12
+    gesucht: tan_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 2,4
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-014
+  typ: zahl
+  stufe: 3
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,96
+  dreieck:
+    a: 7
+    b: 24
+    c: 25
+  dreieck_rechnen:
+    gegeben:
+      a: 7
+      b: 24
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,28
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-015
+  typ: zahl
+  stufe: 3
+  frage: Berechne sin α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,6
+  dreieck:
+    a: 12
+    b: 16
+    c: 20
+  dreieck_rechnen:
+    gegeben:
+      a: 12
+      b: 16
+    gesucht: sin_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,8
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-016
+  typ: zahl
+  stufe: 4
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 15/17
+  dreieck:
+    a: 8
+    b: 15
+    c: 17
+  dreieck_rechnen:
+    gegeben:
+      a: 8
+      b: 15
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 8/17
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-017
+  typ: zahl
+  stufe: 4
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,8
+  dreieck:
+    a: 9
+    b: 12
+    c: 15
+  dreieck_rechnen:
+    gegeben:
+      a: 9
+      b: 12
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 0,6
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-018
+  typ: zahl
+  stufe: 4
+  frage: Berechne cos α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 12/13
+  dreieck:
+    a: 5
+    b: 12
+    c: 13
+  dreieck_rechnen:
+    gegeben:
+      a: 5
+      b: 12
+    gesucht: cos_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 5/13
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-019
+  typ: zahl
+  stufe: 4
+  frage: Berechne tan α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 20/21
+  dreieck:
+    a: 20
+    b: 21
+    c: 29
+  dreieck_rechnen:
+    gegeben:
+      a: 20
+      b: 21
+    gesucht: tan_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 1,05
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.
+- id: D1.2-020
+  typ: zahl
+  stufe: 4
+  frage: Berechne tan α im abgebildeten Dreieck (als Bruch oder Dezimalzahl).
+  loesung: 0,75
+  dreieck:
+    a: 3
+    b: 4
+    c: 5
+  dreieck_rechnen:
+    gegeben:
+      a: 3
+      b: 4
+    gesucht: tan_alpha
+  tipps:
+  - 'sin α = Gegenkathete : Hypotenuse, cos α = Ankathete : Hypotenuse, tan α = Gegenkathete : Ankathete.'
+  - Gegenkathete von α ist a (liegt gegenüber), Ankathete ist b (liegt an α an), Hypotenuse ist c.
+  fehler:
+  - antwort: 4/3
+    hinweis: Gegenkathete und Ankathete verwechselt? Die Gegenkathete liegt dem Winkel **gegenüber**.

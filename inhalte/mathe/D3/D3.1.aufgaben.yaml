@@ -1,0 +1,462 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D3.1-001
+  typ: zahl
+  stufe: 1
+  frage: 'Ein Einkauf: Stückzahlen S = (1 | 2 | 1) für Äpfel, Birnen, Orangen, Preise pro Stück P = (1,9 | 0,5 | 0,9) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 3,8
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '1'
+    - '2'
+    - '1'
+    b:
+    - 1,9
+    - 0,5
+    - 0,9
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 4,4
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-002
+  typ: zahl
+  stufe: 1
+  frage: 'Ein Einkauf: Stückzahlen S = (7 | 7 | 6) für Äpfel, Birnen, Orangen, Preise pro Stück P = (0,9 | 2,2 | 2,1) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 34,3
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '7'
+    - '7'
+    - '6'
+    b:
+    - 0,9
+    - 2,2
+    - 2,1
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 104/3
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-003
+  typ: zahl
+  stufe: 1
+  frage: 'Ein Einkauf: Stückzahlen S = (3 | 9 | 5) für Äpfel, Birnen, Orangen, Preise pro Stück P = (1,8 | 0,9 | 0,6) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 16,5
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '3'
+    - '9'
+    - '5'
+    b:
+    - 1,8
+    - 0,9
+    - 0,6
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 18,7
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-004
+  typ: zahl
+  stufe: 1
+  frage: 'Ein Einkauf: Stückzahlen S = (3 | 9 | 7) für Äpfel, Birnen, Orangen, Preise pro Stück P = (2 | 2,8 | 2) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 45,2
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '3'
+    - '9'
+    - '7'
+    b:
+    - '2'
+    - 2,8
+    - '2'
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 646/15
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-005
+  typ: zahl
+  stufe: 1
+  frage: 'Ein Einkauf: Stückzahlen S = (5 | 4 | 2) für Äpfel, Birnen, Orangen, Preise pro Stück P = (0,5 | 2,6 | 2,1) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 17,1
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '5'
+    - '4'
+    - '2'
+    b:
+    - 0,5
+    - 2,6
+    - 2,1
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 286/15
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-006
+  typ: zahl
+  stufe: 2
+  frage: 'Ein Einkauf: Stückzahlen S = (9 | 2 | 7) für Äpfel, Birnen, Orangen, Preise pro Stück P = (2,4 | 0,6 | 1,8) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 35,4
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '9'
+    - '2'
+    - '7'
+    b:
+    - 2,4
+    - 0,6
+    - 1,8
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 28,8
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-007
+  typ: zahl
+  stufe: 2
+  frage: 'Ein Einkauf: Stückzahlen S = (6 | 8 | 2) für Äpfel, Birnen, Orangen, Preise pro Stück P = (0,7 | 1,5 | 2,6) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 21,4
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '6'
+    - '8'
+    - '2'
+    b:
+    - 0,7
+    - 1,5
+    - 2,6
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 25,6
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-008
+  typ: zahl
+  stufe: 2
+  frage: 'Ein Einkauf: Stückzahlen S = (9 | 4 | 5) für Äpfel, Birnen, Orangen, Preise pro Stück P = (2,7 | 2 | 1,5) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 39,8
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '9'
+    - '4'
+    - '5'
+    b:
+    - 2,7
+    - '2'
+    - 1,5
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 37,2
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-009
+  typ: zahl
+  stufe: 2
+  frage: 'Ein Einkauf: Stückzahlen S = (6 | 1 | 4) für Äpfel, Birnen, Orangen, Preise pro Stück P = (0,2 | 1,6 | 2,9) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 14,4
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '6'
+    - '1'
+    - '4'
+    b:
+    - 0,2
+    - 1,6
+    - 2,9
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 517/30
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-010
+  typ: zahl
+  stufe: 2
+  frage: 'Ein Einkauf: Stückzahlen S = (9 | 6 | 9) für Äpfel, Birnen, Orangen, Preise pro Stück P = (0,4 | 1,9 | 2) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: '33'
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '9'
+    - '6'
+    - '9'
+    b:
+    - 0,4
+    - 1,9
+    - '2'
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 34,4
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-011
+  typ: zahl
+  stufe: 3
+  frage: 'Ein Einkauf: Stückzahlen S = (6 | 5 | 4 | 8) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (0,3 | 2,3 | 2,7 | 2,6) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 44,9
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '6'
+    - '5'
+    - '4'
+    - '8'
+    b:
+    - 0,3
+    - 2,3
+    - 2,7
+    - 2,6
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 45,425
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-012
+  typ: zahl
+  stufe: 3
+  frage: 'Ein Einkauf: Stückzahlen S = (8 | 8 | 9 | 2) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (1 | 3 | 0,7 | 0,8) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 39,9
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '8'
+    - '8'
+    - '9'
+    - '2'
+    b:
+    - '1'
+    - '3'
+    - 0,7
+    - 0,8
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 37,125
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-013
+  typ: zahl
+  stufe: 3
+  frage: 'Ein Einkauf: Stückzahlen S = (6 | 4 | 3 | 8) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (1,4 | 2,7 | 0,5 | 2,5) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 40,7
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '6'
+    - '4'
+    - '3'
+    - '8'
+    b:
+    - 1,4
+    - 2,7
+    - 0,5
+    - 2,5
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 37,275
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-014
+  typ: zahl
+  stufe: 3
+  frage: 'Ein Einkauf: Stückzahlen S = (9 | 4 | 3 | 6) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (0,9 | 1,9 | 1,8 | 0,2) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 22,3
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '9'
+    - '4'
+    - '3'
+    - '6'
+    b:
+    - 0,9
+    - 1,9
+    - 1,8
+    - 0,2
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 26,4
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-015
+  typ: zahl
+  stufe: 3
+  frage: 'Ein Einkauf: Stückzahlen S = (3 | 7 | 6 | 7) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (0,8 | 0,9 | 0,6 | 1) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 19,3
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '3'
+    - '7'
+    - '6'
+    - '7'
+    b:
+    - 0,8
+    - 0,9
+    - 0,6
+    - '1'
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 18,975
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-016
+  typ: zahl
+  stufe: 4
+  frage: 'Ein Einkauf: Stückzahlen S = (1 | 4 | 1 | 4) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (0,4 | 1,4 | 1,5 | 2,5) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 17,5
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '1'
+    - '4'
+    - '1'
+    - '4'
+    b:
+    - 0,4
+    - 1,4
+    - 1,5
+    - 2,5
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 14,5
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-017
+  typ: zahl
+  stufe: 4
+  frage: 'Ein Einkauf: Stückzahlen S = (1 | 9 | 7 | 6) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (0,9 | 1,4 | 1,8 | 1,2) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 33,3
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '1'
+    - '9'
+    - '7'
+    - '6'
+    b:
+    - 0,9
+    - 1,4
+    - 1,8
+    - 1,2
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 30,475
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-018
+  typ: zahl
+  stufe: 4
+  frage: 'Ein Einkauf: Stückzahlen S = (4 | 7 | 4 | 8) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (1,3 | 2,3 | 2,5 | 1,1) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 40,1
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '4'
+    - '7'
+    - '4'
+    - '8'
+    b:
+    - 1,3
+    - 2,3
+    - 2,5
+    - 1,1
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 41,4
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-019
+  typ: zahl
+  stufe: 4
+  frage: 'Ein Einkauf: Stückzahlen S = (7 | 3 | 5 | 6) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (0,2 | 2,4 | 1,7 | 2,5) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 32,1
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '7'
+    - '3'
+    - '5'
+    - '6'
+    b:
+    - 0,2
+    - 2,4
+    - 1,7
+    - 2,5
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 35,7
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.
+- id: D3.1-020
+  typ: zahl
+  stufe: 4
+  frage: 'Ein Einkauf: Stückzahlen S = (3 | 3 | 9 | 1) für Äpfel, Birnen, Orangen, Kiwis, Preise pro Stück P = (2,2 | 1,4 | 2,4 | 1,8) (in €). Wie viel kostet der Einkauf (Skalarprodukt S · P)?'
+  loesung: 34,2
+  einheit: €
+  vektor_zahl:
+    art: skalar
+    a:
+    - '3'
+    - '3'
+    - '9'
+    - '1'
+    b:
+    - 2,2
+    - 1,4
+    - 2,4
+    - 1,8
+  tipps:
+  - Jede Stückzahl mal ihren Preis, dann alles addieren.
+  - 'Das ist das Skalarprodukt: S₁·P₁ + S₂·P₂ + …'
+  fehler:
+  - antwort: 31,2
+    hinweis: Nicht Summe mal Summe – jede Sorte mit ihrem eigenen Preis.

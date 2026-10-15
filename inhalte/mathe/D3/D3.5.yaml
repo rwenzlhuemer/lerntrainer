@@ -1,0 +1,12 @@
+id: D3.5
+titel: Skalarprodukt und rechter Winkel
+ziel: Du berechnest das Skalarprodukt und erkennst rechte Winkel.
+erklaerung: '**Skalarprodukt:** `a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)` – das Ergebnis ist eine **Zahl**.
+
+
+  Wichtigste Eigenschaft: **a · b = 0 ⇔ a und b stehen normal (im rechten Winkel) aufeinander.**'
+beispiel:
+  text: (2 | 3) · (3 | −2) = 6 − 6 = 0 → die Vektoren stehen normal aufeinander.
+  wert: '0'
+  weg:
+  - 2·3 + 3·(-2) = 0

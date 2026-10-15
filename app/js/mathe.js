@@ -5,7 +5,7 @@
 // ── Lesen ────────────────────────────────────────────────
 
 const HOCH = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-" };
-const FUNKTIONEN = new Set(["sqrt", "sin", "cos", "tan", "ln", "log"]);
+const FUNKTIONEN = new Set(["sqrt", "sin", "cos", "tan", "asin", "acos", "atan", "ln", "log"]);
 const KONSTANTEN = { pi: Math.PI, "π": Math.PI, e: Math.E };
 
 export function normalisiere(text) {
@@ -177,7 +177,7 @@ export function werte(b, env = {}) {
     case "neg": return -werte(b.a, env);
     case "fn": {
       const a = werte(b.a, env);
-      return { sqrt: Math.sqrt, sin: Math.sin, cos: Math.cos, tan: Math.tan, ln: Math.log, log: Math.log10 }[b.n](a);
+      return { sqrt: Math.sqrt, sin: Math.sin, cos: Math.cos, tan: Math.tan, asin: Math.asin, acos: Math.acos, atan: Math.atan, ln: Math.log, log: Math.log10 }[b.n](a);
     }
     case "bin": {
       const a = werte(b.a, env), c = werte(b.b, env);
@@ -769,6 +769,35 @@ export function pruefeQuadratischZeile(eingabe, aufgabe) {
   if (menge === null) return { art: "unklar" };
   if (menge !== "alle" && gleicheListe(menge, soll)) return { art: "schritt" };
   return { art: "falsch", fehler: menge === "alle" ? null : fehlerZu(menge) };
+}
+
+// ── Vektoren ─────────────────────────────────────────────
+// Eingabe „(3|-2)“, „(3; -2; 1)“, „3 | -2“; Ergebnis: Liste von Zahlen oder null
+export function vektorWerte(text) {
+  const t = String(text).trim().replace(/^[A-Za-z→⃗\s]*=\s*/, "").replace(/^[(\[]|[)\]]$/g, "");
+  const teile = t.split(/\s*(?:\||;)\s*/);
+  if (teile.length < 2 || teile.length > 3) return null;
+  const w = teile.map((s) => zahlwert(s));
+  return w.some((v) => v === null) ? null : w;
+}
+
+// Ergebnis: {art: "geloest"|"parallel"|"falsch"|"unklar", fehler?}; form "parallel": jedes Vielfache ≠ 0 zählt
+export function pruefeVektor(eingabe, aufgabe) {
+  const ist = vektorWerte(eingabe);
+  if (!ist) return { art: "unklar" };
+  const soll = aufgabe.loesung.map((s) => zahlwert(String(s)));
+  if (ist.length !== soll.length) return { art: "falsch" };
+  if (ist.every((v, i) => nahe(v, soll[i], 1e-9))) return { art: "geloest" };
+  // Vielfaches?
+  const k = soll.map((s, i) => (Math.abs(s) > 1e-12 ? ist[i] / s : null)).find((v) => v !== null);
+  const vielfaches = k !== undefined && Math.abs(k) > 1e-12 && ist.every((v, i) => nahe(v, k * soll[i], 1e-9));
+  if (vielfaches && aufgabe.form === "parallel") return { art: "geloest" };
+  const f = (aufgabe.fehler || []).find((x) => { const w = x.antwort.map((s) => zahlwert(String(s))); return w.every((v, i) => nahe(v, ist[i], 1e-9)); });
+  return { art: "falsch", fehler: f || null, parallel: vielfaches };
+}
+
+export function vektorHTML(werte) {
+  return `<span class="mathe">(${werte.map((w) => matheHTML(String(w)).replace(/<\/?span[^>]*>/g, "")).join(" | ")})</span>`;
 }
 
 // ── Gleichungssysteme (2 Variablen) ──────────────────────

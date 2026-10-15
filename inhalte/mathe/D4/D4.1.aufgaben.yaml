@@ -1,0 +1,458 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D4.1-001
+  typ: vektor
+  stufe: 1
+  frage: 'Die Gerade g: X = (1 | 1) + t · (5 | 2). Welcher Punkt gehört zu t = 1?'
+  loesung:
+  - '6'
+  - '3'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '1'
+    - '1'
+    b:
+    - '5'
+    - '2'
+    k: 1
+    m: 1
+  tipps:
+  - 'Setz t = 1 ein: Stützvektor plus 1-mal Richtungsvektor.'
+  fehler: []
+- id: D4.1-002
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Richtungsvektor der Geraden durch A(-3 | 6) und B(-3 | 14) an.
+  loesung:
+  - '0'
+  - '8'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-3'
+    - '6'
+    b:
+    - '-3'
+    - '14'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-003
+  typ: vektor
+  stufe: 1
+  frage: 'Die Gerade g: X = (-5 | -1) + t · (3 | 0). Welcher Punkt gehört zu t = -2?'
+  loesung:
+  - '-11'
+  - '-1'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '-5'
+    - '-1'
+    b:
+    - '3'
+    - '0'
+    k: 1
+    m: -2
+  tipps:
+  - 'Setz t = -2 ein: Stützvektor plus -2-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '13'
+    - '2'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-004
+  typ: vektor
+  stufe: 1
+  frage: 'Die Gerade g: X = (0 | 6) + t · (-6 | 4). Welcher Punkt gehört zu t = -1?'
+  loesung:
+  - '6'
+  - '2'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '0'
+    - '6'
+    b:
+    - '-6'
+    - '4'
+    k: 1
+    m: -1
+  tipps:
+  - 'Setz t = -1 ein: Stützvektor plus -1-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '-6'
+    - '-2'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-005
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Richtungsvektor der Geraden durch A(6 | 3) und B(18 | -9) an.
+  loesung:
+  - '12'
+  - '-12'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '6'
+    - '3'
+    b:
+    - '18'
+    - '-9'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-006
+  typ: vektor
+  stufe: 2
+  frage: 'Die Gerade g: X = (-4 | -3) + t · (-3 | 3). Welcher Punkt gehört zu t = -2?'
+  loesung:
+  - '2'
+  - '-9'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '-4'
+    - '-3'
+    b:
+    - '-3'
+    - '3'
+    k: 1
+    m: -2
+  tipps:
+  - 'Setz t = -2 ein: Stützvektor plus -2-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '5'
+    - '9'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-007
+  typ: vektor
+  stufe: 2
+  frage: 'Die Gerade g: X = (-4 | -5) + t · (-1 | 2). Welcher Punkt gehört zu t = -1?'
+  loesung:
+  - '-3'
+  - '-7'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '-4'
+    - '-5'
+    b:
+    - '-1'
+    - '2'
+    k: 1
+    m: -1
+  tipps:
+  - 'Setz t = -1 ein: Stützvektor plus -1-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '3'
+    - '7'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-008
+  typ: vektor
+  stufe: 2
+  frage: 'Die Gerade g: X = (2 | 3) + t · (-3 | 0). Welcher Punkt gehört zu t = -1?'
+  loesung:
+  - '5'
+  - '3'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '2'
+    - '3'
+    b:
+    - '-3'
+    - '0'
+    k: 1
+    m: -1
+  tipps:
+  - 'Setz t = -1 ein: Stützvektor plus -1-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '-5'
+    - '-3'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-009
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Richtungsvektor der Geraden durch A(-5 | -4) und B(7 | 0) an.
+  loesung:
+  - '12'
+  - '4'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-5'
+    - '-4'
+    b:
+    - '7'
+    - '0'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-010
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Richtungsvektor der Geraden durch A(-2 | -4) und B(-4 | 2) an.
+  loesung:
+  - '-2'
+  - '6'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-2'
+    - '-4'
+    b:
+    - '-4'
+    - '2'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-011
+  typ: vektor
+  stufe: 3
+  frage: 'Die Gerade g: X = (-5 | 4 | 0) + t · (5 | 1 | 2). Welcher Punkt gehört zu t = -2?'
+  loesung:
+  - '-15'
+  - '2'
+  - '-4'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '-5'
+    - '4'
+    - '0'
+    b:
+    - '5'
+    - '1'
+    - '2'
+    k: 1
+    m: -2
+  tipps:
+  - 'Setz t = -2 ein: Stützvektor plus -2-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '15'
+    - '-7'
+    - '2'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-012
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Richtungsvektor der Geraden durch A(5 | -5 | -3) und B(-1 | -15 | 1) an.
+  loesung:
+  - '-6'
+  - '-10'
+  - '4'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '5'
+    - '-5'
+    - '-3'
+    b:
+    - '-1'
+    - '-15'
+    - '1'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-013
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Richtungsvektor der Geraden durch A(2 | 2 | 4) und B(6 | 0 | -6) an.
+  loesung:
+  - '4'
+  - '-2'
+  - '-10'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '2'
+    - '2'
+    - '4'
+    b:
+    - '6'
+    - '0'
+    - '-6'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-014
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Richtungsvektor der Geraden durch A(6 | 2 | -2) und B(2 | -10 | 8) an.
+  loesung:
+  - '-4'
+  - '-12'
+  - '10'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '6'
+    - '2'
+    - '-2'
+    b:
+    - '2'
+    - '-10'
+    - '8'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-015
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Richtungsvektor der Geraden durch A(-4 | 5 | 0) und B(-14 | -5 | 0) an.
+  loesung:
+  - '-10'
+  - '-10'
+  - '0'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-4'
+    - '5'
+    - '0'
+    b:
+    - '-14'
+    - '-5'
+    - '0'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-016
+  typ: vektor
+  stufe: 4
+  frage: 'Die Gerade g: X = (3 | -2 | 4) + t · (2 | -4 | -2). Welcher Punkt gehört zu t = 1?'
+  loesung:
+  - '5'
+  - '-6'
+  - '2'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '3'
+    - '-2'
+    - '4'
+    b:
+    - '2'
+    - '-4'
+    - '-2'
+    k: 1
+    m: 1
+  tipps:
+  - 'Setz t = 1 ein: Stützvektor plus 1-mal Richtungsvektor.'
+  fehler: []
+- id: D4.1-017
+  typ: vektor
+  stufe: 4
+  frage: 'Die Gerade g: X = (-1 | 2 | 5) + t · (-1 | 5 | -6). Welcher Punkt gehört zu t = 1?'
+  loesung:
+  - '-2'
+  - '7'
+  - '-1'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '-1'
+    - '2'
+    - '5'
+    b:
+    - '-1'
+    - '5'
+    - '-6'
+    k: 1
+    m: 1
+  tipps:
+  - 'Setz t = 1 ein: Stützvektor plus 1-mal Richtungsvektor.'
+  fehler: []
+- id: D4.1-018
+  typ: vektor
+  stufe: 4
+  frage: 'Die Gerade g: X = (-4 | -2 | -6) + t · (-2 | 2 | -1). Welcher Punkt gehört zu t = 3?'
+  loesung:
+  - '-10'
+  - '4'
+  - '-9'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '-4'
+    - '-2'
+    - '-6'
+    b:
+    - '-2'
+    - '2'
+    - '-1'
+    k: 1
+    m: 3
+  tipps:
+  - 'Setz t = 3 ein: Stützvektor plus 3-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '-14'
+    - '-4'
+    - '-19'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.
+- id: D4.1-019
+  typ: vektor
+  stufe: 4
+  frage: Gib einen Richtungsvektor der Geraden durch A(-1 | -3 | 4) und B(-11 | 9 | -2) an.
+  loesung:
+  - '-10'
+  - '12'
+  - '-6'
+  vektor_rechnung:
+    op: AB
+    a:
+    - '-1'
+    - '-3'
+    - '4'
+    b:
+    - '-11'
+    - '9'
+    - '-2'
+  tipps:
+  - Ein Richtungsvektor ist AB = B − A (jedes Vielfache davon geht auch).
+  fehler: []
+  form: parallel
+- id: D4.1-020
+  typ: vektor
+  stufe: 4
+  frage: 'Die Gerade g: X = (6 | -4 | -4) + t · (-1 | -4 | -1). Welcher Punkt gehört zu t = 2?'
+  loesung:
+  - '4'
+  - '-12'
+  - '-6'
+  vektor_rechnung:
+    op: kombi
+    a:
+    - '6'
+    - '-4'
+    - '-4'
+    b:
+    - '-1'
+    - '-4'
+    - '-1'
+    k: 1
+    m: 2
+  tipps:
+  - 'Setz t = 2 ein: Stützvektor plus 2-mal Richtungsvektor.'
+  fehler:
+  - antwort:
+    - '11'
+    - '-12'
+    - '-9'
+    hinweis: Nur der Richtungsvektor wird mit t multipliziert.

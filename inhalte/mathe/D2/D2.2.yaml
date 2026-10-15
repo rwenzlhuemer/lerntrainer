@@ -1,0 +1,19 @@
+id: D2.2
+titel: Gradmaß und Bogenmaß
+ziel: Du rechnest zwischen Grad und Bogenmaß um.
+erklaerung: 'Im **Bogenmaß** misst man einen Winkel durch die Länge des Bogens am Einheitskreis.
+
+
+  **180° = π**
+
+  - Grad → Bogenmaß: `· π/180`
+
+  - Bogenmaß → Grad: `· 180/π`
+
+
+  Wichtige Werte: 90° = π/2, 360° = 2π, 60° = π/3.'
+beispiel:
+  text: 120° = 120 · π/180 = 2π/3 ≈ 2,094.
+  wert: 2π/3
+  weg:
+  - 120·π/180 = 2π/3

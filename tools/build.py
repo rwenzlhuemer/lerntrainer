@@ -35,7 +35,7 @@ DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
 STUFEN = {1, 2, 3, 4}
-TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung", "lgs", "quadratisch"}
+TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung", "lgs", "quadratisch", "vektor"}
 
 
 class Fehlerliste(list):
@@ -118,6 +118,20 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
                     fehler.melde(wo, f"{schluessel} ergibt {wert_}, nicht {a['loesung']!r}")
             except Exception as e:  # noqa: BLE001
                 fehler.melde(wo, f"{schluessel} nicht prüfbar ({e})")
+    if "dreieck_rechnen" in a or "vektor_zahl" in a:
+        try:
+            if "dreieck_rechnen" in a:
+                p = a["dreieck_rechnen"]
+                wert_ = dreieck_loesen(p["gegeben"])[p["gesucht"]]
+            else:
+                p = a["vektor_zahl"]
+                u = vektor(p["a"])
+                wert_ = sympy.sqrt(u.dot(u)) if p["art"] == "betrag" else u.dot(vektor(p["b"]))
+            erlaubt = sympy.Rational(1, 2 * 10 ** a["gerundet"]) if "gerundet" in a else 0
+            if (erlaubt and abs(sympy.N(wert_ - soll, 30)) > erlaubt) or (not erlaubt and sympy.simplify(wert_ - soll) != 0):
+                fehler.melde(wo, f"richtig wäre {wert_} ({float(wert_):.6g}), nicht {a['loesung']!r}")
+        except Exception as e:  # noqa: BLE001
+            fehler.melde(wo, f"Dreieck/Vektor nicht prüfbar ({e})")
     if any(k in a for k in STOCHASTIK):
         try:
             wert_ = sympy.nsimplify(stochastik_wert(a)) if not isinstance(stochastik_wert(a), sympy.Basic) else stochastik_wert(a)
@@ -408,6 +422,11 @@ def aus_term(p: dict):
         return xs if g == "scheitel_x" else t.subs(x, xs)
     if g == "grad":
         return sympy.degree(t, x)
+    if g == "periode":
+        return sympy.periodicity(t, x)
+    if g == "amplitude":
+        from sympy.calculus.util import maximum, minimum
+        return (maximum(t, x) - minimum(t, x)) / 2
     if g == "ableitung":
         return sympy.diff(t, x).subs(x, notation.zahl(str(p["x"])))
     if g in ("wendestelle_x", "wendepunkt_y"):
@@ -573,6 +592,66 @@ def stochastik_wert(a: dict):
     return None
 
 
+def dreieck_loesen(gegeben: dict) -> dict:
+    """Rechtwinkeliges Dreieck (rechter Winkel bei C) aus zwei gegebenen Größen vollständig berechnen. Winkel in Grad."""
+    g = {k: notation.zahl(str(v)) for k, v in gegeben.items()}
+    rad = sympy.pi / 180
+    a, b, c, al = g.get("a"), g.get("b"), g.get("c"), g.get("alpha")
+    if al is None and g.get("beta") is not None:
+        al = 90 - g["beta"]
+    if a is not None and b is not None:
+        c, al = sympy.sqrt(a ** 2 + b ** 2), sympy.atan(a / b) / rad
+    elif a is not None and c is not None:
+        b, al = sympy.sqrt(c ** 2 - a ** 2), sympy.asin(a / c) / rad
+    elif b is not None and c is not None:
+        a, al = sympy.sqrt(c ** 2 - b ** 2), sympy.acos(b / c) / rad
+    elif al is not None and a is not None:
+        c, b = a / sympy.sin(al * rad), a / sympy.tan(al * rad)
+    elif al is not None and b is not None:
+        a, c = b * sympy.tan(al * rad), b / sympy.cos(al * rad)
+    elif al is not None and c is not None:
+        a, b = c * sympy.sin(al * rad), c * sympy.cos(al * rad)
+    else:
+        raise ValueError(f"zu wenig gegeben: {gegeben}")
+    return {"a": a, "b": b, "c": c, "alpha": al, "beta": 90 - al, "flaeche": a * b / 2,
+            "sin_alpha": a / c, "cos_alpha": b / c, "tan_alpha": a / b}
+
+
+def vektor(liste):
+    return sympy.Matrix([notation.zahl(str(v)) for v in liste])
+
+
+def pruefe_vektor(a: dict, wo: str, fehler: Fehlerliste):
+    try:
+        p = a["vektor_rechnung"]
+        op = p["op"]
+        if op == "AB":
+            ist = vektor(p["b"]) - vektor(p["a"])
+        elif op == "plus":
+            ist = vektor(p["a"]) + vektor(p["b"])
+        elif op == "minus":
+            ist = vektor(p["a"]) - vektor(p["b"])
+        elif op == "mal":
+            ist = notation.zahl(str(p["k"])) * vektor(p["a"])
+        elif op == "kombi":
+            ist = notation.zahl(str(p["k"])) * vektor(p["a"]) + notation.zahl(str(p["m"])) * vektor(p["b"])
+        elif op == "normal":
+            v = vektor(p["a"])
+            ist = sympy.Matrix([-v[1], v[0]])
+        else:
+            raise ValueError(op)
+        soll = vektor(a["loesung"])
+        if sympy.simplify(ist - soll) != sympy.zeros(*soll.shape):
+            fehler.melde(wo, f"Vektor: richtig wäre {list(ist)}, nicht {a['loesung']}")
+        for f in a.get("fehler", []):
+            w = vektor(f["antwort"])
+            parallel = a.get("form") == "parallel" and sympy.Matrix.hstack(w, soll).rank() <= 1 and any(w)
+            if sympy.simplify(w - soll) == sympy.zeros(*soll.shape) or parallel:
+                fehler.melde(wo, f"Fehler-Antwort {f['antwort']} ist in Wahrheit richtig")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Vektor nicht prüfbar ({e})")
+
+
 STOCHASTIK = ("statistik", "gewogen", "aus_daten", "laplace", "urne", "binom", "erwartungswert", "normal_p")
 
 
@@ -617,6 +696,17 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
                 erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] in ("punkt_auf_gerade", "normal"):
+            # Optionen 0 = Ja, 1 = Nein
+            if p["art"] == "normal":
+                ja = vektor(p["a"]).dot(vektor(p["b"])) == 0
+            else:
+                d = vektor(p["punkt"]) - vektor(p["stuetz"])
+                r_ = vektor(p["richtung"])
+                ja = sympy.Matrix.hstack(d, r_).rank() <= 1
+            if sorted(richtig) != [0 if ja else 1]:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {'Ja' if ja else 'Nein'}")
             return
         if p["art"] in ("ableitung_vorzeichen", "kruemmung"):
             # Optionen 0 = positiv (steigend / linksgekrümmt), 1 = negativ (fallend / rechtsgekrümmt), 2 = null
@@ -769,7 +859,7 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
 
 PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term,
            "formel": pruefe_formel, "ungleichung": pruefe_ungleichung, "lgs": pruefe_lgs,
-           "quadratisch": pruefe_quadratisch}
+           "quadratisch": pruefe_quadratisch, "vektor": pruefe_vektor}
 
 
 def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
@@ -821,9 +911,9 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 for a in aufgaben:
                     aid = a.get("id", "?")
                     text = (a.get("frage") or a.get("gleichung") if a.get("typ") in ("gleichung", "quadratisch") else a.get("frage") or a.get("ungleichung") if a.get("typ") == "ungleichung" else
-                            a.get("frage") or " | ".join(a.get("gleichungen", [])) if a.get("typ") == "lgs" else
+                            a.get("frage") or " | ".join(a.get("gleichungen", [])) if a.get("typ") in ("lgs", "vektor") else
                             f"{a.get('formel')} nach {a.get('nach')}" if a.get("typ") == "formel" else a.get("frage") or a.get("term"))
-                    text = f"{text} {json.dumps(a.get('graph'), sort_keys=True)} {json.dumps(a.get('tabelle'))} {a.get('optionen')}"
+                    text = f"{text} {json.dumps(a.get('graph'), sort_keys=True)} {json.dumps(a.get('tabelle'))} {a.get('optionen')} {a.get('dreieck')} {a.get('diagramm')}"
                     if text in texte:
                         fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
                     texte.add(text)

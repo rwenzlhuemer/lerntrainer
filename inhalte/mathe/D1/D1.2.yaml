@@ -1,0 +1,26 @@
+id: D1.2
+titel: Sinus, Cosinus, Tangens
+ziel: Du kennst die Definitionen im rechtwinkeligen Dreieck.
+erklaerung: 'Vom Winkel α aus gesehen:
+
+  - **Gegenkathete** (a): liegt α gegenüber
+
+  - **Ankathete** (b): liegt an α an
+
+  - **Hypotenuse** (c): gegenüber dem rechten Winkel
+
+
+  - `sin α = Gegenkathete : Hypotenuse`
+
+  - `cos α = Ankathete : Hypotenuse`
+
+  - `tan α = Gegenkathete : Ankathete`'
+beispiel:
+  text: 'a = 3, b = 4, c = 5: sin α = 3/5, cos α = 4/5, tan α = 3/4.'
+  dreieck:
+    a: 3
+    b: 4
+    c: 5
+  wert: 0,6
+  weg:
+  - 3/5 = 0,6

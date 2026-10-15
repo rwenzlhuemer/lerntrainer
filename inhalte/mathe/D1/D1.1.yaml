@@ -1,0 +1,24 @@
+id: D1.1
+titel: Satz des Pythagoras
+ziel: Du berechnest fehlende Seiten im rechtwinkeligen Dreieck.
+erklaerung: 'Im rechtwinkeligen Dreieck heißen die beiden Seiten am rechten Winkel **Katheten** (a, b), die längste Seite gegenüber dem rechten Winkel **Hypotenuse** (c).
+
+
+  **Pythagoras:** `a² + b² = c²`
+
+
+  - Hypotenuse gesucht: `c = √(a² + b²)`
+
+  - Kathete gesucht: `a = √(c² − b²)`
+
+
+  Achtung: Erst quadrieren, dann addieren, dann die Wurzel – nicht einfach die Seiten addieren.'
+beispiel:
+  text: 'a = 3, b = 4: c = √(9 + 16) = √25 = 5.'
+  dreieck:
+    a: 3
+    b: 4
+    c: '?'
+  wert: '5'
+  weg:
+  - √(3^2 + 4^2) = √25 = 5

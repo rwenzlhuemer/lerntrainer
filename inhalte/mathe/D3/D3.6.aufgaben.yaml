@@ -1,0 +1,402 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D3.6-001
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Normalvektor zu v = (-3 | 1) an.
+  loesung:
+  - '-1'
+  - '-3'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-3'
+    - '1'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '1'
+    - '-3'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-002
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Normalvektor zu v = (-3 | -3) an.
+  loesung:
+  - '3'
+  - '-3'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-3'
+    - '-3'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-3'
+    - '-3'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-003
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Normalvektor zu v = (4 | -1) an.
+  loesung:
+  - '1'
+  - '4'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '4'
+    - '-1'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-1'
+    - '4'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-004
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Normalvektor zu v = (-6 | -4) an.
+  loesung:
+  - '4'
+  - '-6'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-6'
+    - '-4'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-4'
+    - '-6'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-005
+  typ: vektor
+  stufe: 1
+  frage: Gib einen Normalvektor zu v = (-2 | -3) an.
+  loesung:
+  - '3'
+  - '-2'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-2'
+    - '-3'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-3'
+    - '-2'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-006
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Normalvektor zu v = (-5 | 3) an.
+  loesung:
+  - '-3'
+  - '-5'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-5'
+    - '3'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '3'
+    - '-5'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-007
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Normalvektor zu v = (1 | -5) an.
+  loesung:
+  - '5'
+  - '1'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '1'
+    - '-5'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-5'
+    - '1'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-008
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Normalvektor zu v = (-3 | 0) an.
+  loesung:
+  - '0'
+  - '-3'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-3'
+    - '0'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler: []
+  form: parallel
+- id: D3.6-009
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Normalvektor zu v = (4 | 3) an.
+  loesung:
+  - '-3'
+  - '4'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '4'
+    - '3'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '3'
+    - '4'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-010
+  typ: vektor
+  stufe: 2
+  frage: Gib einen Normalvektor zu v = (-3 | 6) an.
+  loesung:
+  - '-6'
+  - '-3'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-3'
+    - '6'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '6'
+    - '-3'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-011
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Normalvektor zu v = (4 | 0) an.
+  loesung:
+  - '0'
+  - '4'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '4'
+    - '0'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler: []
+  form: parallel
+- id: D3.6-012
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Normalvektor zu v = (-6 | 5) an.
+  loesung:
+  - '-5'
+  - '-6'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-6'
+    - '5'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '5'
+    - '-6'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-013
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Normalvektor zu v = (3 | 0) an.
+  loesung:
+  - '0'
+  - '3'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '3'
+    - '0'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler: []
+  form: parallel
+- id: D3.6-014
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Normalvektor zu v = (4 | -6) an.
+  loesung:
+  - '6'
+  - '4'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '4'
+    - '-6'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-6'
+    - '4'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-015
+  typ: vektor
+  stufe: 3
+  frage: Gib einen Normalvektor zu v = (5 | 2) an.
+  loesung:
+  - '-2'
+  - '5'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '5'
+    - '2'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '2'
+    - '5'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-016
+  typ: vektor
+  stufe: 4
+  frage: Gib einen Normalvektor zu v = (-1,5 | 1) an.
+  loesung:
+  - '-1'
+  - -1,5
+  vektor_rechnung:
+    op: normal
+    a:
+    - -1,5
+    - '1'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '1'
+    - -1,5
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-017
+  typ: vektor
+  stufe: 4
+  frage: Gib einen Normalvektor zu v = (0 | -2) an.
+  loesung:
+  - '2'
+  - '0'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '0'
+    - '-2'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler: []
+  form: parallel
+- id: D3.6-018
+  typ: vektor
+  stufe: 4
+  frage: Gib einen Normalvektor zu v = (-2 | -1) an.
+  loesung:
+  - '1'
+  - '-2'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '-2'
+    - '-1'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '-1'
+    - '-2'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-019
+  typ: vektor
+  stufe: 4
+  frage: Gib einen Normalvektor zu v = (2 | 5) an.
+  loesung:
+  - '-5'
+  - '2'
+  vektor_rechnung:
+    op: normal
+    a:
+    - '2'
+    - '5'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler:
+  - antwort:
+    - '5'
+    - '2'
+    hinweis: Vertauschen allein reicht nicht – ein Vorzeichen muss sich ändern.
+  form: parallel
+- id: D3.6-020
+  typ: vektor
+  stufe: 4
+  frage: Gib einen Normalvektor zu v = (-2,5 | 0) an.
+  loesung:
+  - '0'
+  - -2,5
+  vektor_rechnung:
+    op: normal
+    a:
+    - -2,5
+    - '0'
+  tipps:
+  - 'In ℝ²: Koordinaten vertauschen und bei einer das Vorzeichen ändern: (x | y) → (−y | x).'
+  - 'Probe: Das Skalarprodukt mit v muss 0 sein.'
+  fehler: []
+  form: parallel

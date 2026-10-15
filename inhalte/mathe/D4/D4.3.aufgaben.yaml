@@ -1,0 +1,512 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D4.3-001
+  typ: auswahl
+  stufe: 1
+  frage: 'Liegt der Punkt P(-12 | 6) auf der Geraden g: X = (-5 | -6) + t · (-4 | 6)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-12'
+    - '6'
+    stuetz:
+    - '-5'
+    - '-6'
+    richtung:
+    - '-4'
+    - '6'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-002
+  typ: auswahl
+  stufe: 1
+  frage: 'Liegt der Punkt P(-12 | 0) auf der Geraden g: X = (-6 | 3) + t · (-6 | -2)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-12'
+    - '0'
+    stuetz:
+    - '-6'
+    - '3'
+    richtung:
+    - '-6'
+    - '-2'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-003
+  typ: auswahl
+  stufe: 1
+  frage: 'Liegt der Punkt P(4 | 0) auf der Geraden g: X = (-1 | 3) + t · (5 | -2)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '4'
+    - '0'
+    stuetz:
+    - '-1'
+    - '3'
+    richtung:
+    - '5'
+    - '-2'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-004
+  typ: auswahl
+  stufe: 1
+  frage: 'Liegt der Punkt P(-2 | 10) auf der Geraden g: X = (-2 | 6) + t · (0 | -1)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-2'
+    - '10'
+    stuetz:
+    - '-2'
+    - '6'
+    richtung:
+    - '0'
+    - '-1'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-005
+  typ: auswahl
+  stufe: 1
+  frage: 'Liegt der Punkt P(-6 | -20) auf der Geraden g: X = (3 | -3) + t · (3 | 6)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-6'
+    - '-20'
+    stuetz:
+    - '3'
+    - '-3'
+    richtung:
+    - '3'
+    - '6'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-006
+  typ: auswahl
+  stufe: 2
+  frage: 'Liegt der Punkt P(-2 | 7) auf der Geraden g: X = (-5 | 5) + t · (3 | 2)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-2'
+    - '7'
+    stuetz:
+    - '-5'
+    - '5'
+    richtung:
+    - '3'
+    - '2'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-007
+  typ: auswahl
+  stufe: 2
+  frage: 'Liegt der Punkt P(-12 | -1) auf der Geraden g: X = (0 | 6) + t · (4 | 2)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-12'
+    - '-1'
+    stuetz:
+    - '0'
+    - '6'
+    richtung:
+    - '4'
+    - '2'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-008
+  typ: auswahl
+  stufe: 2
+  frage: 'Liegt der Punkt P(-15 | 7) auf der Geraden g: X = (4 | -2) + t · (6 | -3)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-15'
+    - '7'
+    stuetz:
+    - '4'
+    - '-2'
+    richtung:
+    - '6'
+    - '-3'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-009
+  typ: auswahl
+  stufe: 2
+  frage: 'Liegt der Punkt P(-11 | 13) auf der Geraden g: X = (-5 | -2) + t · (-2 | 5)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-11'
+    - '13'
+    stuetz:
+    - '-5'
+    - '-2'
+    richtung:
+    - '-2'
+    - '5'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-010
+  typ: auswahl
+  stufe: 2
+  frage: 'Liegt der Punkt P(2 | -5) auf der Geraden g: X = (4 | -4) + t · (1 | 0)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '2'
+    - '-5'
+    stuetz:
+    - '4'
+    - '-4'
+    richtung:
+    - '1'
+    - '0'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-011
+  typ: auswahl
+  stufe: 3
+  frage: 'Liegt der Punkt P(-8 | -15 | 0) auf der Geraden g: X = (-4 | -3 | -4) + t · (-2 | -6 | 2)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-8'
+    - '-15'
+    - '0'
+    stuetz:
+    - '-4'
+    - '-3'
+    - '-4'
+    richtung:
+    - '-2'
+    - '-6'
+    - '2'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-012
+  typ: auswahl
+  stufe: 3
+  frage: 'Liegt der Punkt P(2 | 10 | -10) auf der Geraden g: X = (-3 | 5 | -3) + t · (-5 | -5 | 6)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '2'
+    - '10'
+    - '-10'
+    stuetz:
+    - '-3'
+    - '5'
+    - '-3'
+    richtung:
+    - '-5'
+    - '-5'
+    - '6'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-013
+  typ: auswahl
+  stufe: 3
+  frage: 'Liegt der Punkt P(5 | 12 | -2) auf der Geraden g: X = (1 | 4 | -4) + t · (-2 | -4 | -1)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '5'
+    - '12'
+    - '-2'
+    stuetz:
+    - '1'
+    - '4'
+    - '-4'
+    richtung:
+    - '-2'
+    - '-4'
+    - '-1'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-014
+  typ: auswahl
+  stufe: 3
+  frage: 'Liegt der Punkt P(-1 | 18 | 13) auf der Geraden g: X = (-4 | 3 | -5) + t · (1 | 5 | 6)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-1'
+    - '18'
+    - '13'
+    stuetz:
+    - '-4'
+    - '3'
+    - '-5'
+    richtung:
+    - '1'
+    - '5'
+    - '6'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-015
+  typ: auswahl
+  stufe: 3
+  frage: 'Liegt der Punkt P(2 | -4 | 7) auf der Geraden g: X = (0 | -5 | 6) + t · (-2 | -2 | -1)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '2'
+    - '-4'
+    - '7'
+    stuetz:
+    - '0'
+    - '-5'
+    - '6'
+    richtung:
+    - '-2'
+    - '-2'
+    - '-1'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-016
+  typ: auswahl
+  stufe: 4
+  frage: 'Liegt der Punkt P(2 | -4 | -1) auf der Geraden g: X = (-6 | 4 | 1) + t · (-4 | 4 | 1)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '2'
+    - '-4'
+    - '-1'
+    stuetz:
+    - '-6'
+    - '4'
+    - '1'
+    richtung:
+    - '-4'
+    - '4'
+    - '1'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-017
+  typ: auswahl
+  stufe: 4
+  frage: 'Liegt der Punkt P(4 | 4 | -2) auf der Geraden g: X = (1 | 0 | 3) + t · (-3 | -4 | 5)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '4'
+    - '4'
+    - '-2'
+    stuetz:
+    - '1'
+    - '0'
+    - '3'
+    richtung:
+    - '-3'
+    - '-4'
+    - '5'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-018
+  typ: auswahl
+  stufe: 4
+  frage: 'Liegt der Punkt P(11 | 4 | 10) auf der Geraden g: X = (3 | 6 | 2) + t · (4 | -1 | 4)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '11'
+    - '4'
+    - '10'
+    stuetz:
+    - '3'
+    - '6'
+    - '2'
+    richtung:
+    - '4'
+    - '-1'
+    - '4'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-019
+  typ: auswahl
+  stufe: 4
+  frage: 'Liegt der Punkt P(3 | -2 | -8) auf der Geraden g: X = (3 | -6 | -6) + t · (0 | -4 | 2)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '3'
+    - '-2'
+    - '-8'
+    stuetz:
+    - '3'
+    - '-6'
+    - '-6'
+    richtung:
+    - '0'
+    - '-4'
+    - '2'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.
+- id: D4.3-020
+  typ: auswahl
+  stufe: 4
+  frage: 'Liegt der Punkt P(-1 | -7 | -8) auf der Geraden g: X = (-3 | -6 | -3) + t · (-2 | 3 | 5)?'
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: punkt_auf_gerade
+    punkt:
+    - '-1'
+    - '-7'
+    - '-8'
+    stuetz:
+    - '-3'
+    - '-6'
+    - '-3'
+    richtung:
+    - '-2'
+    - '3'
+    - '5'
+  erklaerung: Setz P = A + t · d und löse jede Koordinate nach t. Kommt überall **dasselbe** t heraus, liegt P auf g.
+  tipps:
+  - 'Stell für jede Koordinate eine Gleichung auf: P = A + t · d.'
+  - Löse jede nach t. Gleiches t überall → P liegt auf g.

@@ -1,0 +1,24 @@
+id: D2.3
+titel: Die Sinusfunktion f(x) = a · sin(b · x)
+ziel: Du liest Amplitude und Periode ab.
+erklaerung: '- **a** (vor dem sin) streckt in y-Richtung: die **Amplitude** ist |a|. Die Werte liegen zwischen −a und a.
+
+  - **b** (vor dem x) staucht in x-Richtung: die **Periode** ist `2π / b`.
+
+
+  sin(x) selbst hat Amplitude 1 und Periode 2π.'
+beispiel:
+  text: 'f(x) = 3 sin(2x): Amplitude 3, Periode 2π/2 = π.'
+  graph:
+    x:
+    - -1
+    - 7
+    y:
+    - -4
+    - 4
+    kurven:
+    - term: 3sin(2x)
+      name: f
+  wert: π
+  weg:
+  - 2π/2 = π

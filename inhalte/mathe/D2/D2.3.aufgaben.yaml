@@ -1,0 +1,239 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D2.3-001
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Amplitude** von `f(x) = 3sin(2x)`?
+  loesung: '3'
+  aus_term:
+    term: 3sin(2x)
+    groesse: amplitude
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler:
+  - antwort: '2'
+    hinweis: Die Zahl vor dem x ändert die Periode, nicht die Amplitude.
+- id: D2.3-002
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Amplitude** von `f(x) = 0,5sin(x)`?
+  loesung: 0,5
+  aus_term:
+    term: 0,5sin(x)
+    groesse: amplitude
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler:
+  - antwort: '1'
+    hinweis: Die Zahl vor dem x ändert die Periode, nicht die Amplitude.
+- id: D2.3-003
+  typ: zahl
+  stufe: 1
+  frage: Wie groß ist die **Amplitude** von `f(x) = sin(0,5x)`?
+  loesung: '1'
+  aus_term:
+    term: sin(0,5x)
+    groesse: amplitude
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler:
+  - antwort: 0,5
+    hinweis: Die Zahl vor dem x ändert die Periode, nicht die Amplitude.
+- id: D2.3-004
+  typ: zahl
+  stufe: 1
+  frage: Wie lang ist die **Periode** von `f(x) = 3sin(0,5x)`? (z. B. als Vielfaches von π)
+  loesung: 4π
+  aus_term:
+    term: 3sin(0,5x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-005
+  typ: zahl
+  stufe: 2
+  frage: Wie lang ist die **Periode** von `f(x) = 2sin(2x)`? (z. B. als Vielfaches von π)
+  loesung: 1π
+  aus_term:
+    term: 2sin(2x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-006
+  typ: zahl
+  stufe: 2
+  frage: Wie lang ist die **Periode** von `f(x) = 3sin(2x)`? (z. B. als Vielfaches von π)
+  loesung: 1π
+  aus_term:
+    term: 3sin(2x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-007
+  typ: zahl
+  stufe: 2
+  frage: Wie lang ist die **Periode** von `f(x) = sin(2x)`? (z. B. als Vielfaches von π)
+  loesung: 1π
+  aus_term:
+    term: sin(2x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-008
+  typ: zahl
+  stufe: 2
+  frage: Wie groß ist die **Amplitude** von `f(x) = 3sin(0,5x)`?
+  loesung: '3'
+  aus_term:
+    term: 3sin(0,5x)
+    groesse: amplitude
+  graph:
+    x:
+    - -1
+    - 7
+    y:
+    - -4
+    - 4
+    kurven:
+    - term: 3sin(0,5x)
+      name: f
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler:
+  - antwort: 0,5
+    hinweis: Die Zahl vor dem x ändert die Periode, nicht die Amplitude.
+- id: D2.3-009
+  typ: zahl
+  stufe: 3
+  frage: Wie lang ist die **Periode** von `f(x) = 2sin(3x)`? (z. B. als Vielfaches von π)
+  loesung: 2π/3
+  aus_term:
+    term: 2sin(3x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-010
+  typ: zahl
+  stufe: 3
+  frage: Wie lang ist die **Periode** von `f(x) = sin(0,5x)`? (z. B. als Vielfaches von π)
+  loesung: 4π
+  aus_term:
+    term: sin(0,5x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-011
+  typ: zahl
+  stufe: 3
+  frage: Wie lang ist die **Periode** von `f(x) = 0,5sin(0,5x)`? (z. B. als Vielfaches von π)
+  loesung: 4π
+  aus_term:
+    term: 0,5sin(0,5x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-012
+  typ: zahl
+  stufe: 3
+  frage: Wie groß ist die **Amplitude** von `f(x) = 3sin(x)`?
+  loesung: '3'
+  aus_term:
+    term: 3sin(x)
+    groesse: amplitude
+  graph:
+    x:
+    - -1
+    - 7
+    y:
+    - -4
+    - 4
+    kurven:
+    - term: 3sin(x)
+      name: f
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler:
+  - antwort: '1'
+    hinweis: Die Zahl vor dem x ändert die Periode, nicht die Amplitude.
+- id: D2.3-013
+  typ: zahl
+  stufe: 4
+  frage: Wie lang ist die **Periode** von `f(x) = 3sin(x)`? (z. B. als Vielfaches von π)
+  loesung: 2π
+  aus_term:
+    term: 3sin(x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-014
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Amplitude** von `f(x) = 2sin(2x)`?
+  loesung: '2'
+  aus_term:
+    term: 2sin(2x)
+    groesse: amplitude
+  graph:
+    x:
+    - -1
+    - 7
+    y:
+    - -4
+    - 4
+    kurven:
+    - term: 2sin(2x)
+      name: f
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler: []
+- id: D2.3-015
+  typ: zahl
+  stufe: 4
+  frage: Wie lang ist die **Periode** von `f(x) = 2sin(0,5x)`? (z. B. als Vielfaches von π)
+  loesung: 4π
+  aus_term:
+    term: 2sin(0,5x)
+    groesse: periode
+  tipps:
+  - sin(x) hat die Periode 2π.
+  - 'Steht innen b·x, ist die Periode 2π : b.'
+  fehler: []
+- id: D2.3-016
+  typ: zahl
+  stufe: 4
+  frage: Wie groß ist die **Amplitude** von `f(x) = 2sin(0,5x)`?
+  loesung: '2'
+  aus_term:
+    term: 2sin(0,5x)
+    groesse: amplitude
+  graph:
+    x:
+    - -1
+    - 7
+    y:
+    - -4
+    - 4
+    kurven:
+    - term: 2sin(0,5x)
+      name: f
+  tipps:
+  - 'Die Zahl **vor** dem sin streckt in y-Richtung: Das ist die Amplitude.'
+  fehler:
+  - antwort: 0,5
+    hinweis: Die Zahl vor dem x ändert die Periode, nicht die Amplitude.

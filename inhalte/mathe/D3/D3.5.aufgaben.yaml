@@ -1,0 +1,462 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D3.5-001
+  typ: zahl
+  stufe: 1
+  frage: Berechne das Skalarprodukt a · b für a = (6 | -5) und b = (0 | 1).
+  loesung: '-5'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '6'
+    - '-5'
+    b:
+    - '0'
+    - '1'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-002
+  typ: zahl
+  stufe: 1
+  frage: Berechne das Skalarprodukt a · b für a = (3 | -5) und b = (-3 | 5).
+  loesung: '-34'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '3'
+    - '-5'
+    b:
+    - '-3'
+    - '5'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-003
+  typ: auswahl
+  stufe: 1
+  frage: Stehen a = (-4 | -3) und b = (6 | 1) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: normal
+    a:
+    - '-4'
+    - '-3'
+    b:
+    - '6'
+    - '1'
+  erklaerung: Das Skalarprodukt ist -27. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-004
+  typ: zahl
+  stufe: 1
+  frage: Berechne das Skalarprodukt a · b für a = (-3 | 6) und b = (1 | -3).
+  loesung: '-21'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-3'
+    - '6'
+    b:
+    - '1'
+    - '-3'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-005
+  typ: auswahl
+  stufe: 1
+  frage: Stehen a = (6 | 6) und b = (2 | -5) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: normal
+    a:
+    - '6'
+    - '6'
+    b:
+    - '2'
+    - '-5'
+  erklaerung: Das Skalarprodukt ist -18. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-006
+  typ: zahl
+  stufe: 1
+  frage: Berechne das Skalarprodukt a · b für a = (1 | -5) und b = (-5 | -1).
+  loesung: '0'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '1'
+    - '-5'
+    b:
+    - '-5'
+    - '-1'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-007
+  typ: zahl
+  stufe: 2
+  frage: Berechne das Skalarprodukt a · b für a = (-2 | -2) und b = (4 | -4).
+  loesung: '0'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-2'
+    - '-2'
+    b:
+    - '4'
+    - '-4'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-008
+  typ: zahl
+  stufe: 2
+  frage: Berechne das Skalarprodukt a · b für a = (5 | -1) und b = (5 | 3).
+  loesung: '22'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '5'
+    - '-1'
+    b:
+    - '5'
+    - '3'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-009
+  typ: zahl
+  stufe: 2
+  frage: Berechne das Skalarprodukt a · b für a = (-4 | 0) und b = (0 | 6).
+  loesung: '0'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-4'
+    - '0'
+    b:
+    - '0'
+    - '6'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-010
+  typ: zahl
+  stufe: 2
+  frage: Berechne das Skalarprodukt a · b für a = (-1 | 4) und b = (-5 | 0).
+  loesung: '5'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-1'
+    - '4'
+    b:
+    - '-5'
+    - '0'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-011
+  typ: auswahl
+  stufe: 2
+  frage: Stehen a = (3 | -6) und b = (1 | -5) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: normal
+    a:
+    - '3'
+    - '-6'
+    b:
+    - '1'
+    - '-5'
+  erklaerung: Das Skalarprodukt ist 33. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-012
+  typ: auswahl
+  stufe: 2
+  frage: Stehen a = (-1 | 1) und b = (-2 | -2) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 0
+  pruefung:
+    art: normal
+    a:
+    - '-1'
+    - '1'
+    b:
+    - '-2'
+    - '-2'
+  erklaerung: Das Skalarprodukt ist 0. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-013
+  typ: zahl
+  stufe: 3
+  frage: Berechne das Skalarprodukt a · b für a = (-3 | -5 | -5) und b = (2 | -5 | -4).
+  loesung: '39'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-3'
+    - '-5'
+    - '-5'
+    b:
+    - '2'
+    - '-5'
+    - '-4'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-014
+  typ: zahl
+  stufe: 3
+  frage: Berechne das Skalarprodukt a · b für a = (-1 | -6 | -1) und b = (6 | -3 | 3).
+  loesung: '9'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-1'
+    - '-6'
+    - '-1'
+    b:
+    - '6'
+    - '-3'
+    - '3'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-015
+  typ: auswahl
+  stufe: 3
+  frage: Stehen a = (5 | -4 | 3) und b = (2 | 6 | -2) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: normal
+    a:
+    - '5'
+    - '-4'
+    - '3'
+    b:
+    - '2'
+    - '6'
+    - '-2'
+  erklaerung: Das Skalarprodukt ist -20. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-016
+  typ: zahl
+  stufe: 3
+  frage: Berechne das Skalarprodukt a · b für a = (5 | 4 | -4) und b = (-3 | -3 | 0).
+  loesung: '-27'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '5'
+    - '4'
+    - '-4'
+    b:
+    - '-3'
+    - '-3'
+    - '0'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-017
+  typ: zahl
+  stufe: 3
+  frage: Berechne das Skalarprodukt a · b für a = (0 | -1 | 6) und b = (6 | -2 | 3).
+  loesung: '20'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '0'
+    - '-1'
+    - '6'
+    b:
+    - '6'
+    - '-2'
+    - '3'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-018
+  typ: auswahl
+  stufe: 3
+  frage: Stehen a = (6 | -5 | 3) und b = (2 | -2 | 1) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: normal
+    a:
+    - '6'
+    - '-5'
+    - '3'
+    b:
+    - '2'
+    - '-2'
+    - '1'
+  erklaerung: Das Skalarprodukt ist 25. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-019
+  typ: zahl
+  stufe: 4
+  frage: Berechne das Skalarprodukt a · b für a = (-5 | -6 | 0) und b = (-4 | 6 | -4).
+  loesung: '-16'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-5'
+    - '-6'
+    - '0'
+    b:
+    - '-4'
+    - '6'
+    - '-4'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-020
+  typ: zahl
+  stufe: 4
+  frage: Berechne das Skalarprodukt a · b für a = (5 | 1 | 4) und b = (-3 | 6 | 1).
+  loesung: '-5'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '5'
+    - '1'
+    - '4'
+    b:
+    - '-3'
+    - '6'
+    - '1'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-021
+  typ: auswahl
+  stufe: 4
+  frage: Stehen a = (-4 | 6 | 0) und b = (-5 | -4 | -5) normal (im rechten Winkel) aufeinander?
+  optionen:
+  - Ja
+  - Nein
+  richtig:
+  - 1
+  pruefung:
+    art: normal
+    a:
+    - '-4'
+    - '6'
+    - '0'
+    b:
+    - '-5'
+    - '-4'
+    - '-5'
+  erklaerung: Das Skalarprodukt ist -4. Zwei Vektoren stehen genau dann normal aufeinander, wenn das Skalarprodukt **0** ist.
+  tipps:
+  - Berechne das Skalarprodukt.
+  - Ist es 0, stehen die Vektoren normal aufeinander.
+- id: D3.5-022
+  typ: zahl
+  stufe: 4
+  frage: Berechne das Skalarprodukt a · b für a = (-2 | -4 | 3) und b = (1 | -5 | -3).
+  loesung: '9'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-2'
+    - '-4'
+    - '3'
+    b:
+    - '1'
+    - '-5'
+    - '-3'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-023
+  typ: zahl
+  stufe: 4
+  frage: Berechne das Skalarprodukt a · b für a = (1 | -1 | -6) und b = (3 | -3 | 4).
+  loesung: '-18'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '1'
+    - '-1'
+    - '-6'
+    b:
+    - '3'
+    - '-3'
+    - '4'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []
+- id: D3.5-024
+  typ: zahl
+  stufe: 4
+  frage: Berechne das Skalarprodukt a · b für a = (-3 | -4 | -2) und b = (6 | -6 | 3).
+  loesung: '0'
+  vektor_zahl:
+    art: skalar
+    a:
+    - '-3'
+    - '-4'
+    - '-2'
+    b:
+    - '6'
+    - '-6'
+    - '3'
+  tipps:
+  - '`a · b = a₁·b₁ + a₂·b₂ (+ a₃·b₃)`.'
+  - Das Ergebnis ist eine **Zahl**, kein Vektor.
+  fehler: []

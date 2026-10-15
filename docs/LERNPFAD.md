@@ -209,38 +209,38 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| D1.1 ★ | Satz des Pythagoras | (Voraussetzung) |  |
-| D1.2 ★ | Sinus, Cosinus und Tangens: Definitionen (Gegenkathete, Ankathete, Hypotenuse) | AG 4.1 |  |
-| D1.3 ★ | Seiten und Winkel berechnen | AG 4.1 |  |
-| D1.4 | Anwendungen: Steigungswinkel, Höhen, einfache Körper | AG 4.1 |  |
+| D1.1 ★ | Satz des Pythagoras | (Voraussetzung) | ✓ 20 |
+| D1.2 ★ | Sinus, Cosinus, Tangens | AG 4.1 | ✓ 20 |
+| D1.3 ★ | Seiten und Winkel berechnen | AG 4.1 | ✓ 24 |
+| D1.4 | Anwendungen der Trigonometrie | AG 4.1 | ✓ 20 |
 
 ### D2 Winkel über 90° und Sinusfunktion
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| D2.1 | Einheitskreis: sin und cos für Winkel über 90° | AG 4.2 |  |
-| D2.2 | Gradmaß ↔ Bogenmaß | FA 6.1 |  |
-| D2.3 | f(x) = a · sin(b · x): Amplitude und Periode | FA 6.1–6.4 |  |
+| D2.1 | Einheitskreis | AG 4.2 | ✓ 16 |
+| D2.2 | Gradmaß und Bogenmaß | FA 6.1 | ✓ 16 |
+| D2.3 | Die Sinusfunktion f(x) = a · sin(b · x) | FA 6.1–6.4 | ✓ 16 |
 | D2.4 | cos(x) = sin(x + π/2) | FA 6.5 |  |
 
 ### D3 Vektoren
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| D3.1 ★ | Vektoren als Zahlenlisten im Kontext (z. B. Stückzahlen und Preise) | AG 3.1 |  |
-| D3.2 ★ | Punkte und Pfeile; Vektor AB = B − A | AG 3.2 |  |
-| D3.3 ★ | Addieren und mit einer Zahl multiplizieren (auch geometrisch) | AG 3.3 |  |
-| D3.4 | Betrag (Länge) eines Vektors | AG 3.3 |  |
-| D3.5 ★ | Skalarprodukt; a · b = 0 bedeutet normal (rechter Winkel) | AG 3.3 |  |
-| D3.6 | Normalvektor in ℝ² | AG 3.5 |  |
+| D3.1 ★ | Vektoren als Zahlenlisten | AG 3.1 | ✓ 20 |
+| D3.2 ★ | Punkte und Pfeile | AG 3.2 | ✓ 24 |
+| D3.3 ★ | Rechnen mit Vektoren | AG 3.3 | ✓ 24 |
+| D3.4 | Betrag eines Vektors | AG 3.3 | ✓ 20 |
+| D3.5 ★ | Skalarprodukt und rechter Winkel | AG 3.3 | ✓ 24 |
+| D3.6 | Normalvektor in der Ebene | AG 3.5 | ✓ 20 |
 
 ### D4 Geraden
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| D4.1 ★ | Parameterdarstellung einer Geraden in ℝ² und ℝ³ | AG 3.4 |  |
+| D4.1 ★ | Parameterdarstellung einer Geraden | AG 3.4 | ✓ 20 |
 | D4.2 | Gleichung einer Geraden in ℝ² (Normalvektorform) | AG 3.4, AG 3.5 |  |
-| D4.3 | Liegt ein Punkt auf der Geraden? | AG 3.4 |  |
+| D4.3 | Liegt ein Punkt auf der Geraden? | AG 3.4 | ✓ 20 |
 | D4.4 | Lagebeziehungen und Schnittpunkt zweier Geraden | AG 3.4 |  |
 
 ---
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 127.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 142.

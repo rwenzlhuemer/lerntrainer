@@ -1,0 +1,15 @@
+id: D3.6
+titel: Normalvektor in der Ebene
+ziel: Du findest zu einem Vektor einen Normalvektor.
+erklaerung: 'In ℝ² bekommst du einen **Normalvektor** zu (x | y), indem du die Koordinaten **vertauschst** und bei **einer** das Vorzeichen änderst:
+
+
+  `(x | y) → (−y | x)` oder `(y | −x)`
+
+
+  Jedes Vielfache davon ist auch ein Normalvektor. Probe: Skalarprodukt = 0.'
+beispiel:
+  text: 'Zu (3 | 1) ist (−1 | 3) ein Normalvektor: 3·(−1) + 1·3 = 0.'
+  wert: '0'
+  weg:
+  - 3·(-1) + 1·3 = 0

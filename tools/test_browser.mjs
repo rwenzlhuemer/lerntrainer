@@ -362,6 +362,14 @@ async function main() {
   const ur = await naechsteBis("F2.4", () => true);
   await tippe(ur.loesung);
   pruefe((await rm()).startsWith("rueckmeldung gut"), `F2.4: Urne ${ur.loesung}`);
+  const dr = await naechsteBis("D1.3", () => true);
+  pruefe(await js("!!document.querySelector('svg.dreieck')"), "D1.3: Dreieck gezeichnet");
+  await tippe(dr.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `D1.3: ${dr.frage.slice(0, 30)} = ${dr.loesung}`);
+  await bild("09t-dreieck");
+  const ve = await naechsteBis("D3.2", () => true);
+  await tippe(`(${ve.loesung.join(" | ")})`);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `D3.2: Vektor (${ve.loesung.join("|")})`);
   const tb = await naechsteBis("C1.1", () => true);
   pruefe(await js("!!document.querySelector('table.tabelle')"), "C1.1: Wertetabelle gezeigt");
   await bild("09m-tabelle");

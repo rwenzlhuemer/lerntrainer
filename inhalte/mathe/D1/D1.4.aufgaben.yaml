@@ -1,0 +1,340 @@
+# ERZEUGT von tools/generatoren/d.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: D1.4-001
+  typ: zahl
+  stufe: 1
+  frage: Aus 40 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 50°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 47,67
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 50
+      b: 40
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 50° = h/40`.'
+  fehler: []
+- id: D1.4-002
+  typ: zahl
+  stufe: 1
+  frage: Aus 30 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 45°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 30,00
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 45
+      b: 30
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 45° = h/30`.'
+  fehler: []
+- id: D1.4-003
+  typ: zahl
+  stufe: 1
+  frage: Eine Straße hat 5 % Steigung. Wie groß ist der Steigungswinkel? (in Grad, eine Nachkommastelle)
+  loesung: 2,9
+  gerundet: 1
+  einheit: °
+  dreieck_rechnen:
+    gegeben:
+      a: 5
+      b: 100
+    gesucht: alpha
+  tipps:
+  - '5 % Steigung heißt: auf 100 m waagrecht 5 m Höhe.'
+  - '`tan α = 5/100`.'
+  fehler:
+  - antwort: 5,0
+    hinweis: 'Prozent sind kein Winkel: tan α = p/100.'
+- id: D1.4-004
+  typ: zahl
+  stufe: 1
+  frage: Aus 25 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 30°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 14,43
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 30
+      b: 25
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 30° = h/25`.'
+  fehler: []
+- id: D1.4-005
+  typ: zahl
+  stufe: 1
+  frage: Eine Straße hat 10 % Steigung. Wie groß ist der Steigungswinkel? (in Grad, eine Nachkommastelle)
+  loesung: 5,7
+  gerundet: 1
+  einheit: °
+  dreieck_rechnen:
+    gegeben:
+      a: 10
+      b: 100
+    gesucht: alpha
+  tipps:
+  - '10 % Steigung heißt: auf 100 m waagrecht 10 m Höhe.'
+  - '`tan α = 10/100`.'
+  fehler:
+  - antwort: 10,0
+    hinweis: 'Prozent sind kein Winkel: tan α = p/100.'
+- id: D1.4-006
+  typ: zahl
+  stufe: 2
+  frage: Aus 40 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 25°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 18,65
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 25
+      b: 40
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 25° = h/40`.'
+  fehler: []
+- id: D1.4-007
+  typ: zahl
+  stufe: 2
+  frage: Aus 20 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 40°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 16,78
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 40
+      b: 20
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 40° = h/20`.'
+  fehler: []
+- id: D1.4-008
+  typ: zahl
+  stufe: 2
+  frage: Eine Straße hat 25 % Steigung. Wie groß ist der Steigungswinkel? (in Grad, eine Nachkommastelle)
+  loesung: 14,0
+  gerundet: 1
+  einheit: °
+  dreieck_rechnen:
+    gegeben:
+      a: 25
+      b: 100
+    gesucht: alpha
+  tipps:
+  - '25 % Steigung heißt: auf 100 m waagrecht 25 m Höhe.'
+  - '`tan α = 25/100`.'
+  fehler:
+  - antwort: 25,0
+    hinweis: 'Prozent sind kein Winkel: tan α = p/100.'
+- id: D1.4-009
+  typ: zahl
+  stufe: 2
+  frage: Aus 40 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 30°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 23,09
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 30
+      b: 40
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 30° = h/40`.'
+  fehler: []
+- id: D1.4-010
+  typ: zahl
+  stufe: 2
+  frage: Eine Straße hat 8 % Steigung. Wie groß ist der Steigungswinkel? (in Grad, eine Nachkommastelle)
+  loesung: 4,6
+  gerundet: 1
+  einheit: °
+  dreieck_rechnen:
+    gegeben:
+      a: 8
+      b: 100
+    gesucht: alpha
+  tipps:
+  - '8 % Steigung heißt: auf 100 m waagrecht 8 m Höhe.'
+  - '`tan α = 8/100`.'
+  fehler:
+  - antwort: 8,0
+    hinweis: 'Prozent sind kein Winkel: tan α = p/100.'
+- id: D1.4-011
+  typ: zahl
+  stufe: 3
+  frage: Eine Seilbahn ist 1500 m lang und steigt unter dem Winkel 25° an. Welchen Höhenunterschied überwindet sie? (zwei Nachkommastellen)
+  loesung: 633,93
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 25
+      c: 1500
+    gesucht: a
+  tipps:
+  - Das Seil ist die Hypotenuse.
+  - '`sin 25° = h/1500`.'
+  fehler:
+  - antwort: 1359,46
+    hinweis: 'Das ist die waagrechte Strecke (cos). Für die Höhe: sin.'
+- id: D1.4-012
+  typ: zahl
+  stufe: 3
+  frage: Eine Straße hat 15 % Steigung. Wie groß ist der Steigungswinkel? (in Grad, eine Nachkommastelle)
+  loesung: 8,5
+  gerundet: 1
+  einheit: °
+  dreieck_rechnen:
+    gegeben:
+      a: 15
+      b: 100
+    gesucht: alpha
+  tipps:
+  - '15 % Steigung heißt: auf 100 m waagrecht 15 m Höhe.'
+  - '`tan α = 15/100`.'
+  fehler:
+  - antwort: 15,0
+    hinweis: 'Prozent sind kein Winkel: tan α = p/100.'
+- id: D1.4-013
+  typ: zahl
+  stufe: 3
+  frage: Eine Seilbahn ist 1200 m lang und steigt unter dem Winkel 20° an. Welchen Höhenunterschied überwindet sie? (zwei Nachkommastellen)
+  loesung: 410,42
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 20
+      c: 1200
+    gesucht: a
+  tipps:
+  - Das Seil ist die Hypotenuse.
+  - '`sin 20° = h/1200`.'
+  fehler:
+  - antwort: 1127,63
+    hinweis: 'Das ist die waagrechte Strecke (cos). Für die Höhe: sin.'
+- id: D1.4-014
+  typ: zahl
+  stufe: 3
+  frage: Eine Seilbahn ist 2000 m lang und steigt unter dem Winkel 30° an. Welchen Höhenunterschied überwindet sie? (zwei Nachkommastellen)
+  loesung: 1000,00
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 30
+      c: 2000
+    gesucht: a
+  tipps:
+  - Das Seil ist die Hypotenuse.
+  - '`sin 30° = h/2000`.'
+  fehler:
+  - antwort: 1732,05
+    hinweis: 'Das ist die waagrechte Strecke (cos). Für die Höhe: sin.'
+- id: D1.4-015
+  typ: zahl
+  stufe: 3
+  frage: Aus 40 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 40°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 33,56
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 40
+      b: 40
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 40° = h/40`.'
+  fehler: []
+- id: D1.4-016
+  typ: zahl
+  stufe: 4
+  frage: Aus 20 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 30°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 11,55
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 30
+      b: 20
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 30° = h/20`.'
+  fehler: []
+- id: D1.4-017
+  typ: zahl
+  stufe: 4
+  frage: Aus 30 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 25°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 13,99
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 25
+      b: 30
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 25° = h/30`.'
+  fehler: []
+- id: D1.4-018
+  typ: zahl
+  stufe: 4
+  frage: Aus 30 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 40°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 25,17
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 40
+      b: 30
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 40° = h/30`.'
+  fehler: []
+- id: D1.4-019
+  typ: zahl
+  stufe: 4
+  frage: Eine Seilbahn ist 1200 m lang und steigt unter dem Winkel 25° an. Welchen Höhenunterschied überwindet sie? (zwei Nachkommastellen)
+  loesung: 507,14
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 25
+      c: 1200
+    gesucht: a
+  tipps:
+  - Das Seil ist die Hypotenuse.
+  - '`sin 25° = h/1200`.'
+  fehler:
+  - antwort: 1087,57
+    hinweis: 'Das ist die waagrechte Strecke (cos). Für die Höhe: sin.'
+- id: D1.4-020
+  typ: zahl
+  stufe: 4
+  frage: Aus 20 m Entfernung sieht man die Spitze eines Baumes unter einem Höhenwinkel von 50°. Wie hoch ist der Baum (Augenhöhe vernachlässigt)? (zwei Nachkommastellen)
+  loesung: 23,84
+  gerundet: 2
+  einheit: m
+  dreieck_rechnen:
+    gegeben:
+      alpha: 50
+      b: 20
+    gesucht: a
+  tipps:
+  - Entfernung = Ankathete, Höhe = Gegenkathete.
+  - '`tan 50° = h/20`.'
+  fehler: []
