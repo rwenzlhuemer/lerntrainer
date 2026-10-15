@@ -1,0 +1,721 @@
+# ERZEUGT von tools/generatoren/b4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B4.1-001
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 3x
+  - x + y = 8
+  loesung:
+    x: '2'
+    y: '6'
+  weg:
+  - x + (3x) = 8 | I in II einsetzen
+  - 4x = 8 | ausmultipliziert, zusammengefasst
+  - x = 2 | :4
+  - y = 6 | x in I einsetzen
+  tipps: &id001
+  - Eine Gleichung ist schon nach y aufgelöst. Setz den ganzen Term für y in die andere Gleichung ein – mit Klammer!
+  - Jetzt hast du eine Gleichung nur mit x. Löse sie.
+  - 'Setz x in die erste Gleichung ein, dann hast du y. Antwort z. B.: x = 3, y = 1.'
+  fehler:
+  - x: '6'
+    y: '2'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '2'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-002
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 2x
+  - 2x + y = 4
+  loesung:
+    x: '1'
+    y: '2'
+  weg:
+  - 2x + (2x) = 4 | I in II einsetzen
+  - 4x = 4 | ausmultipliziert, zusammengefasst
+  - x = 1 | :4
+  - y = 2 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '2'
+    y: '1'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '1'
+    y: '-2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-003
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 3x
+  - 3x + y = 18
+  loesung:
+    x: '3'
+    y: '9'
+  weg:
+  - 3x + (3x) = 18 | I in II einsetzen
+  - 6x = 18 | ausmultipliziert, zusammengefasst
+  - x = 3 | :6
+  - y = 9 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '9'
+    y: '3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '3'
+    y: '-9'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-004
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 4x
+  - 2x + y = 18
+  loesung:
+    x: '3'
+    y: '12'
+  weg:
+  - 2x + (4x) = 18 | I in II einsetzen
+  - 6x = 18 | ausmultipliziert, zusammengefasst
+  - x = 3 | :6
+  - y = 12 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '12'
+    y: '3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '3'
+    y: '-12'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-005
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 2x
+  - 2x + y = 16
+  loesung:
+    x: '4'
+    y: '8'
+  weg:
+  - 2x + (2x) = 16 | I in II einsetzen
+  - 4x = 16 | ausmultipliziert, zusammengefasst
+  - x = 4 | :4
+  - y = 8 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '8'
+    y: '4'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '4'
+    y: '-8'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-006
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 2x
+  - 3x + y = 15
+  loesung:
+    x: '3'
+    y: '6'
+  weg:
+  - 3x + (2x) = 15 | I in II einsetzen
+  - 5x = 15 | ausmultipliziert, zusammengefasst
+  - x = 3 | :5
+  - y = 6 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '6'
+    y: '3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '3'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-007
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 4x
+  - x + y = 15
+  loesung:
+    x: '3'
+    y: '12'
+  weg:
+  - x + (4x) = 15 | I in II einsetzen
+  - 5x = 15 | ausmultipliziert, zusammengefasst
+  - x = 3 | :5
+  - y = 12 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '12'
+    y: '3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '3'
+    y: '-12'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-008
+  typ: lgs
+  stufe: 1
+  gleichungen:
+  - y = 4x
+  - 3x + y = 42
+  loesung:
+    x: '6'
+    y: '24'
+  weg:
+  - 3x + (4x) = 42 | I in II einsetzen
+  - 7x = 42 | ausmultipliziert, zusammengefasst
+  - x = 6 | :7
+  - y = 24 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '24'
+    y: '6'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '6'
+    y: '-24'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-009
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = x - 7
+  - -4x - y = -18
+  loesung:
+    x: '5'
+    y: '-2'
+  weg:
+  - -4x - (x - 7) = -18 | I in II einsetzen
+  - -5x + 7 = -18 | ausmultipliziert, zusammengefasst
+  - -5x = -25 | −7
+  - x = 5 | :(-5)
+  - y = -2 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-2'
+    y: '5'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '5'
+    y: '2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-010
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = -2x + 17
+  - -x - 2y = -16
+  loesung:
+    x: '6'
+    y: '5'
+  weg:
+  - -x - 2(-2x + 17) = -16 | I in II einsetzen
+  - 3x - 34 = -16 | ausmultipliziert, zusammengefasst
+  - 3x = 18 | +34
+  - x = 6 | :3
+  - y = 5 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '5'
+    y: '6'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '6'
+    y: '-5'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-011
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = x - 1
+  - 5x + y = -31
+  loesung:
+    x: '-5'
+    y: '-6'
+  weg:
+  - 5x + (x - 1) = -31 | I in II einsetzen
+  - 6x - 1 = -31 | ausmultipliziert, zusammengefasst
+  - 6x = -30 | +1
+  - x = -5 | :6
+  - y = -6 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-6'
+    y: '-5'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-5'
+    y: '6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-012
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = -4x + 16
+  - 4x - 2y = 28
+  loesung:
+    x: '5'
+    y: '-4'
+  weg:
+  - 4x - 2(-4x + 16) = 28 | I in II einsetzen
+  - 12x - 32 = 28 | ausmultipliziert, zusammengefasst
+  - 12x = 60 | +32
+  - x = 5 | :12
+  - y = -4 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-4'
+    y: '5'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '5'
+    y: '4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-013
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = -3x - 21
+  - -2x - y = 15
+  loesung:
+    x: '-6'
+    y: '-3'
+  weg:
+  - -2x - (-3x - 21) = 15 | I in II einsetzen
+  - x + 21 = 15 | ausmultipliziert, zusammengefasst
+  - x = -6 | −21
+  - y = -3 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-3'
+    y: '-6'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-6'
+    y: '3'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-014
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = -4x - 2
+  - 3x + y = 0
+  loesung:
+    x: '-2'
+    y: '6'
+  weg:
+  - 3x + (-4x - 2) = 0 | I in II einsetzen
+  - -x - 2 = 0 | ausmultipliziert, zusammengefasst
+  - -x = 2 | +2
+  - x = -2 | :(-1)
+  - y = 6 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '6'
+    y: '-2'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-2'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-015
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = -2x - 5
+  - x - 2y = 10
+  loesung:
+    x: '0'
+    y: '-5'
+  weg:
+  - x - 2(-2x - 5) = 10 | I in II einsetzen
+  - 5x + 10 = 10 | ausmultipliziert, zusammengefasst
+  - 5x = 0 | −10
+  - x = 0 | :5
+  - y = -5 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-5'
+    y: '0'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '0'
+    y: '5'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-016
+  typ: lgs
+  stufe: 2
+  gleichungen:
+  - y = 2x + 7
+  - 4x + y = -11
+  loesung:
+    x: '-3'
+    y: '1'
+  weg:
+  - 4x + (2x + 7) = -11 | I in II einsetzen
+  - 6x + 7 = -11 | ausmultipliziert, zusammengefasst
+  - 6x = -18 | −7
+  - x = -3 | :6
+  - y = 1 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '1'
+    y: '-3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-3'
+    y: '-1'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-017
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = -x - 5
+  - y = -3x - 3
+  loesung:
+    x: '1'
+    y: '-6'
+  weg:
+  - -x - 5 = -3x - 3 | gleichsetzen
+  - 2x = 2 | x-Glieder links, Zahlen rechts
+  - x = 1 | :2
+  - y = -6 | x in I einsetzen
+  tipps: &id002
+  - 'Beide Gleichungen sagen „y = …“. Also müssen die rechten Seiten gleich sein: gleichsetzen!'
+  - Löse die neue Gleichung nach x.
+  - Setz x in eine der Gleichungen ein, dann hast du y.
+  fehler:
+  - x: '-6'
+    y: '1'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '1'
+    y: '6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-018
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = -x + 3
+  - y = -4x + 9
+  loesung:
+    x: '2'
+    y: '1'
+  weg:
+  - -x + 3 = -4x + 9 | gleichsetzen
+  - 3x = 6 | x-Glieder links, Zahlen rechts
+  - x = 2 | :3
+  - y = 1 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '1'
+    y: '2'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '2'
+    y: '-1'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-019
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = -2x
+  - y = x + 9
+  loesung:
+    x: '-3'
+    y: '6'
+  weg:
+  - -2x = x + 9 | gleichsetzen
+  - -3x = 9 | x-Glieder links, Zahlen rechts
+  - x = -3 | :(-3)
+  - y = 6 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '6'
+    y: '-3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-3'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-020
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = x - 5
+  - y = 3x - 7
+  loesung:
+    x: '1'
+    y: '-4'
+  weg:
+  - x - 5 = 3x - 7 | gleichsetzen
+  - -2x = -2 | x-Glieder links, Zahlen rechts
+  - x = 1 | :(-2)
+  - y = -4 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '-4'
+    y: '1'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '1'
+    y: '4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-021
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = -x - 3
+  - y = x + 7
+  loesung:
+    x: '-5'
+    y: '2'
+  weg:
+  - -x - 3 = x + 7 | gleichsetzen
+  - -2x = 10 | x-Glieder links, Zahlen rechts
+  - x = -5 | :(-2)
+  - y = 2 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '2'
+    y: '-5'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-5'
+    y: '-2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-022
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = 3x + 11
+  - y = -4x - 17
+  loesung:
+    x: '-4'
+    y: '-1'
+  weg:
+  - 3x + 11 = -4x - 17 | gleichsetzen
+  - 7x = -28 | x-Glieder links, Zahlen rechts
+  - x = -4 | :7
+  - y = -1 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '-1'
+    y: '-4'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-4'
+    y: '1'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-023
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = -4x + 22
+  - y = 2x - 2
+  loesung:
+    x: '4'
+    y: '6'
+  weg:
+  - -4x + 22 = 2x - 2 | gleichsetzen
+  - -6x = -24 | x-Glieder links, Zahlen rechts
+  - x = 4 | :(-6)
+  - y = 6 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '6'
+    y: '4'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '4'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-024
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - y = -3x - 3
+  - y = 4x - 10
+  loesung:
+    x: '1'
+    y: '-6'
+  weg:
+  - -3x - 3 = 4x - 10 | gleichsetzen
+  - -7x = -7 | x-Glieder links, Zahlen rechts
+  - x = 1 | :(-7)
+  - y = -6 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '-6'
+    y: '1'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '1'
+    y: '6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-025
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = 0,5x + 1
+  - y = x + 4
+  loesung:
+    x: '-6'
+    y: '-2'
+  weg:
+  - 0,5x + 1 = x + 4 | gleichsetzen
+  - -0,5x = 3 | x-Glieder links, Zahlen rechts
+  - x = -6 | :(-0,5)
+  - y = -2 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '-2'
+    y: '-6'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-6'
+    y: '2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-026
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = 3x - 16,5
+  - 2x - y = 12
+  loesung:
+    x: 4,5
+    y: '-3'
+  weg:
+  - 2x - (3x - 16,5) = 12 | I in II einsetzen
+  - -x + 16,5 = 12 | ausmultipliziert, zusammengefasst
+  - -x = -4,5 | −16,5
+  - x = 4,5 | :(-1)
+  - y = -3 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-3'
+    y: 4,5
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: 4,5
+    y: '3'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-027
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = 2x + 6
+  - 3x - 2y = -8,5
+  loesung:
+    x: -3,5
+    y: '-1'
+  weg:
+  - 3x - 2(2x + 6) = -8,5 | I in II einsetzen
+  - -x - 12 = -8,5 | ausmultipliziert, zusammengefasst
+  - -x = 3,5 | +12
+  - x = -3,5 | :(-1)
+  - y = -1 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-1'
+    y: -3,5
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: -3,5
+    y: '1'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-028
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = -2x - 1
+  - 2x - 2y = -19
+  loesung:
+    x: -3,5
+    y: '6'
+  weg:
+  - 2x - 2(-2x - 1) = -19 | I in II einsetzen
+  - 6x + 2 = -19 | ausmultipliziert, zusammengefasst
+  - 6x = -21 | −2
+  - x = -3,5 | :6
+  - y = 6 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '6'
+    y: -3,5
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: -3,5
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-029
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = 3x + 1
+  - 4x + 3y = -23
+  loesung:
+    x: '-2'
+    y: '-5'
+  weg:
+  - 4x + 3(3x + 1) = -23 | I in II einsetzen
+  - 13x + 3 = -23 | ausmultipliziert, zusammengefasst
+  - 13x = -26 | −3
+  - x = -2 | :13
+  - y = -5 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '-5'
+    y: '-2'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '-2'
+    y: '5'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-030
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = 2x - 18
+  - y = -2x + 6
+  loesung:
+    x: '6'
+    y: '-6'
+  weg:
+  - 2x - 18 = -2x + 6 | gleichsetzen
+  - 4x = 24 | x-Glieder links, Zahlen rechts
+  - x = 6 | :4
+  - y = -6 | x in I einsetzen
+  tipps: *id002
+  fehler:
+  - x: '-6'
+    y: '6'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '6'
+    y: '6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-031
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = x + 3,5
+  - 2x - y = -5
+  loesung:
+    x: -1,5
+    y: '2'
+  weg:
+  - 2x - (x + 3,5) = -5 | I in II einsetzen
+  - x - 3,5 = -5 | ausmultipliziert, zusammengefasst
+  - x = -1,5 | +3,5
+  - y = 2 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '2'
+    y: -1,5
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: -1,5
+    y: '-2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.1-032
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - y = 3x - 4
+  - 4x + 3y = 14
+  loesung:
+    x: '2'
+    y: '2'
+  weg:
+  - 4x + 3(3x - 4) = 14 | I in II einsetzen
+  - 13x - 12 = 14 | ausmultipliziert, zusammengefasst
+  - 13x = 26 | +12
+  - x = 2 | :13
+  - y = 2 | x in I einsetzen
+  tipps: *id001
+  fehler:
+  - x: '2'
+    y: '-2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.

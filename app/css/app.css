@@ -190,3 +190,7 @@ sup { font-size: .7em; }
   .gleichung-gross { font-size: 1.4rem; }
 }
 .zweit-knopf { background: var(--akzent-hell); border-color: #bfdbe0; font-weight: 600; }
+
+.lgs div { margin: 2px 0; }
+.lgs-nr { display: inline-block; min-width: 1.8em; color: var(--leise); font-size: .75em; }
+

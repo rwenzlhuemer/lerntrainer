@@ -89,6 +89,18 @@ for (const datei of readdirSync(DATEN)) {
         const r = M.pruefeFormelZeile(`${a.nach} = ${f.antwort}`, a);
         erwarte(r.art === "falsch" && r.fehler === f, `${a.id}: Fehler-Antwort ${f.antwort} → ${r.art}`);
       }
+    } else if (a.typ === "lgs") {
+      const l = a.loesung;
+      const eingabe = typeof l === "object" ? `x = ${l.x}, y = ${l.y}` : l === "keine" ? "keine" : "unendlich viele";
+      erwarte(M.pruefeLgsZeile(eingabe, a).art === "geloest", `${a.id}: Lösung nicht erkannt`);
+      if (typeof l === "object") {
+        erwarte(M.pruefeLgsZeile(`(${l.x}|${l.y})`, a).art === "geloest", `${a.id}: Paar nicht erkannt`);
+        for (const zeile of a.weg || []) {
+          const r = M.pruefeLgsZeile(zeile.split("|")[0], a);
+          erwarte(["schritt", "teil", "geloest"].includes(r.art), `${a.id}: Weg-Zeile "${zeile}" → ${r.art}`);
+        }
+        for (const f of a.fehler || []) erwarte(M.pruefeLgsZeile(`x = ${f.x}, y = ${f.y}`, a).art === "falsch", `${a.id}: Fehler ${f.x}|${f.y} nicht falsch`);
+      }
     } else if (a.typ === "ungleichung") {
       erwarte(M.pruefeUngleichungsZeile(a.loesung, a).art === (a.form === "intervall" ? "form" : "geloest"), `${a.id}: Lösung nicht erkannt`);
       erwarte(M.pruefeUngleichungsZeile(M.intervallText(M.ungleichungsMenge(a.loesung).menge), a).art === "geloest", `${a.id}: Intervall nicht erkannt`);

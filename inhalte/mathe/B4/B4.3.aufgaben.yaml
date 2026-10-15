@@ -1,0 +1,489 @@
+# ERZEUGT von tools/generatoren/b4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B4.3-001
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `-3x - y = -2` und `-4x + 2y = 6`?
+  optionen: &id001
+  - genau eine Lösung
+  - keine Lösung
+  - unendlich viele Lösungen
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -3x - y = -2
+    - -4x + 2y = 6
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-002
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `-5x - 5y = 9` und `4x - 2y = -8`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -5x - 5y = 9
+    - 4x - 2y = -8
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-003
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `4x - 3y = -5` und `8x - 6y = -10`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - 4x - 3y = -5
+    - 8x - 6y = -10
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-004
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `2x - 2y = -4` und `-2x - 5y = -9`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - 2x - 2y = -4
+    - -2x - 5y = -9
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-005
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `5x + 3y = 4` und `15x + 9y = 12`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - 5x + 3y = 4
+    - 15x + 9y = 12
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-006
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `4x - y = -6` und `-5x - 2y = -8`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - 4x - y = -6
+    - -5x - 2y = -8
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-007
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `-3x + 2y = -4` und `-6x + 4y = -10`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -3x + 2y = -4
+    - -6x + 4y = -10
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-008
+  typ: auswahl
+  stufe: 1
+  frage: Wie viele Lösungen hat das Gleichungssystem `x + 5y = 5` und `2x + 10y = 10`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - x + 5y = 5
+    - 2x + 10y = 10
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-009
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `2x - 3y = 6` und `6x - 9y = 16`?
+  optionen: &id002
+  - Die Geraden schneiden sich in einem Punkt.
+  - Die Geraden sind parallel.
+  - Die Geraden sind identisch (liegen aufeinander).
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - 2x - 3y = 6
+    - 6x - 9y = 16
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-010
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `x + 5y = 1` und `3x - 4y = -2`?
+  optionen: *id002
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - x + 5y = 1
+    - 3x - 4y = -2
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-011
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `-x + 5y = 2` und `x - 5y = 0`?
+  optionen: *id002
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -x + 5y = 2
+    - x - 5y = 0
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-012
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `-4x - 3y = 6` und `2x - 4y = 4`?
+  optionen: *id002
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -4x - 3y = 6
+    - 2x - 4y = 4
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-013
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `-4x + 4y = -7` und `8x - 8y = 12`?
+  optionen: *id002
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -4x + 4y = -7
+    - 8x - 8y = 12
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-014
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `-3x - 4y = 4` und `-6x - 8y = 8`?
+  optionen: *id002
+  richtig:
+  - 2
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -3x - 4y = 4
+    - -6x - 8y = 8
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-015
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `-2x + 2y = -4` und `-5x + y = -7`?
+  optionen: *id002
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -2x + 2y = -4
+    - -5x + y = -7
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-016
+  typ: auswahl
+  stufe: 2
+  frage: Was gilt für die beiden Geraden `-x + 4y = -1` und `-3x + 12y = -1`?
+  optionen: *id002
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -x + 4y = -1
+    - -3x + 12y = -1
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-017
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `-5x - 4y = 5` und `x + 5y = 7`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -5x - 4y = 5
+    - x + 5y = 7
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-018
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `-5x + 2y = -3` und `5x - 2y = 2`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -5x + 2y = -3
+    - 5x - 2y = 2
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-019
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `-3x + y = 7` und `-9x + 3y = 19`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -3x + y = 7
+    - -9x + 3y = 19
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-020
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `x + 4y = -3` und `-x - 4y = 4`?
+  optionen: *id001
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - x + 4y = -3
+    - -x - 4y = 4
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-021
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `x + 5y = -1` und `2x + 10y = -2`?
+  optionen: *id001
+  richtig:
+  - 2
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - x + 5y = -1
+    - 2x + 10y = -2
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-022
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `x + 5y = 2` und `-x - y = 4`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - x + 5y = 2
+    - -x - y = 4
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-023
+  typ: auswahl
+  stufe: 3
+  frage: Wie viele Lösungen hat das Gleichungssystem `-4x + 2y = -6` und `3x + 4y = 6`?
+  optionen: *id001
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -4x + 2y = -6
+    - 3x + 4y = 6
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-024
+  typ: lgs
+  stufe: 3
+  gleichungen:
+  - -3x + y = 1
+  - 6x - 2y = -2
+  loesung: unendlich
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - 'Vergleiche die beiden Gleichungen: Ist die eine (links) ein Vielfaches der anderen?'
+  - Versuch, y zu eliminieren. Bleibt `0 = 0` oder ein Widerspruch wie `0 = 5` übrig?
+  - Schreib „keine“ oder „unendlich viele“, wenn es keine einzelne Lösung gibt.
+  fehler: []
+- id: B4.3-025
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die beiden Geraden `2x + y = -4` und `6x + 3y = -13`?
+  optionen: *id002
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - 2x + y = -4
+    - 6x + 3y = -13
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-026
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die beiden Geraden `-4x + 2y = -7` und `8x - 4y = 12`?
+  optionen: *id002
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -4x + 2y = -7
+    - 8x - 4y = 12
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-027
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - -5x - 2y = 8
+  - -15x - 6y = 24
+  loesung: unendlich
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - 'Vergleiche die beiden Gleichungen: Ist die eine (links) ein Vielfaches der anderen?'
+  - Versuch, y zu eliminieren. Bleibt `0 = 0` oder ein Widerspruch wie `0 = 5` übrig?
+  - Schreib „keine“ oder „unendlich viele“, wenn es keine einzelne Lösung gibt.
+  fehler: []
+- id: B4.3-028
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die beiden Geraden `-x + 5y = 2` und `-4x + y = -3`?
+  optionen: *id002
+  richtig:
+  - 0
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -x + 5y = 2
+    - -4x + y = -3
+  erklaerung: Die Gleichungen sind kein Vielfaches voneinander – die beiden Geraden haben verschiedene Steigungen und schneiden sich in genau einem Punkt.
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-029
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - -2x + 5y = -1
+  - 2x - 5y = 1
+  loesung: unendlich
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - 'Vergleiche die beiden Gleichungen: Ist die eine (links) ein Vielfaches der anderen?'
+  - Versuch, y zu eliminieren. Bleibt `0 = 0` oder ein Widerspruch wie `0 = 5` übrig?
+  - Schreib „keine“ oder „unendlich viele“, wenn es keine einzelne Lösung gibt.
+  fehler: []
+- id: B4.3-030
+  typ: auswahl
+  stufe: 4
+  frage: Was gilt für die beiden Geraden `-3x + 2y = 6` und `-9x + 6y = 19`?
+  optionen: *id002
+  richtig:
+  - 1
+  pruefung:
+    art: lgs_anzahl
+    gleichungen:
+    - -3x + 2y = 6
+    - -9x + 6y = 19
+  erklaerung: 'Die linken Seiten sind Vielfache voneinander, die rechten Seiten aber nicht im selben Verhältnis. Beim Lösen bleibt z. B. `0 = 5` übrig – ein Widerspruch. Die Geraden sind **parallel**: keine
+    Lösung.'
+  tipps:
+  - Ist die zweite Gleichung (links) ein Vielfaches der ersten? Prüf auch die rechte Seite.
+- id: B4.3-031
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - -2x - 2y = -2
+  - -4x - 4y = -4
+  loesung: unendlich
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - 'Vergleiche die beiden Gleichungen: Ist die eine (links) ein Vielfaches der anderen?'
+  - Versuch, y zu eliminieren. Bleibt `0 = 0` oder ein Widerspruch wie `0 = 5` übrig?
+  - Schreib „keine“ oder „unendlich viele“, wenn es keine einzelne Lösung gibt.
+  fehler: []
+- id: B4.3-032
+  typ: lgs
+  stufe: 4
+  gleichungen:
+  - -2x - 2y = 3
+  - -6x - 6y = 9
+  loesung: unendlich
+  erklaerung: 'Die eine Gleichung ist ein Vielfaches der anderen – beide beschreiben **dieselbe** Gerade. Beim Lösen bleibt `0 = 0` übrig: unendlich viele Lösungen.'
+  tipps:
+  - 'Vergleiche die beiden Gleichungen: Ist die eine (links) ein Vielfaches der anderen?'
+  - Versuch, y zu eliminieren. Bleibt `0 = 0` oder ein Widerspruch wie `0 = 5` übrig?
+  - Schreib „keine“ oder „unendlich viele“, wenn es keine einzelne Lösung gibt.
+  fehler: []

@@ -35,7 +35,7 @@ DATEN = APP / "daten"
 
 FAECHER = ["mathe"]
 STUFEN = {1, 2, 3, 4}
-TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung"}
+TYPEN = {"gleichung", "zahl", "auswahl", "term", "formel", "ungleichung", "lgs"}
 
 
 class Fehlerliste(list):
@@ -217,6 +217,41 @@ def pruefe_faktor(a: dict, wo: str, fehler: Fehlerliste, soll):
         fehler.melde(wo, f"Faktor nicht prüfbar ({e})")
 
 
+def lgs_loesung(gleichungen):
+    x, y = sympy.symbols("x y")
+    system = [notation.gleichung(g) for g in gleichungen]
+    menge = sympy.linsolve(system, x, y)
+    if menge == sympy.S.EmptySet:
+        return "keine"
+    (px, py), = menge
+    if px.free_symbols or py.free_symbols:
+        return "unendlich"
+    return (px, py)
+
+
+def pruefe_lgs(a: dict, wo: str, fehler: Fehlerliste):
+    try:
+        ist = lgs_loesung(a["gleichungen"])
+        soll = a["loesung"]
+        if isinstance(soll, dict):
+            soll_paar = (notation.zahl(str(soll["x"])), notation.zahl(str(soll["y"])))
+            if ist != soll_paar:
+                fehler.melde(wo, f"Lösung {soll} stimmt nicht – sympy: {ist}")
+                return
+            x, y = sympy.symbols("x y")
+            for zeile in a.get("weg", []):
+                for teil in re.split(r"\s*(?:;|,(?!\d))\s*", zeile.split("|")[0]):
+                    if "=" in teil and sympy.simplify(notation.gleichung(teil).subs({x: soll_paar[0], y: soll_paar[1]})) != 0:
+                        fehler.melde(wo, f"Lösungsweg-Zeile {zeile!r} stimmt nicht für die Lösung")
+            for f in a.get("fehler", []):
+                if (notation.zahl(str(f["x"])), notation.zahl(str(f["y"]))) == soll_paar:
+                    fehler.melde(wo, f"Fehler-Antwort {f} ist in Wahrheit richtig")
+        elif ist != soll:
+            fehler.melde(wo, f"Lösung {soll!r} stimmt nicht – sympy: {ist}")
+    except Exception as e:  # noqa: BLE001
+        fehler.melde(wo, f"Gleichungssystem nicht lesbar ({e})")
+
+
 REL = [("<=", "≤"), (">=", "≥"), ("≤", "≤"), ("≥", "≥"), ("<", "<"), (">", ">")]
 
 
@@ -296,6 +331,13 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
             return
+        if p["art"] == "lgs_anzahl":
+            # Optionen: 0 = genau eine Lösung, 1 = keine, 2 = unendlich viele
+            ist = lgs_loesung(p["gleichungen"])
+            erwartet = [1] if ist == "keine" else [2] if ist == "unendlich" else [0]
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
         if p["art"] == "intervall":
             # Optionen sind Intervalle/Ungleichungen; richtig sind die mit derselben Lösungsmenge wie das Ziel
             ziel = ungleichung_menge(p["ziel"])
@@ -333,7 +375,7 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
 
 
 PRUEFER = {"gleichung": pruefe_gleichung, "zahl": pruefe_zahl, "auswahl": pruefe_auswahl, "term": pruefe_term,
-           "formel": pruefe_formel, "ungleichung": pruefe_ungleichung}
+           "formel": pruefe_formel, "ungleichung": pruefe_ungleichung, "lgs": pruefe_lgs}
 
 
 def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
@@ -384,6 +426,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                 for a in aufgaben:
                     aid = a.get("id", "?")
                     text = (a.get("gleichung") if a.get("typ") == "gleichung" else a.get("frage") or a.get("ungleichung") if a.get("typ") == "ungleichung" else
+                            a.get("frage") or " | ".join(a.get("gleichungen", [])) if a.get("typ") == "lgs" else
                             f"{a.get('formel')} nach {a.get('nach')}" if a.get("typ") == "formel" else a.get("frage") or a.get("term"))
                     if text in texte:
                         fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
@@ -402,6 +445,8 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                         except Exception as e:  # noqa: BLE001
                             fehler.melde(lid, f"Beispiel-Zeile {zeile!r} nicht lesbar ({e})")
                 bsp = inhalt.get("beispiel") or {}
+                if bsp.get("gleichungen"):
+                    pruefe_lgs(bsp, f"{lid}/Beispiel", fehler)
                 if bsp.get("ungleichung"):
                     try:
                         soll_u = ungleichung_menge(bsp["ungleichung"])

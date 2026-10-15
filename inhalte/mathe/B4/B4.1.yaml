@@ -1,0 +1,24 @@
+id: B4.1
+titel: Einsetzen und Gleichsetzen
+ziel: Du löst Gleichungssysteme mit zwei Variablen durch Einsetzen oder Gleichsetzen.
+erklaerung: |
+  Ein **Gleichungssystem** besteht aus zwei Gleichungen mit zwei Variablen x und y.
+  Gesucht ist das Zahlenpaar, das **beide** Gleichungen gleichzeitig erfüllt.
+
+  **Einsetzungsverfahren:** Ist eine Gleichung schon nach y aufgelöst (`y = …`), setzt du den ganzen Term
+  für y in die andere Gleichung ein – **in Klammer**! Dann bleibt eine Gleichung nur mit x.
+
+  **Gleichsetzungsverfahren:** Sind beide nach y aufgelöst, müssen die rechten Seiten gleich sein.
+
+  Zum Schluss setzt du x in eine Gleichung ein und bekommst y.
+  Die Lösung schreibst du als `x = 3, y = 1` oder als Paar `(3|1)`.
+beispiel:
+  gleichungen: ["y = 2x", "x + y = 9"]
+  loesung: {x: "3", y: "6"}
+  text: |
+    I: `y = 2x`, II: `x + y = 9`. Aus I kommt `2x` für y in II.
+  weg:
+    - "x + 2x = 9 | I in II einsetzen"
+    - "3x = 9"
+    - "x = 3 | :3"
+    - "y = 6 | x in I einsetzen"

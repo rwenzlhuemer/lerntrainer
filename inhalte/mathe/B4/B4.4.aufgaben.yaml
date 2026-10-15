@@ -1,0 +1,640 @@
+# ERZEUGT von tools/generatoren/b4.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: B4.4-001
+  typ: lgs
+  stufe: 1
+  frage: Im Kino zahlen 5 Erwachsene und 3 Kinder zusammen 57 €. 4 Erwachsene und 5 Kinder zahlen 56 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 5x + 3y = 57
+  - 4x + 5y = 56
+  loesung:
+    x: '9'
+    y: '4'
+  weg:
+  - 25x + 15y = 285 | I · 5
+  - -12x - 15y = -168 | II · (-3)
+  - 13x = 117 | addiert – y fällt weg
+  - x = 9 | :13
+  - y = 4 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `5x + 3y = 57`, II: `4x + 5y = 56`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '4'
+    y: '9'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '9'
+    y: '-4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-002
+  typ: lgs
+  stufe: 1
+  frage: Die Summe zweier Zahlen ist 30, ihre Differenz ist 12. Wie heißen die größere Zahl x und die kleinere Zahl y?
+  gleichungen:
+  - x + y = 30
+  - x - y = 12
+  loesung:
+    x: '21'
+    y: '9'
+  weg:
+  - 2x = 42 | addiert – y fällt weg
+  - x = 21 | :2
+  - y = 9 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 30`, II: `x - y = 12`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '9'
+    y: '21'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '21'
+    y: '-9'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-003
+  typ: lgs
+  stufe: 1
+  frage: Im Kino zahlen 5 Erwachsene und 2 Kinder zusammen 71 €. 3 Erwachsene und 2 Kinder zahlen 49 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 5x + 2y = 71
+  - 3x + 2y = 49
+  loesung:
+    x: '11'
+    y: '8'
+  weg:
+  - -3x - 2y = -49 | II · (-1)
+  - 2x = 22 | addiert – y fällt weg
+  - x = 11 | :2
+  - y = 8 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `5x + 2y = 71`, II: `3x + 2y = 49`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '8'
+    y: '11'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '11'
+    y: '-8'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-004
+  typ: lgs
+  stufe: 1
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 7 Köpfe und 20 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 7
+  - 2x + 4y = 20
+  loesung:
+    x: '4'
+    y: '3'
+  weg:
+  - 4x + 4y = 28 | I · 4
+  - -2x - 4y = -20 | II · (-1)
+  - 2x = 8 | addiert – y fällt weg
+  - x = 4 | :2
+  - y = 3 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 7`, II: `2x + 4y = 20`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '3'
+    y: '4'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '4'
+    y: '-3'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-005
+  typ: lgs
+  stufe: 1
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 16 Köpfe und 40 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 16
+  - 2x + 4y = 40
+  loesung:
+    x: '12'
+    y: '4'
+  weg:
+  - 4x + 4y = 64 | I · 4
+  - -2x - 4y = -40 | II · (-1)
+  - 2x = 24 | addiert – y fällt weg
+  - x = 12 | :2
+  - y = 4 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 16`, II: `2x + 4y = 40`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '4'
+    y: '12'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '12'
+    y: '-4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-006
+  typ: lgs
+  stufe: 1
+  frage: Im Kino zahlen 5 Erwachsene und 2 Kinder zusammen 79 €. 4 Erwachsene und 2 Kinder zahlen 66 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 5x + 2y = 79
+  - 4x + 2y = 66
+  loesung:
+    x: '13'
+    y: '7'
+  weg:
+  - -4x - 2y = -66 | II · (-1)
+  - x = 13 | addiert – y fällt weg
+  - y = 7 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `5x + 2y = 79`, II: `4x + 2y = 66`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '7'
+    y: '13'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '13'
+    y: '-7'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-007
+  typ: lgs
+  stufe: 2
+  frage: Im Kino zahlen 5 Erwachsene und 4 Kinder zusammen 98 €. 2 Erwachsene und 5 Kinder zahlen 63 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 5x + 4y = 98
+  - 2x + 5y = 63
+  loesung:
+    x: '14'
+    y: '7'
+  weg:
+  - 25x + 20y = 490 | I · 5
+  - -8x - 20y = -252 | II · (-4)
+  - 17x = 238 | addiert – y fällt weg
+  - x = 14 | :17
+  - y = 7 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `5x + 4y = 98`, II: `2x + 5y = 63`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '7'
+    y: '14'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '14'
+    y: '-7'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-008
+  typ: lgs
+  stufe: 2
+  frage: Eine Mutter ist heute 3-mal so alt wie ihre Tochter. In 12 Jahren ist sie 2-mal so alt. Wie alt sind Mutter (x) und Tochter (y) heute?
+  gleichungen:
+  - x = 3y
+  - x + 12 = 2(y + 12)
+  loesung:
+    x: '36'
+    y: '12'
+  weg:
+  - 3y + 12 = 2(y + 12) | I in II einsetzen
+  - 3y + 12 = 2y + 24
+  - 1y = 12
+  - y = 12
+  - x = 36 | in I einsetzen
+  tipps:
+  - 'Übersetze jeden Satz in eine Gleichung. „In j Jahren“: beide sind j Jahre älter.'
+  - 'I: `x = 3y`. II: `x + 12 = 2(y + 12)`.'
+  - Setz I in II ein.
+  fehler:
+  - x: '12'
+    y: '36'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '36'
+    y: '-12'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-009
+  typ: lgs
+  stufe: 2
+  frage: Im Kino zahlen 2 Erwachsene und 2 Kinder zusammen 30 €. 5 Erwachsene und 2 Kinder zahlen 60 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 2x + 2y = 30
+  - 5x + 2y = 60
+  loesung:
+    x: '10'
+    y: '5'
+  weg:
+  - -5x - 2y = -60 | II · (-1)
+  - -3x = -30 | addiert – y fällt weg
+  - x = 10 | :(-3)
+  - y = 5 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `2x + 2y = 30`, II: `5x + 2y = 60`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '5'
+    y: '10'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '10'
+    y: '-5'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-010
+  typ: lgs
+  stufe: 2
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 11 Köpfe und 30 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 11
+  - 2x + 4y = 30
+  loesung:
+    x: '7'
+    y: '4'
+  weg:
+  - 4x + 4y = 44 | I · 4
+  - -2x - 4y = -30 | II · (-1)
+  - 2x = 14 | addiert – y fällt weg
+  - x = 7 | :2
+  - y = 4 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 11`, II: `2x + 4y = 30`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '4'
+    y: '7'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '7'
+    y: '-4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-011
+  typ: lgs
+  stufe: 2
+  frage: Im Kino zahlen 4 Erwachsene und 4 Kinder zusammen 76 €. 3 Erwachsene und 2 Kinder zahlen 51 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 4x + 4y = 76
+  - 3x + 2y = 51
+  loesung:
+    x: '13'
+    y: '6'
+  weg:
+  - -6x - 4y = -102 | II · (-2)
+  - -2x = -26 | addiert – y fällt weg
+  - x = 13 | :(-2)
+  - y = 6 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `4x + 4y = 76`, II: `3x + 2y = 51`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '6'
+    y: '13'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '13'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-012
+  typ: lgs
+  stufe: 2
+  frage: Im Kino zahlen 3 Erwachsene und 4 Kinder zusammen 52 €. 3 Erwachsene und 2 Kinder zahlen 38 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 3x + 4y = 52
+  - 3x + 2y = 38
+  loesung:
+    x: '8'
+    y: '7'
+  weg:
+  - -6x - 4y = -76 | II · (-2)
+  - -3x = -24 | addiert – y fällt weg
+  - x = 8 | :(-3)
+  - y = 7 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `3x + 4y = 52`, II: `3x + 2y = 38`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '7'
+    y: '8'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '8'
+    y: '-7'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-013
+  typ: lgs
+  stufe: 3
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 17 Köpfe und 50 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 17
+  - 2x + 4y = 50
+  loesung:
+    x: '9'
+    y: '8'
+  weg:
+  - 4x + 4y = 68 | I · 4
+  - -2x - 4y = -50 | II · (-1)
+  - 2x = 18 | addiert – y fällt weg
+  - x = 9 | :2
+  - y = 8 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 17`, II: `2x + 4y = 50`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '8'
+    y: '9'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '9'
+    y: '-8'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-014
+  typ: lgs
+  stufe: 3
+  frage: In einer Kasse liegen 13 Münzen, nur 2-€-Münzen (x) und 50-Cent-Münzen (y). Zusammen sind sie 20 € wert. Wie viele Münzen jeder Sorte sind es?
+  gleichungen:
+  - x + y = 13
+  - 2x + 0,5y = 20
+  loesung:
+    x: '9'
+    y: '4'
+  weg:
+  - 0,5x + 0,5y = 6,5 | I · 0,5
+  - -2x - 0,5y = -20 | II · (-1)
+  - -1,5x = -13,5 | addiert – y fällt weg
+  - x = 9 | :(-1,5)
+  - y = 4 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 13`, II: `2x + 0,5y = 20`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '4'
+    y: '9'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '9'
+    y: '-4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-015
+  typ: lgs
+  stufe: 3
+  frage: In einer Kasse liegen 6 Münzen, nur 2-€-Münzen (x) und 50-Cent-Münzen (y). Zusammen sind sie 9 € wert. Wie viele Münzen jeder Sorte sind es?
+  gleichungen:
+  - x + y = 6
+  - 2x + 0,5y = 9
+  loesung:
+    x: '4'
+    y: '2'
+  weg:
+  - 0,5x + 0,5y = 3 | I · 0,5
+  - -2x - 0,5y = -9 | II · (-1)
+  - -1,5x = -6 | addiert – y fällt weg
+  - x = 4 | :(-1,5)
+  - y = 2 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 6`, II: `2x + 0,5y = 9`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '2'
+    y: '4'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '4'
+    y: '-2'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-016
+  typ: lgs
+  stufe: 3
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 14 Köpfe und 50 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 14
+  - 2x + 4y = 50
+  loesung:
+    x: '3'
+    y: '11'
+  weg:
+  - 4x + 4y = 56 | I · 4
+  - -2x - 4y = -50 | II · (-1)
+  - 2x = 6 | addiert – y fällt weg
+  - x = 3 | :2
+  - y = 11 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 14`, II: `2x + 4y = 50`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '11'
+    y: '3'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '3'
+    y: '-11'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-017
+  typ: lgs
+  stufe: 3
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 25 Köpfe und 70 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 25
+  - 2x + 4y = 70
+  loesung:
+    x: '15'
+    y: '10'
+  weg:
+  - 4x + 4y = 100 | I · 4
+  - -2x - 4y = -70 | II · (-1)
+  - 2x = 30 | addiert – y fällt weg
+  - x = 15 | :2
+  - y = 10 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 25`, II: `2x + 4y = 70`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '10'
+    y: '15'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '15'
+    y: '-10'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-018
+  typ: lgs
+  stufe: 3
+  frage: Im Kino zahlen 3 Erwachsene und 5 Kinder zusammen 67 €. 2 Erwachsene und 4 Kinder zahlen 50 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 3x + 5y = 67
+  - 2x + 4y = 50
+  loesung:
+    x: '9'
+    y: '8'
+  weg:
+  - 12x + 20y = 268 | I · 4
+  - -10x - 20y = -250 | II · (-5)
+  - 2x = 18 | addiert – y fällt weg
+  - x = 9 | :2
+  - y = 8 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `3x + 5y = 67`, II: `2x + 4y = 50`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '8'
+    y: '9'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '9'
+    y: '-8'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-019
+  typ: lgs
+  stufe: 4
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 13 Köpfe und 38 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 13
+  - 2x + 4y = 38
+  loesung:
+    x: '7'
+    y: '6'
+  weg:
+  - 4x + 4y = 52 | I · 4
+  - -2x - 4y = -38 | II · (-1)
+  - 2x = 14 | addiert – y fällt weg
+  - x = 7 | :2
+  - y = 6 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 13`, II: `2x + 4y = 38`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '6'
+    y: '7'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '7'
+    y: '-6'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-020
+  typ: lgs
+  stufe: 4
+  frage: Im Kino zahlen 4 Erwachsene und 2 Kinder zusammen 68 €. 2 Erwachsene und 3 Kinder zahlen 50 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 4x + 2y = 68
+  - 2x + 3y = 50
+  loesung:
+    x: '13'
+    y: '8'
+  weg:
+  - 12x + 6y = 204 | I · 3
+  - -4x - 6y = -100 | II · (-2)
+  - 8x = 104 | addiert – y fällt weg
+  - x = 13 | :8
+  - y = 8 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `4x + 2y = 68`, II: `2x + 3y = 50`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '8'
+    y: '13'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '13'
+    y: '-8'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-021
+  typ: lgs
+  stufe: 4
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 13 Köpfe und 34 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 13
+  - 2x + 4y = 34
+  loesung:
+    x: '9'
+    y: '4'
+  weg:
+  - 4x + 4y = 52 | I · 4
+  - -2x - 4y = -34 | II · (-1)
+  - 2x = 18 | addiert – y fällt weg
+  - x = 9 | :2
+  - y = 4 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 13`, II: `2x + 4y = 34`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '4'
+    y: '9'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '9'
+    y: '-4'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-022
+  typ: lgs
+  stufe: 4
+  frage: Im Kino zahlen 5 Erwachsene und 4 Kinder zusammen 77 €. 4 Erwachsene und 4 Kinder zahlen 68 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 5x + 4y = 77
+  - 4x + 4y = 68
+  loesung:
+    x: '9'
+    y: '8'
+  weg:
+  - -4x - 4y = -68 | II · (-1)
+  - x = 9 | addiert – y fällt weg
+  - y = 8 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `5x + 4y = 77`, II: `4x + 4y = 68`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '8'
+    y: '9'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '9'
+    y: '-8'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-023
+  typ: lgs
+  stufe: 4
+  frage: Auf einem Bauernhof gibt es Hühner (x) und Kaninchen (y). Zusammen haben sie 15 Köpfe und 50 Beine. Wie viele Hühner und wie viele Kaninchen sind es?
+  gleichungen:
+  - x + y = 15
+  - 2x + 4y = 50
+  loesung:
+    x: '5'
+    y: '10'
+  weg:
+  - 4x + 4y = 60 | I · 4
+  - -2x - 4y = -50 | II · (-1)
+  - 2x = 10 | addiert – y fällt weg
+  - x = 5 | :2
+  - y = 10 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `x + y = 15`, II: `2x + 4y = 50`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '10'
+    y: '5'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '5'
+    y: '-10'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.
+- id: B4.4-024
+  typ: lgs
+  stufe: 4
+  frage: Im Kino zahlen 4 Erwachsene und 2 Kinder zusammen 46 €. 3 Erwachsene und 5 Kinder zahlen 59 €. Was kostet eine Karte für Erwachsene (x) und eine für Kinder (y)?
+  gleichungen:
+  - 4x + 2y = 46
+  - 3x + 5y = 59
+  loesung:
+    x: '8'
+    y: '7'
+  weg:
+  - 20x + 10y = 230 | I · 5
+  - -6x - 10y = -118 | II · (-2)
+  - 14x = 112 | addiert – y fällt weg
+  - x = 8 | :14
+  - y = 7 | x in I einsetzen
+  tipps:
+  - Übersetze jeden Satz in eine Gleichung mit x und y.
+  - 'I: `4x + 2y = 46`, II: `3x + 5y = 59`.'
+  - Löse mit dem Verfahren, das dir am liebsten ist – z. B. Additionsverfahren.
+  fehler:
+  - x: '7'
+    y: '8'
+    hinweis: x und y vertauscht? Prüf, welche Zahl zu welcher Variablen gehört.
+  - x: '8'
+    y: '-7'
+    hinweis: x stimmt, aber bei y ist ein Vorzeichenfehler passiert. Setz x noch einmal sorgfältig ein.

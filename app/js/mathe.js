@@ -600,6 +600,57 @@ function termGleichPositiv(t1, t2) {
   return gueltig >= 3;
 }
 
+// ── Gleichungssysteme (2 Variablen) ──────────────────────
+// loesung: {x, y} als Text oder "keine" / "unendlich"
+
+const LGS_KEINE = /^(l\s*=\s*)?(\{\s*\}|∅|keine( lösung(en)?)?|leer)$/i;
+const LGS_ALLE = /^(l\s*=\s*)?(unendlich( viele)?( lösungen)?|∞)$/i;
+
+function lgsSoll(aufgabe) {
+  if (aufgabe.loesung === "keine" || aufgabe.loesung === "unendlich") return { art: aufgabe.loesung };
+  return { art: "eine", x: zahlwert(aufgabe.loesung.x), y: zahlwert(aufgabe.loesung.y) };
+}
+
+// Ergebnis: {art: "geloest"|"teil"|"schritt"|"falsch"|"unklar", bekannt}
+export function pruefeLgsZeile(eingabe, aufgabe, bekannt = {}) {
+  const soll = lgsSoll(aufgabe);
+  const roh = String(eingabe).trim();
+  if (LGS_KEINE.test(roh)) return { art: soll.art === "keine" ? "geloest" : "falsch", bekannt };
+  if (LGS_ALLE.test(roh)) return { art: soll.art === "unendlich" ? "geloest" : "falsch", bekannt };
+  // (3|1), (3; 1), L = {(3|1)}
+  const paar = roh.replace(/\s+/g, "").match(/^(?:l=)?\{?\(([^|;]+)[|;]([^|;)]+)\)\}?$/i);
+  if (paar) {
+    const x = zahlwert(paar[1]), y = zahlwert(paar[2]);
+    if (x === null || y === null) return { art: "unklar", bekannt };
+    if (soll.art !== "eine") return { art: "falsch", bekannt };
+    return { art: nahe(x, soll.x) && nahe(y, soll.y) ? "geloest" : "falsch", bekannt, paar: { x, y } };
+  }
+  // mehrere Gleichungen in einer Zeile: „x = 3, y = 1“ oder „x = 3; y = 1“ oder „x = 3 und y = 1“
+  const teile = roh.split(/\s*(?:;|,(?!\d)|\bund\b)\s*/).filter(Boolean);
+  const neu = { ...bekannt };
+  const gefunden = {};
+  let schritt = false, falsch = false;
+  for (const teil of teile) {
+    const g = versuche(teil);
+    if (!g || !g.gleichung) return { art: "unklar", bekannt };
+    const vars = new Set([...variablen(g.links), ...variablen(g.rechts)]);
+    if ([...vars].some((v) => v !== "x" && v !== "y") || !vars.size) return { art: "unklar", bekannt };
+    if (g.links.t === "var" && !variablen(g.rechts).size) gefunden[g.links.n] = werte(g.rechts);
+    if (soll.art !== "eine") { schritt = true; continue; }
+    let l, r;
+    try { l = werte(g.links, soll); r = werte(g.rechts, soll); } catch { return { art: "unklar", bekannt }; }
+    if (!nahe(l, r, 1e-9)) { falsch = true; continue; }
+    const allein = (s) => (s.t === "var" ? s.n : null);
+    const v = allein(g.links) && !variablen(g.rechts).size ? allein(g.links)
+      : allein(g.rechts) && !variablen(g.links).size ? allein(g.rechts) : null;
+    if (v) neu[v] = true; else schritt = true;
+  }
+  if (falsch) return { art: "falsch", bekannt, paar: "x" in gefunden && "y" in gefunden ? gefunden : null };
+  if (soll.art === "eine" && neu.x && neu.y) return { art: "geloest", bekannt: neu };
+  if (soll.art === "eine" && (neu.x || neu.y) && !schritt) return { art: "teil", bekannt: neu };
+  return { art: "schritt", bekannt: neu };
+}
+
 // ── Ungleichungen ────────────────────────────────────────
 // Lösungsmenge als {art: "gt"|"lt"|"alle"|"keine", b?, strikt?}: x > b (gt) bzw. x < b (lt)
 

@@ -115,10 +115,10 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| B4.1 ★ | Einsetzungs- und Gleichsetzungsverfahren | AG 2.5 |  |
-| B4.2 ★ | Additionsverfahren (Eliminationsverfahren) | AG 2.5 |  |
-| B4.3 ★ | Lösungsfälle: eine, keine, unendlich viele Lösungen – geometrisch (zwei Geraden) | AG 2.5 |  |
-| B4.4 ★ | Gleichungssysteme aus Text aufstellen | AG 2.5 |  |
+| B4.1 ★ | Einsetzen und Gleichsetzen | AG 2.5 | ✓ 32 |
+| B4.2 ★ | Additionsverfahren | AG 2.5 | ✓ 32 |
+| B4.3 ★ | Lösungsfälle | AG 2.5 | ✓ 32 |
+| B4.4 ★ | Gleichungssysteme aus Text | AG 2.5 | ✓ 24 |
 
 ### B5 Quadratische Gleichungen
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 44.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 48.

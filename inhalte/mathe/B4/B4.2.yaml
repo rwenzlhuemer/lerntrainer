@@ -1,0 +1,22 @@
+id: B4.2
+titel: Additionsverfahren
+ziel: Du löst Gleichungssysteme, indem du eine Variable durch Addieren der Gleichungen eliminierst.
+erklaerung: |
+  Beim **Additionsverfahren** addierst du die beiden Gleichungen so, dass eine Variable wegfällt.
+
+  Das klappt, wenn vor y (oder x) Zahlen mit **gleichem Betrag und verschiedenem Vorzeichen** stehen,
+  z. B. `+2y` und `-2y`. Sonst multiplizierst du vorher eine oder beide Gleichungen passend.
+
+  Beispiel: Vor y stehen 3 und 2. Multipliziere I mit 2 und II mit -3: dann stehen `6y` und `-6y` da.
+
+  Wichtig: Beim Multiplizieren **jedes** Glied der Gleichung multiplizieren – auch die Zahl rechts.
+beispiel:
+  gleichungen: ["x + 2y = 8", "x - 2y = -4"]
+  loesung: {x: "2", y: "3"}
+  text: |
+    I: `x + 2y = 8`, II: `x - 2y = -4`. Vor y stehen schon +2 und -2 – einfach addieren.
+  weg:
+    - "2x = 4 | I + II, y fällt weg"
+    - "x = 2 | :2"
+    - "2 + 2y = 8 | x in I einsetzen"
+    - "y = 3"

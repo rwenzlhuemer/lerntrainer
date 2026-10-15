@@ -302,6 +302,14 @@ async function main() {
   pruefe((await rm()).startsWith("rueckmeldung gut"), `B3.1: ${un.loesung} gelöst`);
   await bild("09h-ungleichung");
 
+  // B4.2 Gleichungssystem: erst x, dann y in einer neuen Zeile
+  const sy = await naechsteBis("B4.2", (x) => x.typ === "lgs");
+  await tippe(`x = ${sy.loesung.x}`);
+  pruefe((await rm()).includes("fehlt noch"), `B4.2: x = ${sy.loesung.x} als Teilergebnis erkannt`);
+  await tippe(`y = ${sy.loesung.y}`);
+  pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `B4.2: dann y = ${sy.loesung.y} – gelöst`);
+  await bild("09i-lgs");
+
   // Lösung zeigen
   await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");

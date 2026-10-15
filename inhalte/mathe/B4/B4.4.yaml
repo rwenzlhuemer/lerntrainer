@@ -1,0 +1,22 @@
+id: B4.4
+titel: Gleichungssysteme aus Text
+ziel: Du stellst aus einem Text zwei Gleichungen auf und löst das System.
+erklaerung: |
+  Bei Textaufgaben mit **zwei** Unbekannten brauchst du **zwei** Gleichungen – meistens gibt der Text genau
+  zwei Informationen.
+
+  So gehst du vor:
+  1. Was ist x, was ist y? (Steht meistens in der Aufgabe.)
+  2. Jeden Satz mit Zahlen in eine Gleichung übersetzen.
+  3. Lösen – mit dem Verfahren, das dir am liebsten ist.
+  4. Probe am Text: Passen die Zahlen zur Geschichte?
+beispiel:
+  gleichungen: ["x + y = 10", "2x + 4y = 28"]
+  loesung: {x: "6", y: "4"}
+  text: |
+    „Hühner und Kaninchen haben zusammen 10 Köpfe und 28 Beine.“ x = Hühner, y = Kaninchen.
+    Köpfe: `x + y = 10`. Beine: Hühner haben 2, Kaninchen 4: `2x + 4y = 28`.
+  weg:
+    - "2x + 2y = 20 | I · 2"
+    - "2y = 8 | II − 2·I"
+    - "y = 4, x = 6 | 6 Hühner, 4 Kaninchen"

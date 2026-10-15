@@ -282,11 +282,16 @@ async function seiteUeben(lid, testModus) {
     const istTerm = a.typ === "term";
     const istFormel = a.typ === "formel";
     const istUngl = a.typ === "ungleichung";
+    const istLgs = a.typ === "lgs";
     const kopf = test ? `Prüfaufgabe ${test.nr} von 3` : `${STUFE_NAME[stufe]} · Stufe ${stufe} von ${S.HOECHSTE_STUFE}`;
     let koerper;
     if (istGl) {
       koerper = `<p class="anweisung">Löse die Gleichung.</p>
         <div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>
+        <ol class="zeilen" id="zeilen"></ol>`;
+    } else if (istLgs) {
+      koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">Löse das Gleichungssystem.</p>`}
+        <div class="gleichung-gross lgs">${a.gleichungen.map((g, i) => `<div><span class="lgs-nr">${["I", "II"][i]}</span> ${M.matheHTML(g)}</div>`).join("")}</div>
         <ol class="zeilen" id="zeilen"></ol>`;
     } else if (istUngl) {
       koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">${a.form === "intervall"
@@ -304,7 +309,7 @@ async function seiteUeben(lid, testModus) {
     } else {
       koerper = `<div class="frage">${M.textHTML(a.frage)}</div>`;
     }
-    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istUngl ? (a.form === "intervall" ? "z. B. ]−∞; 3[" : "z. B. x < 3") : istFormel ? `nächste Zeile, z. B. ${a.nach} = …` : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
+    const platzhalter = istGl ? "nächste Zeile, z. B. 3x = 15" : istLgs ? "z. B. x = 3, y = 1" : istUngl ? (a.form === "intervall" ? "z. B. ]−∞; 3[" : "z. B. x < 3") : istFormel ? `nächste Zeile, z. B. ${a.nach} = …` : istTerm ? "z. B. 3x + 6" : a.form ? "z. B. 3/4" : "Antwort";
     const eingabe = a.typ === "auswahl"
       ? `<div class="optionen">${a.optionen.map((o, i) => `<button class="knopf option" data-i="${i}">${a.mathe ? M.matheHTML(o) : esc(o)}</button>`).join("")}</div>`
       : `<form class="eingabe" id="form" autocomplete="off">
@@ -314,6 +319,7 @@ async function seiteUeben(lid, testModus) {
          </form>
          <div class="vorschau" id="vorschau" aria-hidden="true"></div>
          ${istGl ? `<p class="leise klein-text eingabe-hinweis">Schreib Zeile für Zeile – oder gleich das Ergebnis, z. B. x = 4.</p>` : ""}
+         ${istLgs ? `<p class="leise klein-text eingabe-hinweis">Zwischenschritte sind erlaubt. Am Ende z. B. „x = 3, y = 1“ – oder „keine“ bzw. „unendlich viele“.</p>` : ""}
          ${istTerm || istFormel || istUngl ? `<p class="leise klein-text eingabe-hinweis">Du kannst Zwischenschritte schreiben – jede Zeile wird geprüft.</p>` : ""}
          ${a.form === "gekuerzt" && !istTerm ? `<p class="leise klein-text eingabe-hinweis">Ergebnis als gekürzter Bruch (oder ganze Zahl), z. B. 3/4.</p>` : ""}
          ${a.einheit ? `<p class="leise klein-text eingabe-hinweis">Antwort in ${esc(a.einheit)}</p>` : ""}`;
@@ -340,7 +346,8 @@ async function seiteUeben(lid, testModus) {
     const feld = ort.querySelector("#feld");
     const symbole = haupt.querySelector("#symbole");
     symbole.hidden = !feld;
-    const zeichen = istUngl ? ["x", "<", ">", "≤", "≥", "(", ")", "−", "/", ",", ...(a.form === "intervall" ? ["]", "[", ";", "∞"] : [])]
+    const zeichen = istLgs ? ["x", "y", "=", "(", ")", "|", "·", "/", "+", "−", ",", ";"]
+      : istUngl ? ["x", "<", ">", "≤", "≥", "(", ")", "−", "/", ",", ...(a.form === "intervall" ? ["]", "[", ";", "∞"] : [])]
       : istFormel ? [...[...M.variablen(M.lies(a.formel).links), ...M.variablen(M.lies(a.formel).rechts)]].filter((v, i, l) => l.indexOf(v) === i).sort().concat(["=", "²", "√", "(", ")", "·", "/", "+", "−"])
       : istTerm ? [...[...M.variablen(M.lies(a.loesung).term)].sort(), "²", "^", "(", ")", "·", "/", "+", "−", ","]
       : a.form === "gleitkomma" ? ["·", "10", "^", "−", ","] : a.typ === "zahl" ? ["/", "−", ",", "(", ")", "^"] : SYMBOLE;
@@ -428,7 +435,7 @@ async function seiteUeben(lid, testModus) {
       if (zustand.fertig) return;
       zustand.gezeigt = true;
       const loesung = a.typ === "auswahl" ? esc(a.optionen[a.richtig[0]]) :
-        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : istUngl ? ungleichungLoesung() : istFormel ? M.matheHTML(`${a.nach} = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
+        a.typ === "gleichung" ? M.matheHTML(`x = ${a.loesung}`) : istLgs ? lgsLoesung() : istUngl ? ungleichungLoesung() : istFormel ? M.matheHTML(`${a.nach} = ${a.loesung}`) : M.matheHTML(a.loesung) + (a.einheit ? " " + esc(a.einheit) : "");
       abschliessen("gezeigt", `<p><strong>Lösung:</strong> ${loesung}</p>${wegHTML()}
         ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
         <p class="mut">Anschauen ist auch lernen. Geh die Schritte in Ruhe durch – bei der nächsten Aufgabe probierst du es selbst.</p>`);
@@ -466,8 +473,50 @@ async function seiteUeben(lid, testModus) {
       else if (istTerm) pruefeTerm(roh);
       else if (istFormel) pruefeFormel(roh);
       else if (istUngl) pruefeUngleichung(roh);
+      else if (istLgs) pruefeLgs(roh);
       else pruefeAntwort(roh);
     });
+
+    function lgsLoesung() {
+      if (a.loesung === "keine") return "keine Lösung – die Geraden sind parallel. L = { }";
+      if (a.loesung === "unendlich") return "unendlich viele Lösungen – beide Gleichungen beschreiben dieselbe Gerade.";
+      return `${M.matheHTML(`x = ${a.loesung.x}`)}, ${M.matheHTML(`y = ${a.loesung.y}`)}`;
+    }
+
+    function pruefeLgs(roh) {
+      const r = M.pruefeLgsZeile(roh, a, zustand.bekannt || {});
+      zustand.bekannt = r.bekannt;
+      const neueZeile = () => {
+        const html = roh.split(/\s*(?:;|,(?!\d)|\bund\b)\s*/).map((t) => M.matheHTML(t)).join(", ");
+        ort.querySelector("#zeilen").insertAdjacentHTML("beforeend",
+          `<li class="zeile ok">${html}<span class="haken" aria-label="richtig">✓</span></li>`);
+        feld.value = "";
+        ort.querySelector("#vorschau").innerHTML = "";
+      };
+      if (r.art === "geloest") {
+        neueZeile();
+        abschliessen(ergebnisArt(), `<p><strong>${zufall(LOB)}</strong> Lösung: ${lgsLoesung()}</p>
+          ${a.erklaerung ? M.textHTML(a.erklaerung) : ""}
+          ${a.weg?.length ? `<details class="weg-details"><summary>Musterlösung ansehen</summary>${wegHTML()}</details>` : ""}
+          <p class="mut">${zufall(MUT)}</p>`);
+      } else if (r.art === "teil") {
+        neueZeile();
+        const fehlt = r.bekannt.x ? "y" : "x";
+        melde("gut", `<p>✓ Stimmt! Jetzt fehlt noch <span class="mathe"><i>${fehlt}</i></span>: Setz den Wert in eine der beiden Gleichungen ein.</p>`);
+        feld.focus();
+      } else if (r.art === "schritt") {
+        neueZeile();
+        melde("gut", `<p>✓ Diese Gleichung stimmt. Weiter so!</p>`);
+        feld.focus();
+      } else if (r.art === "falsch") {
+        zustand.fehlversuche++;
+        const f = r.paar ? (a.fehler || []).find((x) => Math.abs(M.zahlwert(String(x.x)) - r.paar.x) < 1e-9 && Math.abs(M.zahlwert(String(x.y)) - r.paar.y) < 1e-9) : null;
+        const text = f ? M.textHTML(f.hinweis) : `<p>Das passt noch nicht. Mach die Probe: Setz deine Werte in <strong>beide</strong> Gleichungen ein – beide müssen stimmen.</p>`;
+        melde("falsch", `${text}<p class="mut">${zufall(TROST)}</p>`);
+      } else {
+        melde("neutral", `<p>Das kann ich leider nicht lesen. Schreib zum Beispiel <span class="mathe"><i>x</i> = 3, <i>y</i> = 1</span>.</p>`);
+      }
+    }
 
     function ungleichungLoesung() {
       return `${M.ungleichungHTML(a.loesung)} &nbsp;bzw.&nbsp; <span class="mathe">${esc(M.intervallText(M.ungleichungsMenge(a.loesung).menge))}</span>`;

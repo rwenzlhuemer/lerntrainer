@@ -1,0 +1,22 @@
+id: B4.3
+titel: Lösungsfälle
+ziel: Du erkennst, ob ein Gleichungssystem eine, keine oder unendlich viele Lösungen hat – und was das geometrisch bedeutet.
+erklaerung: |
+  Jede lineare Gleichung mit x und y beschreibt eine **Gerade**. Die Lösung des Systems ist der Schnittpunkt.
+
+  Drei Fälle sind möglich:
+  - **genau eine Lösung** – die Geraden schneiden sich in einem Punkt
+  - **keine Lösung** – die Geraden sind **parallel**. Beim Rechnen bleibt ein Widerspruch wie `0 = 5`.
+  - **unendlich viele Lösungen** – beide Gleichungen beschreiben **dieselbe** Gerade. Beim Rechnen bleibt `0 = 0`.
+
+  Schneller Blick: Ist die linke Seite der einen Gleichung ein Vielfaches der anderen? Dann sind die Geraden parallel
+  oder gleich – die rechte Seite entscheidet.
+beispiel:
+  gleichungen: ["x + 2y = 3", "2x + 4y = 10"]
+  loesung: keine
+  text: |
+    I: `x + 2y = 3`, II: `2x + 4y = 10`. Links ist II genau das Doppelte von I, rechts aber nicht (2 · 3 = 6 ≠ 10).
+    Also parallele Geraden: keine Lösung.
+  weg:
+    - "2x + 4y = 6 | I · 2"
+    - "0 = 4 | II − 2·I: Widerspruch"
