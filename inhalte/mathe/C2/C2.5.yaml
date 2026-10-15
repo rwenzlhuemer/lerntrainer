@@ -1,0 +1,18 @@
+id: C2.5
+titel: Änderung und Differenzenquotient
+ziel: Du nutzt, dass sich eine lineare Funktion pro Schritt immer gleich ändert, und berechnest mittlere Änderungsraten.
+erklaerung: |
+  Bei einer linearen Funktion gilt: Wird x um 1 größer, ändert sich f(x) um **k**.
+  `f(x + 1) = f(x) + k`. Wird x um 3 größer, ändert sich f(x) um 3·k.
+
+  Umgekehrt bekommst du k aus zwei Werten:
+  `k = (f(b) - f(a)) : (b - a)` – das heißt **Differenzenquotient**.
+
+  Bei anderen Funktionen (z. B. quadratischen) ist der Differenzenquotient nicht überall gleich.
+  Er heißt dann **mittlere Änderungsrate** im Intervall [a; b].
+beispiel:
+  wert: "16"
+  text: |
+    f ist linear, k = 3 und f(2) = 7. Von x = 2 bis x = 5 sind es 3 Schritte, also kommt 3 · 3 dazu.
+  weg:
+    - "7 + 3·3 = 16"

@@ -1,0 +1,18 @@
+id: C1.4
+titel: Graphen im Kontext lesen
+ziel: Du liest Werte und Änderungen aus Graphen zu Alltagssituationen ab.
+erklaerung: |
+  Bei Sachgraphen stehen an den Achsen **Größen mit Einheiten**, z. B. „t in h“ (Zeit in Stunden)
+  und „T in °C“ (Temperatur). Lies immer zuerst die Achsenbeschriftung!
+
+  - Einen **Wert ablesen**: auf der waagrechten Achse zur Stelle, senkrecht zum Graphen, waagrecht zur Achse.
+  - Eine **Änderung** zwischen zwei Zeitpunkten: späterer Wert minus früherer Wert. Negativ heißt: Abnahme.
+
+  Achte auf die **Skalierung**: Ein Kästchen kann 1, 2, 5 oder 10 Einheiten bedeuten.
+beispiel:
+  wert: "11"
+  text: |
+    Die Pflanze ist zu Beginn 2 cm hoch und wächst pro Woche 3 cm. Nach 3 Wochen: 11 cm.
+  graph: {x: [0, 8], y: [0, 28], kurven: [{term: "3x + 2"}], achsen: {x: "t in Wochen", y: "h in cm"}, schritt: [1, 2], punkte: [{x: 3, y: 11}]}
+  weg:
+    - "3 · 3 + 2 = 11"

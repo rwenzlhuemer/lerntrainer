@@ -1,0 +1,18 @@
+id: C1.2
+titel: Wertetabelle und Graph
+ziel: Du berechnest Werte für eine Wertetabelle und liest Funktionswerte am Graphen ab.
+erklaerung: |
+  Eine **Wertetabelle** sammelt zusammengehörige Paare: oben x, unten f(x).
+  Für jeden Eintrag setzt du den x-Wert in die Funktionsgleichung ein.
+
+  Jedes Paar ist ein **Punkt** im Koordinatensystem. Verbindest du die Punkte, entsteht der **Graph**.
+
+  **Ablesen am Graphen:** Geh auf der x-Achse zur gewünschten Stelle, senkrecht hinauf (oder hinunter)
+  bis zum Graphen, dann waagrecht zur y-Achse.
+beispiel:
+  wert: "3"
+  text: |
+    `f(x) = x² - 1`. Bei x = 2: `f(2) = 2² - 1 = 3`. Der Punkt (2|3) liegt auf dem Graphen.
+  graph: {x: [-4, 4], y: [-2, 8], kurven: [{term: "x² - 1", name: "f"}], punkte: [{x: 2, y: 3, name: "(2|3)"}]}
+  weg:
+    - "2^2 - 1 = 4 - 1 = 3"

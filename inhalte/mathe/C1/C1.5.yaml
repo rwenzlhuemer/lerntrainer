@@ -1,0 +1,18 @@
+id: C1.5
+titel: "Schreibweise f: x ↦ f(x)"
+ziel: Du verstehst die Schreibweisen für Funktionen.
+erklaerung: |
+  Dieselbe Funktion kann man verschieden aufschreiben:
+
+  - `f(x) = 2x + 1`
+  - `f: x ↦ 2x + 1` (sprich: „f ordnet x den Wert 2x + 1 zu“)
+  - `y = 2x + 1`
+  - `f: ℝ → ℝ` sagt zusätzlich: Man darf jede reelle Zahl einsetzen, und es kommen reelle Zahlen heraus.
+
+  Gerechnet wird immer gleich: Für x die Zahl einsetzen.
+beispiel:
+  wert: "7"
+  text: |
+    `g: x ↦ x² - 2`, gesucht `g(3)`: `3² - 2 = 7`.
+  weg:
+    - "3^2 - 2 = 7"

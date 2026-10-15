@@ -1,0 +1,13 @@
+id: C2.4
+titel: Wirkung von k und d
+ziel: Du weißt, wie k und d den Verlauf einer Geraden bestimmen.
+erklaerung: |
+  - **k > 0:** die Gerade **steigt** (von links nach rechts). **k < 0:** sie **fällt**. **k = 0:** waagrecht.
+  - Je größer der **Betrag** von k, desto **steiler**: -4 ist steiler als 3, 0,5 ist flacher als 2.
+  - **d** verschiebt die Gerade nach oben oder unten – d ist die Höhe beim Schnitt mit der y-Achse.
+
+  Geraden mit gleichem k sind **parallel**.
+beispiel:
+  text: |
+    f steigt steil (k = 2), g fällt flach (k = -0,5), h ist parallel zu f, aber nach unten verschoben (d = -3).
+  graph: {x: [-5, 5], y: [-7, 7], kurven: [{term: "2x + 1", name: "f"}, {term: "-0,5x + 2", name: "g"}, {term: "2x - 3", name: "h"}]}

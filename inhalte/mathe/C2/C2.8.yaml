@@ -1,0 +1,18 @@
+id: C2.8
+titel: Ist ein lineares Modell angemessen?
+ziel: Du prüfst an einer Tabelle, ob ein linearer Zusammenhang vorliegt.
+erklaerung: |
+  Ein Zusammenhang ist **linear**, wenn y pro Einheit von x immer um **gleich viel** zunimmt (oder abnimmt).
+
+  Prüfen an der Tabelle: Berechne für jeden Schritt `(Änderung von y) : (Änderung von x)`.
+  Kommt immer dieselbe Zahl heraus, ist es linear – diese Zahl ist k.
+
+  Vorsicht, wenn die x-Schritte verschieden groß sind: Dann musst du wirklich dividieren,
+  die Änderungen von y allein reichen nicht.
+beispiel:
+  wert: "3"
+  text: |
+    x: 0, 1, 2, 3 – y: 2, 5, 8, 11. Pro Schritt jeweils +3: linear mit k = 3.
+  tabelle: {kopf: ["x", "y"], zeilen: [["0", "2"], ["1", "5"], ["2", "8"], ["3", "11"]]}
+  weg:
+    - "(11 - 2) : (3 - 0) = 3"

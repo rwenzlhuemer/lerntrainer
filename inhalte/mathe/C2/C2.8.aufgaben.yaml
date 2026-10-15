@@ -1,0 +1,962 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C2.8-001
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '26'
+    - - '1'
+      - '36'
+    - - '2'
+      - '46'
+    - - '3'
+      - '56'
+    - - '4'
+      - '66'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-002
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '9'
+    - - '1'
+      - '5'
+    - - '2'
+      - '1'
+    - - '3'
+      - '-3'
+    - - '4'
+      - '-7'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-003
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '18'
+    - - '1'
+      - '19'
+    - - '2'
+      - '22'
+    - - '3'
+      - '27'
+    - - '4'
+      - '34'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-004
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '27'
+    - - '1'
+      - '54'
+    - - '2'
+      - '108'
+    - - '3'
+      - '216'
+    - - '4'
+      - '432'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-005
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '8'
+    - - '1'
+      - '2'
+    - - '2'
+      - '-4'
+    - - '3'
+      - '-10'
+    - - '4'
+      - '-16'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-006
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '21'
+    - - '1'
+      - '24'
+    - - '2'
+      - '27'
+    - - '3'
+      - '30'
+    - - '4'
+      - '33'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-007
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '0'
+    - - '1'
+      - '11'
+    - - '2'
+      - '22'
+    - - '3'
+      - '33'
+    - - '4'
+      - '44'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-008
+  typ: auswahl
+  stufe: 1
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '22'
+    - - '1'
+      - '23'
+    - - '2'
+      - '26'
+    - - '3'
+      - '31'
+    - - '4'
+      - '38'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-009
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '29'
+    - - '1'
+      - '30'
+    - - '2'
+      - '33'
+    - - '3'
+      - '38'
+    - - '4'
+      - '45'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-010
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '16'
+    - - '1'
+      - '8'
+    - - '2'
+      - '0'
+    - - '3'
+      - '-8'
+    - - '4'
+      - '-16'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-011
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '16'
+    - - '1'
+      - '8'
+    - - '2'
+      - '4'
+    - - '3'
+      - '2'
+    - - '4'
+      - '1'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-012
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '28'
+    - - '1'
+      - '29'
+    - - '2'
+      - '30'
+    - - '3'
+      - '31'
+    - - '4'
+      - '32'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-013
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '30'
+    - - '1'
+      - '25'
+    - - '2'
+      - '20'
+    - - '3'
+      - '15'
+    - - '4'
+      - '10'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-014
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '0'
+    - - '1'
+      - '3'
+    - - '2'
+      - '6'
+    - - '3'
+      - '9'
+    - - '4'
+      - '12'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-015
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '16'
+    - - '1'
+      - '17'
+    - - '2'
+      - '20'
+    - - '3'
+      - '25'
+    - - '4'
+      - '32'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-016
+  typ: auswahl
+  stufe: 2
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '21'
+    - - '1'
+      - '17'
+    - - '2'
+      - '13'
+    - - '3'
+      - '9'
+    - - '4'
+      - '5'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - Ist das immer dieselbe Zahl, ist es linear.
+- id: C2.8-017
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '4'
+    - - '1'
+      - '5'
+    - - '3'
+      - '13'
+    - - '6'
+      - '40'
+    - - '8'
+      - '68'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-018
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '2'
+    - - '2'
+      - '6'
+    - - '4'
+      - '18'
+    - - '6'
+      - '38'
+    - - '10'
+      - '102'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-019
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '16'
+    - - '1'
+      - '15'
+    - - '2'
+      - '14'
+    - - '4'
+      - '12'
+    - - '11'
+      - '5'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-020
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '2'
+      - '18'
+    - - '3'
+      - '19'
+    - - '5'
+      - '21'
+    - - '6'
+      - '22'
+    - - '9'
+      - '25'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-021
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '3'
+      - 30,5
+    - - '5'
+      - 31,5
+    - - '7'
+      - 32,5
+    - - '10'
+      - '34'
+    - - '11'
+      - 34,5
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-022
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '16'
+    - - '2'
+      - '21'
+    - - '4'
+      - '26'
+    - - '10'
+      - '41'
+    - - '11'
+      - 43,5
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-023
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '19'
+    - - '2'
+      - '29'
+    - - '5'
+      - '44'
+    - - '9'
+      - '64'
+    - - '10'
+      - '69'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-024
+  typ: auswahl
+  stufe: 3
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '15'
+    - - '4'
+      - '17'
+    - - '7'
+      - 18,5
+    - - '9'
+      - 19,5
+    - - '11'
+      - 20,5
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-025
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '1'
+      - '11'
+    - - '3'
+      - '7'
+    - - '9'
+      - '-5'
+    - - '10'
+      - '-7'
+    - - '11'
+      - '-9'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-026
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '4'
+      - '-3'
+    - - '5'
+      - -7,5
+    - - '6'
+      - '-12'
+    - - '7'
+      - -16,5
+    - - '10'
+      - '-30'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-027
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '2'
+      - '10'
+    - - '3'
+      - '6'
+    - - '5'
+      - '-2'
+    - - '7'
+      - '-10'
+    - - '10'
+      - '-22'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-028
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '3'
+      - '2'
+    - - '5'
+      - '0'
+    - - '6'
+      - '-1'
+    - - '10'
+      - '-5'
+    - - '11'
+      - '-6'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-029
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 1
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '9'
+    - - '2'
+      - '13'
+    - - '3'
+      - '18'
+    - - '4'
+      - '25'
+    - - '5'
+      - '34'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Die Änderungen von y pro Einheit von x sind **nicht** gleich – kein lineares Modell.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-030
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '1'
+      - '-2'
+    - - '3'
+      - '-6'
+    - - '6'
+      - '-12'
+    - - '9'
+      - '-18'
+    - - '10'
+      - '-20'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-031
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '3'
+    - - '1'
+      - '6'
+    - - '2'
+      - '9'
+    - - '6'
+      - '21'
+    - - '8'
+      - '27'
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'
+- id: C2.8-032
+  typ: auswahl
+  stufe: 4
+  frage: Passt ein **lineares** Modell `y = k·x + d` genau zu dieser Tabelle?
+  optionen:
+  - Ja, linear.
+  - Nein, nicht linear.
+  richtig:
+  - 0
+  tabelle:
+    kopf:
+    - x
+    - y
+    zeilen:
+    - - '0'
+      - '28'
+    - - '4'
+      - '18'
+    - - '6'
+      - '13'
+    - - '7'
+      - 10,5
+    - - '9'
+      - 5,5
+  pruefung:
+    art: linear_tabelle
+  erklaerung: Bei gleichen Schritten in x ändert sich y immer um gleich viel (pro Einheit um k) – linear.
+  tipps:
+  - 'Berechne für jeden Schritt: (Änderung von y) : (Änderung von x).'
+  - 'Ist das immer dieselbe Zahl, ist es linear. Achtung: Die x-Schritte sind nicht alle gleich groß!'

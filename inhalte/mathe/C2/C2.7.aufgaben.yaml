@@ -1,0 +1,898 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C2.7-001
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x - 7` und `g(x) = 2x - 4`.
+  gleichungen:
+  - y = 3x - 7
+  - y = 2x - 4
+  loesung:
+    x: '3'
+    y: '2'
+  weg:
+  - 3x - 7 = 2x - 4 | gleichsetzen
+  - x = 3
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-002
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -3x - 3` und `g(x) = x - 3`.
+  gleichungen:
+  - y = -3x - 3
+  - y = x - 3
+  loesung:
+    x: '0'
+    y: '-3'
+  weg:
+  - -3x - 3 = x - 3 | gleichsetzen
+  - x = 0
+  - y = -3 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-003
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -x - 7` und `g(x) = 2x + 2`.
+  gleichungen:
+  - y = -x - 7
+  - y = 2x + 2
+  loesung:
+    x: '-3'
+    y: '-4'
+  weg:
+  - -x - 7 = 2x + 2 | gleichsetzen
+  - x = -3
+  - y = -4 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-004
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -2x + 8` und `g(x) = 2x - 8`.
+  gleichungen:
+  - y = -2x + 8
+  - y = 2x - 8
+  loesung:
+    x: '4'
+    y: '0'
+  weg:
+  - -2x + 8 = 2x - 8 | gleichsetzen
+  - x = 4
+  - y = 0 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-005
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x + 8` und `g(x) = -3x - 10`.
+  gleichungen:
+  - y = 3x + 8
+  - y = -3x - 10
+  loesung:
+    x: '-3'
+    y: '-1'
+  weg:
+  - 3x + 8 = -3x - 10 | gleichsetzen
+  - x = -3
+  - y = -1 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-006
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -2x - 8` und `g(x) = x + 4`.
+  gleichungen:
+  - y = -2x - 8
+  - y = x + 4
+  loesung:
+    x: '-4'
+    y: '0'
+  weg:
+  - -2x - 8 = x + 4 | gleichsetzen
+  - x = -4
+  - y = 0 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-007
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = x - 1` und `g(x) = -x - 5`.
+  gleichungen:
+  - y = x - 1
+  - y = -x - 5
+  loesung:
+    x: '-2'
+    y: '-3'
+  weg:
+  - x - 1 = -x - 5 | gleichsetzen
+  - x = -2
+  - y = -3 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-008
+  typ: lgs
+  stufe: 1
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = x + 1` und `g(x) = -x + 7`.
+  gleichungen:
+  - y = x + 1
+  - y = -x + 7
+  loesung:
+    x: '3'
+    y: '4'
+  weg:
+  - x + 1 = -x + 7 | gleichsetzen
+  - x = 3
+  - y = 4 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+- id: C2.7-009
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -x - 5` und `g(x) = 3x + 11`.
+  gleichungen:
+  - y = -x - 5
+  - y = 3x + 11
+  loesung:
+    x: '-4'
+    y: '-1'
+  weg:
+  - -x - 5 = 3x + 11 | gleichsetzen
+  - x = -4
+  - y = -1 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x - 5
+      name: f
+    - term: 3x + 11
+      name: g
+- id: C2.7-010
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -x - 3` und `g(x) = 2x - 9`.
+  gleichungen:
+  - y = -x - 3
+  - y = 2x - 9
+  loesung:
+    x: '2'
+    y: '-5'
+  weg:
+  - -x - 3 = 2x - 9 | gleichsetzen
+  - x = 2
+  - y = -5 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x - 3
+      name: f
+    - term: 2x - 9
+      name: g
+- id: C2.7-011
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = x + 3` und `g(x) = -2x - 6`.
+  gleichungen:
+  - y = x + 3
+  - y = -2x - 6
+  loesung:
+    x: '-3'
+    y: '0'
+  weg:
+  - x + 3 = -2x - 6 | gleichsetzen
+  - x = -3
+  - y = 0 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x + 3
+      name: f
+    - term: -2x - 6
+      name: g
+- id: C2.7-012
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -3x + 2` und `g(x) = x + 2`.
+  gleichungen:
+  - y = -3x + 2
+  - y = x + 2
+  loesung:
+    x: '0'
+    y: '2'
+  weg:
+  - -3x + 2 = x + 2 | gleichsetzen
+  - x = 0
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -3x + 2
+      name: f
+    - term: x + 2
+      name: g
+- id: C2.7-013
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x + 3` und `g(x) = -2x - 2`.
+  gleichungen:
+  - y = 3x + 3
+  - y = -2x - 2
+  loesung:
+    x: '-1'
+    y: '0'
+  weg:
+  - 3x + 3 = -2x - 2 | gleichsetzen
+  - x = -1
+  - y = 0 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x + 3
+      name: f
+    - term: -2x - 2
+      name: g
+- id: C2.7-014
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 2x - 6` und `g(x) = -x + 6`.
+  gleichungen:
+  - y = 2x - 6
+  - y = -x + 6
+  loesung:
+    x: '4'
+    y: '2'
+  weg:
+  - 2x - 6 = -x + 6 | gleichsetzen
+  - x = 4
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x - 6
+      name: f
+    - term: -x + 6
+      name: g
+- id: C2.7-015
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 2x - 3` und `g(x) = x - 4`.
+  gleichungen:
+  - y = 2x - 3
+  - y = x - 4
+  loesung:
+    x: '-1'
+    y: '-5'
+  weg:
+  - 2x - 3 = x - 4 | gleichsetzen
+  - x = -1
+  - y = -5 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x - 3
+      name: f
+    - term: x - 4
+      name: g
+- id: C2.7-016
+  typ: lgs
+  stufe: 2
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -3x - 6` und `g(x) = -x - 4`.
+  gleichungen:
+  - y = -3x - 6
+  - y = -x - 4
+  loesung:
+    x: '-1'
+    y: '-3'
+  weg:
+  - -3x - 6 = -x - 4 | gleichsetzen
+  - x = -1
+  - y = -3 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -3x - 6
+      name: f
+    - term: -x - 4
+      name: g
+- id: C2.7-017
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 2x + 2` und `g(x) = -3x + 2`.
+  gleichungen:
+  - y = 2x + 2
+  - y = -3x + 2
+  loesung:
+    x: '0'
+    y: '2'
+  weg:
+  - 2x + 2 = -3x + 2 | gleichsetzen
+  - x = 0
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x + 2
+      name: f
+    - term: -3x + 2
+      name: g
+- id: C2.7-018
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x + 8` und `g(x) = -2x - 2`.
+  gleichungen:
+  - y = 3x + 8
+  - y = -2x - 2
+  loesung:
+    x: '-2'
+    y: '2'
+  weg:
+  - 3x + 8 = -2x - 2 | gleichsetzen
+  - x = -2
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x + 8
+      name: f
+    - term: -2x - 2
+      name: g
+- id: C2.7-019
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x - 17` und `g(x) = 2x - 13`.
+  gleichungen:
+  - y = 3x - 17
+  - y = 2x - 13
+  loesung:
+    x: '4'
+    y: '-5'
+  weg:
+  - 3x - 17 = 2x - 13 | gleichsetzen
+  - x = 4
+  - y = -5 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 17
+      name: f
+    - term: 2x - 13
+      name: g
+- id: C2.7-020
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -x` und `g(x) = 2x - 9`.
+  gleichungen:
+  - y = -x
+  - y = 2x - 9
+  loesung:
+    x: '3'
+    y: '-3'
+  weg:
+  - -x = 2x - 9 | gleichsetzen
+  - x = 3
+  - y = -3 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x
+      name: f
+    - term: 2x - 9
+      name: g
+- id: C2.7-021
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -2x - 4` und `g(x) = 3x - 4`.
+  gleichungen:
+  - y = -2x - 4
+  - y = 3x - 4
+  loesung:
+    x: '0'
+    y: '-4'
+  weg:
+  - -2x - 4 = 3x - 4 | gleichsetzen
+  - x = 0
+  - y = -4 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x - 4
+      name: f
+    - term: 3x - 4
+      name: g
+- id: C2.7-022
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = x - 5` und `g(x) = -2x + 4`.
+  gleichungen:
+  - y = x - 5
+  - y = -2x + 4
+  loesung:
+    x: '3'
+    y: '-2'
+  weg:
+  - x - 5 = -2x + 4 | gleichsetzen
+  - x = 3
+  - y = -2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x - 5
+      name: f
+    - term: -2x + 4
+      name: g
+- id: C2.7-023
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x - 10` und `g(x) = -3x + 2`.
+  gleichungen:
+  - y = 3x - 10
+  - y = -3x + 2
+  loesung:
+    x: '2'
+    y: '-4'
+  weg:
+  - 3x - 10 = -3x + 2 | gleichsetzen
+  - x = 2
+  - y = -4 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 10
+      name: f
+    - term: -3x + 2
+      name: g
+- id: C2.7-024
+  typ: lgs
+  stufe: 3
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = x - 6` und `g(x) = 3x - 14`.
+  gleichungen:
+  - y = x - 6
+  - y = 3x - 14
+  loesung:
+    x: '4'
+    y: '-2'
+  weg:
+  - x - 6 = 3x - 14 | gleichsetzen
+  - x = 4
+  - y = -2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x - 6
+      name: f
+    - term: 3x - 14
+      name: g
+- id: C2.7-025
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -3x - 8` und `g(x) = -2x - 5`.
+  gleichungen:
+  - y = -3x - 8
+  - y = -2x - 5
+  loesung:
+    x: '-3'
+    y: '1'
+  weg:
+  - -3x - 8 = -2x - 5 | gleichsetzen
+  - x = -3
+  - y = 1 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -3x - 8
+      name: f
+    - term: -2x - 5
+      name: g
+- id: C2.7-026
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 2x - 4` und `g(x) = -x + 2`.
+  gleichungen:
+  - y = 2x - 4
+  - y = -x + 2
+  loesung:
+    x: '2'
+    y: '0'
+  weg:
+  - 2x - 4 = -x + 2 | gleichsetzen
+  - x = 2
+  - y = 0 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x - 4
+      name: f
+    - term: -x + 2
+      name: g
+- id: C2.7-027
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -3x + 13` und `g(x) = -x + 5`.
+  gleichungen:
+  - y = -3x + 13
+  - y = -x + 5
+  loesung:
+    x: '4'
+    y: '1'
+  weg:
+  - -3x + 13 = -x + 5 | gleichsetzen
+  - x = 4
+  - y = 1 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -3x + 13
+      name: f
+    - term: -x + 5
+      name: g
+- id: C2.7-028
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -x - 2` und `g(x) = -2x - 6`.
+  gleichungen:
+  - y = -x - 2
+  - y = -2x - 6
+  loesung:
+    x: '-4'
+    y: '2'
+  weg:
+  - -x - 2 = -2x - 6 | gleichsetzen
+  - x = -4
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x - 2
+      name: f
+    - term: -2x - 6
+      name: g
+- id: C2.7-029
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x + 11` und `g(x) = x + 7`.
+  gleichungen:
+  - y = 3x + 11
+  - y = x + 7
+  loesung:
+    x: '-2'
+    y: '5'
+  weg:
+  - 3x + 11 = x + 7 | gleichsetzen
+  - x = -2
+  - y = 5 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x + 11
+      name: f
+    - term: x + 7
+      name: g
+- id: C2.7-030
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = 3x - 4` und `g(x) = -3x + 8`.
+  gleichungen:
+  - y = 3x - 4
+  - y = -3x + 8
+  loesung:
+    x: '2'
+    y: '2'
+  weg:
+  - 3x - 4 = -3x + 8 | gleichsetzen
+  - x = 2
+  - y = 2 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 4
+      name: f
+    - term: -3x + 8
+      name: g
+- id: C2.7-031
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = -3x - 8` und `g(x) = 3x - 2`.
+  gleichungen:
+  - y = -3x - 8
+  - y = 3x - 2
+  loesung:
+    x: '-1'
+    y: '-5'
+  weg:
+  - -3x - 8 = 3x - 2 | gleichsetzen
+  - x = -1
+  - y = -5 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -3x - 8
+      name: f
+    - term: 3x - 2
+      name: g
+- id: C2.7-032
+  typ: lgs
+  stufe: 4
+  frage: Berechne den Schnittpunkt S der Geraden `f(x) = x - 1` und `g(x) = -x + 1`.
+  gleichungen:
+  - y = x - 1
+  - y = -x + 1
+  loesung:
+    x: '1'
+    y: '0'
+  weg:
+  - x - 1 = -x + 1 | gleichsetzen
+  - x = 1
+  - y = 0 | in f einsetzen
+  tipps:
+  - 'Im Schnittpunkt haben beide Funktionen denselben Wert: `f(x) = g(x)` – gleichsetzen!'
+  - Löse nach x. Dann x in f einsetzen, um y zu bekommen.
+  - Antwort z. B. als `x = 2, y = 3` oder `(2|3)`.
+  fehler: []
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x - 1
+      name: f
+    - term: -x + 1
+      name: g

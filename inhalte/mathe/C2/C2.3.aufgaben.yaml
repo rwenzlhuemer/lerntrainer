@@ -1,0 +1,560 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C2.3-001
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(2|6) und B(3|10). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 4x - 2
+  punkte:
+  - - '2'
+    - '6'
+  - - '3'
+    - '10'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 4.
+  fehler:
+  - antwort: 0,25x - 2
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-002
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(2|14) und B(4|22). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 4x + 6
+  punkte:
+  - - '2'
+    - '14'
+  - - '4'
+    - '22'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 4.
+  fehler:
+  - antwort: 0,25x + 6
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-003
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(1|4) und B(2|7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 3x + 1
+  punkte:
+  - - '1'
+    - '4'
+  - - '2'
+    - '7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 3.
+  fehler:
+  - antwort: x/3 + 1
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-004
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(3|0) und B(4|1). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: x - 3
+  punkte:
+  - - '3'
+    - '0'
+  - - '4'
+    - '1'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 1.
+  fehler: []
+- id: C2.3-005
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(1|-2) und B(4|7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 3x - 5
+  punkte:
+  - - '1'
+    - '-2'
+  - - '4'
+    - '7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 3.
+  fehler:
+  - antwort: x/3 - 5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-006
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(0|-1) und B(1|0). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: x - 1
+  punkte:
+  - - '0'
+    - '-1'
+  - - '1'
+    - '0'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 1.
+  fehler: []
+- id: C2.3-007
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(3|15) und B(6|24). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 3x + 6
+  punkte:
+  - - '3'
+    - '15'
+  - - '6'
+    - '24'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 3.
+  fehler:
+  - antwort: x/3 + 6
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-008
+  typ: term
+  stufe: 1
+  frage: 'Eine Gerade geht durch A(3|5) und B(4|7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 2x - 1
+  punkte:
+  - - '3'
+    - '5'
+  - - '4'
+    - '7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 2.
+  fehler:
+  - antwort: 0,5x - 1
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-009
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(3|-1) und B(4|-3). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -2x + 5
+  punkte:
+  - - '3'
+    - '-1'
+  - - '4'
+    - '-3'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -2.
+  fehler:
+  - antwort: -0,5x + 5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-010
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(4|9) und B(5|11). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 2x + 1
+  punkte:
+  - - '4'
+    - '9'
+  - - '5'
+    - '11'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 2.
+  fehler:
+  - antwort: 0,5x + 1
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-011
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(-4|-9) und B(-2|-7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: x - 5
+  punkte:
+  - - '-4'
+    - '-9'
+  - - '-2'
+    - '-7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 1.
+  fehler: []
+- id: C2.3-012
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(2|4) und B(3|8). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 4x - 4
+  punkte:
+  - - '2'
+    - '4'
+  - - '3'
+    - '8'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 4.
+  fehler:
+  - antwort: 0,25x - 4
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-013
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(-3|8) und B(-1|6). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -x + 5
+  punkte:
+  - - '-3'
+    - '8'
+  - - '-1'
+    - '6'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -1.
+  fehler: []
+- id: C2.3-014
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(-2|-11) und B(-1|-7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 4x - 3
+  punkte:
+  - - '-2'
+    - '-11'
+  - - '-1'
+    - '-7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 4.
+  fehler:
+  - antwort: 0,25x - 3
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-015
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(2|-10) und B(3|-13). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -3x - 4
+  punkte:
+  - - '2'
+    - '-10'
+  - - '3'
+    - '-13'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -3.
+  fehler:
+  - antwort: -x/3 - 4
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-016
+  typ: term
+  stufe: 2
+  frage: 'Eine Gerade geht durch A(-4|13) und B(-1|7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -2x + 5
+  punkte:
+  - - '-4'
+    - '13'
+  - - '-1'
+    - '7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -2.
+  fehler:
+  - antwort: -0,5x + 5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-017
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(4|17) und B(7|29). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 4x + 1
+  punkte:
+  - - '4'
+    - '17'
+  - - '7'
+    - '29'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 4.
+  fehler:
+  - antwort: 0,25x + 1
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-018
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(4|7) und B(6|9). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: x + 3
+  punkte:
+  - - '4'
+    - '7'
+  - - '6'
+    - '9'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 1.
+  fehler: []
+- id: C2.3-019
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(2|-4) und B(8|-10). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -x - 2
+  punkte:
+  - - '2'
+    - '-4'
+  - - '8'
+    - '-10'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -1.
+  fehler: []
+- id: C2.3-020
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(-2|0) und B(1|9). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 3x + 6
+  punkte:
+  - - '-2'
+    - '0'
+  - - '1'
+    - '9'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 3.
+  fehler:
+  - antwort: x/3 + 6
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-021
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(2|0) und B(4|4). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 2x - 4
+  punkte:
+  - - '2'
+    - '0'
+  - - '4'
+    - '4'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 2.
+  fehler:
+  - antwort: 0,5x - 4
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-022
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(4|-13) und B(5|-15). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -2x - 5
+  punkte:
+  - - '4'
+    - '-13'
+  - - '5'
+    - '-15'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -2.
+  fehler:
+  - antwort: -0,5x - 5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-023
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(-2|5) und B(1|-7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -4x - 3
+  punkte:
+  - - '-2'
+    - '5'
+  - - '1'
+    - '-7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -4.
+  fehler:
+  - antwort: -0,25x - 3
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-024
+  typ: term
+  stufe: 3
+  frage: 'Eine Gerade geht durch A(1|-1) und B(3|-9). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -4x + 3
+  punkte:
+  - - '1'
+    - '-1'
+  - - '3'
+    - '-9'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -4.
+  fehler:
+  - antwort: -0,25x + 3
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-025
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(3|-5) und B(5|-7). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -x - 2
+  punkte:
+  - - '3'
+    - '-5'
+  - - '5'
+    - '-7'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -1.
+  fehler: []
+- id: C2.3-026
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(3|-2) und B(5|-3). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -0,5x - 0,5
+  punkte:
+  - - '3'
+    - '-2'
+  - - '5'
+    - '-3'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -0,5.
+  fehler:
+  - antwort: -2x - 0,5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-027
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(1|2) und B(3|3). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 0,5x + 1,5
+  punkte:
+  - - '1'
+    - '2'
+  - - '3'
+    - '3'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 0,5.
+  fehler:
+  - antwort: 2x + 1,5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-028
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(-3|10) und B(3|-2). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -2x + 4
+  punkte:
+  - - '-3'
+    - '10'
+  - - '3'
+    - '-2'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -2.
+  fehler:
+  - antwort: -0,5x + 4
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-029
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(-2|-6,5) und B(0|1,5). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 4x + 1,5
+  punkte:
+  - - '-2'
+    - -6,5
+  - - '0'
+    - 1,5
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 4.
+  fehler:
+  - antwort: 0,25x + 1,5
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-030
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(2|2) und B(6|10). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: 2x - 2
+  punkte:
+  - - '2'
+    - '2'
+  - - '6'
+    - '10'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 2.
+  fehler:
+  - antwort: 0,5x - 2
+    hinweis: 'Beim k: y-Differenz **durch** x-Differenz, nicht umgekehrt.'
+- id: C2.3-031
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(3|1) und B(5|-1). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: -x + 4
+  punkte:
+  - - '3'
+    - '1'
+  - - '5'
+    - '-1'
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = -1.
+  fehler: []
+- id: C2.3-032
+  typ: term
+  stufe: 4
+  frage: 'Eine Gerade geht durch A(-4|-4,5) und B(-2|-2,5). Gib die Funktionsgleichung an: `f(x) = …`'
+  form: frei
+  loesung: x - 0,5
+  punkte:
+  - - '-4'
+    - -4,5
+  - - '-2'
+    - -2,5
+  tipps:
+  - 'Zuerst k: `k = (y₂ - y₁) : (x₂ - x₁)`.'
+  - 'Dann d: Setz einen Punkt und k in `y = k·x + d` ein und löse nach d.'
+  - k = 1.
+  fehler: []

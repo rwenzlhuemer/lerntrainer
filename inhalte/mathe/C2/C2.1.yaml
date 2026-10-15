@@ -1,0 +1,15 @@
+id: C2.1
+titel: k und d ablesen
+ziel: Du liest Steigung k und Achsenabschnitt d aus der Funktionsgleichung ab.
+erklaerung: |
+  Eine **lineare Funktion** hat die Form `f(x) = k·x + d`. Ihr Graph ist eine Gerade.
+
+  - **k** ist die Zahl **vor dem x**: die **Steigung**. Um so viel ändert sich f(x), wenn x um 1 größer wird.
+  - **d** ist die Zahl **ohne x**: Dort schneidet die Gerade die y-Achse.
+
+  Das Vorzeichen gehört dazu: In `f(x) = 5 - 2x` ist k = -2 und d = 5.
+  Steht nur `f(x) = 4`, ist k = 0 (waagrechte Gerade). Bei `f(x) = 3x` ist d = 0.
+beispiel:
+  text: |
+    `f(x) = -2x + 3`: Steigung k = -2 (die Gerade fällt), d = 3 (Schnitt mit der y-Achse bei 3).
+  graph: {x: [-4, 4], y: [-6, 8], kurven: [{term: "-2x + 3", name: "f"}], punkte: [{x: 0, y: 3, name: "d = 3"}]}

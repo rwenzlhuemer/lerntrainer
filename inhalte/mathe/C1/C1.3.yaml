@@ -1,0 +1,17 @@
+id: C1.3
+titel: Funktionswert und Argument
+ziel: Du berechnest f(3) und findest umgekehrt das x zu einem gegebenen Funktionswert.
+erklaerung: |
+  Zwei Richtungen, die man gut auseinanderhalten muss:
+
+  - **Funktionswert gesucht:** `f(3) = ?` – x ist gegeben. Du setzt 3 für x ein und rechnest aus.
+  - **Argument gesucht:** `f(x) = 5` – der Funktionswert ist gegeben, x ist gesucht.
+    Dann löst du die Gleichung `f(x) = 5` nach x.
+
+  Bei quadratischen Funktionen kann es zwei x geben, die zum selben Funktionswert führen.
+beispiel:
+  wert: "4"
+  text: |
+    `f(x) = 3x - 2`, gesucht: x mit `f(x) = 10`. Also `3x - 2 = 10`, `3x = 12`, `x = 4`.
+  weg:
+    - "(10 + 2) : 3 = 4"

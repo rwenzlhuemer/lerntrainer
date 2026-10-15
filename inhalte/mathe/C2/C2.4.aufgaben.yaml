@@ -1,0 +1,770 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C2.4-001
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - 2x + 5
+  - -x - 2
+  - 4x - 5
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-002
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 2x + 3
+  - 4x + 3
+  - -3x + 1
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-003
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - -2x + 5
+  - 2x - 6
+  - 3x - 2
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-004
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - -2x + 4
+  - -3x - 2
+  - x - 6
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-005
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - -x - 6
+  - -3x + 4
+  - -5x - 4
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-006
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 3x - 1
+  - x - 2
+  - -4x + 5
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-007
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 3x + 1
+  - 5x - 3
+  - 4x + 5
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-008
+  typ: auswahl
+  stufe: 1
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - -3x + 5
+  - 2x + 1
+  - 3x - 4
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-009
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - -2x + 5
+  - -4x - 5
+  - 3x + 6
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-010
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - -4x + 3
+  - 5x + 1
+  - 3x - 1
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-011
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - -4x - 4
+  - -3x - 1
+  - 2x + 5
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-012
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - 2x - 6
+  - -3x - 4
+  - -x - 5
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-013
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade **fällt** (von links nach rechts)?
+  mathe: true
+  optionen:
+  - -5x + 6
+  - 4x + 2
+  - 3x + 4
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: fallend
+  erklaerung: Die Gerade fällt, wenn k **negativ** ist.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-014
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - -x - 1
+  - -3x + 2
+  - -3x - 4
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-015
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - 4x - 2
+  - -5x - 1
+  - 3x + 1
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-016
+  typ: auswahl
+  stufe: 2
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 3x + 3
+  - 5x - 6
+  - -4x + 1
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+- id: C2.4-017
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 3x - 3
+  - 4x - 2
+  - -0,5x + 2
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 3
+      name: f
+    - term: 4x - 2
+      name: g
+    - term: -0,5x + 2
+      name: h
+- id: C2.4-018
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - 1,5x + 2
+  - -5x - 1
+  - 2x - 2
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 1,5x + 2
+      name: f
+    - term: -5x - 1
+      name: g
+    - term: 2x - 2
+      name: h
+- id: C2.4-019
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - x + 6
+  - -5x - 1
+  - -2x + 4
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x + 6
+      name: f
+    - term: -5x - 1
+      name: g
+    - term: -2x + 4
+      name: h
+- id: C2.4-020
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - 2x + 2
+  - -3x + 3
+  - -2,5x + 5
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x + 2
+      name: f
+    - term: -3x + 3
+      name: g
+    - term: -2,5x + 5
+      name: h
+- id: C2.4-021
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - -2x + 5
+  - x + 1
+  - -5x + 6
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x + 5
+      name: f
+    - term: x + 1
+      name: g
+    - term: -5x + 6
+      name: h
+- id: C2.4-022
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade **fällt** (von links nach rechts)?
+  mathe: true
+  optionen:
+  - -4x - 3
+  - 0,5x - 6
+  - 2x + 1
+  richtig:
+  - 0
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: fallend
+  erklaerung: Die Gerade fällt, wenn k **negativ** ist.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -4x - 3
+      name: f
+    - term: 0,5x - 6
+      name: g
+    - term: 2x + 1
+      name: h
+- id: C2.4-023
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - 0,5x - 3
+  - 4x + 4
+  - -3x + 4
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 0,5x - 3
+      name: f
+    - term: 4x + 4
+      name: g
+    - term: -3x + 4
+      name: h
+- id: C2.4-024
+  typ: auswahl
+  stufe: 3
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - -2x - 5
+  - -4x - 4
+  - 5x + 3
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x - 5
+      name: f
+    - term: -4x - 4
+      name: g
+    - term: 5x + 3
+      name: h
+- id: C2.4-025
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade ist am **steilsten**?
+  mathe: true
+  optionen:
+  - x + 5
+  - 3x - 3
+  - 2x + 6
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: steilste
+  erklaerung: 'Steil heißt: großer **Betrag** von k – das Vorzeichen zählt dabei nicht. −4 ist steiler als 3.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x + 5
+      name: f
+    - term: 3x - 3
+      name: g
+    - term: 2x + 6
+      name: h
+- id: C2.4-026
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade **fällt** (von links nach rechts)?
+  mathe: true
+  optionen:
+  - 0,5x + 1
+  - -5x + 4
+  - 0,5x - 6
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: fallend
+  erklaerung: Die Gerade fällt, wenn k **negativ** ist.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 0,5x + 1
+      name: f
+    - term: -5x + 4
+      name: g
+    - term: 0,5x - 6
+      name: h
+- id: C2.4-027
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 4x - 2
+  - -0,5x + 4
+  - 3x - 3
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 4x - 2
+      name: f
+    - term: -0,5x + 4
+      name: g
+    - term: 3x - 3
+      name: h
+- id: C2.4-028
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - -2x - 5
+  - 2,5x - 5
+  - x + 1
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x - 5
+      name: f
+    - term: 2,5x - 5
+      name: g
+    - term: x + 1
+      name: h
+- id: C2.4-029
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade schneidet die y-Achse am **höchsten**?
+  mathe: true
+  optionen:
+  - 1,5x - 2
+  - 5x - 3
+  - -0,5x + 5
+  richtig:
+  - 2
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: groesstes_d
+  erklaerung: Wo die Gerade die y-Achse schneidet, sagt **d**. Gesucht ist das größte d.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 1,5x - 2
+      name: f
+    - term: 5x - 3
+      name: g
+    - term: -0,5x + 5
+      name: h
+- id: C2.4-030
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade **fällt** (von links nach rechts)?
+  mathe: true
+  optionen:
+  - 3x - 4
+  - -1,5x + 2
+  - x + 6
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: fallend
+  erklaerung: Die Gerade fällt, wenn k **negativ** ist.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 4
+      name: f
+    - term: -1,5x + 2
+      name: g
+    - term: x + 6
+      name: h
+- id: C2.4-031
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade verläuft am **flachsten**?
+  mathe: true
+  optionen:
+  - 4x - 4
+  - -x - 2
+  - -3x + 3
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: flachste
+  erklaerung: 'Flach heißt: kleiner **Betrag** von k.'
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 4x - 4
+      name: f
+    - term: -x - 2
+      name: g
+    - term: -3x + 3
+      name: h
+- id: C2.4-032
+  typ: auswahl
+  stufe: 4
+  frage: Welche Gerade **fällt** (von links nach rechts)?
+  mathe: true
+  optionen:
+  - 3x - 6
+  - -4x - 2
+  - 2x + 5
+  richtig:
+  - 1
+  pruefung:
+    art: k_eigenschaft
+    eigenschaft: fallend
+  erklaerung: Die Gerade fällt, wenn k **negativ** ist.
+  tipps:
+  - k bestimmt die Steigung, d die Höhe beim Schnitt mit der y-Achse.
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 6
+      name: f
+    - term: -4x - 2
+      name: g
+    - term: 2x + 5
+      name: h

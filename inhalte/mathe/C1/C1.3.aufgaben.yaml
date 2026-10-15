@@ -1,0 +1,476 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C1.3-001
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 5x + 3`. Berechne `f(-5)`.'
+  loesung: '-22'
+  aus_term:
+    term: 5x + 3
+    groesse: wert
+    x: -5
+  tipps:
+  - '`f(-5)` heißt: Setz -5 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '28'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-002
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 2x + 5`. Berechne `f(-6)`.'
+  loesung: '-7'
+  aus_term:
+    term: 2x + 5
+    groesse: wert
+    x: -6
+  tipps:
+  - '`f(-6)` heißt: Setz -6 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '17'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-003
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -x + 9`. Berechne `f(1)`.'
+  loesung: '8'
+  aus_term:
+    term: -x + 9
+    groesse: wert
+    x: 1
+  tipps:
+  - '`f(1)` heißt: Setz 1 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '10'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-004
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = x + 8`. Berechne `f(4)`.'
+  loesung: '12'
+  aus_term:
+    term: x + 8
+    groesse: wert
+    x: 4
+  tipps:
+  - '`f(4)` heißt: Setz 4 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '4'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-005
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = -x + 7`. Berechne `f(0)`.'
+  loesung: '7'
+  aus_term:
+    term: -x + 7
+    groesse: wert
+    x: 0
+  tipps:
+  - '`f(0)` heißt: Setz 0 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler: []
+- id: C1.3-006
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 4x - 2`. Berechne `f(-6)`.'
+  loesung: '-26'
+  aus_term:
+    term: 4x - 2
+    groesse: wert
+    x: -6
+  tipps:
+  - '`f(-6)` heißt: Setz -6 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '22'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-007
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 2x + 6`. Berechne `f(4)`.'
+  loesung: '14'
+  aus_term:
+    term: 2x + 6
+    groesse: wert
+    x: 4
+  tipps:
+  - '`f(4)` heißt: Setz 4 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-2'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-008
+  typ: zahl
+  stufe: 1
+  frage: '`f(x) = 3x + 5`. Berechne `f(3)`.'
+  loesung: '14'
+  aus_term:
+    term: 3x + 5
+    groesse: wert
+    x: 3
+  tipps:
+  - '`f(3)` heißt: Setz 3 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-4'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-009
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 5x + 3`. Berechne `f(1)`.'
+  loesung: '8'
+  aus_term:
+    term: 5x + 3
+    groesse: wert
+    x: 1
+  tipps:
+  - '`f(1)` heißt: Setz 1 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-2'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-010
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -2x + 2`. Für welches x gilt `f(x) = 4`?'
+  loesung: '-1'
+  gleichung: -2x + 2 = 4
+  weg:
+  - -2x + 2 = 4
+  - x = -1
+  tipps:
+  - Jetzt ist der Funktionswert gegeben, gesucht ist x.
+  - Löse die Gleichung `-2x + 2 = 4`.
+  fehler:
+  - antwort: '-6'
+    hinweis: Das ist f(4). Gesucht ist das x, für das f(x) = 4 herauskommt.
+- id: C1.3-011
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -4x - 8`. Berechne `f(6)`.'
+  loesung: '-32'
+  aus_term:
+    term: -4x - 8
+    groesse: wert
+    x: 6
+  tipps:
+  - '`f(6)` heißt: Setz 6 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '16'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-012
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -x - 6`. Berechne `f(-3)`.'
+  loesung: '-3'
+  aus_term:
+    term: -x - 6
+    groesse: wert
+    x: -3
+  tipps:
+  - '`f(-3)` heißt: Setz -3 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-9'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-013
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = -5x + 5`. Berechne `f(3)`.'
+  loesung: '-10'
+  aus_term:
+    term: -5x + 5
+    groesse: wert
+    x: 3
+  tipps:
+  - '`f(3)` heißt: Setz 3 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '20'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-014
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 5x + 3`. Berechne `f(4)`.'
+  loesung: '23'
+  aus_term:
+    term: 5x + 3
+    groesse: wert
+    x: 4
+  tipps:
+  - '`f(4)` heißt: Setz 4 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-17'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-015
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = 4x + 7`. Für welches x gilt `f(x) = 31`?'
+  loesung: '6'
+  gleichung: 4x + 7 = 31
+  weg:
+  - 4x + 7 = 31
+  - x = 6
+  tipps:
+  - Jetzt ist der Funktionswert gegeben, gesucht ist x.
+  - Löse die Gleichung `4x + 7 = 31`.
+  fehler:
+  - antwort: '131'
+    hinweis: Das ist f(31). Gesucht ist das x, für das f(x) = 31 herauskommt.
+- id: C1.3-016
+  typ: zahl
+  stufe: 2
+  frage: '`f(x) = x + 4`. Für welches x gilt `f(x) = 5`?'
+  loesung: '1'
+  gleichung: x + 4 = 5
+  weg:
+  - x + 4 = 5
+  - x = 1
+  tipps:
+  - Jetzt ist der Funktionswert gegeben, gesucht ist x.
+  - Löse die Gleichung `x + 4 = 5`.
+  fehler:
+  - antwort: '9'
+    hinweis: Das ist f(5). Gesucht ist das x, für das f(x) = 5 herauskommt.
+- id: C1.3-017
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 5x + 2`. Berechne `f(6)`.'
+  loesung: '32'
+  aus_term:
+    term: 5x + 2
+    groesse: wert
+    x: 6
+  tipps:
+  - '`f(6)` heißt: Setz 6 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-28'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-018
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -5x + 6`. Für welches x gilt `f(x) = -6,5`?'
+  loesung: 2,5
+  gleichung: -5x + 6 = -6,5
+  weg:
+  - -5x + 6 = -6,5
+  - x = 2,5
+  tipps:
+  - Jetzt ist der Funktionswert gegeben, gesucht ist x.
+  - Löse die Gleichung `-5x + 6 = -6,5`.
+  fehler:
+  - antwort: 38,5
+    hinweis: Das ist f(-6,5). Gesucht ist das x, für das f(x) = -6,5 herauskommt.
+- id: C1.3-019
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 4x + 4`. Berechne `f(-2)`.'
+  loesung: '-4'
+  aus_term:
+    term: 4x + 4
+    groesse: wert
+    x: -2
+  tipps:
+  - '`f(-2)` heißt: Setz -2 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '12'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-020
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 5x - 9`. Berechne `f(-3)`.'
+  loesung: '-24'
+  aus_term:
+    term: 5x - 9
+    groesse: wert
+    x: -3
+  tipps:
+  - '`f(-3)` heißt: Setz -3 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '6'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-021
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = x + 2`. Für welches x gilt `f(x) = -5`?'
+  loesung: '-7'
+  gleichung: x + 2 = -5
+  weg:
+  - x + 2 = -5
+  - x = -7
+  tipps:
+  - Jetzt ist der Funktionswert gegeben, gesucht ist x.
+  - Löse die Gleichung `x + 2 = -5`.
+  fehler:
+  - antwort: '-3'
+    hinweis: Das ist f(-5). Gesucht ist das x, für das f(x) = -5 herauskommt.
+- id: C1.3-022
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = 5x - 7`. Für welches x gilt `f(x) = -37`?'
+  loesung: '-6'
+  gleichung: 5x - 7 = -37
+  weg:
+  - 5x - 7 = -37
+  - x = -6
+  tipps:
+  - Jetzt ist der Funktionswert gegeben, gesucht ist x.
+  - Löse die Gleichung `5x - 7 = -37`.
+  fehler:
+  - antwort: '-192'
+    hinweis: Das ist f(-37). Gesucht ist das x, für das f(x) = -37 herauskommt.
+- id: C1.3-023
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -2x - 1`. Berechne `f(5)`.'
+  loesung: '-11'
+  aus_term:
+    term: -2x - 1
+    groesse: wert
+    x: 5
+  tipps:
+  - '`f(5)` heißt: Setz 5 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '9'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-024
+  typ: zahl
+  stufe: 3
+  frage: '`f(x) = -2x + 9`. Berechne `f(-5)`.'
+  loesung: '19'
+  aus_term:
+    term: -2x + 9
+    groesse: wert
+    x: -5
+  tipps:
+  - '`f(-5)` heißt: Setz -5 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-1'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-025
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 3`. Für welche x gilt `f(x) = 4`?'
+  gleichung: x² + 3 = 4
+  loesung: 1; -1
+  weg:
+  - x² + 3 = 4
+  - x² = 1
+  - x = 1 oder x = -1
+  tipps:
+  - Löse die Gleichung `x² + 3 = 4`.
+  - x² allein, dann Wurzel – plus und minus!
+  fehler: []
+- id: C1.3-026
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² - 2`. Für welche x gilt `f(x) = 34`?'
+  gleichung: x² - 2 = 34
+  loesung: 6; -6
+  weg:
+  - x² - 2 = 34
+  - x² = 36
+  - x = 6 oder x = -6
+  tipps:
+  - Löse die Gleichung `x² - 2 = 34`.
+  - x² allein, dann Wurzel – plus und minus!
+  fehler: []
+- id: C1.3-027
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = 2x + 4`. Berechne `f(-1)`.'
+  loesung: '2'
+  aus_term:
+    term: 2x + 4
+    groesse: wert
+    x: -1
+  tipps:
+  - '`f(-1)` heißt: Setz -1 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '6'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-028
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = x - 3`. Berechne `f(4)`.'
+  loesung: '1'
+  aus_term:
+    term: x - 3
+    groesse: wert
+    x: 4
+  tipps:
+  - '`f(4)` heißt: Setz 4 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-7'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-029
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -4x + 4`. Berechne `f(3)`.'
+  loesung: '-8'
+  aus_term:
+    term: -4x + 4
+    groesse: wert
+    x: 3
+  tipps:
+  - '`f(3)` heißt: Setz 3 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '16'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-030
+  typ: zahl
+  stufe: 4
+  frage: '`f(x) = -5x + 6`. Berechne `f(-3)`.'
+  loesung: '21'
+  aus_term:
+    term: -5x + 6
+    groesse: wert
+    x: -3
+  tipps:
+  - '`f(-3)` heißt: Setz -3 für x ein.'
+  - Negative Zahlen in Klammern.
+  fehler:
+  - antwort: '-9'
+    hinweis: Vorzeichen beim Einsetzen!
+- id: C1.3-031
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² - 5`. Für welche x gilt `f(x) = -1`?'
+  gleichung: x² - 5 = -1
+  loesung: 2; -2
+  weg:
+  - x² - 5 = -1
+  - x² = 4
+  - x = 2 oder x = -2
+  tipps:
+  - Löse die Gleichung `x² - 5 = -1`.
+  - x² allein, dann Wurzel – plus und minus!
+  fehler: []
+- id: C1.3-032
+  typ: quadratisch
+  stufe: 4
+  frage: '`f(x) = x² + 2`. Für welche x gilt `f(x) = 11`?'
+  gleichung: x² + 2 = 11
+  loesung: 3; -3
+  weg:
+  - x² + 2 = 11
+  - x² = 9
+  - x = 3 oder x = -3
+  tipps:
+  - Löse die Gleichung `x² + 2 = 11`.
+  - x² allein, dann Wurzel – plus und minus!
+  fehler: []

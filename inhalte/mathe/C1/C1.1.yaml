@@ -1,0 +1,17 @@
+id: C1.1
+titel: Was ist eine Funktion?
+ziel: Du erkennst, ob eine Zuordnung eine Funktion ist.
+erklaerung: |
+  Eine **Funktion** ordnet **jedem** x-Wert **genau einen** y-Wert zu.
+
+  In einer Tabelle heißt das: Kommt ein x-Wert zweimal vor, muss beide Male derselbe y-Wert dastehen.
+  Steht beim selben x einmal 3 und einmal 5, ist es **keine** Funktion.
+
+  **Aber:** Verschiedene x-Werte dürfen denselben y-Wert haben! Bei `f(x) = x²` gehören
+  x = 2 und x = -2 beide zu y = 4 – das ist trotzdem eine Funktion.
+
+  Beim Graphen: Jede senkrechte Linie darf den Graphen höchstens einmal treffen.
+beispiel:
+  text: |
+    x = 1 → y = 4 und x = 1 → y = 7: Zum selben x gehören zwei y-Werte. Das ist **keine** Funktion.
+  tabelle: {kopf: ["x", "y"], zeilen: [["0", "2"], ["1", "4"], ["1", "7"], ["3", "2"]]}

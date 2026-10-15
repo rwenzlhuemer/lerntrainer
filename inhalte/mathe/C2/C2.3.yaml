@@ -1,0 +1,17 @@
+id: C2.3
+titel: Gerade durch zwei Punkte
+ziel: Du stellst die Gleichung einer Geraden durch zwei gegebene Punkte auf.
+erklaerung: |
+  Gegeben sind zwei Punkte A(x₁|y₁) und B(x₂|y₂).
+
+  1. **Steigung:** `k = (y₂ - y₁) : (x₂ - x₁)`
+  2. **d berechnen:** Setz k und einen Punkt in `y = k·x + d` ein und löse nach d.
+  3. Gleichung hinschreiben: `f(x) = k·x + d`.
+
+  Probe: Setz den zweiten Punkt ein – stimmt es?
+beispiel:
+  wert: "2"
+  text: |
+    A(1|3), B(4|9): `k = (9 - 3) : (4 - 1) = 2`. Dann `3 = 2·1 + d`, also d = 1. Ergebnis: `f(x) = 2x + 1`.
+  weg:
+    - "(9 - 3) : (4 - 1) = 6 : 3 = 2"

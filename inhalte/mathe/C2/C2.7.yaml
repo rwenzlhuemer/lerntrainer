@@ -1,0 +1,21 @@
+id: C2.7
+titel: Schnittpunkt zweier Geraden
+ziel: Du berechnest den Schnittpunkt zweier Geraden.
+erklaerung: |
+  Im **Schnittpunkt** haben beide Geraden denselben y-Wert. Darum setzt du die beiden Funktionsterme gleich:
+  `f(x) = g(x)`.
+
+  1. Gleichsetzen und nach x lösen.
+  2. x in eine der beiden Funktionen einsetzen – das ist der y-Wert.
+  3. Antwort als Punkt, z. B. S(2|5).
+
+  Haben beide Geraden dieselbe Steigung, sind sie parallel und schneiden sich nicht (oder sind gleich).
+beispiel:
+  gleichungen: ["y = 2x + 1", "y = -x + 7"]
+  loesung: {x: "2", y: "5"}
+  text: |
+    `2x + 1 = -x + 7` → `3x = 6` → x = 2. Dann `y = 2·2 + 1 = 5`. Schnittpunkt S(2|5).
+  graph: {x: [-2, 6], y: [-2, 10], kurven: [{term: "2x + 1", name: "f"}, {term: "-x + 7", name: "g"}], punkte: [{x: 2, y: 5, name: "S"}]}
+  weg:
+    - "3x = 6 | gleichsetzen und umformen"
+    - "x = 2, y = 5"

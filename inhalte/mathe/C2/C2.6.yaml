@@ -1,0 +1,17 @@
+id: C2.6
+titel: Lineare Modelle im Alltag
+ziel: Du stellst lineare Funktionen zu Tarifen, Füllständen und Kosten auf und rechnest damit.
+erklaerung: |
+  Viele Alltagssituationen sind linear: Es gibt einen **Startwert** und eine **gleichmäßige Änderung**.
+
+  - Startwert (bei 0) → **d**: Grundgebühr, Anfangshöhe, Anfangsmenge
+  - Änderung pro Einheit → **k**: Preis pro km, Abnahme pro Stunde
+  - Nimmt etwas ab, ist **k negativ**.
+
+  Statt x verwendet man oft passende Buchstaben: t für die Zeit, s für die Strecke.
+beispiel:
+  wert: "11"
+  text: |
+    Taxi: 3,5 € Grundgebühr und 1,5 € pro km. `K(s) = 3,5 + 1,5s`. Für 5 km: 11 €.
+  weg:
+    - "3,5 + 1,5·5 = 11"

@@ -139,25 +139,25 @@ Grundkompetenzkatalog, Stand November 2024.
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| C1.1 ★ | Was ist eine Funktion? Funktion oder nicht? | FA 1.1 |  |
-| C1.2 ★ | Wertetabelle ↔ Graph | FA 1.3 |  |
-| C1.3 ★ | Funktionswert und Argument: f(3) = ? und f(x) = 5 → x = ? | FA 1.4 |  |
-| C1.4 ★ | Werte aus dem Graphen ablesen und im Kontext deuten | FA 1.4 |  |
-| C1.5 | Schreibweise f: A → B, x ↦ f(x) | FA 1.2 |  |
+| C1.1 ★ | Was ist eine Funktion? | FA 1.1 | ✓ 32 |
+| C1.2 ★ | Wertetabelle und Graph | FA 1.3 | ✓ 32 |
+| C1.3 ★ | Funktionswert und Argument | FA 1.4 | ✓ 32 |
+| C1.4 ★ | Graphen im Kontext lesen | FA 1.4 | ✓ 24 |
+| C1.5 | Schreibweise f: x ↦ f(x) | FA 1.2 | ✓ 24 |
 | C1.6 | Formeln mit mehreren Variablen als Funktionen | FA 1.8 |  |
 
 ### C2 Lineare Funktionen f(x) = k · x + d
 
 | ID | Lernschritt | GK | in der App |
 |----|-------------|----|-----|
-| C2.1 ★ | k und d aus der Gleichung ablesen; Bedeutung | FA 2.2 |  |
-| C2.2 ★ | Steigungsdreieck: k und d aus dem Graphen | FA 2.2 |  |
-| C2.3 ★ | Gleichung aus zwei Punkten aufstellen | FA 2.2, FA 2.4 |  |
-| C2.4 ★ | Wirkung von k und d auf den Graphen | FA 2.3 |  |
-| C2.5 ★ | f(x + 1) = f(x) + k; Steigung = Differenzenquotient | FA 2.4 |  |
-| C2.6 ★ | Lineare Modelle im Kontext (Tarife, Füllstände, Kosten) | FA 2.1, FA 2.3 |  |
-| C2.7 | Schnittpunkt zweier Geraden | FA 1.6 |  |
-| C2.8 | Ist ein lineares Modell angemessen? | FA 2.5 |  |
+| C2.1 ★ | k und d ablesen | FA 2.2 | ✓ 32 |
+| C2.2 ★ | Steigungsdreieck | FA 2.2 | ✓ 32 |
+| C2.3 ★ | Gerade durch zwei Punkte | FA 2.2, FA 2.4 | ✓ 32 |
+| C2.4 ★ | Wirkung von k und d | FA 2.3 | ✓ 32 |
+| C2.5 ★ | Änderung und Differenzenquotient | FA 2.4 | ✓ 32 |
+| C2.6 ★ | Lineare Modelle im Alltag | FA 2.1, FA 2.3 | ✓ 24 |
+| C2.7 | Schnittpunkt zweier Geraden | FA 1.6 | ✓ 32 |
+| C2.8 | Ist ein lineares Modell angemessen? | FA 2.5 | ✓ 32 |
 
 ### C3 Quadratische Funktionen und Polynomfunktionen
 
@@ -373,4 +373,4 @@ Grundkompetenzkatalog, Stand November 2024.
 
 ---
 
-**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 54.
+**Umfang:** 166 Lernschritte, davon 119 im Kernpfad (★). In der App verfügbar: 67.

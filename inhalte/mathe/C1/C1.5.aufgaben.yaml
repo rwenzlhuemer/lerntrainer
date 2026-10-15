@@ -1,0 +1,314 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C1.5-001
+  typ: zahl
+  stufe: 1
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x² + 4`. Berechne `g(0)`.'
+  loesung: '4'
+  aus_term:
+    term: x² + 4
+    groesse: wert
+    x: 0
+  tipps:
+  - '`x ↦ x² + 4` heißt: Jedem x wird `x² + 4` zugeordnet. Das ist dasselbe wie `g(x) = x² + 4`.'
+  - Setz 0 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-002
+  typ: zahl
+  stufe: 1
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ -4x - 1`. Berechne `f(-3)`.'
+  loesung: '11'
+  aus_term:
+    term: -4x - 1
+    groesse: wert
+    x: -3
+  tipps:
+  - '`x ↦ -4x - 1` heißt: Jedem x wird `-4x - 1` zugeordnet. Das ist dasselbe wie `f(x) = -4x - 1`.'
+  - Setz -3 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-003
+  typ: zahl
+  stufe: 1
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ -x + 5`. Berechne `f(-3)`.'
+  loesung: '8'
+  aus_term:
+    term: -x + 5
+    groesse: wert
+    x: -3
+  tipps:
+  - '`x ↦ -x + 5` heißt: Jedem x wird `-x + 5` zugeordnet. Das ist dasselbe wie `f(x) = -x + 5`.'
+  - Setz -3 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-004
+  typ: zahl
+  stufe: 1
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ 3x - 3`. Berechne `f(-1)`.'
+  loesung: '-6'
+  aus_term:
+    term: 3x - 3
+    groesse: wert
+    x: -1
+  tipps:
+  - '`x ↦ 3x - 3` heißt: Jedem x wird `3x - 3` zugeordnet. Das ist dasselbe wie `f(x) = 3x - 3`.'
+  - Setz -1 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-005
+  typ: zahl
+  stufe: 1
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x² + 3`. Berechne `g(1)`.'
+  loesung: '4'
+  aus_term:
+    term: x² + 3
+    groesse: wert
+    x: 1
+  tipps:
+  - '`x ↦ x² + 3` heißt: Jedem x wird `x² + 3` zugeordnet. Das ist dasselbe wie `g(x) = x² + 3`.'
+  - Setz 1 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-006
+  typ: zahl
+  stufe: 1
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ x² - 2`. Berechne `h(-1)`.'
+  loesung: '-1'
+  aus_term:
+    term: x² - 2
+    groesse: wert
+    x: -1
+  tipps:
+  - '`x ↦ x² - 2` heißt: Jedem x wird `x² - 2` zugeordnet. Das ist dasselbe wie `h(x) = x² - 2`.'
+  - Setz -1 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-007
+  typ: zahl
+  stufe: 2
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ -x² + 3`. Berechne `f(0)`.'
+  loesung: '3'
+  aus_term:
+    term: -x² + 3
+    groesse: wert
+    x: 0
+  tipps:
+  - '`x ↦ -x² + 3` heißt: Jedem x wird `-x² + 3` zugeordnet. Das ist dasselbe wie `f(x) = -x² + 3`.'
+  - Setz 0 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-008
+  typ: zahl
+  stufe: 2
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ 2x² - 4`. Berechne `g(-4)`.'
+  loesung: '28'
+  aus_term:
+    term: 2x² - 4
+    groesse: wert
+    x: -4
+  tipps:
+  - '`x ↦ 2x² - 4` heißt: Jedem x wird `2x² - 4` zugeordnet. Das ist dasselbe wie `g(x) = 2x² - 4`.'
+  - Setz -4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-009
+  typ: zahl
+  stufe: 2
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x + 1`. Berechne `g(-1)`.'
+  loesung: '0'
+  aus_term:
+    term: x + 1
+    groesse: wert
+    x: -1
+  tipps:
+  - '`x ↦ x + 1` heißt: Jedem x wird `x + 1` zugeordnet. Das ist dasselbe wie `g(x) = x + 1`.'
+  - Setz -1 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-010
+  typ: zahl
+  stufe: 2
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ 2x² - 1`. Berechne `h(4)`.'
+  loesung: '31'
+  aus_term:
+    term: 2x² - 1
+    groesse: wert
+    x: 4
+  tipps:
+  - '`x ↦ 2x² - 1` heißt: Jedem x wird `2x² - 1` zugeordnet. Das ist dasselbe wie `h(x) = 2x² - 1`.'
+  - Setz 4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-011
+  typ: zahl
+  stufe: 2
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ 0,5x + 1`. Berechne `g(-4)`.'
+  loesung: '-1'
+  aus_term:
+    term: 0,5x + 1
+    groesse: wert
+    x: -4
+  tipps:
+  - '`x ↦ 0,5x + 1` heißt: Jedem x wird `0,5x + 1` zugeordnet. Das ist dasselbe wie `g(x) = 0,5x + 1`.'
+  - Setz -4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-012
+  typ: zahl
+  stufe: 2
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ 2x² - 3`. Berechne `f(2)`.'
+  loesung: '5'
+  aus_term:
+    term: 2x² - 3
+    groesse: wert
+    x: 2
+  tipps:
+  - '`x ↦ 2x² - 3` heißt: Jedem x wird `2x² - 3` zugeordnet. Das ist dasselbe wie `f(x) = 2x² - 3`.'
+  - Setz 2 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-013
+  typ: zahl
+  stufe: 3
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ x³ - 3x`. Berechne `h(2)`.'
+  loesung: '2'
+  aus_term:
+    term: x³ - 3x
+    groesse: wert
+    x: 2
+  tipps:
+  - '`x ↦ x³ - 3x` heißt: Jedem x wird `x³ - 3x` zugeordnet. Das ist dasselbe wie `h(x) = x³ - 3x`.'
+  - Setz 2 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-014
+  typ: zahl
+  stufe: 3
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x³ - 3x`. Berechne `g(-2)`.'
+  loesung: '-2'
+  aus_term:
+    term: x³ - 3x
+    groesse: wert
+    x: -2
+  tipps:
+  - '`x ↦ x³ - 3x` heißt: Jedem x wird `x³ - 3x` zugeordnet. Das ist dasselbe wie `g(x) = x³ - 3x`.'
+  - Setz -2 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-015
+  typ: zahl
+  stufe: 3
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x³ - 2x`. Berechne `g(-4)`.'
+  loesung: '-56'
+  aus_term:
+    term: x³ - 2x
+    groesse: wert
+    x: -4
+  tipps:
+  - '`x ↦ x³ - 2x` heißt: Jedem x wird `x³ - 2x` zugeordnet. Das ist dasselbe wie `g(x) = x³ - 2x`.'
+  - Setz -4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-016
+  typ: zahl
+  stufe: 3
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ -x²/2 + 3`. Berechne `h(-4)`.'
+  loesung: '-5'
+  aus_term:
+    term: -x²/2 + 3
+    groesse: wert
+    x: -4
+  tipps:
+  - '`x ↦ -x²/2 + 3` heißt: Jedem x wird `-x²/2 + 3` zugeordnet. Das ist dasselbe wie `h(x) = -x²/2 + 3`.'
+  - Setz -4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-017
+  typ: zahl
+  stufe: 3
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ x² - 3x + 2`. Berechne `f(4)`.'
+  loesung: '6'
+  aus_term:
+    term: x² - 3x + 2
+    groesse: wert
+    x: 4
+  tipps:
+  - '`x ↦ x² - 3x + 2` heißt: Jedem x wird `x² - 3x + 2` zugeordnet. Das ist dasselbe wie `f(x) = x² - 3x + 2`.'
+  - Setz 4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-018
+  typ: zahl
+  stufe: 3
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x² - 2x + 2`. Berechne `g(-2)`.'
+  loesung: '10'
+  aus_term:
+    term: x² - 2x + 2
+    groesse: wert
+    x: -2
+  tipps:
+  - '`x ↦ x² - 2x + 2` heißt: Jedem x wird `x² - 2x + 2` zugeordnet. Das ist dasselbe wie `g(x) = x² - 2x + 2`.'
+  - Setz -2 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-019
+  typ: zahl
+  stufe: 4
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ x³ - 3x`. Berechne `h(-2)`.'
+  loesung: '-2'
+  aus_term:
+    term: x³ - 3x
+    groesse: wert
+    x: -2
+  tipps:
+  - '`x ↦ x³ - 3x` heißt: Jedem x wird `x³ - 3x` zugeordnet. Das ist dasselbe wie `h(x) = x³ - 3x`.'
+  - Setz -2 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-020
+  typ: zahl
+  stufe: 4
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ x³ - 1x`. Berechne `h(-4)`.'
+  loesung: '-60'
+  aus_term:
+    term: x³ - 1x
+    groesse: wert
+    x: -4
+  tipps:
+  - '`x ↦ x³ - 1x` heißt: Jedem x wird `x³ - 1x` zugeordnet. Das ist dasselbe wie `h(x) = x³ - 1x`.'
+  - Setz -4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-021
+  typ: zahl
+  stufe: 4
+  frage: 'Die Funktion `g: ℝ → ℝ` ist gegeben durch `x ↦ x² - 4x + 1`. Berechne `g(3)`.'
+  loesung: '-2'
+  aus_term:
+    term: x² - 4x + 1
+    groesse: wert
+    x: 3
+  tipps:
+  - '`x ↦ x² - 4x + 1` heißt: Jedem x wird `x² - 4x + 1` zugeordnet. Das ist dasselbe wie `g(x) = x² - 4x + 1`.'
+  - Setz 3 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-022
+  typ: zahl
+  stufe: 4
+  frage: 'Die Funktion `f: ℝ → ℝ` ist gegeben durch `x ↦ -x²/2 + 1`. Berechne `f(4)`.'
+  loesung: '-7'
+  aus_term:
+    term: -x²/2 + 1
+    groesse: wert
+    x: 4
+  tipps:
+  - '`x ↦ -x²/2 + 1` heißt: Jedem x wird `-x²/2 + 1` zugeordnet. Das ist dasselbe wie `f(x) = -x²/2 + 1`.'
+  - Setz 4 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-023
+  typ: zahl
+  stufe: 4
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ -x²/2 + 1`. Berechne `h(-3)`.'
+  loesung: -3,5
+  aus_term:
+    term: -x²/2 + 1
+    groesse: wert
+    x: -3
+  tipps:
+  - '`x ↦ -x²/2 + 1` heißt: Jedem x wird `-x²/2 + 1` zugeordnet. Das ist dasselbe wie `h(x) = -x²/2 + 1`.'
+  - Setz -3 ein – negative Zahlen in Klammern.
+  fehler: []
+- id: C1.5-024
+  typ: zahl
+  stufe: 4
+  frage: 'Die Funktion `h: ℝ → ℝ` ist gegeben durch `x ↦ x² - 1x + 3`. Berechne `h(0)`.'
+  loesung: '3'
+  aus_term:
+    term: x² - 1x + 3
+    groesse: wert
+    x: 0
+  tipps:
+  - '`x ↦ x² - 1x + 3` heißt: Jedem x wird `x² - 1x + 3` zugeordnet. Das ist dasselbe wie `h(x) = x² - 1x + 3`.'
+  - Setz 0 ein – negative Zahlen in Klammern.
+  fehler: []

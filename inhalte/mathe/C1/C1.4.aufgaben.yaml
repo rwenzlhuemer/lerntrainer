@@ -1,0 +1,602 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C1.4-001
+  typ: zahl
+  stufe: 1
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Wie hoch ist die Pflanze nach 5 Wochen?
+  loesung: '17'
+  aus_term:
+    term: 3x + 2
+    groesse: wert
+    x: 5
+  graph:
+    x: &id004
+    - 0
+    - 8
+    y: &id005
+    - 0
+    - 28
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: &id006
+    - 1
+    - 2
+  einheit: cm
+  tipps:
+  - Geh auf der waagrechten Achse zu 5.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-002
+  typ: zahl
+  stufe: 1
+  frage: Temperatur T (in °C) im Lauf eines Tages, t = Uhrzeit. Wie warm ist es um 6 Uhr?
+  loesung: '10'
+  aus_term:
+    term: -x²/2 + 6x - 8
+    groesse: wert
+    x: 6
+  graph:
+    x: &id007
+    - 0
+    - 12
+    y: &id008
+    - -10
+    - 12
+    kurven:
+    - term: -x²/2 + 6x - 8
+    achsen:
+      x: t in h
+      y: T in °C
+    schritt: &id009
+    - 1
+    - 2
+  einheit: °C
+  tipps:
+  - Geh auf der waagrechten Achse zu 6.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-003
+  typ: zahl
+  stufe: 1
+  frage: Weg (in m) eines anrollenden Wagens nach t Sekunden. Wie weit ist er nach 3 Sekunden gekommen?
+  loesung: '18'
+  aus_term:
+    term: '2x² '
+    groesse: wert
+    x: 3
+  graph:
+    x: &id001
+    - 0
+    - 5
+    y: &id002
+    - 0
+    - 50
+    kurven:
+    - term: '2x² '
+    achsen:
+      x: t in s
+      y: s in m
+    schritt: &id003
+    - 1
+    - 5
+  einheit: m
+  tipps:
+  - Geh auf der waagrechten Achse zu 3.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-004
+  typ: zahl
+  stufe: 1
+  frage: Weg (in m) eines anrollenden Wagens nach t Sekunden. Wie weit ist er nach 4 Sekunden gekommen?
+  loesung: '32'
+  aus_term:
+    term: '2x² '
+    groesse: wert
+    x: 4
+  graph:
+    x: *id001
+    y: *id002
+    kurven:
+    - term: '2x² '
+    achsen:
+      x: t in s
+      y: s in m
+    schritt: *id003
+  einheit: m
+  tipps:
+  - Geh auf der waagrechten Achse zu 4.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-005
+  typ: zahl
+  stufe: 1
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Wie hoch ist die Pflanze nach 3 Wochen?
+  loesung: '11'
+  aus_term:
+    term: 3x + 2
+    groesse: wert
+    x: 3
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - Geh auf der waagrechten Achse zu 3.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-006
+  typ: zahl
+  stufe: 1
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Wie hoch ist die Pflanze nach 7 Wochen?
+  loesung: '23'
+  aus_term:
+    term: 3x + 2
+    groesse: wert
+    x: 7
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - Geh auf der waagrechten Achse zu 7.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-007
+  typ: zahl
+  stufe: 2
+  frage: Weg (in m) eines anrollenden Wagens nach t Sekunden. Wie weit ist er nach 2 Sekunden gekommen?
+  loesung: '8'
+  aus_term:
+    term: '2x² '
+    groesse: wert
+    x: 2
+  graph:
+    x: *id001
+    y: *id002
+    kurven:
+    - term: '2x² '
+    achsen:
+      x: t in s
+      y: s in m
+    schritt: *id003
+  einheit: m
+  tipps:
+  - Geh auf der waagrechten Achse zu 2.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-008
+  typ: zahl
+  stufe: 2
+  frage: Weg (in m) eines anrollenden Wagens nach t Sekunden. Wie weit ist er nach 1 Sekunden gekommen?
+  loesung: '2'
+  aus_term:
+    term: '2x² '
+    groesse: wert
+    x: 1
+  graph:
+    x: *id001
+    y: *id002
+    kurven:
+    - term: '2x² '
+    achsen:
+      x: t in s
+      y: s in m
+    schritt: *id003
+  einheit: m
+  tipps:
+  - Geh auf der waagrechten Achse zu 1.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-009
+  typ: zahl
+  stufe: 2
+  frage: Wasser in einer Badewanne beim Auslaufen, t in Minuten. Wie viel Wasser ist nach 1 Minuten noch drin?
+  loesung: '35'
+  aus_term:
+    term: 40 - 5x
+    groesse: wert
+    x: 1
+  graph:
+    x: &id010
+    - 0
+    - 9
+    y: &id011
+    - 0
+    - 45
+    kurven:
+    - term: 40 - 5x
+    achsen:
+      x: t in min
+      y: V in l
+    schritt: &id012
+    - 1
+    - 5
+  einheit: l
+  tipps:
+  - Geh auf der waagrechten Achse zu 1.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-010
+  typ: zahl
+  stufe: 2
+  frage: Temperatur T (in °C) im Lauf eines Tages, t = Uhrzeit. Wie warm ist es um 2 Uhr?
+  loesung: '2'
+  aus_term:
+    term: -x²/2 + 6x - 8
+    groesse: wert
+    x: 2
+  graph:
+    x: *id007
+    y: *id008
+    kurven:
+    - term: -x²/2 + 6x - 8
+    achsen:
+      x: t in h
+      y: T in °C
+    schritt: *id009
+  einheit: °C
+  tipps:
+  - Geh auf der waagrechten Achse zu 2.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-011
+  typ: zahl
+  stufe: 2
+  frage: Wasser in einer Badewanne beim Auslaufen, t in Minuten. Wie viel Wasser ist nach 7 Minuten noch drin?
+  loesung: '5'
+  aus_term:
+    term: 40 - 5x
+    groesse: wert
+    x: 7
+  graph:
+    x: *id010
+    y: *id011
+    kurven:
+    - term: 40 - 5x
+    achsen:
+      x: t in min
+      y: V in l
+    schritt: *id012
+  einheit: l
+  tipps:
+  - Geh auf der waagrechten Achse zu 7.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-012
+  typ: zahl
+  stufe: 2
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Wie hoch ist die Pflanze nach 6 Wochen?
+  loesung: '20'
+  aus_term:
+    term: 3x + 2
+    groesse: wert
+    x: 6
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - Geh auf der waagrechten Achse zu 6.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-013
+  typ: zahl
+  stufe: 3
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Wie hoch ist die Pflanze nach 2 Wochen?
+  loesung: '8'
+  aus_term:
+    term: 3x + 2
+    groesse: wert
+    x: 2
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - Geh auf der waagrechten Achse zu 2.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-014
+  typ: zahl
+  stufe: 3
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Um wie viel ändert sich der Wert zwischen 1 und 8? (Abnahme mit Minus.)
+  loesung: '21'
+  aus_term:
+    term: 3x + 2
+    groesse: differenz
+    von: 1
+    bis: 8
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - 'Lies beide Werte ab: bei 1 und bei 8.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-21'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-015
+  typ: zahl
+  stufe: 3
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Um wie viel ändert sich der Wert zwischen 2 und 4? (Abnahme mit Minus.)
+  loesung: '6'
+  aus_term:
+    term: 3x + 2
+    groesse: differenz
+    von: 2
+    bis: 4
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - 'Lies beide Werte ab: bei 2 und bei 4.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-6'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-016
+  typ: zahl
+  stufe: 3
+  frage: Temperatur T (in °C) im Lauf eines Tages, t = Uhrzeit. Wie warm ist es um 10 Uhr?
+  loesung: '2'
+  aus_term:
+    term: -x²/2 + 6x - 8
+    groesse: wert
+    x: 10
+  graph:
+    x: *id007
+    y: *id008
+    kurven:
+    - term: -x²/2 + 6x - 8
+    achsen:
+      x: t in h
+      y: T in °C
+    schritt: *id009
+  einheit: °C
+  tipps:
+  - Geh auf der waagrechten Achse zu 10.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-017
+  typ: zahl
+  stufe: 3
+  frage: Weg (in m) eines anrollenden Wagens nach t Sekunden. Um wie viel ändert sich der Wert zwischen 2 und 5? (Abnahme mit Minus.)
+  loesung: '42'
+  aus_term:
+    term: '2x² '
+    groesse: differenz
+    von: 2
+    bis: 5
+  graph:
+    x: *id001
+    y: *id002
+    kurven:
+    - term: '2x² '
+    achsen:
+      x: t in s
+      y: s in m
+    schritt: *id003
+  einheit: m
+  tipps:
+  - 'Lies beide Werte ab: bei 2 und bei 5.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-42'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-018
+  typ: zahl
+  stufe: 3
+  frage: Temperatur T (in °C) im Lauf eines Tages, t = Uhrzeit. Wie warm ist es um 4 Uhr?
+  loesung: '8'
+  aus_term:
+    term: -x²/2 + 6x - 8
+    groesse: wert
+    x: 4
+  graph:
+    x: *id007
+    y: *id008
+    kurven:
+    - term: -x²/2 + 6x - 8
+    achsen:
+      x: t in h
+      y: T in °C
+    schritt: *id009
+  einheit: °C
+  tipps:
+  - Geh auf der waagrechten Achse zu 4.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-019
+  typ: zahl
+  stufe: 4
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Um wie viel ändert sich der Wert zwischen 5 und 7? (Abnahme mit Minus.)
+  loesung: '6'
+  aus_term:
+    term: 3x + 2
+    groesse: differenz
+    von: 5
+    bis: 7
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - 'Lies beide Werte ab: bei 5 und bei 7.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-6'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-020
+  typ: zahl
+  stufe: 4
+  frage: Wasser in einer Badewanne beim Auslaufen, t in Minuten. Wie viel Wasser ist nach 5 Minuten noch drin?
+  loesung: '15'
+  aus_term:
+    term: 40 - 5x
+    groesse: wert
+    x: 5
+  graph:
+    x: *id010
+    y: *id011
+    kurven:
+    - term: 40 - 5x
+    achsen:
+      x: t in min
+      y: V in l
+    schritt: *id012
+  einheit: l
+  tipps:
+  - Geh auf der waagrechten Achse zu 5.
+  - Senkrecht zum Graphen, dann waagrecht zur senkrechten Achse – ablesen.
+  fehler: []
+- id: C1.4-021
+  typ: zahl
+  stufe: 4
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Um wie viel ändert sich der Wert zwischen 5 und 6? (Abnahme mit Minus.)
+  loesung: '3'
+  aus_term:
+    term: 3x + 2
+    groesse: differenz
+    von: 5
+    bis: 6
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - 'Lies beide Werte ab: bei 5 und bei 6.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-3'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-022
+  typ: zahl
+  stufe: 4
+  frage: Weg (in m) eines anrollenden Wagens nach t Sekunden. Um wie viel ändert sich der Wert zwischen 4 und 5? (Abnahme mit Minus.)
+  loesung: '18'
+  aus_term:
+    term: '2x² '
+    groesse: differenz
+    von: 4
+    bis: 5
+  graph:
+    x: *id001
+    y: *id002
+    kurven:
+    - term: '2x² '
+    achsen:
+      x: t in s
+      y: s in m
+    schritt: *id003
+  einheit: m
+  tipps:
+  - 'Lies beide Werte ab: bei 4 und bei 5.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-18'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-023
+  typ: zahl
+  stufe: 4
+  frage: Höhe einer Pflanze (in cm) nach t Wochen. Um wie viel ändert sich der Wert zwischen 3 und 5? (Abnahme mit Minus.)
+  loesung: '6'
+  aus_term:
+    term: 3x + 2
+    groesse: differenz
+    von: 3
+    bis: 5
+  graph:
+    x: *id004
+    y: *id005
+    kurven:
+    - term: 3x + 2
+    achsen:
+      x: t in Wochen
+      y: h in cm
+    schritt: *id006
+  einheit: cm
+  tipps:
+  - 'Lies beide Werte ab: bei 3 und bei 5.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '-6'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.
+- id: C1.4-024
+  typ: zahl
+  stufe: 4
+  frage: Wasser in einer Badewanne beim Auslaufen, t in Minuten. Um wie viel ändert sich der Wert zwischen 4 und 5? (Abnahme mit Minus.)
+  loesung: '-5'
+  aus_term:
+    term: 40 - 5x
+    groesse: differenz
+    von: 4
+    bis: 5
+  graph:
+    x: *id010
+    y: *id011
+    kurven:
+    - term: 40 - 5x
+    achsen:
+      x: t in min
+      y: V in l
+    schritt: *id012
+  einheit: l
+  tipps:
+  - 'Lies beide Werte ab: bei 4 und bei 5.'
+  - Änderung = späterer Wert − früherer Wert.
+  fehler:
+  - antwort: '5'
+    hinweis: Späterer Wert minus früherer – nicht umgekehrt.

@@ -1,0 +1,386 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C2.6-001
+  typ: term
+  stufe: 1
+  frage: 'In einem Tank sind 3 Liter Heizöl. Pro Tag werden 12 Liter verbraucht. Gib die Menge nach t Tagen an: `V(t) = …`'
+  form: frei
+  loesung: 3 - 12t
+  punkte:
+  - - 0
+    - 3
+  - - 2
+    - '-21'
+  variable: t
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von t? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 3 + 12t
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-002
+  typ: term
+  stufe: 1
+  frage: 'Ein Taxi verlangt 5 € Grundgebühr und 1,5 € pro gefahrenem Kilometer. Gib die Kosten K (in €) für s Kilometer an: `K(s) = …`'
+  form: frei
+  loesung: 5 + 1,5s
+  punkte:
+  - - 0
+    - 5
+  - - 2
+    - '8'
+  variable: s
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von s? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 5 - 1,5s
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-003
+  typ: term
+  stufe: 1
+  frage: 'Ein Taxi verlangt 30 € Grundgebühr und 1,5 € pro gefahrenem Kilometer. Gib die Kosten K (in €) für s Kilometer an: `K(s) = …`'
+  form: frei
+  loesung: 30 + 1,5s
+  punkte:
+  - - 0
+    - 30
+  - - 2
+    - '33'
+  variable: s
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von s? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 30 - 1,5s
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-004
+  typ: term
+  stufe: 1
+  frage: 'In einem Tank sind 3 Liter Heizöl. Pro Tag werden 15 Liter verbraucht. Gib die Menge nach t Tagen an: `V(t) = …`'
+  form: frei
+  loesung: 3 - 15t
+  punkte:
+  - - 0
+    - 3
+  - - 2
+    - '-27'
+  variable: t
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von t? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 3 + 15t
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-005
+  typ: term
+  stufe: 1
+  frage: 'In einem Tank sind 3 Liter Heizöl. Pro Tag werden 25 Liter verbraucht. Gib die Menge nach t Tagen an: `V(t) = …`'
+  form: frei
+  loesung: 3 - 25t
+  punkte:
+  - - 0
+    - 3
+  - - 2
+    - '-47'
+  variable: t
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von t? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 3 + 25t
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-006
+  typ: term
+  stufe: 1
+  frage: 'Ein Taxi verlangt 24 € Grundgebühr und 2 € pro gefahrenem Kilometer. Gib die Kosten K (in €) für s Kilometer an: `K(s) = …`'
+  form: frei
+  loesung: 24 + 2s
+  punkte:
+  - - 0
+    - 24
+  - - 2
+    - '28'
+  variable: s
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von s? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 24 - 2s
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-007
+  typ: term
+  stufe: 2
+  frage: 'Ein Taxi verlangt 12 € Grundgebühr und 1,2 € pro gefahrenem Kilometer. Gib die Kosten K (in €) für s Kilometer an: `K(s) = …`'
+  form: frei
+  loesung: 12 + 1,2s
+  punkte:
+  - - 0
+    - 12
+  - - 2
+    - 14,4
+  variable: s
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von s? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 12 - 1,2s
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-008
+  typ: term
+  stufe: 2
+  frage: 'Ein Handytarif kostet 4 € im Monat plus 3 € pro Gigabyte. Gib die Monatskosten für g Gigabyte an: `K(g) = …`'
+  form: frei
+  loesung: 4 + 3g
+  punkte:
+  - - 0
+    - 4
+  - - 2
+    - '10'
+  variable: g
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von g? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 4 - 3g
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-009
+  typ: term
+  stufe: 2
+  frage: 'Eine Kerze ist 3 cm hoch und brennt pro Stunde 1,2 cm ab. Gib die Höhe h (in cm) nach t Stunden an: `h(t) = …`'
+  form: frei
+  loesung: 3 - 1,2t
+  punkte:
+  - - 0
+    - 3
+  - - 2
+    - 0,6
+  variable: t
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von t? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 3 + 1,2t
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-010
+  typ: term
+  stufe: 2
+  frage: 'Ein Taxi verlangt 20 € Grundgebühr und 1,2 € pro gefahrenem Kilometer. Gib die Kosten K (in €) für s Kilometer an: `K(s) = …`'
+  form: frei
+  loesung: 20 + 1,2s
+  punkte:
+  - - 0
+    - 20
+  - - 2
+    - 22,4
+  variable: s
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von s? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 20 - 1,2s
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-011
+  typ: term
+  stufe: 2
+  frage: 'Eine Kerze ist 3 cm hoch und brennt pro Stunde 2,5 cm ab. Gib die Höhe h (in cm) nach t Stunden an: `h(t) = …`'
+  form: frei
+  loesung: 3 - 2,5t
+  punkte:
+  - - 0
+    - 3
+  - - 2
+    - '-2'
+  variable: t
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von t? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 3 + 2,5t
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-012
+  typ: term
+  stufe: 2
+  frage: 'Ein Taxi verlangt 12 € Grundgebühr und 2,5 € pro gefahrenem Kilometer. Gib die Kosten K (in €) für s Kilometer an: `K(s) = …`'
+  form: frei
+  loesung: 12 + 2,5s
+  punkte:
+  - - 0
+    - 12
+  - - 2
+    - '17'
+  variable: s
+  tipps:
+  - Was ist der Startwert (bei 0)? Das ist d.
+  - Um wie viel ändert sich der Wert pro Einheit von s? Das ist k.
+  - 'Abnahme heißt: k ist negativ.'
+  fehler:
+  - antwort: 12 - 2,5s
+    hinweis: 'Prüf das Vorzeichen: Wird der Wert mit der Zeit mehr oder weniger?'
+- id: C2.6-013
+  typ: zahl
+  stufe: 3
+  frage: Ein Taxi verlangt 20 € Grundgebühr und 1,5 € pro gefahrenem Kilometer. Was kostet eine Fahrt von 8 km?
+  loesung: '32'
+  rechnung: 20 + 1,5·8
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `20 + 1,5s`.'
+  - Setz 8 für s ein.
+  fehler:
+  - antwort: '8'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-014
+  typ: zahl
+  stufe: 3
+  frage: Ein Handytarif kostet 3 € im Monat plus 1,2 € pro Gigabyte. Was kostet ein Monat mit 2 GB?
+  loesung: 5,4
+  rechnung: 3 + 1,2·2
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `3 + 1,2g`.'
+  - Setz 2 für g ein.
+  fehler:
+  - antwort: 0,6
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-015
+  typ: zahl
+  stufe: 3
+  frage: In einem Tank sind 1500 Liter Heizöl. Pro Tag werden 12 Liter verbraucht. Wie viel ist nach 2 Tagen noch im Tank?
+  loesung: '1476'
+  rechnung: 1500 - 12·2
+  einheit: l
+  tipps:
+  - 'Stell zuerst die Funktion auf: `1500 - 12t`.'
+  - Setz 2 für t ein.
+  fehler:
+  - antwort: '1524'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-016
+  typ: zahl
+  stufe: 3
+  frage: Ein Taxi verlangt 12 € Grundgebühr und 2,5 € pro gefahrenem Kilometer. Was kostet eine Fahrt von 6 km?
+  loesung: '27'
+  rechnung: 12 + 2,5·6
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `12 + 2,5s`.'
+  - Setz 6 für s ein.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-017
+  typ: zahl
+  stufe: 3
+  frage: Ein Taxi verlangt 12 € Grundgebühr und 2 € pro gefahrenem Kilometer. Was kostet eine Fahrt von 9 km?
+  loesung: '30'
+  rechnung: 12 + 2·9
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `12 + 2s`.'
+  - Setz 9 für s ein.
+  fehler:
+  - antwort: '-6'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-018
+  typ: zahl
+  stufe: 3
+  frage: Ein Taxi verlangt 12 € Grundgebühr und 1,5 € pro gefahrenem Kilometer. Was kostet eine Fahrt von 9 km?
+  loesung: 25,5
+  rechnung: 12 + 1,5·9
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `12 + 1,5s`.'
+  - Setz 9 für s ein.
+  fehler:
+  - antwort: -1,5
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-019
+  typ: zahl
+  stufe: 4
+  frage: Ein Handytarif kostet 30 € im Monat plus 3 € pro Gigabyte. Was kostet ein Monat mit 9 GB?
+  loesung: '57'
+  rechnung: 30 + 3·9
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `30 + 3g`.'
+  - Setz 9 für g ein.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-020
+  typ: zahl
+  stufe: 4
+  frage: Ein Handytarif kostet 3 € im Monat plus 3 € pro Gigabyte. Was kostet ein Monat mit 3 GB?
+  loesung: '12'
+  rechnung: 3 + 3·3
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `3 + 3g`.'
+  - Setz 3 für g ein.
+  fehler:
+  - antwort: '-6'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-021
+  typ: zahl
+  stufe: 4
+  frage: Ein Handytarif kostet 3 € im Monat plus 2,5 € pro Gigabyte. Was kostet ein Monat mit 4 GB?
+  loesung: '13'
+  rechnung: 3 + 2,5·4
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `3 + 2,5g`.'
+  - Setz 4 für g ein.
+  fehler:
+  - antwort: '-7'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-022
+  typ: zahl
+  stufe: 4
+  frage: Eine Kerze ist 20 cm hoch und brennt pro Stunde 0,5 cm ab. Wie hoch ist die Kerze nach 2 Stunden?
+  loesung: '19'
+  rechnung: 20 - 0,5·2
+  einheit: cm
+  tipps:
+  - 'Stell zuerst die Funktion auf: `20 - 0,5t`.'
+  - Setz 2 für t ein.
+  fehler:
+  - antwort: '21'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-023
+  typ: zahl
+  stufe: 4
+  frage: Eine Kerze ist 30 cm hoch und brennt pro Stunde 1,2 cm ab. Wie hoch ist die Kerze nach 7 Stunden?
+  loesung: 21,6
+  rechnung: 30 - 1,2·7
+  einheit: cm
+  tipps:
+  - 'Stell zuerst die Funktion auf: `30 - 1,2t`.'
+  - Setz 7 für t ein.
+  fehler:
+  - antwort: 38,4
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'
+- id: C2.6-024
+  typ: zahl
+  stufe: 4
+  frage: Ein Handytarif kostet 5 € im Monat plus 0,5 € pro Gigabyte. Was kostet ein Monat mit 8 GB?
+  loesung: '9'
+  rechnung: 5 + 0,5·8
+  einheit: €
+  tipps:
+  - 'Stell zuerst die Funktion auf: `5 + 0,5g`.'
+  - Setz 8 für g ein.
+  fehler:
+  - antwort: '1'
+    hinweis: 'Prüf das Vorzeichen: wird es mehr oder weniger?'

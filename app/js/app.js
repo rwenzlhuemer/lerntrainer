@@ -2,6 +2,7 @@
 import * as M from "./mathe.js";
 import * as S from "./speicher.js";
 import { schmierzettel } from "./schmierzettel.js";
+import { graphSVG } from "./graph.js";
 import "./handablage.js";
 
 const FACH = "mathe";
@@ -21,6 +22,14 @@ const TERM_ANWEISUNG = {
   faktor: "Heb heraus – schreib den Term als Produkt.", gekuerzt: "Kürze so weit wie möglich.", frei: "Schreib den Term auf.",
 };
 const SYMBOLE = ["x", "²", "(", ")", "·", ":", "/", "+", "−", "=", ","];
+// Wertetabelle { kopf: ["x", "f(x)"], zeilen: [[1, 3], [2, 5]] } – waagrecht wie im Schulbuch
+function tabelleHTML(t) {
+  const spalten = t.zeilen.map((z) => z.map((w) => `<td>${M.matheHTML(String(w))}</td>`));
+  return `<div class="tabelle-rahmen"><table class="tabelle">${t.kopf.map((k, i) =>
+    `<tr><th>${M.matheHTML(k)}</th>${spalten.map((s) => s[i]).join("")}</tr>`).join("")}</table></div>`;
+}
+
+const anschauung = (a) => (a.graph ? graphSVG(a.graph) : "") + (a.tabelle ? tabelleHTML(a.tabelle) : "");
 const zufall = (liste) => liste[Math.floor(Math.random() * liste.length)];
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -165,7 +174,7 @@ async function seiteLernschritt(lid) {
     <h1>${esc(ls.titel)}</h1>
     <p class="ziel">${esc(ls.ziel || "")}</p>
     <section class="karte erklaerung">${M.textHTML(ls.erklaerung)}</section>
-    ${b.text || weg ? `<section class="karte beispiel"><h2>Beispiel</h2>${M.textHTML(b.text || "")}
+    ${b.text || weg ? `<section class="karte beispiel"><h2>Beispiel</h2>${M.textHTML(b.text || "")}${anschauung(b)}
       ${weg ? `<ol class="weg">${weg}</ol>` : ""}</section>` : ""}
     <div class="knopfreihe">
       <button class="knopf haupt-knopf" id="los">Los geht's</button>
@@ -288,29 +297,23 @@ async function seiteUeben(lid, testModus) {
     let koerper;
     if (istGl) {
       koerper = `<p class="anweisung">Löse die Gleichung.</p>
-        <div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>
-        <ol class="zeilen" id="zeilen"></ol>`;
+        <div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>`;
     } else if (istQ) {
       koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">Löse die Gleichung (in ℝ).</p>`}
-        ${a.gleichung && !a.frage ? `<div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>` : ""}
-        <ol class="zeilen" id="zeilen"></ol>`;
+        ${a.gleichung && !a.frage ? `<div class="gleichung-gross">${M.matheHTML(a.gleichung)}</div>` : ""}`;
     } else if (istLgs) {
       koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">Löse das Gleichungssystem.</p>`}
-        <div class="gleichung-gross lgs">${a.gleichungen.map((g, i) => `<div><span class="lgs-nr">${["I", "II"][i]}</span> ${M.matheHTML(g)}</div>`).join("")}</div>
-        <ol class="zeilen" id="zeilen"></ol>`;
+        <div class="gleichung-gross lgs">${a.gleichungen.map((g, i) => `<div><span class="lgs-nr">${["I", "II"][i]}</span> ${M.matheHTML(g)}</div>`).join("")}</div>`;
     } else if (istUngl) {
       koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">${a.form === "intervall"
           ? "Löse die Ungleichung und gib die Lösungsmenge als Intervall an." : "Löse die Ungleichung."}</p>
-        <div class="gleichung-gross">${M.ungleichungHTML(a.ungleichung)}</div>`}
-        <ol class="zeilen" id="zeilen"></ol>`;
+        <div class="gleichung-gross">${M.ungleichungHTML(a.ungleichung)}</div>`}`;
     } else if (istFormel) {
       koerper = `<p class="anweisung">Forme die Formel nach <span class="mathe"><i>${esc(a.nach)}</i></span> um.</p>
-        <div class="gleichung-gross">${M.matheHTML(a.formel)}</div>
-        <ol class="zeilen" id="zeilen"></ol>`;
+        <div class="gleichung-gross">${M.matheHTML(a.formel)}</div>`;
     } else if (istTerm) {
       koerper = `${a.frage ? `<div class="frage">${M.textHTML(a.frage)}</div>` : `<p class="anweisung">${esc(a.anweisung || TERM_ANWEISUNG[a.form] || "Vereinfache.")}</p>`}
-        ${a.term ? `<div class="gleichung-gross">${M.matheHTML(a.term)}</div>` : ""}
-        <ol class="zeilen" id="zeilen"></ol>`;
+        ${a.term ? `<div class="gleichung-gross">${M.matheHTML(a.term)}</div>` : ""}`;
     } else {
       koerper = `<div class="frage">${M.textHTML(a.frage)}</div>`;
     }
@@ -335,6 +338,8 @@ async function seiteUeben(lid, testModus) {
         ${hinweisOben}
         <p class="stufe">${esc(kopf)}</p>
         ${koerper}
+        ${anschauung(a)}
+        ${a.typ === "zahl" || a.typ === "auswahl" ? "" : `<ol class="zeilen" id="zeilen"></ol>`}
         ${eingabe}
         <div class="tipps" id="tipps"></div>
         <div class="rueckmeldung" id="rm" aria-live="polite"></div>

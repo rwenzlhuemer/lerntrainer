@@ -319,6 +319,22 @@ async function main() {
   pruefe((await rm()).startsWith("rueckmeldung gut") && (await js("!!document.querySelector('#next')")), `B5.1: x = ±${q1} gelöst`);
   await bild("09j-quadratisch");
 
+  // C2.2 Graph: k ablesen
+  const gk = await naechsteBis("C2.2", (x) => x.typ === "zahl" && x.graph);
+  pruefe(await js("!!document.querySelector('svg.graph path.g-kurve')"), `C2.2: Graph gezeichnet (${gk.aus_term.term})`);
+  await bild("09k-graph");
+  await tippe(gk.loesung);
+  pruefe((await rm()).startsWith("rueckmeldung gut"), `C2.2: k = ${gk.loesung} erkannt`);
+  const kt = await naechsteBis("C1.4", (x) => !!x.graph);
+  pruefe(await js("!!document.querySelector('svg.graph')"), `C1.4: Kontext-Graph (${kt.frage.slice(0, 40)}…)`);
+  await bild("09l-kontext");
+  await geh("#/ls/C2.4");
+  pruefe((await js("document.querySelectorAll('.beispiel svg.graph path.g-kurve').length")) === 3, "C2.4: Beispiel mit drei Geraden");
+  await bild("09n-beispiel-graph");
+  const tb = await naechsteBis("C1.1", () => true);
+  pruefe(await js("!!document.querySelector('table.tabelle')"), "C1.1: Wertetabelle gezeigt");
+  await bild("09m-tabelle");
+
   // Lösung zeigen
   await geh("#/ueben/B1.7");
   await js("document.querySelector('#zeigen').click()");

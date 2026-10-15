@@ -1,0 +1,1103 @@
+# ERZEUGT von tools/generatoren/c12.py – nicht von Hand bearbeiten.
+# Geprüft wird beim Build (tools/build.py) mit sympy.
+- id: C2.2-001
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '-2'
+  aus_term:
+    term: -2x + 2
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x + 2
+      name: f
+    punkte:
+    - x: 0
+      y: 2
+      name: A
+      auf: 0
+    - x: 1
+      y: 0
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: -0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-002
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '-2'
+  aus_term:
+    term: -2x + 3
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x + 3
+      name: f
+    punkte:
+    - x: 0
+      y: 3
+      name: A
+      auf: 0
+    - x: 1
+      y: 1
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: -0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-003
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '2'
+  aus_term:
+    term: 2x + 4
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x + 4
+      name: f
+    punkte:
+    - x: 0
+      y: 4
+      name: A
+      auf: 0
+    - x: 1
+      y: 6
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-004
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '2'
+  aus_term:
+    term: 2x + 1
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x + 1
+      name: f
+    punkte:
+    - x: 0
+      y: 1
+      name: A
+      auf: 0
+    - x: 1
+      y: 3
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-005
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '2'
+  aus_term:
+    term: 2x
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x
+      name: f
+    punkte:
+    - x: 0
+      y: 0
+      name: A
+      auf: 0
+    - x: 1
+      y: 2
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-006
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '1'
+  aus_term:
+    term: x
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x
+      name: f
+    punkte:
+    - x: 0
+      y: 0
+      name: A
+      auf: 0
+    - x: 1
+      y: 1
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+- id: C2.2-007
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '3'
+  aus_term:
+    term: 3x + 4
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x + 4
+      name: f
+    punkte:
+    - x: 0
+      y: 4
+      name: A
+      auf: 0
+    - x: 1
+      y: 7
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 1/3
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-008
+  typ: zahl
+  stufe: 1
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '-3'
+  aus_term:
+    term: -3x + 1
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -3x + 1
+      name: f
+    punkte:
+    - x: 0
+      y: 1
+      name: A
+      auf: 0
+    - x: 1
+      y: -2
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '3'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: -1/3
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-009
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '-2'
+  aus_term:
+    term: 3x - 2
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 2
+      name: f
+    punkte:
+    - x: 0
+      y: -2
+      name: A
+      auf: 0
+    - x: 1
+      y: 1
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-010
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '-2'
+  aus_term:
+    term: -2x + 2
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -2x + 2
+      name: f
+    punkte:
+    - x: 0
+      y: 2
+      name: A
+      auf: 0
+    - x: 2
+      y: -2
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 2 Einheiten.
+  fehler:
+  - antwort: '2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: -0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-011
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '2'
+  aus_term:
+    term: 2x - 4
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x - 4
+      name: f
+    punkte:
+    - x: 0
+      y: -4
+      name: A
+      auf: 0
+    - x: 1
+      y: -2
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-012
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '1'
+  aus_term:
+    term: x - 2
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x - 2
+      name: f
+    punkte:
+    - x: 0
+      y: -2
+      name: A
+      auf: 0
+    - x: 1
+      y: -1
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 1 Einheiten.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+- id: C2.2-013
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '3'
+  aus_term:
+    term: 3x - 2
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 2
+      name: f
+    punkte:
+    - x: 0
+      y: -2
+      name: A
+      auf: 0
+    - x: 2
+      y: 4
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 2 Einheiten.
+  fehler:
+  - antwort: '-3'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 1/3
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-014
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '2'
+  aus_term:
+    term: 2x + 2
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x + 2
+      name: f
+    punkte:
+    - x: 0
+      y: 2
+      name: A
+      auf: 0
+    - x: 1
+      y: 4
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-015
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '-3'
+  aus_term:
+    term: 3x - 3
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 3x - 3
+      name: f
+    punkte:
+    - x: 0
+      y: -3
+      name: A
+      auf: 0
+    - x: 1
+      y: 0
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-016
+  typ: zahl
+  stufe: 2
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '-4'
+  aus_term:
+    term: -x - 4
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x - 4
+      name: f
+    punkte:
+    - x: 0
+      y: -4
+      name: A
+      auf: 0
+    - x: 2
+      y: -6
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-017
+  typ: term
+  stufe: 3
+  frage: 'Gib die Funktionsgleichung der Geraden an: `f(x) = …`'
+  form: frei
+  loesung: x - 1
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x - 1
+      name: f
+    punkte:
+    - x: -3
+      y: -4
+      name: A
+      auf: 0
+    - x: -1
+      y: -2
+      name: B
+      auf: 0
+  punkte:
+  - - -3
+    - -4
+  - - -1
+    - -2
+  tipps:
+  - d ist der Schnittpunkt mit der y-Achse.
+  - 'k: Geh von A nach B – wie viel nach oben (oder unten) pro Schritt nach rechts?'
+  - Dann `f(x) = k·x + d` hinschreiben.
+  fehler:
+  - antwort: -x - 1
+    hinweis: Steigt die Gerade oder fällt sie? Fällt sie, ist k negativ.
+- id: C2.2-018
+  typ: zahl
+  stufe: 3
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '2'
+  aus_term:
+    term: 2x - 3
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x - 3
+      name: f
+    punkte:
+    - x: -2
+      y: -7
+      name: A
+      auf: 0
+    - x: 0
+      y: -3
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 2 Einheiten.
+  fehler:
+  - antwort: '-2'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 0,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-019
+  typ: zahl
+  stufe: 3
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '-3'
+  aus_term:
+    term: 0,5x - 3
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 0,5x - 3
+      name: f
+    punkte:
+    - x: 0
+      y: -3
+      name: A
+      auf: 0
+    - x: 2
+      y: -2
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-020
+  typ: term
+  stufe: 3
+  frage: 'Gib die Funktionsgleichung der Geraden an: `f(x) = …`'
+  form: frei
+  loesung: 1,5x + 3
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 1,5x + 3
+      name: f
+    punkte:
+    - x: 0
+      y: 3
+      name: A
+      auf: 0
+    - x: 2
+      y: 6
+      name: B
+      auf: 0
+  punkte:
+  - - 0
+    - 3
+  - - 2
+    - 6
+  tipps:
+  - d ist der Schnittpunkt mit der y-Achse.
+  - 'k: Geh von A nach B – wie viel nach oben (oder unten) pro Schritt nach rechts?'
+  - Dann `f(x) = k·x + d` hinschreiben.
+  fehler:
+  - antwort: -1,5x + 3
+    hinweis: Steigt die Gerade oder fällt sie? Fällt sie, ist k negativ.
+- id: C2.2-021
+  typ: zahl
+  stufe: 3
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '1'
+  aus_term:
+    term: x + 1
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x + 1
+      name: f
+    punkte:
+    - x: -3
+      y: -2
+      name: A
+      auf: 0
+    - x: -1
+      y: 0
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 2 Einheiten.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+- id: C2.2-022
+  typ: zahl
+  stufe: 3
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: -1/3
+  aus_term:
+    term: -x/3 - 4
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x/3 - 4
+      name: f
+    punkte:
+    - x: 0
+      y: -4
+      name: A
+      auf: 0
+    - x: 3
+      y: -5
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 3 Einheiten.
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: '-3'
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-023
+  typ: term
+  stufe: 3
+  frage: 'Gib die Funktionsgleichung der Geraden an: `f(x) = …`'
+  form: frei
+  loesung: -1,5x - 1
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -1,5x - 1
+      name: f
+    punkte:
+    - x: -2
+      y: 2
+      name: A
+      auf: 0
+    - x: 0
+      y: -1
+      name: B
+      auf: 0
+  punkte:
+  - - -2
+    - 2
+  - - 0
+    - -1
+  tipps:
+  - d ist der Schnittpunkt mit der y-Achse.
+  - 'k: Geh von A nach B – wie viel nach oben (oder unten) pro Schritt nach rechts?'
+  - Dann `f(x) = k·x + d` hinschreiben.
+  fehler:
+  - antwort: 1,5x - 1
+    hinweis: Steigt die Gerade oder fällt sie? Fällt sie, ist k negativ.
+- id: C2.2-024
+  typ: term
+  stufe: 3
+  frage: 'Gib die Funktionsgleichung der Geraden an: `f(x) = …`'
+  form: frei
+  loesung: x - 3
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x - 3
+      name: f
+    punkte:
+    - x: -1
+      y: -4
+      name: A
+      auf: 0
+    - x: 1
+      y: -2
+      name: B
+      auf: 0
+  punkte:
+  - - -1
+    - -4
+  - - 1
+    - -2
+  tipps:
+  - d ist der Schnittpunkt mit der y-Achse.
+  - 'k: Geh von A nach B – wie viel nach oben (oder unten) pro Schritt nach rechts?'
+  - Dann `f(x) = k·x + d` hinschreiben.
+  fehler:
+  - antwort: -x - 3
+    hinweis: Steigt die Gerade oder fällt sie? Fällt sie, ist k negativ.
+- id: C2.2-025
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '-1'
+  aus_term:
+    term: -x - 1
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x - 1
+      name: f
+    punkte:
+    - x: 0
+      y: -1
+      name: A
+      auf: 0
+    - x: 3
+      y: -4
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-026
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: 2/3
+  aus_term:
+    term: 2x/3 + 3
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: 2x/3 + 3
+      name: f
+    punkte:
+    - x: 0
+      y: 3
+      name: A
+      auf: 0
+    - x: 3
+      y: 5
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 3 Einheiten.
+  fehler:
+  - antwort: -2/3
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: 1,5
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-027
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: '1'
+  aus_term:
+    term: x + 3
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x + 3
+      name: f
+    punkte:
+    - x: 0
+      y: 3
+      name: A
+      auf: 0
+    - x: 3
+      y: 6
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 3 Einheiten.
+  fehler:
+  - antwort: '-1'
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+- id: C2.2-028
+  typ: term
+  stufe: 4
+  frage: 'Gib die Funktionsgleichung der Geraden an: `f(x) = …`'
+  form: frei
+  loesung: -x - 1
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x - 1
+      name: f
+    punkte:
+    - x: -2
+      y: 1
+      name: A
+      auf: 0
+    - x: 0
+      y: -1
+      name: B
+      auf: 0
+  punkte:
+  - - -2
+    - 1
+  - - 0
+    - -1
+  tipps:
+  - d ist der Schnittpunkt mit der y-Achse.
+  - 'k: Geh von A nach B – wie viel nach oben (oder unten) pro Schritt nach rechts?'
+  - Dann `f(x) = k·x + d` hinschreiben.
+  fehler:
+  - antwort: x - 1
+    hinweis: Steigt die Gerade oder fällt sie? Fällt sie, ist k negativ.
+- id: C2.2-029
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '-2'
+  aus_term:
+    term: -0,5x - 2
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -0,5x - 2
+      name: f
+    punkte:
+    - x: -2
+      y: -1
+      name: A
+      auf: 0
+    - x: 0
+      y: -2
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []
+- id: C2.2-030
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: -1/3
+  aus_term:
+    term: -x/3 - 3
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -x/3 - 3
+      name: f
+    punkte:
+    - x: -3
+      y: -2
+      name: A
+      auf: 0
+    - x: 0
+      y: -3
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 3 Einheiten.
+  fehler:
+  - antwort: 1/3
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: '-3'
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-031
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen die Steigung **k** ab (Steigungsdreieck zwischen A und B).
+  loesung: -1,5
+  aus_term:
+    term: -1,5x - 1
+    groesse: k
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: -1,5x - 1
+      name: f
+    punkte:
+    - x: 0
+      y: -1
+      name: A
+      auf: 0
+    - x: 2
+      y: -4
+      name: B
+      auf: 0
+  tipps:
+  - 'Steigungsdreieck: Geh von A aus waagrecht nach rechts bis unter/über B, dann senkrecht zu B.'
+  - '`k = (Höhenunterschied) : (waagrechter Weg)`. Geht es nach unten, ist k negativ.'
+  - Waagrecht sind es 2 Einheiten.
+  fehler:
+  - antwort: 1,5
+    hinweis: 'Achte auf das Vorzeichen: Fällt die Gerade (von links nach rechts), ist k negativ.'
+  - antwort: -2/3
+    hinweis: 'Umgekehrt: Höhe **durch** Breite, nicht Breite durch Höhe.'
+- id: C2.2-032
+  typ: zahl
+  stufe: 4
+  frage: Lies aus dem Graphen **d** ab (wo schneidet die Gerade die y-Achse?).
+  loesung: '2'
+  aus_term:
+    term: x/3 + 2
+    groesse: d
+  graph:
+    x:
+    - -5
+    - 5
+    y:
+    - -7
+    - 7
+    kurven:
+    - term: x/3 + 2
+      name: f
+    punkte:
+    - x: -3
+      y: 1
+      name: A
+      auf: 0
+    - x: 0
+      y: 2
+      name: B
+      auf: 0
+  tipps:
+  - d ist der y-Wert, wo die Gerade die senkrechte Achse schneidet.
+  fehler: []

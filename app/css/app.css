@@ -194,3 +194,17 @@ sup { font-size: .7em; }
 .lgs div { margin: 2px 0; }
 .lgs-nr { display: inline-block; min-width: 1.8em; color: var(--leise); font-size: .75em; }
 
+
+/* Graphen und Wertetabellen */
+.graph { display: block; width: 100%; max-width: 520px; margin: 10px auto; color: var(--tinte); background: #fffefb; border-radius: 10px; }
+.g-raster { stroke: #e9eef5; stroke-width: 1; }
+.g-achse { stroke: currentColor; stroke-width: 1.4; }
+.g-zahl { font-size: 10px; fill: var(--leise); font-family: -apple-system, "Segoe UI", sans-serif; }
+.g-achsname { font-size: 11px; fill: var(--tinte); font-style: italic; font-family: "Cambria Math", "Times New Roman", serif; }
+.g-kurve { fill: none; stroke-width: 2.4; stroke-linejoin: round; stroke-linecap: round; }
+.g-punkt { fill: #c0622b; stroke: #fff; stroke-width: 1.5; }
+.g-name { font-size: 12px; font-style: italic; font-family: "Cambria Math", "Times New Roman", serif; fill: var(--tinte); }
+.tabelle { border-collapse: collapse; margin: 10px 0; font-size: 1.05rem; }
+.tabelle th, .tabelle td { border: 1.5px solid var(--linie); padding: 6px 12px; text-align: center; min-width: 2.6em; }
+.tabelle th { background: var(--neutral); font-weight: 600; }
+.tabelle-rahmen { overflow-x: auto; }

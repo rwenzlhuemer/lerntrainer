@@ -1,0 +1,19 @@
+id: C2.2
+titel: Steigungsdreieck
+ziel: Du liest k und d aus dem Graphen einer Geraden ab.
+erklaerung: |
+  **d** liest du dort ab, wo die Gerade die **y-Achse** schneidet.
+
+  **k** findest du mit einem **Steigungsdreieck**: Wähle zwei gut ablesbare Punkte auf der Geraden.
+  Geh vom linken waagrecht nach rechts, dann senkrecht zum zweiten Punkt.
+
+  `k = Höhenunterschied : waagrechter Weg`
+
+  Geht es nach oben, ist k positiv; geht es nach unten, ist k negativ.
+beispiel:
+  wert: "2"
+  text: |
+    Von A(0|1) nach B(1|3): 1 nach rechts, 2 nach oben. k = 2 : 1 = 2, d = 1.
+  graph: {x: [-4, 4], y: [-6, 8], kurven: [{term: "2x + 1", name: "f"}], punkte: [{x: 0, y: 1, name: "A"}, {x: 1, y: 3, name: "B"}]}
+  weg:
+    - "(3 - 1) : (1 - 0) = 2"

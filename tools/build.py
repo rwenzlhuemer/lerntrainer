@@ -93,6 +93,12 @@ def pruefe_zahl(a: dict, wo: str, fehler: Fehlerliste):
         fehler.melde(wo, f"Lösung nicht lesbar ({e})")
         return
     pruefe_zahlform(a, wo, fehler)
+    if "aus_term" in a:
+        try:
+            if sympy.simplify(aus_term(a["aus_term"]) - soll) != 0:
+                fehler.melde(wo, f"{a['aus_term']} ergibt nicht {a['loesung']!r}")
+        except Exception as e:  # noqa: BLE001
+            fehler.melde(wo, f"aus_term nicht prüfbar ({e})")
     if "formel_faktor" in a:
         pruefe_faktor(a, wo, fehler, soll)
     if "term" in a:
@@ -155,6 +161,10 @@ def pruefe_term(a: dict, wo: str, fehler: Fehlerliste):
     if not (a.get("term") or a.get("frage")):
         fehler.melde(wo, "Term oder Frage fehlt")
     try:
+        for px_, py_ in a.get("punkte", []):
+            wert = notation.ausdruck(a["loesung"]).subs(sympy.Symbol(a.get("variable", "x")), notation.zahl(str(px_)))
+            if sympy.simplify(wert - notation.zahl(str(py_))) != 0:
+                fehler.melde(wo, f"Lösung {a['loesung']!r} geht nicht durch ({px_}|{py_})")
         if a.get("term") and not gleicher_term(a["term"], a["loesung"]):
             fehler.melde(wo, f"Lösung {a['loesung']!r} ist nicht gleich {a['term']!r}")
         if a.get("form") == "faktor":
@@ -332,6 +342,51 @@ def pruefe_ungleichung(a: dict, wo: str, fehler: Fehlerliste):
         fehler.melde(wo, f"Ungleichung nicht lesbar ({e})")
 
 
+def aus_term(p: dict):
+    """k, d, Funktionswert oder Nullstelle eines Funktionsterms in x"""
+    x = sympy.Symbol("x")
+    t = notation.ausdruck(p["term"])
+    g = p["groesse"]
+    if g == "k":
+        return sympy.diff(t, x) if sympy.degree(t, x) <= 1 else None
+    if g == "d":
+        return t.subs(x, 0)
+    if g == "wert":
+        return t.subs(x, notation.zahl(str(p["x"])))
+    if g == "nullstelle":
+        (n,) = sympy.solve(t, x)
+        return n
+    if g == "differenz":
+        a, b = notation.zahl(str(p["von"])), notation.zahl(str(p["bis"]))
+        return t.subs(x, b) - t.subs(x, a)
+    if g == "steigung_mittel":
+        a, b = notation.zahl(str(p["von"])), notation.zahl(str(p["bis"]))
+        return (t.subs(x, b) - t.subs(x, a)) / (b - a)
+    raise ValueError(f"unbekannte Größe {g!r}")
+
+
+def pruefe_graph(a: dict, wo: str, fehler: Fehlerliste):
+    """Graphen und Tabellen müssen lesbar sein; Punkte im Bild müssen auf der Kurve liegen, wenn markiert."""
+    g = a.get("graph")
+    if g:
+        try:
+            for k in g.get("kurven", []):
+                notation.ausdruck(k["term"])
+            if not (g["x"][0] < g["x"][1] and g["y"][0] < g["y"][1]):
+                fehler.melde(wo, "Graph-Bereich ungültig")
+            for p in g.get("punkte", []):
+                if "auf" in p:
+                    k = g["kurven"][p["auf"]]
+                    wert = notation.ausdruck(k["term"]).subs(sympy.Symbol("x"), notation.zahl(str(p["x"])))
+                    if sympy.simplify(wert - notation.zahl(str(p["y"]))) != 0:
+                        fehler.melde(wo, f"Punkt {p} liegt nicht auf {k['term']!r}")
+        except Exception as e:  # noqa: BLE001
+            fehler.melde(wo, f"Graph nicht lesbar ({e})")
+    t = a.get("tabelle")
+    if t and any(len(z) != len(t["kopf"]) for z in t["zeilen"]):
+        fehler.melde(wo, "Tabelle: Zeilen passen nicht zum Kopf")
+
+
 def pruefe_zahlform(a: dict, wo: str, fehler: Fehlerliste):
     """form: gekuerzt | nenner | dezimal – die Lösung selbst muss die verlangte Form haben."""
     form, l = a.get("form"), str(a["loesung"]).replace(" ", "")
@@ -371,6 +426,45 @@ def pruefe_auswahl(a: dict, wo: str, fehler: Fehlerliste):
                 erwartet = [i for i, o in enumerate(optionen) if sympy.simplify(notation.zahl(o) - ziel) == 0]
             else:
                 erwartet = [i for i, o in enumerate(optionen) if gleicher_term(o, p["ziel"])]
+            if sorted(richtig) != erwartet:
+                fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
+            return
+        if p["art"] == "funktion":
+            # Optionen 0 = Ja (ist eine Funktion), 1 = Nein; Tabelle aus der Aufgabe
+            zuordnung = {}
+            for xw, yw in a["tabelle"]["zeilen"]:
+                if zuordnung.setdefault(str(xw), str(yw)) != str(yw):
+                    ok = False
+                    break
+            else:
+                ok = True
+            if sorted(richtig) != [0 if ok else 1]:
+                fehler.melde(wo, f"'richtig' = {richtig}, aber Funktion = {ok}")
+            return
+        if p["art"] == "linear_tabelle":
+            # Optionen 0 = Ja (linear), 1 = Nein: gleiche x-Schritte → gleiche y-Schritte?
+            xs = [notation.zahl(str(z[0])) for z in a["tabelle"]["zeilen"]]
+            ys = [notation.zahl(str(z[1])) for z in a["tabelle"]["zeilen"]]
+            steig = {sympy.simplify((ys[i + 1] - ys[i]) / (xs[i + 1] - xs[i])) for i in range(len(xs) - 1)}
+            if sorted(richtig) != [0 if len(steig) == 1 else 1]:
+                fehler.melde(wo, f"'richtig' = {richtig}, Steigungen {steig}")
+            return
+        if p["art"] == "k_eigenschaft":
+            # Optionen sind lineare Terme; richtig ist, was die Eigenschaft erfüllt
+            x = sympy.Symbol("x")
+            ks = [sympy.Poly(notation.ausdruck(o), x).coeff_monomial(x) for o in optionen]
+            ds = [notation.ausdruck(o).subs(x, 0) for o in optionen]
+            e = p["eigenschaft"]
+            if e == "steilste":
+                erwartet = [i for i, k in enumerate(ks) if abs(k) == max(abs(v) for v in ks)]
+            elif e == "fallend":
+                erwartet = [i for i, k in enumerate(ks) if k < 0]
+            elif e == "groesstes_d":
+                erwartet = [i for i, d in enumerate(ds) if d == max(ds)]
+            elif e == "flachste":
+                erwartet = [i for i, k in enumerate(ks) if abs(k) == min(abs(v) for v in ks)]
+            else:
+                raise ValueError(e)
             if sorted(richtig) != erwartet:
                 fehler.melde(wo, f"'richtig' = {richtig}, sympy sagt {erwartet}")
             return
@@ -439,6 +533,7 @@ def pruefe_aufgabe(a: dict, wo: str, fehler: Fehlerliste):
     if a["typ"] != "auswahl" and not (1 <= len(tipps) <= 3):
         fehler.melde(wo, f"1–3 Tipps erwartet, gefunden {len(tipps)}")
     PRUEFER[a["typ"]](a, wo, fehler)
+    pruefe_graph(a, wo, fehler)
 
 
 # ── Laden ─────────────────────────────────────────────────
@@ -479,6 +574,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                     text = (a.get("frage") or a.get("gleichung") if a.get("typ") in ("gleichung", "quadratisch") else a.get("frage") or a.get("ungleichung") if a.get("typ") == "ungleichung" else
                             a.get("frage") or " | ".join(a.get("gleichungen", [])) if a.get("typ") == "lgs" else
                             f"{a.get('formel')} nach {a.get('nach')}" if a.get("typ") == "formel" else a.get("frage") or a.get("term"))
+                    text = f"{text} {json.dumps(a.get('graph'), sort_keys=True)} {json.dumps(a.get('tabelle'))} {a.get('optionen')}"
                     if text in texte:
                         fehler.melde(aid, f"Aufgabe doppelt im Lernschritt: {text!r}")
                     texte.add(text)
@@ -496,6 +592,7 @@ def baue_fach(fach: str, fehler: Fehlerliste):
                         except Exception as e:  # noqa: BLE001
                             fehler.melde(lid, f"Beispiel-Zeile {zeile!r} nicht lesbar ({e})")
                 bsp = inhalt.get("beispiel") or {}
+                pruefe_graph(bsp, f"{lid}/Beispiel", fehler)
                 if bsp.get("gleichung") and bsp.get("loesung") is not None:
                     pruefe_quadratisch({**bsp, "fehler": []}, f"{lid}/Beispiel", fehler)
                 if bsp.get("gleichungen"):

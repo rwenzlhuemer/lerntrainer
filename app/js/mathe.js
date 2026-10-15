@@ -285,7 +285,7 @@ export function textHTML(text) {
   const absaetze = String(text).trim().split(/\n\s*\n/);
   return absaetze.map((a) => {
     const html = a.split("\n").map((z) => z.trim())
-      .reduce((acc, z) => acc + (acc && /^(\d+\.|[-•→])\s/.test(z) ? "<br>" : acc ? " " : "") + inline(z), "");
+      .reduce((acc, z) => acc + (acc && /^(\d+\.|[-•→])\s/.test(z) ? "<br>" : acc ? " " : "") + inline(z.replace(/^-\s/, "• ")), "");
     return `<p>${html}</p>`;
   }).join("");
 }
